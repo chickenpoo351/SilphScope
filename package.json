@@ -1,0 +1,13 @@
+{
+  "name": "silphscope",
+  "version": "1.0.0",
+  "description": "A firered/leafgreen ROM asset extractor for use in web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chickenPoo",
+  "license": "GPL-3.0-only",
+  "packageManager": "pnpm@10.17.1"
+}
