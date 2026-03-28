@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 import { lz77Decompress } from "./lz77-decompress.js";
 // import { rom } from "I will add this variable once I figure out the UX..."
 
