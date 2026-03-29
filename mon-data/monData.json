@@ -1,0 +1,3935 @@
+{
+  "NONE": {
+    "frontPics": "gMonFrontPic_CircledQuestionMark",
+    "backPics": "gMonBackPic_CircledQuestionMark",
+    "normPalette": "gMonPalette_CircledQuestionMark",
+    "shinyPalette": "gMonShinyPalette_CircledQuestionMark",
+    "footprintPics": "gMonFootprint_Bulbasaur",
+    "width": "64",
+    "height": "64"
+  },
+  "BULBASAUR": {
+    "frontPics": "gMonFrontPic_Bulbasaur",
+    "backPics": "gMonBackPic_Bulbasaur",
+    "normPalette": "gMonPalette_Bulbasaur",
+    "shinyPalette": "gMonShinyPalette_Bulbasaur",
+    "footprintPics": "gMonFootprint_Bulbasaur",
+    "width": "40",
+    "height": "40"
+  },
+  "IVYSAUR": {
+    "frontPics": "gMonFrontPic_Ivysaur",
+    "backPics": "gMonBackPic_Ivysaur",
+    "normPalette": "gMonPalette_Ivysaur",
+    "shinyPalette": "gMonShinyPalette_Ivysaur",
+    "footprintPics": "gMonFootprint_Ivysaur",
+    "width": "48",
+    "height": "48"
+  },
+  "VENUSAUR": {
+    "frontPics": "gMonFrontPic_Venusaur",
+    "backPics": "gMonBackPic_Venusaur",
+    "normPalette": "gMonPalette_Venusaur",
+    "shinyPalette": "gMonShinyPalette_Venusaur",
+    "footprintPics": "gMonFootprint_Venusaur",
+    "width": "64",
+    "height": "56"
+  },
+  "CHARMANDER": {
+    "frontPics": "gMonFrontPic_Charmander",
+    "backPics": "gMonBackPic_Charmander",
+    "normPalette": "gMonPalette_Charmander",
+    "shinyPalette": "gMonShinyPalette_Charmander",
+    "footprintPics": "gMonFootprint_Charmander",
+    "width": "40",
+    "height": "40"
+  },
+  "CHARMELEON": {
+    "frontPics": "gMonFrontPic_Charmeleon",
+    "backPics": "gMonBackPic_Charmeleon",
+    "normPalette": "gMonPalette_Charmeleon",
+    "shinyPalette": "gMonShinyPalette_Charmeleon",
+    "footprintPics": "gMonFootprint_Charmeleon",
+    "width": "56",
+    "height": "48"
+  },
+  "CHARIZARD": {
+    "frontPics": "gMonFrontPic_Charizard",
+    "backPics": "gMonBackPic_Charizard",
+    "normPalette": "gMonPalette_Charizard",
+    "shinyPalette": "gMonShinyPalette_Charizard",
+    "footprintPics": "gMonFootprint_Charizard",
+    "width": "64",
+    "height": "64"
+  },
+  "SQUIRTLE": {
+    "frontPics": "gMonFrontPic_Squirtle",
+    "backPics": "gMonBackPic_Squirtle",
+    "normPalette": "gMonPalette_Squirtle",
+    "shinyPalette": "gMonShinyPalette_Squirtle",
+    "footprintPics": "gMonFootprint_Squirtle",
+    "width": "48",
+    "height": "40"
+  },
+  "WARTORTLE": {
+    "frontPics": "gMonFrontPic_Wartortle",
+    "backPics": "gMonBackPic_Wartortle",
+    "normPalette": "gMonPalette_Wartortle",
+    "shinyPalette": "gMonShinyPalette_Wartortle",
+    "footprintPics": "gMonFootprint_Wartortle",
+    "width": "56",
+    "height": "48"
+  },
+  "BLASTOISE": {
+    "frontPics": "gMonFrontPic_Blastoise",
+    "backPics": "gMonBackPic_Blastoise",
+    "normPalette": "gMonPalette_Blastoise",
+    "shinyPalette": "gMonShinyPalette_Blastoise",
+    "footprintPics": "gMonFootprint_Blastoise",
+    "width": "64",
+    "height": "56"
+  },
+  "CATERPIE": {
+    "frontPics": "gMonFrontPic_Caterpie",
+    "backPics": "gMonBackPic_Caterpie",
+    "normPalette": "gMonPalette_Caterpie",
+    "shinyPalette": "gMonShinyPalette_Caterpie",
+    "footprintPics": "gMonFootprint_Caterpie",
+    "width": "40",
+    "height": "32"
+  },
+  "METAPOD": {
+    "frontPics": "gMonFrontPic_Metapod",
+    "backPics": "gMonBackPic_Metapod",
+    "normPalette": "gMonPalette_Metapod",
+    "shinyPalette": "gMonShinyPalette_Metapod",
+    "footprintPics": "gMonFootprint_Metapod",
+    "width": "40",
+    "height": "32"
+  },
+  "BUTTERFREE": {
+    "frontPics": "gMonFrontPic_Butterfree",
+    "backPics": "gMonBackPic_Butterfree",
+    "normPalette": "gMonPalette_Butterfree",
+    "shinyPalette": "gMonShinyPalette_Butterfree",
+    "footprintPics": "gMonFootprint_Butterfree",
+    "width": "56",
+    "height": "48"
+  },
+  "WEEDLE": {
+    "frontPics": "gMonFrontPic_Weedle",
+    "backPics": "gMonBackPic_Weedle",
+    "normPalette": "gMonPalette_Weedle",
+    "shinyPalette": "gMonShinyPalette_Weedle",
+    "footprintPics": "gMonFootprint_Weedle",
+    "width": "40",
+    "height": "32"
+  },
+  "KAKUNA": {
+    "frontPics": "gMonFrontPic_Kakuna",
+    "backPics": "gMonBackPic_Kakuna",
+    "normPalette": "gMonPalette_Kakuna",
+    "shinyPalette": "gMonShinyPalette_Kakuna",
+    "footprintPics": "gMonFootprint_Kakuna",
+    "width": "32",
+    "height": "40"
+  },
+  "BEEDRILL": {
+    "frontPics": "gMonFrontPic_Beedrill",
+    "backPics": "gMonBackPic_Beedrill",
+    "normPalette": "gMonPalette_Beedrill",
+    "shinyPalette": "gMonShinyPalette_Beedrill",
+    "footprintPics": "gMonFootprint_Beedrill",
+    "width": "64",
+    "height": "48"
+  },
+  "PIDGEY": {
+    "frontPics": "gMonFrontPic_Pidgey",
+    "backPics": "gMonBackPic_Pidgey",
+    "normPalette": "gMonPalette_Pidgey",
+    "shinyPalette": "gMonShinyPalette_Pidgey",
+    "footprintPics": "gMonFootprint_Pidgey",
+    "width": "40",
+    "height": "40"
+  },
+  "PIDGEOTTO": {
+    "frontPics": "gMonFrontPic_Pidgeotto",
+    "backPics": "gMonBackPic_Pidgeotto",
+    "normPalette": "gMonPalette_Pidgeotto",
+    "shinyPalette": "gMonShinyPalette_Pidgeotto",
+    "footprintPics": "gMonFootprint_Pidgeotto",
+    "width": "48",
+    "height": "56"
+  },
+  "PIDGEOT": {
+    "frontPics": "gMonFrontPic_Pidgeot",
+    "backPics": "gMonBackPic_Pidgeot",
+    "normPalette": "gMonPalette_Pidgeot",
+    "shinyPalette": "gMonShinyPalette_Pidgeot",
+    "footprintPics": "gMonFootprint_Pidgeot",
+    "width": "64",
+    "height": "64"
+  },
+  "RATTATA": {
+    "frontPics": "gMonFrontPic_Rattata",
+    "backPics": "gMonBackPic_Rattata",
+    "normPalette": "gMonPalette_Rattata",
+    "shinyPalette": "gMonShinyPalette_Rattata",
+    "footprintPics": "gMonFootprint_Rattata",
+    "width": "48",
+    "height": "40"
+  },
+  "RATICATE": {
+    "frontPics": "gMonFrontPic_Raticate",
+    "backPics": "gMonBackPic_Raticate",
+    "normPalette": "gMonPalette_Raticate",
+    "shinyPalette": "gMonShinyPalette_Raticate",
+    "footprintPics": "gMonFootprint_Raticate",
+    "width": "56",
+    "height": "48"
+  },
+  "SPEAROW": {
+    "frontPics": "gMonFrontPic_Spearow",
+    "backPics": "gMonBackPic_Spearow",
+    "normPalette": "gMonPalette_Spearow",
+    "shinyPalette": "gMonShinyPalette_Spearow",
+    "footprintPics": "gMonFootprint_Spearow",
+    "width": "40",
+    "height": "40"
+  },
+  "FEAROW": {
+    "frontPics": "gMonFrontPic_Fearow",
+    "backPics": "gMonBackPic_Fearow",
+    "normPalette": "gMonPalette_Fearow",
+    "shinyPalette": "gMonShinyPalette_Fearow",
+    "footprintPics": "gMonFootprint_Fearow",
+    "width": "64",
+    "height": "64"
+  },
+  "EKANS": {
+    "frontPics": "gMonFrontPic_Ekans",
+    "backPics": "gMonBackPic_Ekans",
+    "normPalette": "gMonPalette_Ekans",
+    "shinyPalette": "gMonShinyPalette_Ekans",
+    "footprintPics": "gMonFootprint_Ekans",
+    "width": "48",
+    "height": "40"
+  },
+  "ARBOK": {
+    "frontPics": "gMonFrontPic_Arbok",
+    "backPics": "gMonBackPic_Arbok",
+    "normPalette": "gMonPalette_Arbok",
+    "shinyPalette": "gMonShinyPalette_Arbok",
+    "footprintPics": "gMonFootprint_Arbok",
+    "width": "56",
+    "height": "64"
+  },
+  "PIKACHU": {
+    "frontPics": "gMonFrontPic_Pikachu",
+    "backPics": "gMonBackPic_Pikachu",
+    "normPalette": "gMonPalette_Pikachu",
+    "shinyPalette": "gMonShinyPalette_Pikachu",
+    "footprintPics": "gMonFootprint_Pikachu",
+    "width": "48",
+    "height": "56"
+  },
+  "RAICHU": {
+    "frontPics": "gMonFrontPic_Raichu",
+    "backPics": "gMonBackPic_Raichu",
+    "normPalette": "gMonPalette_Raichu",
+    "shinyPalette": "gMonShinyPalette_Raichu",
+    "footprintPics": "gMonFootprint_Raichu",
+    "width": "64",
+    "height": "64"
+  },
+  "SANDSHREW": {
+    "frontPics": "gMonFrontPic_Sandshrew",
+    "backPics": "gMonBackPic_Sandshrew",
+    "normPalette": "gMonPalette_Sandshrew",
+    "shinyPalette": "gMonShinyPalette_Sandshrew",
+    "footprintPics": "gMonFootprint_Sandshrew",
+    "width": "40",
+    "height": "48"
+  },
+  "SANDSLASH": {
+    "frontPics": "gMonFrontPic_Sandslash",
+    "backPics": "gMonBackPic_Sandslash",
+    "normPalette": "gMonPalette_Sandslash",
+    "shinyPalette": "gMonShinyPalette_Sandslash",
+    "footprintPics": "gMonFootprint_Sandslash",
+    "width": "56",
+    "height": "56"
+  },
+  "NIDORAN_F": {
+    "frontPics": "gMonFrontPic_NidoranF",
+    "backPics": "gMonBackPic_NidoranF",
+    "normPalette": "gMonPalette_NidoranF",
+    "shinyPalette": "gMonShinyPalette_NidoranF",
+    "footprintPics": "gMonFootprint_NidoranF",
+    "width": "40",
+    "height": "32"
+  },
+  "NIDORINA": {
+    "frontPics": "gMonFrontPic_Nidorina",
+    "backPics": "gMonBackPic_Nidorina",
+    "normPalette": "gMonPalette_Nidorina",
+    "shinyPalette": "gMonShinyPalette_Nidorina",
+    "footprintPics": "gMonFootprint_Nidorina",
+    "width": "48",
+    "height": "48"
+  },
+  "NIDOQUEEN": {
+    "frontPics": "gMonFrontPic_Nidoqueen",
+    "backPics": "gMonBackPic_Nidoqueen",
+    "normPalette": "gMonPalette_Nidoqueen",
+    "shinyPalette": "gMonShinyPalette_Nidoqueen",
+    "footprintPics": "gMonFootprint_Nidoqueen",
+    "width": "56",
+    "height": "64"
+  },
+  "NIDORAN_M": {
+    "frontPics": "gMonFrontPic_NidoranM",
+    "backPics": "gMonBackPic_NidoranM",
+    "normPalette": "gMonPalette_NidoranM",
+    "shinyPalette": "gMonShinyPalette_NidoranM",
+    "footprintPics": "gMonFootprint_NidoranM",
+    "width": "40",
+    "height": "40"
+  },
+  "NIDORINO": {
+    "frontPics": "gMonFrontPic_Nidorino",
+    "backPics": "gMonBackPic_Nidorino",
+    "normPalette": "gMonPalette_Nidorino",
+    "shinyPalette": "gMonShinyPalette_Nidorino",
+    "footprintPics": "gMonFootprint_Nidorino",
+    "width": "48",
+    "height": "48"
+  },
+  "NIDOKING": {
+    "frontPics": "gMonFrontPic_Nidoking",
+    "backPics": "gMonBackPic_Nidoking",
+    "normPalette": "gMonPalette_Nidoking",
+    "shinyPalette": "gMonShinyPalette_Nidoking",
+    "footprintPics": "gMonFootprint_Nidoking",
+    "width": "64",
+    "height": "64"
+  },
+  "CLEFAIRY": {
+    "frontPics": "gMonFrontPic_Clefairy",
+    "backPics": "gMonBackPic_Clefairy",
+    "normPalette": "gMonPalette_Clefairy",
+    "shinyPalette": "gMonShinyPalette_Clefairy",
+    "footprintPics": "gMonFootprint_Clefairy",
+    "width": "40",
+    "height": "40"
+  },
+  "CLEFABLE": {
+    "frontPics": "gMonFrontPic_Clefable",
+    "backPics": "gMonBackPic_Clefable",
+    "normPalette": "gMonPalette_Clefable",
+    "shinyPalette": "gMonShinyPalette_Clefable",
+    "footprintPics": "gMonFootprint_Clefable",
+    "width": "48",
+    "height": "56"
+  },
+  "VULPIX": {
+    "frontPics": "gMonFrontPic_Vulpix",
+    "backPics": "gMonBackPic_Vulpix",
+    "normPalette": "gMonPalette_Vulpix",
+    "shinyPalette": "gMonShinyPalette_Vulpix",
+    "footprintPics": "gMonFootprint_Vulpix",
+    "width": "48",
+    "height": "40"
+  },
+  "NINETALES": {
+    "frontPics": "gMonFrontPic_Ninetales",
+    "backPics": "gMonBackPic_Ninetales",
+    "normPalette": "gMonPalette_Ninetales",
+    "shinyPalette": "gMonShinyPalette_Ninetales",
+    "footprintPics": "gMonFootprint_Ninetales",
+    "width": "64",
+    "height": "64"
+  },
+  "JIGGLYPUFF": {
+    "frontPics": "gMonFrontPic_Jigglypuff",
+    "backPics": "gMonBackPic_Jigglypuff",
+    "normPalette": "gMonPalette_Jigglypuff",
+    "shinyPalette": "gMonShinyPalette_Jigglypuff",
+    "footprintPics": "gMonFootprint_Jigglypuff",
+    "width": "40",
+    "height": "40"
+  },
+  "WIGGLYTUFF": {
+    "frontPics": "gMonFrontPic_Wigglytuff",
+    "backPics": "gMonBackPic_Wigglytuff",
+    "normPalette": "gMonPalette_Wigglytuff",
+    "shinyPalette": "gMonShinyPalette_Wigglytuff",
+    "footprintPics": "gMonFootprint_Wigglytuff",
+    "width": "48",
+    "height": "56"
+  },
+  "ZUBAT": {
+    "frontPics": "gMonFrontPic_Zubat",
+    "backPics": "gMonBackPic_Zubat",
+    "normPalette": "gMonPalette_Zubat",
+    "shinyPalette": "gMonShinyPalette_Zubat",
+    "footprintPics": "gMonFootprint_Zubat",
+    "width": "48",
+    "height": "48"
+  },
+  "GOLBAT": {
+    "frontPics": "gMonFrontPic_Golbat",
+    "backPics": "gMonBackPic_Golbat",
+    "normPalette": "gMonPalette_Golbat",
+    "shinyPalette": "gMonShinyPalette_Golbat",
+    "footprintPics": "gMonFootprint_Golbat",
+    "width": "64",
+    "height": "64"
+  },
+  "ODDISH": {
+    "frontPics": "gMonFrontPic_Oddish",
+    "backPics": "gMonBackPic_Oddish",
+    "normPalette": "gMonPalette_Oddish",
+    "shinyPalette": "gMonShinyPalette_Oddish",
+    "footprintPics": "gMonFootprint_Oddish",
+    "width": "32",
+    "height": "40"
+  },
+  "GLOOM": {
+    "frontPics": "gMonFrontPic_Gloom",
+    "backPics": "gMonBackPic_Gloom",
+    "normPalette": "gMonPalette_Gloom",
+    "shinyPalette": "gMonShinyPalette_Gloom",
+    "footprintPics": "gMonFootprint_Gloom",
+    "width": "48",
+    "height": "48"
+  },
+  "VILEPLUME": {
+    "frontPics": "gMonFrontPic_Vileplume",
+    "backPics": "gMonBackPic_Vileplume",
+    "normPalette": "gMonPalette_Vileplume",
+    "shinyPalette": "gMonShinyPalette_Vileplume",
+    "footprintPics": "gMonFootprint_Vileplume",
+    "width": "56",
+    "height": "48"
+  },
+  "PARAS": {
+    "frontPics": "gMonFrontPic_Paras",
+    "backPics": "gMonBackPic_Paras",
+    "normPalette": "gMonPalette_Paras",
+    "shinyPalette": "gMonShinyPalette_Paras",
+    "footprintPics": "gMonFootprint_Paras",
+    "width": "48",
+    "height": "32"
+  },
+  "PARASECT": {
+    "frontPics": "gMonFrontPic_Parasect",
+    "backPics": "gMonBackPic_Parasect",
+    "normPalette": "gMonPalette_Parasect",
+    "shinyPalette": "gMonShinyPalette_Parasect",
+    "footprintPics": "gMonFootprint_Parasect",
+    "width": "64",
+    "height": "48"
+  },
+  "VENONAT": {
+    "frontPics": "gMonFrontPic_Venonat",
+    "backPics": "gMonBackPic_Venonat",
+    "normPalette": "gMonPalette_Venonat",
+    "shinyPalette": "gMonShinyPalette_Venonat",
+    "footprintPics": "gMonFootprint_Venonat",
+    "width": "40",
+    "height": "56"
+  },
+  "VENOMOTH": {
+    "frontPics": "gMonFrontPic_Venomoth",
+    "backPics": "gMonBackPic_Venomoth",
+    "normPalette": "gMonPalette_Venomoth",
+    "shinyPalette": "gMonShinyPalette_Venomoth",
+    "footprintPics": "gMonFootprint_Venomoth",
+    "width": "64",
+    "height": "56"
+  },
+  "DIGLETT": {
+    "frontPics": "gMonFrontPic_Diglett",
+    "backPics": "gMonBackPic_Diglett",
+    "normPalette": "gMonPalette_Diglett",
+    "shinyPalette": "gMonShinyPalette_Diglett",
+    "footprintPics": "gMonFootprint_Diglett",
+    "width": "40",
+    "height": "32"
+  },
+  "DUGTRIO": {
+    "frontPics": "gMonFrontPic_Dugtrio",
+    "backPics": "gMonBackPic_Dugtrio",
+    "normPalette": "gMonPalette_Dugtrio",
+    "shinyPalette": "gMonShinyPalette_Dugtrio",
+    "footprintPics": "gMonFootprint_Dugtrio",
+    "width": "56",
+    "height": "40"
+  },
+  "MEOWTH": {
+    "frontPics": "gMonFrontPic_Meowth",
+    "backPics": "gMonBackPic_Meowth",
+    "normPalette": "gMonPalette_Meowth",
+    "shinyPalette": "gMonShinyPalette_Meowth",
+    "footprintPics": "gMonFootprint_Meowth",
+    "width": "40",
+    "height": "40"
+  },
+  "PERSIAN": {
+    "frontPics": "gMonFrontPic_Persian",
+    "backPics": "gMonBackPic_Persian",
+    "normPalette": "gMonPalette_Persian",
+    "shinyPalette": "gMonShinyPalette_Persian",
+    "footprintPics": "gMonFootprint_Persian",
+    "width": "56",
+    "height": "48"
+  },
+  "PSYDUCK": {
+    "frontPics": "gMonFrontPic_Psyduck",
+    "backPics": "gMonBackPic_Psyduck",
+    "normPalette": "gMonPalette_Psyduck",
+    "shinyPalette": "gMonShinyPalette_Psyduck",
+    "footprintPics": "gMonFootprint_Psyduck",
+    "width": "40",
+    "height": "48"
+  },
+  "GOLDUCK": {
+    "frontPics": "gMonFrontPic_Golduck",
+    "backPics": "gMonBackPic_Golduck",
+    "normPalette": "gMonPalette_Golduck",
+    "shinyPalette": "gMonShinyPalette_Golduck",
+    "footprintPics": "gMonFootprint_Golduck",
+    "width": "56",
+    "height": "56"
+  },
+  "MANKEY": {
+    "frontPics": "gMonFrontPic_Mankey",
+    "backPics": "gMonBackPic_Mankey",
+    "normPalette": "gMonPalette_Mankey",
+    "shinyPalette": "gMonShinyPalette_Mankey",
+    "footprintPics": "gMonFootprint_Mankey",
+    "width": "48",
+    "height": "48"
+  },
+  "PRIMEAPE": {
+    "frontPics": "gMonFrontPic_Primeape",
+    "backPics": "gMonBackPic_Primeape",
+    "normPalette": "gMonPalette_Primeape",
+    "shinyPalette": "gMonShinyPalette_Primeape",
+    "footprintPics": "gMonFootprint_Primeape",
+    "width": "56",
+    "height": "56"
+  },
+  "GROWLITHE": {
+    "frontPics": "gMonFrontPic_Growlithe",
+    "backPics": "gMonBackPic_Growlithe",
+    "normPalette": "gMonPalette_Growlithe",
+    "shinyPalette": "gMonShinyPalette_Growlithe",
+    "footprintPics": "gMonFootprint_Growlithe",
+    "width": "48",
+    "height": "40"
+  },
+  "ARCANINE": {
+    "frontPics": "gMonFrontPic_Arcanine",
+    "backPics": "gMonBackPic_Arcanine",
+    "normPalette": "gMonPalette_Arcanine",
+    "shinyPalette": "gMonShinyPalette_Arcanine",
+    "footprintPics": "gMonFootprint_Arcanine",
+    "width": "64",
+    "height": "64"
+  },
+  "POLIWAG": {
+    "frontPics": "gMonFrontPic_Poliwag",
+    "backPics": "gMonBackPic_Poliwag",
+    "normPalette": "gMonPalette_Poliwag",
+    "shinyPalette": "gMonShinyPalette_Poliwag",
+    "footprintPics": "gMonFootprint_Poliwag",
+    "width": "56",
+    "height": "32"
+  },
+  "POLIWHIRL": {
+    "frontPics": "gMonFrontPic_Poliwhirl",
+    "backPics": "gMonBackPic_Poliwhirl",
+    "normPalette": "gMonPalette_Poliwhirl",
+    "shinyPalette": "gMonShinyPalette_Poliwhirl",
+    "footprintPics": "gMonFootprint_Poliwhirl",
+    "width": "56",
+    "height": "48"
+  },
+  "POLIWRATH": {
+    "frontPics": "gMonFrontPic_Poliwrath",
+    "backPics": "gMonBackPic_Poliwrath",
+    "normPalette": "gMonPalette_Poliwrath",
+    "shinyPalette": "gMonShinyPalette_Poliwrath",
+    "footprintPics": "gMonFootprint_Poliwrath",
+    "width": "56",
+    "height": "56"
+  },
+  "ABRA": {
+    "frontPics": "gMonFrontPic_Abra",
+    "backPics": "gMonBackPic_Abra",
+    "normPalette": "gMonPalette_Abra",
+    "shinyPalette": "gMonShinyPalette_Abra",
+    "footprintPics": "gMonFootprint_Abra",
+    "width": "48",
+    "height": "48"
+  },
+  "KADABRA": {
+    "frontPics": "gMonFrontPic_Kadabra",
+    "backPics": "gMonBackPic_Kadabra",
+    "normPalette": "gMonPalette_Kadabra",
+    "shinyPalette": "gMonShinyPalette_Kadabra",
+    "footprintPics": "gMonFootprint_Kadabra",
+    "width": "64",
+    "height": "56"
+  },
+  "ALAKAZAM": {
+    "frontPics": "gMonFrontPic_Alakazam",
+    "backPics": "gMonBackPic_Alakazam",
+    "normPalette": "gMonPalette_Alakazam",
+    "shinyPalette": "gMonShinyPalette_Alakazam",
+    "footprintPics": "gMonFootprint_Alakazam",
+    "width": "64",
+    "height": "64"
+  },
+  "MACHOP": {
+    "frontPics": "gMonFrontPic_Machop",
+    "backPics": "gMonBackPic_Machop",
+    "normPalette": "gMonPalette_Machop",
+    "shinyPalette": "gMonShinyPalette_Machop",
+    "footprintPics": "gMonFootprint_Machop",
+    "width": "32",
+    "height": "48"
+  },
+  "MACHOKE": {
+    "frontPics": "gMonFrontPic_Machoke",
+    "backPics": "gMonBackPic_Machoke",
+    "normPalette": "gMonPalette_Machoke",
+    "shinyPalette": "gMonShinyPalette_Machoke",
+    "footprintPics": "gMonFootprint_Machoke",
+    "width": "56",
+    "height": "56"
+  },
+  "MACHAMP": {
+    "frontPics": "gMonFrontPic_Machamp",
+    "backPics": "gMonBackPic_Machamp",
+    "normPalette": "gMonPalette_Machamp",
+    "shinyPalette": "gMonShinyPalette_Machamp",
+    "footprintPics": "gMonFootprint_Machamp",
+    "width": "64",
+    "height": "64"
+  },
+  "BELLSPROUT": {
+    "frontPics": "gMonFrontPic_Bellsprout",
+    "backPics": "gMonBackPic_Bellsprout",
+    "normPalette": "gMonPalette_Bellsprout",
+    "shinyPalette": "gMonShinyPalette_Bellsprout",
+    "footprintPics": "gMonFootprint_Bellsprout",
+    "width": "48",
+    "height": "48"
+  },
+  "WEEPINBELL": {
+    "frontPics": "gMonFrontPic_Weepinbell",
+    "backPics": "gMonBackPic_Weepinbell",
+    "normPalette": "gMonPalette_Weepinbell",
+    "shinyPalette": "gMonShinyPalette_Weepinbell",
+    "footprintPics": "gMonFootprint_Weepinbell",
+    "width": "48",
+    "height": "48"
+  },
+  "VICTREEBEL": {
+    "frontPics": "gMonFrontPic_Victreebel",
+    "backPics": "gMonBackPic_Victreebel",
+    "normPalette": "gMonPalette_Victreebel",
+    "shinyPalette": "gMonShinyPalette_Victreebel",
+    "footprintPics": "gMonFootprint_Victreebel",
+    "width": "56",
+    "height": "56"
+  },
+  "TENTACOOL": {
+    "frontPics": "gMonFrontPic_Tentacool",
+    "backPics": "gMonBackPic_Tentacool",
+    "normPalette": "gMonPalette_Tentacool",
+    "shinyPalette": "gMonShinyPalette_Tentacool",
+    "footprintPics": "gMonFootprint_Tentacool",
+    "width": "48",
+    "height": "48"
+  },
+  "TENTACRUEL": {
+    "frontPics": "gMonFrontPic_Tentacruel",
+    "backPics": "gMonBackPic_Tentacruel",
+    "normPalette": "gMonPalette_Tentacruel",
+    "shinyPalette": "gMonShinyPalette_Tentacruel",
+    "footprintPics": "gMonFootprint_Tentacruel",
+    "width": "56",
+    "height": "64"
+  },
+  "GEODUDE": {
+    "frontPics": "gMonFrontPic_Geodude",
+    "backPics": "gMonBackPic_Geodude",
+    "normPalette": "gMonPalette_Geodude",
+    "shinyPalette": "gMonShinyPalette_Geodude",
+    "footprintPics": "gMonFootprint_Geodude",
+    "width": "56",
+    "height": "32"
+  },
+  "GRAVELER": {
+    "frontPics": "gMonFrontPic_Graveler",
+    "backPics": "gMonBackPic_Graveler",
+    "normPalette": "gMonPalette_Graveler",
+    "shinyPalette": "gMonShinyPalette_Graveler",
+    "footprintPics": "gMonFootprint_Graveler",
+    "width": "64",
+    "height": "48"
+  },
+  "GOLEM": {
+    "frontPics": "gMonFrontPic_Golem",
+    "backPics": "gMonBackPic_Golem",
+    "normPalette": "gMonPalette_Golem",
+    "shinyPalette": "gMonShinyPalette_Golem",
+    "footprintPics": "gMonFootprint_Golem",
+    "width": "64",
+    "height": "56"
+  },
+  "PONYTA": {
+    "frontPics": "gMonFrontPic_Ponyta",
+    "backPics": "gMonBackPic_Ponyta",
+    "normPalette": "gMonPalette_Ponyta",
+    "shinyPalette": "gMonShinyPalette_Ponyta",
+    "footprintPics": "gMonFootprint_Ponyta",
+    "width": "48",
+    "height": "56"
+  },
+  "RAPIDASH": {
+    "frontPics": "gMonFrontPic_Rapidash",
+    "backPics": "gMonBackPic_Rapidash",
+    "normPalette": "gMonPalette_Rapidash",
+    "shinyPalette": "gMonShinyPalette_Rapidash",
+    "footprintPics": "gMonFootprint_Rapidash",
+    "width": "64",
+    "height": "64"
+  },
+  "SLOWPOKE": {
+    "frontPics": "gMonFrontPic_Slowpoke",
+    "backPics": "gMonBackPic_Slowpoke",
+    "normPalette": "gMonPalette_Slowpoke",
+    "shinyPalette": "gMonShinyPalette_Slowpoke",
+    "footprintPics": "gMonFootprint_Slowpoke",
+    "width": "48",
+    "height": "40"
+  },
+  "SLOWBRO": {
+    "frontPics": "gMonFrontPic_Slowbro",
+    "backPics": "gMonBackPic_Slowbro",
+    "normPalette": "gMonPalette_Slowbro",
+    "shinyPalette": "gMonShinyPalette_Slowbro",
+    "footprintPics": "gMonFootprint_Slowbro",
+    "width": "64",
+    "height": "64"
+  },
+  "MAGNEMITE": {
+    "frontPics": "gMonFrontPic_Magnemite",
+    "backPics": "gMonBackPic_Magnemite",
+    "normPalette": "gMonPalette_Magnemite",
+    "shinyPalette": "gMonShinyPalette_Magnemite",
+    "footprintPics": "gMonFootprint_Magnemite",
+    "width": "40",
+    "height": "24"
+  },
+  "MAGNETON": {
+    "frontPics": "gMonFrontPic_Magneton",
+    "backPics": "gMonBackPic_Magneton",
+    "normPalette": "gMonPalette_Magneton",
+    "shinyPalette": "gMonShinyPalette_Magneton",
+    "footprintPics": "gMonFootprint_Magneton",
+    "width": "56",
+    "height": "40"
+  },
+  "FARFETCHD": {
+    "frontPics": "gMonFrontPic_Farfetchd",
+    "backPics": "gMonBackPic_Farfetchd",
+    "normPalette": "gMonPalette_Farfetchd",
+    "shinyPalette": "gMonShinyPalette_Farfetchd",
+    "footprintPics": "gMonFootprint_Farfetchd",
+    "width": "56",
+    "height": "48"
+  },
+  "DODUO": {
+    "frontPics": "gMonFrontPic_Doduo",
+    "backPics": "gMonBackPic_Doduo",
+    "normPalette": "gMonPalette_Doduo",
+    "shinyPalette": "gMonShinyPalette_Doduo",
+    "footprintPics": "gMonFootprint_Doduo",
+    "width": "48",
+    "height": "56"
+  },
+  "DODRIO": {
+    "frontPics": "gMonFrontPic_Dodrio",
+    "backPics": "gMonBackPic_Dodrio",
+    "normPalette": "gMonPalette_Dodrio",
+    "shinyPalette": "gMonShinyPalette_Dodrio",
+    "footprintPics": "gMonFootprint_Dodrio",
+    "width": "64",
+    "height": "64"
+  },
+  "SEEL": {
+    "frontPics": "gMonFrontPic_Seel",
+    "backPics": "gMonBackPic_Seel",
+    "normPalette": "gMonPalette_Seel",
+    "shinyPalette": "gMonShinyPalette_Seel",
+    "footprintPics": "gMonFootprint_Seel",
+    "width": "56",
+    "height": "48"
+  },
+  "DEWGONG": {
+    "frontPics": "gMonFrontPic_Dewgong",
+    "backPics": "gMonBackPic_Dewgong",
+    "normPalette": "gMonPalette_Dewgong",
+    "shinyPalette": "gMonShinyPalette_Dewgong",
+    "footprintPics": "gMonFootprint_Dewgong",
+    "width": "64",
+    "height": "56"
+  },
+  "GRIMER": {
+    "frontPics": "gMonFrontPic_Grimer",
+    "backPics": "gMonBackPic_Grimer",
+    "normPalette": "gMonPalette_Grimer",
+    "shinyPalette": "gMonShinyPalette_Grimer",
+    "footprintPics": "gMonFootprint_Grimer",
+    "width": "48",
+    "height": "48"
+  },
+  "MUK": {
+    "frontPics": "gMonFrontPic_Muk",
+    "backPics": "gMonBackPic_Muk",
+    "normPalette": "gMonPalette_Muk",
+    "shinyPalette": "gMonShinyPalette_Muk",
+    "footprintPics": "gMonFootprint_Muk",
+    "width": "64",
+    "height": "48"
+  },
+  "SHELLDER": {
+    "frontPics": "gMonFrontPic_Shellder",
+    "backPics": "gMonBackPic_Shellder",
+    "normPalette": "gMonPalette_Shellder",
+    "shinyPalette": "gMonShinyPalette_Shellder",
+    "footprintPics": "gMonFootprint_Shellder",
+    "width": "40",
+    "height": "40"
+  },
+  "CLOYSTER": {
+    "frontPics": "gMonFrontPic_Cloyster",
+    "backPics": "gMonBackPic_Cloyster",
+    "normPalette": "gMonPalette_Cloyster",
+    "shinyPalette": "gMonShinyPalette_Cloyster",
+    "footprintPics": "gMonFootprint_Cloyster",
+    "width": "64",
+    "height": "56"
+  },
+  "GASTLY": {
+    "frontPics": "gMonFrontPic_Gastly",
+    "backPics": "gMonBackPic_Gastly",
+    "normPalette": "gMonPalette_Gastly",
+    "shinyPalette": "gMonShinyPalette_Gastly",
+    "footprintPics": "gMonFootprint_Gastly",
+    "width": "56",
+    "height": "56"
+  },
+  "HAUNTER": {
+    "frontPics": "gMonFrontPic_Haunter",
+    "backPics": "gMonBackPic_Haunter",
+    "normPalette": "gMonPalette_Haunter",
+    "shinyPalette": "gMonShinyPalette_Haunter",
+    "footprintPics": "gMonFootprint_Haunter",
+    "width": "64",
+    "height": "56"
+  },
+  "GENGAR": {
+    "frontPics": "gMonFrontPic_Gengar",
+    "backPics": "gMonBackPic_Gengar",
+    "normPalette": "gMonPalette_Gengar",
+    "shinyPalette": "gMonShinyPalette_Gengar",
+    "footprintPics": "gMonFootprint_Gengar",
+    "width": "56",
+    "height": "48"
+  },
+  "ONIX": {
+    "frontPics": "gMonFrontPic_Onix",
+    "backPics": "gMonBackPic_Onix",
+    "normPalette": "gMonPalette_Onix",
+    "shinyPalette": "gMonShinyPalette_Onix",
+    "footprintPics": "gMonFootprint_Onix",
+    "width": "56",
+    "height": "64"
+  },
+  "DROWZEE": {
+    "frontPics": "gMonFrontPic_Drowzee",
+    "backPics": "gMonBackPic_Drowzee",
+    "normPalette": "gMonPalette_Drowzee",
+    "shinyPalette": "gMonShinyPalette_Drowzee",
+    "footprintPics": "gMonFootprint_Drowzee",
+    "width": "48",
+    "height": "48"
+  },
+  "HYPNO": {
+    "frontPics": "gMonFrontPic_Hypno",
+    "backPics": "gMonBackPic_Hypno",
+    "normPalette": "gMonPalette_Hypno",
+    "shinyPalette": "gMonShinyPalette_Hypno",
+    "footprintPics": "gMonFootprint_Hypno",
+    "width": "64",
+    "height": "56"
+  },
+  "KRABBY": {
+    "frontPics": "gMonFrontPic_Krabby",
+    "backPics": "gMonBackPic_Krabby",
+    "normPalette": "gMonPalette_Krabby",
+    "shinyPalette": "gMonShinyPalette_Krabby",
+    "footprintPics": "gMonFootprint_Krabby",
+    "width": "56",
+    "height": "40"
+  },
+  "KINGLER": {
+    "frontPics": "gMonFrontPic_Kingler",
+    "backPics": "gMonBackPic_Kingler",
+    "normPalette": "gMonPalette_Kingler",
+    "shinyPalette": "gMonShinyPalette_Kingler",
+    "footprintPics": "gMonFootprint_Kingler",
+    "width": "64",
+    "height": "56"
+  },
+  "VOLTORB": {
+    "frontPics": "gMonFrontPic_Voltorb",
+    "backPics": "gMonBackPic_Voltorb",
+    "normPalette": "gMonPalette_Voltorb",
+    "shinyPalette": "gMonShinyPalette_Voltorb",
+    "footprintPics": "gMonFootprint_Voltorb",
+    "width": "32",
+    "height": "32"
+  },
+  "ELECTRODE": {
+    "frontPics": "gMonFrontPic_Electrode",
+    "backPics": "gMonBackPic_Electrode",
+    "normPalette": "gMonPalette_Electrode",
+    "shinyPalette": "gMonShinyPalette_Electrode",
+    "footprintPics": "gMonFootprint_Electrode",
+    "width": "40",
+    "height": "40"
+  },
+  "EXEGGCUTE": {
+    "frontPics": "gMonFrontPic_Exeggcute",
+    "backPics": "gMonBackPic_Exeggcute",
+    "normPalette": "gMonPalette_Exeggcute",
+    "shinyPalette": "gMonShinyPalette_Exeggcute",
+    "footprintPics": "gMonFootprint_Exeggcute",
+    "width": "56",
+    "height": "48"
+  },
+  "EXEGGUTOR": {
+    "frontPics": "gMonFrontPic_Exeggutor",
+    "backPics": "gMonBackPic_Exeggutor",
+    "normPalette": "gMonPalette_Exeggutor",
+    "shinyPalette": "gMonShinyPalette_Exeggutor",
+    "footprintPics": "gMonFootprint_Exeggutor",
+    "width": "64",
+    "height": "64"
+  },
+  "CUBONE": {
+    "frontPics": "gMonFrontPic_Cubone",
+    "backPics": "gMonBackPic_Cubone",
+    "normPalette": "gMonPalette_Cubone",
+    "shinyPalette": "gMonShinyPalette_Cubone",
+    "footprintPics": "gMonFootprint_Cubone",
+    "width": "48",
+    "height": "40"
+  },
+  "MAROWAK": {
+    "frontPics": "gMonFrontPic_Marowak",
+    "backPics": "gMonBackPic_Marowak",
+    "normPalette": "gMonPalette_Marowak",
+    "shinyPalette": "gMonShinyPalette_Marowak",
+    "footprintPics": "gMonFootprint_Marowak",
+    "width": "64",
+    "height": "56"
+  },
+  "HITMONLEE": {
+    "frontPics": "gMonFrontPic_Hitmonlee",
+    "backPics": "gMonBackPic_Hitmonlee",
+    "normPalette": "gMonPalette_Hitmonlee",
+    "shinyPalette": "gMonShinyPalette_Hitmonlee",
+    "footprintPics": "gMonFootprint_Hitmonlee",
+    "width": "56",
+    "height": "56"
+  },
+  "HITMONCHAN": {
+    "frontPics": "gMonFrontPic_Hitmonchan",
+    "backPics": "gMonBackPic_Hitmonchan",
+    "normPalette": "gMonPalette_Hitmonchan",
+    "shinyPalette": "gMonShinyPalette_Hitmonchan",
+    "footprintPics": "gMonFootprint_Hitmonchan",
+    "width": "48",
+    "height": "56"
+  },
+  "LICKITUNG": {
+    "frontPics": "gMonFrontPic_Lickitung",
+    "backPics": "gMonBackPic_Lickitung",
+    "normPalette": "gMonPalette_Lickitung",
+    "shinyPalette": "gMonShinyPalette_Lickitung",
+    "footprintPics": "gMonFootprint_Lickitung",
+    "width": "64",
+    "height": "48"
+  },
+  "KOFFING": {
+    "frontPics": "gMonFrontPic_Koffing",
+    "backPics": "gMonBackPic_Koffing",
+    "normPalette": "gMonPalette_Koffing",
+    "shinyPalette": "gMonShinyPalette_Koffing",
+    "footprintPics": "gMonFootprint_Koffing",
+    "width": "48",
+    "height": "48"
+  },
+  "WEEZING": {
+    "frontPics": "gMonFrontPic_Weezing",
+    "backPics": "gMonBackPic_Weezing",
+    "normPalette": "gMonPalette_Weezing",
+    "shinyPalette": "gMonShinyPalette_Weezing",
+    "footprintPics": "gMonFootprint_Weezing",
+    "width": "64",
+    "height": "64"
+  },
+  "RHYHORN": {
+    "frontPics": "gMonFrontPic_Rhyhorn",
+    "backPics": "gMonBackPic_Rhyhorn",
+    "normPalette": "gMonPalette_Rhyhorn",
+    "shinyPalette": "gMonShinyPalette_Rhyhorn",
+    "footprintPics": "gMonFootprint_Rhyhorn",
+    "width": "56",
+    "height": "48"
+  },
+  "RHYDON": {
+    "frontPics": "gMonFrontPic_Rhydon",
+    "backPics": "gMonBackPic_Rhydon",
+    "normPalette": "gMonPalette_Rhydon",
+    "shinyPalette": "gMonShinyPalette_Rhydon",
+    "footprintPics": "gMonFootprint_Rhydon",
+    "width": "64",
+    "height": "64"
+  },
+  "CHANSEY": {
+    "frontPics": "gMonFrontPic_Chansey",
+    "backPics": "gMonBackPic_Chansey",
+    "normPalette": "gMonPalette_Chansey",
+    "shinyPalette": "gMonShinyPalette_Chansey",
+    "footprintPics": "gMonFootprint_Chansey",
+    "width": "56",
+    "height": "48"
+  },
+  "TANGELA": {
+    "frontPics": "gMonFrontPic_Tangela",
+    "backPics": "gMonBackPic_Tangela",
+    "normPalette": "gMonPalette_Tangela",
+    "shinyPalette": "gMonShinyPalette_Tangela",
+    "footprintPics": "gMonFootprint_Tangela",
+    "width": "48",
+    "height": "48"
+  },
+  "KANGASKHAN": {
+    "frontPics": "gMonFrontPic_Kangaskhan",
+    "backPics": "gMonBackPic_Kangaskhan",
+    "normPalette": "gMonPalette_Kangaskhan",
+    "shinyPalette": "gMonShinyPalette_Kangaskhan",
+    "footprintPics": "gMonFootprint_Kangaskhan",
+    "width": "64",
+    "height": "64"
+  },
+  "HORSEA": {
+    "frontPics": "gMonFrontPic_Horsea",
+    "backPics": "gMonBackPic_Horsea",
+    "normPalette": "gMonPalette_Horsea",
+    "shinyPalette": "gMonShinyPalette_Horsea",
+    "footprintPics": "gMonFootprint_Horsea",
+    "width": "32",
+    "height": "40"
+  },
+  "SEADRA": {
+    "frontPics": "gMonFrontPic_Seadra",
+    "backPics": "gMonBackPic_Seadra",
+    "normPalette": "gMonPalette_Seadra",
+    "shinyPalette": "gMonShinyPalette_Seadra",
+    "footprintPics": "gMonFootprint_Seadra",
+    "width": "56",
+    "height": "56"
+  },
+  "GOLDEEN": {
+    "frontPics": "gMonFrontPic_Goldeen",
+    "backPics": "gMonBackPic_Goldeen",
+    "normPalette": "gMonPalette_Goldeen",
+    "shinyPalette": "gMonShinyPalette_Goldeen",
+    "footprintPics": "gMonFootprint_Goldeen",
+    "width": "48",
+    "height": "48"
+  },
+  "SEAKING": {
+    "frontPics": "gMonFrontPic_Seaking",
+    "backPics": "gMonBackPic_Seaking",
+    "normPalette": "gMonPalette_Seaking",
+    "shinyPalette": "gMonShinyPalette_Seaking",
+    "footprintPics": "gMonFootprint_Seaking",
+    "width": "56",
+    "height": "56"
+  },
+  "STARYU": {
+    "frontPics": "gMonFrontPic_Staryu",
+    "backPics": "gMonBackPic_Staryu",
+    "normPalette": "gMonPalette_Staryu",
+    "shinyPalette": "gMonShinyPalette_Staryu",
+    "footprintPics": "gMonFootprint_Staryu",
+    "width": "48",
+    "height": "48"
+  },
+  "STARMIE": {
+    "frontPics": "gMonFrontPic_Starmie",
+    "backPics": "gMonBackPic_Starmie",
+    "normPalette": "gMonPalette_Starmie",
+    "shinyPalette": "gMonShinyPalette_Starmie",
+    "footprintPics": "gMonFootprint_Starmie",
+    "width": "48",
+    "height": "56"
+  },
+  "MR_MIME": {
+    "frontPics": "gMonFrontPic_Mrmime",
+    "backPics": "gMonBackPic_Mrmime",
+    "normPalette": "gMonPalette_Mrmime",
+    "shinyPalette": "gMonShinyPalette_Mrmime",
+    "footprintPics": "gMonFootprint_Mrmime",
+    "width": "56",
+    "height": "48"
+  },
+  "SCYTHER": {
+    "frontPics": "gMonFrontPic_Scyther",
+    "backPics": "gMonBackPic_Scyther",
+    "normPalette": "gMonPalette_Scyther",
+    "shinyPalette": "gMonShinyPalette_Scyther",
+    "footprintPics": "gMonFootprint_Scyther",
+    "width": "56",
+    "height": "64"
+  },
+  "JYNX": {
+    "frontPics": "gMonFrontPic_Jynx",
+    "backPics": "gMonBackPic_Jynx",
+    "normPalette": "gMonPalette_Jynx",
+    "shinyPalette": "gMonShinyPalette_Jynx",
+    "footprintPics": "gMonFootprint_Jynx",
+    "width": "48",
+    "height": "48"
+  },
+  "ELECTABUZZ": {
+    "frontPics": "gMonFrontPic_Electabuzz",
+    "backPics": "gMonBackPic_Electabuzz",
+    "normPalette": "gMonPalette_Electabuzz",
+    "shinyPalette": "gMonShinyPalette_Electabuzz",
+    "footprintPics": "gMonFootprint_Electabuzz",
+    "width": "64",
+    "height": "64"
+  },
+  "MAGMAR": {
+    "frontPics": "gMonFrontPic_Magmar",
+    "backPics": "gMonBackPic_Magmar",
+    "normPalette": "gMonPalette_Magmar",
+    "shinyPalette": "gMonShinyPalette_Magmar",
+    "footprintPics": "gMonFootprint_Magmar",
+    "width": "64",
+    "height": "56"
+  },
+  "PINSIR": {
+    "frontPics": "gMonFrontPic_Pinsir",
+    "backPics": "gMonBackPic_Pinsir",
+    "normPalette": "gMonPalette_Pinsir",
+    "shinyPalette": "gMonShinyPalette_Pinsir",
+    "footprintPics": "gMonFootprint_Pinsir",
+    "width": "56",
+    "height": "56"
+  },
+  "TAUROS": {
+    "frontPics": "gMonFrontPic_Tauros",
+    "backPics": "gMonBackPic_Tauros",
+    "normPalette": "gMonPalette_Tauros",
+    "shinyPalette": "gMonShinyPalette_Tauros",
+    "footprintPics": "gMonFootprint_Tauros",
+    "width": "64",
+    "height": "64"
+  },
+  "MAGIKARP": {
+    "frontPics": "gMonFrontPic_Magikarp",
+    "backPics": "gMonBackPic_Magikarp",
+    "normPalette": "gMonPalette_Magikarp",
+    "shinyPalette": "gMonShinyPalette_Magikarp",
+    "footprintPics": "gMonFootprint_Magikarp",
+    "width": "56",
+    "height": "56"
+  },
+  "GYARADOS": {
+    "frontPics": "gMonFrontPic_Gyarados",
+    "backPics": "gMonBackPic_Gyarados",
+    "normPalette": "gMonPalette_Gyarados",
+    "shinyPalette": "gMonShinyPalette_Gyarados",
+    "footprintPics": "gMonFootprint_Gyarados",
+    "width": "64",
+    "height": "64"
+  },
+  "LAPRAS": {
+    "frontPics": "gMonFrontPic_Lapras",
+    "backPics": "gMonBackPic_Lapras",
+    "normPalette": "gMonPalette_Lapras",
+    "shinyPalette": "gMonShinyPalette_Lapras",
+    "footprintPics": "gMonFootprint_Lapras",
+    "width": "64",
+    "height": "56"
+  },
+  "DITTO": {
+    "frontPics": "gMonFrontPic_Ditto",
+    "backPics": "gMonBackPic_Ditto",
+    "normPalette": "gMonPalette_Ditto",
+    "shinyPalette": "gMonShinyPalette_Ditto",
+    "footprintPics": "gMonFootprint_Ditto",
+    "width": "40",
+    "height": "32"
+  },
+  "EEVEE": {
+    "frontPics": "gMonFrontPic_Eevee",
+    "backPics": "gMonBackPic_Eevee",
+    "normPalette": "gMonPalette_Eevee",
+    "shinyPalette": "gMonShinyPalette_Eevee",
+    "footprintPics": "gMonFootprint_Eevee",
+    "width": "40",
+    "height": "48"
+  },
+  "VAPOREON": {
+    "frontPics": "gMonFrontPic_Vaporeon",
+    "backPics": "gMonBackPic_Vaporeon",
+    "normPalette": "gMonPalette_Vaporeon",
+    "shinyPalette": "gMonShinyPalette_Vaporeon",
+    "footprintPics": "gMonFootprint_Vaporeon",
+    "width": "48",
+    "height": "56"
+  },
+  "JOLTEON": {
+    "frontPics": "gMonFrontPic_Jolteon",
+    "backPics": "gMonBackPic_Jolteon",
+    "normPalette": "gMonPalette_Jolteon",
+    "shinyPalette": "gMonShinyPalette_Jolteon",
+    "footprintPics": "gMonFootprint_Jolteon",
+    "width": "48",
+    "height": "48"
+  },
+  "FLAREON": {
+    "frontPics": "gMonFrontPic_Flareon",
+    "backPics": "gMonBackPic_Flareon",
+    "normPalette": "gMonPalette_Flareon",
+    "shinyPalette": "gMonShinyPalette_Flareon",
+    "footprintPics": "gMonFootprint_Flareon",
+    "width": "56",
+    "height": "48"
+  },
+  "PORYGON": {
+    "frontPics": "gMonFrontPic_Porygon",
+    "backPics": "gMonBackPic_Porygon",
+    "normPalette": "gMonPalette_Porygon",
+    "shinyPalette": "gMonShinyPalette_Porygon",
+    "footprintPics": "gMonFootprint_Porygon",
+    "width": "40",
+    "height": "48"
+  },
+  "OMANYTE": {
+    "frontPics": "gMonFrontPic_Omanyte",
+    "backPics": "gMonBackPic_Omanyte",
+    "normPalette": "gMonPalette_Omanyte",
+    "shinyPalette": "gMonShinyPalette_Omanyte",
+    "footprintPics": "gMonFootprint_Omanyte",
+    "width": "32",
+    "height": "40"
+  },
+  "OMASTAR": {
+    "frontPics": "gMonFrontPic_Omastar",
+    "backPics": "gMonBackPic_Omastar",
+    "normPalette": "gMonPalette_Omastar",
+    "shinyPalette": "gMonShinyPalette_Omastar",
+    "footprintPics": "gMonFootprint_Omastar",
+    "width": "48",
+    "height": "56"
+  },
+  "KABUTO": {
+    "frontPics": "gMonFrontPic_Kabuto",
+    "backPics": "gMonBackPic_Kabuto",
+    "normPalette": "gMonPalette_Kabuto",
+    "shinyPalette": "gMonShinyPalette_Kabuto",
+    "footprintPics": "gMonFootprint_Kabuto",
+    "width": "40",
+    "height": "32"
+  },
+  "KABUTOPS": {
+    "frontPics": "gMonFrontPic_Kabutops",
+    "backPics": "gMonBackPic_Kabutops",
+    "normPalette": "gMonPalette_Kabutops",
+    "shinyPalette": "gMonShinyPalette_Kabutops",
+    "footprintPics": "gMonFootprint_Kabutops",
+    "width": "64",
+    "height": "64"
+  },
+  "AERODACTYL": {
+    "frontPics": "gMonFrontPic_Aerodactyl",
+    "backPics": "gMonBackPic_Aerodactyl",
+    "normPalette": "gMonPalette_Aerodactyl",
+    "shinyPalette": "gMonShinyPalette_Aerodactyl",
+    "footprintPics": "gMonFootprint_Aerodactyl",
+    "width": "64",
+    "height": "64"
+  },
+  "SNORLAX": {
+    "frontPics": "gMonFrontPic_Snorlax",
+    "backPics": "gMonBackPic_Snorlax",
+    "normPalette": "gMonPalette_Snorlax",
+    "shinyPalette": "gMonShinyPalette_Snorlax",
+    "footprintPics": "gMonFootprint_Snorlax",
+    "width": "64",
+    "height": "56"
+  },
+  "ARTICUNO": {
+    "frontPics": "gMonFrontPic_Articuno",
+    "backPics": "gMonBackPic_Articuno",
+    "normPalette": "gMonPalette_Articuno",
+    "shinyPalette": "gMonShinyPalette_Articuno",
+    "footprintPics": "gMonFootprint_Articuno",
+    "width": "64",
+    "height": "64"
+  },
+  "ZAPDOS": {
+    "frontPics": "gMonFrontPic_Zapdos",
+    "backPics": "gMonBackPic_Zapdos",
+    "normPalette": "gMonPalette_Zapdos",
+    "shinyPalette": "gMonShinyPalette_Zapdos",
+    "footprintPics": "gMonFootprint_Zapdos",
+    "width": "64",
+    "height": "64"
+  },
+  "MOLTRES": {
+    "frontPics": "gMonFrontPic_Moltres",
+    "backPics": "gMonBackPic_Moltres",
+    "normPalette": "gMonPalette_Moltres",
+    "shinyPalette": "gMonShinyPalette_Moltres",
+    "footprintPics": "gMonFootprint_Moltres",
+    "width": "64",
+    "height": "64"
+  },
+  "DRATINI": {
+    "frontPics": "gMonFrontPic_Dratini",
+    "backPics": "gMonBackPic_Dratini",
+    "normPalette": "gMonPalette_Dratini",
+    "shinyPalette": "gMonShinyPalette_Dratini",
+    "footprintPics": "gMonFootprint_Dratini",
+    "width": "56",
+    "height": "40"
+  },
+  "DRAGONAIR": {
+    "frontPics": "gMonFrontPic_Dragonair",
+    "backPics": "gMonBackPic_Dragonair",
+    "normPalette": "gMonPalette_Dragonair",
+    "shinyPalette": "gMonShinyPalette_Dragonair",
+    "footprintPics": "gMonFootprint_Dragonair",
+    "width": "64",
+    "height": "56"
+  },
+  "DRAGONITE": {
+    "frontPics": "gMonFrontPic_Dragonite",
+    "backPics": "gMonBackPic_Dragonite",
+    "normPalette": "gMonPalette_Dragonite",
+    "shinyPalette": "gMonShinyPalette_Dragonite",
+    "footprintPics": "gMonFootprint_Dragonite",
+    "width": "64",
+    "height": "64"
+  },
+  "MEWTWO": {
+    "frontPics": "gMonFrontPic_Mewtwo",
+    "backPics": "gMonBackPic_Mewtwo",
+    "normPalette": "gMonPalette_Mewtwo",
+    "shinyPalette": "gMonShinyPalette_Mewtwo",
+    "footprintPics": "gMonFootprint_Mewtwo",
+    "width": "64",
+    "height": "64"
+  },
+  "MEW": {
+    "frontPics": "gMonFrontPic_Mew",
+    "backPics": "gMonBackPic_Mew",
+    "normPalette": "gMonPalette_Mew",
+    "shinyPalette": "gMonShinyPalette_Mew",
+    "footprintPics": "gMonFootprint_Mew",
+    "width": "56",
+    "height": "56"
+  },
+  "CHIKORITA": {
+    "frontPics": "gMonFrontPic_Chikorita",
+    "backPics": "gMonBackPic_Chikorita",
+    "normPalette": "gMonPalette_Chikorita",
+    "shinyPalette": "gMonShinyPalette_Chikorita",
+    "footprintPics": "gMonFootprint_Chikorita",
+    "width": "56",
+    "height": "40"
+  },
+  "BAYLEEF": {
+    "frontPics": "gMonFrontPic_Bayleef",
+    "backPics": "gMonBackPic_Bayleef",
+    "normPalette": "gMonPalette_Bayleef",
+    "shinyPalette": "gMonShinyPalette_Bayleef",
+    "footprintPics": "gMonFootprint_Bayleef",
+    "width": "56",
+    "height": "56"
+  },
+  "MEGANIUM": {
+    "frontPics": "gMonFrontPic_Meganium",
+    "backPics": "gMonBackPic_Meganium",
+    "normPalette": "gMonPalette_Meganium",
+    "shinyPalette": "gMonShinyPalette_Meganium",
+    "footprintPics": "gMonFootprint_Meganium",
+    "width": "64",
+    "height": "64"
+  },
+  "CYNDAQUIL": {
+    "frontPics": "gMonFrontPic_Cyndaquil",
+    "backPics": "gMonBackPic_Cyndaquil",
+    "normPalette": "gMonPalette_Cyndaquil",
+    "shinyPalette": "gMonShinyPalette_Cyndaquil",
+    "footprintPics": "gMonFootprint_Cyndaquil",
+    "width": "40",
+    "height": "40"
+  },
+  "QUILAVA": {
+    "frontPics": "gMonFrontPic_Quilava",
+    "backPics": "gMonBackPic_Quilava",
+    "normPalette": "gMonPalette_Quilava",
+    "shinyPalette": "gMonShinyPalette_Quilava",
+    "footprintPics": "gMonFootprint_Quilava",
+    "width": "56",
+    "height": "48"
+  },
+  "TYPHLOSION": {
+    "frontPics": "gMonFrontPic_Typhlosion",
+    "backPics": "gMonBackPic_Typhlosion",
+    "normPalette": "gMonPalette_Typhlosion",
+    "shinyPalette": "gMonShinyPalette_Typhlosion",
+    "footprintPics": "gMonFootprint_Typhlosion",
+    "width": "56",
+    "height": "64"
+  },
+  "TOTODILE": {
+    "frontPics": "gMonFrontPic_Totodile",
+    "backPics": "gMonBackPic_Totodile",
+    "normPalette": "gMonPalette_Totodile",
+    "shinyPalette": "gMonShinyPalette_Totodile",
+    "footprintPics": "gMonFootprint_Totodile",
+    "width": "40",
+    "height": "40"
+  },
+  "CROCONAW": {
+    "frontPics": "gMonFrontPic_Croconaw",
+    "backPics": "gMonBackPic_Croconaw",
+    "normPalette": "gMonPalette_Croconaw",
+    "shinyPalette": "gMonShinyPalette_Croconaw",
+    "footprintPics": "gMonFootprint_Croconaw",
+    "width": "48",
+    "height": "56"
+  },
+  "FERALIGATR": {
+    "frontPics": "gMonFrontPic_Feraligatr",
+    "backPics": "gMonBackPic_Feraligatr",
+    "normPalette": "gMonPalette_Feraligatr",
+    "shinyPalette": "gMonShinyPalette_Feraligatr",
+    "footprintPics": "gMonFootprint_Feraligatr",
+    "width": "64",
+    "height": "64"
+  },
+  "SENTRET": {
+    "frontPics": "gMonFrontPic_Sentret",
+    "backPics": "gMonBackPic_Sentret",
+    "normPalette": "gMonPalette_Sentret",
+    "shinyPalette": "gMonShinyPalette_Sentret",
+    "footprintPics": "gMonFootprint_Sentret",
+    "width": "32",
+    "height": "56"
+  },
+  "FURRET": {
+    "frontPics": "gMonFrontPic_Furret",
+    "backPics": "gMonBackPic_Furret",
+    "normPalette": "gMonPalette_Furret",
+    "shinyPalette": "gMonShinyPalette_Furret",
+    "footprintPics": "gMonFootprint_Furret",
+    "width": "48",
+    "height": "56"
+  },
+  "HOOTHOOT": {
+    "frontPics": "gMonFrontPic_Hoothoot",
+    "backPics": "gMonBackPic_Hoothoot",
+    "normPalette": "gMonPalette_Hoothoot",
+    "shinyPalette": "gMonShinyPalette_Hoothoot",
+    "footprintPics": "gMonFootprint_Hoothoot",
+    "width": "40",
+    "height": "40"
+  },
+  "NOCTOWL": {
+    "frontPics": "gMonFrontPic_Noctowl",
+    "backPics": "gMonBackPic_Noctowl",
+    "normPalette": "gMonPalette_Noctowl",
+    "shinyPalette": "gMonShinyPalette_Noctowl",
+    "footprintPics": "gMonFootprint_Noctowl",
+    "width": "40",
+    "height": "64"
+  },
+  "LEDYBA": {
+    "frontPics": "gMonFrontPic_Ledyba",
+    "backPics": "gMonBackPic_Ledyba",
+    "normPalette": "gMonPalette_Ledyba",
+    "shinyPalette": "gMonShinyPalette_Ledyba",
+    "footprintPics": "gMonFootprint_Ledyba",
+    "width": "40",
+    "height": "48"
+  },
+  "LEDIAN": {
+    "frontPics": "gMonFrontPic_Ledian",
+    "backPics": "gMonBackPic_Ledian",
+    "normPalette": "gMonPalette_Ledian",
+    "shinyPalette": "gMonShinyPalette_Ledian",
+    "footprintPics": "gMonFootprint_Ledian",
+    "width": "48",
+    "height": "56"
+  },
+  "SPINARAK": {
+    "frontPics": "gMonFrontPic_Spinarak",
+    "backPics": "gMonBackPic_Spinarak",
+    "normPalette": "gMonPalette_Spinarak",
+    "shinyPalette": "gMonShinyPalette_Spinarak",
+    "footprintPics": "gMonFootprint_Spinarak",
+    "width": "40",
+    "height": "32"
+  },
+  "ARIADOS": {
+    "frontPics": "gMonFrontPic_Ariados",
+    "backPics": "gMonBackPic_Ariados",
+    "normPalette": "gMonPalette_Ariados",
+    "shinyPalette": "gMonShinyPalette_Ariados",
+    "footprintPics": "gMonFootprint_Ariados",
+    "width": "64",
+    "height": "56"
+  },
+  "CROBAT": {
+    "frontPics": "gMonFrontPic_Crobat",
+    "backPics": "gMonBackPic_Crobat",
+    "normPalette": "gMonPalette_Crobat",
+    "shinyPalette": "gMonShinyPalette_Crobat",
+    "footprintPics": "gMonFootprint_Crobat",
+    "width": "64",
+    "height": "64"
+  },
+  "CHINCHOU": {
+    "frontPics": "gMonFrontPic_Chinchou",
+    "backPics": "gMonBackPic_Chinchou",
+    "normPalette": "gMonPalette_Chinchou",
+    "shinyPalette": "gMonShinyPalette_Chinchou",
+    "footprintPics": "gMonFootprint_Chinchou",
+    "width": "56",
+    "height": "40"
+  },
+  "LANTURN": {
+    "frontPics": "gMonFrontPic_Lanturn",
+    "backPics": "gMonBackPic_Lanturn",
+    "normPalette": "gMonPalette_Lanturn",
+    "shinyPalette": "gMonShinyPalette_Lanturn",
+    "footprintPics": "gMonFootprint_Lanturn",
+    "width": "64",
+    "height": "56"
+  },
+  "PICHU": {
+    "frontPics": "gMonFrontPic_Pichu",
+    "backPics": "gMonBackPic_Pichu",
+    "normPalette": "gMonPalette_Pichu",
+    "shinyPalette": "gMonShinyPalette_Pichu",
+    "footprintPics": "gMonFootprint_Pichu",
+    "width": "32",
+    "height": "40"
+  },
+  "CLEFFA": {
+    "frontPics": "gMonFrontPic_Cleffa",
+    "backPics": "gMonBackPic_Cleffa",
+    "normPalette": "gMonPalette_Cleffa",
+    "shinyPalette": "gMonShinyPalette_Cleffa",
+    "footprintPics": "gMonFootprint_Cleffa",
+    "width": "32",
+    "height": "32"
+  },
+  "IGGLYBUFF": {
+    "frontPics": "gMonFrontPic_Igglybuff",
+    "backPics": "gMonBackPic_Igglybuff",
+    "normPalette": "gMonPalette_Igglybuff",
+    "shinyPalette": "gMonShinyPalette_Igglybuff",
+    "footprintPics": "gMonFootprint_Igglybuff",
+    "width": "32",
+    "height": "32"
+  },
+  "TOGEPI": {
+    "frontPics": "gMonFrontPic_Togepi",
+    "backPics": "gMonBackPic_Togepi",
+    "normPalette": "gMonPalette_Togepi",
+    "shinyPalette": "gMonShinyPalette_Togepi",
+    "footprintPics": "gMonFootprint_Togepi",
+    "width": "24",
+    "height": "32"
+  },
+  "TOGETIC": {
+    "frontPics": "gMonFrontPic_Togetic",
+    "backPics": "gMonBackPic_Togetic",
+    "normPalette": "gMonPalette_Togetic",
+    "shinyPalette": "gMonShinyPalette_Togetic",
+    "footprintPics": "gMonFootprint_Togetic",
+    "width": "32",
+    "height": "48"
+  },
+  "NATU": {
+    "frontPics": "gMonFrontPic_Natu",
+    "backPics": "gMonBackPic_Natu",
+    "normPalette": "gMonPalette_Natu",
+    "shinyPalette": "gMonShinyPalette_Natu",
+    "footprintPics": "gMonFootprint_Natu",
+    "width": "32",
+    "height": "32"
+  },
+  "XATU": {
+    "frontPics": "gMonFrontPic_Xatu",
+    "backPics": "gMonBackPic_Xatu",
+    "normPalette": "gMonPalette_Xatu",
+    "shinyPalette": "gMonShinyPalette_Xatu",
+    "footprintPics": "gMonFootprint_Xatu",
+    "width": "32",
+    "height": "56"
+  },
+  "MAREEP": {
+    "frontPics": "gMonFrontPic_Mareep",
+    "backPics": "gMonBackPic_Mareep",
+    "normPalette": "gMonPalette_Mareep",
+    "shinyPalette": "gMonShinyPalette_Mareep",
+    "footprintPics": "gMonFootprint_Mareep",
+    "width": "40",
+    "height": "40"
+  },
+  "FLAAFFY": {
+    "frontPics": "gMonFrontPic_Flaaffy",
+    "backPics": "gMonBackPic_Flaaffy",
+    "normPalette": "gMonPalette_Flaaffy",
+    "shinyPalette": "gMonShinyPalette_Flaaffy",
+    "footprintPics": "gMonFootprint_Flaaffy",
+    "width": "40",
+    "height": "48"
+  },
+  "AMPHAROS": {
+    "frontPics": "gMonFrontPic_Ampharos",
+    "backPics": "gMonBackPic_Ampharos",
+    "normPalette": "gMonPalette_Ampharos",
+    "shinyPalette": "gMonShinyPalette_Ampharos",
+    "footprintPics": "gMonFootprint_Ampharos",
+    "width": "56",
+    "height": "56"
+  },
+  "BELLOSSOM": {
+    "frontPics": "gMonFrontPic_Bellossom",
+    "backPics": "gMonBackPic_Bellossom",
+    "normPalette": "gMonPalette_Bellossom",
+    "shinyPalette": "gMonShinyPalette_Bellossom",
+    "footprintPics": "gMonFootprint_Bellossom",
+    "width": "32",
+    "height": "40"
+  },
+  "MARILL": {
+    "frontPics": "gMonFrontPic_Marill",
+    "backPics": "gMonBackPic_Marill",
+    "normPalette": "gMonPalette_Marill",
+    "shinyPalette": "gMonShinyPalette_Marill",
+    "footprintPics": "gMonFootprint_Marill",
+    "width": "48",
+    "height": "40"
+  },
+  "AZUMARILL": {
+    "frontPics": "gMonFrontPic_Azumarill",
+    "backPics": "gMonBackPic_Azumarill",
+    "normPalette": "gMonPalette_Azumarill",
+    "shinyPalette": "gMonShinyPalette_Azumarill",
+    "footprintPics": "gMonFootprint_Azumarill",
+    "width": "56",
+    "height": "48"
+  },
+  "SUDOWOODO": {
+    "frontPics": "gMonFrontPic_Sudowoodo",
+    "backPics": "gMonBackPic_Sudowoodo",
+    "normPalette": "gMonPalette_Sudowoodo",
+    "shinyPalette": "gMonShinyPalette_Sudowoodo",
+    "footprintPics": "gMonFootprint_Sudowoodo",
+    "width": "48",
+    "height": "56"
+  },
+  "POLITOED": {
+    "frontPics": "gMonFrontPic_Politoed",
+    "backPics": "gMonBackPic_Politoed",
+    "normPalette": "gMonPalette_Politoed",
+    "shinyPalette": "gMonShinyPalette_Politoed",
+    "footprintPics": "gMonFootprint_Politoed",
+    "width": "48",
+    "height": "56"
+  },
+  "HOPPIP": {
+    "frontPics": "gMonFrontPic_Hoppip",
+    "backPics": "gMonBackPic_Hoppip",
+    "normPalette": "gMonPalette_Hoppip",
+    "shinyPalette": "gMonShinyPalette_Hoppip",
+    "footprintPics": "gMonFootprint_Hoppip",
+    "width": "48",
+    "height": "48"
+  },
+  "SKIPLOOM": {
+    "frontPics": "gMonFrontPic_Skiploom",
+    "backPics": "gMonBackPic_Skiploom",
+    "normPalette": "gMonPalette_Skiploom",
+    "shinyPalette": "gMonShinyPalette_Skiploom",
+    "footprintPics": "gMonFootprint_Skiploom",
+    "width": "40",
+    "height": "40"
+  },
+  "JUMPLUFF": {
+    "frontPics": "gMonFrontPic_Jumpluff",
+    "backPics": "gMonBackPic_Jumpluff",
+    "normPalette": "gMonPalette_Jumpluff",
+    "shinyPalette": "gMonShinyPalette_Jumpluff",
+    "footprintPics": "gMonFootprint_Jumpluff",
+    "width": "56",
+    "height": "56"
+  },
+  "AIPOM": {
+    "frontPics": "gMonFrontPic_Aipom",
+    "backPics": "gMonBackPic_Aipom",
+    "normPalette": "gMonPalette_Aipom",
+    "shinyPalette": "gMonShinyPalette_Aipom",
+    "footprintPics": "gMonFootprint_Aipom",
+    "width": "40",
+    "height": "64"
+  },
+  "SUNKERN": {
+    "frontPics": "gMonFrontPic_Sunkern",
+    "backPics": "gMonBackPic_Sunkern",
+    "normPalette": "gMonPalette_Sunkern",
+    "shinyPalette": "gMonShinyPalette_Sunkern",
+    "footprintPics": "gMonFootprint_Sunkern",
+    "width": "32",
+    "height": "32"
+  },
+  "SUNFLORA": {
+    "frontPics": "gMonFrontPic_Sunflora",
+    "backPics": "gMonBackPic_Sunflora",
+    "normPalette": "gMonPalette_Sunflora",
+    "shinyPalette": "gMonShinyPalette_Sunflora",
+    "footprintPics": "gMonFootprint_Sunflora",
+    "width": "40",
+    "height": "48"
+  },
+  "YANMA": {
+    "frontPics": "gMonFrontPic_Yanma",
+    "backPics": "gMonBackPic_Yanma",
+    "normPalette": "gMonPalette_Yanma",
+    "shinyPalette": "gMonShinyPalette_Yanma",
+    "footprintPics": "gMonFootprint_Yanma",
+    "width": "64",
+    "height": "48"
+  },
+  "WOOPER": {
+    "frontPics": "gMonFrontPic_Wooper",
+    "backPics": "gMonBackPic_Wooper",
+    "normPalette": "gMonPalette_Wooper",
+    "shinyPalette": "gMonShinyPalette_Wooper",
+    "footprintPics": "gMonFootprint_Wooper",
+    "width": "40",
+    "height": "32"
+  },
+  "QUAGSIRE": {
+    "frontPics": "gMonFrontPic_Quagsire",
+    "backPics": "gMonBackPic_Quagsire",
+    "normPalette": "gMonPalette_Quagsire",
+    "shinyPalette": "gMonShinyPalette_Quagsire",
+    "footprintPics": "gMonFootprint_Quagsire",
+    "width": "56",
+    "height": "56"
+  },
+  "ESPEON": {
+    "frontPics": "gMonFrontPic_Espeon",
+    "backPics": "gMonBackPic_Espeon",
+    "normPalette": "gMonPalette_Espeon",
+    "shinyPalette": "gMonShinyPalette_Espeon",
+    "footprintPics": "gMonFootprint_Espeon",
+    "width": "48",
+    "height": "48"
+  },
+  "UMBREON": {
+    "frontPics": "gMonFrontPic_Umbreon",
+    "backPics": "gMonBackPic_Umbreon",
+    "normPalette": "gMonPalette_Umbreon",
+    "shinyPalette": "gMonShinyPalette_Umbreon",
+    "footprintPics": "gMonFootprint_Umbreon",
+    "width": "48",
+    "height": "56"
+  },
+  "MURKROW": {
+    "frontPics": "gMonFrontPic_Murkrow",
+    "backPics": "gMonBackPic_Murkrow",
+    "normPalette": "gMonPalette_Murkrow",
+    "shinyPalette": "gMonShinyPalette_Murkrow",
+    "footprintPics": "gMonFootprint_Murkrow",
+    "width": "48",
+    "height": "48"
+  },
+  "SLOWKING": {
+    "frontPics": "gMonFrontPic_Slowking",
+    "backPics": "gMonBackPic_Slowking",
+    "normPalette": "gMonPalette_Slowking",
+    "shinyPalette": "gMonShinyPalette_Slowking",
+    "footprintPics": "gMonFootprint_Slowking",
+    "width": "40",
+    "height": "64"
+  },
+  "MISDREAVUS": {
+    "frontPics": "gMonFrontPic_Misdreavus",
+    "backPics": "gMonBackPic_Misdreavus",
+    "normPalette": "gMonPalette_Misdreavus",
+    "shinyPalette": "gMonShinyPalette_Misdreavus",
+    "footprintPics": "gMonFootprint_Misdreavus",
+    "width": "40",
+    "height": "40"
+  },
+  "UNOWN": {
+    "frontPics": "gMonFrontPic_UnownA",
+    "backPics": "gMonBackPic_UnownA",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "footprintPics": "gMonFootprint_Unown",
+    "width": "24",
+    "height": "40"
+  },
+  "WOBBUFFET": {
+    "frontPics": "gMonFrontPic_Wobbuffet",
+    "backPics": "gMonBackPic_Wobbuffet",
+    "normPalette": "gMonPalette_Wobbuffet",
+    "shinyPalette": "gMonShinyPalette_Wobbuffet",
+    "footprintPics": "gMonFootprint_Wobbuffet",
+    "width": "56",
+    "height": "56"
+  },
+  "GIRAFARIG": {
+    "frontPics": "gMonFrontPic_Girafarig",
+    "backPics": "gMonBackPic_Girafarig",
+    "normPalette": "gMonPalette_Girafarig",
+    "shinyPalette": "gMonShinyPalette_Girafarig",
+    "footprintPics": "gMonFootprint_Girafarig",
+    "width": "64",
+    "height": "64"
+  },
+  "PINECO": {
+    "frontPics": "gMonFrontPic_Pineco",
+    "backPics": "gMonBackPic_Pineco",
+    "normPalette": "gMonPalette_Pineco",
+    "shinyPalette": "gMonShinyPalette_Pineco",
+    "footprintPics": "gMonFootprint_Pineco",
+    "width": "40",
+    "height": "48"
+  },
+  "FORRETRESS": {
+    "frontPics": "gMonFrontPic_Forretress",
+    "backPics": "gMonBackPic_Forretress",
+    "normPalette": "gMonPalette_Forretress",
+    "shinyPalette": "gMonShinyPalette_Forretress",
+    "footprintPics": "gMonFootprint_Forretress",
+    "width": "56",
+    "height": "48"
+  },
+  "DUNSPARCE": {
+    "frontPics": "gMonFrontPic_Dunsparce",
+    "backPics": "gMonBackPic_Dunsparce",
+    "normPalette": "gMonPalette_Dunsparce",
+    "shinyPalette": "gMonShinyPalette_Dunsparce",
+    "footprintPics": "gMonFootprint_Dunsparce",
+    "width": "56",
+    "height": "32"
+  },
+  "GLIGAR": {
+    "frontPics": "gMonFrontPic_Gligar",
+    "backPics": "gMonBackPic_Gligar",
+    "normPalette": "gMonPalette_Gligar",
+    "shinyPalette": "gMonShinyPalette_Gligar",
+    "footprintPics": "gMonFootprint_Gligar",
+    "width": "56",
+    "height": "64"
+  },
+  "STEELIX": {
+    "frontPics": "gMonFrontPic_Steelix",
+    "backPics": "gMonBackPic_Steelix",
+    "normPalette": "gMonPalette_Steelix",
+    "shinyPalette": "gMonShinyPalette_Steelix",
+    "footprintPics": "gMonFootprint_Steelix",
+    "width": "64",
+    "height": "64"
+  },
+  "SNUBBULL": {
+    "frontPics": "gMonFrontPic_Snubbull",
+    "backPics": "gMonBackPic_Snubbull",
+    "normPalette": "gMonPalette_Snubbull",
+    "shinyPalette": "gMonShinyPalette_Snubbull",
+    "footprintPics": "gMonFootprint_Snubbull",
+    "width": "40",
+    "height": "40"
+  },
+  "GRANBULL": {
+    "frontPics": "gMonFrontPic_Granbull",
+    "backPics": "gMonBackPic_Granbull",
+    "normPalette": "gMonPalette_Granbull",
+    "shinyPalette": "gMonShinyPalette_Granbull",
+    "footprintPics": "gMonFootprint_Granbull",
+    "width": "40",
+    "height": "56"
+  },
+  "QWILFISH": {
+    "frontPics": "gMonFrontPic_Qwilfish",
+    "backPics": "gMonBackPic_Qwilfish",
+    "normPalette": "gMonPalette_Qwilfish",
+    "shinyPalette": "gMonShinyPalette_Qwilfish",
+    "footprintPics": "gMonFootprint_Qwilfish",
+    "width": "40",
+    "height": "48"
+  },
+  "SCIZOR": {
+    "frontPics": "gMonFrontPic_Scizor",
+    "backPics": "gMonBackPic_Scizor",
+    "normPalette": "gMonPalette_Scizor",
+    "shinyPalette": "gMonShinyPalette_Scizor",
+    "footprintPics": "gMonFootprint_Scizor",
+    "width": "64",
+    "height": "64"
+  },
+  "SHUCKLE": {
+    "frontPics": "gMonFrontPic_Shuckle",
+    "backPics": "gMonBackPic_Shuckle",
+    "normPalette": "gMonPalette_Shuckle",
+    "shinyPalette": "gMonShinyPalette_Shuckle",
+    "footprintPics": "gMonFootprint_Shuckle",
+    "width": "48",
+    "height": "48"
+  },
+  "HERACROSS": {
+    "frontPics": "gMonFrontPic_Heracross",
+    "backPics": "gMonBackPic_Heracross",
+    "normPalette": "gMonPalette_Heracross",
+    "shinyPalette": "gMonShinyPalette_Heracross",
+    "footprintPics": "gMonFootprint_Heracross",
+    "width": "64",
+    "height": "64"
+  },
+  "SNEASEL": {
+    "frontPics": "gMonFrontPic_Sneasel",
+    "backPics": "gMonBackPic_Sneasel",
+    "normPalette": "gMonPalette_Sneasel",
+    "shinyPalette": "gMonShinyPalette_Sneasel",
+    "footprintPics": "gMonFootprint_Sneasel",
+    "width": "48",
+    "height": "56"
+  },
+  "TEDDIURSA": {
+    "frontPics": "gMonFrontPic_Teddiursa",
+    "backPics": "gMonBackPic_Teddiursa",
+    "normPalette": "gMonPalette_Teddiursa",
+    "shinyPalette": "gMonShinyPalette_Teddiursa",
+    "footprintPics": "gMonFootprint_Teddiursa",
+    "width": "32",
+    "height": "48"
+  },
+  "URSARING": {
+    "frontPics": "gMonFrontPic_Ursaring",
+    "backPics": "gMonBackPic_Ursaring",
+    "normPalette": "gMonPalette_Ursaring",
+    "shinyPalette": "gMonShinyPalette_Ursaring",
+    "footprintPics": "gMonFootprint_Ursaring",
+    "width": "56",
+    "height": "64"
+  },
+  "SLUGMA": {
+    "frontPics": "gMonFrontPic_Slugma",
+    "backPics": "gMonBackPic_Slugma",
+    "normPalette": "gMonPalette_Slugma",
+    "shinyPalette": "gMonShinyPalette_Slugma",
+    "footprintPics": "gMonFootprint_Slugma",
+    "width": "32",
+    "height": "40"
+  },
+  "MAGCARGO": {
+    "frontPics": "gMonFrontPic_Magcargo",
+    "backPics": "gMonBackPic_Magcargo",
+    "normPalette": "gMonPalette_Magcargo",
+    "shinyPalette": "gMonShinyPalette_Magcargo",
+    "footprintPics": "gMonFootprint_Magcargo",
+    "width": "40",
+    "height": "56"
+  },
+  "SWINUB": {
+    "frontPics": "gMonFrontPic_Swinub",
+    "backPics": "gMonBackPic_Swinub",
+    "normPalette": "gMonPalette_Swinub",
+    "shinyPalette": "gMonShinyPalette_Swinub",
+    "footprintPics": "gMonFootprint_Swinub",
+    "width": "32",
+    "height": "24"
+  },
+  "PILOSWINE": {
+    "frontPics": "gMonFrontPic_Piloswine",
+    "backPics": "gMonBackPic_Piloswine",
+    "normPalette": "gMonPalette_Piloswine",
+    "shinyPalette": "gMonShinyPalette_Piloswine",
+    "footprintPics": "gMonFootprint_Piloswine",
+    "width": "48",
+    "height": "48"
+  },
+  "CORSOLA": {
+    "frontPics": "gMonFrontPic_Corsola",
+    "backPics": "gMonBackPic_Corsola",
+    "normPalette": "gMonPalette_Corsola",
+    "shinyPalette": "gMonShinyPalette_Corsola",
+    "footprintPics": "gMonFootprint_Corsola",
+    "width": "48",
+    "height": "40"
+  },
+  "REMORAID": {
+    "frontPics": "gMonFrontPic_Remoraid",
+    "backPics": "gMonBackPic_Remoraid",
+    "normPalette": "gMonPalette_Remoraid",
+    "shinyPalette": "gMonShinyPalette_Remoraid",
+    "footprintPics": "gMonFootprint_Remoraid",
+    "width": "40",
+    "height": "40"
+  },
+  "OCTILLERY": {
+    "frontPics": "gMonFrontPic_Octillery",
+    "backPics": "gMonBackPic_Octillery",
+    "normPalette": "gMonPalette_Octillery",
+    "shinyPalette": "gMonShinyPalette_Octillery",
+    "footprintPics": "gMonFootprint_Octillery",
+    "width": "48",
+    "height": "48"
+  },
+  "DELIBIRD": {
+    "frontPics": "gMonFrontPic_Delibird",
+    "backPics": "gMonBackPic_Delibird",
+    "normPalette": "gMonPalette_Delibird",
+    "shinyPalette": "gMonShinyPalette_Delibird",
+    "footprintPics": "gMonFootprint_Delibird",
+    "width": "40",
+    "height": "48"
+  },
+  "MANTINE": {
+    "frontPics": "gMonFrontPic_Mantine",
+    "backPics": "gMonBackPic_Mantine",
+    "normPalette": "gMonPalette_Mantine",
+    "shinyPalette": "gMonShinyPalette_Mantine",
+    "footprintPics": "gMonFootprint_Mantine",
+    "width": "64",
+    "height": "64"
+  },
+  "SKARMORY": {
+    "frontPics": "gMonFrontPic_Skarmory",
+    "backPics": "gMonBackPic_Skarmory",
+    "normPalette": "gMonPalette_Skarmory",
+    "shinyPalette": "gMonShinyPalette_Skarmory",
+    "footprintPics": "gMonFootprint_Skarmory",
+    "width": "64",
+    "height": "64"
+  },
+  "HOUNDOUR": {
+    "frontPics": "gMonFrontPic_Houndour",
+    "backPics": "gMonBackPic_Houndour",
+    "normPalette": "gMonPalette_Houndour",
+    "shinyPalette": "gMonShinyPalette_Houndour",
+    "footprintPics": "gMonFootprint_Houndour",
+    "width": "40",
+    "height": "48"
+  },
+  "HOUNDOOM": {
+    "frontPics": "gMonFrontPic_Houndoom",
+    "backPics": "gMonBackPic_Houndoom",
+    "normPalette": "gMonPalette_Houndoom",
+    "shinyPalette": "gMonShinyPalette_Houndoom",
+    "footprintPics": "gMonFootprint_Houndoom",
+    "width": "56",
+    "height": "56"
+  },
+  "KINGDRA": {
+    "frontPics": "gMonFrontPic_Kingdra",
+    "backPics": "gMonBackPic_Kingdra",
+    "normPalette": "gMonPalette_Kingdra",
+    "shinyPalette": "gMonShinyPalette_Kingdra",
+    "footprintPics": "gMonFootprint_Kingdra",
+    "width": "56",
+    "height": "64"
+  },
+  "PHANPY": {
+    "frontPics": "gMonFrontPic_Phanpy",
+    "backPics": "gMonBackPic_Phanpy",
+    "normPalette": "gMonPalette_Phanpy",
+    "shinyPalette": "gMonShinyPalette_Phanpy",
+    "footprintPics": "gMonFootprint_Phanpy",
+    "width": "40",
+    "height": "32"
+  },
+  "DONPHAN": {
+    "frontPics": "gMonFrontPic_Donphan",
+    "backPics": "gMonBackPic_Donphan",
+    "normPalette": "gMonPalette_Donphan",
+    "shinyPalette": "gMonShinyPalette_Donphan",
+    "footprintPics": "gMonFootprint_Donphan",
+    "width": "64",
+    "height": "48"
+  },
+  "PORYGON2": {
+    "frontPics": "gMonFrontPic_Porygon2",
+    "backPics": "gMonBackPic_Porygon2",
+    "normPalette": "gMonPalette_Porygon2",
+    "shinyPalette": "gMonShinyPalette_Porygon2",
+    "footprintPics": "gMonFootprint_Porygon2",
+    "width": "40",
+    "height": "40"
+  },
+  "STANTLER": {
+    "frontPics": "gMonFrontPic_Stantler",
+    "backPics": "gMonBackPic_Stantler",
+    "normPalette": "gMonPalette_Stantler",
+    "shinyPalette": "gMonShinyPalette_Stantler",
+    "footprintPics": "gMonFootprint_Stantler",
+    "width": "64",
+    "height": "64"
+  },
+  "SMEARGLE": {
+    "frontPics": "gMonFrontPic_Smeargle",
+    "backPics": "gMonBackPic_Smeargle",
+    "normPalette": "gMonPalette_Smeargle",
+    "shinyPalette": "gMonShinyPalette_Smeargle",
+    "footprintPics": "gMonFootprint_Smeargle",
+    "width": "56",
+    "height": "56"
+  },
+  "TYROGUE": {
+    "frontPics": "gMonFrontPic_Tyrogue",
+    "backPics": "gMonBackPic_Tyrogue",
+    "normPalette": "gMonPalette_Tyrogue",
+    "shinyPalette": "gMonShinyPalette_Tyrogue",
+    "footprintPics": "gMonFootprint_Tyrogue",
+    "width": "32",
+    "height": "48"
+  },
+  "HITMONTOP": {
+    "frontPics": "gMonFrontPic_Hitmontop",
+    "backPics": "gMonBackPic_Hitmontop",
+    "normPalette": "gMonPalette_Hitmontop",
+    "shinyPalette": "gMonShinyPalette_Hitmontop",
+    "footprintPics": "gMonFootprint_Hitmontop",
+    "width": "48",
+    "height": "56"
+  },
+  "SMOOCHUM": {
+    "frontPics": "gMonFrontPic_Smoochum",
+    "backPics": "gMonBackPic_Smoochum",
+    "normPalette": "gMonPalette_Smoochum",
+    "shinyPalette": "gMonShinyPalette_Smoochum",
+    "footprintPics": "gMonFootprint_Smoochum",
+    "width": "24",
+    "height": "40"
+  },
+  "ELEKID": {
+    "frontPics": "gMonFrontPic_Elekid",
+    "backPics": "gMonBackPic_Elekid",
+    "normPalette": "gMonPalette_Elekid",
+    "shinyPalette": "gMonShinyPalette_Elekid",
+    "footprintPics": "gMonFootprint_Elekid",
+    "width": "56",
+    "height": "48"
+  },
+  "MAGBY": {
+    "frontPics": "gMonFrontPic_Magby",
+    "backPics": "gMonBackPic_Magby",
+    "normPalette": "gMonPalette_Magby",
+    "shinyPalette": "gMonShinyPalette_Magby",
+    "footprintPics": "gMonFootprint_Magby",
+    "width": "32",
+    "height": "40"
+  },
+  "MILTANK": {
+    "frontPics": "gMonFrontPic_Miltank",
+    "backPics": "gMonBackPic_Miltank",
+    "normPalette": "gMonPalette_Miltank",
+    "shinyPalette": "gMonShinyPalette_Miltank",
+    "footprintPics": "gMonFootprint_Miltank",
+    "width": "56",
+    "height": "56"
+  },
+  "BLISSEY": {
+    "frontPics": "gMonFrontPic_Blissey",
+    "backPics": "gMonBackPic_Blissey",
+    "normPalette": "gMonPalette_Blissey",
+    "shinyPalette": "gMonShinyPalette_Blissey",
+    "footprintPics": "gMonFootprint_Blissey",
+    "width": "56",
+    "height": "56"
+  },
+  "RAIKOU": {
+    "frontPics": "gMonFrontPic_Raikou",
+    "backPics": "gMonBackPic_Raikou",
+    "normPalette": "gMonPalette_Raikou",
+    "shinyPalette": "gMonShinyPalette_Raikou",
+    "footprintPics": "gMonFootprint_Raikou",
+    "width": "64",
+    "height": "64"
+  },
+  "ENTEI": {
+    "frontPics": "gMonFrontPic_Entei",
+    "backPics": "gMonBackPic_Entei",
+    "normPalette": "gMonPalette_Entei",
+    "shinyPalette": "gMonShinyPalette_Entei",
+    "footprintPics": "gMonFootprint_Entei",
+    "width": "64",
+    "height": "64"
+  },
+  "SUICUNE": {
+    "frontPics": "gMonFrontPic_Suicune",
+    "backPics": "gMonBackPic_Suicune",
+    "normPalette": "gMonPalette_Suicune",
+    "shinyPalette": "gMonShinyPalette_Suicune",
+    "footprintPics": "gMonFootprint_Suicune",
+    "width": "64",
+    "height": "64"
+  },
+  "LARVITAR": {
+    "frontPics": "gMonFrontPic_Larvitar",
+    "backPics": "gMonBackPic_Larvitar",
+    "normPalette": "gMonPalette_Larvitar",
+    "shinyPalette": "gMonShinyPalette_Larvitar",
+    "footprintPics": "gMonFootprint_Larvitar",
+    "width": "32",
+    "height": "48"
+  },
+  "PUPITAR": {
+    "frontPics": "gMonFrontPic_Pupitar",
+    "backPics": "gMonBackPic_Pupitar",
+    "normPalette": "gMonPalette_Pupitar",
+    "shinyPalette": "gMonShinyPalette_Pupitar",
+    "footprintPics": "gMonFootprint_Pupitar",
+    "width": "40",
+    "height": "48"
+  },
+  "TYRANITAR": {
+    "frontPics": "gMonFrontPic_Tyranitar",
+    "backPics": "gMonBackPic_Tyranitar",
+    "normPalette": "gMonPalette_Tyranitar",
+    "shinyPalette": "gMonShinyPalette_Tyranitar",
+    "footprintPics": "gMonFootprint_Tyranitar",
+    "width": "64",
+    "height": "64"
+  },
+  "LUGIA": {
+    "frontPics": "gMonFrontPic_Lugia",
+    "backPics": "gMonBackPic_Lugia",
+    "normPalette": "gMonPalette_Lugia",
+    "shinyPalette": "gMonShinyPalette_Lugia",
+    "footprintPics": "gMonFootprint_Lugia",
+    "width": "64",
+    "height": "64"
+  },
+  "HO_OH": {
+    "frontPics": "gMonFrontPic_HoOh",
+    "backPics": "gMonBackPic_HoOh",
+    "normPalette": "gMonPalette_HoOh",
+    "shinyPalette": "gMonShinyPalette_HoOh",
+    "footprintPics": "gMonFootprint_HoOh",
+    "width": "64",
+    "height": "64"
+  },
+  "CELEBI": {
+    "frontPics": "gMonFrontPic_Celebi",
+    "backPics": "gMonBackPic_Celebi",
+    "normPalette": "gMonPalette_Celebi",
+    "shinyPalette": "gMonShinyPalette_Celebi",
+    "footprintPics": "gMonFootprint_Celebi",
+    "width": "40",
+    "height": "40"
+  },
+  "OLD_UNOWN_B": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_C": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_D": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_E": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_F": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_G": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_H": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_I": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_J": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_K": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_L": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_M": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_N": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_O": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_P": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_Q": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_R": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_S": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_T": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_U": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_V": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_W": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_X": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_Y": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "OLD_UNOWN_Z": {
+    "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "backPics": "gMonBackPic_DoubleQuestionMark",
+    "normPalette": "gMonPalette_DoubleQuestionMark",
+    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
+    "footprintPics": "gMonFootprint_QuestionMark",
+    "width": "64",
+    "height": "64"
+  },
+  "TREECKO": {
+    "frontPics": "gMonFrontPic_Treecko",
+    "backPics": "gMonBackPic_Treecko",
+    "normPalette": "gMonPalette_Treecko",
+    "shinyPalette": "gMonShinyPalette_Treecko",
+    "footprintPics": "gMonFootprint_Treecko",
+    "width": "48",
+    "height": "48"
+  },
+  "GROVYLE": {
+    "frontPics": "gMonFrontPic_Grovyle",
+    "backPics": "gMonBackPic_Grovyle",
+    "normPalette": "gMonPalette_Grovyle",
+    "shinyPalette": "gMonShinyPalette_Grovyle",
+    "footprintPics": "gMonFootprint_Grovyle",
+    "width": "64",
+    "height": "56"
+  },
+  "SCEPTILE": {
+    "frontPics": "gMonFrontPic_Sceptile",
+    "backPics": "gMonBackPic_Sceptile",
+    "normPalette": "gMonPalette_Sceptile",
+    "shinyPalette": "gMonShinyPalette_Sceptile",
+    "footprintPics": "gMonFootprint_Sceptile",
+    "width": "64",
+    "height": "64"
+  },
+  "TORCHIC": {
+    "frontPics": "gMonFrontPic_Torchic",
+    "backPics": "gMonBackPic_Torchic",
+    "normPalette": "gMonPalette_Torchic",
+    "shinyPalette": "gMonShinyPalette_Torchic",
+    "footprintPics": "gMonFootprint_Torchic",
+    "width": "40",
+    "height": "48"
+  },
+  "COMBUSKEN": {
+    "frontPics": "gMonFrontPic_Combusken",
+    "backPics": "gMonBackPic_Combusken",
+    "normPalette": "gMonPalette_Combusken",
+    "shinyPalette": "gMonShinyPalette_Combusken",
+    "footprintPics": "gMonFootprint_Combusken",
+    "width": "64",
+    "height": "64"
+  },
+  "BLAZIKEN": {
+    "frontPics": "gMonFrontPic_Blaziken",
+    "backPics": "gMonBackPic_Blaziken",
+    "normPalette": "gMonPalette_Blaziken",
+    "shinyPalette": "gMonShinyPalette_Blaziken",
+    "footprintPics": "gMonFootprint_Blaziken",
+    "width": "64",
+    "height": "64"
+  },
+  "MUDKIP": {
+    "frontPics": "gMonFrontPic_Mudkip",
+    "backPics": "gMonBackPic_Mudkip",
+    "normPalette": "gMonPalette_Mudkip",
+    "shinyPalette": "gMonShinyPalette_Mudkip",
+    "footprintPics": "gMonFootprint_Mudkip",
+    "width": "40",
+    "height": "48"
+  },
+  "MARSHTOMP": {
+    "frontPics": "gMonFrontPic_Marshtomp",
+    "backPics": "gMonBackPic_Marshtomp",
+    "normPalette": "gMonPalette_Marshtomp",
+    "shinyPalette": "gMonShinyPalette_Marshtomp",
+    "footprintPics": "gMonFootprint_Marshtomp",
+    "width": "48",
+    "height": "56"
+  },
+  "SWAMPERT": {
+    "frontPics": "gMonFrontPic_Swampert",
+    "backPics": "gMonBackPic_Swampert",
+    "normPalette": "gMonPalette_Swampert",
+    "shinyPalette": "gMonShinyPalette_Swampert",
+    "footprintPics": "gMonFootprint_Swampert",
+    "width": "64",
+    "height": "64"
+  },
+  "POOCHYENA": {
+    "frontPics": "gMonFrontPic_Poochyena",
+    "backPics": "gMonBackPic_Poochyena",
+    "normPalette": "gMonPalette_Poochyena",
+    "shinyPalette": "gMonShinyPalette_Poochyena",
+    "footprintPics": "gMonFootprint_Poochyena",
+    "width": "40",
+    "height": "40"
+  },
+  "MIGHTYENA": {
+    "frontPics": "gMonFrontPic_Mightyena",
+    "backPics": "gMonBackPic_Mightyena",
+    "normPalette": "gMonPalette_Mightyena",
+    "shinyPalette": "gMonShinyPalette_Mightyena",
+    "footprintPics": "gMonFootprint_Mightyena",
+    "width": "64",
+    "height": "56"
+  },
+  "ZIGZAGOON": {
+    "frontPics": "gMonFrontPic_Zigzagoon",
+    "backPics": "gMonBackPic_Zigzagoon",
+    "normPalette": "gMonPalette_Zigzagoon",
+    "shinyPalette": "gMonShinyPalette_Zigzagoon",
+    "footprintPics": "gMonFootprint_Zigzagoon",
+    "width": "64",
+    "height": "40"
+  },
+  "LINOONE": {
+    "frontPics": "gMonFrontPic_Linoone",
+    "backPics": "gMonBackPic_Linoone",
+    "normPalette": "gMonPalette_Linoone",
+    "shinyPalette": "gMonShinyPalette_Linoone",
+    "footprintPics": "gMonFootprint_Linoone",
+    "width": "56",
+    "height": "64"
+  },
+  "WURMPLE": {
+    "frontPics": "gMonFrontPic_Wurmple",
+    "backPics": "gMonBackPic_Wurmple",
+    "normPalette": "gMonPalette_Wurmple",
+    "shinyPalette": "gMonShinyPalette_Wurmple",
+    "footprintPics": "gMonFootprint_Wurmple",
+    "width": "32",
+    "height": "40"
+  },
+  "SILCOON": {
+    "frontPics": "gMonFrontPic_Silcoon",
+    "backPics": "gMonBackPic_Silcoon",
+    "normPalette": "gMonPalette_Silcoon",
+    "shinyPalette": "gMonShinyPalette_Silcoon",
+    "footprintPics": "gMonFootprint_Silcoon",
+    "width": "56",
+    "height": "40"
+  },
+  "BEAUTIFLY": {
+    "frontPics": "gMonFrontPic_Beautifly",
+    "backPics": "gMonBackPic_Beautifly",
+    "normPalette": "gMonPalette_Beautifly",
+    "shinyPalette": "gMonShinyPalette_Beautifly",
+    "footprintPics": "gMonFootprint_Beautifly",
+    "width": "64",
+    "height": "48"
+  },
+  "CASCOON": {
+    "frontPics": "gMonFrontPic_Cascoon",
+    "backPics": "gMonBackPic_Cascoon",
+    "normPalette": "gMonPalette_Cascoon",
+    "shinyPalette": "gMonShinyPalette_Cascoon",
+    "footprintPics": "gMonFootprint_Cascoon",
+    "width": "56",
+    "height": "32"
+  },
+  "DUSTOX": {
+    "frontPics": "gMonFrontPic_Dustox",
+    "backPics": "gMonBackPic_Dustox",
+    "normPalette": "gMonPalette_Dustox",
+    "shinyPalette": "gMonShinyPalette_Dustox",
+    "footprintPics": "gMonFootprint_Dustox",
+    "width": "64",
+    "height": "48"
+  },
+  "LOTAD": {
+    "frontPics": "gMonFrontPic_Lotad",
+    "backPics": "gMonBackPic_Lotad",
+    "normPalette": "gMonPalette_Lotad",
+    "shinyPalette": "gMonShinyPalette_Lotad",
+    "footprintPics": "gMonFootprint_Lotad",
+    "width": "48",
+    "height": "40"
+  },
+  "LOMBRE": {
+    "frontPics": "gMonFrontPic_Lombre",
+    "backPics": "gMonBackPic_Lombre",
+    "normPalette": "gMonPalette_Lombre",
+    "shinyPalette": "gMonShinyPalette_Lombre",
+    "footprintPics": "gMonFootprint_Lombre",
+    "width": "48",
+    "height": "48"
+  },
+  "LUDICOLO": {
+    "frontPics": "gMonFrontPic_Ludicolo",
+    "backPics": "gMonBackPic_Ludicolo",
+    "normPalette": "gMonPalette_Ludicolo",
+    "shinyPalette": "gMonShinyPalette_Ludicolo",
+    "footprintPics": "gMonFootprint_Ludicolo",
+    "width": "64",
+    "height": "64"
+  },
+  "SEEDOT": {
+    "frontPics": "gMonFrontPic_Seedot",
+    "backPics": "gMonBackPic_Seedot",
+    "normPalette": "gMonPalette_Seedot",
+    "shinyPalette": "gMonShinyPalette_Seedot",
+    "footprintPics": "gMonFootprint_Seedot",
+    "width": "32",
+    "height": "48"
+  },
+  "NUZLEAF": {
+    "frontPics": "gMonFrontPic_Nuzleaf",
+    "backPics": "gMonBackPic_Nuzleaf",
+    "normPalette": "gMonPalette_Nuzleaf",
+    "shinyPalette": "gMonShinyPalette_Nuzleaf",
+    "footprintPics": "gMonFootprint_Nuzleaf",
+    "width": "40",
+    "height": "48"
+  },
+  "SHIFTRY": {
+    "frontPics": "gMonFrontPic_Shiftry",
+    "backPics": "gMonBackPic_Shiftry",
+    "normPalette": "gMonPalette_Shiftry",
+    "shinyPalette": "gMonShinyPalette_Shiftry",
+    "footprintPics": "gMonFootprint_Shiftry",
+    "width": "64",
+    "height": "64"
+  },
+  "NINCADA": {
+    "frontPics": "gMonFrontPic_Nincada",
+    "backPics": "gMonBackPic_Nincada",
+    "normPalette": "gMonPalette_Nincada",
+    "shinyPalette": "gMonShinyPalette_Nincada",
+    "footprintPics": "gMonFootprint_Nincada",
+    "width": "56",
+    "height": "32"
+  },
+  "NINJASK": {
+    "frontPics": "gMonFrontPic_Ninjask",
+    "backPics": "gMonBackPic_Ninjask",
+    "normPalette": "gMonPalette_Ninjask",
+    "shinyPalette": "gMonShinyPalette_Ninjask",
+    "footprintPics": "gMonFootprint_Ninjask",
+    "width": "64",
+    "height": "48"
+  },
+  "SHEDINJA": {
+    "frontPics": "gMonFrontPic_Shedinja",
+    "backPics": "gMonBackPic_Shedinja",
+    "normPalette": "gMonPalette_Shedinja",
+    "shinyPalette": "gMonShinyPalette_Shedinja",
+    "footprintPics": "gMonFootprint_Shedinja",
+    "width": "48",
+    "height": "48"
+  },
+  "TAILLOW": {
+    "frontPics": "gMonFrontPic_Taillow",
+    "backPics": "gMonBackPic_Taillow",
+    "normPalette": "gMonPalette_Taillow",
+    "shinyPalette": "gMonShinyPalette_Taillow",
+    "footprintPics": "gMonFootprint_Taillow",
+    "width": "48",
+    "height": "32"
+  },
+  "SWELLOW": {
+    "frontPics": "gMonFrontPic_Swellow",
+    "backPics": "gMonBackPic_Swellow",
+    "normPalette": "gMonPalette_Swellow",
+    "shinyPalette": "gMonShinyPalette_Swellow",
+    "footprintPics": "gMonFootprint_Swellow",
+    "width": "64",
+    "height": "56"
+  },
+  "SHROOMISH": {
+    "frontPics": "gMonFrontPic_Shroomish",
+    "backPics": "gMonBackPic_Shroomish",
+    "normPalette": "gMonPalette_Shroomish",
+    "shinyPalette": "gMonShinyPalette_Shroomish",
+    "footprintPics": "gMonFootprint_Shroomish",
+    "width": "40",
+    "height": "32"
+  },
+  "BRELOOM": {
+    "frontPics": "gMonFrontPic_Breloom",
+    "backPics": "gMonBackPic_Breloom",
+    "normPalette": "gMonPalette_Breloom",
+    "shinyPalette": "gMonShinyPalette_Breloom",
+    "footprintPics": "gMonFootprint_Breloom",
+    "width": "56",
+    "height": "56"
+  },
+  "SPINDA": {
+    "frontPics": "gMonFrontPic_Spinda",
+    "backPics": "gMonBackPic_Spinda",
+    "normPalette": "gMonPalette_Spinda",
+    "shinyPalette": "gMonShinyPalette_Spinda",
+    "footprintPics": "gMonFootprint_Spinda",
+    "width": "48",
+    "height": "56"
+  },
+  "WINGULL": {
+    "frontPics": "gMonFrontPic_Wingull",
+    "backPics": "gMonBackPic_Wingull",
+    "normPalette": "gMonPalette_Wingull",
+    "shinyPalette": "gMonShinyPalette_Wingull",
+    "footprintPics": "gMonFootprint_Wingull",
+    "width": "64",
+    "height": "32"
+  },
+  "PELIPPER": {
+    "frontPics": "gMonFrontPic_Pelipper",
+    "backPics": "gMonBackPic_Pelipper",
+    "normPalette": "gMonPalette_Pelipper",
+    "shinyPalette": "gMonShinyPalette_Pelipper",
+    "footprintPics": "gMonFootprint_Pelipper",
+    "width": "56",
+    "height": "56"
+  },
+  "SURSKIT": {
+    "frontPics": "gMonFrontPic_Surskit",
+    "backPics": "gMonBackPic_Surskit",
+    "normPalette": "gMonPalette_Surskit",
+    "shinyPalette": "gMonShinyPalette_Surskit",
+    "footprintPics": "gMonFootprint_Surskit",
+    "width": "48",
+    "height": "40"
+  },
+  "MASQUERAIN": {
+    "frontPics": "gMonFrontPic_Masquerain",
+    "backPics": "gMonBackPic_Masquerain",
+    "normPalette": "gMonPalette_Masquerain",
+    "shinyPalette": "gMonShinyPalette_Masquerain",
+    "footprintPics": "gMonFootprint_Masquerain",
+    "width": "64",
+    "height": "64"
+  },
+  "WAILMER": {
+    "frontPics": "gMonFrontPic_Wailmer",
+    "backPics": "gMonBackPic_Wailmer",
+    "normPalette": "gMonPalette_Wailmer",
+    "shinyPalette": "gMonShinyPalette_Wailmer",
+    "footprintPics": "gMonFootprint_Wailmer",
+    "width": "56",
+    "height": "40"
+  },
+  "WAILORD": {
+    "frontPics": "gMonFrontPic_Wailord",
+    "backPics": "gMonBackPic_Wailord",
+    "normPalette": "gMonPalette_Wailord",
+    "shinyPalette": "gMonShinyPalette_Wailord",
+    "footprintPics": "gMonFootprint_Wailord",
+    "width": "64",
+    "height": "56"
+  },
+  "SKITTY": {
+    "frontPics": "gMonFrontPic_Skitty",
+    "backPics": "gMonBackPic_Skitty",
+    "normPalette": "gMonPalette_Skitty",
+    "shinyPalette": "gMonShinyPalette_Skitty",
+    "footprintPics": "gMonFootprint_Skitty",
+    "width": "48",
+    "height": "48"
+  },
+  "DELCATTY": {
+    "frontPics": "gMonFrontPic_Delcatty",
+    "backPics": "gMonBackPic_Delcatty",
+    "normPalette": "gMonPalette_Delcatty",
+    "shinyPalette": "gMonShinyPalette_Delcatty",
+    "footprintPics": "gMonFootprint_Delcatty",
+    "width": "48",
+    "height": "48"
+  },
+  "KECLEON": {
+    "frontPics": "gMonFrontPic_Kecleon",
+    "backPics": "gMonBackPic_Kecleon",
+    "normPalette": "gMonPalette_Kecleon",
+    "shinyPalette": "gMonShinyPalette_Kecleon",
+    "footprintPics": "gMonFootprint_Kecleon",
+    "width": "48",
+    "height": "56"
+  },
+  "BALTOY": {
+    "frontPics": "gMonFrontPic_Baltoy",
+    "backPics": "gMonBackPic_Baltoy",
+    "normPalette": "gMonPalette_Baltoy",
+    "shinyPalette": "gMonShinyPalette_Baltoy",
+    "footprintPics": "gMonFootprint_Baltoy",
+    "width": "40",
+    "height": "40"
+  },
+  "CLAYDOL": {
+    "frontPics": "gMonFrontPic_Claydol",
+    "backPics": "gMonBackPic_Claydol",
+    "normPalette": "gMonPalette_Claydol",
+    "shinyPalette": "gMonShinyPalette_Claydol",
+    "footprintPics": "gMonFootprint_Claydol",
+    "width": "56",
+    "height": "64"
+  },
+  "NOSEPASS": {
+    "frontPics": "gMonFrontPic_Nosepass",
+    "backPics": "gMonBackPic_Nosepass",
+    "normPalette": "gMonPalette_Nosepass",
+    "shinyPalette": "gMonShinyPalette_Nosepass",
+    "footprintPics": "gMonFootprint_Nosepass",
+    "width": "40",
+    "height": "48"
+  },
+  "TORKOAL": {
+    "frontPics": "gMonFrontPic_Torkoal",
+    "backPics": "gMonBackPic_Torkoal",
+    "normPalette": "gMonPalette_Torkoal",
+    "shinyPalette": "gMonShinyPalette_Torkoal",
+    "footprintPics": "gMonFootprint_Torkoal",
+    "width": "64",
+    "height": "64"
+  },
+  "SABLEYE": {
+    "frontPics": "gMonFrontPic_Sableye",
+    "backPics": "gMonBackPic_Sableye",
+    "normPalette": "gMonPalette_Sableye",
+    "shinyPalette": "gMonShinyPalette_Sableye",
+    "footprintPics": "gMonFootprint_Sableye",
+    "width": "48",
+    "height": "48"
+  },
+  "BARBOACH": {
+    "frontPics": "gMonFrontPic_Barboach",
+    "backPics": "gMonBackPic_Barboach",
+    "normPalette": "gMonPalette_Barboach",
+    "shinyPalette": "gMonShinyPalette_Barboach",
+    "footprintPics": "gMonFootprint_Barboach",
+    "width": "32",
+    "height": "48"
+  },
+  "WHISCASH": {
+    "frontPics": "gMonFrontPic_Whiscash",
+    "backPics": "gMonBackPic_Whiscash",
+    "normPalette": "gMonPalette_Whiscash",
+    "shinyPalette": "gMonShinyPalette_Whiscash",
+    "footprintPics": "gMonFootprint_Whiscash",
+    "width": "56",
+    "height": "48"
+  },
+  "LUVDISC": {
+    "frontPics": "gMonFrontPic_Luvdisc",
+    "backPics": "gMonBackPic_Luvdisc",
+    "normPalette": "gMonPalette_Luvdisc",
+    "shinyPalette": "gMonShinyPalette_Luvdisc",
+    "footprintPics": "gMonFootprint_Luvdisc",
+    "width": "32",
+    "height": "48"
+  },
+  "CORPHISH": {
+    "frontPics": "gMonFrontPic_Corphish",
+    "backPics": "gMonBackPic_Corphish",
+    "normPalette": "gMonPalette_Corphish",
+    "shinyPalette": "gMonShinyPalette_Corphish",
+    "footprintPics": "gMonFootprint_Corphish",
+    "width": "48",
+    "height": "48"
+  },
+  "CRAWDAUNT": {
+    "frontPics": "gMonFrontPic_Crawdaunt",
+    "backPics": "gMonBackPic_Crawdaunt",
+    "normPalette": "gMonPalette_Crawdaunt",
+    "shinyPalette": "gMonShinyPalette_Crawdaunt",
+    "footprintPics": "gMonFootprint_Crawdaunt",
+    "width": "64",
+    "height": "64"
+  },
+  "FEEBAS": {
+    "frontPics": "gMonFrontPic_Feebas",
+    "backPics": "gMonBackPic_Feebas",
+    "normPalette": "gMonPalette_Feebas",
+    "shinyPalette": "gMonShinyPalette_Feebas",
+    "footprintPics": "gMonFootprint_Feebas",
+    "width": "32",
+    "height": "48"
+  },
+  "MILOTIC": {
+    "frontPics": "gMonFrontPic_Milotic",
+    "backPics": "gMonBackPic_Milotic",
+    "normPalette": "gMonPalette_Milotic",
+    "shinyPalette": "gMonShinyPalette_Milotic",
+    "footprintPics": "gMonFootprint_Milotic",
+    "width": "64",
+    "height": "64"
+  },
+  "CARVANHA": {
+    "frontPics": "gMonFrontPic_Carvanha",
+    "backPics": "gMonBackPic_Carvanha",
+    "normPalette": "gMonPalette_Carvanha",
+    "shinyPalette": "gMonShinyPalette_Carvanha",
+    "footprintPics": "gMonFootprint_Carvanha",
+    "width": "48",
+    "height": "56"
+  },
+  "SHARPEDO": {
+    "frontPics": "gMonFrontPic_Sharpedo",
+    "backPics": "gMonBackPic_Sharpedo",
+    "normPalette": "gMonPalette_Sharpedo",
+    "shinyPalette": "gMonShinyPalette_Sharpedo",
+    "footprintPics": "gMonFootprint_Sharpedo",
+    "width": "56",
+    "height": "64"
+  },
+  "TRAPINCH": {
+    "frontPics": "gMonFrontPic_Trapinch",
+    "backPics": "gMonBackPic_Trapinch",
+    "normPalette": "gMonPalette_Trapinch",
+    "shinyPalette": "gMonShinyPalette_Trapinch",
+    "footprintPics": "gMonFootprint_Trapinch",
+    "width": "40",
+    "height": "32"
+  },
+  "VIBRAVA": {
+    "frontPics": "gMonFrontPic_Vibrava",
+    "backPics": "gMonBackPic_Vibrava",
+    "normPalette": "gMonPalette_Vibrava",
+    "shinyPalette": "gMonShinyPalette_Vibrava",
+    "footprintPics": "gMonFootprint_Vibrava",
+    "width": "64",
+    "height": "48"
+  },
+  "FLYGON": {
+    "frontPics": "gMonFrontPic_Flygon",
+    "backPics": "gMonBackPic_Flygon",
+    "normPalette": "gMonPalette_Flygon",
+    "shinyPalette": "gMonShinyPalette_Flygon",
+    "footprintPics": "gMonFootprint_Flygon",
+    "width": "64",
+    "height": "64"
+  },
+  "MAKUHITA": {
+    "frontPics": "gMonFrontPic_Makuhita",
+    "backPics": "gMonBackPic_Makuhita",
+    "normPalette": "gMonPalette_Makuhita",
+    "shinyPalette": "gMonShinyPalette_Makuhita",
+    "footprintPics": "gMonFootprint_Makuhita",
+    "width": "48",
+    "height": "40"
+  },
+  "HARIYAMA": {
+    "frontPics": "gMonFrontPic_Hariyama",
+    "backPics": "gMonBackPic_Hariyama",
+    "normPalette": "gMonPalette_Hariyama",
+    "shinyPalette": "gMonShinyPalette_Hariyama",
+    "footprintPics": "gMonFootprint_Hariyama",
+    "width": "64",
+    "height": "64"
+  },
+  "ELECTRIKE": {
+    "frontPics": "gMonFrontPic_Electrike",
+    "backPics": "gMonBackPic_Electrike",
+    "normPalette": "gMonPalette_Electrike",
+    "shinyPalette": "gMonShinyPalette_Electrike",
+    "footprintPics": "gMonFootprint_Electrike",
+    "width": "48",
+    "height": "32"
+  },
+  "MANECTRIC": {
+    "frontPics": "gMonFrontPic_Manectric",
+    "backPics": "gMonBackPic_Manectric",
+    "normPalette": "gMonPalette_Manectric",
+    "shinyPalette": "gMonShinyPalette_Manectric",
+    "footprintPics": "gMonFootprint_Manectric",
+    "width": "48",
+    "height": "56"
+  },
+  "NUMEL": {
+    "frontPics": "gMonFrontPic_Numel",
+    "backPics": "gMonBackPic_Numel",
+    "normPalette": "gMonPalette_Numel",
+    "shinyPalette": "gMonShinyPalette_Numel",
+    "footprintPics": "gMonFootprint_Numel",
+    "width": "48",
+    "height": "40"
+  },
+  "CAMERUPT": {
+    "frontPics": "gMonFrontPic_Camerupt",
+    "backPics": "gMonBackPic_Camerupt",
+    "normPalette": "gMonPalette_Camerupt",
+    "shinyPalette": "gMonShinyPalette_Camerupt",
+    "footprintPics": "gMonFootprint_Camerupt",
+    "width": "64",
+    "height": "56"
+  },
+  "SPHEAL": {
+    "frontPics": "gMonFrontPic_Spheal",
+    "backPics": "gMonBackPic_Spheal",
+    "normPalette": "gMonPalette_Spheal",
+    "shinyPalette": "gMonShinyPalette_Spheal",
+    "footprintPics": "gMonFootprint_Spheal",
+    "width": "48",
+    "height": "40"
+  },
+  "SEALEO": {
+    "frontPics": "gMonFrontPic_Sealeo",
+    "backPics": "gMonBackPic_Sealeo",
+    "normPalette": "gMonPalette_Sealeo",
+    "shinyPalette": "gMonShinyPalette_Sealeo",
+    "footprintPics": "gMonFootprint_Sealeo",
+    "width": "64",
+    "height": "48"
+  },
+  "WALREIN": {
+    "frontPics": "gMonFrontPic_Walrein",
+    "backPics": "gMonBackPic_Walrein",
+    "normPalette": "gMonPalette_Walrein",
+    "shinyPalette": "gMonShinyPalette_Walrein",
+    "footprintPics": "gMonFootprint_Walrein",
+    "width": "64",
+    "height": "64"
+  },
+  "CACNEA": {
+    "frontPics": "gMonFrontPic_Cacnea",
+    "backPics": "gMonBackPic_Cacnea",
+    "normPalette": "gMonPalette_Cacnea",
+    "shinyPalette": "gMonShinyPalette_Cacnea",
+    "footprintPics": "gMonFootprint_Cacnea",
+    "width": "56",
+    "height": "32"
+  },
+  "CACTURNE": {
+    "frontPics": "gMonFrontPic_Cacturne",
+    "backPics": "gMonBackPic_Cacturne",
+    "normPalette": "gMonPalette_Cacturne",
+    "shinyPalette": "gMonShinyPalette_Cacturne",
+    "footprintPics": "gMonFootprint_Cacturne",
+    "width": "64",
+    "height": "64"
+  },
+  "SNORUNT": {
+    "frontPics": "gMonFrontPic_Snorunt",
+    "backPics": "gMonBackPic_Snorunt",
+    "normPalette": "gMonPalette_Snorunt",
+    "shinyPalette": "gMonShinyPalette_Snorunt",
+    "footprintPics": "gMonFootprint_Snorunt",
+    "width": "40",
+    "height": "48"
+  },
+  "GLALIE": {
+    "frontPics": "gMonFrontPic_Glalie",
+    "backPics": "gMonBackPic_Glalie",
+    "normPalette": "gMonPalette_Glalie",
+    "shinyPalette": "gMonShinyPalette_Glalie",
+    "footprintPics": "gMonFootprint_Glalie",
+    "width": "56",
+    "height": "48"
+  },
+  "LUNATONE": {
+    "frontPics": "gMonFrontPic_Lunatone",
+    "backPics": "gMonBackPic_Lunatone",
+    "normPalette": "gMonPalette_Lunatone",
+    "shinyPalette": "gMonShinyPalette_Lunatone",
+    "footprintPics": "gMonFootprint_Lunatone",
+    "width": "48",
+    "height": "48"
+  },
+  "SOLROCK": {
+    "frontPics": "gMonFrontPic_Solrock",
+    "backPics": "gMonBackPic_Solrock",
+    "normPalette": "gMonPalette_Solrock",
+    "shinyPalette": "gMonShinyPalette_Solrock",
+    "footprintPics": "gMonFootprint_Solrock",
+    "width": "64",
+    "height": "64"
+  },
+  "AZURILL": {
+    "frontPics": "gMonFrontPic_Azurill",
+    "backPics": "gMonBackPic_Azurill",
+    "normPalette": "gMonPalette_Azurill",
+    "shinyPalette": "gMonShinyPalette_Azurill",
+    "footprintPics": "gMonFootprint_Azurill",
+    "width": "40",
+    "height": "40"
+  },
+  "SPOINK": {
+    "frontPics": "gMonFrontPic_Spoink",
+    "backPics": "gMonBackPic_Spoink",
+    "normPalette": "gMonPalette_Spoink",
+    "shinyPalette": "gMonShinyPalette_Spoink",
+    "footprintPics": "gMonFootprint_Spoink",
+    "width": "32",
+    "height": "48"
+  },
+  "GRUMPIG": {
+    "frontPics": "gMonFrontPic_Grumpig",
+    "backPics": "gMonBackPic_Grumpig",
+    "normPalette": "gMonPalette_Grumpig",
+    "shinyPalette": "gMonShinyPalette_Grumpig",
+    "footprintPics": "gMonFootprint_Grumpig",
+    "width": "56",
+    "height": "56"
+  },
+  "PLUSLE": {
+    "frontPics": "gMonFrontPic_Plusle",
+    "backPics": "gMonBackPic_Plusle",
+    "normPalette": "gMonPalette_Plusle",
+    "shinyPalette": "gMonShinyPalette_Plusle",
+    "footprintPics": "gMonFootprint_Plusle",
+    "width": "40",
+    "height": "48"
+  },
+  "MINUN": {
+    "frontPics": "gMonFrontPic_Minun",
+    "backPics": "gMonBackPic_Minun",
+    "normPalette": "gMonPalette_Minun",
+    "shinyPalette": "gMonShinyPalette_Minun",
+    "footprintPics": "gMonFootprint_Minun",
+    "width": "48",
+    "height": "48"
+  },
+  "MAWILE": {
+    "frontPics": "gMonFrontPic_Mawile",
+    "backPics": "gMonBackPic_Mawile",
+    "normPalette": "gMonPalette_Mawile",
+    "shinyPalette": "gMonShinyPalette_Mawile",
+    "footprintPics": "gMonFootprint_Mawile",
+    "width": "56",
+    "height": "48"
+  },
+  "MEDITITE": {
+    "frontPics": "gMonFrontPic_Meditite",
+    "backPics": "gMonBackPic_Meditite",
+    "normPalette": "gMonPalette_Meditite",
+    "shinyPalette": "gMonShinyPalette_Meditite",
+    "footprintPics": "gMonFootprint_Meditite",
+    "width": "48",
+    "height": "40"
+  },
+  "MEDICHAM": {
+    "frontPics": "gMonFrontPic_Medicham",
+    "backPics": "gMonBackPic_Medicham",
+    "normPalette": "gMonPalette_Medicham",
+    "shinyPalette": "gMonShinyPalette_Medicham",
+    "footprintPics": "gMonFootprint_Medicham",
+    "width": "48",
+    "height": "64"
+  },
+  "SWABLU": {
+    "frontPics": "gMonFrontPic_Swablu",
+    "backPics": "gMonBackPic_Swablu",
+    "normPalette": "gMonPalette_Swablu",
+    "shinyPalette": "gMonShinyPalette_Swablu",
+    "footprintPics": "gMonFootprint_Swablu",
+    "width": "56",
+    "height": "48"
+  },
+  "ALTARIA": {
+    "frontPics": "gMonFrontPic_Altaria",
+    "backPics": "gMonBackPic_Altaria",
+    "normPalette": "gMonPalette_Altaria",
+    "shinyPalette": "gMonShinyPalette_Altaria",
+    "footprintPics": "gMonFootprint_Altaria",
+    "width": "64",
+    "height": "64"
+  },
+  "WYNAUT": {
+    "frontPics": "gMonFrontPic_Wynaut",
+    "backPics": "gMonBackPic_Wynaut",
+    "normPalette": "gMonPalette_Wynaut",
+    "shinyPalette": "gMonShinyPalette_Wynaut",
+    "footprintPics": "gMonFootprint_Wynaut",
+    "width": "40",
+    "height": "40"
+  },
+  "DUSKULL": {
+    "frontPics": "gMonFrontPic_Duskull",
+    "backPics": "gMonBackPic_Duskull",
+    "normPalette": "gMonPalette_Duskull",
+    "shinyPalette": "gMonShinyPalette_Duskull",
+    "footprintPics": "gMonFootprint_Duskull",
+    "width": "48",
+    "height": "48"
+  },
+  "DUSCLOPS": {
+    "frontPics": "gMonFrontPic_Dusclops",
+    "backPics": "gMonBackPic_Dusclops",
+    "normPalette": "gMonPalette_Dusclops",
+    "shinyPalette": "gMonShinyPalette_Dusclops",
+    "footprintPics": "gMonFootprint_Dusclops",
+    "width": "56",
+    "height": "56"
+  },
+  "ROSELIA": {
+    "frontPics": "gMonFrontPic_Roselia",
+    "backPics": "gMonBackPic_Roselia",
+    "normPalette": "gMonPalette_Roselia",
+    "shinyPalette": "gMonShinyPalette_Roselia",
+    "footprintPics": "gMonFootprint_Roselia",
+    "width": "56",
+    "height": "48"
+  },
+  "SLAKOTH": {
+    "frontPics": "gMonFrontPic_Slakoth",
+    "backPics": "gMonBackPic_Slakoth",
+    "normPalette": "gMonPalette_Slakoth",
+    "shinyPalette": "gMonShinyPalette_Slakoth",
+    "footprintPics": "gMonFootprint_Slakoth",
+    "width": "56",
+    "height": "32"
+  },
+  "VIGOROTH": {
+    "frontPics": "gMonFrontPic_Vigoroth",
+    "backPics": "gMonBackPic_Vigoroth",
+    "normPalette": "gMonPalette_Vigoroth",
+    "shinyPalette": "gMonShinyPalette_Vigoroth",
+    "footprintPics": "gMonFootprint_Vigoroth",
+    "width": "56",
+    "height": "64"
+  },
+  "SLAKING": {
+    "frontPics": "gMonFrontPic_Slaking",
+    "backPics": "gMonBackPic_Slaking",
+    "normPalette": "gMonPalette_Slaking",
+    "shinyPalette": "gMonShinyPalette_Slaking",
+    "footprintPics": "gMonFootprint_Slaking",
+    "width": "64",
+    "height": "48"
+  },
+  "GULPIN": {
+    "frontPics": "gMonFrontPic_Gulpin",
+    "backPics": "gMonBackPic_Gulpin",
+    "normPalette": "gMonPalette_Gulpin",
+    "shinyPalette": "gMonShinyPalette_Gulpin",
+    "footprintPics": "gMonFootprint_Gulpin",
+    "width": "40",
+    "height": "40"
+  },
+  "SWALOT": {
+    "frontPics": "gMonFrontPic_Swalot",
+    "backPics": "gMonBackPic_Swalot",
+    "normPalette": "gMonPalette_Swalot",
+    "shinyPalette": "gMonShinyPalette_Swalot",
+    "footprintPics": "gMonFootprint_Swalot",
+    "width": "48",
+    "height": "48"
+  },
+  "TROPIUS": {
+    "frontPics": "gMonFrontPic_Tropius",
+    "backPics": "gMonBackPic_Tropius",
+    "normPalette": "gMonPalette_Tropius",
+    "shinyPalette": "gMonShinyPalette_Tropius",
+    "footprintPics": "gMonFootprint_Tropius",
+    "width": "64",
+    "height": "64"
+  },
+  "WHISMUR": {
+    "frontPics": "gMonFrontPic_Whismur",
+    "backPics": "gMonBackPic_Whismur",
+    "normPalette": "gMonPalette_Whismur",
+    "shinyPalette": "gMonShinyPalette_Whismur",
+    "footprintPics": "gMonFootprint_Whismur",
+    "width": "40",
+    "height": "40"
+  },
+  "LOUDRED": {
+    "frontPics": "gMonFrontPic_Loudred",
+    "backPics": "gMonBackPic_Loudred",
+    "normPalette": "gMonPalette_Loudred",
+    "shinyPalette": "gMonShinyPalette_Loudred",
+    "footprintPics": "gMonFootprint_Loudred",
+    "width": "56",
+    "height": "64"
+  },
+  "EXPLOUD": {
+    "frontPics": "gMonFrontPic_Exploud",
+    "backPics": "gMonBackPic_Exploud",
+    "normPalette": "gMonPalette_Exploud",
+    "shinyPalette": "gMonShinyPalette_Exploud",
+    "footprintPics": "gMonFootprint_Exploud",
+    "width": "64",
+    "height": "64"
+  },
+  "CLAMPERL": {
+    "frontPics": "gMonFrontPic_Clamperl",
+    "backPics": "gMonBackPic_Clamperl",
+    "normPalette": "gMonPalette_Clamperl",
+    "shinyPalette": "gMonShinyPalette_Clamperl",
+    "footprintPics": "gMonFootprint_Clamperl",
+    "width": "40",
+    "height": "40"
+  },
+  "HUNTAIL": {
+    "frontPics": "gMonFrontPic_Huntail",
+    "backPics": "gMonBackPic_Huntail",
+    "normPalette": "gMonPalette_Huntail",
+    "shinyPalette": "gMonShinyPalette_Huntail",
+    "footprintPics": "gMonFootprint_Huntail",
+    "width": "56",
+    "height": "64"
+  },
+  "GOREBYSS": {
+    "frontPics": "gMonFrontPic_Gorebyss",
+    "backPics": "gMonBackPic_Gorebyss",
+    "normPalette": "gMonPalette_Gorebyss",
+    "shinyPalette": "gMonShinyPalette_Gorebyss",
+    "footprintPics": "gMonFootprint_Gorebyss",
+    "width": "64",
+    "height": "48"
+  },
+  "ABSOL": {
+    "frontPics": "gMonFrontPic_Absol",
+    "backPics": "gMonBackPic_Absol",
+    "normPalette": "gMonPalette_Absol",
+    "shinyPalette": "gMonShinyPalette_Absol",
+    "footprintPics": "gMonFootprint_Absol",
+    "width": "48",
+    "height": "64"
+  },
+  "SHUPPET": {
+    "frontPics": "gMonFrontPic_Shuppet",
+    "backPics": "gMonBackPic_Shuppet",
+    "normPalette": "gMonPalette_Shuppet",
+    "shinyPalette": "gMonShinyPalette_Shuppet",
+    "footprintPics": "gMonFootprint_Shuppet",
+    "width": "40",
+    "height": "48"
+  },
+  "BANETTE": {
+    "frontPics": "gMonFrontPic_Banette",
+    "backPics": "gMonBackPic_Banette",
+    "normPalette": "gMonPalette_Banette",
+    "shinyPalette": "gMonShinyPalette_Banette",
+    "footprintPics": "gMonFootprint_Banette",
+    "width": "40",
+    "height": "40"
+  },
+  "SEVIPER": {
+    "frontPics": "gMonFrontPic_Seviper",
+    "backPics": "gMonBackPic_Seviper",
+    "normPalette": "gMonPalette_Seviper",
+    "shinyPalette": "gMonShinyPalette_Seviper",
+    "footprintPics": "gMonFootprint_Seviper",
+    "width": "56",
+    "height": "56"
+  },
+  "ZANGOOSE": {
+    "frontPics": "gMonFrontPic_Zangoose",
+    "backPics": "gMonBackPic_Zangoose",
+    "normPalette": "gMonPalette_Zangoose",
+    "shinyPalette": "gMonShinyPalette_Zangoose",
+    "footprintPics": "gMonFootprint_Zangoose",
+    "width": "64",
+    "height": "56"
+  },
+  "RELICANTH": {
+    "frontPics": "gMonFrontPic_Relicanth",
+    "backPics": "gMonBackPic_Relicanth",
+    "normPalette": "gMonPalette_Relicanth",
+    "shinyPalette": "gMonShinyPalette_Relicanth",
+    "footprintPics": "gMonFootprint_Relicanth",
+    "width": "56",
+    "height": "56"
+  },
+  "ARON": {
+    "frontPics": "gMonFrontPic_Aron",
+    "backPics": "gMonBackPic_Aron",
+    "normPalette": "gMonPalette_Aron",
+    "shinyPalette": "gMonShinyPalette_Aron",
+    "footprintPics": "gMonFootprint_Aron",
+    "width": "32",
+    "height": "24"
+  },
+  "LAIRON": {
+    "frontPics": "gMonFrontPic_Lairon",
+    "backPics": "gMonBackPic_Lairon",
+    "normPalette": "gMonPalette_Lairon",
+    "shinyPalette": "gMonShinyPalette_Lairon",
+    "footprintPics": "gMonFootprint_Lairon",
+    "width": "56",
+    "height": "40"
+  },
+  "AGGRON": {
+    "frontPics": "gMonFrontPic_Aggron",
+    "backPics": "gMonBackPic_Aggron",
+    "normPalette": "gMonPalette_Aggron",
+    "shinyPalette": "gMonShinyPalette_Aggron",
+    "footprintPics": "gMonFootprint_Aggron",
+    "width": "64",
+    "height": "64"
+  },
+  "CASTFORM": {
+    "frontPics": "gMonFrontPic_Castform",
+    "backPics": "gMonBackPic_Castform",
+    "normPalette": "gMonPalette_Castform",
+    "shinyPalette": "gMonShinyPalette_Castform",
+    "footprintPics": "gMonFootprint_Castform",
+    "width": "24",
+    "height": "32"
+  },
+  "VOLBEAT": {
+    "frontPics": "gMonFrontPic_Volbeat",
+    "backPics": "gMonBackPic_Volbeat",
+    "normPalette": "gMonPalette_Volbeat",
+    "shinyPalette": "gMonShinyPalette_Volbeat",
+    "footprintPics": "gMonFootprint_Volbeat",
+    "width": "48",
+    "height": "48"
+  },
+  "ILLUMISE": {
+    "frontPics": "gMonFrontPic_Illumise",
+    "backPics": "gMonBackPic_Illumise",
+    "normPalette": "gMonPalette_Illumise",
+    "shinyPalette": "gMonShinyPalette_Illumise",
+    "footprintPics": "gMonFootprint_Illumise",
+    "width": "40",
+    "height": "48"
+  },
+  "LILEEP": {
+    "frontPics": "gMonFrontPic_Lileep",
+    "backPics": "gMonBackPic_Lileep",
+    "normPalette": "gMonPalette_Lileep",
+    "shinyPalette": "gMonShinyPalette_Lileep",
+    "footprintPics": "gMonFootprint_Lileep",
+    "width": "48",
+    "height": "56"
+  },
+  "CRADILY": {
+    "frontPics": "gMonFrontPic_Cradily",
+    "backPics": "gMonBackPic_Cradily",
+    "normPalette": "gMonPalette_Cradily",
+    "shinyPalette": "gMonShinyPalette_Cradily",
+    "footprintPics": "gMonFootprint_Cradily",
+    "width": "56",
+    "height": "64"
+  },
+  "ANORITH": {
+    "frontPics": "gMonFrontPic_Anorith",
+    "backPics": "gMonBackPic_Anorith",
+    "normPalette": "gMonPalette_Anorith",
+    "shinyPalette": "gMonShinyPalette_Anorith",
+    "footprintPics": "gMonFootprint_Anorith",
+    "width": "48",
+    "height": "48"
+  },
+  "ARMALDO": {
+    "frontPics": "gMonFrontPic_Armaldo",
+    "backPics": "gMonBackPic_Armaldo",
+    "normPalette": "gMonPalette_Armaldo",
+    "shinyPalette": "gMonShinyPalette_Armaldo",
+    "footprintPics": "gMonFootprint_Armaldo",
+    "width": "64",
+    "height": "64"
+  },
+  "RALTS": {
+    "frontPics": "gMonFrontPic_Ralts",
+    "backPics": "gMonBackPic_Ralts",
+    "normPalette": "gMonPalette_Ralts",
+    "shinyPalette": "gMonShinyPalette_Ralts",
+    "footprintPics": "gMonFootprint_Ralts",
+    "width": "24",
+    "height": "40"
+  },
+  "KIRLIA": {
+    "frontPics": "gMonFrontPic_Kirlia",
+    "backPics": "gMonBackPic_Kirlia",
+    "normPalette": "gMonPalette_Kirlia",
+    "shinyPalette": "gMonShinyPalette_Kirlia",
+    "footprintPics": "gMonFootprint_Kirlia",
+    "width": "32",
+    "height": "56"
+  },
+  "GARDEVOIR": {
+    "frontPics": "gMonFrontPic_Gardevoir",
+    "backPics": "gMonBackPic_Gardevoir",
+    "normPalette": "gMonPalette_Gardevoir",
+    "shinyPalette": "gMonShinyPalette_Gardevoir",
+    "footprintPics": "gMonFootprint_Gardevoir",
+    "width": "56",
+    "height": "64"
+  },
+  "BAGON": {
+    "frontPics": "gMonFrontPic_Bagon",
+    "backPics": "gMonBackPic_Bagon",
+    "normPalette": "gMonPalette_Bagon",
+    "shinyPalette": "gMonShinyPalette_Bagon",
+    "footprintPics": "gMonFootprint_Bagon",
+    "width": "40",
+    "height": "48"
+  },
+  "SHELGON": {
+    "frontPics": "gMonFrontPic_Shelgon",
+    "backPics": "gMonBackPic_Shelgon",
+    "normPalette": "gMonPalette_Shelgon",
+    "shinyPalette": "gMonShinyPalette_Shelgon",
+    "footprintPics": "gMonFootprint_Shelgon",
+    "width": "48",
+    "height": "48"
+  },
+  "SALAMENCE": {
+    "frontPics": "gMonFrontPic_Salamence",
+    "backPics": "gMonBackPic_Salamence",
+    "normPalette": "gMonPalette_Salamence",
+    "shinyPalette": "gMonShinyPalette_Salamence",
+    "footprintPics": "gMonFootprint_Salamence",
+    "width": "64",
+    "height": "56"
+  },
+  "BELDUM": {
+    "frontPics": "gMonFrontPic_Beldum",
+    "backPics": "gMonBackPic_Beldum",
+    "normPalette": "gMonPalette_Beldum",
+    "shinyPalette": "gMonShinyPalette_Beldum",
+    "footprintPics": "gMonFootprint_Beldum",
+    "width": "40",
+    "height": "40"
+  },
+  "METANG": {
+    "frontPics": "gMonFrontPic_Metang",
+    "backPics": "gMonBackPic_Metang",
+    "normPalette": "gMonPalette_Metang",
+    "shinyPalette": "gMonShinyPalette_Metang",
+    "footprintPics": "gMonFootprint_Metang",
+    "width": "64",
+    "height": "56"
+  },
+  "METAGROSS": {
+    "frontPics": "gMonFrontPic_Metagross",
+    "backPics": "gMonBackPic_Metagross",
+    "normPalette": "gMonPalette_Metagross",
+    "shinyPalette": "gMonShinyPalette_Metagross",
+    "footprintPics": "gMonFootprint_Metagross",
+    "width": "64",
+    "height": "56"
+  },
+  "REGIROCK": {
+    "frontPics": "gMonFrontPic_Regirock",
+    "backPics": "gMonBackPic_Regirock",
+    "normPalette": "gMonPalette_Regirock",
+    "shinyPalette": "gMonShinyPalette_Regirock",
+    "footprintPics": "gMonFootprint_Regirock",
+    "width": "56",
+    "height": "64"
+  },
+  "REGICE": {
+    "frontPics": "gMonFrontPic_Regice",
+    "backPics": "gMonBackPic_Regice",
+    "normPalette": "gMonPalette_Regice",
+    "shinyPalette": "gMonShinyPalette_Regice",
+    "footprintPics": "gMonFootprint_Regice",
+    "width": "64",
+    "height": "64"
+  },
+  "REGISTEEL": {
+    "frontPics": "gMonFrontPic_Registeel",
+    "backPics": "gMonBackPic_Registeel",
+    "normPalette": "gMonPalette_Registeel",
+    "shinyPalette": "gMonShinyPalette_Registeel",
+    "footprintPics": "gMonFootprint_Registeel",
+    "width": "64",
+    "height": "64"
+  },
+  "KYOGRE": {
+    "frontPics": "gMonFrontPic_Kyogre",
+    "backPics": "gMonBackPic_Kyogre",
+    "normPalette": "gMonPalette_Kyogre",
+    "shinyPalette": "gMonShinyPalette_Kyogre",
+    "footprintPics": "gMonFootprint_Kyogre",
+    "width": "64",
+    "height": "56"
+  },
+  "GROUDON": {
+    "frontPics": "gMonFrontPic_Groudon",
+    "backPics": "gMonBackPic_Groudon",
+    "normPalette": "gMonPalette_Groudon",
+    "shinyPalette": "gMonShinyPalette_Groudon",
+    "footprintPics": "gMonFootprint_Groudon",
+    "width": "64",
+    "height": "64"
+  },
+  "RAYQUAZA": {
+    "frontPics": "gMonFrontPic_Rayquaza",
+    "backPics": "gMonBackPic_Rayquaza",
+    "normPalette": "gMonPalette_Rayquaza",
+    "shinyPalette": "gMonShinyPalette_Rayquaza",
+    "footprintPics": "gMonFootprint_Rayquaza",
+    "width": "64",
+    "height": "64"
+  },
+  "LATIAS": {
+    "frontPics": "gMonFrontPic_Latias",
+    "backPics": "gMonBackPic_Latias",
+    "normPalette": "gMonPalette_Latias",
+    "shinyPalette": "gMonShinyPalette_Latias",
+    "footprintPics": "gMonFootprint_Latias",
+    "width": "64",
+    "height": "64"
+  },
+  "LATIOS": {
+    "frontPics": "gMonFrontPic_Latios",
+    "backPics": "gMonBackPic_Latios",
+    "normPalette": "gMonPalette_Latios",
+    "shinyPalette": "gMonShinyPalette_Latios",
+    "footprintPics": "gMonFootprint_Latios",
+    "width": "64",
+    "height": "64"
+  },
+  "JIRACHI": {
+    "frontPics": "gMonFrontPic_Jirachi",
+    "backPics": "gMonBackPic_Jirachi",
+    "normPalette": "gMonPalette_Jirachi",
+    "shinyPalette": "gMonShinyPalette_Jirachi",
+    "footprintPics": "gMonFootprint_Jirachi",
+    "width": "48",
+    "height": "48"
+  },
+  "DEOXYS": {
+    "frontPics": "gMonFrontPic_Deoxys",
+    "backPics": "gMonBackPic_Deoxys",
+    "normPalette": "gMonPalette_Deoxys",
+    "shinyPalette": "gMonShinyPalette_Deoxys",
+    "footprintPics": "gMonFootprint_Deoxys",
+    "width": "64",
+    "height": "64"
+  },
+  "CHIMECHO": {
+    "frontPics": "gMonFrontPic_Chimecho",
+    "backPics": "gMonBackPic_Chimecho",
+    "normPalette": "gMonPalette_Chimecho",
+    "shinyPalette": "gMonShinyPalette_Chimecho",
+    "footprintPics": "gMonFootprint_Chimecho",
+    "width": "24",
+    "height": "56"
+  },
+  "EGG": {
+    "frontPics": "gMonFrontPic_Egg",
+    "backPics": "gMonFrontPic_Egg",
+    "normPalette": "gMonPalette_Egg",
+    "shinyPalette": "gMonPalette_Egg",
+    "footprintPics": "gMonFootprint_Bulbasaur",
+    "width": "24",
+    "height": "24"
+  },
+  "UNOWN_B": {
+    "frontPics": "gMonFrontPic_UnownB",
+    "backPics": "gMonBackPic_UnownB",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_C": {
+    "frontPics": "gMonFrontPic_UnownC",
+    "backPics": "gMonBackPic_UnownC",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_D": {
+    "frontPics": "gMonFrontPic_UnownD",
+    "backPics": "gMonBackPic_UnownD",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_E": {
+    "frontPics": "gMonFrontPic_UnownE",
+    "backPics": "gMonBackPic_UnownE",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_F": {
+    "frontPics": "gMonFrontPic_UnownF",
+    "backPics": "gMonBackPic_UnownF",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_G": {
+    "frontPics": "gMonFrontPic_UnownG",
+    "backPics": "gMonBackPic_UnownG",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "40"
+  },
+  "UNOWN_H": {
+    "frontPics": "gMonFrontPic_UnownH",
+    "backPics": "gMonBackPic_UnownH",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_I": {
+    "frontPics": "gMonFrontPic_UnownI",
+    "backPics": "gMonBackPic_UnownI",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_J": {
+    "frontPics": "gMonFrontPic_UnownJ",
+    "backPics": "gMonBackPic_UnownJ",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_K": {
+    "frontPics": "gMonFrontPic_UnownK",
+    "backPics": "gMonBackPic_UnownK",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_L": {
+    "frontPics": "gMonFrontPic_UnownL",
+    "backPics": "gMonBackPic_UnownL",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_M": {
+    "frontPics": "gMonFrontPic_UnownM",
+    "backPics": "gMonBackPic_UnownM",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_N": {
+    "frontPics": "gMonFrontPic_UnownN",
+    "backPics": "gMonBackPic_UnownN",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "24"
+  },
+  "UNOWN_O": {
+    "frontPics": "gMonFrontPic_UnownO",
+    "backPics": "gMonBackPic_UnownO",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_P": {
+    "frontPics": "gMonFrontPic_UnownP",
+    "backPics": "gMonBackPic_UnownP",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_Q": {
+    "frontPics": "gMonFrontPic_UnownQ",
+    "backPics": "gMonBackPic_UnownQ",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "24"
+  },
+  "UNOWN_R": {
+    "frontPics": "gMonFrontPic_UnownR",
+    "backPics": "gMonBackPic_UnownR",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_S": {
+    "frontPics": "gMonFrontPic_UnownS",
+    "backPics": "gMonBackPic_UnownS",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "40"
+  },
+  "UNOWN_T": {
+    "frontPics": "gMonFrontPic_UnownT",
+    "backPics": "gMonBackPic_UnownT",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_U": {
+    "frontPics": "gMonFrontPic_UnownU",
+    "backPics": "gMonBackPic_UnownU",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_V": {
+    "frontPics": "gMonFrontPic_UnownV",
+    "backPics": "gMonBackPic_UnownV",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_W": {
+    "frontPics": "gMonFrontPic_UnownW",
+    "backPics": "gMonBackPic_UnownW",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "32",
+    "height": "32"
+  },
+  "UNOWN_X": {
+    "frontPics": "gMonFrontPic_UnownX",
+    "backPics": "gMonBackPic_UnownX",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "24"
+  },
+  "UNOWN_Y": {
+    "frontPics": "gMonFrontPic_UnownY",
+    "backPics": "gMonBackPic_UnownY",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_Z": {
+    "frontPics": "gMonFrontPic_UnownZ",
+    "backPics": "gMonBackPic_UnownZ",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "32"
+  },
+  "UNOWN_EMARK": {
+    "frontPics": "gMonFrontPic_UnownExclamationMark",
+    "backPics": "gMonBackPic_UnownExclamationMark",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "40"
+  },
+  "UNOWN_QMARK": {
+    "frontPics": "gMonFrontPic_UnownQuestionMark",
+    "backPics": "gMonBackPic_UnownQuestionMark",
+    "normPalette": "gMonPalette_Unown",
+    "shinyPalette": "gMonShinyPalette_Unown",
+    "width": "24",
+    "height": "40"
+  }
+}
