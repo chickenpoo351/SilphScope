@@ -6,7 +6,8 @@
     "shinyPalette": "gMonShinyPalette_CircledQuestionMark",
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_None"
   },
   "BULBASAUR": {
     "frontPics": "gMonFrontPic_Bulbasaur",
@@ -15,7 +16,8 @@
     "shinyPalette": "gMonShinyPalette_Bulbasaur",
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Bulbasaur"
   },
   "IVYSAUR": {
     "frontPics": "gMonFrontPic_Ivysaur",
@@ -24,7 +26,8 @@
     "shinyPalette": "gMonShinyPalette_Ivysaur",
     "footprintPics": "gMonFootprint_Ivysaur",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Ivysaur"
   },
   "VENUSAUR": {
     "frontPics": "gMonFrontPic_Venusaur",
@@ -33,7 +36,8 @@
     "shinyPalette": "gMonShinyPalette_Venusaur",
     "footprintPics": "gMonFootprint_Venusaur",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Venusaur"
   },
   "CHARMANDER": {
     "frontPics": "gMonFrontPic_Charmander",
@@ -42,7 +46,8 @@
     "shinyPalette": "gMonShinyPalette_Charmander",
     "footprintPics": "gMonFootprint_Charmander",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Charmander"
   },
   "CHARMELEON": {
     "frontPics": "gMonFrontPic_Charmeleon",
@@ -51,7 +56,8 @@
     "shinyPalette": "gMonShinyPalette_Charmeleon",
     "footprintPics": "gMonFootprint_Charmeleon",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Charmeleon"
   },
   "CHARIZARD": {
     "frontPics": "gMonFrontPic_Charizard",
@@ -60,7 +66,8 @@
     "shinyPalette": "gMonShinyPalette_Charizard",
     "footprintPics": "gMonFootprint_Charizard",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Charizard"
   },
   "SQUIRTLE": {
     "frontPics": "gMonFrontPic_Squirtle",
@@ -69,7 +76,8 @@
     "shinyPalette": "gMonShinyPalette_Squirtle",
     "footprintPics": "gMonFootprint_Squirtle",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Squirtle"
   },
   "WARTORTLE": {
     "frontPics": "gMonFrontPic_Wartortle",
@@ -78,7 +86,8 @@
     "shinyPalette": "gMonShinyPalette_Wartortle",
     "footprintPics": "gMonFootprint_Wartortle",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Wartortle"
   },
   "BLASTOISE": {
     "frontPics": "gMonFrontPic_Blastoise",
@@ -87,7 +96,8 @@
     "shinyPalette": "gMonShinyPalette_Blastoise",
     "footprintPics": "gMonFootprint_Blastoise",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Blastoise"
   },
   "CATERPIE": {
     "frontPics": "gMonFrontPic_Caterpie",
@@ -96,7 +106,8 @@
     "shinyPalette": "gMonShinyPalette_Caterpie",
     "footprintPics": "gMonFootprint_Caterpie",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Caterpie"
   },
   "METAPOD": {
     "frontPics": "gMonFrontPic_Metapod",
@@ -105,7 +116,8 @@
     "shinyPalette": "gMonShinyPalette_Metapod",
     "footprintPics": "gMonFootprint_Metapod",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Metapod"
   },
   "BUTTERFREE": {
     "frontPics": "gMonFrontPic_Butterfree",
@@ -114,7 +126,8 @@
     "shinyPalette": "gMonShinyPalette_Butterfree",
     "footprintPics": "gMonFootprint_Butterfree",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Butterfree"
   },
   "WEEDLE": {
     "frontPics": "gMonFrontPic_Weedle",
@@ -123,7 +136,8 @@
     "shinyPalette": "gMonShinyPalette_Weedle",
     "footprintPics": "gMonFootprint_Weedle",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Weedle"
   },
   "KAKUNA": {
     "frontPics": "gMonFrontPic_Kakuna",
@@ -132,7 +146,8 @@
     "shinyPalette": "gMonShinyPalette_Kakuna",
     "footprintPics": "gMonFootprint_Kakuna",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Kakuna"
   },
   "BEEDRILL": {
     "frontPics": "gMonFrontPic_Beedrill",
@@ -141,7 +156,8 @@
     "shinyPalette": "gMonShinyPalette_Beedrill",
     "footprintPics": "gMonFootprint_Beedrill",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Beedrill"
   },
   "PIDGEY": {
     "frontPics": "gMonFrontPic_Pidgey",
@@ -150,7 +166,8 @@
     "shinyPalette": "gMonShinyPalette_Pidgey",
     "footprintPics": "gMonFootprint_Pidgey",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Pidgey"
   },
   "PIDGEOTTO": {
     "frontPics": "gMonFrontPic_Pidgeotto",
@@ -159,7 +176,8 @@
     "shinyPalette": "gMonShinyPalette_Pidgeotto",
     "footprintPics": "gMonFootprint_Pidgeotto",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Pidgeotto"
   },
   "PIDGEOT": {
     "frontPics": "gMonFrontPic_Pidgeot",
@@ -168,7 +186,8 @@
     "shinyPalette": "gMonShinyPalette_Pidgeot",
     "footprintPics": "gMonFootprint_Pidgeot",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Pidgeot"
   },
   "RATTATA": {
     "frontPics": "gMonFrontPic_Rattata",
@@ -177,7 +196,8 @@
     "shinyPalette": "gMonShinyPalette_Rattata",
     "footprintPics": "gMonFootprint_Rattata",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Rattata"
   },
   "RATICATE": {
     "frontPics": "gMonFrontPic_Raticate",
@@ -186,7 +206,8 @@
     "shinyPalette": "gMonShinyPalette_Raticate",
     "footprintPics": "gMonFootprint_Raticate",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Raticate"
   },
   "SPEAROW": {
     "frontPics": "gMonFrontPic_Spearow",
@@ -195,7 +216,8 @@
     "shinyPalette": "gMonShinyPalette_Spearow",
     "footprintPics": "gMonFootprint_Spearow",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Spearow"
   },
   "FEAROW": {
     "frontPics": "gMonFrontPic_Fearow",
@@ -204,7 +226,8 @@
     "shinyPalette": "gMonShinyPalette_Fearow",
     "footprintPics": "gMonFootprint_Fearow",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Fearow"
   },
   "EKANS": {
     "frontPics": "gMonFrontPic_Ekans",
@@ -213,7 +236,8 @@
     "shinyPalette": "gMonShinyPalette_Ekans",
     "footprintPics": "gMonFootprint_Ekans",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Ekans"
   },
   "ARBOK": {
     "frontPics": "gMonFrontPic_Arbok",
@@ -222,7 +246,8 @@
     "shinyPalette": "gMonShinyPalette_Arbok",
     "footprintPics": "gMonFootprint_Arbok",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Arbok"
   },
   "PIKACHU": {
     "frontPics": "gMonFrontPic_Pikachu",
@@ -231,7 +256,8 @@
     "shinyPalette": "gMonShinyPalette_Pikachu",
     "footprintPics": "gMonFootprint_Pikachu",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Pikachu"
   },
   "RAICHU": {
     "frontPics": "gMonFrontPic_Raichu",
@@ -240,7 +266,8 @@
     "shinyPalette": "gMonShinyPalette_Raichu",
     "footprintPics": "gMonFootprint_Raichu",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Raichu"
   },
   "SANDSHREW": {
     "frontPics": "gMonFrontPic_Sandshrew",
@@ -249,7 +276,8 @@
     "shinyPalette": "gMonShinyPalette_Sandshrew",
     "footprintPics": "gMonFootprint_Sandshrew",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Sandshrew"
   },
   "SANDSLASH": {
     "frontPics": "gMonFrontPic_Sandslash",
@@ -258,7 +286,8 @@
     "shinyPalette": "gMonShinyPalette_Sandslash",
     "footprintPics": "gMonFootprint_Sandslash",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Sandslash"
   },
   "NIDORAN_F": {
     "frontPics": "gMonFrontPic_NidoranF",
@@ -267,7 +296,8 @@
     "shinyPalette": "gMonShinyPalette_NidoranF",
     "footprintPics": "gMonFootprint_NidoranF",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Nidoran_f"
   },
   "NIDORINA": {
     "frontPics": "gMonFrontPic_Nidorina",
@@ -276,7 +306,8 @@
     "shinyPalette": "gMonShinyPalette_Nidorina",
     "footprintPics": "gMonFootprint_Nidorina",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Nidorina"
   },
   "NIDOQUEEN": {
     "frontPics": "gMonFrontPic_Nidoqueen",
@@ -285,7 +316,8 @@
     "shinyPalette": "gMonShinyPalette_Nidoqueen",
     "footprintPics": "gMonFootprint_Nidoqueen",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Nidoqueen"
   },
   "NIDORAN_M": {
     "frontPics": "gMonFrontPic_NidoranM",
@@ -294,7 +326,8 @@
     "shinyPalette": "gMonShinyPalette_NidoranM",
     "footprintPics": "gMonFootprint_NidoranM",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Nidoran_m"
   },
   "NIDORINO": {
     "frontPics": "gMonFrontPic_Nidorino",
@@ -303,7 +336,8 @@
     "shinyPalette": "gMonShinyPalette_Nidorino",
     "footprintPics": "gMonFootprint_Nidorino",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Nidorino"
   },
   "NIDOKING": {
     "frontPics": "gMonFrontPic_Nidoking",
@@ -312,7 +346,8 @@
     "shinyPalette": "gMonShinyPalette_Nidoking",
     "footprintPics": "gMonFootprint_Nidoking",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Nidoking"
   },
   "CLEFAIRY": {
     "frontPics": "gMonFrontPic_Clefairy",
@@ -321,7 +356,8 @@
     "shinyPalette": "gMonShinyPalette_Clefairy",
     "footprintPics": "gMonFootprint_Clefairy",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Clefairy"
   },
   "CLEFABLE": {
     "frontPics": "gMonFrontPic_Clefable",
@@ -330,7 +366,8 @@
     "shinyPalette": "gMonShinyPalette_Clefable",
     "footprintPics": "gMonFootprint_Clefable",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Clefable"
   },
   "VULPIX": {
     "frontPics": "gMonFrontPic_Vulpix",
@@ -339,7 +376,8 @@
     "shinyPalette": "gMonShinyPalette_Vulpix",
     "footprintPics": "gMonFootprint_Vulpix",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Vulpix"
   },
   "NINETALES": {
     "frontPics": "gMonFrontPic_Ninetales",
@@ -348,7 +386,8 @@
     "shinyPalette": "gMonShinyPalette_Ninetales",
     "footprintPics": "gMonFootprint_Ninetales",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Ninetales"
   },
   "JIGGLYPUFF": {
     "frontPics": "gMonFrontPic_Jigglypuff",
@@ -357,7 +396,8 @@
     "shinyPalette": "gMonShinyPalette_Jigglypuff",
     "footprintPics": "gMonFootprint_Jigglypuff",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Jigglypuff"
   },
   "WIGGLYTUFF": {
     "frontPics": "gMonFrontPic_Wigglytuff",
@@ -366,7 +406,8 @@
     "shinyPalette": "gMonShinyPalette_Wigglytuff",
     "footprintPics": "gMonFootprint_Wigglytuff",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Wigglytuff"
   },
   "ZUBAT": {
     "frontPics": "gMonFrontPic_Zubat",
@@ -375,7 +416,8 @@
     "shinyPalette": "gMonShinyPalette_Zubat",
     "footprintPics": "gMonFootprint_Zubat",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Zubat"
   },
   "GOLBAT": {
     "frontPics": "gMonFrontPic_Golbat",
@@ -384,7 +426,8 @@
     "shinyPalette": "gMonShinyPalette_Golbat",
     "footprintPics": "gMonFootprint_Golbat",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Golbat"
   },
   "ODDISH": {
     "frontPics": "gMonFrontPic_Oddish",
@@ -393,7 +436,8 @@
     "shinyPalette": "gMonShinyPalette_Oddish",
     "footprintPics": "gMonFootprint_Oddish",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Oddish"
   },
   "GLOOM": {
     "frontPics": "gMonFrontPic_Gloom",
@@ -402,7 +446,8 @@
     "shinyPalette": "gMonShinyPalette_Gloom",
     "footprintPics": "gMonFootprint_Gloom",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Gloom"
   },
   "VILEPLUME": {
     "frontPics": "gMonFrontPic_Vileplume",
@@ -411,7 +456,8 @@
     "shinyPalette": "gMonShinyPalette_Vileplume",
     "footprintPics": "gMonFootprint_Vileplume",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Vileplume"
   },
   "PARAS": {
     "frontPics": "gMonFrontPic_Paras",
@@ -420,7 +466,8 @@
     "shinyPalette": "gMonShinyPalette_Paras",
     "footprintPics": "gMonFootprint_Paras",
     "width": "48",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Paras"
   },
   "PARASECT": {
     "frontPics": "gMonFrontPic_Parasect",
@@ -429,7 +476,8 @@
     "shinyPalette": "gMonShinyPalette_Parasect",
     "footprintPics": "gMonFootprint_Parasect",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Parasect"
   },
   "VENONAT": {
     "frontPics": "gMonFrontPic_Venonat",
@@ -438,7 +486,8 @@
     "shinyPalette": "gMonShinyPalette_Venonat",
     "footprintPics": "gMonFootprint_Venonat",
     "width": "40",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Venonat"
   },
   "VENOMOTH": {
     "frontPics": "gMonFrontPic_Venomoth",
@@ -447,7 +496,8 @@
     "shinyPalette": "gMonShinyPalette_Venomoth",
     "footprintPics": "gMonFootprint_Venomoth",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Venomoth"
   },
   "DIGLETT": {
     "frontPics": "gMonFrontPic_Diglett",
@@ -456,7 +506,8 @@
     "shinyPalette": "gMonShinyPalette_Diglett",
     "footprintPics": "gMonFootprint_Diglett",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Diglett"
   },
   "DUGTRIO": {
     "frontPics": "gMonFrontPic_Dugtrio",
@@ -465,7 +516,8 @@
     "shinyPalette": "gMonShinyPalette_Dugtrio",
     "footprintPics": "gMonFootprint_Dugtrio",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Dugtrio"
   },
   "MEOWTH": {
     "frontPics": "gMonFrontPic_Meowth",
@@ -474,7 +526,8 @@
     "shinyPalette": "gMonShinyPalette_Meowth",
     "footprintPics": "gMonFootprint_Meowth",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Meowth"
   },
   "PERSIAN": {
     "frontPics": "gMonFrontPic_Persian",
@@ -483,7 +536,8 @@
     "shinyPalette": "gMonShinyPalette_Persian",
     "footprintPics": "gMonFootprint_Persian",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Persian"
   },
   "PSYDUCK": {
     "frontPics": "gMonFrontPic_Psyduck",
@@ -492,7 +546,8 @@
     "shinyPalette": "gMonShinyPalette_Psyduck",
     "footprintPics": "gMonFootprint_Psyduck",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Psyduck"
   },
   "GOLDUCK": {
     "frontPics": "gMonFrontPic_Golduck",
@@ -501,7 +556,8 @@
     "shinyPalette": "gMonShinyPalette_Golduck",
     "footprintPics": "gMonFootprint_Golduck",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Golduck"
   },
   "MANKEY": {
     "frontPics": "gMonFrontPic_Mankey",
@@ -510,7 +566,8 @@
     "shinyPalette": "gMonShinyPalette_Mankey",
     "footprintPics": "gMonFootprint_Mankey",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Mankey"
   },
   "PRIMEAPE": {
     "frontPics": "gMonFrontPic_Primeape",
@@ -519,7 +576,8 @@
     "shinyPalette": "gMonShinyPalette_Primeape",
     "footprintPics": "gMonFootprint_Primeape",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Primeape"
   },
   "GROWLITHE": {
     "frontPics": "gMonFrontPic_Growlithe",
@@ -528,7 +586,8 @@
     "shinyPalette": "gMonShinyPalette_Growlithe",
     "footprintPics": "gMonFootprint_Growlithe",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Growlithe"
   },
   "ARCANINE": {
     "frontPics": "gMonFrontPic_Arcanine",
@@ -537,7 +596,8 @@
     "shinyPalette": "gMonShinyPalette_Arcanine",
     "footprintPics": "gMonFootprint_Arcanine",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Arcanine"
   },
   "POLIWAG": {
     "frontPics": "gMonFrontPic_Poliwag",
@@ -546,7 +606,8 @@
     "shinyPalette": "gMonShinyPalette_Poliwag",
     "footprintPics": "gMonFootprint_Poliwag",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Poliwag"
   },
   "POLIWHIRL": {
     "frontPics": "gMonFrontPic_Poliwhirl",
@@ -555,7 +616,8 @@
     "shinyPalette": "gMonShinyPalette_Poliwhirl",
     "footprintPics": "gMonFootprint_Poliwhirl",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Poliwhirl"
   },
   "POLIWRATH": {
     "frontPics": "gMonFrontPic_Poliwrath",
@@ -564,7 +626,8 @@
     "shinyPalette": "gMonShinyPalette_Poliwrath",
     "footprintPics": "gMonFootprint_Poliwrath",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Poliwrath"
   },
   "ABRA": {
     "frontPics": "gMonFrontPic_Abra",
@@ -573,7 +636,8 @@
     "shinyPalette": "gMonShinyPalette_Abra",
     "footprintPics": "gMonFootprint_Abra",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Abra"
   },
   "KADABRA": {
     "frontPics": "gMonFrontPic_Kadabra",
@@ -582,7 +646,8 @@
     "shinyPalette": "gMonShinyPalette_Kadabra",
     "footprintPics": "gMonFootprint_Kadabra",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Kadabra"
   },
   "ALAKAZAM": {
     "frontPics": "gMonFrontPic_Alakazam",
@@ -591,7 +656,8 @@
     "shinyPalette": "gMonShinyPalette_Alakazam",
     "footprintPics": "gMonFootprint_Alakazam",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Alakazam"
   },
   "MACHOP": {
     "frontPics": "gMonFrontPic_Machop",
@@ -600,7 +666,8 @@
     "shinyPalette": "gMonShinyPalette_Machop",
     "footprintPics": "gMonFootprint_Machop",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Machop"
   },
   "MACHOKE": {
     "frontPics": "gMonFrontPic_Machoke",
@@ -609,7 +676,8 @@
     "shinyPalette": "gMonShinyPalette_Machoke",
     "footprintPics": "gMonFootprint_Machoke",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Machoke"
   },
   "MACHAMP": {
     "frontPics": "gMonFrontPic_Machamp",
@@ -618,7 +686,8 @@
     "shinyPalette": "gMonShinyPalette_Machamp",
     "footprintPics": "gMonFootprint_Machamp",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Machamp"
   },
   "BELLSPROUT": {
     "frontPics": "gMonFrontPic_Bellsprout",
@@ -627,7 +696,8 @@
     "shinyPalette": "gMonShinyPalette_Bellsprout",
     "footprintPics": "gMonFootprint_Bellsprout",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Bellsprout"
   },
   "WEEPINBELL": {
     "frontPics": "gMonFrontPic_Weepinbell",
@@ -636,7 +706,8 @@
     "shinyPalette": "gMonShinyPalette_Weepinbell",
     "footprintPics": "gMonFootprint_Weepinbell",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Weepinbell"
   },
   "VICTREEBEL": {
     "frontPics": "gMonFrontPic_Victreebel",
@@ -645,7 +716,8 @@
     "shinyPalette": "gMonShinyPalette_Victreebel",
     "footprintPics": "gMonFootprint_Victreebel",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Victreebel"
   },
   "TENTACOOL": {
     "frontPics": "gMonFrontPic_Tentacool",
@@ -654,7 +726,8 @@
     "shinyPalette": "gMonShinyPalette_Tentacool",
     "footprintPics": "gMonFootprint_Tentacool",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Tentacool"
   },
   "TENTACRUEL": {
     "frontPics": "gMonFrontPic_Tentacruel",
@@ -663,7 +736,8 @@
     "shinyPalette": "gMonShinyPalette_Tentacruel",
     "footprintPics": "gMonFootprint_Tentacruel",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Tentacruel"
   },
   "GEODUDE": {
     "frontPics": "gMonFrontPic_Geodude",
@@ -672,7 +746,8 @@
     "shinyPalette": "gMonShinyPalette_Geodude",
     "footprintPics": "gMonFootprint_Geodude",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Geodude"
   },
   "GRAVELER": {
     "frontPics": "gMonFrontPic_Graveler",
@@ -681,7 +756,8 @@
     "shinyPalette": "gMonShinyPalette_Graveler",
     "footprintPics": "gMonFootprint_Graveler",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Graveler"
   },
   "GOLEM": {
     "frontPics": "gMonFrontPic_Golem",
@@ -690,7 +766,8 @@
     "shinyPalette": "gMonShinyPalette_Golem",
     "footprintPics": "gMonFootprint_Golem",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Golem"
   },
   "PONYTA": {
     "frontPics": "gMonFrontPic_Ponyta",
@@ -699,7 +776,8 @@
     "shinyPalette": "gMonShinyPalette_Ponyta",
     "footprintPics": "gMonFootprint_Ponyta",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Ponyta"
   },
   "RAPIDASH": {
     "frontPics": "gMonFrontPic_Rapidash",
@@ -708,7 +786,8 @@
     "shinyPalette": "gMonShinyPalette_Rapidash",
     "footprintPics": "gMonFootprint_Rapidash",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Rapidash"
   },
   "SLOWPOKE": {
     "frontPics": "gMonFrontPic_Slowpoke",
@@ -717,7 +796,8 @@
     "shinyPalette": "gMonShinyPalette_Slowpoke",
     "footprintPics": "gMonFootprint_Slowpoke",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Slowpoke"
   },
   "SLOWBRO": {
     "frontPics": "gMonFrontPic_Slowbro",
@@ -726,7 +806,8 @@
     "shinyPalette": "gMonShinyPalette_Slowbro",
     "footprintPics": "gMonFootprint_Slowbro",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Slowbro"
   },
   "MAGNEMITE": {
     "frontPics": "gMonFrontPic_Magnemite",
@@ -735,7 +816,8 @@
     "shinyPalette": "gMonShinyPalette_Magnemite",
     "footprintPics": "gMonFootprint_Magnemite",
     "width": "40",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_Magnemite"
   },
   "MAGNETON": {
     "frontPics": "gMonFrontPic_Magneton",
@@ -744,7 +826,8 @@
     "shinyPalette": "gMonShinyPalette_Magneton",
     "footprintPics": "gMonFootprint_Magneton",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Magneton"
   },
   "FARFETCHD": {
     "frontPics": "gMonFrontPic_Farfetchd",
@@ -753,7 +836,8 @@
     "shinyPalette": "gMonShinyPalette_Farfetchd",
     "footprintPics": "gMonFootprint_Farfetchd",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Farfetchd"
   },
   "DODUO": {
     "frontPics": "gMonFrontPic_Doduo",
@@ -762,7 +846,8 @@
     "shinyPalette": "gMonShinyPalette_Doduo",
     "footprintPics": "gMonFootprint_Doduo",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Doduo"
   },
   "DODRIO": {
     "frontPics": "gMonFrontPic_Dodrio",
@@ -771,7 +856,8 @@
     "shinyPalette": "gMonShinyPalette_Dodrio",
     "footprintPics": "gMonFootprint_Dodrio",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Dodrio"
   },
   "SEEL": {
     "frontPics": "gMonFrontPic_Seel",
@@ -780,7 +866,8 @@
     "shinyPalette": "gMonShinyPalette_Seel",
     "footprintPics": "gMonFootprint_Seel",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Seel"
   },
   "DEWGONG": {
     "frontPics": "gMonFrontPic_Dewgong",
@@ -789,7 +876,8 @@
     "shinyPalette": "gMonShinyPalette_Dewgong",
     "footprintPics": "gMonFootprint_Dewgong",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Dewgong"
   },
   "GRIMER": {
     "frontPics": "gMonFrontPic_Grimer",
@@ -798,7 +886,8 @@
     "shinyPalette": "gMonShinyPalette_Grimer",
     "footprintPics": "gMonFootprint_Grimer",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Grimer"
   },
   "MUK": {
     "frontPics": "gMonFrontPic_Muk",
@@ -807,7 +896,8 @@
     "shinyPalette": "gMonShinyPalette_Muk",
     "footprintPics": "gMonFootprint_Muk",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Muk"
   },
   "SHELLDER": {
     "frontPics": "gMonFrontPic_Shellder",
@@ -816,7 +906,8 @@
     "shinyPalette": "gMonShinyPalette_Shellder",
     "footprintPics": "gMonFootprint_Shellder",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Shellder"
   },
   "CLOYSTER": {
     "frontPics": "gMonFrontPic_Cloyster",
@@ -825,7 +916,8 @@
     "shinyPalette": "gMonShinyPalette_Cloyster",
     "footprintPics": "gMonFootprint_Cloyster",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Cloyster"
   },
   "GASTLY": {
     "frontPics": "gMonFrontPic_Gastly",
@@ -834,7 +926,8 @@
     "shinyPalette": "gMonShinyPalette_Gastly",
     "footprintPics": "gMonFootprint_Gastly",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Gastly"
   },
   "HAUNTER": {
     "frontPics": "gMonFrontPic_Haunter",
@@ -843,7 +936,8 @@
     "shinyPalette": "gMonShinyPalette_Haunter",
     "footprintPics": "gMonFootprint_Haunter",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Haunter"
   },
   "GENGAR": {
     "frontPics": "gMonFrontPic_Gengar",
@@ -852,7 +946,8 @@
     "shinyPalette": "gMonShinyPalette_Gengar",
     "footprintPics": "gMonFootprint_Gengar",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Gengar"
   },
   "ONIX": {
     "frontPics": "gMonFrontPic_Onix",
@@ -861,7 +956,8 @@
     "shinyPalette": "gMonShinyPalette_Onix",
     "footprintPics": "gMonFootprint_Onix",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Onix"
   },
   "DROWZEE": {
     "frontPics": "gMonFrontPic_Drowzee",
@@ -870,7 +966,8 @@
     "shinyPalette": "gMonShinyPalette_Drowzee",
     "footprintPics": "gMonFootprint_Drowzee",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Drowzee"
   },
   "HYPNO": {
     "frontPics": "gMonFrontPic_Hypno",
@@ -879,7 +976,8 @@
     "shinyPalette": "gMonShinyPalette_Hypno",
     "footprintPics": "gMonFootprint_Hypno",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Hypno"
   },
   "KRABBY": {
     "frontPics": "gMonFrontPic_Krabby",
@@ -888,7 +986,8 @@
     "shinyPalette": "gMonShinyPalette_Krabby",
     "footprintPics": "gMonFootprint_Krabby",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Krabby"
   },
   "KINGLER": {
     "frontPics": "gMonFrontPic_Kingler",
@@ -897,7 +996,8 @@
     "shinyPalette": "gMonShinyPalette_Kingler",
     "footprintPics": "gMonFootprint_Kingler",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Kingler"
   },
   "VOLTORB": {
     "frontPics": "gMonFrontPic_Voltorb",
@@ -906,7 +1006,8 @@
     "shinyPalette": "gMonShinyPalette_Voltorb",
     "footprintPics": "gMonFootprint_Voltorb",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Voltorb"
   },
   "ELECTRODE": {
     "frontPics": "gMonFrontPic_Electrode",
@@ -915,7 +1016,8 @@
     "shinyPalette": "gMonShinyPalette_Electrode",
     "footprintPics": "gMonFootprint_Electrode",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Electrode"
   },
   "EXEGGCUTE": {
     "frontPics": "gMonFrontPic_Exeggcute",
@@ -924,7 +1026,8 @@
     "shinyPalette": "gMonShinyPalette_Exeggcute",
     "footprintPics": "gMonFootprint_Exeggcute",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Exeggcute"
   },
   "EXEGGUTOR": {
     "frontPics": "gMonFrontPic_Exeggutor",
@@ -933,7 +1036,8 @@
     "shinyPalette": "gMonShinyPalette_Exeggutor",
     "footprintPics": "gMonFootprint_Exeggutor",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Exeggutor"
   },
   "CUBONE": {
     "frontPics": "gMonFrontPic_Cubone",
@@ -942,7 +1046,8 @@
     "shinyPalette": "gMonShinyPalette_Cubone",
     "footprintPics": "gMonFootprint_Cubone",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Cubone"
   },
   "MAROWAK": {
     "frontPics": "gMonFrontPic_Marowak",
@@ -951,7 +1056,8 @@
     "shinyPalette": "gMonShinyPalette_Marowak",
     "footprintPics": "gMonFootprint_Marowak",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Marowak"
   },
   "HITMONLEE": {
     "frontPics": "gMonFrontPic_Hitmonlee",
@@ -960,7 +1066,8 @@
     "shinyPalette": "gMonShinyPalette_Hitmonlee",
     "footprintPics": "gMonFootprint_Hitmonlee",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Hitmonlee"
   },
   "HITMONCHAN": {
     "frontPics": "gMonFrontPic_Hitmonchan",
@@ -969,7 +1076,8 @@
     "shinyPalette": "gMonShinyPalette_Hitmonchan",
     "footprintPics": "gMonFootprint_Hitmonchan",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Hitmonchan"
   },
   "LICKITUNG": {
     "frontPics": "gMonFrontPic_Lickitung",
@@ -978,7 +1086,8 @@
     "shinyPalette": "gMonShinyPalette_Lickitung",
     "footprintPics": "gMonFootprint_Lickitung",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Lickitung"
   },
   "KOFFING": {
     "frontPics": "gMonFrontPic_Koffing",
@@ -987,7 +1096,8 @@
     "shinyPalette": "gMonShinyPalette_Koffing",
     "footprintPics": "gMonFootprint_Koffing",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Koffing"
   },
   "WEEZING": {
     "frontPics": "gMonFrontPic_Weezing",
@@ -996,7 +1106,8 @@
     "shinyPalette": "gMonShinyPalette_Weezing",
     "footprintPics": "gMonFootprint_Weezing",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Weezing"
   },
   "RHYHORN": {
     "frontPics": "gMonFrontPic_Rhyhorn",
@@ -1005,7 +1116,8 @@
     "shinyPalette": "gMonShinyPalette_Rhyhorn",
     "footprintPics": "gMonFootprint_Rhyhorn",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Rhyhorn"
   },
   "RHYDON": {
     "frontPics": "gMonFrontPic_Rhydon",
@@ -1014,7 +1126,8 @@
     "shinyPalette": "gMonShinyPalette_Rhydon",
     "footprintPics": "gMonFootprint_Rhydon",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Rhydon"
   },
   "CHANSEY": {
     "frontPics": "gMonFrontPic_Chansey",
@@ -1023,7 +1136,8 @@
     "shinyPalette": "gMonShinyPalette_Chansey",
     "footprintPics": "gMonFootprint_Chansey",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Chansey"
   },
   "TANGELA": {
     "frontPics": "gMonFrontPic_Tangela",
@@ -1032,7 +1146,8 @@
     "shinyPalette": "gMonShinyPalette_Tangela",
     "footprintPics": "gMonFootprint_Tangela",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Tangela"
   },
   "KANGASKHAN": {
     "frontPics": "gMonFrontPic_Kangaskhan",
@@ -1041,7 +1156,8 @@
     "shinyPalette": "gMonShinyPalette_Kangaskhan",
     "footprintPics": "gMonFootprint_Kangaskhan",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Kangaskhan"
   },
   "HORSEA": {
     "frontPics": "gMonFrontPic_Horsea",
@@ -1050,7 +1166,8 @@
     "shinyPalette": "gMonShinyPalette_Horsea",
     "footprintPics": "gMonFootprint_Horsea",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Horsea"
   },
   "SEADRA": {
     "frontPics": "gMonFrontPic_Seadra",
@@ -1059,7 +1176,8 @@
     "shinyPalette": "gMonShinyPalette_Seadra",
     "footprintPics": "gMonFootprint_Seadra",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Seadra"
   },
   "GOLDEEN": {
     "frontPics": "gMonFrontPic_Goldeen",
@@ -1068,7 +1186,8 @@
     "shinyPalette": "gMonShinyPalette_Goldeen",
     "footprintPics": "gMonFootprint_Goldeen",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Goldeen"
   },
   "SEAKING": {
     "frontPics": "gMonFrontPic_Seaking",
@@ -1077,7 +1196,8 @@
     "shinyPalette": "gMonShinyPalette_Seaking",
     "footprintPics": "gMonFootprint_Seaking",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Seaking"
   },
   "STARYU": {
     "frontPics": "gMonFrontPic_Staryu",
@@ -1086,7 +1206,8 @@
     "shinyPalette": "gMonShinyPalette_Staryu",
     "footprintPics": "gMonFootprint_Staryu",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Staryu"
   },
   "STARMIE": {
     "frontPics": "gMonFrontPic_Starmie",
@@ -1095,7 +1216,8 @@
     "shinyPalette": "gMonShinyPalette_Starmie",
     "footprintPics": "gMonFootprint_Starmie",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Starmie"
   },
   "MR_MIME": {
     "frontPics": "gMonFrontPic_Mrmime",
@@ -1104,7 +1226,8 @@
     "shinyPalette": "gMonShinyPalette_Mrmime",
     "footprintPics": "gMonFootprint_Mrmime",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Mr_mime"
   },
   "SCYTHER": {
     "frontPics": "gMonFrontPic_Scyther",
@@ -1113,7 +1236,8 @@
     "shinyPalette": "gMonShinyPalette_Scyther",
     "footprintPics": "gMonFootprint_Scyther",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Scyther"
   },
   "JYNX": {
     "frontPics": "gMonFrontPic_Jynx",
@@ -1122,7 +1246,8 @@
     "shinyPalette": "gMonShinyPalette_Jynx",
     "footprintPics": "gMonFootprint_Jynx",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Jynx"
   },
   "ELECTABUZZ": {
     "frontPics": "gMonFrontPic_Electabuzz",
@@ -1131,7 +1256,8 @@
     "shinyPalette": "gMonShinyPalette_Electabuzz",
     "footprintPics": "gMonFootprint_Electabuzz",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Electabuzz"
   },
   "MAGMAR": {
     "frontPics": "gMonFrontPic_Magmar",
@@ -1140,7 +1266,8 @@
     "shinyPalette": "gMonShinyPalette_Magmar",
     "footprintPics": "gMonFootprint_Magmar",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Magmar"
   },
   "PINSIR": {
     "frontPics": "gMonFrontPic_Pinsir",
@@ -1149,7 +1276,8 @@
     "shinyPalette": "gMonShinyPalette_Pinsir",
     "footprintPics": "gMonFootprint_Pinsir",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Pinsir"
   },
   "TAUROS": {
     "frontPics": "gMonFrontPic_Tauros",
@@ -1158,7 +1286,8 @@
     "shinyPalette": "gMonShinyPalette_Tauros",
     "footprintPics": "gMonFootprint_Tauros",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Tauros"
   },
   "MAGIKARP": {
     "frontPics": "gMonFrontPic_Magikarp",
@@ -1167,7 +1296,8 @@
     "shinyPalette": "gMonShinyPalette_Magikarp",
     "footprintPics": "gMonFootprint_Magikarp",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Magikarp"
   },
   "GYARADOS": {
     "frontPics": "gMonFrontPic_Gyarados",
@@ -1176,7 +1306,8 @@
     "shinyPalette": "gMonShinyPalette_Gyarados",
     "footprintPics": "gMonFootprint_Gyarados",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Gyarados"
   },
   "LAPRAS": {
     "frontPics": "gMonFrontPic_Lapras",
@@ -1185,7 +1316,8 @@
     "shinyPalette": "gMonShinyPalette_Lapras",
     "footprintPics": "gMonFootprint_Lapras",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Lapras"
   },
   "DITTO": {
     "frontPics": "gMonFrontPic_Ditto",
@@ -1194,7 +1326,8 @@
     "shinyPalette": "gMonShinyPalette_Ditto",
     "footprintPics": "gMonFootprint_Ditto",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Ditto"
   },
   "EEVEE": {
     "frontPics": "gMonFrontPic_Eevee",
@@ -1203,7 +1336,8 @@
     "shinyPalette": "gMonShinyPalette_Eevee",
     "footprintPics": "gMonFootprint_Eevee",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Eevee"
   },
   "VAPOREON": {
     "frontPics": "gMonFrontPic_Vaporeon",
@@ -1212,7 +1346,8 @@
     "shinyPalette": "gMonShinyPalette_Vaporeon",
     "footprintPics": "gMonFootprint_Vaporeon",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Vaporeon"
   },
   "JOLTEON": {
     "frontPics": "gMonFrontPic_Jolteon",
@@ -1221,7 +1356,8 @@
     "shinyPalette": "gMonShinyPalette_Jolteon",
     "footprintPics": "gMonFootprint_Jolteon",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Jolteon"
   },
   "FLAREON": {
     "frontPics": "gMonFrontPic_Flareon",
@@ -1230,7 +1366,8 @@
     "shinyPalette": "gMonShinyPalette_Flareon",
     "footprintPics": "gMonFootprint_Flareon",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Flareon"
   },
   "PORYGON": {
     "frontPics": "gMonFrontPic_Porygon",
@@ -1239,7 +1376,8 @@
     "shinyPalette": "gMonShinyPalette_Porygon",
     "footprintPics": "gMonFootprint_Porygon",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Porygon"
   },
   "OMANYTE": {
     "frontPics": "gMonFrontPic_Omanyte",
@@ -1248,7 +1386,8 @@
     "shinyPalette": "gMonShinyPalette_Omanyte",
     "footprintPics": "gMonFootprint_Omanyte",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Omanyte"
   },
   "OMASTAR": {
     "frontPics": "gMonFrontPic_Omastar",
@@ -1257,7 +1396,8 @@
     "shinyPalette": "gMonShinyPalette_Omastar",
     "footprintPics": "gMonFootprint_Omastar",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Omastar"
   },
   "KABUTO": {
     "frontPics": "gMonFrontPic_Kabuto",
@@ -1266,7 +1406,8 @@
     "shinyPalette": "gMonShinyPalette_Kabuto",
     "footprintPics": "gMonFootprint_Kabuto",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Kabuto"
   },
   "KABUTOPS": {
     "frontPics": "gMonFrontPic_Kabutops",
@@ -1275,7 +1416,8 @@
     "shinyPalette": "gMonShinyPalette_Kabutops",
     "footprintPics": "gMonFootprint_Kabutops",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Kabutops"
   },
   "AERODACTYL": {
     "frontPics": "gMonFrontPic_Aerodactyl",
@@ -1284,7 +1426,8 @@
     "shinyPalette": "gMonShinyPalette_Aerodactyl",
     "footprintPics": "gMonFootprint_Aerodactyl",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Aerodactyl"
   },
   "SNORLAX": {
     "frontPics": "gMonFrontPic_Snorlax",
@@ -1293,7 +1436,8 @@
     "shinyPalette": "gMonShinyPalette_Snorlax",
     "footprintPics": "gMonFootprint_Snorlax",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Snorlax"
   },
   "ARTICUNO": {
     "frontPics": "gMonFrontPic_Articuno",
@@ -1302,7 +1446,8 @@
     "shinyPalette": "gMonShinyPalette_Articuno",
     "footprintPics": "gMonFootprint_Articuno",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Articuno"
   },
   "ZAPDOS": {
     "frontPics": "gMonFrontPic_Zapdos",
@@ -1311,7 +1456,8 @@
     "shinyPalette": "gMonShinyPalette_Zapdos",
     "footprintPics": "gMonFootprint_Zapdos",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Zapdos"
   },
   "MOLTRES": {
     "frontPics": "gMonFrontPic_Moltres",
@@ -1320,7 +1466,8 @@
     "shinyPalette": "gMonShinyPalette_Moltres",
     "footprintPics": "gMonFootprint_Moltres",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Moltres"
   },
   "DRATINI": {
     "frontPics": "gMonFrontPic_Dratini",
@@ -1329,7 +1476,8 @@
     "shinyPalette": "gMonShinyPalette_Dratini",
     "footprintPics": "gMonFootprint_Dratini",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Dratini"
   },
   "DRAGONAIR": {
     "frontPics": "gMonFrontPic_Dragonair",
@@ -1338,7 +1486,8 @@
     "shinyPalette": "gMonShinyPalette_Dragonair",
     "footprintPics": "gMonFootprint_Dragonair",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Dragonair"
   },
   "DRAGONITE": {
     "frontPics": "gMonFrontPic_Dragonite",
@@ -1347,7 +1496,8 @@
     "shinyPalette": "gMonShinyPalette_Dragonite",
     "footprintPics": "gMonFootprint_Dragonite",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Dragonite"
   },
   "MEWTWO": {
     "frontPics": "gMonFrontPic_Mewtwo",
@@ -1356,7 +1506,8 @@
     "shinyPalette": "gMonShinyPalette_Mewtwo",
     "footprintPics": "gMonFootprint_Mewtwo",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Mewtwo"
   },
   "MEW": {
     "frontPics": "gMonFrontPic_Mew",
@@ -1365,7 +1516,8 @@
     "shinyPalette": "gMonShinyPalette_Mew",
     "footprintPics": "gMonFootprint_Mew",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Mew"
   },
   "CHIKORITA": {
     "frontPics": "gMonFrontPic_Chikorita",
@@ -1374,7 +1526,8 @@
     "shinyPalette": "gMonShinyPalette_Chikorita",
     "footprintPics": "gMonFootprint_Chikorita",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Chikorita"
   },
   "BAYLEEF": {
     "frontPics": "gMonFrontPic_Bayleef",
@@ -1383,7 +1536,8 @@
     "shinyPalette": "gMonShinyPalette_Bayleef",
     "footprintPics": "gMonFootprint_Bayleef",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Bayleef"
   },
   "MEGANIUM": {
     "frontPics": "gMonFrontPic_Meganium",
@@ -1392,7 +1546,8 @@
     "shinyPalette": "gMonShinyPalette_Meganium",
     "footprintPics": "gMonFootprint_Meganium",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Meganium"
   },
   "CYNDAQUIL": {
     "frontPics": "gMonFrontPic_Cyndaquil",
@@ -1401,7 +1556,8 @@
     "shinyPalette": "gMonShinyPalette_Cyndaquil",
     "footprintPics": "gMonFootprint_Cyndaquil",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Cyndaquil"
   },
   "QUILAVA": {
     "frontPics": "gMonFrontPic_Quilava",
@@ -1410,7 +1566,8 @@
     "shinyPalette": "gMonShinyPalette_Quilava",
     "footprintPics": "gMonFootprint_Quilava",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Quilava"
   },
   "TYPHLOSION": {
     "frontPics": "gMonFrontPic_Typhlosion",
@@ -1419,7 +1576,8 @@
     "shinyPalette": "gMonShinyPalette_Typhlosion",
     "footprintPics": "gMonFootprint_Typhlosion",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Typhlosion"
   },
   "TOTODILE": {
     "frontPics": "gMonFrontPic_Totodile",
@@ -1428,7 +1586,8 @@
     "shinyPalette": "gMonShinyPalette_Totodile",
     "footprintPics": "gMonFootprint_Totodile",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Totodile"
   },
   "CROCONAW": {
     "frontPics": "gMonFrontPic_Croconaw",
@@ -1437,7 +1596,8 @@
     "shinyPalette": "gMonShinyPalette_Croconaw",
     "footprintPics": "gMonFootprint_Croconaw",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Croconaw"
   },
   "FERALIGATR": {
     "frontPics": "gMonFrontPic_Feraligatr",
@@ -1446,7 +1606,8 @@
     "shinyPalette": "gMonShinyPalette_Feraligatr",
     "footprintPics": "gMonFootprint_Feraligatr",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Feraligatr"
   },
   "SENTRET": {
     "frontPics": "gMonFrontPic_Sentret",
@@ -1455,7 +1616,8 @@
     "shinyPalette": "gMonShinyPalette_Sentret",
     "footprintPics": "gMonFootprint_Sentret",
     "width": "32",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Sentret"
   },
   "FURRET": {
     "frontPics": "gMonFrontPic_Furret",
@@ -1464,7 +1626,8 @@
     "shinyPalette": "gMonShinyPalette_Furret",
     "footprintPics": "gMonFootprint_Furret",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Furret"
   },
   "HOOTHOOT": {
     "frontPics": "gMonFrontPic_Hoothoot",
@@ -1473,7 +1636,8 @@
     "shinyPalette": "gMonShinyPalette_Hoothoot",
     "footprintPics": "gMonFootprint_Hoothoot",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Hoothoot"
   },
   "NOCTOWL": {
     "frontPics": "gMonFrontPic_Noctowl",
@@ -1482,7 +1646,8 @@
     "shinyPalette": "gMonShinyPalette_Noctowl",
     "footprintPics": "gMonFootprint_Noctowl",
     "width": "40",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Noctowl"
   },
   "LEDYBA": {
     "frontPics": "gMonFrontPic_Ledyba",
@@ -1491,7 +1656,8 @@
     "shinyPalette": "gMonShinyPalette_Ledyba",
     "footprintPics": "gMonFootprint_Ledyba",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Ledyba"
   },
   "LEDIAN": {
     "frontPics": "gMonFrontPic_Ledian",
@@ -1500,7 +1666,8 @@
     "shinyPalette": "gMonShinyPalette_Ledian",
     "footprintPics": "gMonFootprint_Ledian",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Ledian"
   },
   "SPINARAK": {
     "frontPics": "gMonFrontPic_Spinarak",
@@ -1509,7 +1676,8 @@
     "shinyPalette": "gMonShinyPalette_Spinarak",
     "footprintPics": "gMonFootprint_Spinarak",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Spinarak"
   },
   "ARIADOS": {
     "frontPics": "gMonFrontPic_Ariados",
@@ -1518,7 +1686,8 @@
     "shinyPalette": "gMonShinyPalette_Ariados",
     "footprintPics": "gMonFootprint_Ariados",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Ariados"
   },
   "CROBAT": {
     "frontPics": "gMonFrontPic_Crobat",
@@ -1527,7 +1696,8 @@
     "shinyPalette": "gMonShinyPalette_Crobat",
     "footprintPics": "gMonFootprint_Crobat",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Crobat"
   },
   "CHINCHOU": {
     "frontPics": "gMonFrontPic_Chinchou",
@@ -1536,7 +1706,8 @@
     "shinyPalette": "gMonShinyPalette_Chinchou",
     "footprintPics": "gMonFootprint_Chinchou",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Chinchou"
   },
   "LANTURN": {
     "frontPics": "gMonFrontPic_Lanturn",
@@ -1545,7 +1716,8 @@
     "shinyPalette": "gMonShinyPalette_Lanturn",
     "footprintPics": "gMonFootprint_Lanturn",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Lanturn"
   },
   "PICHU": {
     "frontPics": "gMonFrontPic_Pichu",
@@ -1554,7 +1726,8 @@
     "shinyPalette": "gMonShinyPalette_Pichu",
     "footprintPics": "gMonFootprint_Pichu",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Pichu"
   },
   "CLEFFA": {
     "frontPics": "gMonFrontPic_Cleffa",
@@ -1563,7 +1736,8 @@
     "shinyPalette": "gMonShinyPalette_Cleffa",
     "footprintPics": "gMonFootprint_Cleffa",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Cleffa"
   },
   "IGGLYBUFF": {
     "frontPics": "gMonFrontPic_Igglybuff",
@@ -1572,7 +1746,8 @@
     "shinyPalette": "gMonShinyPalette_Igglybuff",
     "footprintPics": "gMonFootprint_Igglybuff",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Igglybuff"
   },
   "TOGEPI": {
     "frontPics": "gMonFrontPic_Togepi",
@@ -1581,7 +1756,8 @@
     "shinyPalette": "gMonShinyPalette_Togepi",
     "footprintPics": "gMonFootprint_Togepi",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Togepi"
   },
   "TOGETIC": {
     "frontPics": "gMonFrontPic_Togetic",
@@ -1590,7 +1766,8 @@
     "shinyPalette": "gMonShinyPalette_Togetic",
     "footprintPics": "gMonFootprint_Togetic",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Togetic"
   },
   "NATU": {
     "frontPics": "gMonFrontPic_Natu",
@@ -1599,7 +1776,8 @@
     "shinyPalette": "gMonShinyPalette_Natu",
     "footprintPics": "gMonFootprint_Natu",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Natu"
   },
   "XATU": {
     "frontPics": "gMonFrontPic_Xatu",
@@ -1608,7 +1786,8 @@
     "shinyPalette": "gMonShinyPalette_Xatu",
     "footprintPics": "gMonFootprint_Xatu",
     "width": "32",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Xatu"
   },
   "MAREEP": {
     "frontPics": "gMonFrontPic_Mareep",
@@ -1617,7 +1796,8 @@
     "shinyPalette": "gMonShinyPalette_Mareep",
     "footprintPics": "gMonFootprint_Mareep",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Mareep"
   },
   "FLAAFFY": {
     "frontPics": "gMonFrontPic_Flaaffy",
@@ -1626,7 +1806,8 @@
     "shinyPalette": "gMonShinyPalette_Flaaffy",
     "footprintPics": "gMonFootprint_Flaaffy",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Flaaffy"
   },
   "AMPHAROS": {
     "frontPics": "gMonFrontPic_Ampharos",
@@ -1635,7 +1816,8 @@
     "shinyPalette": "gMonShinyPalette_Ampharos",
     "footprintPics": "gMonFootprint_Ampharos",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Ampharos"
   },
   "BELLOSSOM": {
     "frontPics": "gMonFrontPic_Bellossom",
@@ -1644,7 +1826,8 @@
     "shinyPalette": "gMonShinyPalette_Bellossom",
     "footprintPics": "gMonFootprint_Bellossom",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Bellossom"
   },
   "MARILL": {
     "frontPics": "gMonFrontPic_Marill",
@@ -1653,7 +1836,8 @@
     "shinyPalette": "gMonShinyPalette_Marill",
     "footprintPics": "gMonFootprint_Marill",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Marill"
   },
   "AZUMARILL": {
     "frontPics": "gMonFrontPic_Azumarill",
@@ -1662,7 +1846,8 @@
     "shinyPalette": "gMonShinyPalette_Azumarill",
     "footprintPics": "gMonFootprint_Azumarill",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Azumarill"
   },
   "SUDOWOODO": {
     "frontPics": "gMonFrontPic_Sudowoodo",
@@ -1671,7 +1856,8 @@
     "shinyPalette": "gMonShinyPalette_Sudowoodo",
     "footprintPics": "gMonFootprint_Sudowoodo",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Sudowoodo"
   },
   "POLITOED": {
     "frontPics": "gMonFrontPic_Politoed",
@@ -1680,7 +1866,8 @@
     "shinyPalette": "gMonShinyPalette_Politoed",
     "footprintPics": "gMonFootprint_Politoed",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Politoed"
   },
   "HOPPIP": {
     "frontPics": "gMonFrontPic_Hoppip",
@@ -1689,7 +1876,8 @@
     "shinyPalette": "gMonShinyPalette_Hoppip",
     "footprintPics": "gMonFootprint_Hoppip",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Hoppip"
   },
   "SKIPLOOM": {
     "frontPics": "gMonFrontPic_Skiploom",
@@ -1698,7 +1886,8 @@
     "shinyPalette": "gMonShinyPalette_Skiploom",
     "footprintPics": "gMonFootprint_Skiploom",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Skiploom"
   },
   "JUMPLUFF": {
     "frontPics": "gMonFrontPic_Jumpluff",
@@ -1707,7 +1896,8 @@
     "shinyPalette": "gMonShinyPalette_Jumpluff",
     "footprintPics": "gMonFootprint_Jumpluff",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Jumpluff"
   },
   "AIPOM": {
     "frontPics": "gMonFrontPic_Aipom",
@@ -1716,7 +1906,8 @@
     "shinyPalette": "gMonShinyPalette_Aipom",
     "footprintPics": "gMonFootprint_Aipom",
     "width": "40",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Aipom"
   },
   "SUNKERN": {
     "frontPics": "gMonFrontPic_Sunkern",
@@ -1725,7 +1916,8 @@
     "shinyPalette": "gMonShinyPalette_Sunkern",
     "footprintPics": "gMonFootprint_Sunkern",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Sunkern"
   },
   "SUNFLORA": {
     "frontPics": "gMonFrontPic_Sunflora",
@@ -1734,7 +1926,8 @@
     "shinyPalette": "gMonShinyPalette_Sunflora",
     "footprintPics": "gMonFootprint_Sunflora",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Sunflora"
   },
   "YANMA": {
     "frontPics": "gMonFrontPic_Yanma",
@@ -1743,7 +1936,8 @@
     "shinyPalette": "gMonShinyPalette_Yanma",
     "footprintPics": "gMonFootprint_Yanma",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Yanma"
   },
   "WOOPER": {
     "frontPics": "gMonFrontPic_Wooper",
@@ -1752,7 +1946,8 @@
     "shinyPalette": "gMonShinyPalette_Wooper",
     "footprintPics": "gMonFootprint_Wooper",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Wooper"
   },
   "QUAGSIRE": {
     "frontPics": "gMonFrontPic_Quagsire",
@@ -1761,7 +1956,8 @@
     "shinyPalette": "gMonShinyPalette_Quagsire",
     "footprintPics": "gMonFootprint_Quagsire",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Quagsire"
   },
   "ESPEON": {
     "frontPics": "gMonFrontPic_Espeon",
@@ -1770,7 +1966,8 @@
     "shinyPalette": "gMonShinyPalette_Espeon",
     "footprintPics": "gMonFootprint_Espeon",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Espeon"
   },
   "UMBREON": {
     "frontPics": "gMonFrontPic_Umbreon",
@@ -1779,7 +1976,8 @@
     "shinyPalette": "gMonShinyPalette_Umbreon",
     "footprintPics": "gMonFootprint_Umbreon",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Umbreon"
   },
   "MURKROW": {
     "frontPics": "gMonFrontPic_Murkrow",
@@ -1788,7 +1986,8 @@
     "shinyPalette": "gMonShinyPalette_Murkrow",
     "footprintPics": "gMonFootprint_Murkrow",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Murkrow"
   },
   "SLOWKING": {
     "frontPics": "gMonFrontPic_Slowking",
@@ -1797,7 +1996,8 @@
     "shinyPalette": "gMonShinyPalette_Slowking",
     "footprintPics": "gMonFootprint_Slowking",
     "width": "40",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Slowking"
   },
   "MISDREAVUS": {
     "frontPics": "gMonFrontPic_Misdreavus",
@@ -1806,7 +2006,8 @@
     "shinyPalette": "gMonShinyPalette_Misdreavus",
     "footprintPics": "gMonFootprint_Misdreavus",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Misdreavus"
   },
   "UNOWN": {
     "frontPics": "gMonFrontPic_UnownA",
@@ -1815,7 +2016,8 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "footprintPics": "gMonFootprint_Unown",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Unown"
   },
   "WOBBUFFET": {
     "frontPics": "gMonFrontPic_Wobbuffet",
@@ -1824,7 +2026,8 @@
     "shinyPalette": "gMonShinyPalette_Wobbuffet",
     "footprintPics": "gMonFootprint_Wobbuffet",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Wobbuffet"
   },
   "GIRAFARIG": {
     "frontPics": "gMonFrontPic_Girafarig",
@@ -1833,7 +2036,8 @@
     "shinyPalette": "gMonShinyPalette_Girafarig",
     "footprintPics": "gMonFootprint_Girafarig",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Girafarig"
   },
   "PINECO": {
     "frontPics": "gMonFrontPic_Pineco",
@@ -1842,7 +2046,8 @@
     "shinyPalette": "gMonShinyPalette_Pineco",
     "footprintPics": "gMonFootprint_Pineco",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Pineco"
   },
   "FORRETRESS": {
     "frontPics": "gMonFrontPic_Forretress",
@@ -1851,7 +2056,8 @@
     "shinyPalette": "gMonShinyPalette_Forretress",
     "footprintPics": "gMonFootprint_Forretress",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Forretress"
   },
   "DUNSPARCE": {
     "frontPics": "gMonFrontPic_Dunsparce",
@@ -1860,7 +2066,8 @@
     "shinyPalette": "gMonShinyPalette_Dunsparce",
     "footprintPics": "gMonFootprint_Dunsparce",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Dunsparce"
   },
   "GLIGAR": {
     "frontPics": "gMonFrontPic_Gligar",
@@ -1869,7 +2076,8 @@
     "shinyPalette": "gMonShinyPalette_Gligar",
     "footprintPics": "gMonFootprint_Gligar",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Gligar"
   },
   "STEELIX": {
     "frontPics": "gMonFrontPic_Steelix",
@@ -1878,7 +2086,8 @@
     "shinyPalette": "gMonShinyPalette_Steelix",
     "footprintPics": "gMonFootprint_Steelix",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Steelix"
   },
   "SNUBBULL": {
     "frontPics": "gMonFrontPic_Snubbull",
@@ -1887,7 +2096,8 @@
     "shinyPalette": "gMonShinyPalette_Snubbull",
     "footprintPics": "gMonFootprint_Snubbull",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Snubbull"
   },
   "GRANBULL": {
     "frontPics": "gMonFrontPic_Granbull",
@@ -1896,7 +2106,8 @@
     "shinyPalette": "gMonShinyPalette_Granbull",
     "footprintPics": "gMonFootprint_Granbull",
     "width": "40",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Granbull"
   },
   "QWILFISH": {
     "frontPics": "gMonFrontPic_Qwilfish",
@@ -1905,7 +2116,8 @@
     "shinyPalette": "gMonShinyPalette_Qwilfish",
     "footprintPics": "gMonFootprint_Qwilfish",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Qwilfish"
   },
   "SCIZOR": {
     "frontPics": "gMonFrontPic_Scizor",
@@ -1914,7 +2126,8 @@
     "shinyPalette": "gMonShinyPalette_Scizor",
     "footprintPics": "gMonFootprint_Scizor",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Scizor"
   },
   "SHUCKLE": {
     "frontPics": "gMonFrontPic_Shuckle",
@@ -1923,7 +2136,8 @@
     "shinyPalette": "gMonShinyPalette_Shuckle",
     "footprintPics": "gMonFootprint_Shuckle",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Shuckle"
   },
   "HERACROSS": {
     "frontPics": "gMonFrontPic_Heracross",
@@ -1932,7 +2146,8 @@
     "shinyPalette": "gMonShinyPalette_Heracross",
     "footprintPics": "gMonFootprint_Heracross",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Heracross"
   },
   "SNEASEL": {
     "frontPics": "gMonFrontPic_Sneasel",
@@ -1941,7 +2156,8 @@
     "shinyPalette": "gMonShinyPalette_Sneasel",
     "footprintPics": "gMonFootprint_Sneasel",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Sneasel"
   },
   "TEDDIURSA": {
     "frontPics": "gMonFrontPic_Teddiursa",
@@ -1950,7 +2166,8 @@
     "shinyPalette": "gMonShinyPalette_Teddiursa",
     "footprintPics": "gMonFootprint_Teddiursa",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Teddiursa"
   },
   "URSARING": {
     "frontPics": "gMonFrontPic_Ursaring",
@@ -1959,7 +2176,8 @@
     "shinyPalette": "gMonShinyPalette_Ursaring",
     "footprintPics": "gMonFootprint_Ursaring",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Ursaring"
   },
   "SLUGMA": {
     "frontPics": "gMonFrontPic_Slugma",
@@ -1968,7 +2186,8 @@
     "shinyPalette": "gMonShinyPalette_Slugma",
     "footprintPics": "gMonFootprint_Slugma",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Slugma"
   },
   "MAGCARGO": {
     "frontPics": "gMonFrontPic_Magcargo",
@@ -1977,7 +2196,8 @@
     "shinyPalette": "gMonShinyPalette_Magcargo",
     "footprintPics": "gMonFootprint_Magcargo",
     "width": "40",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Magcargo"
   },
   "SWINUB": {
     "frontPics": "gMonFrontPic_Swinub",
@@ -1986,7 +2206,8 @@
     "shinyPalette": "gMonShinyPalette_Swinub",
     "footprintPics": "gMonFootprint_Swinub",
     "width": "32",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_Swinub"
   },
   "PILOSWINE": {
     "frontPics": "gMonFrontPic_Piloswine",
@@ -1995,7 +2216,8 @@
     "shinyPalette": "gMonShinyPalette_Piloswine",
     "footprintPics": "gMonFootprint_Piloswine",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Piloswine"
   },
   "CORSOLA": {
     "frontPics": "gMonFrontPic_Corsola",
@@ -2004,7 +2226,8 @@
     "shinyPalette": "gMonShinyPalette_Corsola",
     "footprintPics": "gMonFootprint_Corsola",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Corsola"
   },
   "REMORAID": {
     "frontPics": "gMonFrontPic_Remoraid",
@@ -2013,7 +2236,8 @@
     "shinyPalette": "gMonShinyPalette_Remoraid",
     "footprintPics": "gMonFootprint_Remoraid",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Remoraid"
   },
   "OCTILLERY": {
     "frontPics": "gMonFrontPic_Octillery",
@@ -2022,7 +2246,8 @@
     "shinyPalette": "gMonShinyPalette_Octillery",
     "footprintPics": "gMonFootprint_Octillery",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Octillery"
   },
   "DELIBIRD": {
     "frontPics": "gMonFrontPic_Delibird",
@@ -2031,7 +2256,8 @@
     "shinyPalette": "gMonShinyPalette_Delibird",
     "footprintPics": "gMonFootprint_Delibird",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Delibird"
   },
   "MANTINE": {
     "frontPics": "gMonFrontPic_Mantine",
@@ -2040,7 +2266,8 @@
     "shinyPalette": "gMonShinyPalette_Mantine",
     "footprintPics": "gMonFootprint_Mantine",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Mantine"
   },
   "SKARMORY": {
     "frontPics": "gMonFrontPic_Skarmory",
@@ -2049,7 +2276,8 @@
     "shinyPalette": "gMonShinyPalette_Skarmory",
     "footprintPics": "gMonFootprint_Skarmory",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Skarmory"
   },
   "HOUNDOUR": {
     "frontPics": "gMonFrontPic_Houndour",
@@ -2058,7 +2286,8 @@
     "shinyPalette": "gMonShinyPalette_Houndour",
     "footprintPics": "gMonFootprint_Houndour",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Houndour"
   },
   "HOUNDOOM": {
     "frontPics": "gMonFrontPic_Houndoom",
@@ -2067,7 +2296,8 @@
     "shinyPalette": "gMonShinyPalette_Houndoom",
     "footprintPics": "gMonFootprint_Houndoom",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Houndoom"
   },
   "KINGDRA": {
     "frontPics": "gMonFrontPic_Kingdra",
@@ -2076,7 +2306,8 @@
     "shinyPalette": "gMonShinyPalette_Kingdra",
     "footprintPics": "gMonFootprint_Kingdra",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Kingdra"
   },
   "PHANPY": {
     "frontPics": "gMonFrontPic_Phanpy",
@@ -2085,7 +2316,8 @@
     "shinyPalette": "gMonShinyPalette_Phanpy",
     "footprintPics": "gMonFootprint_Phanpy",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Phanpy"
   },
   "DONPHAN": {
     "frontPics": "gMonFrontPic_Donphan",
@@ -2094,7 +2326,8 @@
     "shinyPalette": "gMonShinyPalette_Donphan",
     "footprintPics": "gMonFootprint_Donphan",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Donphan"
   },
   "PORYGON2": {
     "frontPics": "gMonFrontPic_Porygon2",
@@ -2103,7 +2336,8 @@
     "shinyPalette": "gMonShinyPalette_Porygon2",
     "footprintPics": "gMonFootprint_Porygon2",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Porygon2"
   },
   "STANTLER": {
     "frontPics": "gMonFrontPic_Stantler",
@@ -2112,7 +2346,8 @@
     "shinyPalette": "gMonShinyPalette_Stantler",
     "footprintPics": "gMonFootprint_Stantler",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Stantler"
   },
   "SMEARGLE": {
     "frontPics": "gMonFrontPic_Smeargle",
@@ -2121,7 +2356,8 @@
     "shinyPalette": "gMonShinyPalette_Smeargle",
     "footprintPics": "gMonFootprint_Smeargle",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Smeargle"
   },
   "TYROGUE": {
     "frontPics": "gMonFrontPic_Tyrogue",
@@ -2130,7 +2366,8 @@
     "shinyPalette": "gMonShinyPalette_Tyrogue",
     "footprintPics": "gMonFootprint_Tyrogue",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Tyrogue"
   },
   "HITMONTOP": {
     "frontPics": "gMonFrontPic_Hitmontop",
@@ -2139,7 +2376,8 @@
     "shinyPalette": "gMonShinyPalette_Hitmontop",
     "footprintPics": "gMonFootprint_Hitmontop",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Hitmontop"
   },
   "SMOOCHUM": {
     "frontPics": "gMonFrontPic_Smoochum",
@@ -2148,7 +2386,8 @@
     "shinyPalette": "gMonShinyPalette_Smoochum",
     "footprintPics": "gMonFootprint_Smoochum",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Smoochum"
   },
   "ELEKID": {
     "frontPics": "gMonFrontPic_Elekid",
@@ -2157,7 +2396,8 @@
     "shinyPalette": "gMonShinyPalette_Elekid",
     "footprintPics": "gMonFootprint_Elekid",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Elekid"
   },
   "MAGBY": {
     "frontPics": "gMonFrontPic_Magby",
@@ -2166,7 +2406,8 @@
     "shinyPalette": "gMonShinyPalette_Magby",
     "footprintPics": "gMonFootprint_Magby",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Magby"
   },
   "MILTANK": {
     "frontPics": "gMonFrontPic_Miltank",
@@ -2175,7 +2416,8 @@
     "shinyPalette": "gMonShinyPalette_Miltank",
     "footprintPics": "gMonFootprint_Miltank",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Miltank"
   },
   "BLISSEY": {
     "frontPics": "gMonFrontPic_Blissey",
@@ -2184,7 +2426,8 @@
     "shinyPalette": "gMonShinyPalette_Blissey",
     "footprintPics": "gMonFootprint_Blissey",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Blissey"
   },
   "RAIKOU": {
     "frontPics": "gMonFrontPic_Raikou",
@@ -2193,7 +2436,8 @@
     "shinyPalette": "gMonShinyPalette_Raikou",
     "footprintPics": "gMonFootprint_Raikou",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Raikou"
   },
   "ENTEI": {
     "frontPics": "gMonFrontPic_Entei",
@@ -2202,7 +2446,8 @@
     "shinyPalette": "gMonShinyPalette_Entei",
     "footprintPics": "gMonFootprint_Entei",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Entei"
   },
   "SUICUNE": {
     "frontPics": "gMonFrontPic_Suicune",
@@ -2211,7 +2456,8 @@
     "shinyPalette": "gMonShinyPalette_Suicune",
     "footprintPics": "gMonFootprint_Suicune",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Suicune"
   },
   "LARVITAR": {
     "frontPics": "gMonFrontPic_Larvitar",
@@ -2220,7 +2466,8 @@
     "shinyPalette": "gMonShinyPalette_Larvitar",
     "footprintPics": "gMonFootprint_Larvitar",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Larvitar"
   },
   "PUPITAR": {
     "frontPics": "gMonFrontPic_Pupitar",
@@ -2229,7 +2476,8 @@
     "shinyPalette": "gMonShinyPalette_Pupitar",
     "footprintPics": "gMonFootprint_Pupitar",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Pupitar"
   },
   "TYRANITAR": {
     "frontPics": "gMonFrontPic_Tyranitar",
@@ -2238,7 +2486,8 @@
     "shinyPalette": "gMonShinyPalette_Tyranitar",
     "footprintPics": "gMonFootprint_Tyranitar",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Tyranitar"
   },
   "LUGIA": {
     "frontPics": "gMonFrontPic_Lugia",
@@ -2247,7 +2496,8 @@
     "shinyPalette": "gMonShinyPalette_Lugia",
     "footprintPics": "gMonFootprint_Lugia",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Lugia"
   },
   "HO_OH": {
     "frontPics": "gMonFrontPic_HoOh",
@@ -2256,7 +2506,8 @@
     "shinyPalette": "gMonShinyPalette_HoOh",
     "footprintPics": "gMonFootprint_HoOh",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Ho_oh"
   },
   "CELEBI": {
     "frontPics": "gMonFrontPic_Celebi",
@@ -2265,7 +2516,8 @@
     "shinyPalette": "gMonShinyPalette_Celebi",
     "footprintPics": "gMonFootprint_Celebi",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Celebi"
   },
   "OLD_UNOWN_B": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2499,7 +2751,8 @@
     "shinyPalette": "gMonShinyPalette_Treecko",
     "footprintPics": "gMonFootprint_Treecko",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Treecko"
   },
   "GROVYLE": {
     "frontPics": "gMonFrontPic_Grovyle",
@@ -2508,7 +2761,8 @@
     "shinyPalette": "gMonShinyPalette_Grovyle",
     "footprintPics": "gMonFootprint_Grovyle",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Grovyle"
   },
   "SCEPTILE": {
     "frontPics": "gMonFrontPic_Sceptile",
@@ -2517,7 +2771,8 @@
     "shinyPalette": "gMonShinyPalette_Sceptile",
     "footprintPics": "gMonFootprint_Sceptile",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Sceptile"
   },
   "TORCHIC": {
     "frontPics": "gMonFrontPic_Torchic",
@@ -2526,7 +2781,8 @@
     "shinyPalette": "gMonShinyPalette_Torchic",
     "footprintPics": "gMonFootprint_Torchic",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Torchic"
   },
   "COMBUSKEN": {
     "frontPics": "gMonFrontPic_Combusken",
@@ -2535,7 +2791,8 @@
     "shinyPalette": "gMonShinyPalette_Combusken",
     "footprintPics": "gMonFootprint_Combusken",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Combusken"
   },
   "BLAZIKEN": {
     "frontPics": "gMonFrontPic_Blaziken",
@@ -2544,7 +2801,8 @@
     "shinyPalette": "gMonShinyPalette_Blaziken",
     "footprintPics": "gMonFootprint_Blaziken",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Blaziken"
   },
   "MUDKIP": {
     "frontPics": "gMonFrontPic_Mudkip",
@@ -2553,7 +2811,8 @@
     "shinyPalette": "gMonShinyPalette_Mudkip",
     "footprintPics": "gMonFootprint_Mudkip",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Mudkip"
   },
   "MARSHTOMP": {
     "frontPics": "gMonFrontPic_Marshtomp",
@@ -2562,7 +2821,8 @@
     "shinyPalette": "gMonShinyPalette_Marshtomp",
     "footprintPics": "gMonFootprint_Marshtomp",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Marshtomp"
   },
   "SWAMPERT": {
     "frontPics": "gMonFrontPic_Swampert",
@@ -2571,7 +2831,8 @@
     "shinyPalette": "gMonShinyPalette_Swampert",
     "footprintPics": "gMonFootprint_Swampert",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Swampert"
   },
   "POOCHYENA": {
     "frontPics": "gMonFrontPic_Poochyena",
@@ -2580,7 +2841,8 @@
     "shinyPalette": "gMonShinyPalette_Poochyena",
     "footprintPics": "gMonFootprint_Poochyena",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Poochyena"
   },
   "MIGHTYENA": {
     "frontPics": "gMonFrontPic_Mightyena",
@@ -2589,7 +2851,8 @@
     "shinyPalette": "gMonShinyPalette_Mightyena",
     "footprintPics": "gMonFootprint_Mightyena",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Mightyena"
   },
   "ZIGZAGOON": {
     "frontPics": "gMonFrontPic_Zigzagoon",
@@ -2598,7 +2861,8 @@
     "shinyPalette": "gMonShinyPalette_Zigzagoon",
     "footprintPics": "gMonFootprint_Zigzagoon",
     "width": "64",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Zigzagoon"
   },
   "LINOONE": {
     "frontPics": "gMonFrontPic_Linoone",
@@ -2607,7 +2871,8 @@
     "shinyPalette": "gMonShinyPalette_Linoone",
     "footprintPics": "gMonFootprint_Linoone",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Linoone"
   },
   "WURMPLE": {
     "frontPics": "gMonFrontPic_Wurmple",
@@ -2616,7 +2881,8 @@
     "shinyPalette": "gMonShinyPalette_Wurmple",
     "footprintPics": "gMonFootprint_Wurmple",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Wurmple"
   },
   "SILCOON": {
     "frontPics": "gMonFrontPic_Silcoon",
@@ -2625,7 +2891,8 @@
     "shinyPalette": "gMonShinyPalette_Silcoon",
     "footprintPics": "gMonFootprint_Silcoon",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Silcoon"
   },
   "BEAUTIFLY": {
     "frontPics": "gMonFrontPic_Beautifly",
@@ -2634,7 +2901,8 @@
     "shinyPalette": "gMonShinyPalette_Beautifly",
     "footprintPics": "gMonFootprint_Beautifly",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Beautifly"
   },
   "CASCOON": {
     "frontPics": "gMonFrontPic_Cascoon",
@@ -2643,7 +2911,8 @@
     "shinyPalette": "gMonShinyPalette_Cascoon",
     "footprintPics": "gMonFootprint_Cascoon",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Cascoon"
   },
   "DUSTOX": {
     "frontPics": "gMonFrontPic_Dustox",
@@ -2652,7 +2921,8 @@
     "shinyPalette": "gMonShinyPalette_Dustox",
     "footprintPics": "gMonFootprint_Dustox",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Dustox"
   },
   "LOTAD": {
     "frontPics": "gMonFrontPic_Lotad",
@@ -2661,7 +2931,8 @@
     "shinyPalette": "gMonShinyPalette_Lotad",
     "footprintPics": "gMonFootprint_Lotad",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Lotad"
   },
   "LOMBRE": {
     "frontPics": "gMonFrontPic_Lombre",
@@ -2670,7 +2941,8 @@
     "shinyPalette": "gMonShinyPalette_Lombre",
     "footprintPics": "gMonFootprint_Lombre",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Lombre"
   },
   "LUDICOLO": {
     "frontPics": "gMonFrontPic_Ludicolo",
@@ -2679,7 +2951,8 @@
     "shinyPalette": "gMonShinyPalette_Ludicolo",
     "footprintPics": "gMonFootprint_Ludicolo",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Ludicolo"
   },
   "SEEDOT": {
     "frontPics": "gMonFrontPic_Seedot",
@@ -2688,7 +2961,8 @@
     "shinyPalette": "gMonShinyPalette_Seedot",
     "footprintPics": "gMonFootprint_Seedot",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Seedot"
   },
   "NUZLEAF": {
     "frontPics": "gMonFrontPic_Nuzleaf",
@@ -2697,7 +2971,8 @@
     "shinyPalette": "gMonShinyPalette_Nuzleaf",
     "footprintPics": "gMonFootprint_Nuzleaf",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Nuzleaf"
   },
   "SHIFTRY": {
     "frontPics": "gMonFrontPic_Shiftry",
@@ -2706,7 +2981,8 @@
     "shinyPalette": "gMonShinyPalette_Shiftry",
     "footprintPics": "gMonFootprint_Shiftry",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Shiftry"
   },
   "NINCADA": {
     "frontPics": "gMonFrontPic_Nincada",
@@ -2715,7 +2991,8 @@
     "shinyPalette": "gMonShinyPalette_Nincada",
     "footprintPics": "gMonFootprint_Nincada",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Nincada"
   },
   "NINJASK": {
     "frontPics": "gMonFrontPic_Ninjask",
@@ -2724,7 +3001,8 @@
     "shinyPalette": "gMonShinyPalette_Ninjask",
     "footprintPics": "gMonFootprint_Ninjask",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Ninjask"
   },
   "SHEDINJA": {
     "frontPics": "gMonFrontPic_Shedinja",
@@ -2733,7 +3011,8 @@
     "shinyPalette": "gMonShinyPalette_Shedinja",
     "footprintPics": "gMonFootprint_Shedinja",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Shedinja"
   },
   "TAILLOW": {
     "frontPics": "gMonFrontPic_Taillow",
@@ -2742,7 +3021,8 @@
     "shinyPalette": "gMonShinyPalette_Taillow",
     "footprintPics": "gMonFootprint_Taillow",
     "width": "48",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Taillow"
   },
   "SWELLOW": {
     "frontPics": "gMonFrontPic_Swellow",
@@ -2751,7 +3031,8 @@
     "shinyPalette": "gMonShinyPalette_Swellow",
     "footprintPics": "gMonFootprint_Swellow",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Swellow"
   },
   "SHROOMISH": {
     "frontPics": "gMonFrontPic_Shroomish",
@@ -2760,7 +3041,8 @@
     "shinyPalette": "gMonShinyPalette_Shroomish",
     "footprintPics": "gMonFootprint_Shroomish",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Shroomish"
   },
   "BRELOOM": {
     "frontPics": "gMonFrontPic_Breloom",
@@ -2769,7 +3051,8 @@
     "shinyPalette": "gMonShinyPalette_Breloom",
     "footprintPics": "gMonFootprint_Breloom",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Breloom"
   },
   "SPINDA": {
     "frontPics": "gMonFrontPic_Spinda",
@@ -2778,7 +3061,8 @@
     "shinyPalette": "gMonShinyPalette_Spinda",
     "footprintPics": "gMonFootprint_Spinda",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Spinda"
   },
   "WINGULL": {
     "frontPics": "gMonFrontPic_Wingull",
@@ -2787,7 +3071,8 @@
     "shinyPalette": "gMonShinyPalette_Wingull",
     "footprintPics": "gMonFootprint_Wingull",
     "width": "64",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Wingull"
   },
   "PELIPPER": {
     "frontPics": "gMonFrontPic_Pelipper",
@@ -2796,7 +3081,8 @@
     "shinyPalette": "gMonShinyPalette_Pelipper",
     "footprintPics": "gMonFootprint_Pelipper",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Pelipper"
   },
   "SURSKIT": {
     "frontPics": "gMonFrontPic_Surskit",
@@ -2805,7 +3091,8 @@
     "shinyPalette": "gMonShinyPalette_Surskit",
     "footprintPics": "gMonFootprint_Surskit",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Surskit"
   },
   "MASQUERAIN": {
     "frontPics": "gMonFrontPic_Masquerain",
@@ -2814,7 +3101,8 @@
     "shinyPalette": "gMonShinyPalette_Masquerain",
     "footprintPics": "gMonFootprint_Masquerain",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Masquerain"
   },
   "WAILMER": {
     "frontPics": "gMonFrontPic_Wailmer",
@@ -2823,7 +3111,8 @@
     "shinyPalette": "gMonShinyPalette_Wailmer",
     "footprintPics": "gMonFootprint_Wailmer",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Wailmer"
   },
   "WAILORD": {
     "frontPics": "gMonFrontPic_Wailord",
@@ -2832,7 +3121,8 @@
     "shinyPalette": "gMonShinyPalette_Wailord",
     "footprintPics": "gMonFootprint_Wailord",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Wailord"
   },
   "SKITTY": {
     "frontPics": "gMonFrontPic_Skitty",
@@ -2841,7 +3131,8 @@
     "shinyPalette": "gMonShinyPalette_Skitty",
     "footprintPics": "gMonFootprint_Skitty",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Skitty"
   },
   "DELCATTY": {
     "frontPics": "gMonFrontPic_Delcatty",
@@ -2850,7 +3141,8 @@
     "shinyPalette": "gMonShinyPalette_Delcatty",
     "footprintPics": "gMonFootprint_Delcatty",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Delcatty"
   },
   "KECLEON": {
     "frontPics": "gMonFrontPic_Kecleon",
@@ -2859,7 +3151,8 @@
     "shinyPalette": "gMonShinyPalette_Kecleon",
     "footprintPics": "gMonFootprint_Kecleon",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Kecleon"
   },
   "BALTOY": {
     "frontPics": "gMonFrontPic_Baltoy",
@@ -2868,7 +3161,8 @@
     "shinyPalette": "gMonShinyPalette_Baltoy",
     "footprintPics": "gMonFootprint_Baltoy",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Baltoy"
   },
   "CLAYDOL": {
     "frontPics": "gMonFrontPic_Claydol",
@@ -2877,7 +3171,8 @@
     "shinyPalette": "gMonShinyPalette_Claydol",
     "footprintPics": "gMonFootprint_Claydol",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Claydol"
   },
   "NOSEPASS": {
     "frontPics": "gMonFrontPic_Nosepass",
@@ -2886,7 +3181,8 @@
     "shinyPalette": "gMonShinyPalette_Nosepass",
     "footprintPics": "gMonFootprint_Nosepass",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Nosepass"
   },
   "TORKOAL": {
     "frontPics": "gMonFrontPic_Torkoal",
@@ -2895,7 +3191,8 @@
     "shinyPalette": "gMonShinyPalette_Torkoal",
     "footprintPics": "gMonFootprint_Torkoal",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Torkoal"
   },
   "SABLEYE": {
     "frontPics": "gMonFrontPic_Sableye",
@@ -2904,7 +3201,8 @@
     "shinyPalette": "gMonShinyPalette_Sableye",
     "footprintPics": "gMonFootprint_Sableye",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Sableye"
   },
   "BARBOACH": {
     "frontPics": "gMonFrontPic_Barboach",
@@ -2913,7 +3211,8 @@
     "shinyPalette": "gMonShinyPalette_Barboach",
     "footprintPics": "gMonFootprint_Barboach",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Barboach"
   },
   "WHISCASH": {
     "frontPics": "gMonFrontPic_Whiscash",
@@ -2922,7 +3221,8 @@
     "shinyPalette": "gMonShinyPalette_Whiscash",
     "footprintPics": "gMonFootprint_Whiscash",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Whiscash"
   },
   "LUVDISC": {
     "frontPics": "gMonFrontPic_Luvdisc",
@@ -2931,7 +3231,8 @@
     "shinyPalette": "gMonShinyPalette_Luvdisc",
     "footprintPics": "gMonFootprint_Luvdisc",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Luvdisc"
   },
   "CORPHISH": {
     "frontPics": "gMonFrontPic_Corphish",
@@ -2940,7 +3241,8 @@
     "shinyPalette": "gMonShinyPalette_Corphish",
     "footprintPics": "gMonFootprint_Corphish",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Corphish"
   },
   "CRAWDAUNT": {
     "frontPics": "gMonFrontPic_Crawdaunt",
@@ -2949,7 +3251,8 @@
     "shinyPalette": "gMonShinyPalette_Crawdaunt",
     "footprintPics": "gMonFootprint_Crawdaunt",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Crawdaunt"
   },
   "FEEBAS": {
     "frontPics": "gMonFrontPic_Feebas",
@@ -2958,7 +3261,8 @@
     "shinyPalette": "gMonShinyPalette_Feebas",
     "footprintPics": "gMonFootprint_Feebas",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Feebas"
   },
   "MILOTIC": {
     "frontPics": "gMonFrontPic_Milotic",
@@ -2967,7 +3271,8 @@
     "shinyPalette": "gMonShinyPalette_Milotic",
     "footprintPics": "gMonFootprint_Milotic",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Milotic"
   },
   "CARVANHA": {
     "frontPics": "gMonFrontPic_Carvanha",
@@ -2976,7 +3281,8 @@
     "shinyPalette": "gMonShinyPalette_Carvanha",
     "footprintPics": "gMonFootprint_Carvanha",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Carvanha"
   },
   "SHARPEDO": {
     "frontPics": "gMonFrontPic_Sharpedo",
@@ -2985,7 +3291,8 @@
     "shinyPalette": "gMonShinyPalette_Sharpedo",
     "footprintPics": "gMonFootprint_Sharpedo",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Sharpedo"
   },
   "TRAPINCH": {
     "frontPics": "gMonFrontPic_Trapinch",
@@ -2994,7 +3301,8 @@
     "shinyPalette": "gMonShinyPalette_Trapinch",
     "footprintPics": "gMonFootprint_Trapinch",
     "width": "40",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Trapinch"
   },
   "VIBRAVA": {
     "frontPics": "gMonFrontPic_Vibrava",
@@ -3003,7 +3311,8 @@
     "shinyPalette": "gMonShinyPalette_Vibrava",
     "footprintPics": "gMonFootprint_Vibrava",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Vibrava"
   },
   "FLYGON": {
     "frontPics": "gMonFrontPic_Flygon",
@@ -3012,7 +3321,8 @@
     "shinyPalette": "gMonShinyPalette_Flygon",
     "footprintPics": "gMonFootprint_Flygon",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Flygon"
   },
   "MAKUHITA": {
     "frontPics": "gMonFrontPic_Makuhita",
@@ -3021,7 +3331,8 @@
     "shinyPalette": "gMonShinyPalette_Makuhita",
     "footprintPics": "gMonFootprint_Makuhita",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Makuhita"
   },
   "HARIYAMA": {
     "frontPics": "gMonFrontPic_Hariyama",
@@ -3030,7 +3341,8 @@
     "shinyPalette": "gMonShinyPalette_Hariyama",
     "footprintPics": "gMonFootprint_Hariyama",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Hariyama"
   },
   "ELECTRIKE": {
     "frontPics": "gMonFrontPic_Electrike",
@@ -3039,7 +3351,8 @@
     "shinyPalette": "gMonShinyPalette_Electrike",
     "footprintPics": "gMonFootprint_Electrike",
     "width": "48",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Electrike"
   },
   "MANECTRIC": {
     "frontPics": "gMonFrontPic_Manectric",
@@ -3048,7 +3361,8 @@
     "shinyPalette": "gMonShinyPalette_Manectric",
     "footprintPics": "gMonFootprint_Manectric",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Manectric"
   },
   "NUMEL": {
     "frontPics": "gMonFrontPic_Numel",
@@ -3057,7 +3371,8 @@
     "shinyPalette": "gMonShinyPalette_Numel",
     "footprintPics": "gMonFootprint_Numel",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Numel"
   },
   "CAMERUPT": {
     "frontPics": "gMonFrontPic_Camerupt",
@@ -3066,7 +3381,8 @@
     "shinyPalette": "gMonShinyPalette_Camerupt",
     "footprintPics": "gMonFootprint_Camerupt",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Camerupt"
   },
   "SPHEAL": {
     "frontPics": "gMonFrontPic_Spheal",
@@ -3075,7 +3391,8 @@
     "shinyPalette": "gMonShinyPalette_Spheal",
     "footprintPics": "gMonFootprint_Spheal",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Spheal"
   },
   "SEALEO": {
     "frontPics": "gMonFrontPic_Sealeo",
@@ -3084,7 +3401,8 @@
     "shinyPalette": "gMonShinyPalette_Sealeo",
     "footprintPics": "gMonFootprint_Sealeo",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Sealeo"
   },
   "WALREIN": {
     "frontPics": "gMonFrontPic_Walrein",
@@ -3093,7 +3411,8 @@
     "shinyPalette": "gMonShinyPalette_Walrein",
     "footprintPics": "gMonFootprint_Walrein",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Walrein"
   },
   "CACNEA": {
     "frontPics": "gMonFrontPic_Cacnea",
@@ -3102,7 +3421,8 @@
     "shinyPalette": "gMonShinyPalette_Cacnea",
     "footprintPics": "gMonFootprint_Cacnea",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Cacnea"
   },
   "CACTURNE": {
     "frontPics": "gMonFrontPic_Cacturne",
@@ -3111,7 +3431,8 @@
     "shinyPalette": "gMonShinyPalette_Cacturne",
     "footprintPics": "gMonFootprint_Cacturne",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Cacturne"
   },
   "SNORUNT": {
     "frontPics": "gMonFrontPic_Snorunt",
@@ -3120,7 +3441,8 @@
     "shinyPalette": "gMonShinyPalette_Snorunt",
     "footprintPics": "gMonFootprint_Snorunt",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Snorunt"
   },
   "GLALIE": {
     "frontPics": "gMonFrontPic_Glalie",
@@ -3129,7 +3451,8 @@
     "shinyPalette": "gMonShinyPalette_Glalie",
     "footprintPics": "gMonFootprint_Glalie",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Glalie"
   },
   "LUNATONE": {
     "frontPics": "gMonFrontPic_Lunatone",
@@ -3138,7 +3461,8 @@
     "shinyPalette": "gMonShinyPalette_Lunatone",
     "footprintPics": "gMonFootprint_Lunatone",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Lunatone"
   },
   "SOLROCK": {
     "frontPics": "gMonFrontPic_Solrock",
@@ -3147,7 +3471,8 @@
     "shinyPalette": "gMonShinyPalette_Solrock",
     "footprintPics": "gMonFootprint_Solrock",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Solrock"
   },
   "AZURILL": {
     "frontPics": "gMonFrontPic_Azurill",
@@ -3156,7 +3481,8 @@
     "shinyPalette": "gMonShinyPalette_Azurill",
     "footprintPics": "gMonFootprint_Azurill",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Azurill"
   },
   "SPOINK": {
     "frontPics": "gMonFrontPic_Spoink",
@@ -3165,7 +3491,8 @@
     "shinyPalette": "gMonShinyPalette_Spoink",
     "footprintPics": "gMonFootprint_Spoink",
     "width": "32",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Spoink"
   },
   "GRUMPIG": {
     "frontPics": "gMonFrontPic_Grumpig",
@@ -3174,7 +3501,8 @@
     "shinyPalette": "gMonShinyPalette_Grumpig",
     "footprintPics": "gMonFootprint_Grumpig",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Grumpig"
   },
   "PLUSLE": {
     "frontPics": "gMonFrontPic_Plusle",
@@ -3183,7 +3511,8 @@
     "shinyPalette": "gMonShinyPalette_Plusle",
     "footprintPics": "gMonFootprint_Plusle",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Plusle"
   },
   "MINUN": {
     "frontPics": "gMonFrontPic_Minun",
@@ -3192,7 +3521,8 @@
     "shinyPalette": "gMonShinyPalette_Minun",
     "footprintPics": "gMonFootprint_Minun",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Minun"
   },
   "MAWILE": {
     "frontPics": "gMonFrontPic_Mawile",
@@ -3201,7 +3531,8 @@
     "shinyPalette": "gMonShinyPalette_Mawile",
     "footprintPics": "gMonFootprint_Mawile",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Mawile"
   },
   "MEDITITE": {
     "frontPics": "gMonFrontPic_Meditite",
@@ -3210,7 +3541,8 @@
     "shinyPalette": "gMonShinyPalette_Meditite",
     "footprintPics": "gMonFootprint_Meditite",
     "width": "48",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Meditite"
   },
   "MEDICHAM": {
     "frontPics": "gMonFrontPic_Medicham",
@@ -3219,7 +3551,8 @@
     "shinyPalette": "gMonShinyPalette_Medicham",
     "footprintPics": "gMonFootprint_Medicham",
     "width": "48",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Medicham"
   },
   "SWABLU": {
     "frontPics": "gMonFrontPic_Swablu",
@@ -3228,7 +3561,8 @@
     "shinyPalette": "gMonShinyPalette_Swablu",
     "footprintPics": "gMonFootprint_Swablu",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Swablu"
   },
   "ALTARIA": {
     "frontPics": "gMonFrontPic_Altaria",
@@ -3237,7 +3571,8 @@
     "shinyPalette": "gMonShinyPalette_Altaria",
     "footprintPics": "gMonFootprint_Altaria",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Altaria"
   },
   "WYNAUT": {
     "frontPics": "gMonFrontPic_Wynaut",
@@ -3246,7 +3581,8 @@
     "shinyPalette": "gMonShinyPalette_Wynaut",
     "footprintPics": "gMonFootprint_Wynaut",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Wynaut"
   },
   "DUSKULL": {
     "frontPics": "gMonFrontPic_Duskull",
@@ -3255,7 +3591,8 @@
     "shinyPalette": "gMonShinyPalette_Duskull",
     "footprintPics": "gMonFootprint_Duskull",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Duskull"
   },
   "DUSCLOPS": {
     "frontPics": "gMonFrontPic_Dusclops",
@@ -3264,7 +3601,8 @@
     "shinyPalette": "gMonShinyPalette_Dusclops",
     "footprintPics": "gMonFootprint_Dusclops",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Dusclops"
   },
   "ROSELIA": {
     "frontPics": "gMonFrontPic_Roselia",
@@ -3273,7 +3611,8 @@
     "shinyPalette": "gMonShinyPalette_Roselia",
     "footprintPics": "gMonFootprint_Roselia",
     "width": "56",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Roselia"
   },
   "SLAKOTH": {
     "frontPics": "gMonFrontPic_Slakoth",
@@ -3282,7 +3621,8 @@
     "shinyPalette": "gMonShinyPalette_Slakoth",
     "footprintPics": "gMonFootprint_Slakoth",
     "width": "56",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Slakoth"
   },
   "VIGOROTH": {
     "frontPics": "gMonFrontPic_Vigoroth",
@@ -3291,7 +3631,8 @@
     "shinyPalette": "gMonShinyPalette_Vigoroth",
     "footprintPics": "gMonFootprint_Vigoroth",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Vigoroth"
   },
   "SLAKING": {
     "frontPics": "gMonFrontPic_Slaking",
@@ -3300,7 +3641,8 @@
     "shinyPalette": "gMonShinyPalette_Slaking",
     "footprintPics": "gMonFootprint_Slaking",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Slaking"
   },
   "GULPIN": {
     "frontPics": "gMonFrontPic_Gulpin",
@@ -3309,7 +3651,8 @@
     "shinyPalette": "gMonShinyPalette_Gulpin",
     "footprintPics": "gMonFootprint_Gulpin",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Gulpin"
   },
   "SWALOT": {
     "frontPics": "gMonFrontPic_Swalot",
@@ -3318,7 +3661,8 @@
     "shinyPalette": "gMonShinyPalette_Swalot",
     "footprintPics": "gMonFootprint_Swalot",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Swalot"
   },
   "TROPIUS": {
     "frontPics": "gMonFrontPic_Tropius",
@@ -3327,7 +3671,8 @@
     "shinyPalette": "gMonShinyPalette_Tropius",
     "footprintPics": "gMonFootprint_Tropius",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Tropius"
   },
   "WHISMUR": {
     "frontPics": "gMonFrontPic_Whismur",
@@ -3336,7 +3681,8 @@
     "shinyPalette": "gMonShinyPalette_Whismur",
     "footprintPics": "gMonFootprint_Whismur",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Whismur"
   },
   "LOUDRED": {
     "frontPics": "gMonFrontPic_Loudred",
@@ -3345,7 +3691,8 @@
     "shinyPalette": "gMonShinyPalette_Loudred",
     "footprintPics": "gMonFootprint_Loudred",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Loudred"
   },
   "EXPLOUD": {
     "frontPics": "gMonFrontPic_Exploud",
@@ -3354,7 +3701,8 @@
     "shinyPalette": "gMonShinyPalette_Exploud",
     "footprintPics": "gMonFootprint_Exploud",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Exploud"
   },
   "CLAMPERL": {
     "frontPics": "gMonFrontPic_Clamperl",
@@ -3363,7 +3711,8 @@
     "shinyPalette": "gMonShinyPalette_Clamperl",
     "footprintPics": "gMonFootprint_Clamperl",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Clamperl"
   },
   "HUNTAIL": {
     "frontPics": "gMonFrontPic_Huntail",
@@ -3372,7 +3721,8 @@
     "shinyPalette": "gMonShinyPalette_Huntail",
     "footprintPics": "gMonFootprint_Huntail",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Huntail"
   },
   "GOREBYSS": {
     "frontPics": "gMonFrontPic_Gorebyss",
@@ -3381,7 +3731,8 @@
     "shinyPalette": "gMonShinyPalette_Gorebyss",
     "footprintPics": "gMonFootprint_Gorebyss",
     "width": "64",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Gorebyss"
   },
   "ABSOL": {
     "frontPics": "gMonFrontPic_Absol",
@@ -3390,7 +3741,8 @@
     "shinyPalette": "gMonShinyPalette_Absol",
     "footprintPics": "gMonFootprint_Absol",
     "width": "48",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Absol"
   },
   "SHUPPET": {
     "frontPics": "gMonFrontPic_Shuppet",
@@ -3399,7 +3751,8 @@
     "shinyPalette": "gMonShinyPalette_Shuppet",
     "footprintPics": "gMonFootprint_Shuppet",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Shuppet"
   },
   "BANETTE": {
     "frontPics": "gMonFrontPic_Banette",
@@ -3408,7 +3761,8 @@
     "shinyPalette": "gMonShinyPalette_Banette",
     "footprintPics": "gMonFootprint_Banette",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Banette"
   },
   "SEVIPER": {
     "frontPics": "gMonFrontPic_Seviper",
@@ -3417,7 +3771,8 @@
     "shinyPalette": "gMonShinyPalette_Seviper",
     "footprintPics": "gMonFootprint_Seviper",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Seviper"
   },
   "ZANGOOSE": {
     "frontPics": "gMonFrontPic_Zangoose",
@@ -3426,7 +3781,8 @@
     "shinyPalette": "gMonShinyPalette_Zangoose",
     "footprintPics": "gMonFootprint_Zangoose",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Zangoose"
   },
   "RELICANTH": {
     "frontPics": "gMonFrontPic_Relicanth",
@@ -3435,7 +3791,8 @@
     "shinyPalette": "gMonShinyPalette_Relicanth",
     "footprintPics": "gMonFootprint_Relicanth",
     "width": "56",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Relicanth"
   },
   "ARON": {
     "frontPics": "gMonFrontPic_Aron",
@@ -3444,7 +3801,8 @@
     "shinyPalette": "gMonShinyPalette_Aron",
     "footprintPics": "gMonFootprint_Aron",
     "width": "32",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_Aron"
   },
   "LAIRON": {
     "frontPics": "gMonFrontPic_Lairon",
@@ -3453,7 +3811,8 @@
     "shinyPalette": "gMonShinyPalette_Lairon",
     "footprintPics": "gMonFootprint_Lairon",
     "width": "56",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Lairon"
   },
   "AGGRON": {
     "frontPics": "gMonFrontPic_Aggron",
@@ -3462,7 +3821,8 @@
     "shinyPalette": "gMonShinyPalette_Aggron",
     "footprintPics": "gMonFootprint_Aggron",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Aggron"
   },
   "CASTFORM": {
     "frontPics": "gMonFrontPic_Castform",
@@ -3471,7 +3831,8 @@
     "shinyPalette": "gMonShinyPalette_Castform",
     "footprintPics": "gMonFootprint_Castform",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_Castform"
   },
   "VOLBEAT": {
     "frontPics": "gMonFrontPic_Volbeat",
@@ -3480,7 +3841,8 @@
     "shinyPalette": "gMonShinyPalette_Volbeat",
     "footprintPics": "gMonFootprint_Volbeat",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Volbeat"
   },
   "ILLUMISE": {
     "frontPics": "gMonFrontPic_Illumise",
@@ -3489,7 +3851,8 @@
     "shinyPalette": "gMonShinyPalette_Illumise",
     "footprintPics": "gMonFootprint_Illumise",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Illumise"
   },
   "LILEEP": {
     "frontPics": "gMonFrontPic_Lileep",
@@ -3498,7 +3861,8 @@
     "shinyPalette": "gMonShinyPalette_Lileep",
     "footprintPics": "gMonFootprint_Lileep",
     "width": "48",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Lileep"
   },
   "CRADILY": {
     "frontPics": "gMonFrontPic_Cradily",
@@ -3507,7 +3871,8 @@
     "shinyPalette": "gMonShinyPalette_Cradily",
     "footprintPics": "gMonFootprint_Cradily",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Cradily"
   },
   "ANORITH": {
     "frontPics": "gMonFrontPic_Anorith",
@@ -3516,7 +3881,8 @@
     "shinyPalette": "gMonShinyPalette_Anorith",
     "footprintPics": "gMonFootprint_Anorith",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Anorith"
   },
   "ARMALDO": {
     "frontPics": "gMonFrontPic_Armaldo",
@@ -3525,7 +3891,8 @@
     "shinyPalette": "gMonShinyPalette_Armaldo",
     "footprintPics": "gMonFootprint_Armaldo",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Armaldo"
   },
   "RALTS": {
     "frontPics": "gMonFrontPic_Ralts",
@@ -3534,7 +3901,8 @@
     "shinyPalette": "gMonShinyPalette_Ralts",
     "footprintPics": "gMonFootprint_Ralts",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Ralts"
   },
   "KIRLIA": {
     "frontPics": "gMonFrontPic_Kirlia",
@@ -3543,7 +3911,8 @@
     "shinyPalette": "gMonShinyPalette_Kirlia",
     "footprintPics": "gMonFootprint_Kirlia",
     "width": "32",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Kirlia"
   },
   "GARDEVOIR": {
     "frontPics": "gMonFrontPic_Gardevoir",
@@ -3552,7 +3921,8 @@
     "shinyPalette": "gMonShinyPalette_Gardevoir",
     "footprintPics": "gMonFootprint_Gardevoir",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Gardevoir"
   },
   "BAGON": {
     "frontPics": "gMonFrontPic_Bagon",
@@ -3561,7 +3931,8 @@
     "shinyPalette": "gMonShinyPalette_Bagon",
     "footprintPics": "gMonFootprint_Bagon",
     "width": "40",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Bagon"
   },
   "SHELGON": {
     "frontPics": "gMonFrontPic_Shelgon",
@@ -3570,7 +3941,8 @@
     "shinyPalette": "gMonShinyPalette_Shelgon",
     "footprintPics": "gMonFootprint_Shelgon",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Shelgon"
   },
   "SALAMENCE": {
     "frontPics": "gMonFrontPic_Salamence",
@@ -3579,7 +3951,8 @@
     "shinyPalette": "gMonShinyPalette_Salamence",
     "footprintPics": "gMonFootprint_Salamence",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Salamence"
   },
   "BELDUM": {
     "frontPics": "gMonFrontPic_Beldum",
@@ -3588,7 +3961,8 @@
     "shinyPalette": "gMonShinyPalette_Beldum",
     "footprintPics": "gMonFootprint_Beldum",
     "width": "40",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_Beldum"
   },
   "METANG": {
     "frontPics": "gMonFrontPic_Metang",
@@ -3597,7 +3971,8 @@
     "shinyPalette": "gMonShinyPalette_Metang",
     "footprintPics": "gMonFootprint_Metang",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Metang"
   },
   "METAGROSS": {
     "frontPics": "gMonFrontPic_Metagross",
@@ -3606,7 +3981,8 @@
     "shinyPalette": "gMonShinyPalette_Metagross",
     "footprintPics": "gMonFootprint_Metagross",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Metagross"
   },
   "REGIROCK": {
     "frontPics": "gMonFrontPic_Regirock",
@@ -3615,7 +3991,8 @@
     "shinyPalette": "gMonShinyPalette_Regirock",
     "footprintPics": "gMonFootprint_Regirock",
     "width": "56",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Regirock"
   },
   "REGICE": {
     "frontPics": "gMonFrontPic_Regice",
@@ -3624,7 +4001,8 @@
     "shinyPalette": "gMonShinyPalette_Regice",
     "footprintPics": "gMonFootprint_Regice",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Regice"
   },
   "REGISTEEL": {
     "frontPics": "gMonFrontPic_Registeel",
@@ -3633,7 +4011,8 @@
     "shinyPalette": "gMonShinyPalette_Registeel",
     "footprintPics": "gMonFootprint_Registeel",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Registeel"
   },
   "KYOGRE": {
     "frontPics": "gMonFrontPic_Kyogre",
@@ -3642,7 +4021,8 @@
     "shinyPalette": "gMonShinyPalette_Kyogre",
     "footprintPics": "gMonFootprint_Kyogre",
     "width": "64",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Kyogre"
   },
   "GROUDON": {
     "frontPics": "gMonFrontPic_Groudon",
@@ -3651,7 +4031,8 @@
     "shinyPalette": "gMonShinyPalette_Groudon",
     "footprintPics": "gMonFootprint_Groudon",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Groudon"
   },
   "RAYQUAZA": {
     "frontPics": "gMonFrontPic_Rayquaza",
@@ -3660,7 +4041,8 @@
     "shinyPalette": "gMonShinyPalette_Rayquaza",
     "footprintPics": "gMonFootprint_Rayquaza",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Rayquaza"
   },
   "LATIAS": {
     "frontPics": "gMonFrontPic_Latias",
@@ -3669,7 +4051,8 @@
     "shinyPalette": "gMonShinyPalette_Latias",
     "footprintPics": "gMonFootprint_Latias",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Latias"
   },
   "LATIOS": {
     "frontPics": "gMonFrontPic_Latios",
@@ -3678,7 +4061,8 @@
     "shinyPalette": "gMonShinyPalette_Latios",
     "footprintPics": "gMonFootprint_Latios",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Latios"
   },
   "JIRACHI": {
     "frontPics": "gMonFrontPic_Jirachi",
@@ -3687,7 +4071,8 @@
     "shinyPalette": "gMonShinyPalette_Jirachi",
     "footprintPics": "gMonFootprint_Jirachi",
     "width": "48",
-    "height": "48"
+    "height": "48",
+    "Icon": "gMonIcon_Jirachi"
   },
   "DEOXYS": {
     "frontPics": "gMonFrontPic_Deoxys",
@@ -3696,7 +4081,8 @@
     "shinyPalette": "gMonShinyPalette_Deoxys",
     "footprintPics": "gMonFootprint_Deoxys",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "Icon": "gMonIcon_Deoxys"
   },
   "CHIMECHO": {
     "frontPics": "gMonFrontPic_Chimecho",
@@ -3705,7 +4091,8 @@
     "shinyPalette": "gMonShinyPalette_Chimecho",
     "footprintPics": "gMonFootprint_Chimecho",
     "width": "24",
-    "height": "56"
+    "height": "56",
+    "Icon": "gMonIcon_Chimecho"
   },
   "EGG": {
     "frontPics": "gMonFrontPic_Egg",
@@ -3714,7 +4101,8 @@
     "shinyPalette": "gMonPalette_Egg",
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "24",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_Egg"
   },
   "UNOWN_B": {
     "frontPics": "gMonFrontPic_UnownB",
@@ -3722,7 +4110,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownB"
   },
   "UNOWN_C": {
     "frontPics": "gMonFrontPic_UnownC",
@@ -3730,7 +4119,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownC"
   },
   "UNOWN_D": {
     "frontPics": "gMonFrontPic_UnownD",
@@ -3738,7 +4128,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownD"
   },
   "UNOWN_E": {
     "frontPics": "gMonFrontPic_UnownE",
@@ -3746,7 +4137,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownE"
   },
   "UNOWN_F": {
     "frontPics": "gMonFrontPic_UnownF",
@@ -3754,7 +4146,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownF"
   },
   "UNOWN_G": {
     "frontPics": "gMonFrontPic_UnownG",
@@ -3762,7 +4155,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_UnownG"
   },
   "UNOWN_H": {
     "frontPics": "gMonFrontPic_UnownH",
@@ -3770,7 +4164,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownH"
   },
   "UNOWN_I": {
     "frontPics": "gMonFrontPic_UnownI",
@@ -3778,7 +4173,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownI"
   },
   "UNOWN_J": {
     "frontPics": "gMonFrontPic_UnownJ",
@@ -3786,7 +4182,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownJ"
   },
   "UNOWN_K": {
     "frontPics": "gMonFrontPic_UnownK",
@@ -3794,7 +4191,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownK"
   },
   "UNOWN_L": {
     "frontPics": "gMonFrontPic_UnownL",
@@ -3802,7 +4200,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownL"
   },
   "UNOWN_M": {
     "frontPics": "gMonFrontPic_UnownM",
@@ -3810,7 +4209,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownM"
   },
   "UNOWN_N": {
     "frontPics": "gMonFrontPic_UnownN",
@@ -3818,7 +4218,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_UnownN"
   },
   "UNOWN_O": {
     "frontPics": "gMonFrontPic_UnownO",
@@ -3826,7 +4227,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownO"
   },
   "UNOWN_P": {
     "frontPics": "gMonFrontPic_UnownP",
@@ -3834,7 +4236,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownP"
   },
   "UNOWN_Q": {
     "frontPics": "gMonFrontPic_UnownQ",
@@ -3842,7 +4245,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_UnownQ"
   },
   "UNOWN_R": {
     "frontPics": "gMonFrontPic_UnownR",
@@ -3850,7 +4254,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownR"
   },
   "UNOWN_S": {
     "frontPics": "gMonFrontPic_UnownS",
@@ -3858,7 +4263,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_UnownS"
   },
   "UNOWN_T": {
     "frontPics": "gMonFrontPic_UnownT",
@@ -3866,7 +4272,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownT"
   },
   "UNOWN_U": {
     "frontPics": "gMonFrontPic_UnownU",
@@ -3874,7 +4281,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownU"
   },
   "UNOWN_V": {
     "frontPics": "gMonFrontPic_UnownV",
@@ -3882,7 +4290,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownV"
   },
   "UNOWN_W": {
     "frontPics": "gMonFrontPic_UnownW",
@@ -3890,7 +4299,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownW"
   },
   "UNOWN_X": {
     "frontPics": "gMonFrontPic_UnownX",
@@ -3898,7 +4308,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "24"
+    "height": "24",
+    "Icon": "gMonIcon_UnownX"
   },
   "UNOWN_Y": {
     "frontPics": "gMonFrontPic_UnownY",
@@ -3906,7 +4317,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownY"
   },
   "UNOWN_Z": {
     "frontPics": "gMonFrontPic_UnownZ",
@@ -3914,7 +4326,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "32"
+    "height": "32",
+    "Icon": "gMonIcon_UnownZ"
   },
   "UNOWN_EMARK": {
     "frontPics": "gMonFrontPic_UnownExclamationMark",
@@ -3922,7 +4335,8 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_UnownExclamationMark"
   },
   "UNOWN_QMARK": {
     "frontPics": "gMonFrontPic_UnownQuestionMark",
@@ -3930,6 +4344,7 @@
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
-    "height": "40"
+    "height": "40",
+    "Icon": "gMonIcon_UnownQuestionMark"
   }
 }
