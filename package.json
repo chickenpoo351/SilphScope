@@ -10,5 +10,8 @@
   "author": "chickenPoo",
   "license": "MIT",
   "packageManager": "pnpm@10.17.1",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
 }
