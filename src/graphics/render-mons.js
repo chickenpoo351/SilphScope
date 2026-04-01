@@ -7,7 +7,7 @@ import { renderMonIcon } from "./render-mon-icon.js";
 
 export function renderMon(monName, mons, assets, side = "front", variant = "normal", icon = false) {
     return new Promise((resolve, reject) => {
-        if (icon === "true") {
+        if (icon === true) { // erm that is kinda embarrassing... fixed now though...
             const comboPal = assets.find(a => a.name === "gMonIconPalettes");
             renderMonIcon(monName, mons, assets, comboPal);
         }
