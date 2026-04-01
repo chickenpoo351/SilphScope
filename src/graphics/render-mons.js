@@ -4,31 +4,33 @@ import { decode4bppTile } from "./decode-4bpp.js";
 import { decodePalette } from "./decode-palette.js";
 import { extract } from "./extract.js";
 
-export function renderMon(monName, mons, assets) {
+export function renderMon(monName, mons, assets, side = "front", variant = "normal") {
     return new Promise((resolve, reject) => {
         const mon = mons[monName];
         if (!mon) {
             console.warn(`Missing mon: ${monName}`);
             return resolve;
         }
-        const gfxAsset = assets.find(a => a.name === mon.frontPics);
-        const palAsset = assets.find(a => a.name === mon.normPalette);
-        if (!gfxAsset || !palAsset) {
+        const picName = side === "back" ? mon.backPics : mon.frontPics;
+        const monPic = assets.find(a => a.name === picName);
+        const palType = variant === "shiny" ? mon.shinyPalette : mon.normPalette;
+        const monPal = assets.find(a => a.name === palType);
+        if (!monPic || !monPal) {
             console.warn(`Missing assets for: ${monName}`);
             return resolve;
         }
-        const gfx = extract(gfxAsset);
-        const pal = extract(palAsset);
+        const monImageData = extract(monPic);
+        const rawMonPalData = extract(monPal);
         const tileSize = 32;
-        const numTiles = gfx.data.length / tileSize;
+        const numTiles = monImageData.data.length / tileSize;
         const width = 64;
         const height = 64;
         const tilesPerRow = width / 8;
-        const palette = decodePalette(pal.data);
+        const monPalData = decodePalette(rawMonPalData.data);
         const tiles = [];
         for (let i = 0; i < numTiles; i++) {
             const start = i * tileSize;
-            const tileBytes = gfx.data.slice(start, start + tileSize);
+            const tileBytes = monImageData.data.slice(start, start + tileSize);
             tiles.push(decode4bppTile(tileBytes));
         }
         const image = new Uint8ClampedArray(width * height * 4);
@@ -43,7 +45,7 @@ export function renderMon(monName, mons, assets) {
                     const x = tileX * 8 + px;
                     const y = tileY * 8 + py;
                     const outIndex = (y * width + x) * 4;
-                    const [r, g, b] = palette[colorIndex] || [0, 0, 0];
+                    const [r, g, b] = monPalData[colorIndex] || [0, 0, 0];
                     image[outIndex] = r;
                     image[outIndex + 1] = g;
                     image[outIndex + 2] = b;
@@ -53,7 +55,12 @@ export function renderMon(monName, mons, assets) {
         }
         const png = new PNG({ width, height });
         png.data = image;
-        const stream = fs.createWriteStream(`./out/${monName}.png`);
+        const dir = `./out/${monName}`;
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+        const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
+        const stream = fs.createWriteStream(fileName);
         stream.on("finish", resolve);
         stream.on("error", reject);
         png.pack().pipe(stream);
