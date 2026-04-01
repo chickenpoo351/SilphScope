@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 import fs from "fs";
 import { renderMon } from "./render-mons.js";
 

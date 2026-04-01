@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 export function decodePalette(data) {
     const colors = [];
     for (let i = 0; i < data.length; i += 2) {

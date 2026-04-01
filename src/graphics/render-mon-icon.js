@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 import { decode4bppTile } from "./decode-4bpp.js";
 import { decodePalette } from "./decode-palette.js";
 import { extract } from "./extract.js";
