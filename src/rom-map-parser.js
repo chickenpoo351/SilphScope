@@ -20,6 +20,26 @@ for (const line of lines) {
         symbols.push({ name, address });
     }
 }
+/**
+ *   
+{
+"name": "gMonIconPalettes",
+"address": 138229568,
+"size": 96,
+"offset": 4011840,
+"type": "palette"
+},
+{
+"name": "gMonIconPaletteIndices",
+"address": 138231424,
+"size": 440,
+"offset": 4013696,
+"type": "palette"
+},
+
+just leaving these here... they are used for the firered icon palettes and I am too lazy to add
+this to the "parser" for now... so yea :p
+ */
 
 symbols.sort((a, b) => a.address - b.address);
 

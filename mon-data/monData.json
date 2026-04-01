@@ -7,7 +7,8 @@
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "64",
     "height": "64",
-    "Icon": "gMonIcon_None"
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "BULBASAUR": {
     "frontPics": "gMonFrontPic_Bulbasaur",
@@ -17,6 +18,7 @@
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Bulbasaur"
   },
   "IVYSAUR": {
@@ -27,6 +29,7 @@
     "footprintPics": "gMonFootprint_Ivysaur",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Ivysaur"
   },
   "VENUSAUR": {
@@ -37,6 +40,7 @@
     "footprintPics": "gMonFootprint_Venusaur",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Venusaur"
   },
   "CHARMANDER": {
@@ -47,6 +51,7 @@
     "footprintPics": "gMonFootprint_Charmander",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Charmander"
   },
   "CHARMELEON": {
@@ -57,6 +62,7 @@
     "footprintPics": "gMonFootprint_Charmeleon",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Charmeleon"
   },
   "CHARIZARD": {
@@ -67,6 +73,7 @@
     "footprintPics": "gMonFootprint_Charizard",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Charizard"
   },
   "SQUIRTLE": {
@@ -77,6 +84,7 @@
     "footprintPics": "gMonFootprint_Squirtle",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Squirtle"
   },
   "WARTORTLE": {
@@ -87,6 +95,7 @@
     "footprintPics": "gMonFootprint_Wartortle",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Wartortle"
   },
   "BLASTOISE": {
@@ -97,6 +106,7 @@
     "footprintPics": "gMonFootprint_Blastoise",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Blastoise"
   },
   "CATERPIE": {
@@ -107,6 +117,7 @@
     "footprintPics": "gMonFootprint_Caterpie",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Caterpie"
   },
   "METAPOD": {
@@ -117,6 +128,7 @@
     "footprintPics": "gMonFootprint_Metapod",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Metapod"
   },
   "BUTTERFREE": {
@@ -127,6 +139,7 @@
     "footprintPics": "gMonFootprint_Butterfree",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Butterfree"
   },
   "WEEDLE": {
@@ -137,6 +150,7 @@
     "footprintPics": "gMonFootprint_Weedle",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Weedle"
   },
   "KAKUNA": {
@@ -147,6 +161,7 @@
     "footprintPics": "gMonFootprint_Kakuna",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kakuna"
   },
   "BEEDRILL": {
@@ -157,6 +172,7 @@
     "footprintPics": "gMonFootprint_Beedrill",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Beedrill"
   },
   "PIDGEY": {
@@ -167,6 +183,7 @@
     "footprintPics": "gMonFootprint_Pidgey",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pidgey"
   },
   "PIDGEOTTO": {
@@ -177,6 +194,7 @@
     "footprintPics": "gMonFootprint_Pidgeotto",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pidgeotto"
   },
   "PIDGEOT": {
@@ -187,6 +205,7 @@
     "footprintPics": "gMonFootprint_Pidgeot",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pidgeot"
   },
   "RATTATA": {
@@ -197,6 +216,7 @@
     "footprintPics": "gMonFootprint_Rattata",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Rattata"
   },
   "RATICATE": {
@@ -207,6 +227,7 @@
     "footprintPics": "gMonFootprint_Raticate",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Raticate"
   },
   "SPEAROW": {
@@ -217,6 +238,7 @@
     "footprintPics": "gMonFootprint_Spearow",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Spearow"
   },
   "FEAROW": {
@@ -227,6 +249,7 @@
     "footprintPics": "gMonFootprint_Fearow",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Fearow"
   },
   "EKANS": {
@@ -237,6 +260,7 @@
     "footprintPics": "gMonFootprint_Ekans",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Ekans"
   },
   "ARBOK": {
@@ -247,6 +271,7 @@
     "footprintPics": "gMonFootprint_Arbok",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Arbok"
   },
   "PIKACHU": {
@@ -257,6 +282,7 @@
     "footprintPics": "gMonFootprint_Pikachu",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Pikachu"
   },
   "RAICHU": {
@@ -267,6 +293,7 @@
     "footprintPics": "gMonFootprint_Raichu",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Raichu"
   },
   "SANDSHREW": {
@@ -277,6 +304,7 @@
     "footprintPics": "gMonFootprint_Sandshrew",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Sandshrew"
   },
   "SANDSLASH": {
@@ -287,6 +315,7 @@
     "footprintPics": "gMonFootprint_Sandslash",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Sandslash"
   },
   "NIDORAN_F": {
@@ -297,7 +326,8 @@
     "footprintPics": "gMonFootprint_NidoranF",
     "width": "40",
     "height": "32",
-    "Icon": "gMonIcon_Nidoran_f"
+    "iconPalIndex": "2",
+    "Icon": "gMonIcon_NidoranF"
   },
   "NIDORINA": {
     "frontPics": "gMonFrontPic_Nidorina",
@@ -307,6 +337,7 @@
     "footprintPics": "gMonFootprint_Nidorina",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Nidorina"
   },
   "NIDOQUEEN": {
@@ -317,6 +348,7 @@
     "footprintPics": "gMonFootprint_Nidoqueen",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Nidoqueen"
   },
   "NIDORAN_M": {
@@ -327,7 +359,8 @@
     "footprintPics": "gMonFootprint_NidoranM",
     "width": "40",
     "height": "40",
-    "Icon": "gMonIcon_Nidoran_m"
+    "iconPalIndex": "2",
+    "Icon": "gMonIcon_NidoranM"
   },
   "NIDORINO": {
     "frontPics": "gMonFrontPic_Nidorino",
@@ -337,6 +370,7 @@
     "footprintPics": "gMonFootprint_Nidorino",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Nidorino"
   },
   "NIDOKING": {
@@ -347,6 +381,7 @@
     "footprintPics": "gMonFootprint_Nidoking",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Nidoking"
   },
   "CLEFAIRY": {
@@ -357,6 +392,7 @@
     "footprintPics": "gMonFootprint_Clefairy",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Clefairy"
   },
   "CLEFABLE": {
@@ -367,6 +403,7 @@
     "footprintPics": "gMonFootprint_Clefable",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Clefable"
   },
   "VULPIX": {
@@ -377,6 +414,7 @@
     "footprintPics": "gMonFootprint_Vulpix",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Vulpix"
   },
   "NINETALES": {
@@ -387,6 +425,7 @@
     "footprintPics": "gMonFootprint_Ninetales",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Ninetales"
   },
   "JIGGLYPUFF": {
@@ -397,6 +436,7 @@
     "footprintPics": "gMonFootprint_Jigglypuff",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Jigglypuff"
   },
   "WIGGLYTUFF": {
@@ -407,6 +447,7 @@
     "footprintPics": "gMonFootprint_Wigglytuff",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wigglytuff"
   },
   "ZUBAT": {
@@ -417,6 +458,7 @@
     "footprintPics": "gMonFootprint_Zubat",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Zubat"
   },
   "GOLBAT": {
@@ -427,6 +469,7 @@
     "footprintPics": "gMonFootprint_Golbat",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Golbat"
   },
   "ODDISH": {
@@ -437,6 +480,7 @@
     "footprintPics": "gMonFootprint_Oddish",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Oddish"
   },
   "GLOOM": {
@@ -447,6 +491,7 @@
     "footprintPics": "gMonFootprint_Gloom",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Gloom"
   },
   "VILEPLUME": {
@@ -457,6 +502,7 @@
     "footprintPics": "gMonFootprint_Vileplume",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Vileplume"
   },
   "PARAS": {
@@ -467,6 +513,7 @@
     "footprintPics": "gMonFootprint_Paras",
     "width": "48",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Paras"
   },
   "PARASECT": {
@@ -477,6 +524,7 @@
     "footprintPics": "gMonFootprint_Parasect",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Parasect"
   },
   "VENONAT": {
@@ -487,6 +535,7 @@
     "footprintPics": "gMonFootprint_Venonat",
     "width": "40",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Venonat"
   },
   "VENOMOTH": {
@@ -497,6 +546,7 @@
     "footprintPics": "gMonFootprint_Venomoth",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Venomoth"
   },
   "DIGLETT": {
@@ -507,6 +557,7 @@
     "footprintPics": "gMonFootprint_Diglett",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Diglett"
   },
   "DUGTRIO": {
@@ -517,6 +568,7 @@
     "footprintPics": "gMonFootprint_Dugtrio",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Dugtrio"
   },
   "MEOWTH": {
@@ -527,6 +579,7 @@
     "footprintPics": "gMonFootprint_Meowth",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Meowth"
   },
   "PERSIAN": {
@@ -537,6 +590,7 @@
     "footprintPics": "gMonFootprint_Persian",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Persian"
   },
   "PSYDUCK": {
@@ -547,6 +601,7 @@
     "footprintPics": "gMonFootprint_Psyduck",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Psyduck"
   },
   "GOLDUCK": {
@@ -557,6 +612,7 @@
     "footprintPics": "gMonFootprint_Golduck",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Golduck"
   },
   "MANKEY": {
@@ -567,6 +623,7 @@
     "footprintPics": "gMonFootprint_Mankey",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Mankey"
   },
   "PRIMEAPE": {
@@ -577,6 +634,7 @@
     "footprintPics": "gMonFootprint_Primeape",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Primeape"
   },
   "GROWLITHE": {
@@ -587,6 +645,7 @@
     "footprintPics": "gMonFootprint_Growlithe",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Growlithe"
   },
   "ARCANINE": {
@@ -597,6 +656,7 @@
     "footprintPics": "gMonFootprint_Arcanine",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Arcanine"
   },
   "POLIWAG": {
@@ -607,6 +667,7 @@
     "footprintPics": "gMonFootprint_Poliwag",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Poliwag"
   },
   "POLIWHIRL": {
@@ -617,6 +678,7 @@
     "footprintPics": "gMonFootprint_Poliwhirl",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Poliwhirl"
   },
   "POLIWRATH": {
@@ -627,6 +689,7 @@
     "footprintPics": "gMonFootprint_Poliwrath",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Poliwrath"
   },
   "ABRA": {
@@ -637,6 +700,7 @@
     "footprintPics": "gMonFootprint_Abra",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Abra"
   },
   "KADABRA": {
@@ -647,6 +711,7 @@
     "footprintPics": "gMonFootprint_Kadabra",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kadabra"
   },
   "ALAKAZAM": {
@@ -657,6 +722,7 @@
     "footprintPics": "gMonFootprint_Alakazam",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Alakazam"
   },
   "MACHOP": {
@@ -667,6 +733,7 @@
     "footprintPics": "gMonFootprint_Machop",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Machop"
   },
   "MACHOKE": {
@@ -677,6 +744,7 @@
     "footprintPics": "gMonFootprint_Machoke",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Machoke"
   },
   "MACHAMP": {
@@ -687,6 +755,7 @@
     "footprintPics": "gMonFootprint_Machamp",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Machamp"
   },
   "BELLSPROUT": {
@@ -697,6 +766,7 @@
     "footprintPics": "gMonFootprint_Bellsprout",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Bellsprout"
   },
   "WEEPINBELL": {
@@ -707,6 +777,7 @@
     "footprintPics": "gMonFootprint_Weepinbell",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Weepinbell"
   },
   "VICTREEBEL": {
@@ -717,6 +788,7 @@
     "footprintPics": "gMonFootprint_Victreebel",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Victreebel"
   },
   "TENTACOOL": {
@@ -727,6 +799,7 @@
     "footprintPics": "gMonFootprint_Tentacool",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Tentacool"
   },
   "TENTACRUEL": {
@@ -737,6 +810,7 @@
     "footprintPics": "gMonFootprint_Tentacruel",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Tentacruel"
   },
   "GEODUDE": {
@@ -747,6 +821,7 @@
     "footprintPics": "gMonFootprint_Geodude",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Geodude"
   },
   "GRAVELER": {
@@ -757,6 +832,7 @@
     "footprintPics": "gMonFootprint_Graveler",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Graveler"
   },
   "GOLEM": {
@@ -767,6 +843,7 @@
     "footprintPics": "gMonFootprint_Golem",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Golem"
   },
   "PONYTA": {
@@ -777,6 +854,7 @@
     "footprintPics": "gMonFootprint_Ponyta",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Ponyta"
   },
   "RAPIDASH": {
@@ -787,6 +865,7 @@
     "footprintPics": "gMonFootprint_Rapidash",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Rapidash"
   },
   "SLOWPOKE": {
@@ -797,6 +876,7 @@
     "footprintPics": "gMonFootprint_Slowpoke",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Slowpoke"
   },
   "SLOWBRO": {
@@ -807,6 +887,7 @@
     "footprintPics": "gMonFootprint_Slowbro",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Slowbro"
   },
   "MAGNEMITE": {
@@ -817,6 +898,7 @@
     "footprintPics": "gMonFootprint_Magnemite",
     "width": "40",
     "height": "24",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Magnemite"
   },
   "MAGNETON": {
@@ -827,6 +909,7 @@
     "footprintPics": "gMonFootprint_Magneton",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Magneton"
   },
   "FARFETCHD": {
@@ -837,6 +920,7 @@
     "footprintPics": "gMonFootprint_Farfetchd",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Farfetchd"
   },
   "DODUO": {
@@ -847,6 +931,7 @@
     "footprintPics": "gMonFootprint_Doduo",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Doduo"
   },
   "DODRIO": {
@@ -857,6 +942,7 @@
     "footprintPics": "gMonFootprint_Dodrio",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Dodrio"
   },
   "SEEL": {
@@ -867,6 +953,7 @@
     "footprintPics": "gMonFootprint_Seel",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Seel"
   },
   "DEWGONG": {
@@ -877,6 +964,7 @@
     "footprintPics": "gMonFootprint_Dewgong",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Dewgong"
   },
   "GRIMER": {
@@ -887,6 +975,7 @@
     "footprintPics": "gMonFootprint_Grimer",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Grimer"
   },
   "MUK": {
@@ -897,6 +986,7 @@
     "footprintPics": "gMonFootprint_Muk",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Muk"
   },
   "SHELLDER": {
@@ -907,6 +997,7 @@
     "footprintPics": "gMonFootprint_Shellder",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Shellder"
   },
   "CLOYSTER": {
@@ -917,6 +1008,7 @@
     "footprintPics": "gMonFootprint_Cloyster",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Cloyster"
   },
   "GASTLY": {
@@ -927,6 +1019,7 @@
     "footprintPics": "gMonFootprint_Gastly",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Gastly"
   },
   "HAUNTER": {
@@ -937,6 +1030,7 @@
     "footprintPics": "gMonFootprint_Haunter",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Haunter"
   },
   "GENGAR": {
@@ -947,6 +1041,7 @@
     "footprintPics": "gMonFootprint_Gengar",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Gengar"
   },
   "ONIX": {
@@ -957,6 +1052,7 @@
     "footprintPics": "gMonFootprint_Onix",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Onix"
   },
   "DROWZEE": {
@@ -967,6 +1063,7 @@
     "footprintPics": "gMonFootprint_Drowzee",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Drowzee"
   },
   "HYPNO": {
@@ -977,6 +1074,7 @@
     "footprintPics": "gMonFootprint_Hypno",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Hypno"
   },
   "KRABBY": {
@@ -987,6 +1085,7 @@
     "footprintPics": "gMonFootprint_Krabby",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Krabby"
   },
   "KINGLER": {
@@ -997,6 +1096,7 @@
     "footprintPics": "gMonFootprint_Kingler",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kingler"
   },
   "VOLTORB": {
@@ -1007,6 +1107,7 @@
     "footprintPics": "gMonFootprint_Voltorb",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Voltorb"
   },
   "ELECTRODE": {
@@ -1017,6 +1118,7 @@
     "footprintPics": "gMonFootprint_Electrode",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Electrode"
   },
   "EXEGGCUTE": {
@@ -1027,6 +1129,7 @@
     "footprintPics": "gMonFootprint_Exeggcute",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Exeggcute"
   },
   "EXEGGUTOR": {
@@ -1037,6 +1140,7 @@
     "footprintPics": "gMonFootprint_Exeggutor",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Exeggutor"
   },
   "CUBONE": {
@@ -1047,6 +1151,7 @@
     "footprintPics": "gMonFootprint_Cubone",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Cubone"
   },
   "MAROWAK": {
@@ -1057,6 +1162,7 @@
     "footprintPics": "gMonFootprint_Marowak",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Marowak"
   },
   "HITMONLEE": {
@@ -1067,6 +1173,7 @@
     "footprintPics": "gMonFootprint_Hitmonlee",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Hitmonlee"
   },
   "HITMONCHAN": {
@@ -1077,6 +1184,7 @@
     "footprintPics": "gMonFootprint_Hitmonchan",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Hitmonchan"
   },
   "LICKITUNG": {
@@ -1087,6 +1195,7 @@
     "footprintPics": "gMonFootprint_Lickitung",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Lickitung"
   },
   "KOFFING": {
@@ -1097,6 +1206,7 @@
     "footprintPics": "gMonFootprint_Koffing",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Koffing"
   },
   "WEEZING": {
@@ -1107,6 +1217,7 @@
     "footprintPics": "gMonFootprint_Weezing",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Weezing"
   },
   "RHYHORN": {
@@ -1117,6 +1228,7 @@
     "footprintPics": "gMonFootprint_Rhyhorn",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Rhyhorn"
   },
   "RHYDON": {
@@ -1127,6 +1239,7 @@
     "footprintPics": "gMonFootprint_Rhydon",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Rhydon"
   },
   "CHANSEY": {
@@ -1137,6 +1250,7 @@
     "footprintPics": "gMonFootprint_Chansey",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Chansey"
   },
   "TANGELA": {
@@ -1147,6 +1261,7 @@
     "footprintPics": "gMonFootprint_Tangela",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Tangela"
   },
   "KANGASKHAN": {
@@ -1157,6 +1272,7 @@
     "footprintPics": "gMonFootprint_Kangaskhan",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Kangaskhan"
   },
   "HORSEA": {
@@ -1167,6 +1283,7 @@
     "footprintPics": "gMonFootprint_Horsea",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Horsea"
   },
   "SEADRA": {
@@ -1177,6 +1294,7 @@
     "footprintPics": "gMonFootprint_Seadra",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Seadra"
   },
   "GOLDEEN": {
@@ -1187,6 +1305,7 @@
     "footprintPics": "gMonFootprint_Goldeen",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Goldeen"
   },
   "SEAKING": {
@@ -1197,6 +1316,7 @@
     "footprintPics": "gMonFootprint_Seaking",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Seaking"
   },
   "STARYU": {
@@ -1207,6 +1327,7 @@
     "footprintPics": "gMonFootprint_Staryu",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Staryu"
   },
   "STARMIE": {
@@ -1217,6 +1338,7 @@
     "footprintPics": "gMonFootprint_Starmie",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Starmie"
   },
   "MR_MIME": {
@@ -1227,7 +1349,8 @@
     "footprintPics": "gMonFootprint_Mrmime",
     "width": "56",
     "height": "48",
-    "Icon": "gMonIcon_Mr_mime"
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_Mrmime"
   },
   "SCYTHER": {
     "frontPics": "gMonFrontPic_Scyther",
@@ -1237,6 +1360,7 @@
     "footprintPics": "gMonFootprint_Scyther",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Scyther"
   },
   "JYNX": {
@@ -1247,6 +1371,7 @@
     "footprintPics": "gMonFootprint_Jynx",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Jynx"
   },
   "ELECTABUZZ": {
@@ -1257,6 +1382,7 @@
     "footprintPics": "gMonFootprint_Electabuzz",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Electabuzz"
   },
   "MAGMAR": {
@@ -1267,6 +1393,7 @@
     "footprintPics": "gMonFootprint_Magmar",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Magmar"
   },
   "PINSIR": {
@@ -1277,6 +1404,7 @@
     "footprintPics": "gMonFootprint_Pinsir",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Pinsir"
   },
   "TAUROS": {
@@ -1287,6 +1415,7 @@
     "footprintPics": "gMonFootprint_Tauros",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Tauros"
   },
   "MAGIKARP": {
@@ -1297,6 +1426,7 @@
     "footprintPics": "gMonFootprint_Magikarp",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Magikarp"
   },
   "GYARADOS": {
@@ -1307,6 +1437,7 @@
     "footprintPics": "gMonFootprint_Gyarados",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Gyarados"
   },
   "LAPRAS": {
@@ -1317,6 +1448,7 @@
     "footprintPics": "gMonFootprint_Lapras",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Lapras"
   },
   "DITTO": {
@@ -1327,6 +1459,7 @@
     "footprintPics": "gMonFootprint_Ditto",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Ditto"
   },
   "EEVEE": {
@@ -1337,6 +1470,7 @@
     "footprintPics": "gMonFootprint_Eevee",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Eevee"
   },
   "VAPOREON": {
@@ -1347,6 +1481,7 @@
     "footprintPics": "gMonFootprint_Vaporeon",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Vaporeon"
   },
   "JOLTEON": {
@@ -1357,6 +1492,7 @@
     "footprintPics": "gMonFootprint_Jolteon",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Jolteon"
   },
   "FLAREON": {
@@ -1367,6 +1503,7 @@
     "footprintPics": "gMonFootprint_Flareon",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Flareon"
   },
   "PORYGON": {
@@ -1377,6 +1514,7 @@
     "footprintPics": "gMonFootprint_Porygon",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Porygon"
   },
   "OMANYTE": {
@@ -1387,6 +1525,7 @@
     "footprintPics": "gMonFootprint_Omanyte",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Omanyte"
   },
   "OMASTAR": {
@@ -1397,6 +1536,7 @@
     "footprintPics": "gMonFootprint_Omastar",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Omastar"
   },
   "KABUTO": {
@@ -1407,6 +1547,7 @@
     "footprintPics": "gMonFootprint_Kabuto",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kabuto"
   },
   "KABUTOPS": {
@@ -1417,6 +1558,7 @@
     "footprintPics": "gMonFootprint_Kabutops",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kabutops"
   },
   "AERODACTYL": {
@@ -1427,6 +1569,7 @@
     "footprintPics": "gMonFootprint_Aerodactyl",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Aerodactyl"
   },
   "SNORLAX": {
@@ -1437,6 +1580,7 @@
     "footprintPics": "gMonFootprint_Snorlax",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Snorlax"
   },
   "ARTICUNO": {
@@ -1447,6 +1591,7 @@
     "footprintPics": "gMonFootprint_Articuno",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Articuno"
   },
   "ZAPDOS": {
@@ -1457,6 +1602,7 @@
     "footprintPics": "gMonFootprint_Zapdos",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Zapdos"
   },
   "MOLTRES": {
@@ -1467,6 +1613,7 @@
     "footprintPics": "gMonFootprint_Moltres",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Moltres"
   },
   "DRATINI": {
@@ -1477,6 +1624,7 @@
     "footprintPics": "gMonFootprint_Dratini",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Dratini"
   },
   "DRAGONAIR": {
@@ -1487,6 +1635,7 @@
     "footprintPics": "gMonFootprint_Dragonair",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Dragonair"
   },
   "DRAGONITE": {
@@ -1497,6 +1646,7 @@
     "footprintPics": "gMonFootprint_Dragonite",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Dragonite"
   },
   "MEWTWO": {
@@ -1507,6 +1657,7 @@
     "footprintPics": "gMonFootprint_Mewtwo",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Mewtwo"
   },
   "MEW": {
@@ -1517,6 +1668,7 @@
     "footprintPics": "gMonFootprint_Mew",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Mew"
   },
   "CHIKORITA": {
@@ -1527,6 +1679,7 @@
     "footprintPics": "gMonFootprint_Chikorita",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Chikorita"
   },
   "BAYLEEF": {
@@ -1537,6 +1690,7 @@
     "footprintPics": "gMonFootprint_Bayleef",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Bayleef"
   },
   "MEGANIUM": {
@@ -1547,6 +1701,7 @@
     "footprintPics": "gMonFootprint_Meganium",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Meganium"
   },
   "CYNDAQUIL": {
@@ -1557,6 +1712,7 @@
     "footprintPics": "gMonFootprint_Cyndaquil",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Cyndaquil"
   },
   "QUILAVA": {
@@ -1567,6 +1723,7 @@
     "footprintPics": "gMonFootprint_Quilava",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Quilava"
   },
   "TYPHLOSION": {
@@ -1577,6 +1734,7 @@
     "footprintPics": "gMonFootprint_Typhlosion",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Typhlosion"
   },
   "TOTODILE": {
@@ -1587,6 +1745,7 @@
     "footprintPics": "gMonFootprint_Totodile",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Totodile"
   },
   "CROCONAW": {
@@ -1597,6 +1756,7 @@
     "footprintPics": "gMonFootprint_Croconaw",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Croconaw"
   },
   "FERALIGATR": {
@@ -1607,6 +1767,7 @@
     "footprintPics": "gMonFootprint_Feraligatr",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Feraligatr"
   },
   "SENTRET": {
@@ -1617,6 +1778,7 @@
     "footprintPics": "gMonFootprint_Sentret",
     "width": "32",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Sentret"
   },
   "FURRET": {
@@ -1627,6 +1789,7 @@
     "footprintPics": "gMonFootprint_Furret",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Furret"
   },
   "HOOTHOOT": {
@@ -1637,6 +1800,7 @@
     "footprintPics": "gMonFootprint_Hoothoot",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Hoothoot"
   },
   "NOCTOWL": {
@@ -1647,6 +1811,7 @@
     "footprintPics": "gMonFootprint_Noctowl",
     "width": "40",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Noctowl"
   },
   "LEDYBA": {
@@ -1657,6 +1822,7 @@
     "footprintPics": "gMonFootprint_Ledyba",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Ledyba"
   },
   "LEDIAN": {
@@ -1667,6 +1833,7 @@
     "footprintPics": "gMonFootprint_Ledian",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Ledian"
   },
   "SPINARAK": {
@@ -1677,6 +1844,7 @@
     "footprintPics": "gMonFootprint_Spinarak",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Spinarak"
   },
   "ARIADOS": {
@@ -1687,6 +1855,7 @@
     "footprintPics": "gMonFootprint_Ariados",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Ariados"
   },
   "CROBAT": {
@@ -1697,6 +1866,7 @@
     "footprintPics": "gMonFootprint_Crobat",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Crobat"
   },
   "CHINCHOU": {
@@ -1707,6 +1877,7 @@
     "footprintPics": "gMonFootprint_Chinchou",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Chinchou"
   },
   "LANTURN": {
@@ -1717,6 +1888,7 @@
     "footprintPics": "gMonFootprint_Lanturn",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Lanturn"
   },
   "PICHU": {
@@ -1727,6 +1899,7 @@
     "footprintPics": "gMonFootprint_Pichu",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pichu"
   },
   "CLEFFA": {
@@ -1737,6 +1910,7 @@
     "footprintPics": "gMonFootprint_Cleffa",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Cleffa"
   },
   "IGGLYBUFF": {
@@ -1747,6 +1921,7 @@
     "footprintPics": "gMonFootprint_Igglybuff",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Igglybuff"
   },
   "TOGEPI": {
@@ -1757,6 +1932,7 @@
     "footprintPics": "gMonFootprint_Togepi",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Togepi"
   },
   "TOGETIC": {
@@ -1767,6 +1943,7 @@
     "footprintPics": "gMonFootprint_Togetic",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Togetic"
   },
   "NATU": {
@@ -1777,6 +1954,7 @@
     "footprintPics": "gMonFootprint_Natu",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Natu"
   },
   "XATU": {
@@ -1787,6 +1965,7 @@
     "footprintPics": "gMonFootprint_Xatu",
     "width": "32",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Xatu"
   },
   "MAREEP": {
@@ -1797,6 +1976,7 @@
     "footprintPics": "gMonFootprint_Mareep",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Mareep"
   },
   "FLAAFFY": {
@@ -1807,6 +1987,7 @@
     "footprintPics": "gMonFootprint_Flaaffy",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Flaaffy"
   },
   "AMPHAROS": {
@@ -1817,6 +1998,7 @@
     "footprintPics": "gMonFootprint_Ampharos",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Ampharos"
   },
   "BELLOSSOM": {
@@ -1827,6 +2009,7 @@
     "footprintPics": "gMonFootprint_Bellossom",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Bellossom"
   },
   "MARILL": {
@@ -1837,6 +2020,7 @@
     "footprintPics": "gMonFootprint_Marill",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Marill"
   },
   "AZUMARILL": {
@@ -1847,6 +2031,7 @@
     "footprintPics": "gMonFootprint_Azumarill",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Azumarill"
   },
   "SUDOWOODO": {
@@ -1857,6 +2042,7 @@
     "footprintPics": "gMonFootprint_Sudowoodo",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Sudowoodo"
   },
   "POLITOED": {
@@ -1867,6 +2053,7 @@
     "footprintPics": "gMonFootprint_Politoed",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Politoed"
   },
   "HOPPIP": {
@@ -1877,6 +2064,7 @@
     "footprintPics": "gMonFootprint_Hoppip",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Hoppip"
   },
   "SKIPLOOM": {
@@ -1887,6 +2075,7 @@
     "footprintPics": "gMonFootprint_Skiploom",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Skiploom"
   },
   "JUMPLUFF": {
@@ -1897,6 +2086,7 @@
     "footprintPics": "gMonFootprint_Jumpluff",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Jumpluff"
   },
   "AIPOM": {
@@ -1907,6 +2097,7 @@
     "footprintPics": "gMonFootprint_Aipom",
     "width": "40",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Aipom"
   },
   "SUNKERN": {
@@ -1917,6 +2108,7 @@
     "footprintPics": "gMonFootprint_Sunkern",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Sunkern"
   },
   "SUNFLORA": {
@@ -1927,6 +2119,7 @@
     "footprintPics": "gMonFootprint_Sunflora",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Sunflora"
   },
   "YANMA": {
@@ -1937,6 +2130,7 @@
     "footprintPics": "gMonFootprint_Yanma",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Yanma"
   },
   "WOOPER": {
@@ -1947,6 +2141,7 @@
     "footprintPics": "gMonFootprint_Wooper",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wooper"
   },
   "QUAGSIRE": {
@@ -1957,6 +2152,7 @@
     "footprintPics": "gMonFootprint_Quagsire",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Quagsire"
   },
   "ESPEON": {
@@ -1967,6 +2163,7 @@
     "footprintPics": "gMonFootprint_Espeon",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Espeon"
   },
   "UMBREON": {
@@ -1977,6 +2174,7 @@
     "footprintPics": "gMonFootprint_Umbreon",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Umbreon"
   },
   "MURKROW": {
@@ -1987,6 +2185,7 @@
     "footprintPics": "gMonFootprint_Murkrow",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Murkrow"
   },
   "SLOWKING": {
@@ -1997,6 +2196,7 @@
     "footprintPics": "gMonFootprint_Slowking",
     "width": "40",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Slowking"
   },
   "MISDREAVUS": {
@@ -2007,6 +2207,7 @@
     "footprintPics": "gMonFootprint_Misdreavus",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Misdreavus"
   },
   "UNOWN": {
@@ -2017,7 +2218,8 @@
     "footprintPics": "gMonFootprint_Unown",
     "width": "24",
     "height": "40",
-    "Icon": "gMonIcon_Unown"
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_UnownA"
   },
   "WOBBUFFET": {
     "frontPics": "gMonFrontPic_Wobbuffet",
@@ -2027,6 +2229,7 @@
     "footprintPics": "gMonFootprint_Wobbuffet",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wobbuffet"
   },
   "GIRAFARIG": {
@@ -2037,6 +2240,7 @@
     "footprintPics": "gMonFootprint_Girafarig",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Girafarig"
   },
   "PINECO": {
@@ -2047,6 +2251,7 @@
     "footprintPics": "gMonFootprint_Pineco",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pineco"
   },
   "FORRETRESS": {
@@ -2057,6 +2262,7 @@
     "footprintPics": "gMonFootprint_Forretress",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Forretress"
   },
   "DUNSPARCE": {
@@ -2067,6 +2273,7 @@
     "footprintPics": "gMonFootprint_Dunsparce",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Dunsparce"
   },
   "GLIGAR": {
@@ -2077,6 +2284,7 @@
     "footprintPics": "gMonFootprint_Gligar",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Gligar"
   },
   "STEELIX": {
@@ -2087,6 +2295,7 @@
     "footprintPics": "gMonFootprint_Steelix",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Steelix"
   },
   "SNUBBULL": {
@@ -2097,6 +2306,7 @@
     "footprintPics": "gMonFootprint_Snubbull",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Snubbull"
   },
   "GRANBULL": {
@@ -2107,6 +2317,7 @@
     "footprintPics": "gMonFootprint_Granbull",
     "width": "40",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Granbull"
   },
   "QWILFISH": {
@@ -2117,6 +2328,7 @@
     "footprintPics": "gMonFootprint_Qwilfish",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Qwilfish"
   },
   "SCIZOR": {
@@ -2127,6 +2339,7 @@
     "footprintPics": "gMonFootprint_Scizor",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Scizor"
   },
   "SHUCKLE": {
@@ -2137,6 +2350,7 @@
     "footprintPics": "gMonFootprint_Shuckle",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Shuckle"
   },
   "HERACROSS": {
@@ -2147,6 +2361,7 @@
     "footprintPics": "gMonFootprint_Heracross",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Heracross"
   },
   "SNEASEL": {
@@ -2157,6 +2372,7 @@
     "footprintPics": "gMonFootprint_Sneasel",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Sneasel"
   },
   "TEDDIURSA": {
@@ -2167,6 +2383,7 @@
     "footprintPics": "gMonFootprint_Teddiursa",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Teddiursa"
   },
   "URSARING": {
@@ -2177,6 +2394,7 @@
     "footprintPics": "gMonFootprint_Ursaring",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Ursaring"
   },
   "SLUGMA": {
@@ -2187,6 +2405,7 @@
     "footprintPics": "gMonFootprint_Slugma",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Slugma"
   },
   "MAGCARGO": {
@@ -2197,6 +2416,7 @@
     "footprintPics": "gMonFootprint_Magcargo",
     "width": "40",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Magcargo"
   },
   "SWINUB": {
@@ -2207,6 +2427,7 @@
     "footprintPics": "gMonFootprint_Swinub",
     "width": "32",
     "height": "24",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Swinub"
   },
   "PILOSWINE": {
@@ -2217,6 +2438,7 @@
     "footprintPics": "gMonFootprint_Piloswine",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Piloswine"
   },
   "CORSOLA": {
@@ -2227,6 +2449,7 @@
     "footprintPics": "gMonFootprint_Corsola",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Corsola"
   },
   "REMORAID": {
@@ -2237,6 +2460,7 @@
     "footprintPics": "gMonFootprint_Remoraid",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Remoraid"
   },
   "OCTILLERY": {
@@ -2247,6 +2471,7 @@
     "footprintPics": "gMonFootprint_Octillery",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Octillery"
   },
   "DELIBIRD": {
@@ -2257,6 +2482,7 @@
     "footprintPics": "gMonFootprint_Delibird",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Delibird"
   },
   "MANTINE": {
@@ -2267,6 +2493,7 @@
     "footprintPics": "gMonFootprint_Mantine",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Mantine"
   },
   "SKARMORY": {
@@ -2277,6 +2504,7 @@
     "footprintPics": "gMonFootprint_Skarmory",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Skarmory"
   },
   "HOUNDOUR": {
@@ -2287,6 +2515,7 @@
     "footprintPics": "gMonFootprint_Houndour",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Houndour"
   },
   "HOUNDOOM": {
@@ -2297,6 +2526,7 @@
     "footprintPics": "gMonFootprint_Houndoom",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Houndoom"
   },
   "KINGDRA": {
@@ -2307,6 +2537,7 @@
     "footprintPics": "gMonFootprint_Kingdra",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Kingdra"
   },
   "PHANPY": {
@@ -2317,6 +2548,7 @@
     "footprintPics": "gMonFootprint_Phanpy",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Phanpy"
   },
   "DONPHAN": {
@@ -2327,6 +2559,7 @@
     "footprintPics": "gMonFootprint_Donphan",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Donphan"
   },
   "PORYGON2": {
@@ -2337,6 +2570,7 @@
     "footprintPics": "gMonFootprint_Porygon2",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Porygon2"
   },
   "STANTLER": {
@@ -2347,6 +2581,7 @@
     "footprintPics": "gMonFootprint_Stantler",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Stantler"
   },
   "SMEARGLE": {
@@ -2357,6 +2592,7 @@
     "footprintPics": "gMonFootprint_Smeargle",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Smeargle"
   },
   "TYROGUE": {
@@ -2367,6 +2603,7 @@
     "footprintPics": "gMonFootprint_Tyrogue",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Tyrogue"
   },
   "HITMONTOP": {
@@ -2377,6 +2614,7 @@
     "footprintPics": "gMonFootprint_Hitmontop",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Hitmontop"
   },
   "SMOOCHUM": {
@@ -2387,6 +2625,7 @@
     "footprintPics": "gMonFootprint_Smoochum",
     "width": "24",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Smoochum"
   },
   "ELEKID": {
@@ -2397,6 +2636,7 @@
     "footprintPics": "gMonFootprint_Elekid",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Elekid"
   },
   "MAGBY": {
@@ -2407,6 +2647,7 @@
     "footprintPics": "gMonFootprint_Magby",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Magby"
   },
   "MILTANK": {
@@ -2417,6 +2658,7 @@
     "footprintPics": "gMonFootprint_Miltank",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Miltank"
   },
   "BLISSEY": {
@@ -2427,6 +2669,7 @@
     "footprintPics": "gMonFootprint_Blissey",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Blissey"
   },
   "RAIKOU": {
@@ -2437,6 +2680,7 @@
     "footprintPics": "gMonFootprint_Raikou",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Raikou"
   },
   "ENTEI": {
@@ -2447,6 +2691,7 @@
     "footprintPics": "gMonFootprint_Entei",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Entei"
   },
   "SUICUNE": {
@@ -2457,6 +2702,7 @@
     "footprintPics": "gMonFootprint_Suicune",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Suicune"
   },
   "LARVITAR": {
@@ -2467,6 +2713,7 @@
     "footprintPics": "gMonFootprint_Larvitar",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Larvitar"
   },
   "PUPITAR": {
@@ -2477,6 +2724,7 @@
     "footprintPics": "gMonFootprint_Pupitar",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pupitar"
   },
   "TYRANITAR": {
@@ -2487,6 +2735,7 @@
     "footprintPics": "gMonFootprint_Tyranitar",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Tyranitar"
   },
   "LUGIA": {
@@ -2497,6 +2746,7 @@
     "footprintPics": "gMonFootprint_Lugia",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Lugia"
   },
   "HO_OH": {
@@ -2507,7 +2757,8 @@
     "footprintPics": "gMonFootprint_HoOh",
     "width": "64",
     "height": "64",
-    "Icon": "gMonIcon_Ho_oh"
+    "iconPalIndex": "1",
+    "Icon": "gMonIcon_HoOh"
   },
   "CELEBI": {
     "frontPics": "gMonFrontPic_Celebi",
@@ -2517,6 +2768,7 @@
     "footprintPics": "gMonFootprint_Celebi",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Celebi"
   },
   "OLD_UNOWN_B": {
@@ -2526,7 +2778,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_C": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2535,7 +2789,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_D": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2544,7 +2800,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_E": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2553,7 +2811,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_F": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2562,7 +2822,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_G": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2571,7 +2833,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_H": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2580,7 +2844,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_I": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2589,7 +2855,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_J": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2598,7 +2866,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_K": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2607,7 +2877,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_L": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2616,7 +2888,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_M": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2625,7 +2899,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_N": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2634,7 +2910,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_O": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2643,7 +2921,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_P": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2652,7 +2932,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_Q": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2661,7 +2943,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_R": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2670,7 +2954,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_S": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2679,7 +2965,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_T": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2688,7 +2976,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_U": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2697,7 +2987,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_V": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2706,7 +2998,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_W": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2715,7 +3009,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_X": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2724,7 +3020,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_Y": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2733,7 +3031,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "OLD_UNOWN_Z": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
@@ -2742,7 +3042,9 @@
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
     "footprintPics": "gMonFootprint_QuestionMark",
     "width": "64",
-    "height": "64"
+    "height": "64",
+    "iconPalIndex": "0",
+    "Icon": "gMonIcon_QuestionMark"
   },
   "TREECKO": {
     "frontPics": "gMonFrontPic_Treecko",
@@ -2752,6 +3054,7 @@
     "footprintPics": "gMonFootprint_Treecko",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Treecko"
   },
   "GROVYLE": {
@@ -2762,6 +3065,7 @@
     "footprintPics": "gMonFootprint_Grovyle",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Grovyle"
   },
   "SCEPTILE": {
@@ -2772,6 +3076,7 @@
     "footprintPics": "gMonFootprint_Sceptile",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Sceptile"
   },
   "TORCHIC": {
@@ -2782,6 +3087,7 @@
     "footprintPics": "gMonFootprint_Torchic",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Torchic"
   },
   "COMBUSKEN": {
@@ -2792,6 +3098,7 @@
     "footprintPics": "gMonFootprint_Combusken",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Combusken"
   },
   "BLAZIKEN": {
@@ -2802,6 +3109,7 @@
     "footprintPics": "gMonFootprint_Blaziken",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Blaziken"
   },
   "MUDKIP": {
@@ -2812,6 +3120,7 @@
     "footprintPics": "gMonFootprint_Mudkip",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Mudkip"
   },
   "MARSHTOMP": {
@@ -2822,6 +3131,7 @@
     "footprintPics": "gMonFootprint_Marshtomp",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Marshtomp"
   },
   "SWAMPERT": {
@@ -2832,6 +3142,7 @@
     "footprintPics": "gMonFootprint_Swampert",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Swampert"
   },
   "POOCHYENA": {
@@ -2842,6 +3153,7 @@
     "footprintPics": "gMonFootprint_Poochyena",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Poochyena"
   },
   "MIGHTYENA": {
@@ -2852,6 +3164,7 @@
     "footprintPics": "gMonFootprint_Mightyena",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Mightyena"
   },
   "ZIGZAGOON": {
@@ -2862,6 +3175,7 @@
     "footprintPics": "gMonFootprint_Zigzagoon",
     "width": "64",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Zigzagoon"
   },
   "LINOONE": {
@@ -2872,6 +3186,7 @@
     "footprintPics": "gMonFootprint_Linoone",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Linoone"
   },
   "WURMPLE": {
@@ -2882,6 +3197,7 @@
     "footprintPics": "gMonFootprint_Wurmple",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wurmple"
   },
   "SILCOON": {
@@ -2892,6 +3208,7 @@
     "footprintPics": "gMonFootprint_Silcoon",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Silcoon"
   },
   "BEAUTIFLY": {
@@ -2902,6 +3219,7 @@
     "footprintPics": "gMonFootprint_Beautifly",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Beautifly"
   },
   "CASCOON": {
@@ -2912,6 +3230,7 @@
     "footprintPics": "gMonFootprint_Cascoon",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Cascoon"
   },
   "DUSTOX": {
@@ -2922,6 +3241,7 @@
     "footprintPics": "gMonFootprint_Dustox",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Dustox"
   },
   "LOTAD": {
@@ -2932,6 +3252,7 @@
     "footprintPics": "gMonFootprint_Lotad",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Lotad"
   },
   "LOMBRE": {
@@ -2942,6 +3263,7 @@
     "footprintPics": "gMonFootprint_Lombre",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Lombre"
   },
   "LUDICOLO": {
@@ -2952,6 +3274,7 @@
     "footprintPics": "gMonFootprint_Ludicolo",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Ludicolo"
   },
   "SEEDOT": {
@@ -2962,6 +3285,7 @@
     "footprintPics": "gMonFootprint_Seedot",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Seedot"
   },
   "NUZLEAF": {
@@ -2972,6 +3296,7 @@
     "footprintPics": "gMonFootprint_Nuzleaf",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Nuzleaf"
   },
   "SHIFTRY": {
@@ -2982,6 +3307,7 @@
     "footprintPics": "gMonFootprint_Shiftry",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Shiftry"
   },
   "NINCADA": {
@@ -2992,6 +3318,7 @@
     "footprintPics": "gMonFootprint_Nincada",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Nincada"
   },
   "NINJASK": {
@@ -3002,6 +3329,7 @@
     "footprintPics": "gMonFootprint_Ninjask",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Ninjask"
   },
   "SHEDINJA": {
@@ -3012,6 +3340,7 @@
     "footprintPics": "gMonFootprint_Shedinja",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Shedinja"
   },
   "TAILLOW": {
@@ -3022,6 +3351,7 @@
     "footprintPics": "gMonFootprint_Taillow",
     "width": "48",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Taillow"
   },
   "SWELLOW": {
@@ -3032,6 +3362,7 @@
     "footprintPics": "gMonFootprint_Swellow",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Swellow"
   },
   "SHROOMISH": {
@@ -3042,6 +3373,7 @@
     "footprintPics": "gMonFootprint_Shroomish",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Shroomish"
   },
   "BRELOOM": {
@@ -3052,6 +3384,7 @@
     "footprintPics": "gMonFootprint_Breloom",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Breloom"
   },
   "SPINDA": {
@@ -3062,6 +3395,7 @@
     "footprintPics": "gMonFootprint_Spinda",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Spinda"
   },
   "WINGULL": {
@@ -3072,6 +3406,7 @@
     "footprintPics": "gMonFootprint_Wingull",
     "width": "64",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wingull"
   },
   "PELIPPER": {
@@ -3082,6 +3417,7 @@
     "footprintPics": "gMonFootprint_Pelipper",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Pelipper"
   },
   "SURSKIT": {
@@ -3092,6 +3428,7 @@
     "footprintPics": "gMonFootprint_Surskit",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Surskit"
   },
   "MASQUERAIN": {
@@ -3102,6 +3439,7 @@
     "footprintPics": "gMonFootprint_Masquerain",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Masquerain"
   },
   "WAILMER": {
@@ -3112,6 +3450,7 @@
     "footprintPics": "gMonFootprint_Wailmer",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Wailmer"
   },
   "WAILORD": {
@@ -3122,6 +3461,7 @@
     "footprintPics": "gMonFootprint_Wailord",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wailord"
   },
   "SKITTY": {
@@ -3132,6 +3472,7 @@
     "footprintPics": "gMonFootprint_Skitty",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Skitty"
   },
   "DELCATTY": {
@@ -3142,6 +3483,7 @@
     "footprintPics": "gMonFootprint_Delcatty",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Delcatty"
   },
   "KECLEON": {
@@ -3152,6 +3494,7 @@
     "footprintPics": "gMonFootprint_Kecleon",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Kecleon"
   },
   "BALTOY": {
@@ -3162,6 +3505,7 @@
     "footprintPics": "gMonFootprint_Baltoy",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Baltoy"
   },
   "CLAYDOL": {
@@ -3172,6 +3516,7 @@
     "footprintPics": "gMonFootprint_Claydol",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Claydol"
   },
   "NOSEPASS": {
@@ -3182,6 +3527,7 @@
     "footprintPics": "gMonFootprint_Nosepass",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Nosepass"
   },
   "TORKOAL": {
@@ -3192,6 +3538,7 @@
     "footprintPics": "gMonFootprint_Torkoal",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Torkoal"
   },
   "SABLEYE": {
@@ -3202,6 +3549,7 @@
     "footprintPics": "gMonFootprint_Sableye",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Sableye"
   },
   "BARBOACH": {
@@ -3212,6 +3560,7 @@
     "footprintPics": "gMonFootprint_Barboach",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Barboach"
   },
   "WHISCASH": {
@@ -3222,6 +3571,7 @@
     "footprintPics": "gMonFootprint_Whiscash",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Whiscash"
   },
   "LUVDISC": {
@@ -3232,6 +3582,7 @@
     "footprintPics": "gMonFootprint_Luvdisc",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Luvdisc"
   },
   "CORPHISH": {
@@ -3242,6 +3593,7 @@
     "footprintPics": "gMonFootprint_Corphish",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Corphish"
   },
   "CRAWDAUNT": {
@@ -3252,6 +3604,7 @@
     "footprintPics": "gMonFootprint_Crawdaunt",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Crawdaunt"
   },
   "FEEBAS": {
@@ -3262,6 +3615,7 @@
     "footprintPics": "gMonFootprint_Feebas",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Feebas"
   },
   "MILOTIC": {
@@ -3272,6 +3626,7 @@
     "footprintPics": "gMonFootprint_Milotic",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Milotic"
   },
   "CARVANHA": {
@@ -3282,6 +3637,7 @@
     "footprintPics": "gMonFootprint_Carvanha",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Carvanha"
   },
   "SHARPEDO": {
@@ -3292,6 +3648,7 @@
     "footprintPics": "gMonFootprint_Sharpedo",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Sharpedo"
   },
   "TRAPINCH": {
@@ -3302,6 +3659,7 @@
     "footprintPics": "gMonFootprint_Trapinch",
     "width": "40",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Trapinch"
   },
   "VIBRAVA": {
@@ -3312,6 +3670,7 @@
     "footprintPics": "gMonFootprint_Vibrava",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Vibrava"
   },
   "FLYGON": {
@@ -3322,6 +3681,7 @@
     "footprintPics": "gMonFootprint_Flygon",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Flygon"
   },
   "MAKUHITA": {
@@ -3332,6 +3692,7 @@
     "footprintPics": "gMonFootprint_Makuhita",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Makuhita"
   },
   "HARIYAMA": {
@@ -3342,6 +3703,7 @@
     "footprintPics": "gMonFootprint_Hariyama",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Hariyama"
   },
   "ELECTRIKE": {
@@ -3352,6 +3714,7 @@
     "footprintPics": "gMonFootprint_Electrike",
     "width": "48",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Electrike"
   },
   "MANECTRIC": {
@@ -3362,6 +3725,7 @@
     "footprintPics": "gMonFootprint_Manectric",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Manectric"
   },
   "NUMEL": {
@@ -3372,6 +3736,7 @@
     "footprintPics": "gMonFootprint_Numel",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Numel"
   },
   "CAMERUPT": {
@@ -3382,6 +3747,7 @@
     "footprintPics": "gMonFootprint_Camerupt",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Camerupt"
   },
   "SPHEAL": {
@@ -3392,6 +3758,7 @@
     "footprintPics": "gMonFootprint_Spheal",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Spheal"
   },
   "SEALEO": {
@@ -3402,6 +3769,7 @@
     "footprintPics": "gMonFootprint_Sealeo",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Sealeo"
   },
   "WALREIN": {
@@ -3412,6 +3780,7 @@
     "footprintPics": "gMonFootprint_Walrein",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Walrein"
   },
   "CACNEA": {
@@ -3422,6 +3791,7 @@
     "footprintPics": "gMonFootprint_Cacnea",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Cacnea"
   },
   "CACTURNE": {
@@ -3432,6 +3802,7 @@
     "footprintPics": "gMonFootprint_Cacturne",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Cacturne"
   },
   "SNORUNT": {
@@ -3442,6 +3813,7 @@
     "footprintPics": "gMonFootprint_Snorunt",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Snorunt"
   },
   "GLALIE": {
@@ -3452,6 +3824,7 @@
     "footprintPics": "gMonFootprint_Glalie",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Glalie"
   },
   "LUNATONE": {
@@ -3462,6 +3835,7 @@
     "footprintPics": "gMonFootprint_Lunatone",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Lunatone"
   },
   "SOLROCK": {
@@ -3472,6 +3846,7 @@
     "footprintPics": "gMonFootprint_Solrock",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Solrock"
   },
   "AZURILL": {
@@ -3482,6 +3857,7 @@
     "footprintPics": "gMonFootprint_Azurill",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Azurill"
   },
   "SPOINK": {
@@ -3492,6 +3868,7 @@
     "footprintPics": "gMonFootprint_Spoink",
     "width": "32",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Spoink"
   },
   "GRUMPIG": {
@@ -3502,6 +3879,7 @@
     "footprintPics": "gMonFootprint_Grumpig",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Grumpig"
   },
   "PLUSLE": {
@@ -3512,6 +3890,7 @@
     "footprintPics": "gMonFootprint_Plusle",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Plusle"
   },
   "MINUN": {
@@ -3522,6 +3901,7 @@
     "footprintPics": "gMonFootprint_Minun",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Minun"
   },
   "MAWILE": {
@@ -3532,6 +3912,7 @@
     "footprintPics": "gMonFootprint_Mawile",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Mawile"
   },
   "MEDITITE": {
@@ -3542,6 +3923,7 @@
     "footprintPics": "gMonFootprint_Meditite",
     "width": "48",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Meditite"
   },
   "MEDICHAM": {
@@ -3552,6 +3934,7 @@
     "footprintPics": "gMonFootprint_Medicham",
     "width": "48",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Medicham"
   },
   "SWABLU": {
@@ -3562,6 +3945,7 @@
     "footprintPics": "gMonFootprint_Swablu",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Swablu"
   },
   "ALTARIA": {
@@ -3572,6 +3956,7 @@
     "footprintPics": "gMonFootprint_Altaria",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Altaria"
   },
   "WYNAUT": {
@@ -3582,6 +3967,7 @@
     "footprintPics": "gMonFootprint_Wynaut",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Wynaut"
   },
   "DUSKULL": {
@@ -3592,6 +3978,7 @@
     "footprintPics": "gMonFootprint_Duskull",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Duskull"
   },
   "DUSCLOPS": {
@@ -3602,6 +3989,7 @@
     "footprintPics": "gMonFootprint_Dusclops",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Dusclops"
   },
   "ROSELIA": {
@@ -3612,6 +4000,7 @@
     "footprintPics": "gMonFootprint_Roselia",
     "width": "56",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Roselia"
   },
   "SLAKOTH": {
@@ -3622,6 +4011,7 @@
     "footprintPics": "gMonFootprint_Slakoth",
     "width": "56",
     "height": "32",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Slakoth"
   },
   "VIGOROTH": {
@@ -3632,6 +4022,7 @@
     "footprintPics": "gMonFootprint_Vigoroth",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Vigoroth"
   },
   "SLAKING": {
@@ -3642,6 +4033,7 @@
     "footprintPics": "gMonFootprint_Slaking",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Slaking"
   },
   "GULPIN": {
@@ -3652,6 +4044,7 @@
     "footprintPics": "gMonFootprint_Gulpin",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Gulpin"
   },
   "SWALOT": {
@@ -3662,6 +4055,7 @@
     "footprintPics": "gMonFootprint_Swalot",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Swalot"
   },
   "TROPIUS": {
@@ -3672,6 +4066,7 @@
     "footprintPics": "gMonFootprint_Tropius",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Tropius"
   },
   "WHISMUR": {
@@ -3682,6 +4077,7 @@
     "footprintPics": "gMonFootprint_Whismur",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Whismur"
   },
   "LOUDRED": {
@@ -3692,6 +4088,7 @@
     "footprintPics": "gMonFootprint_Loudred",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Loudred"
   },
   "EXPLOUD": {
@@ -3702,6 +4099,7 @@
     "footprintPics": "gMonFootprint_Exploud",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Exploud"
   },
   "CLAMPERL": {
@@ -3712,6 +4110,7 @@
     "footprintPics": "gMonFootprint_Clamperl",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Clamperl"
   },
   "HUNTAIL": {
@@ -3722,6 +4121,7 @@
     "footprintPics": "gMonFootprint_Huntail",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Huntail"
   },
   "GOREBYSS": {
@@ -3732,6 +4132,7 @@
     "footprintPics": "gMonFootprint_Gorebyss",
     "width": "64",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Gorebyss"
   },
   "ABSOL": {
@@ -3742,6 +4143,7 @@
     "footprintPics": "gMonFootprint_Absol",
     "width": "48",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Absol"
   },
   "SHUPPET": {
@@ -3752,6 +4154,7 @@
     "footprintPics": "gMonFootprint_Shuppet",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Shuppet"
   },
   "BANETTE": {
@@ -3762,6 +4165,7 @@
     "footprintPics": "gMonFootprint_Banette",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Banette"
   },
   "SEVIPER": {
@@ -3772,6 +4176,7 @@
     "footprintPics": "gMonFootprint_Seviper",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Seviper"
   },
   "ZANGOOSE": {
@@ -3782,6 +4187,7 @@
     "footprintPics": "gMonFootprint_Zangoose",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Zangoose"
   },
   "RELICANTH": {
@@ -3792,6 +4198,7 @@
     "footprintPics": "gMonFootprint_Relicanth",
     "width": "56",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Relicanth"
   },
   "ARON": {
@@ -3802,6 +4209,7 @@
     "footprintPics": "gMonFootprint_Aron",
     "width": "32",
     "height": "24",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Aron"
   },
   "LAIRON": {
@@ -3812,6 +4220,7 @@
     "footprintPics": "gMonFootprint_Lairon",
     "width": "56",
     "height": "40",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Lairon"
   },
   "AGGRON": {
@@ -3822,6 +4231,7 @@
     "footprintPics": "gMonFootprint_Aggron",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Aggron"
   },
   "CASTFORM": {
@@ -3832,6 +4242,7 @@
     "footprintPics": "gMonFootprint_Castform",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Castform"
   },
   "VOLBEAT": {
@@ -3842,6 +4253,7 @@
     "footprintPics": "gMonFootprint_Volbeat",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Volbeat"
   },
   "ILLUMISE": {
@@ -3852,6 +4264,7 @@
     "footprintPics": "gMonFootprint_Illumise",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Illumise"
   },
   "LILEEP": {
@@ -3862,6 +4275,7 @@
     "footprintPics": "gMonFootprint_Lileep",
     "width": "48",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Lileep"
   },
   "CRADILY": {
@@ -3872,6 +4286,7 @@
     "footprintPics": "gMonFootprint_Cradily",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Cradily"
   },
   "ANORITH": {
@@ -3882,6 +4297,7 @@
     "footprintPics": "gMonFootprint_Anorith",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Anorith"
   },
   "ARMALDO": {
@@ -3892,6 +4308,7 @@
     "footprintPics": "gMonFootprint_Armaldo",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Armaldo"
   },
   "RALTS": {
@@ -3902,6 +4319,7 @@
     "footprintPics": "gMonFootprint_Ralts",
     "width": "24",
     "height": "40",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Ralts"
   },
   "KIRLIA": {
@@ -3912,6 +4330,7 @@
     "footprintPics": "gMonFootprint_Kirlia",
     "width": "32",
     "height": "56",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Kirlia"
   },
   "GARDEVOIR": {
@@ -3922,6 +4341,7 @@
     "footprintPics": "gMonFootprint_Gardevoir",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Gardevoir"
   },
   "BAGON": {
@@ -3932,6 +4352,7 @@
     "footprintPics": "gMonFootprint_Bagon",
     "width": "40",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Bagon"
   },
   "SHELGON": {
@@ -3942,6 +4363,7 @@
     "footprintPics": "gMonFootprint_Shelgon",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Shelgon"
   },
   "SALAMENCE": {
@@ -3952,6 +4374,7 @@
     "footprintPics": "gMonFootprint_Salamence",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Salamence"
   },
   "BELDUM": {
@@ -3962,6 +4385,7 @@
     "footprintPics": "gMonFootprint_Beldum",
     "width": "40",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Beldum"
   },
   "METANG": {
@@ -3972,6 +4396,7 @@
     "footprintPics": "gMonFootprint_Metang",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Metang"
   },
   "METAGROSS": {
@@ -3982,6 +4407,7 @@
     "footprintPics": "gMonFootprint_Metagross",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Metagross"
   },
   "REGIROCK": {
@@ -3992,6 +4418,7 @@
     "footprintPics": "gMonFootprint_Regirock",
     "width": "56",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Regirock"
   },
   "REGICE": {
@@ -4002,6 +4429,7 @@
     "footprintPics": "gMonFootprint_Regice",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Regice"
   },
   "REGISTEEL": {
@@ -4012,6 +4440,7 @@
     "footprintPics": "gMonFootprint_Registeel",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Registeel"
   },
   "KYOGRE": {
@@ -4022,6 +4451,7 @@
     "footprintPics": "gMonFootprint_Kyogre",
     "width": "64",
     "height": "56",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Kyogre"
   },
   "GROUDON": {
@@ -4032,6 +4462,7 @@
     "footprintPics": "gMonFootprint_Groudon",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Groudon"
   },
   "RAYQUAZA": {
@@ -4042,6 +4473,7 @@
     "footprintPics": "gMonFootprint_Rayquaza",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Rayquaza"
   },
   "LATIAS": {
@@ -4052,6 +4484,7 @@
     "footprintPics": "gMonFootprint_Latias",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Latias"
   },
   "LATIOS": {
@@ -4062,6 +4495,7 @@
     "footprintPics": "gMonFootprint_Latios",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "2",
     "Icon": "gMonIcon_Latios"
   },
   "JIRACHI": {
@@ -4072,6 +4506,7 @@
     "footprintPics": "gMonFootprint_Jirachi",
     "width": "48",
     "height": "48",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Jirachi"
   },
   "DEOXYS": {
@@ -4082,6 +4517,7 @@
     "footprintPics": "gMonFootprint_Deoxys",
     "width": "64",
     "height": "64",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Deoxys"
   },
   "CHIMECHO": {
@@ -4092,6 +4528,7 @@
     "footprintPics": "gMonFootprint_Chimecho",
     "width": "24",
     "height": "56",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_Chimecho"
   },
   "EGG": {
@@ -4102,6 +4539,7 @@
     "footprintPics": "gMonFootprint_Bulbasaur",
     "width": "24",
     "height": "24",
+    "iconPalIndex": "1",
     "Icon": "gMonIcon_Egg"
   },
   "UNOWN_B": {
@@ -4111,6 +4549,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownB"
   },
   "UNOWN_C": {
@@ -4120,6 +4559,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownC"
   },
   "UNOWN_D": {
@@ -4129,6 +4569,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownD"
   },
   "UNOWN_E": {
@@ -4138,6 +4579,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownE"
   },
   "UNOWN_F": {
@@ -4147,6 +4589,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownF"
   },
   "UNOWN_G": {
@@ -4156,6 +4599,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownG"
   },
   "UNOWN_H": {
@@ -4165,6 +4609,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownH"
   },
   "UNOWN_I": {
@@ -4174,6 +4619,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownI"
   },
   "UNOWN_J": {
@@ -4183,6 +4629,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownJ"
   },
   "UNOWN_K": {
@@ -4192,6 +4639,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownK"
   },
   "UNOWN_L": {
@@ -4201,6 +4649,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownL"
   },
   "UNOWN_M": {
@@ -4210,6 +4659,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownM"
   },
   "UNOWN_N": {
@@ -4219,6 +4669,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "24",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownN"
   },
   "UNOWN_O": {
@@ -4228,6 +4679,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownO"
   },
   "UNOWN_P": {
@@ -4237,6 +4689,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownP"
   },
   "UNOWN_Q": {
@@ -4246,6 +4699,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "24",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownQ"
   },
   "UNOWN_R": {
@@ -4255,6 +4709,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownR"
   },
   "UNOWN_S": {
@@ -4264,6 +4719,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownS"
   },
   "UNOWN_T": {
@@ -4273,6 +4729,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownT"
   },
   "UNOWN_U": {
@@ -4282,6 +4739,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownU"
   },
   "UNOWN_V": {
@@ -4291,6 +4749,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownV"
   },
   "UNOWN_W": {
@@ -4300,6 +4759,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "32",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownW"
   },
   "UNOWN_X": {
@@ -4309,6 +4769,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "24",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownX"
   },
   "UNOWN_Y": {
@@ -4318,6 +4779,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownY"
   },
   "UNOWN_Z": {
@@ -4327,6 +4789,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "32",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownZ"
   },
   "UNOWN_EMARK": {
@@ -4336,6 +4799,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownExclamationMark"
   },
   "UNOWN_QMARK": {
@@ -4345,6 +4809,7 @@
     "shinyPalette": "gMonShinyPalette_Unown",
     "width": "24",
     "height": "40",
+    "iconPalIndex": "0",
     "Icon": "gMonIcon_UnownQuestionMark"
   }
 }

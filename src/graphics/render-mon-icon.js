@@ -1,41 +1,30 @@
-import { PNG } from "pngjs";
-import fs from "fs";
 import { decode4bppTile } from "./decode-4bpp.js";
 import { decodePalette } from "./decode-palette.js";
 import { extract } from "./extract.js";
-import { renderMonIcon } from "./render-mon-icon.js";
+import { PNG } from "pngjs";
+import fs from "fs";
 
-export function renderMon(monName, mons, assets, side = "front", variant = "normal", icon = false) {
+export async function renderMonIcon(monName, mons, assets, iconPalettes) { // eh I skipped the safety stuff for this but it should be fine... I hope...
     return new Promise((resolve, reject) => {
-        if (icon === "true") {
-            const comboPal = assets.find(a => a.name === "gMonIconPalettes");
-            renderMonIcon(monName, mons, assets, comboPal);
-        }
         const mon = mons[monName];
-        if (!mon) {
-            console.warn(`Missing mon: ${monName}`);
-            return resolve();
-        }
-        const picName = side === "back" ? mon.backPics : mon.frontPics;
-        const monPic = assets.find(a => a.name === picName);
-        const palType = variant === "shiny" ? mon.shinyPalette : mon.normPalette;
-        const monPal = assets.find(a => a.name === palType);
-        if (!monPic || !monPal) {
-            console.warn(`Missing assets for: ${monName}`);
-            return resolve();
-        }
-        const monImageData = extract(monPic);
-        const rawMonPalData = extract(monPal);
+        const iconAsset = assets.find(a => a.name === mon.Icon);
+        const iconData = extract(iconAsset);
+        const palIndex = Number(mon.iconPalIndex);
+        const palSize = 32;
+        const palStart = palIndex * palSize;
+        const palEnd = palStart + palSize;
+        const rawIconPalData = extract(iconPalettes);
+        const slicedPalData = rawIconPalData.data.slice(palStart, palEnd);
+        const palette = decodePalette(slicedPalData);
+        const tiles = []
         const tileSize = 32;
-        const numTiles = monImageData.data.length / tileSize;
-        const width = 64;
+        const numTiles = iconData.data.length / tileSize;
+        const width = 32;
         const height = 64;
         const tilesPerRow = width / 8;
-        const monPalData = decodePalette(rawMonPalData.data);
-        const tiles = [];
         for (let i = 0; i < numTiles; i++) {
             const start = i * tileSize;
-            const tileBytes = monImageData.data.slice(start, start + tileSize);
+            const tileBytes = iconData.data.slice(start, start + tileSize);
             tiles.push(decode4bppTile(tileBytes));
         }
         const image = new Uint8ClampedArray(width * height * 4);
@@ -50,7 +39,7 @@ export function renderMon(monName, mons, assets, side = "front", variant = "norm
                     const x = tileX * 8 + px;
                     const y = tileY * 8 + py;
                     const outIndex = (y * width + x) * 4;
-                    const [r, g, b] = monPalData[colorIndex] || [0, 0, 0];
+                    const [r, g, b] = palette[colorIndex] || [0, 0, 0];
                     image[outIndex] = r;
                     image[outIndex + 1] = g;
                     image[outIndex + 2] = b;
@@ -64,7 +53,7 @@ export function renderMon(monName, mons, assets, side = "front", variant = "norm
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
         }
-        const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
+        const fileName = `${dir}/icon.png`;
         const stream = fs.createWriteStream(fileName);
         stream.on("finish", resolve);
         stream.on("error", reject);

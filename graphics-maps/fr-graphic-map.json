@@ -1,5 +1,12 @@
 [
   {
+    "name": "gMonIconPalettes",
+    "address": 138229568,
+    "size": 96,
+    "offset": 4011840,
+    "type": "palette"
+  },
+  {
     "name": "gBattleInterface_Textbox_Gfx",
     "address": 147849216,
     "size": 1240,
