@@ -7,12 +7,16 @@ import { decode4bppTile } from "./decode-4bpp.js";
 import { decodePalette } from "./decode-palette.js";
 import { extract } from "./extract.js";
 import { renderMonIcon } from "./render-mon-icon.js";
+import { renderMonFoot } from "./render-mon-foot.js";
 
-export function renderMon(monName, mons, assets, side = "front", variant = "normal", icon = false) {
+export function renderMon(monName, mons, assets, side = "front", variant = "normal", icon = false, footprint = false) {
     return new Promise((resolve, reject) => {
         if (icon === true) { // erm that is kinda embarrassing... fixed now though...
             const comboPal = assets.find(a => a.name === "gMonIconPalettes");
             renderMonIcon(monName, mons, assets, comboPal);
+        }
+        if (footprint === true) {
+            renderMonFoot(monName, mons, assets);
         }
         const mon = mons[monName];
         if (!mon) {

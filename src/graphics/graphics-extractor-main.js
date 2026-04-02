@@ -13,10 +13,10 @@ fs.mkdirSync("./out", { recursive: true });
 
 async function runBatch() {
     for (const monName of Object.keys(mons)) {
-        await renderMon(monName, mons, assets, "front", "normal", true);
-        await renderMon(monName, mons, assets, "front", "shiny");
-        await renderMon(monName, mons, assets, "back", "normal");
-        await renderMon(monName, mons, assets, "back", "shiny");
+        await renderMon(monName, mons, assets, "front", "normal", true, true);
+        await renderMon(monName, mons, assets, "front", "shiny", false, false);
+        await renderMon(monName, mons, assets, "back", "normal", false, false);
+        await renderMon(monName, mons, assets, "back", "shiny", false, false);
         console.log(`Done: ${monName}`);
     }
 }
