@@ -1,0 +1,9 @@
+*.gba
+graphics.c
+pokemon_graphics
+gbagfx
+src/mon-data-parser.js
+pokemon.h
+node_modules
+src/graphics/out
+pokemon_icon.c
