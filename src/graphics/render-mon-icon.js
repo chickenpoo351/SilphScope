@@ -72,15 +72,22 @@ export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, op
         }
     }
 
-    const png = new PNG({ width, height });
-    png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
+    const frameHeight = 32;
+    const frameSize = width * frameHeight * 4;
+    const frame1 = image.slice(0, frameSize);
+    const frame2 = image.slice(frameSize, frameSize * 2);
+    const pngFrame1 = new PNG({ width, height: frameHeight });
+    pngFrame1.data = frame1;
+    const pngFrame2 = new PNG({ width, height: frameHeight });
+    pngFrame2.data = frame2;
+    const buffer1 = await streamToBuffer(pngFrame1.pack());
+    const buffer2 = await streamToBuffer(pngFrame2.pack());
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/icon.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        fs.writeFileSync(`${dir}/icon_frame1.png`, buffer1);
+        fs.writeFileSync(`${dir}/icon_frame2.png`, buffer2);
     }
 
     return pngBuffer;
