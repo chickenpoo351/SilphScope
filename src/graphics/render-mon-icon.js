@@ -90,5 +90,8 @@ export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, op
         fs.writeFileSync(`${dir}/icon_frame2.png`, buffer2);
     }
 
-    return pngBuffer;
+    return {
+        frame1: buffer1,
+        frame2: buffer2,
+    };
 }
