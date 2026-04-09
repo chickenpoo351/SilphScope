@@ -1,12 +1,21 @@
 {
   "name": "silphscope",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A firered/leafgreen ROM asset extractor for use in web applications",
   "main": "main.js",
   "exports": {
     ".": "./main.js"
   },
-  "files": ["main.js", "src/", "README.md", "LICENSE", "NOTICE", "graphics-maps/", "mon-data/", "rom-maps/"],
+  "files": [
+    "main.js",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "graphics-maps/",
+    "mon-data/",
+    "rom-maps/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
