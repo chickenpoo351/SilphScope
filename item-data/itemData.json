@@ -1,0 +1,1506 @@
+{
+  "NONE": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "MASTER_BALL": {
+    "icon": "gItemIcon_MasterBall",
+    "palette": "gItemIconPalette_MasterBall"
+  },
+  "ULTRA_BALL": {
+    "icon": "gItemIcon_UltraBall",
+    "palette": "gItemIconPalette_UltraBall"
+  },
+  "GREAT_BALL": {
+    "icon": "gItemIcon_GreatBall",
+    "palette": "gItemIconPalette_GreatBall"
+  },
+  "POKE_BALL": {
+    "icon": "gItemIcon_PokeBall",
+    "palette": "gItemIconPalette_PokeBall"
+  },
+  "SAFARI_BALL": {
+    "icon": "gItemIcon_SafariBall",
+    "palette": "gItemIconPalette_SafariBall"
+  },
+  "NET_BALL": {
+    "icon": "gItemIcon_NetBall",
+    "palette": "gItemIconPalette_NetBall"
+  },
+  "DIVE_BALL": {
+    "icon": "gItemIcon_DiveBall",
+    "palette": "gItemIconPalette_DiveBall"
+  },
+  "NEST_BALL": {
+    "icon": "gItemIcon_NestBall",
+    "palette": "gItemIconPalette_NestBall"
+  },
+  "REPEAT_BALL": {
+    "icon": "gItemIcon_RepeatBall",
+    "palette": "gItemIconPalette_RepeatBall"
+  },
+  "TIMER_BALL": {
+    "icon": "gItemIcon_TimerBall",
+    "palette": "gItemIconPalette_RepeatBall"
+  },
+  "LUXURY_BALL": {
+    "icon": "gItemIcon_LuxuryBall",
+    "palette": "gItemIconPalette_LuxuryBall"
+  },
+  "PREMIER_BALL": {
+    "icon": "gItemIcon_PremierBall",
+    "palette": "gItemIconPalette_LuxuryBall"
+  },
+  "POTION": {
+    "icon": "gItemIcon_Potion",
+    "palette": "gItemIconPalette_Potion"
+  },
+  "ANTIDOTE": {
+    "icon": "gItemIcon_Antidote",
+    "palette": "gItemIconPalette_Antidote"
+  },
+  "BURN_HEAL": {
+    "icon": "gItemIcon_StatusHeal",
+    "palette": "gItemIconPalette_BurnHeal"
+  },
+  "ICE_HEAL": {
+    "icon": "gItemIcon_StatusHeal",
+    "palette": "gItemIconPalette_IceHeal"
+  },
+  "AWAKENING": {
+    "icon": "gItemIcon_StatusHeal",
+    "palette": "gItemIconPalette_Awakening"
+  },
+  "PARALYZE_HEAL": {
+    "icon": "gItemIcon_StatusHeal",
+    "palette": "gItemIconPalette_ParalyzeHeal"
+  },
+  "FULL_RESTORE": {
+    "icon": "gItemIcon_LargePotion",
+    "palette": "gItemIconPalette_FullRestore"
+  },
+  "MAX_POTION": {
+    "icon": "gItemIcon_LargePotion",
+    "palette": "gItemIconPalette_MaxPotion"
+  },
+  "HYPER_POTION": {
+    "icon": "gItemIcon_Potion",
+    "palette": "gItemIconPalette_HyperPotion"
+  },
+  "SUPER_POTION": {
+    "icon": "gItemIcon_Potion",
+    "palette": "gItemIconPalette_SuperPotion"
+  },
+  "FULL_HEAL": {
+    "icon": "gItemIcon_FullHeal",
+    "palette": "gItemIconPalette_FullHeal"
+  },
+  "REVIVE": {
+    "icon": "gItemIcon_Revive",
+    "palette": "gItemIconPalette_Revive"
+  },
+  "MAX_REVIVE": {
+    "icon": "gItemIcon_MaxRevive",
+    "palette": "gItemIconPalette_Revive"
+  },
+  "FRESH_WATER": {
+    "icon": "gItemIcon_FreshWater",
+    "palette": "gItemIconPalette_FreshWater"
+  },
+  "SODA_POP": {
+    "icon": "gItemIcon_SodaPop",
+    "palette": "gItemIconPalette_SodaPop"
+  },
+  "LEMONADE": {
+    "icon": "gItemIcon_Lemonade",
+    "palette": "gItemIconPalette_Lemonade"
+  },
+  "MOOMOO_MILK": {
+    "icon": "gItemIcon_MoomooMilk",
+    "palette": "gItemIconPalette_MoomooMilk"
+  },
+  "ENERGY_POWDER": {
+    "icon": "gItemIcon_Powder",
+    "palette": "gItemIconPalette_EnergyPowder"
+  },
+  "ENERGY_ROOT": {
+    "icon": "gItemIcon_EnergyRoot",
+    "palette": "gItemIconPalette_EnergyRoot"
+  },
+  "HEAL_POWDER": {
+    "icon": "gItemIcon_Powder",
+    "palette": "gItemIconPalette_HealPowder"
+  },
+  "REVIVAL_HERB": {
+    "icon": "gItemIcon_RevivalHerb",
+    "palette": "gItemIconPalette_RevivalHerb"
+  },
+  "ETHER": {
+    "icon": "gItemIcon_Ether",
+    "palette": "gItemIconPalette_Ether"
+  },
+  "MAX_ETHER": {
+    "icon": "gItemIcon_Ether",
+    "palette": "gItemIconPalette_MaxEther"
+  },
+  "ELIXIR": {
+    "icon": "gItemIcon_Ether",
+    "palette": "gItemIconPalette_Elixir"
+  },
+  "MAX_ELIXIR": {
+    "icon": "gItemIcon_Ether",
+    "palette": "gItemIconPalette_MaxElixir"
+  },
+  "LAVA_COOKIE": {
+    "icon": "gItemIcon_LavaCookie",
+    "palette": "gItemIconPalette_LavaCookieAndLetter"
+  },
+  "BLUE_FLUTE": {
+    "icon": "gItemIcon_Flute",
+    "palette": "gItemIconPalette_BlueFlute"
+  },
+  "YELLOW_FLUTE": {
+    "icon": "gItemIcon_Flute",
+    "palette": "gItemIconPalette_YellowFlute"
+  },
+  "RED_FLUTE": {
+    "icon": "gItemIcon_Flute",
+    "palette": "gItemIconPalette_RedFlute"
+  },
+  "BLACK_FLUTE": {
+    "icon": "gItemIcon_Flute",
+    "palette": "gItemIconPalette_BlackFlute"
+  },
+  "WHITE_FLUTE": {
+    "icon": "gItemIcon_Flute",
+    "palette": "gItemIconPalette_WhiteFlute"
+  },
+  "BERRY_JUICE": {
+    "icon": "gItemIcon_BerryJuice",
+    "palette": "gItemIconPalette_BerryJuice"
+  },
+  "SACRED_ASH": {
+    "icon": "gItemIcon_SacredAsh",
+    "palette": "gItemIconPalette_SacredAsh"
+  },
+  "SHOAL_SALT": {
+    "icon": "gItemIcon_Powder",
+    "palette": "gItemIconPalette_ShoalSalt"
+  },
+  "SHOAL_SHELL": {
+    "icon": "gItemIcon_ShoalShell",
+    "palette": "gItemIconPalette_Shell"
+  },
+  "RED_SHARD": {
+    "icon": "gItemIcon_Shard",
+    "palette": "gItemIconPalette_RedShard"
+  },
+  "BLUE_SHARD": {
+    "icon": "gItemIcon_Shard",
+    "palette": "gItemIconPalette_BlueShard"
+  },
+  "YELLOW_SHARD": {
+    "icon": "gItemIcon_Shard",
+    "palette": "gItemIconPalette_YellowShard"
+  },
+  "GREEN_SHARD": {
+    "icon": "gItemIcon_Shard",
+    "palette": "gItemIconPalette_GreenShard"
+  },
+  "034": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "035": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "036": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "037": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "038": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "039": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "03A": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "03B": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "03C": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "03D": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "03E": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "HP_UP": {
+    "icon": "gItemIcon_HPUp",
+    "palette": "gItemIconPalette_HPUp"
+  },
+  "PROTEIN": {
+    "icon": "gItemIcon_Vitamin",
+    "palette": "gItemIconPalette_Protein"
+  },
+  "IRON": {
+    "icon": "gItemIcon_Vitamin",
+    "palette": "gItemIconPalette_Iron"
+  },
+  "CARBOS": {
+    "icon": "gItemIcon_Vitamin",
+    "palette": "gItemIconPalette_Carbos"
+  },
+  "CALCIUM": {
+    "icon": "gItemIcon_Vitamin",
+    "palette": "gItemIconPalette_Calcium"
+  },
+  "RARE_CANDY": {
+    "icon": "gItemIcon_RareCandy",
+    "palette": "gItemIconPalette_RareCandy"
+  },
+  "PP_UP": {
+    "icon": "gItemIcon_PPUp",
+    "palette": "gItemIconPalette_PPUp"
+  },
+  "ZINC": {
+    "icon": "gItemIcon_Vitamin",
+    "palette": "gItemIconPalette_Zinc"
+  },
+  "PP_MAX": {
+    "icon": "gItemIcon_PPMax",
+    "palette": "gItemIconPalette_PPMax"
+  },
+  "048": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "GUARD_SPEC": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_GuardSpec"
+  },
+  "DIRE_HIT": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_DireHit"
+  },
+  "X_ATTACK": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_XAttack"
+  },
+  "X_DEFEND": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_XDefend"
+  },
+  "X_SPEED": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_XSpeed"
+  },
+  "X_ACCURACY": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_XAccuracy"
+  },
+  "X_SPECIAL": {
+    "icon": "gItemIcon_BattleStatItem",
+    "palette": "gItemIconPalette_XSpecial"
+  },
+  "POKE_DOLL": {
+    "icon": "gItemIcon_PokeDoll",
+    "palette": "gItemIconPalette_PokeDoll"
+  },
+  "FLUFFY_TAIL": {
+    "icon": "gItemIcon_FluffyTail",
+    "palette": "gItemIconPalette_FluffyTail"
+  },
+  "052": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "SUPER_REPEL": {
+    "icon": "gItemIcon_Repel",
+    "palette": "gItemIconPalette_SuperRepel"
+  },
+  "MAX_REPEL": {
+    "icon": "gItemIcon_Repel",
+    "palette": "gItemIconPalette_MaxRepel"
+  },
+  "ESCAPE_ROPE": {
+    "icon": "gItemIcon_EscapeRope",
+    "palette": "gItemIconPalette_EscapeRope"
+  },
+  "REPEL": {
+    "icon": "gItemIcon_Repel",
+    "palette": "gItemIconPalette_Repel"
+  },
+  "057": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "058": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "059": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "05A": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "05B": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "05C": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "SUN_STONE": {
+    "icon": "gItemIcon_SunStone",
+    "palette": "gItemIconPalette_SunStone"
+  },
+  "MOON_STONE": {
+    "icon": "gItemIcon_MoonStone",
+    "palette": "gItemIconPalette_MoonStone"
+  },
+  "FIRE_STONE": {
+    "icon": "gItemIcon_FireStone",
+    "palette": "gItemIconPalette_FireStone"
+  },
+  "THUNDER_STONE": {
+    "icon": "gItemIcon_ThunderStone",
+    "palette": "gItemIconPalette_ThunderStone"
+  },
+  "WATER_STONE": {
+    "icon": "gItemIcon_WaterStone",
+    "palette": "gItemIconPalette_WaterStone"
+  },
+  "LEAF_STONE": {
+    "icon": "gItemIcon_LeafStone",
+    "palette": "gItemIconPalette_LeafStone"
+  },
+  "063": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "064": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "065": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "066": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "TINY_MUSHROOM": {
+    "icon": "gItemIcon_TinyMushroom",
+    "palette": "gItemIconPalette_Mushroom"
+  },
+  "BIG_MUSHROOM": {
+    "icon": "gItemIcon_BigMushroom",
+    "palette": "gItemIconPalette_Mushroom"
+  },
+  "069": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "PEARL": {
+    "icon": "gItemIcon_Pearl",
+    "palette": "gItemIconPalette_Pearl"
+  },
+  "BIG_PEARL": {
+    "icon": "gItemIcon_BigPearl",
+    "palette": "gItemIconPalette_Pearl"
+  },
+  "STARDUST": {
+    "icon": "gItemIcon_Stardust",
+    "palette": "gItemIconPalette_Star"
+  },
+  "STAR_PIECE": {
+    "icon": "gItemIcon_StarPiece",
+    "palette": "gItemIconPalette_Star"
+  },
+  "NUGGET": {
+    "icon": "gItemIcon_Nugget",
+    "palette": "gItemIconPalette_Nugget"
+  },
+  "HEART_SCALE": {
+    "icon": "gItemIcon_HeartScale",
+    "palette": "gItemIconPalette_HeartScale"
+  },
+  "070": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "071": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "072": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "073": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "074": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "075": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "076": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "077": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "078": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "ORANGE_MAIL": {
+    "icon": "gItemIcon_OrangeMail",
+    "palette": "gItemIconPalette_OrangeMail"
+  },
+  "HARBOR_MAIL": {
+    "icon": "gItemIcon_HarborMail",
+    "palette": "gItemIconPalette_HarborMail"
+  },
+  "GLITTER_MAIL": {
+    "icon": "gItemIcon_GlitterMail",
+    "palette": "gItemIconPalette_GlitterMail"
+  },
+  "MECH_MAIL": {
+    "icon": "gItemIcon_MechMail",
+    "palette": "gItemIconPalette_MechMail"
+  },
+  "WOOD_MAIL": {
+    "icon": "gItemIcon_WoodMail",
+    "palette": "gItemIconPalette_WoodMail"
+  },
+  "WAVE_MAIL": {
+    "icon": "gItemIcon_WaveMail",
+    "palette": "gItemIconPalette_WaveMail"
+  },
+  "BEAD_MAIL": {
+    "icon": "gItemIcon_BeadMail",
+    "palette": "gItemIconPalette_BeadMail"
+  },
+  "SHADOW_MAIL": {
+    "icon": "gItemIcon_ShadowMail",
+    "palette": "gItemIconPalette_ShadowMail"
+  },
+  "TROPIC_MAIL": {
+    "icon": "gItemIcon_TropicMail",
+    "palette": "gItemIconPalette_TropicMail"
+  },
+  "DREAM_MAIL": {
+    "icon": "gItemIcon_DreamMail",
+    "palette": "gItemIconPalette_DreamMail"
+  },
+  "FAB_MAIL": {
+    "icon": "gItemIcon_FabMail",
+    "palette": "gItemIconPalette_FabMail"
+  },
+  "RETRO_MAIL": {
+    "icon": "gItemIcon_RetroMail",
+    "palette": "gItemIconPalette_RetroMail"
+  },
+  "CHERI_BERRY": {
+    "icon": "gItemIcon_CheriBerry",
+    "palette": "gItemIconPalette_CheriBerry"
+  },
+  "CHESTO_BERRY": {
+    "icon": "gItemIcon_ChestoBerry",
+    "palette": "gItemIconPalette_ChestoBerry"
+  },
+  "PECHA_BERRY": {
+    "icon": "gItemIcon_PechaBerry",
+    "palette": "gItemIconPalette_PechaBerry"
+  },
+  "RAWST_BERRY": {
+    "icon": "gItemIcon_RawstBerry",
+    "palette": "gItemIconPalette_RawstBerry"
+  },
+  "ASPEAR_BERRY": {
+    "icon": "gItemIcon_AspearBerry",
+    "palette": "gItemIconPalette_AspearBerry"
+  },
+  "LEPPA_BERRY": {
+    "icon": "gItemIcon_LeppaBerry",
+    "palette": "gItemIconPalette_LeppaBerry"
+  },
+  "ORAN_BERRY": {
+    "icon": "gItemIcon_OranBerry",
+    "palette": "gItemIconPalette_OranBerry"
+  },
+  "PERSIM_BERRY": {
+    "icon": "gItemIcon_PersimBerry",
+    "palette": "gItemIconPalette_PersimBerry"
+  },
+  "LUM_BERRY": {
+    "icon": "gItemIcon_LumBerry",
+    "palette": "gItemIconPalette_LumBerry"
+  },
+  "SITRUS_BERRY": {
+    "icon": "gItemIcon_SitrusBerry",
+    "palette": "gItemIconPalette_SitrusBerry"
+  },
+  "FIGY_BERRY": {
+    "icon": "gItemIcon_FigyBerry",
+    "palette": "gItemIconPalette_FigyBerry"
+  },
+  "WIKI_BERRY": {
+    "icon": "gItemIcon_WikiBerry",
+    "palette": "gItemIconPalette_WikiBerry"
+  },
+  "MAGO_BERRY": {
+    "icon": "gItemIcon_MagoBerry",
+    "palette": "gItemIconPalette_MagoBerry"
+  },
+  "AGUAV_BERRY": {
+    "icon": "gItemIcon_AguavBerry",
+    "palette": "gItemIconPalette_AguavBerry"
+  },
+  "IAPAPA_BERRY": {
+    "icon": "gItemIcon_IapapaBerry",
+    "palette": "gItemIconPalette_IapapaBerry"
+  },
+  "RAZZ_BERRY": {
+    "icon": "gItemIcon_RazzBerry",
+    "palette": "gItemIconPalette_RazzBerry"
+  },
+  "BLUK_BERRY": {
+    "icon": "gItemIcon_BlukBerry",
+    "palette": "gItemIconPalette_BlukBerry"
+  },
+  "NANAB_BERRY": {
+    "icon": "gItemIcon_NanabBerry",
+    "palette": "gItemIconPalette_NanabBerry"
+  },
+  "WEPEAR_BERRY": {
+    "icon": "gItemIcon_WepearBerry",
+    "palette": "gItemIconPalette_WepearBerry"
+  },
+  "PINAP_BERRY": {
+    "icon": "gItemIcon_PinapBerry",
+    "palette": "gItemIconPalette_PinapBerry"
+  },
+  "POMEG_BERRY": {
+    "icon": "gItemIcon_PomegBerry",
+    "palette": "gItemIconPalette_PomegBerry"
+  },
+  "KELPSY_BERRY": {
+    "icon": "gItemIcon_KelpsyBerry",
+    "palette": "gItemIconPalette_KelpsyBerry"
+  },
+  "QUALOT_BERRY": {
+    "icon": "gItemIcon_QualotBerry",
+    "palette": "gItemIconPalette_QualotBerry"
+  },
+  "HONDEW_BERRY": {
+    "icon": "gItemIcon_HondewBerry",
+    "palette": "gItemIconPalette_HondewBerry"
+  },
+  "GREPA_BERRY": {
+    "icon": "gItemIcon_GrepaBerry",
+    "palette": "gItemIconPalette_GrepaBerry"
+  },
+  "TAMATO_BERRY": {
+    "icon": "gItemIcon_TamatoBerry",
+    "palette": "gItemIconPalette_TamatoBerry"
+  },
+  "CORNN_BERRY": {
+    "icon": "gItemIcon_CornnBerry",
+    "palette": "gItemIconPalette_CornnBerry"
+  },
+  "MAGOST_BERRY": {
+    "icon": "gItemIcon_MagostBerry",
+    "palette": "gItemIconPalette_MagostBerry"
+  },
+  "RABUTA_BERRY": {
+    "icon": "gItemIcon_RabutaBerry",
+    "palette": "gItemIconPalette_RabutaBerry"
+  },
+  "NOMEL_BERRY": {
+    "icon": "gItemIcon_NomelBerry",
+    "palette": "gItemIconPalette_NomelBerry"
+  },
+  "SPELON_BERRY": {
+    "icon": "gItemIcon_SpelonBerry",
+    "palette": "gItemIconPalette_SpelonBerry"
+  },
+  "PAMTRE_BERRY": {
+    "icon": "gItemIcon_PamtreBerry",
+    "palette": "gItemIconPalette_PamtreBerry"
+  },
+  "WATMEL_BERRY": {
+    "icon": "gItemIcon_WatmelBerry",
+    "palette": "gItemIconPalette_WatmelBerry"
+  },
+  "DURIN_BERRY": {
+    "icon": "gItemIcon_DurinBerry",
+    "palette": "gItemIconPalette_DurinBerry"
+  },
+  "BELUE_BERRY": {
+    "icon": "gItemIcon_BelueBerry",
+    "palette": "gItemIconPalette_BelueBerry"
+  },
+  "LIECHI_BERRY": {
+    "icon": "gItemIcon_LiechiBerry",
+    "palette": "gItemIconPalette_LiechiBerry"
+  },
+  "GANLON_BERRY": {
+    "icon": "gItemIcon_GanlonBerry",
+    "palette": "gItemIconPalette_GanlonBerry"
+  },
+  "SALAC_BERRY": {
+    "icon": "gItemIcon_SalacBerry",
+    "palette": "gItemIconPalette_SalacBerry"
+  },
+  "PETAYA_BERRY": {
+    "icon": "gItemIcon_PetayaBerry",
+    "palette": "gItemIconPalette_PetayaBerry"
+  },
+  "APICOT_BERRY": {
+    "icon": "gItemIcon_ApicotBerry",
+    "palette": "gItemIconPalette_ApicotBerry"
+  },
+  "LANSAT_BERRY": {
+    "icon": "gItemIcon_LansatBerry",
+    "palette": "gItemIconPalette_LansatBerry"
+  },
+  "STARF_BERRY": {
+    "icon": "gItemIcon_StarfBerry",
+    "palette": "gItemIconPalette_StarfBerry"
+  },
+  "ENIGMA_BERRY": {
+    "icon": "gItemIcon_EnigmaBerry",
+    "palette": "gItemIconPalette_EnigmaBerry"
+  },
+  "UNUSED_BERRY_1": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "UNUSED_BERRY_2": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "UNUSED_BERRY_3": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "BRIGHT_POWDER": {
+    "icon": "gItemIcon_BrightPowder",
+    "palette": "gItemIconPalette_BrightPowder"
+  },
+  "WHITE_HERB": {
+    "icon": "gItemIcon_InBattleHerb",
+    "palette": "gItemIconPalette_WhiteHerb"
+  },
+  "MACHO_BRACE": {
+    "icon": "gItemIcon_MachoBrace",
+    "palette": "gItemIconPalette_MachoBrace"
+  },
+  "EXP_SHARE": {
+    "icon": "gItemIcon_ExpShare",
+    "palette": "gItemIconPalette_ExpShare"
+  },
+  "QUICK_CLAW": {
+    "icon": "gItemIcon_QuickClaw",
+    "palette": "gItemIconPalette_QuickClaw"
+  },
+  "SOOTHE_BELL": {
+    "icon": "gItemIcon_SootheBell",
+    "palette": "gItemIconPalette_SootheBell"
+  },
+  "MENTAL_HERB": {
+    "icon": "gItemIcon_InBattleHerb",
+    "palette": "gItemIconPalette_MentalHerb"
+  },
+  "CHOICE_BAND": {
+    "icon": "gItemIcon_ChoiceBand",
+    "palette": "gItemIconPalette_ChoiceBand"
+  },
+  "KINGS_ROCK": {
+    "icon": "gItemIcon_KingsRock",
+    "palette": "gItemIconPalette_KingsRock"
+  },
+  "SILVER_POWDER": {
+    "icon": "gItemIcon_SilverPowder",
+    "palette": "gItemIconPalette_SilverPowder"
+  },
+  "AMULET_COIN": {
+    "icon": "gItemIcon_AmuletCoin",
+    "palette": "gItemIconPalette_AmuletCoin"
+  },
+  "CLEANSE_TAG": {
+    "icon": "gItemIcon_CleanseTag",
+    "palette": "gItemIconPalette_CleanseTag"
+  },
+  "SOUL_DEW": {
+    "icon": "gItemIcon_SoulDew",
+    "palette": "gItemIconPalette_SoulDew"
+  },
+  "DEEP_SEA_TOOTH": {
+    "icon": "gItemIcon_DeepSeaTooth",
+    "palette": "gItemIconPalette_DeepSeaTooth"
+  },
+  "DEEP_SEA_SCALE": {
+    "icon": "gItemIcon_DeepSeaScale",
+    "palette": "gItemIconPalette_DeepSeaScale"
+  },
+  "SMOKE_BALL": {
+    "icon": "gItemIcon_SmokeBall",
+    "palette": "gItemIconPalette_SmokeBall"
+  },
+  "EVERSTONE": {
+    "icon": "gItemIcon_Everstone",
+    "palette": "gItemIconPalette_Everstone"
+  },
+  "FOCUS_BAND": {
+    "icon": "gItemIcon_FocusBand",
+    "palette": "gItemIconPalette_FocusBand"
+  },
+  "LUCKY_EGG": {
+    "icon": "gItemIcon_LuckyEgg",
+    "palette": "gItemIconPalette_LuckyEgg"
+  },
+  "SCOPE_LENS": {
+    "icon": "gItemIcon_ScopeLens",
+    "palette": "gItemIconPalette_ScopeLens"
+  },
+  "METAL_COAT": {
+    "icon": "gItemIcon_MetalCoat",
+    "palette": "gItemIconPalette_MetalCoat"
+  },
+  "LEFTOVERS": {
+    "icon": "gItemIcon_Leftovers",
+    "palette": "gItemIconPalette_Leftovers"
+  },
+  "DRAGON_SCALE": {
+    "icon": "gItemIcon_DragonScale",
+    "palette": "gItemIconPalette_DragonScale"
+  },
+  "LIGHT_BALL": {
+    "icon": "gItemIcon_LightBall",
+    "palette": "gItemIconPalette_LightBall"
+  },
+  "SOFT_SAND": {
+    "icon": "gItemIcon_SoftSand",
+    "palette": "gItemIconPalette_SoftSand"
+  },
+  "HARD_STONE": {
+    "icon": "gItemIcon_HardStone",
+    "palette": "gItemIconPalette_HardStone"
+  },
+  "MIRACLE_SEED": {
+    "icon": "gItemIcon_MiracleSeed",
+    "palette": "gItemIconPalette_MiracleSeed"
+  },
+  "BLACK_GLASSES": {
+    "icon": "gItemIcon_BlackGlasses",
+    "palette": "gItemIconPalette_BlackTypeEnhancingItem"
+  },
+  "BLACK_BELT": {
+    "icon": "gItemIcon_BlackBelt",
+    "palette": "gItemIconPalette_BlackTypeEnhancingItem"
+  },
+  "MAGNET": {
+    "icon": "gItemIcon_Magnet",
+    "palette": "gItemIconPalette_Magnet"
+  },
+  "MYSTIC_WATER": {
+    "icon": "gItemIcon_MysticWater",
+    "palette": "gItemIconPalette_MysticWater"
+  },
+  "SHARP_BEAK": {
+    "icon": "gItemIcon_SharpBeak",
+    "palette": "gItemIconPalette_SharpBeak"
+  },
+  "POISON_BARB": {
+    "icon": "gItemIcon_PoisonBarb",
+    "palette": "gItemIconPalette_PoisonBarb"
+  },
+  "NEVER_MELT_ICE": {
+    "icon": "gItemIcon_NeverMeltIce",
+    "palette": "gItemIconPalette_NeverMeltIce"
+  },
+  "SPELL_TAG": {
+    "icon": "gItemIcon_SpellTag",
+    "palette": "gItemIconPalette_SpellTag"
+  },
+  "TWISTED_SPOON": {
+    "icon": "gItemIcon_TwistedSpoon",
+    "palette": "gItemIconPalette_TwistedSpoon"
+  },
+  "CHARCOAL": {
+    "icon": "gItemIcon_Charcoal",
+    "palette": "gItemIconPalette_Charcoal"
+  },
+  "DRAGON_FANG": {
+    "icon": "gItemIcon_DragonFang",
+    "palette": "gItemIconPalette_DragonFang"
+  },
+  "SILK_SCARF": {
+    "icon": "gItemIcon_SilkScarf",
+    "palette": "gItemIconPalette_SilkScarf"
+  },
+  "UP_GRADE": {
+    "icon": "gItemIcon_UpGrade",
+    "palette": "gItemIconPalette_UpGrade"
+  },
+  "SHELL_BELL": {
+    "icon": "gItemIcon_ShellBell",
+    "palette": "gItemIconPalette_Shell"
+  },
+  "SEA_INCENSE": {
+    "icon": "gItemIcon_SeaIncense",
+    "palette": "gItemIconPalette_SeaIncense"
+  },
+  "LAX_INCENSE": {
+    "icon": "gItemIcon_LaxIncense",
+    "palette": "gItemIconPalette_LaxIncense"
+  },
+  "LUCKY_PUNCH": {
+    "icon": "gItemIcon_LuckyPunch",
+    "palette": "gItemIconPalette_LuckyPunch"
+  },
+  "METAL_POWDER": {
+    "icon": "gItemIcon_MetalPowder",
+    "palette": "gItemIconPalette_MetalPowder"
+  },
+  "THICK_CLUB": {
+    "icon": "gItemIcon_ThickClub",
+    "palette": "gItemIconPalette_ThickClub"
+  },
+  "STICK": {
+    "icon": "gItemIcon_Stick",
+    "palette": "gItemIconPalette_Stick"
+  },
+  "0E2": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E3": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E4": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E5": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E6": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E7": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E8": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0E9": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0EA": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0EB": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0EC": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0ED": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0EE": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0EF": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F0": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F1": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F2": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F3": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F4": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F5": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F6": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F7": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F8": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0F9": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0FA": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0FB": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0FC": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "0FD": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "RED_SCARF": {
+    "icon": "gItemIcon_Scarf",
+    "palette": "gItemIconPalette_RedScarf"
+  },
+  "BLUE_SCARF": {
+    "icon": "gItemIcon_Scarf",
+    "palette": "gItemIconPalette_BlueScarf"
+  },
+  "PINK_SCARF": {
+    "icon": "gItemIcon_Scarf",
+    "palette": "gItemIconPalette_PinkScarf"
+  },
+  "GREEN_SCARF": {
+    "icon": "gItemIcon_Scarf",
+    "palette": "gItemIconPalette_GreenScarf"
+  },
+  "YELLOW_SCARF": {
+    "icon": "gItemIcon_Scarf",
+    "palette": "gItemIconPalette_YellowScarf"
+  },
+  "MACH_BIKE": {
+    "icon": "gItemIcon_MachBike",
+    "palette": "gItemIconPalette_MachBike"
+  },
+  "COIN_CASE": {
+    "icon": "gItemIcon_CoinCase",
+    "palette": "gItemIconPalette_CoinCase"
+  },
+  "ITEMFINDER": {
+    "icon": "gItemIcon_Itemfinder",
+    "palette": "gItemIconPalette_Itemfinder"
+  },
+  "OLD_ROD": {
+    "icon": "gItemIcon_OldRod",
+    "palette": "gItemIconPalette_OldRod"
+  },
+  "GOOD_ROD": {
+    "icon": "gItemIcon_GoodRod",
+    "palette": "gItemIconPalette_GoodRod"
+  },
+  "SUPER_ROD": {
+    "icon": "gItemIcon_SuperRod",
+    "palette": "gItemIconPalette_SuperRod"
+  },
+  "SS_TICKET": {
+    "icon": "gItemIcon_SSTicket",
+    "palette": "gItemIconPalette_SSTicket"
+  },
+  "CONTEST_PASS": {
+    "icon": "gItemIcon_ContestPass",
+    "palette": "gItemIconPalette_ContestPass"
+  },
+  "10B": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "WAILMER_PAIL": {
+    "icon": "gItemIcon_WailmerPail",
+    "palette": "gItemIconPalette_WailmerPail"
+  },
+  "DEVON_GOODS": {
+    "icon": "gItemIcon_DevonGoods",
+    "palette": "gItemIconPalette_DevonGoods"
+  },
+  "SOOT_SACK": {
+    "icon": "gItemIcon_SootSack",
+    "palette": "gItemIconPalette_SootSack"
+  },
+  "BASEMENT_KEY": {
+    "icon": "gItemIcon_BasementKey",
+    "palette": "gItemIconPalette_OldKey"
+  },
+  "ACRO_BIKE": {
+    "icon": "gItemIcon_AcroBike",
+    "palette": "gItemIconPalette_AcroBike"
+  },
+  "POKEBLOCK_CASE": {
+    "icon": "gItemIcon_PokeblockCase",
+    "palette": "gItemIconPalette_PokeblockCase"
+  },
+  "LETTER": {
+    "icon": "gItemIcon_Letter",
+    "palette": "gItemIconPalette_LavaCookieAndLetter"
+  },
+  "EON_TICKET": {
+    "icon": "gItemIcon_EonTicket",
+    "palette": "gItemIconPalette_EonTicket"
+  },
+  "RED_ORB": {
+    "icon": "gItemIcon_Orb",
+    "palette": "gItemIconPalette_RedOrb"
+  },
+  "BLUE_ORB": {
+    "icon": "gItemIcon_Orb",
+    "palette": "gItemIconPalette_BlueOrb"
+  },
+  "SCANNER": {
+    "icon": "gItemIcon_Scanner",
+    "palette": "gItemIconPalette_Scanner"
+  },
+  "GO_GOGGLES": {
+    "icon": "gItemIcon_GoGoggles",
+    "palette": "gItemIconPalette_GoGoggles"
+  },
+  "METEORITE": {
+    "icon": "gItemIcon_Meteorite",
+    "palette": "gItemIconPalette_Meteorite"
+  },
+  "ROOM_1_KEY": {
+    "icon": "gItemIcon_Room1Key",
+    "palette": "gItemIconPalette_Key"
+  },
+  "ROOM_2_KEY": {
+    "icon": "gItemIcon_Room2Key",
+    "palette": "gItemIconPalette_Key"
+  },
+  "ROOM_4_KEY": {
+    "icon": "gItemIcon_Room4Key",
+    "palette": "gItemIconPalette_Key"
+  },
+  "ROOM_6_KEY": {
+    "icon": "gItemIcon_Room6Key",
+    "palette": "gItemIconPalette_Key"
+  },
+  "STORAGE_KEY": {
+    "icon": "gItemIcon_StorageKey",
+    "palette": "gItemIconPalette_OldKey"
+  },
+  "ROOT_FOSSIL": {
+    "icon": "gItemIcon_RootFossil",
+    "palette": "gItemIconPalette_HoennFossil"
+  },
+  "CLAW_FOSSIL": {
+    "icon": "gItemIcon_ClawFossil",
+    "palette": "gItemIconPalette_HoennFossil"
+  },
+  "DEVON_SCOPE": {
+    "icon": "gItemIcon_DevonScope",
+    "palette": "gItemIconPalette_DevonScope"
+  },
+  "TM01": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FightingTMHM"
+  },
+  "TM02": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_DragonTMHM"
+  },
+  "TM03": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_WaterTMHM"
+  },
+  "TM04": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM05": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM06": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PoisonTMHM"
+  },
+  "TM07": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_IceTMHM"
+  },
+  "TM08": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FightingTMHM"
+  },
+  "TM09": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GrassTMHM"
+  },
+  "TM10": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM11": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FireTMHM"
+  },
+  "TM12": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_DarkTMHM"
+  },
+  "TM13": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_IceTMHM"
+  },
+  "TM14": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_IceTMHM"
+  },
+  "TM15": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM16": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM17": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM18": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_WaterTMHM"
+  },
+  "TM19": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GrassTMHM"
+  },
+  "TM20": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM21": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM22": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GrassTMHM"
+  },
+  "TM23": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_SteelTMHM"
+  },
+  "TM24": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_ElectricTMHM"
+  },
+  "TM25": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_ElectricTMHM"
+  },
+  "TM26": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GroundTMHM"
+  },
+  "TM27": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM28": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GroundTMHM"
+  },
+  "TM29": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM30": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_GhostTMHM"
+  },
+  "TM31": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FightingTMHM"
+  },
+  "TM32": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM33": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM34": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_ElectricTMHM"
+  },
+  "TM35": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FireTMHM"
+  },
+  "TM36": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PoisonTMHM"
+  },
+  "TM37": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_RockTMHM"
+  },
+  "TM38": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FireTMHM"
+  },
+  "TM39": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_RockTMHM"
+  },
+  "TM40": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FlyingTMHM"
+  },
+  "TM41": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_DarkTMHM"
+  },
+  "TM42": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM43": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM44": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM45": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "TM46": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_DarkTMHM"
+  },
+  "TM47": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_SteelTMHM"
+  },
+  "TM48": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_PsychicTMHM"
+  },
+  "TM49": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_DarkTMHM"
+  },
+  "TM50": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FireTMHM"
+  },
+  "HM01": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "HM02": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FlyingTMHM"
+  },
+  "HM03": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_WaterTMHM"
+  },
+  "HM04": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "HM05": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_NormalTMHM"
+  },
+  "HM06": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_FightingTMHM"
+  },
+  "HM07": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_WaterTMHM"
+  },
+  "HM08": {
+    "icon": "gItemIcon_TMHM",
+    "palette": "gItemIconPalette_WaterTMHM"
+  },
+  "15B": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "15C": {
+    "icon": "gItemIcon_QuestionMark",
+    "palette": "gItemIconPalette_QuestionMark"
+  },
+  "OAKS_PARCEL": {
+    "icon": "gItemIcon_OaksParcel",
+    "palette": "gItemIconPalette_OaksParcel"
+  },
+  "POKE_FLUTE": {
+    "icon": "gItemIcon_PokeFlute",
+    "palette": "gItemIconPalette_PokeFlute"
+  },
+  "SECRET_KEY": {
+    "icon": "gItemIcon_SecretKey",
+    "palette": "gItemIconPalette_SecretKey"
+  },
+  "BIKE_VOUCHER": {
+    "icon": "gItemIcon_BikeVoucher",
+    "palette": "gItemIconPalette_BikeVoucher"
+  },
+  "GOLD_TEETH": {
+    "icon": "gItemIcon_GoldTeeth",
+    "palette": "gItemIconPalette_GoldTeeth"
+  },
+  "OLD_AMBER": {
+    "icon": "gItemIcon_OldAmber",
+    "palette": "gItemIconPalette_OldAmber"
+  },
+  "CARD_KEY": {
+    "icon": "gItemIcon_CardKey",
+    "palette": "gItemIconPalette_CardKey"
+  },
+  "LIFT_KEY": {
+    "icon": "gItemIcon_LiftKey",
+    "palette": "gItemIconPalette_Key"
+  },
+  "HELIX_FOSSIL": {
+    "icon": "gItemIcon_HelixFossil",
+    "palette": "gItemIconPalette_KantoFossil"
+  },
+  "DOME_FOSSIL": {
+    "icon": "gItemIcon_DomeFossil",
+    "palette": "gItemIconPalette_KantoFossil"
+  },
+  "SILPH_SCOPE": {
+    "icon": "gItemIcon_SilphScope",
+    "palette": "gItemIconPalette_SilphScope"
+  },
+  "BICYCLE": {
+    "icon": "gItemIcon_Bicycle",
+    "palette": "gItemIconPalette_Bicycle"
+  },
+  "TOWN_MAP": {
+    "icon": "gItemIcon_TownMap",
+    "palette": "gItemIconPalette_TownMap"
+  },
+  "VS_SEEKER": {
+    "icon": "gItemIcon_VSSeeker",
+    "palette": "gItemIconPalette_VSSeeker"
+  },
+  "FAME_CHECKER": {
+    "icon": "gItemIcon_FameChecker",
+    "palette": "gItemIconPalette_FameChecker"
+  },
+  "TM_CASE": {
+    "icon": "gItemIcon_TMCase",
+    "palette": "gItemIconPalette_TMCase"
+  },
+  "BERRY_POUCH": {
+    "icon": "gItemIcon_BerryPouch",
+    "palette": "gItemIconPalette_BerryPouch"
+  },
+  "TEACHY_TV": {
+    "icon": "gItemIcon_TeachyTV",
+    "palette": "gItemIconPalette_TeachyTV"
+  },
+  "TRI_PASS": {
+    "icon": "gItemIcon_TriPass",
+    "palette": "gItemIconPalette_TriPass"
+  },
+  "RAINBOW_PASS": {
+    "icon": "gItemIcon_RainbowPass",
+    "palette": "gItemIconPalette_RainbowPass"
+  },
+  "TEA": {
+    "icon": "gItemIcon_Tea",
+    "palette": "gItemIconPalette_Tea"
+  },
+  "MYSTIC_TICKET": {
+    "icon": "gItemIcon_MysticTicket",
+    "palette": "gItemIconPalette_MysticTicket"
+  },
+  "AURORA_TICKET": {
+    "icon": "gItemIcon_AuroraTicket",
+    "palette": "gItemIconPalette_AuroraTicket"
+  },
+  "POWDER_JAR": {
+    "icon": "gItemIcon_PowderJar",
+    "palette": "gItemIconPalette_PowderJar"
+  },
+  "RUBY": {
+    "icon": "gItemIcon_Gem",
+    "palette": "gItemIconPalette_Ruby"
+  },
+  "SAPPHIRE": {
+    "icon": "gItemIcon_Gem",
+    "palette": "gItemIconPalette_Sapphire"
+  },
+  "COUNT": {
+    "icon": "gItemIcon_ReturnToFieldArrow",
+    "palette": "gItemIconPalette_ReturnToFieldArrow"
+  }
+}

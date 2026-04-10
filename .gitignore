@@ -8,3 +8,5 @@ node_modules
 src/graphics/out
 pokemon_icon.c
 silphscope-1.0.0.tgz
+item_graphics/
+src/icon-data-parser.js
