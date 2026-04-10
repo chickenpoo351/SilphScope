@@ -57,8 +57,8 @@ export async function renderMon(monName, mons, assets, rom, options = {}) {
     const height = 64;
 
     const image = render4bppImage({
-        tileData: monImageData, 
-        paletteData: rawMonPalData, 
+        tileData: monImageData.data, 
+        paletteData: rawMonPalData.data, 
         width, 
         height, 
     });
