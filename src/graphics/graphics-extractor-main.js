@@ -127,7 +127,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputDir: outputIconDir,
     });
 
-    await renderTrainer(rom, {
+    await renderAllTrainers(rom, {
         outputDir: outputTrainerDir,
     });
 }
