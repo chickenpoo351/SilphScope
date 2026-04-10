@@ -1,0 +1,594 @@
+{
+  "AQUA_LEADER_ARCHIE": {
+    "Pic": "gTrainerFrontPic_AquaLeaderArchie",
+    "Palette": "gTrainerPalette_AquaLeaderArchie"
+  },
+  "AQUA_GRUNT_M": {
+    "Pic": "gTrainerFrontPic_AquaGruntM",
+    "Palette": "gTrainerPalette_AquaGruntM"
+  },
+  "AQUA_GRUNT_F": {
+    "Pic": "gTrainerFrontPic_AquaGruntF",
+    "Palette": "gTrainerPalette_AquaGruntF"
+  },
+  "RS_AROMA_LADY": {
+    "Pic": "gTrainerFrontPic_RSAromaLady",
+    "Palette": "gTrainerPalette_RSAromaLady"
+  },
+  "RS_RUIN_MANIAC": {
+    "Pic": "gTrainerFrontPic_RSRuinManiac",
+    "Palette": "gTrainerPalette_RSRuinManiac"
+  },
+  "INTERVIEWER": {
+    "Pic": "gTrainerFrontPic_Interviewer",
+    "Palette": "gTrainerPalette_Interviewer"
+  },
+  "RS_TUBER_F": {
+    "Pic": "gTrainerFrontPic_RSTuberF",
+    "Palette": "gTrainerPalette_RSTuberF"
+  },
+  "RS_TUBER_M": {
+    "Pic": "gTrainerFrontPic_TuberM",
+    "Palette": "gTrainerPalette_TuberM"
+  },
+  "RS_COOLTRAINER_M": {
+    "Pic": "gTrainerFrontPic_RSCooltrainerM",
+    "Palette": "gTrainerPalette_RSCooltrainerM"
+  },
+  "RS_COOLTRAINER_F": {
+    "Pic": "gTrainerFrontPic_RSCooltrainerF",
+    "Palette": "gTrainerPalette_RSCooltrainerF"
+  },
+  "HEX_MANIAC": {
+    "Pic": "gTrainerFrontPic_HexManiac",
+    "Palette": "gTrainerPalette_HexManiac"
+  },
+  "RS_LADY": {
+    "Pic": "gTrainerFrontPic_RSLady",
+    "Palette": "gTrainerPalette_RSLady"
+  },
+  "RS_BEAUTY": {
+    "Pic": "gTrainerFrontPic_RSBeauty",
+    "Palette": "gTrainerPalette_RSBeauty"
+  },
+  "RICH_BOY": {
+    "Pic": "gTrainerFrontPic_RichBoy",
+    "Palette": "gTrainerPalette_RichBoy"
+  },
+  "RS_POKEMANIAC": {
+    "Pic": "gTrainerFrontPic_RSPokeManiac",
+    "Palette": "gTrainerPalette_RSPokeManiac"
+  },
+  "RS_SWIMMER_M": {
+    "Pic": "gTrainerFrontPic_RSSwimmerM",
+    "Palette": "gTrainerPalette_RSSwimmerM"
+  },
+  "RS_BLACK_BELT": {
+    "Pic": "gTrainerFrontPic_RSBlackBelt",
+    "Palette": "gTrainerPalette_RSBlackBelt"
+  },
+  "GUITARIST": {
+    "Pic": "gTrainerFrontPic_Guitarist",
+    "Palette": "gTrainerPalette_Guitarist"
+  },
+  "KINDLER": {
+    "Pic": "gTrainerFrontPic_Kindler",
+    "Palette": "gTrainerPalette_Kindler"
+  },
+  "RS_CAMPER": {
+    "Pic": "gTrainerFrontPic_RSCamper",
+    "Palette": "gTrainerPalette_RSCamper"
+  },
+  "BUG_MANIAC": {
+    "Pic": "gTrainerFrontPic_BugManiac",
+    "Palette": "gTrainerPalette_BugManiac"
+  },
+  "RS_PSYCHIC_M": {
+    "Pic": "gTrainerFrontPic_RSPsychicM",
+    "Palette": "gTrainerPalette_RSPsychicM"
+  },
+  "RS_PSYCHIC_F": {
+    "Pic": "gTrainerFrontPic_RSPsychicF",
+    "Palette": "gTrainerPalette_RSPsychicF"
+  },
+  "RS_GENTLEMAN": {
+    "Pic": "gTrainerFrontPic_RSGentleman",
+    "Palette": "gTrainerPalette_RSGentleman"
+  },
+  "ELITE_FOUR_SIDNEY": {
+    "Pic": "gTrainerFrontPic_EliteFourSidney",
+    "Palette": "gTrainerPalette_EliteFourSidney"
+  },
+  "ELITE_FOUR_PHOEBE": {
+    "Pic": "gTrainerFrontPic_EliteFourPhoebe",
+    "Palette": "gTrainerPalette_EliteFourPhoebe"
+  },
+  "LEADER_ROXANNE": {
+    "Pic": "gTrainerFrontPic_LeaderRoxanne",
+    "Palette": "gTrainerPalette_LeaderRoxanne"
+  },
+  "LEADER_BRAWLY": {
+    "Pic": "gTrainerFrontPic_LeaderBrawly",
+    "Palette": "gTrainerPalette_LeaderBrawly"
+  },
+  "LEADER_TATE_AND_LIZA": {
+    "Pic": "gTrainerFrontPic_LeaderTateAndLiza",
+    "Palette": "gTrainerPalette_LeaderTateAndLiza"
+  },
+  "SCHOOL_KID_M": {
+    "Pic": "gTrainerFrontPic_SchoolKidM",
+    "Palette": "gTrainerPalette_SchoolKidM"
+  },
+  "SCHOOL_KID_F": {
+    "Pic": "gTrainerFrontPic_SchoolKidF",
+    "Palette": "gTrainerPalette_SchoolKidF"
+  },
+  "SR_AND_JR": {
+    "Pic": "gTrainerFrontPic_SrAndJr",
+    "Palette": "gTrainerPalette_SrAndJr"
+  },
+  "POKEFAN_M": {
+    "Pic": "gTrainerFrontPic_PokefanM",
+    "Palette": "gTrainerPalette_PokefanM"
+  },
+  "POKEFAN_F": {
+    "Pic": "gTrainerFrontPic_PokefanF",
+    "Palette": "gTrainerPalette_PokefanF"
+  },
+  "EXPERT_M": {
+    "Pic": "gTrainerFrontPic_ExpertM",
+    "Palette": "gTrainerPalette_ExpertM"
+  },
+  "EXPERT_F": {
+    "Pic": "gTrainerFrontPic_ExpertF",
+    "Palette": "gTrainerPalette_ExpertF"
+  },
+  "RS_YOUNGSTER": {
+    "Pic": "gTrainerFrontPic_RSYoungster",
+    "Palette": "gTrainerPalette_RSYoungster"
+  },
+  "CHAMPION_STEVEN": {
+    "Pic": "gTrainerFrontPic_ChampionSteven",
+    "Palette": "gTrainerPalette_ChampionSteven"
+  },
+  "RS_FISHERMAN": {
+    "Pic": "gTrainerFrontPic_RSFisherman",
+    "Palette": "gTrainerPalette_RSFisherman"
+  },
+  "CYCLING_TRIATHLETE_M": {
+    "Pic": "gTrainerFrontPic_CyclingTriathleteM",
+    "Palette": "gTrainerPalette_CyclingTriathleteM"
+  },
+  "CYCLING_TRIATHLETE_F": {
+    "Pic": "gTrainerFrontPic_CyclingTriathleteF",
+    "Palette": "gTrainerPalette_CyclingTriathleteF"
+  },
+  "RUNNING_TRIATHLETE_M": {
+    "Pic": "gTrainerFrontPic_RunningTriathleteM",
+    "Palette": "gTrainerPalette_RunningTriathleteM"
+  },
+  "RUNNING_TRIATHLETE_F": {
+    "Pic": "gTrainerFrontPic_RunningTriathleteF",
+    "Palette": "gTrainerPalette_RunningTriathleteF"
+  },
+  "SWIMMING_TRIATHLETE_M": {
+    "Pic": "gTrainerFrontPic_SwimmingTriathleteM",
+    "Palette": "gTrainerPalette_SwimmingTriathleteM"
+  },
+  "SWIMMING_TRIATHLETE_F": {
+    "Pic": "gTrainerFrontPic_SwimmingTriathleteF",
+    "Palette": "gTrainerPalette_SwimmingTriathleteF"
+  },
+  "DRAGON_TAMER": {
+    "Pic": "gTrainerFrontPic_DragonTamer",
+    "Palette": "gTrainerPalette_DragonTamer"
+  },
+  "RS_BIRD_KEEPER": {
+    "Pic": "gTrainerFrontPic_RSBirdKeeper",
+    "Palette": "gTrainerPalette_RSBirdKeeper"
+  },
+  "NINJA_BOY": {
+    "Pic": "gTrainerFrontPic_NinjaBoy",
+    "Palette": "gTrainerPalette_NinjaBoy"
+  },
+  "BATTLE_GIRL": {
+    "Pic": "gTrainerFrontPic_BattleGirl",
+    "Palette": "gTrainerPalette_BattleGirl"
+  },
+  "PARASOL_LADY": {
+    "Pic": "gTrainerFrontPic_ParasolLady",
+    "Palette": "gTrainerPalette_ParasolLady"
+  },
+  "RS_SWIMMER_F": {
+    "Pic": "gTrainerFrontPic_RSSwimmerF",
+    "Palette": "gTrainerPalette_RSSwimmerF"
+  },
+  "RS_PICNICKER": {
+    "Pic": "gTrainerFrontPic_RSPicnicker",
+    "Palette": "gTrainerPalette_RSPicnicker"
+  },
+  "RS_TWINS": {
+    "Pic": "gTrainerFrontPic_RSTwins",
+    "Palette": "gTrainerPalette_RSTwins"
+  },
+  "RS_SAILOR": {
+    "Pic": "gTrainerFrontPic_RSSailor",
+    "Palette": "gTrainerPalette_RSSailor"
+  },
+  "COLLECTOR": {
+    "Pic": "gTrainerFrontPic_Collector",
+    "Palette": "gTrainerPalette_Collector"
+  },
+  "WALLY": {
+    "Pic": "gTrainerFrontPic_Wally",
+    "Palette": "gTrainerPalette_Wally"
+  },
+  "RS_BRENDAN_1": {
+    "Pic": "gTrainerFrontPic_RSBrendan1",
+    "Palette": "gTrainerPalette_RSBrendan1"
+  },
+  "RS_MAY_1": {
+    "Pic": "gTrainerFrontPic_RSMay1",
+    "Palette": "gTrainerPalette_RSMay1"
+  },
+  "RS_POKEMON_BREEDER_M": {
+    "Pic": "gTrainerFrontPic_RSPokemonBreederM",
+    "Palette": "gTrainerPalette_RSPokemonBreederM"
+  },
+  "RS_POKEMON_BREEDER_F": {
+    "Pic": "gTrainerFrontPic_RSPokemonBreederF",
+    "Palette": "gTrainerPalette_RSPokemonBreederF"
+  },
+  "RS_POKEMON_RANGER_M": {
+    "Pic": "gTrainerFrontPic_RSPokemonRangerM",
+    "Palette": "gTrainerPalette_RSPokemonRangerM"
+  },
+  "RS_POKEMON_RANGER_F": {
+    "Pic": "gTrainerFrontPic_RSPokemonRangerF",
+    "Palette": "gTrainerPalette_RSPokemonRangerF"
+  },
+  "MAGMA_LEADER_MAXIE": {
+    "Pic": "gTrainerFrontPic_MagmaLeaderMaxie",
+    "Palette": "gTrainerPalette_MagmaLeaderMaxie"
+  },
+  "MAGMA_GRUNT_M": {
+    "Pic": "gTrainerFrontPic_MagmaGruntM",
+    "Palette": "gTrainerPalette_MagmaGruntM"
+  },
+  "MAGMA_GRUNT_F": {
+    "Pic": "gTrainerFrontPic_MagmaGruntF",
+    "Palette": "gTrainerPalette_MagmaGruntF"
+  },
+  "RS_LASS": {
+    "Pic": "gTrainerFrontPic_RSLass",
+    "Palette": "gTrainerPalette_RSLass"
+  },
+  "RS_BUG_CATCHER": {
+    "Pic": "gTrainerFrontPic_RSBugCatcher",
+    "Palette": "gTrainerPalette_RSBugCatcher"
+  },
+  "RS_HIKER": {
+    "Pic": "gTrainerFrontPic_RSHiker",
+    "Palette": "gTrainerPalette_RSHiker"
+  },
+  "RS_YOUNG_COUPLE": {
+    "Pic": "gTrainerFrontPic_RSYoungCouple",
+    "Palette": "gTrainerPalette_RSYoungCouple"
+  },
+  "OLD_COUPLE": {
+    "Pic": "gTrainerFrontPic_OldCouple",
+    "Palette": "gTrainerPalette_OldCouple"
+  },
+  "RS_SIS_AND_BRO": {
+    "Pic": "gTrainerFrontPic_RSSisAndBro",
+    "Palette": "gTrainerPalette_RSSisAndBro"
+  },
+  "AQUA_ADMIN_M": {
+    "Pic": "gTrainerFrontPic_AquaAdminM",
+    "Palette": "gTrainerPalette_AquaAdminM"
+  },
+  "AQUA_ADMIN_F": {
+    "Pic": "gTrainerFrontPic_AquaAdminF",
+    "Palette": "gTrainerPalette_AquaAdminF"
+  },
+  "MAGMA_ADMIN_M": {
+    "Pic": "gTrainerFrontPic_MagmaAdminM",
+    "Palette": "gTrainerPalette_MagmaAdminM"
+  },
+  "MAGMA_ADMIN_F": {
+    "Pic": "gTrainerFrontPic_MagmaAdminF",
+    "Palette": "gTrainerPalette_MagmaAdminF"
+  },
+  "LEADER_WATTSON": {
+    "Pic": "gTrainerFrontPic_LeaderWattson",
+    "Palette": "gTrainerPalette_LeaderWattson"
+  },
+  "LEADER_FLANNERY": {
+    "Pic": "gTrainerFrontPic_LeaderFlannery",
+    "Palette": "gTrainerPalette_LeaderFlannery"
+  },
+  "LEADER_NORMAN": {
+    "Pic": "gTrainerFrontPic_LeaderNorman",
+    "Palette": "gTrainerPalette_LeaderNorman"
+  },
+  "LEADER_WINONA": {
+    "Pic": "gTrainerFrontPic_LeaderWinona",
+    "Palette": "gTrainerPalette_LeaderWinona"
+  },
+  "LEADER_WALLACE": {
+    "Pic": "gTrainerFrontPic_LeaderWallace",
+    "Palette": "gTrainerPalette_LeaderWallace"
+  },
+  "ELITE_FOUR_GLACIA": {
+    "Pic": "gTrainerFrontPic_EliteFourGlacia",
+    "Palette": "gTrainerPalette_EliteFourGlacia"
+  },
+  "ELITE_FOUR_DRAKE": {
+    "Pic": "gTrainerFrontPic_EliteFourDrake",
+    "Palette": "gTrainerPalette_EliteFourDrake"
+  },
+  "YOUNGSTER": {
+    "Pic": "gTrainerFrontPic_Youngster",
+    "Palette": "gTrainerPalette_Youngster"
+  },
+  "BUG_CATCHER": {
+    "Pic": "gTrainerFrontPic_BugCatcher",
+    "Palette": "gTrainerPalette_BugCatcher"
+  },
+  "LASS": {
+    "Pic": "gTrainerFrontPic_Lass",
+    "Palette": "gTrainerPalette_Lass"
+  },
+  "SAILOR": {
+    "Pic": "gTrainerFrontPic_Sailor",
+    "Palette": "gTrainerPalette_Sailor"
+  },
+  "CAMPER": {
+    "Pic": "gTrainerFrontPic_Camper",
+    "Palette": "gTrainerPalette_Camper"
+  },
+  "PICNICKER": {
+    "Pic": "gTrainerFrontPic_Picnicker",
+    "Palette": "gTrainerPalette_Picnicker"
+  },
+  "POKEMANIAC": {
+    "Pic": "gTrainerFrontPic_PokeManiac",
+    "Palette": "gTrainerPalette_PokeManiac"
+  },
+  "SUPER_NERD": {
+    "Pic": "gTrainerFrontPic_SuperNerd",
+    "Palette": "gTrainerPalette_SuperNerd"
+  },
+  "HIKER": {
+    "Pic": "gTrainerFrontPic_Hiker",
+    "Palette": "gTrainerPalette_Hiker"
+  },
+  "BIKER": {
+    "Pic": "gTrainerFrontPic_Biker",
+    "Palette": "gTrainerPalette_Biker"
+  },
+  "BURGLAR": {
+    "Pic": "gTrainerFrontPic_Burglar",
+    "Palette": "gTrainerPalette_Burglar"
+  },
+  "ENGINEER": {
+    "Pic": "gTrainerFrontPic_Engineer",
+    "Palette": "gTrainerPalette_Engineer"
+  },
+  "FISHERMAN": {
+    "Pic": "gTrainerFrontPic_Fisherman",
+    "Palette": "gTrainerPalette_Fisherman"
+  },
+  "SWIMMER_M": {
+    "Pic": "gTrainerFrontPic_SwimmerM",
+    "Palette": "gTrainerPalette_SwimmerM"
+  },
+  "CUE_BALL": {
+    "Pic": "gTrainerFrontPic_CueBall",
+    "Palette": "gTrainerPalette_CueBall"
+  },
+  "GAMER": {
+    "Pic": "gTrainerFrontPic_Gamer",
+    "Palette": "gTrainerPalette_Gamer"
+  },
+  "BEAUTY": {
+    "Pic": "gTrainerFrontPic_Beauty",
+    "Palette": "gTrainerPalette_Beauty"
+  },
+  "SWIMMER_F": {
+    "Pic": "gTrainerFrontPic_SwimmerF",
+    "Palette": "gTrainerPalette_SwimmerF"
+  },
+  "PSYCHIC_M": {
+    "Pic": "gTrainerFrontPic_PsychicM",
+    "Palette": "gTrainerPalette_PsychicM"
+  },
+  "ROCKER": {
+    "Pic": "gTrainerFrontPic_Rocker",
+    "Palette": "gTrainerPalette_Rocker"
+  },
+  "JUGGLER": {
+    "Pic": "gTrainerFrontPic_Juggler",
+    "Palette": "gTrainerPalette_Juggler"
+  },
+  "TAMER": {
+    "Pic": "gTrainerFrontPic_Tamer",
+    "Palette": "gTrainerPalette_Tamer"
+  },
+  "BIRD_KEEPER": {
+    "Pic": "gTrainerFrontPic_BirdKeeper",
+    "Palette": "gTrainerPalette_BirdKeeper"
+  },
+  "BLACK_BELT": {
+    "Pic": "gTrainerFrontPic_BlackBelt",
+    "Palette": "gTrainerPalette_BlackBelt"
+  },
+  "RIVAL_EARLY": {
+    "Pic": "gTrainerFrontPic_RivalEarly",
+    "Palette": "gTrainerPalette_RivalEarly"
+  },
+  "SCIENTIST": {
+    "Pic": "gTrainerFrontPic_Scientist",
+    "Palette": "gTrainerPalette_Scientist"
+  },
+  "LEADER_GIOVANNI": {
+    "Pic": "gTrainerFrontPic_LeaderGiovanni",
+    "Palette": "gTrainerPalette_LeaderGiovanni"
+  },
+  "ROCKET_GRUNT_M": {
+    "Pic": "gTrainerFrontPic_RocketGruntM",
+    "Palette": "gTrainerPalette_RocketGruntM"
+  },
+  "COOLTRAINER_M": {
+    "Pic": "gTrainerFrontPic_CooltrainerM",
+    "Palette": "gTrainerPalette_CooltrainerM"
+  },
+  "COOLTRAINER_F": {
+    "Pic": "gTrainerFrontPic_CooltrainerF",
+    "Palette": "gTrainerPalette_CooltrainerF"
+  },
+  "ELITE_FOUR_LORELEI": {
+    "Pic": "gTrainerFrontPic_EliteFourLorelei",
+    "Palette": "gTrainerPalette_EliteFourLorelei"
+  },
+  "ELITE_FOUR_BRUNO": {
+    "Pic": "gTrainerFrontPic_EliteFourBruno",
+    "Palette": "gTrainerPalette_EliteFourBruno"
+  },
+  "ELITE_FOUR_AGATHA": {
+    "Pic": "gTrainerFrontPic_EliteFourAgatha",
+    "Palette": "gTrainerPalette_EliteFourAgatha"
+  },
+  "ELITE_FOUR_LANCE": {
+    "Pic": "gTrainerFrontPic_EliteFourLance",
+    "Palette": "gTrainerPalette_EliteFourLance"
+  },
+  "LEADER_BROCK": {
+    "Pic": "gTrainerFrontPic_LeaderBrock",
+    "Palette": "gTrainerPalette_LeaderBrock"
+  },
+  "LEADER_MISTY": {
+    "Pic": "gTrainerFrontPic_LeaderMisty",
+    "Palette": "gTrainerPalette_LeaderMisty"
+  },
+  "LEADER_LT_SURGE": {
+    "Pic": "gTrainerFrontPic_LeaderLtSurge",
+    "Palette": "gTrainerPalette_LeaderLtSurge"
+  },
+  "LEADER_ERIKA": {
+    "Pic": "gTrainerFrontPic_LeaderErika",
+    "Palette": "gTrainerPalette_LeaderErika"
+  },
+  "LEADER_KOGA": {
+    "Pic": "gTrainerFrontPic_LeaderKoga",
+    "Palette": "gTrainerPalette_LeaderKoga"
+  },
+  "LEADER_BLAINE": {
+    "Pic": "gTrainerFrontPic_LeaderBlaine",
+    "Palette": "gTrainerPalette_LeaderBlaine"
+  },
+  "LEADER_SABRINA": {
+    "Pic": "gTrainerFrontPic_LeaderSabrina",
+    "Palette": "gTrainerPalette_LeaderSabrina"
+  },
+  "GENTLEMAN": {
+    "Pic": "gTrainerFrontPic_Gentleman",
+    "Palette": "gTrainerPalette_Gentleman"
+  },
+  "RIVAL_LATE": {
+    "Pic": "gTrainerFrontPic_RivalLate",
+    "Palette": "gTrainerPalette_RivalLate"
+  },
+  "CHAMPION_RIVAL": {
+    "Pic": "gTrainerFrontPic_ChampionRival",
+    "Palette": "gTrainerPalette_ChampionRival"
+  },
+  "CHANNELER": {
+    "Pic": "gTrainerFrontPic_Channeler",
+    "Palette": "gTrainerPalette_Channeler"
+  },
+  "TWINS": {
+    "Pic": "gTrainerFrontPic_Twins",
+    "Palette": "gTrainerPalette_Twins"
+  },
+  "COOL_COUPLE": {
+    "Pic": "gTrainerFrontPic_CoolCouple",
+    "Palette": "gTrainerPalette_CoolCouple"
+  },
+  "YOUNG_COUPLE": {
+    "Pic": "gTrainerFrontPic_YoungCouple",
+    "Palette": "gTrainerPalette_YoungCouple"
+  },
+  "CRUSH_KIN": {
+    "Pic": "gTrainerFrontPic_CrushKin",
+    "Palette": "gTrainerPalette_CrushKin"
+  },
+  "SIS_AND_BRO": {
+    "Pic": "gTrainerFrontPic_SisAndBro",
+    "Palette": "gTrainerPalette_SisAndBro"
+  },
+  "PROFESSOR_OAK": {
+    "Pic": "gTrainerFrontPic_ProfessorOak",
+    "Palette": "gTrainerPalette_ProfessorOak"
+  },
+  "RS_BRENDAN_2": {
+    "Pic": "gTrainerFrontPic_RSBrendan2",
+    "Palette": "gTrainerPalette_RSBrendan2"
+  },
+  "RS_MAY_2": {
+    "Pic": "gTrainerFrontPic_RSMay2",
+    "Palette": "gTrainerPalette_RSMay2"
+  },
+  "RED": {
+    "Pic": "gTrainerFrontPic_Red",
+    "Palette": "gTrainerPalette_Red"
+  },
+  "LEAF": {
+    "Pic": "gTrainerFrontPic_Leaf",
+    "Palette": "gTrainerPalette_Leaf"
+  },
+  "ROCKET_GRUNT_F": {
+    "Pic": "gTrainerFrontPic_RocketGruntF",
+    "Palette": "gTrainerPalette_RocketGruntF"
+  },
+  "PSYCHIC_F": {
+    "Pic": "gTrainerFrontPic_PsychicF",
+    "Palette": "gTrainerPalette_PsychicF"
+  },
+  "CRUSH_GIRL": {
+    "Pic": "gTrainerFrontPic_CrushGirl",
+    "Palette": "gTrainerPalette_CrushGirl"
+  },
+  "TUBER_F": {
+    "Pic": "gTrainerFrontPic_TuberF",
+    "Palette": "gTrainerPalette_TuberF"
+  },
+  "POKEMON_BREEDER": {
+    "Pic": "gTrainerFrontPic_PokemonBreeder",
+    "Palette": "gTrainerPalette_PokemonBreeder"
+  },
+  "POKEMON_RANGER_M": {
+    "Pic": "gTrainerFrontPic_PokemonRangerM",
+    "Palette": "gTrainerPalette_PokemonRangerM"
+  },
+  "POKEMON_RANGER_F": {
+    "Pic": "gTrainerFrontPic_PokemonRangerF",
+    "Palette": "gTrainerPalette_PokemonRangerF"
+  },
+  "AROMA_LADY": {
+    "Pic": "gTrainerFrontPic_AromaLady",
+    "Palette": "gTrainerPalette_AromaLady"
+  },
+  "RUIN_MANIAC": {
+    "Pic": "gTrainerFrontPic_RuinManiac",
+    "Palette": "gTrainerPalette_RuinManiac"
+  },
+  "LADY": {
+    "Pic": "gTrainerFrontPic_Lady",
+    "Palette": "gTrainerPalette_Lady"
+  },
+  "PAINTER": {
+    "Pic": "gTrainerFrontPic_Painter",
+    "Palette": "gTrainerPalette_Painter"
+  }
+}
