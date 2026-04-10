@@ -35,7 +35,14 @@ export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, op
     const width = 32;
     const height = 64;
 
-    image = render4bppImage(iconData, rawIconPalData, width, height, palIndex * palSize, palSize);
+    image = render4bppImage({
+        tileData: iconData.data, 
+        paletteData: rawIconPalData.data, 
+        width, 
+        height, 
+        paletteOffset: palIndex * palSize, 
+        paletteSize: palSize
+    });
 
     const frameHeight = 32;
     const frameSize = width * frameHeight * 4;

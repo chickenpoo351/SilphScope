@@ -36,7 +36,12 @@ export async function renderIcon(itemName, items, assets, rom, options = {}) {
     const width = 24;
     const height = 24;
 
-    const image = render4bppImage(iconImageData, rawIconPalData, width, height);
+    const image = render4bppImage({
+        tileData: iconImageData, 
+        paletteData: rawIconPalData, 
+        width, 
+        height
+    });
 
     const png = new PNG({ width, height });
     png.data = image;
