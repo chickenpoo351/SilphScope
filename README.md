@@ -20,10 +20,11 @@ const rom = fs.readFileSync("pokefirered.gba"); // replace with path to your own
 await renderAllGraphics(rom, {
     outputMonDir: "./Assets/monImages", // must I explain?
     outputIconDir: "./Assets/Icons", // same thing here :p
+    outputTrainerDir: "./Assets/Trainers", // ...
 });
 ```
 
-Of course though the above is for extracting all graphics (which is kinda a lie... In reality it only extracts mon images and item icons... but like I said this is a WIP :p so wait a bit please!).
+Of course though the above is for extracting all graphics (which is kinda a lie... In reality it only extracts mon images, item icons, and trainer images... but like I said this is a WIP :p so wait a bit please!).
 
 But if you want say just the mon images or item icons refer below:
 
@@ -49,4 +50,15 @@ const rom = fs.readFileSync("pokefirered.gba")// find your own rom and so on :l
 await renderAllIcons(rom, {
     outputDir: "./Assets/Icons" // no comment (wait... that was a comment :p)
 });
+```
+
+trainer image extraction:
+```JavaScript
+import fs from "fs";
+import { renderAllTrainers } from "silphscope" // :O
+
+const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff
+await renderAllTrainers(rom, {
+    outputDir: "./Assets/trainers" // more stuff
+})
 ```

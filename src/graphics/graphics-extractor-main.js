@@ -6,6 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { renderMon } from "./render-mons.js";
 import { renderIcon } from "./icons/render-icons.js";
+import { renderTrainer } from "./trainers/render-trainers.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 
@@ -17,6 +18,7 @@ function loadDefaultJson(relativePath) {
 const assets = loadDefaultJson("../graphics-maps/fr-graphic-map.json");
 const mons = loadDefaultJson("../mon-data/monData.json");
 const icons = loadDefaultJson("../item-data/itemData.json");
+const trainers = loadDefaultJson("../trainer-data/trainerData.json");
 
 export async function renderAllMons(rom, options = {}) {
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -85,6 +87,25 @@ export async function renderAllIcons(rom, options = {}) {
     }
 }
 
+export async function renderAllTrainers(rom, options = {}) {
+    if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
+        throw new TypeError("renderAllTrainers(rom, options) requires rom Buffer/Uint8Array as first argument");
+    }
+    
+    const {
+        assets: providedAssets = assets,
+        trainers: providedTrainers = trainers,
+        outputDir = "./out",
+    } = options;
+
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    for (const trainerName of Object.keys(providedTrainers)) {
+        await renderTrainer(trainerName, providedTrainers, providedAssets, rom, { outputDir });
+        console.log(`Done: ${trainerName}`);
+    }
+}
+
 export async function renderAllGraphics(rom, options = {}) { // eventually I will speed this up instead of doing it sequentially :p but for now its fine I guess
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllGraphics(rom, options) requires rom Buffer/Uint8Array as first argument");
@@ -93,6 +114,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     const {
         outputMonDir = "./out/mons",
         outputIconDir = "./out/icons",
+        outputTrainerDir = "./out/trainers",
     } = options;
 
     await renderAllMons(rom, {
@@ -103,6 +125,10 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     
     await renderAllIcons(rom, {
         outputDir: outputIconDir,
+    });
+
+    await renderTrainer(rom, {
+        outputDir: outputTrainerDir,
     });
 }
 
