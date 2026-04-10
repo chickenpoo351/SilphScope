@@ -14,7 +14,8 @@
     "NOTICE",
     "graphics-maps/",
     "mon-data/",
-    "rom-maps/"
+    "rom-maps/",
+    "item-data/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
