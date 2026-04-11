@@ -95,13 +95,17 @@ export async function renderAllTrainers(rom, options = {}) {
     const {
         assets: providedAssets = assets,
         trainers: providedTrainers = trainers,
+        trainerBackPics = true,
         outputDir = "./out",
     } = options;
 
     fs.mkdirSync(outputDir, { recursive: true });
 
     for (const trainerName of Object.keys(providedTrainers)) {
-        await renderTrainer(trainerName, providedTrainers, providedAssets, rom, { outputDir });
+        await renderTrainer(trainerName, providedTrainers, providedAssets, rom, {
+            trainerBackPics, 
+            outputDir 
+        });
         console.log(`Done: ${trainerName}`);
     }
 }
@@ -129,6 +133,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
 
     await renderAllTrainers(rom, {
         outputDir: outputTrainerDir,
+        trainerBackPics: true,
     });
 }
 

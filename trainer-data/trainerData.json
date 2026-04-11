@@ -225,11 +225,15 @@
   },
   "RS_BRENDAN_1": {
     "Pic": "gTrainerFrontPic_RSBrendan1",
-    "Palette": "gTrainerPalette_RSBrendan1"
+    "Palette": "gTrainerPalette_RSBrendan1",
+    "BackPic": "gTrainerBackPic_RSBrendan",
+    "BackPal": "gTrainerPalette_RSBrendan1"
   },
   "RS_MAY_1": {
     "Pic": "gTrainerFrontPic_RSMay1",
-    "Palette": "gTrainerPalette_RSMay1"
+    "Palette": "gTrainerPalette_RSMay1",
+    "BackPic": "gTrainerBackPic_RSMay",
+    "BackPal": "gTrainerPalette_RSMay1"
   },
   "RS_POKEMON_BREEDER_M": {
     "Pic": "gTrainerFrontPic_RSPokemonBreederM",
@@ -533,19 +537,27 @@
   },
   "RS_BRENDAN_2": {
     "Pic": "gTrainerFrontPic_RSBrendan2",
-    "Palette": "gTrainerPalette_RSBrendan2"
+    "Palette": "gTrainerPalette_RSBrendan2",
+    "BackPic": "gTrainerBackPic_RSBrendan",
+    "BackPal": "gTrainerPalette_RSBrendan2"
   },
   "RS_MAY_2": {
     "Pic": "gTrainerFrontPic_RSMay2",
-    "Palette": "gTrainerPalette_RSMay2"
+    "Palette": "gTrainerPalette_RSMay2",
+    "BackPic": "gTrainerBackPic_RSMay",
+    "BackPal": "gTrainerPalette_RSMay2"
   },
   "RED": {
     "Pic": "gTrainerFrontPic_Red",
-    "Palette": "gTrainerPalette_Red"
+    "Palette": "gTrainerPalette_Red",
+    "BackPic": "gTrainerBackPic_Red",
+    "BackPal": "gTrainerPalette_RedBackPic"
   },
   "LEAF": {
     "Pic": "gTrainerFrontPic_Leaf",
-    "Palette": "gTrainerPalette_Leaf"
+    "Palette": "gTrainerPalette_Leaf",
+    "BackPic": "gTrainerBackPic_Leaf",
+    "BackPal": "gTrainerPalette_LeafBackPic"
   },
   "ROCKET_GRUNT_F": {
     "Pic": "gTrainerFrontPic_RocketGruntF",
@@ -590,5 +602,13 @@
   "PAINTER": {
     "Pic": "gTrainerFrontPic_Painter",
     "Palette": "gTrainerPalette_Painter"
+  },
+  "POKEDUDE": {
+    "BackPic": "gTrainerBackPic_Pokedude",
+    "BackPal": "gTrainerPalette_PokedudeBackPic"
+  },
+  "OLDMAN": {
+    "BackPic": "gTrainerBackPic_OldMan",
+    "BackPal": "gTrainerPalette_OldManBackPic"
   }
 }

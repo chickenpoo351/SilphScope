@@ -5,6 +5,7 @@ import { extract } from "../extract.js";
 import { render4bppImage } from "../render-4bpp-image.js";
 import { PNG } from "pngjs";
 import fs from "fs";
+import { renderTrainerBackPic } from "./render-trainer-back-pics.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -14,7 +15,10 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 });
 
 export async function renderTrainer(trainerName, trainers, assets, rom, options = {}) {
-    const { outputDir = null } = options;
+    const {
+        trainerBackPics = false,
+        outputDir = null,
+    } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderTrainer(..., rom) requires a ROM Buffer/Uint8Array");
     }
@@ -23,7 +27,12 @@ export async function renderTrainer(trainerName, trainers, assets, rom, options 
     if (!trainer) {
         throw new Error(`Missing Trainer: ${trainerName}`);
     }
-
+    if (trainerBackPics) {
+        renderTrainerBackPic(trainerName, trainers, assets, rom, { outputDir });
+    }
+    if (trainer === "OLDMAN" || trainer === "POKEDUDE") {
+        return;
+    }
     const trainerPal = assets.find(a => a.name === trainer.Palette);
     const trainerPic = assets.find(a => a.name === trainer.Pic);
 
