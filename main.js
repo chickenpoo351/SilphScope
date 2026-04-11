@@ -5,5 +5,5 @@ import { extract } from "./src/graphics/extract.js";
 
 export { renderMon, renderMonIcon, renderMonFoot, extract };
 
-import { renderAllMons, renderAllIcons, renderAllGraphics } from "./src/graphics/graphics-extractor-main.js";
-export { renderAllMons, renderAllIcons, renderAllGraphics };
+import { renderAllMons, renderAllIcons, renderAllTrainers, renderAllGraphics } from "./src/graphics/graphics-extractor-main.js";
+export { renderAllMons, renderAllIcons, renderAllTrainers, renderAllGraphics };

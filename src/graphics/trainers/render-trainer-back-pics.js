@@ -60,16 +60,49 @@ export async function renderTrainerBackPic(trainerName, trainers, assets, rom, o
         height,
     });
 
-    const png = new PNG({ width, height });
-    png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
+    const frameHeight = 64;
+    const frameSize = width * frameHeight * 4;
+    const frame1 = image.slice(0, frameSize);
+    const frame2 = image.slice(frameSize, frameSize * 2);
+    const frame3 = image.slice(frameSize, frameSize * 3);
+    const frame4 = image.slice(frameSize, frameSize * 4);
+    const frame5 = (trainerName === "RED" || trainerName === "LEAF")
+        ? image.slice(frameSize, frameSize * 5)
+        : null;
+    const pngFrame1 = new PNG({ width, height: frameHeight });
+    pngFrame1.data = frame1;
+    const pngFrame2 = new PNG({ width, height: frameHeight });
+    pngFrame2.data = frame2;
+    const pngFrame3 = new PNG({ width, height: frameHeight });
+    pngFrame3.data = frame3;
+    const pngFrame4 = new PNG({ width, height: frameHeight });
+    pngFrame4.data = frame4;
+    const buffer1 = await streamToBuffer(pngFrame1.pack());
+    const buffer2 = await streamToBuffer(pngFrame2.pack());
+    const buffer3 = await streamToBuffer(pngFrame3.pack());
+    const buffer4 = await streamToBuffer(pngFrame4.pack());
+    let buffer5
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/trainer_back.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        fs.writeFileSync(`${dir}/trainer_back_frame_1.png`, buffer1);
+        fs.writeFileSync(`${dir}/trainer_back_frame_2.png`, buffer2);
+        fs.writeFileSync(`${dir}/trainer_back_frame_3.png`, buffer3);
+        fs.writeFileSync(`${dir}/trainer_back_frame_4.png`, buffer4);
+        if (frame5) {
+            const pngFrame5 = new PNG({ width, height: frameHeight });
+            pngFrame5.data = frame5;
+            buffer5 = await streamToBuffer(pngFrame5.pack());
+            fs.writeFileSync(`${dir}/trainer_back_frame_5.png`, buffer5);
+        }
     }
 
-    return pngBuffer;
+    return {
+        frame1: buffer1,
+        frame2: buffer2,
+        frame3: buffer3,
+        frame4: buffer4,
+        frame5: buffer5,
+    };
 }
