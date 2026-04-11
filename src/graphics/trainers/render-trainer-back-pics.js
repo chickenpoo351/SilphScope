@@ -63,11 +63,11 @@ export async function renderTrainerBackPic(trainerName, trainers, assets, rom, o
     const frameHeight = 64;
     const frameSize = width * frameHeight * 4;
     const frame1 = image.slice(0, frameSize);
-    const frame2 = image.slice(frameSize, frameSize * 2);
-    const frame3 = image.slice(frameSize, frameSize * 3);
-    const frame4 = image.slice(frameSize, frameSize * 4);
+    const frame2 = image.slice(frameSize * 1, frameSize * 2);
+    const frame3 = image.slice(frameSize * 2, frameSize * 3);
+    const frame4 = image.slice(frameSize * 3, frameSize * 4);
     const frame5 = (trainerName === "RED" || trainerName === "LEAF")
-        ? image.slice(frameSize, frameSize * 5)
+        ? image.slice(frameSize * 4, frameSize * 5)
         : null;
     const pngFrame1 = new PNG({ width, height: frameHeight });
     pngFrame1.data = frame1;
