@@ -59,6 +59,7 @@ import { renderAllTrainers } from "silphscope" // :O
 
 const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff
 await renderAllTrainers(rom, {
-    outputDir: "./Assets/trainers" // more stuff
+    outputDir: "./Assets/trainers", // more stuff
+    trainerBackPics: true, // renders the like 8 trainer back pics
 })
 ```
