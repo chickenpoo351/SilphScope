@@ -30,7 +30,7 @@ export async function renderTrainer(trainerName, trainers, assets, rom, options 
     if (trainerBackPics) {
         renderTrainerBackPic(trainerName, trainers, assets, rom, { outputDir });
     }
-    if (trainer === "OLDMAN" || trainer === "POKEDUDE") {
+    if (trainerName === "OLDMAN" || trainerName === "POKEDUDE") {
         return;
     }
     const trainerPal = assets.find(a => a.name === trainer.Palette);

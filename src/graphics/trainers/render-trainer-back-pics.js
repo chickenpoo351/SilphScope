@@ -25,14 +25,14 @@ export async function renderTrainerBackPic(trainerName, trainers, assets, rom, o
         throw new Error(`Missing trainer entry for ${trainerName}`);
     }
 
-    if (trainer !== "OLDMAN" &&
-        trainer !== "POKEDUDE" &&
-        trainer !== "RS_BRENDAN_1" &&
-        trainer !== "RS_BRENDAN_2" &&
-        trainer !== "RS_MAY_1" &&
-        trainer !== "RS_MAY_2" && // I wonder if there is a more compact way to write this without using a array and `.includes` 
-        trainer !== "RED" &&
-        trainer !== "LEAF"
+    if (trainerName !== "OLDMAN" &&
+        trainerName !== "POKEDUDE" &&
+        trainerName !== "RS_BRENDAN_1" &&
+        trainerName !== "RS_BRENDAN_2" &&
+        trainerName !== "RS_MAY_1" &&
+        trainerName !== "RS_MAY_2" && // I wonder if there is a more compact way to write this without using a array and `.includes` 
+        trainerName !== "RED" &&
+        trainerName !== "LEAF"
     ) {
         return;
     }
