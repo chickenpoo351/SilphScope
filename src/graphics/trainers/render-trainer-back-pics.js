@@ -47,7 +47,7 @@ export async function renderTrainerBackPic(trainerName, trainers, assets, rom, o
     const rawTrainerBackPalData = extract(trainerBackPal, rom);
     const width = 64;
     let height;
-    if (trainer === "RED" || trainer === "LEAF") {
+    if (trainerName === "RED" || trainerName === "LEAF") {
         height = 320;
     } else {
         height = 256;
