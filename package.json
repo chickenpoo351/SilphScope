@@ -1,6 +1,6 @@
 {
   "name": "silphscope",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "A firered/leafgreen ROM asset extractor for use in web applications",
   "main": "main.js",
   "exports": {
