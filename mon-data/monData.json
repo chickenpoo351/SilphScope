@@ -1,6 +1,7 @@
 {
   "NONE": {
     "frontPics": "gMonFrontPic_CircledQuestionMark",
+    "index": 0,
     "backPics": "gMonBackPic_CircledQuestionMark",
     "normPalette": "gMonPalette_CircledQuestionMark",
     "shinyPalette": "gMonShinyPalette_CircledQuestionMark",
@@ -12,6 +13,7 @@
   },
   "BULBASAUR": {
     "frontPics": "gMonFrontPic_Bulbasaur",
+    "index": 1,
     "backPics": "gMonBackPic_Bulbasaur",
     "normPalette": "gMonPalette_Bulbasaur",
     "shinyPalette": "gMonShinyPalette_Bulbasaur",
@@ -23,6 +25,7 @@
   },
   "IVYSAUR": {
     "frontPics": "gMonFrontPic_Ivysaur",
+    "index": 2,
     "backPics": "gMonBackPic_Ivysaur",
     "normPalette": "gMonPalette_Ivysaur",
     "shinyPalette": "gMonShinyPalette_Ivysaur",
@@ -34,6 +37,7 @@
   },
   "VENUSAUR": {
     "frontPics": "gMonFrontPic_Venusaur",
+    "index": 3,
     "backPics": "gMonBackPic_Venusaur",
     "normPalette": "gMonPalette_Venusaur",
     "shinyPalette": "gMonShinyPalette_Venusaur",
@@ -45,6 +49,7 @@
   },
   "CHARMANDER": {
     "frontPics": "gMonFrontPic_Charmander",
+    "index": 4,
     "backPics": "gMonBackPic_Charmander",
     "normPalette": "gMonPalette_Charmander",
     "shinyPalette": "gMonShinyPalette_Charmander",
@@ -56,6 +61,7 @@
   },
   "CHARMELEON": {
     "frontPics": "gMonFrontPic_Charmeleon",
+    "index": 5,
     "backPics": "gMonBackPic_Charmeleon",
     "normPalette": "gMonPalette_Charmeleon",
     "shinyPalette": "gMonShinyPalette_Charmeleon",
@@ -67,6 +73,7 @@
   },
   "CHARIZARD": {
     "frontPics": "gMonFrontPic_Charizard",
+    "index": 6,
     "backPics": "gMonBackPic_Charizard",
     "normPalette": "gMonPalette_Charizard",
     "shinyPalette": "gMonShinyPalette_Charizard",
@@ -78,6 +85,7 @@
   },
   "SQUIRTLE": {
     "frontPics": "gMonFrontPic_Squirtle",
+    "index": 7,
     "backPics": "gMonBackPic_Squirtle",
     "normPalette": "gMonPalette_Squirtle",
     "shinyPalette": "gMonShinyPalette_Squirtle",
@@ -89,6 +97,7 @@
   },
   "WARTORTLE": {
     "frontPics": "gMonFrontPic_Wartortle",
+    "index": 8,
     "backPics": "gMonBackPic_Wartortle",
     "normPalette": "gMonPalette_Wartortle",
     "shinyPalette": "gMonShinyPalette_Wartortle",
@@ -100,6 +109,7 @@
   },
   "BLASTOISE": {
     "frontPics": "gMonFrontPic_Blastoise",
+    "index": 9,
     "backPics": "gMonBackPic_Blastoise",
     "normPalette": "gMonPalette_Blastoise",
     "shinyPalette": "gMonShinyPalette_Blastoise",
@@ -111,6 +121,7 @@
   },
   "CATERPIE": {
     "frontPics": "gMonFrontPic_Caterpie",
+    "index": 10,
     "backPics": "gMonBackPic_Caterpie",
     "normPalette": "gMonPalette_Caterpie",
     "shinyPalette": "gMonShinyPalette_Caterpie",
@@ -122,6 +133,7 @@
   },
   "METAPOD": {
     "frontPics": "gMonFrontPic_Metapod",
+    "index": 11,
     "backPics": "gMonBackPic_Metapod",
     "normPalette": "gMonPalette_Metapod",
     "shinyPalette": "gMonShinyPalette_Metapod",
@@ -133,6 +145,7 @@
   },
   "BUTTERFREE": {
     "frontPics": "gMonFrontPic_Butterfree",
+    "index": 12,
     "backPics": "gMonBackPic_Butterfree",
     "normPalette": "gMonPalette_Butterfree",
     "shinyPalette": "gMonShinyPalette_Butterfree",
@@ -144,6 +157,7 @@
   },
   "WEEDLE": {
     "frontPics": "gMonFrontPic_Weedle",
+    "index": 13,
     "backPics": "gMonBackPic_Weedle",
     "normPalette": "gMonPalette_Weedle",
     "shinyPalette": "gMonShinyPalette_Weedle",
@@ -155,6 +169,7 @@
   },
   "KAKUNA": {
     "frontPics": "gMonFrontPic_Kakuna",
+    "index": 14,
     "backPics": "gMonBackPic_Kakuna",
     "normPalette": "gMonPalette_Kakuna",
     "shinyPalette": "gMonShinyPalette_Kakuna",
@@ -166,6 +181,7 @@
   },
   "BEEDRILL": {
     "frontPics": "gMonFrontPic_Beedrill",
+    "index": 15,
     "backPics": "gMonBackPic_Beedrill",
     "normPalette": "gMonPalette_Beedrill",
     "shinyPalette": "gMonShinyPalette_Beedrill",
@@ -177,6 +193,7 @@
   },
   "PIDGEY": {
     "frontPics": "gMonFrontPic_Pidgey",
+    "index": 16,
     "backPics": "gMonBackPic_Pidgey",
     "normPalette": "gMonPalette_Pidgey",
     "shinyPalette": "gMonShinyPalette_Pidgey",
@@ -188,6 +205,7 @@
   },
   "PIDGEOTTO": {
     "frontPics": "gMonFrontPic_Pidgeotto",
+    "index": 17,
     "backPics": "gMonBackPic_Pidgeotto",
     "normPalette": "gMonPalette_Pidgeotto",
     "shinyPalette": "gMonShinyPalette_Pidgeotto",
@@ -199,6 +217,7 @@
   },
   "PIDGEOT": {
     "frontPics": "gMonFrontPic_Pidgeot",
+    "index": 18,
     "backPics": "gMonBackPic_Pidgeot",
     "normPalette": "gMonPalette_Pidgeot",
     "shinyPalette": "gMonShinyPalette_Pidgeot",
@@ -210,6 +229,7 @@
   },
   "RATTATA": {
     "frontPics": "gMonFrontPic_Rattata",
+    "index": 19,
     "backPics": "gMonBackPic_Rattata",
     "normPalette": "gMonPalette_Rattata",
     "shinyPalette": "gMonShinyPalette_Rattata",
@@ -221,6 +241,7 @@
   },
   "RATICATE": {
     "frontPics": "gMonFrontPic_Raticate",
+    "index": 20,
     "backPics": "gMonBackPic_Raticate",
     "normPalette": "gMonPalette_Raticate",
     "shinyPalette": "gMonShinyPalette_Raticate",
@@ -232,6 +253,7 @@
   },
   "SPEAROW": {
     "frontPics": "gMonFrontPic_Spearow",
+    "index": 21,
     "backPics": "gMonBackPic_Spearow",
     "normPalette": "gMonPalette_Spearow",
     "shinyPalette": "gMonShinyPalette_Spearow",
@@ -243,6 +265,7 @@
   },
   "FEAROW": {
     "frontPics": "gMonFrontPic_Fearow",
+    "index": 22,
     "backPics": "gMonBackPic_Fearow",
     "normPalette": "gMonPalette_Fearow",
     "shinyPalette": "gMonShinyPalette_Fearow",
@@ -254,6 +277,7 @@
   },
   "EKANS": {
     "frontPics": "gMonFrontPic_Ekans",
+    "index": 23,
     "backPics": "gMonBackPic_Ekans",
     "normPalette": "gMonPalette_Ekans",
     "shinyPalette": "gMonShinyPalette_Ekans",
@@ -265,6 +289,7 @@
   },
   "ARBOK": {
     "frontPics": "gMonFrontPic_Arbok",
+    "index": 24,
     "backPics": "gMonBackPic_Arbok",
     "normPalette": "gMonPalette_Arbok",
     "shinyPalette": "gMonShinyPalette_Arbok",
@@ -276,6 +301,7 @@
   },
   "PIKACHU": {
     "frontPics": "gMonFrontPic_Pikachu",
+    "index": 25,
     "backPics": "gMonBackPic_Pikachu",
     "normPalette": "gMonPalette_Pikachu",
     "shinyPalette": "gMonShinyPalette_Pikachu",
@@ -287,6 +313,7 @@
   },
   "RAICHU": {
     "frontPics": "gMonFrontPic_Raichu",
+    "index": 26,
     "backPics": "gMonBackPic_Raichu",
     "normPalette": "gMonPalette_Raichu",
     "shinyPalette": "gMonShinyPalette_Raichu",
@@ -298,6 +325,7 @@
   },
   "SANDSHREW": {
     "frontPics": "gMonFrontPic_Sandshrew",
+    "index": 27,
     "backPics": "gMonBackPic_Sandshrew",
     "normPalette": "gMonPalette_Sandshrew",
     "shinyPalette": "gMonShinyPalette_Sandshrew",
@@ -309,6 +337,7 @@
   },
   "SANDSLASH": {
     "frontPics": "gMonFrontPic_Sandslash",
+    "index": 28,
     "backPics": "gMonBackPic_Sandslash",
     "normPalette": "gMonPalette_Sandslash",
     "shinyPalette": "gMonShinyPalette_Sandslash",
@@ -320,6 +349,7 @@
   },
   "NIDORAN_F": {
     "frontPics": "gMonFrontPic_NidoranF",
+    "index": 29,
     "backPics": "gMonBackPic_NidoranF",
     "normPalette": "gMonPalette_NidoranF",
     "shinyPalette": "gMonShinyPalette_NidoranF",
@@ -331,6 +361,7 @@
   },
   "NIDORINA": {
     "frontPics": "gMonFrontPic_Nidorina",
+    "index": 30,
     "backPics": "gMonBackPic_Nidorina",
     "normPalette": "gMonPalette_Nidorina",
     "shinyPalette": "gMonShinyPalette_Nidorina",
@@ -342,6 +373,7 @@
   },
   "NIDOQUEEN": {
     "frontPics": "gMonFrontPic_Nidoqueen",
+    "index": 31,
     "backPics": "gMonBackPic_Nidoqueen",
     "normPalette": "gMonPalette_Nidoqueen",
     "shinyPalette": "gMonShinyPalette_Nidoqueen",
@@ -353,6 +385,7 @@
   },
   "NIDORAN_M": {
     "frontPics": "gMonFrontPic_NidoranM",
+    "index": 32,
     "backPics": "gMonBackPic_NidoranM",
     "normPalette": "gMonPalette_NidoranM",
     "shinyPalette": "gMonShinyPalette_NidoranM",
@@ -364,6 +397,7 @@
   },
   "NIDORINO": {
     "frontPics": "gMonFrontPic_Nidorino",
+    "index": 33,
     "backPics": "gMonBackPic_Nidorino",
     "normPalette": "gMonPalette_Nidorino",
     "shinyPalette": "gMonShinyPalette_Nidorino",
@@ -375,6 +409,7 @@
   },
   "NIDOKING": {
     "frontPics": "gMonFrontPic_Nidoking",
+    "index": 34,
     "backPics": "gMonBackPic_Nidoking",
     "normPalette": "gMonPalette_Nidoking",
     "shinyPalette": "gMonShinyPalette_Nidoking",
@@ -386,6 +421,7 @@
   },
   "CLEFAIRY": {
     "frontPics": "gMonFrontPic_Clefairy",
+    "index": 35,
     "backPics": "gMonBackPic_Clefairy",
     "normPalette": "gMonPalette_Clefairy",
     "shinyPalette": "gMonShinyPalette_Clefairy",
@@ -397,6 +433,7 @@
   },
   "CLEFABLE": {
     "frontPics": "gMonFrontPic_Clefable",
+    "index": 36,
     "backPics": "gMonBackPic_Clefable",
     "normPalette": "gMonPalette_Clefable",
     "shinyPalette": "gMonShinyPalette_Clefable",
@@ -408,6 +445,7 @@
   },
   "VULPIX": {
     "frontPics": "gMonFrontPic_Vulpix",
+    "index": 37,
     "backPics": "gMonBackPic_Vulpix",
     "normPalette": "gMonPalette_Vulpix",
     "shinyPalette": "gMonShinyPalette_Vulpix",
@@ -419,6 +457,7 @@
   },
   "NINETALES": {
     "frontPics": "gMonFrontPic_Ninetales",
+    "index": 38,
     "backPics": "gMonBackPic_Ninetales",
     "normPalette": "gMonPalette_Ninetales",
     "shinyPalette": "gMonShinyPalette_Ninetales",
@@ -430,6 +469,7 @@
   },
   "JIGGLYPUFF": {
     "frontPics": "gMonFrontPic_Jigglypuff",
+    "index": 39,
     "backPics": "gMonBackPic_Jigglypuff",
     "normPalette": "gMonPalette_Jigglypuff",
     "shinyPalette": "gMonShinyPalette_Jigglypuff",
@@ -441,6 +481,7 @@
   },
   "WIGGLYTUFF": {
     "frontPics": "gMonFrontPic_Wigglytuff",
+    "index": 40,
     "backPics": "gMonBackPic_Wigglytuff",
     "normPalette": "gMonPalette_Wigglytuff",
     "shinyPalette": "gMonShinyPalette_Wigglytuff",
@@ -452,6 +493,7 @@
   },
   "ZUBAT": {
     "frontPics": "gMonFrontPic_Zubat",
+    "index": 41,
     "backPics": "gMonBackPic_Zubat",
     "normPalette": "gMonPalette_Zubat",
     "shinyPalette": "gMonShinyPalette_Zubat",
@@ -463,6 +505,7 @@
   },
   "GOLBAT": {
     "frontPics": "gMonFrontPic_Golbat",
+    "index": 42,
     "backPics": "gMonBackPic_Golbat",
     "normPalette": "gMonPalette_Golbat",
     "shinyPalette": "gMonShinyPalette_Golbat",
@@ -474,6 +517,7 @@
   },
   "ODDISH": {
     "frontPics": "gMonFrontPic_Oddish",
+    "index": 43,
     "backPics": "gMonBackPic_Oddish",
     "normPalette": "gMonPalette_Oddish",
     "shinyPalette": "gMonShinyPalette_Oddish",
@@ -485,6 +529,7 @@
   },
   "GLOOM": {
     "frontPics": "gMonFrontPic_Gloom",
+    "index": 44,
     "backPics": "gMonBackPic_Gloom",
     "normPalette": "gMonPalette_Gloom",
     "shinyPalette": "gMonShinyPalette_Gloom",
@@ -496,6 +541,7 @@
   },
   "VILEPLUME": {
     "frontPics": "gMonFrontPic_Vileplume",
+    "index": 45,
     "backPics": "gMonBackPic_Vileplume",
     "normPalette": "gMonPalette_Vileplume",
     "shinyPalette": "gMonShinyPalette_Vileplume",
@@ -507,6 +553,7 @@
   },
   "PARAS": {
     "frontPics": "gMonFrontPic_Paras",
+    "index": 46,
     "backPics": "gMonBackPic_Paras",
     "normPalette": "gMonPalette_Paras",
     "shinyPalette": "gMonShinyPalette_Paras",
@@ -518,6 +565,7 @@
   },
   "PARASECT": {
     "frontPics": "gMonFrontPic_Parasect",
+    "index": 47,
     "backPics": "gMonBackPic_Parasect",
     "normPalette": "gMonPalette_Parasect",
     "shinyPalette": "gMonShinyPalette_Parasect",
@@ -529,6 +577,7 @@
   },
   "VENONAT": {
     "frontPics": "gMonFrontPic_Venonat",
+    "index": 48,
     "backPics": "gMonBackPic_Venonat",
     "normPalette": "gMonPalette_Venonat",
     "shinyPalette": "gMonShinyPalette_Venonat",
@@ -540,6 +589,7 @@
   },
   "VENOMOTH": {
     "frontPics": "gMonFrontPic_Venomoth",
+    "index": 49,
     "backPics": "gMonBackPic_Venomoth",
     "normPalette": "gMonPalette_Venomoth",
     "shinyPalette": "gMonShinyPalette_Venomoth",
@@ -551,6 +601,7 @@
   },
   "DIGLETT": {
     "frontPics": "gMonFrontPic_Diglett",
+    "index": 50,
     "backPics": "gMonBackPic_Diglett",
     "normPalette": "gMonPalette_Diglett",
     "shinyPalette": "gMonShinyPalette_Diglett",
@@ -562,6 +613,7 @@
   },
   "DUGTRIO": {
     "frontPics": "gMonFrontPic_Dugtrio",
+    "index": 51,
     "backPics": "gMonBackPic_Dugtrio",
     "normPalette": "gMonPalette_Dugtrio",
     "shinyPalette": "gMonShinyPalette_Dugtrio",
@@ -573,6 +625,7 @@
   },
   "MEOWTH": {
     "frontPics": "gMonFrontPic_Meowth",
+    "index": 52,
     "backPics": "gMonBackPic_Meowth",
     "normPalette": "gMonPalette_Meowth",
     "shinyPalette": "gMonShinyPalette_Meowth",
@@ -584,6 +637,7 @@
   },
   "PERSIAN": {
     "frontPics": "gMonFrontPic_Persian",
+    "index": 53,
     "backPics": "gMonBackPic_Persian",
     "normPalette": "gMonPalette_Persian",
     "shinyPalette": "gMonShinyPalette_Persian",
@@ -595,6 +649,7 @@
   },
   "PSYDUCK": {
     "frontPics": "gMonFrontPic_Psyduck",
+    "index": 54,
     "backPics": "gMonBackPic_Psyduck",
     "normPalette": "gMonPalette_Psyduck",
     "shinyPalette": "gMonShinyPalette_Psyduck",
@@ -606,6 +661,7 @@
   },
   "GOLDUCK": {
     "frontPics": "gMonFrontPic_Golduck",
+    "index": 55,
     "backPics": "gMonBackPic_Golduck",
     "normPalette": "gMonPalette_Golduck",
     "shinyPalette": "gMonShinyPalette_Golduck",
@@ -617,6 +673,7 @@
   },
   "MANKEY": {
     "frontPics": "gMonFrontPic_Mankey",
+    "index": 56,
     "backPics": "gMonBackPic_Mankey",
     "normPalette": "gMonPalette_Mankey",
     "shinyPalette": "gMonShinyPalette_Mankey",
@@ -628,6 +685,7 @@
   },
   "PRIMEAPE": {
     "frontPics": "gMonFrontPic_Primeape",
+    "index": 57,
     "backPics": "gMonBackPic_Primeape",
     "normPalette": "gMonPalette_Primeape",
     "shinyPalette": "gMonShinyPalette_Primeape",
@@ -639,6 +697,7 @@
   },
   "GROWLITHE": {
     "frontPics": "gMonFrontPic_Growlithe",
+    "index": 58,
     "backPics": "gMonBackPic_Growlithe",
     "normPalette": "gMonPalette_Growlithe",
     "shinyPalette": "gMonShinyPalette_Growlithe",
@@ -650,6 +709,7 @@
   },
   "ARCANINE": {
     "frontPics": "gMonFrontPic_Arcanine",
+    "index": 59,
     "backPics": "gMonBackPic_Arcanine",
     "normPalette": "gMonPalette_Arcanine",
     "shinyPalette": "gMonShinyPalette_Arcanine",
@@ -661,6 +721,7 @@
   },
   "POLIWAG": {
     "frontPics": "gMonFrontPic_Poliwag",
+    "index": 60,
     "backPics": "gMonBackPic_Poliwag",
     "normPalette": "gMonPalette_Poliwag",
     "shinyPalette": "gMonShinyPalette_Poliwag",
@@ -672,6 +733,7 @@
   },
   "POLIWHIRL": {
     "frontPics": "gMonFrontPic_Poliwhirl",
+    "index": 61,
     "backPics": "gMonBackPic_Poliwhirl",
     "normPalette": "gMonPalette_Poliwhirl",
     "shinyPalette": "gMonShinyPalette_Poliwhirl",
@@ -683,6 +745,7 @@
   },
   "POLIWRATH": {
     "frontPics": "gMonFrontPic_Poliwrath",
+    "index": 62,
     "backPics": "gMonBackPic_Poliwrath",
     "normPalette": "gMonPalette_Poliwrath",
     "shinyPalette": "gMonShinyPalette_Poliwrath",
@@ -694,6 +757,7 @@
   },
   "ABRA": {
     "frontPics": "gMonFrontPic_Abra",
+    "index": 63,
     "backPics": "gMonBackPic_Abra",
     "normPalette": "gMonPalette_Abra",
     "shinyPalette": "gMonShinyPalette_Abra",
@@ -705,6 +769,7 @@
   },
   "KADABRA": {
     "frontPics": "gMonFrontPic_Kadabra",
+    "index": 64,
     "backPics": "gMonBackPic_Kadabra",
     "normPalette": "gMonPalette_Kadabra",
     "shinyPalette": "gMonShinyPalette_Kadabra",
@@ -716,6 +781,7 @@
   },
   "ALAKAZAM": {
     "frontPics": "gMonFrontPic_Alakazam",
+    "index": 65,
     "backPics": "gMonBackPic_Alakazam",
     "normPalette": "gMonPalette_Alakazam",
     "shinyPalette": "gMonShinyPalette_Alakazam",
@@ -727,6 +793,7 @@
   },
   "MACHOP": {
     "frontPics": "gMonFrontPic_Machop",
+    "index": 66,
     "backPics": "gMonBackPic_Machop",
     "normPalette": "gMonPalette_Machop",
     "shinyPalette": "gMonShinyPalette_Machop",
@@ -738,6 +805,7 @@
   },
   "MACHOKE": {
     "frontPics": "gMonFrontPic_Machoke",
+    "index": 67,
     "backPics": "gMonBackPic_Machoke",
     "normPalette": "gMonPalette_Machoke",
     "shinyPalette": "gMonShinyPalette_Machoke",
@@ -749,6 +817,7 @@
   },
   "MACHAMP": {
     "frontPics": "gMonFrontPic_Machamp",
+    "index": 68,
     "backPics": "gMonBackPic_Machamp",
     "normPalette": "gMonPalette_Machamp",
     "shinyPalette": "gMonShinyPalette_Machamp",
@@ -760,6 +829,7 @@
   },
   "BELLSPROUT": {
     "frontPics": "gMonFrontPic_Bellsprout",
+    "index": 69,
     "backPics": "gMonBackPic_Bellsprout",
     "normPalette": "gMonPalette_Bellsprout",
     "shinyPalette": "gMonShinyPalette_Bellsprout",
@@ -771,6 +841,7 @@
   },
   "WEEPINBELL": {
     "frontPics": "gMonFrontPic_Weepinbell",
+    "index": 70,
     "backPics": "gMonBackPic_Weepinbell",
     "normPalette": "gMonPalette_Weepinbell",
     "shinyPalette": "gMonShinyPalette_Weepinbell",
@@ -782,6 +853,7 @@
   },
   "VICTREEBEL": {
     "frontPics": "gMonFrontPic_Victreebel",
+    "index": 71,
     "backPics": "gMonBackPic_Victreebel",
     "normPalette": "gMonPalette_Victreebel",
     "shinyPalette": "gMonShinyPalette_Victreebel",
@@ -793,6 +865,7 @@
   },
   "TENTACOOL": {
     "frontPics": "gMonFrontPic_Tentacool",
+    "index": 72,
     "backPics": "gMonBackPic_Tentacool",
     "normPalette": "gMonPalette_Tentacool",
     "shinyPalette": "gMonShinyPalette_Tentacool",
@@ -804,6 +877,7 @@
   },
   "TENTACRUEL": {
     "frontPics": "gMonFrontPic_Tentacruel",
+    "index": 73,
     "backPics": "gMonBackPic_Tentacruel",
     "normPalette": "gMonPalette_Tentacruel",
     "shinyPalette": "gMonShinyPalette_Tentacruel",
@@ -815,6 +889,7 @@
   },
   "GEODUDE": {
     "frontPics": "gMonFrontPic_Geodude",
+    "index": 74,
     "backPics": "gMonBackPic_Geodude",
     "normPalette": "gMonPalette_Geodude",
     "shinyPalette": "gMonShinyPalette_Geodude",
@@ -826,6 +901,7 @@
   },
   "GRAVELER": {
     "frontPics": "gMonFrontPic_Graveler",
+    "index": 75,
     "backPics": "gMonBackPic_Graveler",
     "normPalette": "gMonPalette_Graveler",
     "shinyPalette": "gMonShinyPalette_Graveler",
@@ -837,6 +913,7 @@
   },
   "GOLEM": {
     "frontPics": "gMonFrontPic_Golem",
+    "index": 76,
     "backPics": "gMonBackPic_Golem",
     "normPalette": "gMonPalette_Golem",
     "shinyPalette": "gMonShinyPalette_Golem",
@@ -848,6 +925,7 @@
   },
   "PONYTA": {
     "frontPics": "gMonFrontPic_Ponyta",
+    "index": 77,
     "backPics": "gMonBackPic_Ponyta",
     "normPalette": "gMonPalette_Ponyta",
     "shinyPalette": "gMonShinyPalette_Ponyta",
@@ -859,6 +937,7 @@
   },
   "RAPIDASH": {
     "frontPics": "gMonFrontPic_Rapidash",
+    "index": 78,
     "backPics": "gMonBackPic_Rapidash",
     "normPalette": "gMonPalette_Rapidash",
     "shinyPalette": "gMonShinyPalette_Rapidash",
@@ -870,6 +949,7 @@
   },
   "SLOWPOKE": {
     "frontPics": "gMonFrontPic_Slowpoke",
+    "index": 79,
     "backPics": "gMonBackPic_Slowpoke",
     "normPalette": "gMonPalette_Slowpoke",
     "shinyPalette": "gMonShinyPalette_Slowpoke",
@@ -881,6 +961,7 @@
   },
   "SLOWBRO": {
     "frontPics": "gMonFrontPic_Slowbro",
+    "index": 80,
     "backPics": "gMonBackPic_Slowbro",
     "normPalette": "gMonPalette_Slowbro",
     "shinyPalette": "gMonShinyPalette_Slowbro",
@@ -892,6 +973,7 @@
   },
   "MAGNEMITE": {
     "frontPics": "gMonFrontPic_Magnemite",
+    "index": 81,
     "backPics": "gMonBackPic_Magnemite",
     "normPalette": "gMonPalette_Magnemite",
     "shinyPalette": "gMonShinyPalette_Magnemite",
@@ -903,6 +985,7 @@
   },
   "MAGNETON": {
     "frontPics": "gMonFrontPic_Magneton",
+    "index": 82,
     "backPics": "gMonBackPic_Magneton",
     "normPalette": "gMonPalette_Magneton",
     "shinyPalette": "gMonShinyPalette_Magneton",
@@ -914,6 +997,7 @@
   },
   "FARFETCHD": {
     "frontPics": "gMonFrontPic_Farfetchd",
+    "index": 83,
     "backPics": "gMonBackPic_Farfetchd",
     "normPalette": "gMonPalette_Farfetchd",
     "shinyPalette": "gMonShinyPalette_Farfetchd",
@@ -925,6 +1009,7 @@
   },
   "DODUO": {
     "frontPics": "gMonFrontPic_Doduo",
+    "index": 84,
     "backPics": "gMonBackPic_Doduo",
     "normPalette": "gMonPalette_Doduo",
     "shinyPalette": "gMonShinyPalette_Doduo",
@@ -936,6 +1021,7 @@
   },
   "DODRIO": {
     "frontPics": "gMonFrontPic_Dodrio",
+    "index": 85,
     "backPics": "gMonBackPic_Dodrio",
     "normPalette": "gMonPalette_Dodrio",
     "shinyPalette": "gMonShinyPalette_Dodrio",
@@ -947,6 +1033,7 @@
   },
   "SEEL": {
     "frontPics": "gMonFrontPic_Seel",
+    "index": 86,
     "backPics": "gMonBackPic_Seel",
     "normPalette": "gMonPalette_Seel",
     "shinyPalette": "gMonShinyPalette_Seel",
@@ -958,6 +1045,7 @@
   },
   "DEWGONG": {
     "frontPics": "gMonFrontPic_Dewgong",
+    "index": 87,
     "backPics": "gMonBackPic_Dewgong",
     "normPalette": "gMonPalette_Dewgong",
     "shinyPalette": "gMonShinyPalette_Dewgong",
@@ -969,6 +1057,7 @@
   },
   "GRIMER": {
     "frontPics": "gMonFrontPic_Grimer",
+    "index": 88,
     "backPics": "gMonBackPic_Grimer",
     "normPalette": "gMonPalette_Grimer",
     "shinyPalette": "gMonShinyPalette_Grimer",
@@ -980,6 +1069,7 @@
   },
   "MUK": {
     "frontPics": "gMonFrontPic_Muk",
+    "index": 89,
     "backPics": "gMonBackPic_Muk",
     "normPalette": "gMonPalette_Muk",
     "shinyPalette": "gMonShinyPalette_Muk",
@@ -991,6 +1081,7 @@
   },
   "SHELLDER": {
     "frontPics": "gMonFrontPic_Shellder",
+    "index": 90,
     "backPics": "gMonBackPic_Shellder",
     "normPalette": "gMonPalette_Shellder",
     "shinyPalette": "gMonShinyPalette_Shellder",
@@ -1002,6 +1093,7 @@
   },
   "CLOYSTER": {
     "frontPics": "gMonFrontPic_Cloyster",
+    "index": 91,
     "backPics": "gMonBackPic_Cloyster",
     "normPalette": "gMonPalette_Cloyster",
     "shinyPalette": "gMonShinyPalette_Cloyster",
@@ -1013,6 +1105,7 @@
   },
   "GASTLY": {
     "frontPics": "gMonFrontPic_Gastly",
+    "index": 92,
     "backPics": "gMonBackPic_Gastly",
     "normPalette": "gMonPalette_Gastly",
     "shinyPalette": "gMonShinyPalette_Gastly",
@@ -1024,6 +1117,7 @@
   },
   "HAUNTER": {
     "frontPics": "gMonFrontPic_Haunter",
+    "index": 93,
     "backPics": "gMonBackPic_Haunter",
     "normPalette": "gMonPalette_Haunter",
     "shinyPalette": "gMonShinyPalette_Haunter",
@@ -1035,6 +1129,7 @@
   },
   "GENGAR": {
     "frontPics": "gMonFrontPic_Gengar",
+    "index": 94,
     "backPics": "gMonBackPic_Gengar",
     "normPalette": "gMonPalette_Gengar",
     "shinyPalette": "gMonShinyPalette_Gengar",
@@ -1046,6 +1141,7 @@
   },
   "ONIX": {
     "frontPics": "gMonFrontPic_Onix",
+    "index": 95,
     "backPics": "gMonBackPic_Onix",
     "normPalette": "gMonPalette_Onix",
     "shinyPalette": "gMonShinyPalette_Onix",
@@ -1057,6 +1153,7 @@
   },
   "DROWZEE": {
     "frontPics": "gMonFrontPic_Drowzee",
+    "index": 96,
     "backPics": "gMonBackPic_Drowzee",
     "normPalette": "gMonPalette_Drowzee",
     "shinyPalette": "gMonShinyPalette_Drowzee",
@@ -1068,6 +1165,7 @@
   },
   "HYPNO": {
     "frontPics": "gMonFrontPic_Hypno",
+    "index": 97,
     "backPics": "gMonBackPic_Hypno",
     "normPalette": "gMonPalette_Hypno",
     "shinyPalette": "gMonShinyPalette_Hypno",
@@ -1079,6 +1177,7 @@
   },
   "KRABBY": {
     "frontPics": "gMonFrontPic_Krabby",
+    "index": 98,
     "backPics": "gMonBackPic_Krabby",
     "normPalette": "gMonPalette_Krabby",
     "shinyPalette": "gMonShinyPalette_Krabby",
@@ -1090,6 +1189,7 @@
   },
   "KINGLER": {
     "frontPics": "gMonFrontPic_Kingler",
+    "index": 99,
     "backPics": "gMonBackPic_Kingler",
     "normPalette": "gMonPalette_Kingler",
     "shinyPalette": "gMonShinyPalette_Kingler",
@@ -1101,6 +1201,7 @@
   },
   "VOLTORB": {
     "frontPics": "gMonFrontPic_Voltorb",
+    "index": 100,
     "backPics": "gMonBackPic_Voltorb",
     "normPalette": "gMonPalette_Voltorb",
     "shinyPalette": "gMonShinyPalette_Voltorb",
@@ -1112,6 +1213,7 @@
   },
   "ELECTRODE": {
     "frontPics": "gMonFrontPic_Electrode",
+    "index": 101,
     "backPics": "gMonBackPic_Electrode",
     "normPalette": "gMonPalette_Electrode",
     "shinyPalette": "gMonShinyPalette_Electrode",
@@ -1123,6 +1225,7 @@
   },
   "EXEGGCUTE": {
     "frontPics": "gMonFrontPic_Exeggcute",
+    "index": 102,
     "backPics": "gMonBackPic_Exeggcute",
     "normPalette": "gMonPalette_Exeggcute",
     "shinyPalette": "gMonShinyPalette_Exeggcute",
@@ -1134,6 +1237,7 @@
   },
   "EXEGGUTOR": {
     "frontPics": "gMonFrontPic_Exeggutor",
+    "index": 103,
     "backPics": "gMonBackPic_Exeggutor",
     "normPalette": "gMonPalette_Exeggutor",
     "shinyPalette": "gMonShinyPalette_Exeggutor",
@@ -1145,6 +1249,7 @@
   },
   "CUBONE": {
     "frontPics": "gMonFrontPic_Cubone",
+    "index": 104,
     "backPics": "gMonBackPic_Cubone",
     "normPalette": "gMonPalette_Cubone",
     "shinyPalette": "gMonShinyPalette_Cubone",
@@ -1156,6 +1261,7 @@
   },
   "MAROWAK": {
     "frontPics": "gMonFrontPic_Marowak",
+    "index": 105,
     "backPics": "gMonBackPic_Marowak",
     "normPalette": "gMonPalette_Marowak",
     "shinyPalette": "gMonShinyPalette_Marowak",
@@ -1167,6 +1273,7 @@
   },
   "HITMONLEE": {
     "frontPics": "gMonFrontPic_Hitmonlee",
+    "index": 106,
     "backPics": "gMonBackPic_Hitmonlee",
     "normPalette": "gMonPalette_Hitmonlee",
     "shinyPalette": "gMonShinyPalette_Hitmonlee",
@@ -1178,6 +1285,7 @@
   },
   "HITMONCHAN": {
     "frontPics": "gMonFrontPic_Hitmonchan",
+    "index": 107,
     "backPics": "gMonBackPic_Hitmonchan",
     "normPalette": "gMonPalette_Hitmonchan",
     "shinyPalette": "gMonShinyPalette_Hitmonchan",
@@ -1189,6 +1297,7 @@
   },
   "LICKITUNG": {
     "frontPics": "gMonFrontPic_Lickitung",
+    "index": 108,
     "backPics": "gMonBackPic_Lickitung",
     "normPalette": "gMonPalette_Lickitung",
     "shinyPalette": "gMonShinyPalette_Lickitung",
@@ -1200,6 +1309,7 @@
   },
   "KOFFING": {
     "frontPics": "gMonFrontPic_Koffing",
+    "index": 109,
     "backPics": "gMonBackPic_Koffing",
     "normPalette": "gMonPalette_Koffing",
     "shinyPalette": "gMonShinyPalette_Koffing",
@@ -1211,6 +1321,7 @@
   },
   "WEEZING": {
     "frontPics": "gMonFrontPic_Weezing",
+    "index": 110,
     "backPics": "gMonBackPic_Weezing",
     "normPalette": "gMonPalette_Weezing",
     "shinyPalette": "gMonShinyPalette_Weezing",
@@ -1222,6 +1333,7 @@
   },
   "RHYHORN": {
     "frontPics": "gMonFrontPic_Rhyhorn",
+    "index": 111,
     "backPics": "gMonBackPic_Rhyhorn",
     "normPalette": "gMonPalette_Rhyhorn",
     "shinyPalette": "gMonShinyPalette_Rhyhorn",
@@ -1233,6 +1345,7 @@
   },
   "RHYDON": {
     "frontPics": "gMonFrontPic_Rhydon",
+    "index": 112,
     "backPics": "gMonBackPic_Rhydon",
     "normPalette": "gMonPalette_Rhydon",
     "shinyPalette": "gMonShinyPalette_Rhydon",
@@ -1244,6 +1357,7 @@
   },
   "CHANSEY": {
     "frontPics": "gMonFrontPic_Chansey",
+    "index": 113,
     "backPics": "gMonBackPic_Chansey",
     "normPalette": "gMonPalette_Chansey",
     "shinyPalette": "gMonShinyPalette_Chansey",
@@ -1255,6 +1369,7 @@
   },
   "TANGELA": {
     "frontPics": "gMonFrontPic_Tangela",
+    "index": 114,
     "backPics": "gMonBackPic_Tangela",
     "normPalette": "gMonPalette_Tangela",
     "shinyPalette": "gMonShinyPalette_Tangela",
@@ -1266,6 +1381,7 @@
   },
   "KANGASKHAN": {
     "frontPics": "gMonFrontPic_Kangaskhan",
+    "index": 115,
     "backPics": "gMonBackPic_Kangaskhan",
     "normPalette": "gMonPalette_Kangaskhan",
     "shinyPalette": "gMonShinyPalette_Kangaskhan",
@@ -1277,6 +1393,7 @@
   },
   "HORSEA": {
     "frontPics": "gMonFrontPic_Horsea",
+    "index": 116,
     "backPics": "gMonBackPic_Horsea",
     "normPalette": "gMonPalette_Horsea",
     "shinyPalette": "gMonShinyPalette_Horsea",
@@ -1288,6 +1405,7 @@
   },
   "SEADRA": {
     "frontPics": "gMonFrontPic_Seadra",
+    "index": 117,
     "backPics": "gMonBackPic_Seadra",
     "normPalette": "gMonPalette_Seadra",
     "shinyPalette": "gMonShinyPalette_Seadra",
@@ -1299,6 +1417,7 @@
   },
   "GOLDEEN": {
     "frontPics": "gMonFrontPic_Goldeen",
+    "index": 118,
     "backPics": "gMonBackPic_Goldeen",
     "normPalette": "gMonPalette_Goldeen",
     "shinyPalette": "gMonShinyPalette_Goldeen",
@@ -1310,6 +1429,7 @@
   },
   "SEAKING": {
     "frontPics": "gMonFrontPic_Seaking",
+    "index": 119,
     "backPics": "gMonBackPic_Seaking",
     "normPalette": "gMonPalette_Seaking",
     "shinyPalette": "gMonShinyPalette_Seaking",
@@ -1321,6 +1441,7 @@
   },
   "STARYU": {
     "frontPics": "gMonFrontPic_Staryu",
+    "index": 120,
     "backPics": "gMonBackPic_Staryu",
     "normPalette": "gMonPalette_Staryu",
     "shinyPalette": "gMonShinyPalette_Staryu",
@@ -1332,6 +1453,7 @@
   },
   "STARMIE": {
     "frontPics": "gMonFrontPic_Starmie",
+    "index": 121,
     "backPics": "gMonBackPic_Starmie",
     "normPalette": "gMonPalette_Starmie",
     "shinyPalette": "gMonShinyPalette_Starmie",
@@ -1343,6 +1465,7 @@
   },
   "MR_MIME": {
     "frontPics": "gMonFrontPic_Mrmime",
+    "index": 122,
     "backPics": "gMonBackPic_Mrmime",
     "normPalette": "gMonPalette_Mrmime",
     "shinyPalette": "gMonShinyPalette_Mrmime",
@@ -1354,6 +1477,7 @@
   },
   "SCYTHER": {
     "frontPics": "gMonFrontPic_Scyther",
+    "index": 123,
     "backPics": "gMonBackPic_Scyther",
     "normPalette": "gMonPalette_Scyther",
     "shinyPalette": "gMonShinyPalette_Scyther",
@@ -1365,6 +1489,7 @@
   },
   "JYNX": {
     "frontPics": "gMonFrontPic_Jynx",
+    "index": 124,
     "backPics": "gMonBackPic_Jynx",
     "normPalette": "gMonPalette_Jynx",
     "shinyPalette": "gMonShinyPalette_Jynx",
@@ -1376,6 +1501,7 @@
   },
   "ELECTABUZZ": {
     "frontPics": "gMonFrontPic_Electabuzz",
+    "index": 125,
     "backPics": "gMonBackPic_Electabuzz",
     "normPalette": "gMonPalette_Electabuzz",
     "shinyPalette": "gMonShinyPalette_Electabuzz",
@@ -1387,6 +1513,7 @@
   },
   "MAGMAR": {
     "frontPics": "gMonFrontPic_Magmar",
+    "index": 126,
     "backPics": "gMonBackPic_Magmar",
     "normPalette": "gMonPalette_Magmar",
     "shinyPalette": "gMonShinyPalette_Magmar",
@@ -1398,6 +1525,7 @@
   },
   "PINSIR": {
     "frontPics": "gMonFrontPic_Pinsir",
+    "index": 127,
     "backPics": "gMonBackPic_Pinsir",
     "normPalette": "gMonPalette_Pinsir",
     "shinyPalette": "gMonShinyPalette_Pinsir",
@@ -1409,6 +1537,7 @@
   },
   "TAUROS": {
     "frontPics": "gMonFrontPic_Tauros",
+    "index": 128,
     "backPics": "gMonBackPic_Tauros",
     "normPalette": "gMonPalette_Tauros",
     "shinyPalette": "gMonShinyPalette_Tauros",
@@ -1420,6 +1549,7 @@
   },
   "MAGIKARP": {
     "frontPics": "gMonFrontPic_Magikarp",
+    "index": 129,
     "backPics": "gMonBackPic_Magikarp",
     "normPalette": "gMonPalette_Magikarp",
     "shinyPalette": "gMonShinyPalette_Magikarp",
@@ -1431,6 +1561,7 @@
   },
   "GYARADOS": {
     "frontPics": "gMonFrontPic_Gyarados",
+    "index": 130,
     "backPics": "gMonBackPic_Gyarados",
     "normPalette": "gMonPalette_Gyarados",
     "shinyPalette": "gMonShinyPalette_Gyarados",
@@ -1442,6 +1573,7 @@
   },
   "LAPRAS": {
     "frontPics": "gMonFrontPic_Lapras",
+    "index": 131,
     "backPics": "gMonBackPic_Lapras",
     "normPalette": "gMonPalette_Lapras",
     "shinyPalette": "gMonShinyPalette_Lapras",
@@ -1453,6 +1585,7 @@
   },
   "DITTO": {
     "frontPics": "gMonFrontPic_Ditto",
+    "index": 132,
     "backPics": "gMonBackPic_Ditto",
     "normPalette": "gMonPalette_Ditto",
     "shinyPalette": "gMonShinyPalette_Ditto",
@@ -1464,6 +1597,7 @@
   },
   "EEVEE": {
     "frontPics": "gMonFrontPic_Eevee",
+    "index": 133,
     "backPics": "gMonBackPic_Eevee",
     "normPalette": "gMonPalette_Eevee",
     "shinyPalette": "gMonShinyPalette_Eevee",
@@ -1475,6 +1609,7 @@
   },
   "VAPOREON": {
     "frontPics": "gMonFrontPic_Vaporeon",
+    "index": 134,
     "backPics": "gMonBackPic_Vaporeon",
     "normPalette": "gMonPalette_Vaporeon",
     "shinyPalette": "gMonShinyPalette_Vaporeon",
@@ -1486,6 +1621,7 @@
   },
   "JOLTEON": {
     "frontPics": "gMonFrontPic_Jolteon",
+    "index": 135,
     "backPics": "gMonBackPic_Jolteon",
     "normPalette": "gMonPalette_Jolteon",
     "shinyPalette": "gMonShinyPalette_Jolteon",
@@ -1497,6 +1633,7 @@
   },
   "FLAREON": {
     "frontPics": "gMonFrontPic_Flareon",
+    "index": 136,
     "backPics": "gMonBackPic_Flareon",
     "normPalette": "gMonPalette_Flareon",
     "shinyPalette": "gMonShinyPalette_Flareon",
@@ -1508,6 +1645,7 @@
   },
   "PORYGON": {
     "frontPics": "gMonFrontPic_Porygon",
+    "index": 137,
     "backPics": "gMonBackPic_Porygon",
     "normPalette": "gMonPalette_Porygon",
     "shinyPalette": "gMonShinyPalette_Porygon",
@@ -1519,6 +1657,7 @@
   },
   "OMANYTE": {
     "frontPics": "gMonFrontPic_Omanyte",
+    "index": 138,
     "backPics": "gMonBackPic_Omanyte",
     "normPalette": "gMonPalette_Omanyte",
     "shinyPalette": "gMonShinyPalette_Omanyte",
@@ -1530,6 +1669,7 @@
   },
   "OMASTAR": {
     "frontPics": "gMonFrontPic_Omastar",
+    "index": 139,
     "backPics": "gMonBackPic_Omastar",
     "normPalette": "gMonPalette_Omastar",
     "shinyPalette": "gMonShinyPalette_Omastar",
@@ -1541,6 +1681,7 @@
   },
   "KABUTO": {
     "frontPics": "gMonFrontPic_Kabuto",
+    "index": 140,
     "backPics": "gMonBackPic_Kabuto",
     "normPalette": "gMonPalette_Kabuto",
     "shinyPalette": "gMonShinyPalette_Kabuto",
@@ -1552,6 +1693,7 @@
   },
   "KABUTOPS": {
     "frontPics": "gMonFrontPic_Kabutops",
+    "index": 141,
     "backPics": "gMonBackPic_Kabutops",
     "normPalette": "gMonPalette_Kabutops",
     "shinyPalette": "gMonShinyPalette_Kabutops",
@@ -1563,6 +1705,7 @@
   },
   "AERODACTYL": {
     "frontPics": "gMonFrontPic_Aerodactyl",
+    "index": 142,
     "backPics": "gMonBackPic_Aerodactyl",
     "normPalette": "gMonPalette_Aerodactyl",
     "shinyPalette": "gMonShinyPalette_Aerodactyl",
@@ -1574,6 +1717,7 @@
   },
   "SNORLAX": {
     "frontPics": "gMonFrontPic_Snorlax",
+    "index": 143,
     "backPics": "gMonBackPic_Snorlax",
     "normPalette": "gMonPalette_Snorlax",
     "shinyPalette": "gMonShinyPalette_Snorlax",
@@ -1585,6 +1729,7 @@
   },
   "ARTICUNO": {
     "frontPics": "gMonFrontPic_Articuno",
+    "index": 144,
     "backPics": "gMonBackPic_Articuno",
     "normPalette": "gMonPalette_Articuno",
     "shinyPalette": "gMonShinyPalette_Articuno",
@@ -1596,6 +1741,7 @@
   },
   "ZAPDOS": {
     "frontPics": "gMonFrontPic_Zapdos",
+    "index": 145,
     "backPics": "gMonBackPic_Zapdos",
     "normPalette": "gMonPalette_Zapdos",
     "shinyPalette": "gMonShinyPalette_Zapdos",
@@ -1607,6 +1753,7 @@
   },
   "MOLTRES": {
     "frontPics": "gMonFrontPic_Moltres",
+    "index": 146,
     "backPics": "gMonBackPic_Moltres",
     "normPalette": "gMonPalette_Moltres",
     "shinyPalette": "gMonShinyPalette_Moltres",
@@ -1618,6 +1765,7 @@
   },
   "DRATINI": {
     "frontPics": "gMonFrontPic_Dratini",
+    "index": 147,
     "backPics": "gMonBackPic_Dratini",
     "normPalette": "gMonPalette_Dratini",
     "shinyPalette": "gMonShinyPalette_Dratini",
@@ -1629,6 +1777,7 @@
   },
   "DRAGONAIR": {
     "frontPics": "gMonFrontPic_Dragonair",
+    "index": 148,
     "backPics": "gMonBackPic_Dragonair",
     "normPalette": "gMonPalette_Dragonair",
     "shinyPalette": "gMonShinyPalette_Dragonair",
@@ -1640,6 +1789,7 @@
   },
   "DRAGONITE": {
     "frontPics": "gMonFrontPic_Dragonite",
+    "index": 149,
     "backPics": "gMonBackPic_Dragonite",
     "normPalette": "gMonPalette_Dragonite",
     "shinyPalette": "gMonShinyPalette_Dragonite",
@@ -1651,6 +1801,7 @@
   },
   "MEWTWO": {
     "frontPics": "gMonFrontPic_Mewtwo",
+    "index": 150,
     "backPics": "gMonBackPic_Mewtwo",
     "normPalette": "gMonPalette_Mewtwo",
     "shinyPalette": "gMonShinyPalette_Mewtwo",
@@ -1662,6 +1813,7 @@
   },
   "MEW": {
     "frontPics": "gMonFrontPic_Mew",
+    "index": 151,
     "backPics": "gMonBackPic_Mew",
     "normPalette": "gMonPalette_Mew",
     "shinyPalette": "gMonShinyPalette_Mew",
@@ -1673,6 +1825,7 @@
   },
   "CHIKORITA": {
     "frontPics": "gMonFrontPic_Chikorita",
+    "index": 152,
     "backPics": "gMonBackPic_Chikorita",
     "normPalette": "gMonPalette_Chikorita",
     "shinyPalette": "gMonShinyPalette_Chikorita",
@@ -1684,6 +1837,7 @@
   },
   "BAYLEEF": {
     "frontPics": "gMonFrontPic_Bayleef",
+    "index": 153,
     "backPics": "gMonBackPic_Bayleef",
     "normPalette": "gMonPalette_Bayleef",
     "shinyPalette": "gMonShinyPalette_Bayleef",
@@ -1695,6 +1849,7 @@
   },
   "MEGANIUM": {
     "frontPics": "gMonFrontPic_Meganium",
+    "index": 154,
     "backPics": "gMonBackPic_Meganium",
     "normPalette": "gMonPalette_Meganium",
     "shinyPalette": "gMonShinyPalette_Meganium",
@@ -1706,6 +1861,7 @@
   },
   "CYNDAQUIL": {
     "frontPics": "gMonFrontPic_Cyndaquil",
+    "index": 155,
     "backPics": "gMonBackPic_Cyndaquil",
     "normPalette": "gMonPalette_Cyndaquil",
     "shinyPalette": "gMonShinyPalette_Cyndaquil",
@@ -1717,6 +1873,7 @@
   },
   "QUILAVA": {
     "frontPics": "gMonFrontPic_Quilava",
+    "index": 156,
     "backPics": "gMonBackPic_Quilava",
     "normPalette": "gMonPalette_Quilava",
     "shinyPalette": "gMonShinyPalette_Quilava",
@@ -1728,6 +1885,7 @@
   },
   "TYPHLOSION": {
     "frontPics": "gMonFrontPic_Typhlosion",
+    "index": 157,
     "backPics": "gMonBackPic_Typhlosion",
     "normPalette": "gMonPalette_Typhlosion",
     "shinyPalette": "gMonShinyPalette_Typhlosion",
@@ -1739,6 +1897,7 @@
   },
   "TOTODILE": {
     "frontPics": "gMonFrontPic_Totodile",
+    "index": 158,
     "backPics": "gMonBackPic_Totodile",
     "normPalette": "gMonPalette_Totodile",
     "shinyPalette": "gMonShinyPalette_Totodile",
@@ -1750,6 +1909,7 @@
   },
   "CROCONAW": {
     "frontPics": "gMonFrontPic_Croconaw",
+    "index": 159,
     "backPics": "gMonBackPic_Croconaw",
     "normPalette": "gMonPalette_Croconaw",
     "shinyPalette": "gMonShinyPalette_Croconaw",
@@ -1761,6 +1921,7 @@
   },
   "FERALIGATR": {
     "frontPics": "gMonFrontPic_Feraligatr",
+    "index": 160,
     "backPics": "gMonBackPic_Feraligatr",
     "normPalette": "gMonPalette_Feraligatr",
     "shinyPalette": "gMonShinyPalette_Feraligatr",
@@ -1772,6 +1933,7 @@
   },
   "SENTRET": {
     "frontPics": "gMonFrontPic_Sentret",
+    "index": 161,
     "backPics": "gMonBackPic_Sentret",
     "normPalette": "gMonPalette_Sentret",
     "shinyPalette": "gMonShinyPalette_Sentret",
@@ -1783,6 +1945,7 @@
   },
   "FURRET": {
     "frontPics": "gMonFrontPic_Furret",
+    "index": 162,
     "backPics": "gMonBackPic_Furret",
     "normPalette": "gMonPalette_Furret",
     "shinyPalette": "gMonShinyPalette_Furret",
@@ -1794,6 +1957,7 @@
   },
   "HOOTHOOT": {
     "frontPics": "gMonFrontPic_Hoothoot",
+    "index": 163,
     "backPics": "gMonBackPic_Hoothoot",
     "normPalette": "gMonPalette_Hoothoot",
     "shinyPalette": "gMonShinyPalette_Hoothoot",
@@ -1805,6 +1969,7 @@
   },
   "NOCTOWL": {
     "frontPics": "gMonFrontPic_Noctowl",
+    "index": 164,
     "backPics": "gMonBackPic_Noctowl",
     "normPalette": "gMonPalette_Noctowl",
     "shinyPalette": "gMonShinyPalette_Noctowl",
@@ -1816,6 +1981,7 @@
   },
   "LEDYBA": {
     "frontPics": "gMonFrontPic_Ledyba",
+    "index": 165,
     "backPics": "gMonBackPic_Ledyba",
     "normPalette": "gMonPalette_Ledyba",
     "shinyPalette": "gMonShinyPalette_Ledyba",
@@ -1827,6 +1993,7 @@
   },
   "LEDIAN": {
     "frontPics": "gMonFrontPic_Ledian",
+    "index": 166,
     "backPics": "gMonBackPic_Ledian",
     "normPalette": "gMonPalette_Ledian",
     "shinyPalette": "gMonShinyPalette_Ledian",
@@ -1838,6 +2005,7 @@
   },
   "SPINARAK": {
     "frontPics": "gMonFrontPic_Spinarak",
+    "index": 167,
     "backPics": "gMonBackPic_Spinarak",
     "normPalette": "gMonPalette_Spinarak",
     "shinyPalette": "gMonShinyPalette_Spinarak",
@@ -1849,6 +2017,7 @@
   },
   "ARIADOS": {
     "frontPics": "gMonFrontPic_Ariados",
+    "index": 168,
     "backPics": "gMonBackPic_Ariados",
     "normPalette": "gMonPalette_Ariados",
     "shinyPalette": "gMonShinyPalette_Ariados",
@@ -1860,6 +2029,7 @@
   },
   "CROBAT": {
     "frontPics": "gMonFrontPic_Crobat",
+    "index": 169,
     "backPics": "gMonBackPic_Crobat",
     "normPalette": "gMonPalette_Crobat",
     "shinyPalette": "gMonShinyPalette_Crobat",
@@ -1871,6 +2041,7 @@
   },
   "CHINCHOU": {
     "frontPics": "gMonFrontPic_Chinchou",
+    "index": 170,
     "backPics": "gMonBackPic_Chinchou",
     "normPalette": "gMonPalette_Chinchou",
     "shinyPalette": "gMonShinyPalette_Chinchou",
@@ -1882,6 +2053,7 @@
   },
   "LANTURN": {
     "frontPics": "gMonFrontPic_Lanturn",
+    "index": 171,
     "backPics": "gMonBackPic_Lanturn",
     "normPalette": "gMonPalette_Lanturn",
     "shinyPalette": "gMonShinyPalette_Lanturn",
@@ -1893,6 +2065,7 @@
   },
   "PICHU": {
     "frontPics": "gMonFrontPic_Pichu",
+    "index": 172,
     "backPics": "gMonBackPic_Pichu",
     "normPalette": "gMonPalette_Pichu",
     "shinyPalette": "gMonShinyPalette_Pichu",
@@ -1904,6 +2077,7 @@
   },
   "CLEFFA": {
     "frontPics": "gMonFrontPic_Cleffa",
+    "index": 173,
     "backPics": "gMonBackPic_Cleffa",
     "normPalette": "gMonPalette_Cleffa",
     "shinyPalette": "gMonShinyPalette_Cleffa",
@@ -1915,6 +2089,7 @@
   },
   "IGGLYBUFF": {
     "frontPics": "gMonFrontPic_Igglybuff",
+    "index": 174,
     "backPics": "gMonBackPic_Igglybuff",
     "normPalette": "gMonPalette_Igglybuff",
     "shinyPalette": "gMonShinyPalette_Igglybuff",
@@ -1926,6 +2101,7 @@
   },
   "TOGEPI": {
     "frontPics": "gMonFrontPic_Togepi",
+    "index": 175,
     "backPics": "gMonBackPic_Togepi",
     "normPalette": "gMonPalette_Togepi",
     "shinyPalette": "gMonShinyPalette_Togepi",
@@ -1937,6 +2113,7 @@
   },
   "TOGETIC": {
     "frontPics": "gMonFrontPic_Togetic",
+    "index": 176,
     "backPics": "gMonBackPic_Togetic",
     "normPalette": "gMonPalette_Togetic",
     "shinyPalette": "gMonShinyPalette_Togetic",
@@ -1948,6 +2125,7 @@
   },
   "NATU": {
     "frontPics": "gMonFrontPic_Natu",
+    "index": 177,
     "backPics": "gMonBackPic_Natu",
     "normPalette": "gMonPalette_Natu",
     "shinyPalette": "gMonShinyPalette_Natu",
@@ -1959,6 +2137,7 @@
   },
   "XATU": {
     "frontPics": "gMonFrontPic_Xatu",
+    "index": 178,
     "backPics": "gMonBackPic_Xatu",
     "normPalette": "gMonPalette_Xatu",
     "shinyPalette": "gMonShinyPalette_Xatu",
@@ -1970,6 +2149,7 @@
   },
   "MAREEP": {
     "frontPics": "gMonFrontPic_Mareep",
+    "index": 179,
     "backPics": "gMonBackPic_Mareep",
     "normPalette": "gMonPalette_Mareep",
     "shinyPalette": "gMonShinyPalette_Mareep",
@@ -1981,6 +2161,7 @@
   },
   "FLAAFFY": {
     "frontPics": "gMonFrontPic_Flaaffy",
+    "index": 180,
     "backPics": "gMonBackPic_Flaaffy",
     "normPalette": "gMonPalette_Flaaffy",
     "shinyPalette": "gMonShinyPalette_Flaaffy",
@@ -1992,6 +2173,7 @@
   },
   "AMPHAROS": {
     "frontPics": "gMonFrontPic_Ampharos",
+    "index": 181,
     "backPics": "gMonBackPic_Ampharos",
     "normPalette": "gMonPalette_Ampharos",
     "shinyPalette": "gMonShinyPalette_Ampharos",
@@ -2003,6 +2185,7 @@
   },
   "BELLOSSOM": {
     "frontPics": "gMonFrontPic_Bellossom",
+    "index": 182,
     "backPics": "gMonBackPic_Bellossom",
     "normPalette": "gMonPalette_Bellossom",
     "shinyPalette": "gMonShinyPalette_Bellossom",
@@ -2014,6 +2197,7 @@
   },
   "MARILL": {
     "frontPics": "gMonFrontPic_Marill",
+    "index": 183,
     "backPics": "gMonBackPic_Marill",
     "normPalette": "gMonPalette_Marill",
     "shinyPalette": "gMonShinyPalette_Marill",
@@ -2025,6 +2209,7 @@
   },
   "AZUMARILL": {
     "frontPics": "gMonFrontPic_Azumarill",
+    "index": 184,
     "backPics": "gMonBackPic_Azumarill",
     "normPalette": "gMonPalette_Azumarill",
     "shinyPalette": "gMonShinyPalette_Azumarill",
@@ -2036,6 +2221,7 @@
   },
   "SUDOWOODO": {
     "frontPics": "gMonFrontPic_Sudowoodo",
+    "index": 185,
     "backPics": "gMonBackPic_Sudowoodo",
     "normPalette": "gMonPalette_Sudowoodo",
     "shinyPalette": "gMonShinyPalette_Sudowoodo",
@@ -2047,6 +2233,7 @@
   },
   "POLITOED": {
     "frontPics": "gMonFrontPic_Politoed",
+    "index": 186,
     "backPics": "gMonBackPic_Politoed",
     "normPalette": "gMonPalette_Politoed",
     "shinyPalette": "gMonShinyPalette_Politoed",
@@ -2058,6 +2245,7 @@
   },
   "HOPPIP": {
     "frontPics": "gMonFrontPic_Hoppip",
+    "index": 187,
     "backPics": "gMonBackPic_Hoppip",
     "normPalette": "gMonPalette_Hoppip",
     "shinyPalette": "gMonShinyPalette_Hoppip",
@@ -2069,6 +2257,7 @@
   },
   "SKIPLOOM": {
     "frontPics": "gMonFrontPic_Skiploom",
+    "index": 188,
     "backPics": "gMonBackPic_Skiploom",
     "normPalette": "gMonPalette_Skiploom",
     "shinyPalette": "gMonShinyPalette_Skiploom",
@@ -2080,6 +2269,7 @@
   },
   "JUMPLUFF": {
     "frontPics": "gMonFrontPic_Jumpluff",
+    "index": 189,
     "backPics": "gMonBackPic_Jumpluff",
     "normPalette": "gMonPalette_Jumpluff",
     "shinyPalette": "gMonShinyPalette_Jumpluff",
@@ -2091,6 +2281,7 @@
   },
   "AIPOM": {
     "frontPics": "gMonFrontPic_Aipom",
+    "index": 190,
     "backPics": "gMonBackPic_Aipom",
     "normPalette": "gMonPalette_Aipom",
     "shinyPalette": "gMonShinyPalette_Aipom",
@@ -2102,6 +2293,7 @@
   },
   "SUNKERN": {
     "frontPics": "gMonFrontPic_Sunkern",
+    "index": 191,
     "backPics": "gMonBackPic_Sunkern",
     "normPalette": "gMonPalette_Sunkern",
     "shinyPalette": "gMonShinyPalette_Sunkern",
@@ -2113,6 +2305,7 @@
   },
   "SUNFLORA": {
     "frontPics": "gMonFrontPic_Sunflora",
+    "index": 192,
     "backPics": "gMonBackPic_Sunflora",
     "normPalette": "gMonPalette_Sunflora",
     "shinyPalette": "gMonShinyPalette_Sunflora",
@@ -2124,6 +2317,7 @@
   },
   "YANMA": {
     "frontPics": "gMonFrontPic_Yanma",
+    "index": 193,
     "backPics": "gMonBackPic_Yanma",
     "normPalette": "gMonPalette_Yanma",
     "shinyPalette": "gMonShinyPalette_Yanma",
@@ -2135,6 +2329,7 @@
   },
   "WOOPER": {
     "frontPics": "gMonFrontPic_Wooper",
+    "index": 194,
     "backPics": "gMonBackPic_Wooper",
     "normPalette": "gMonPalette_Wooper",
     "shinyPalette": "gMonShinyPalette_Wooper",
@@ -2146,6 +2341,7 @@
   },
   "QUAGSIRE": {
     "frontPics": "gMonFrontPic_Quagsire",
+    "index": 195,
     "backPics": "gMonBackPic_Quagsire",
     "normPalette": "gMonPalette_Quagsire",
     "shinyPalette": "gMonShinyPalette_Quagsire",
@@ -2157,6 +2353,7 @@
   },
   "ESPEON": {
     "frontPics": "gMonFrontPic_Espeon",
+    "index": 196,
     "backPics": "gMonBackPic_Espeon",
     "normPalette": "gMonPalette_Espeon",
     "shinyPalette": "gMonShinyPalette_Espeon",
@@ -2168,6 +2365,7 @@
   },
   "UMBREON": {
     "frontPics": "gMonFrontPic_Umbreon",
+    "index": 197,
     "backPics": "gMonBackPic_Umbreon",
     "normPalette": "gMonPalette_Umbreon",
     "shinyPalette": "gMonShinyPalette_Umbreon",
@@ -2179,6 +2377,7 @@
   },
   "MURKROW": {
     "frontPics": "gMonFrontPic_Murkrow",
+    "index": 198,
     "backPics": "gMonBackPic_Murkrow",
     "normPalette": "gMonPalette_Murkrow",
     "shinyPalette": "gMonShinyPalette_Murkrow",
@@ -2190,6 +2389,7 @@
   },
   "SLOWKING": {
     "frontPics": "gMonFrontPic_Slowking",
+    "index": 199,
     "backPics": "gMonBackPic_Slowking",
     "normPalette": "gMonPalette_Slowking",
     "shinyPalette": "gMonShinyPalette_Slowking",
@@ -2201,6 +2401,7 @@
   },
   "MISDREAVUS": {
     "frontPics": "gMonFrontPic_Misdreavus",
+    "index": 200,
     "backPics": "gMonBackPic_Misdreavus",
     "normPalette": "gMonPalette_Misdreavus",
     "shinyPalette": "gMonShinyPalette_Misdreavus",
@@ -2212,6 +2413,7 @@
   },
   "UNOWN": {
     "frontPics": "gMonFrontPic_UnownA",
+    "index": 201,
     "backPics": "gMonBackPic_UnownA",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -2223,6 +2425,7 @@
   },
   "WOBBUFFET": {
     "frontPics": "gMonFrontPic_Wobbuffet",
+    "index": 202,
     "backPics": "gMonBackPic_Wobbuffet",
     "normPalette": "gMonPalette_Wobbuffet",
     "shinyPalette": "gMonShinyPalette_Wobbuffet",
@@ -2234,6 +2437,7 @@
   },
   "GIRAFARIG": {
     "frontPics": "gMonFrontPic_Girafarig",
+    "index": 203,
     "backPics": "gMonBackPic_Girafarig",
     "normPalette": "gMonPalette_Girafarig",
     "shinyPalette": "gMonShinyPalette_Girafarig",
@@ -2245,6 +2449,7 @@
   },
   "PINECO": {
     "frontPics": "gMonFrontPic_Pineco",
+    "index": 204,
     "backPics": "gMonBackPic_Pineco",
     "normPalette": "gMonPalette_Pineco",
     "shinyPalette": "gMonShinyPalette_Pineco",
@@ -2256,6 +2461,7 @@
   },
   "FORRETRESS": {
     "frontPics": "gMonFrontPic_Forretress",
+    "index": 205,
     "backPics": "gMonBackPic_Forretress",
     "normPalette": "gMonPalette_Forretress",
     "shinyPalette": "gMonShinyPalette_Forretress",
@@ -2267,6 +2473,7 @@
   },
   "DUNSPARCE": {
     "frontPics": "gMonFrontPic_Dunsparce",
+    "index": 206,
     "backPics": "gMonBackPic_Dunsparce",
     "normPalette": "gMonPalette_Dunsparce",
     "shinyPalette": "gMonShinyPalette_Dunsparce",
@@ -2278,6 +2485,7 @@
   },
   "GLIGAR": {
     "frontPics": "gMonFrontPic_Gligar",
+    "index": 207,
     "backPics": "gMonBackPic_Gligar",
     "normPalette": "gMonPalette_Gligar",
     "shinyPalette": "gMonShinyPalette_Gligar",
@@ -2289,6 +2497,7 @@
   },
   "STEELIX": {
     "frontPics": "gMonFrontPic_Steelix",
+    "index": 208,
     "backPics": "gMonBackPic_Steelix",
     "normPalette": "gMonPalette_Steelix",
     "shinyPalette": "gMonShinyPalette_Steelix",
@@ -2300,6 +2509,7 @@
   },
   "SNUBBULL": {
     "frontPics": "gMonFrontPic_Snubbull",
+    "index": 209,
     "backPics": "gMonBackPic_Snubbull",
     "normPalette": "gMonPalette_Snubbull",
     "shinyPalette": "gMonShinyPalette_Snubbull",
@@ -2311,6 +2521,7 @@
   },
   "GRANBULL": {
     "frontPics": "gMonFrontPic_Granbull",
+    "index": 210,
     "backPics": "gMonBackPic_Granbull",
     "normPalette": "gMonPalette_Granbull",
     "shinyPalette": "gMonShinyPalette_Granbull",
@@ -2322,6 +2533,7 @@
   },
   "QWILFISH": {
     "frontPics": "gMonFrontPic_Qwilfish",
+    "index": 211,
     "backPics": "gMonBackPic_Qwilfish",
     "normPalette": "gMonPalette_Qwilfish",
     "shinyPalette": "gMonShinyPalette_Qwilfish",
@@ -2333,6 +2545,7 @@
   },
   "SCIZOR": {
     "frontPics": "gMonFrontPic_Scizor",
+    "index": 212,
     "backPics": "gMonBackPic_Scizor",
     "normPalette": "gMonPalette_Scizor",
     "shinyPalette": "gMonShinyPalette_Scizor",
@@ -2344,6 +2557,7 @@
   },
   "SHUCKLE": {
     "frontPics": "gMonFrontPic_Shuckle",
+    "index": 213,
     "backPics": "gMonBackPic_Shuckle",
     "normPalette": "gMonPalette_Shuckle",
     "shinyPalette": "gMonShinyPalette_Shuckle",
@@ -2355,6 +2569,7 @@
   },
   "HERACROSS": {
     "frontPics": "gMonFrontPic_Heracross",
+    "index": 214,
     "backPics": "gMonBackPic_Heracross",
     "normPalette": "gMonPalette_Heracross",
     "shinyPalette": "gMonShinyPalette_Heracross",
@@ -2366,6 +2581,7 @@
   },
   "SNEASEL": {
     "frontPics": "gMonFrontPic_Sneasel",
+    "index": 215,
     "backPics": "gMonBackPic_Sneasel",
     "normPalette": "gMonPalette_Sneasel",
     "shinyPalette": "gMonShinyPalette_Sneasel",
@@ -2377,6 +2593,7 @@
   },
   "TEDDIURSA": {
     "frontPics": "gMonFrontPic_Teddiursa",
+    "index": 216,
     "backPics": "gMonBackPic_Teddiursa",
     "normPalette": "gMonPalette_Teddiursa",
     "shinyPalette": "gMonShinyPalette_Teddiursa",
@@ -2388,6 +2605,7 @@
   },
   "URSARING": {
     "frontPics": "gMonFrontPic_Ursaring",
+    "index": 217,
     "backPics": "gMonBackPic_Ursaring",
     "normPalette": "gMonPalette_Ursaring",
     "shinyPalette": "gMonShinyPalette_Ursaring",
@@ -2399,6 +2617,7 @@
   },
   "SLUGMA": {
     "frontPics": "gMonFrontPic_Slugma",
+    "index": 218,
     "backPics": "gMonBackPic_Slugma",
     "normPalette": "gMonPalette_Slugma",
     "shinyPalette": "gMonShinyPalette_Slugma",
@@ -2410,6 +2629,7 @@
   },
   "MAGCARGO": {
     "frontPics": "gMonFrontPic_Magcargo",
+    "index": 219,
     "backPics": "gMonBackPic_Magcargo",
     "normPalette": "gMonPalette_Magcargo",
     "shinyPalette": "gMonShinyPalette_Magcargo",
@@ -2421,6 +2641,7 @@
   },
   "SWINUB": {
     "frontPics": "gMonFrontPic_Swinub",
+    "index": 220,
     "backPics": "gMonBackPic_Swinub",
     "normPalette": "gMonPalette_Swinub",
     "shinyPalette": "gMonShinyPalette_Swinub",
@@ -2432,6 +2653,7 @@
   },
   "PILOSWINE": {
     "frontPics": "gMonFrontPic_Piloswine",
+    "index": 221,
     "backPics": "gMonBackPic_Piloswine",
     "normPalette": "gMonPalette_Piloswine",
     "shinyPalette": "gMonShinyPalette_Piloswine",
@@ -2443,6 +2665,7 @@
   },
   "CORSOLA": {
     "frontPics": "gMonFrontPic_Corsola",
+    "index": 222,
     "backPics": "gMonBackPic_Corsola",
     "normPalette": "gMonPalette_Corsola",
     "shinyPalette": "gMonShinyPalette_Corsola",
@@ -2454,6 +2677,7 @@
   },
   "REMORAID": {
     "frontPics": "gMonFrontPic_Remoraid",
+    "index": 223,
     "backPics": "gMonBackPic_Remoraid",
     "normPalette": "gMonPalette_Remoraid",
     "shinyPalette": "gMonShinyPalette_Remoraid",
@@ -2465,6 +2689,7 @@
   },
   "OCTILLERY": {
     "frontPics": "gMonFrontPic_Octillery",
+    "index": 224,
     "backPics": "gMonBackPic_Octillery",
     "normPalette": "gMonPalette_Octillery",
     "shinyPalette": "gMonShinyPalette_Octillery",
@@ -2476,6 +2701,7 @@
   },
   "DELIBIRD": {
     "frontPics": "gMonFrontPic_Delibird",
+    "index": 225,
     "backPics": "gMonBackPic_Delibird",
     "normPalette": "gMonPalette_Delibird",
     "shinyPalette": "gMonShinyPalette_Delibird",
@@ -2487,6 +2713,7 @@
   },
   "MANTINE": {
     "frontPics": "gMonFrontPic_Mantine",
+    "index": 226,
     "backPics": "gMonBackPic_Mantine",
     "normPalette": "gMonPalette_Mantine",
     "shinyPalette": "gMonShinyPalette_Mantine",
@@ -2498,6 +2725,7 @@
   },
   "SKARMORY": {
     "frontPics": "gMonFrontPic_Skarmory",
+    "index": 227,
     "backPics": "gMonBackPic_Skarmory",
     "normPalette": "gMonPalette_Skarmory",
     "shinyPalette": "gMonShinyPalette_Skarmory",
@@ -2509,6 +2737,7 @@
   },
   "HOUNDOUR": {
     "frontPics": "gMonFrontPic_Houndour",
+    "index": 228,
     "backPics": "gMonBackPic_Houndour",
     "normPalette": "gMonPalette_Houndour",
     "shinyPalette": "gMonShinyPalette_Houndour",
@@ -2520,6 +2749,7 @@
   },
   "HOUNDOOM": {
     "frontPics": "gMonFrontPic_Houndoom",
+    "index": 229,
     "backPics": "gMonBackPic_Houndoom",
     "normPalette": "gMonPalette_Houndoom",
     "shinyPalette": "gMonShinyPalette_Houndoom",
@@ -2531,6 +2761,7 @@
   },
   "KINGDRA": {
     "frontPics": "gMonFrontPic_Kingdra",
+    "index": 230,
     "backPics": "gMonBackPic_Kingdra",
     "normPalette": "gMonPalette_Kingdra",
     "shinyPalette": "gMonShinyPalette_Kingdra",
@@ -2542,6 +2773,7 @@
   },
   "PHANPY": {
     "frontPics": "gMonFrontPic_Phanpy",
+    "index": 231,
     "backPics": "gMonBackPic_Phanpy",
     "normPalette": "gMonPalette_Phanpy",
     "shinyPalette": "gMonShinyPalette_Phanpy",
@@ -2553,6 +2785,7 @@
   },
   "DONPHAN": {
     "frontPics": "gMonFrontPic_Donphan",
+    "index": 232,
     "backPics": "gMonBackPic_Donphan",
     "normPalette": "gMonPalette_Donphan",
     "shinyPalette": "gMonShinyPalette_Donphan",
@@ -2564,6 +2797,7 @@
   },
   "PORYGON2": {
     "frontPics": "gMonFrontPic_Porygon2",
+    "index": 233,
     "backPics": "gMonBackPic_Porygon2",
     "normPalette": "gMonPalette_Porygon2",
     "shinyPalette": "gMonShinyPalette_Porygon2",
@@ -2575,6 +2809,7 @@
   },
   "STANTLER": {
     "frontPics": "gMonFrontPic_Stantler",
+    "index": 234,
     "backPics": "gMonBackPic_Stantler",
     "normPalette": "gMonPalette_Stantler",
     "shinyPalette": "gMonShinyPalette_Stantler",
@@ -2586,6 +2821,7 @@
   },
   "SMEARGLE": {
     "frontPics": "gMonFrontPic_Smeargle",
+    "index": 235,
     "backPics": "gMonBackPic_Smeargle",
     "normPalette": "gMonPalette_Smeargle",
     "shinyPalette": "gMonShinyPalette_Smeargle",
@@ -2597,6 +2833,7 @@
   },
   "TYROGUE": {
     "frontPics": "gMonFrontPic_Tyrogue",
+    "index": 236,
     "backPics": "gMonBackPic_Tyrogue",
     "normPalette": "gMonPalette_Tyrogue",
     "shinyPalette": "gMonShinyPalette_Tyrogue",
@@ -2608,6 +2845,7 @@
   },
   "HITMONTOP": {
     "frontPics": "gMonFrontPic_Hitmontop",
+    "index": 237,
     "backPics": "gMonBackPic_Hitmontop",
     "normPalette": "gMonPalette_Hitmontop",
     "shinyPalette": "gMonShinyPalette_Hitmontop",
@@ -2619,6 +2857,7 @@
   },
   "SMOOCHUM": {
     "frontPics": "gMonFrontPic_Smoochum",
+    "index": 238,
     "backPics": "gMonBackPic_Smoochum",
     "normPalette": "gMonPalette_Smoochum",
     "shinyPalette": "gMonShinyPalette_Smoochum",
@@ -2630,6 +2869,7 @@
   },
   "ELEKID": {
     "frontPics": "gMonFrontPic_Elekid",
+    "index": 239,
     "backPics": "gMonBackPic_Elekid",
     "normPalette": "gMonPalette_Elekid",
     "shinyPalette": "gMonShinyPalette_Elekid",
@@ -2641,6 +2881,7 @@
   },
   "MAGBY": {
     "frontPics": "gMonFrontPic_Magby",
+    "index": 240,
     "backPics": "gMonBackPic_Magby",
     "normPalette": "gMonPalette_Magby",
     "shinyPalette": "gMonShinyPalette_Magby",
@@ -2652,6 +2893,7 @@
   },
   "MILTANK": {
     "frontPics": "gMonFrontPic_Miltank",
+    "index": 241,
     "backPics": "gMonBackPic_Miltank",
     "normPalette": "gMonPalette_Miltank",
     "shinyPalette": "gMonShinyPalette_Miltank",
@@ -2663,6 +2905,7 @@
   },
   "BLISSEY": {
     "frontPics": "gMonFrontPic_Blissey",
+    "index": 242,
     "backPics": "gMonBackPic_Blissey",
     "normPalette": "gMonPalette_Blissey",
     "shinyPalette": "gMonShinyPalette_Blissey",
@@ -2674,6 +2917,7 @@
   },
   "RAIKOU": {
     "frontPics": "gMonFrontPic_Raikou",
+    "index": 243,
     "backPics": "gMonBackPic_Raikou",
     "normPalette": "gMonPalette_Raikou",
     "shinyPalette": "gMonShinyPalette_Raikou",
@@ -2685,6 +2929,7 @@
   },
   "ENTEI": {
     "frontPics": "gMonFrontPic_Entei",
+    "index": 244,
     "backPics": "gMonBackPic_Entei",
     "normPalette": "gMonPalette_Entei",
     "shinyPalette": "gMonShinyPalette_Entei",
@@ -2696,6 +2941,7 @@
   },
   "SUICUNE": {
     "frontPics": "gMonFrontPic_Suicune",
+    "index": 245,
     "backPics": "gMonBackPic_Suicune",
     "normPalette": "gMonPalette_Suicune",
     "shinyPalette": "gMonShinyPalette_Suicune",
@@ -2707,6 +2953,7 @@
   },
   "LARVITAR": {
     "frontPics": "gMonFrontPic_Larvitar",
+    "index": 246,
     "backPics": "gMonBackPic_Larvitar",
     "normPalette": "gMonPalette_Larvitar",
     "shinyPalette": "gMonShinyPalette_Larvitar",
@@ -2718,6 +2965,7 @@
   },
   "PUPITAR": {
     "frontPics": "gMonFrontPic_Pupitar",
+    "index": 247,
     "backPics": "gMonBackPic_Pupitar",
     "normPalette": "gMonPalette_Pupitar",
     "shinyPalette": "gMonShinyPalette_Pupitar",
@@ -2729,6 +2977,7 @@
   },
   "TYRANITAR": {
     "frontPics": "gMonFrontPic_Tyranitar",
+    "index": 248,
     "backPics": "gMonBackPic_Tyranitar",
     "normPalette": "gMonPalette_Tyranitar",
     "shinyPalette": "gMonShinyPalette_Tyranitar",
@@ -2740,6 +2989,7 @@
   },
   "LUGIA": {
     "frontPics": "gMonFrontPic_Lugia",
+    "index": 249,
     "backPics": "gMonBackPic_Lugia",
     "normPalette": "gMonPalette_Lugia",
     "shinyPalette": "gMonShinyPalette_Lugia",
@@ -2751,6 +3001,7 @@
   },
   "HO_OH": {
     "frontPics": "gMonFrontPic_HoOh",
+    "index": 250,
     "backPics": "gMonBackPic_HoOh",
     "normPalette": "gMonPalette_HoOh",
     "shinyPalette": "gMonShinyPalette_HoOh",
@@ -2762,6 +3013,7 @@
   },
   "CELEBI": {
     "frontPics": "gMonFrontPic_Celebi",
+    "index": 251,
     "backPics": "gMonBackPic_Celebi",
     "normPalette": "gMonPalette_Celebi",
     "shinyPalette": "gMonShinyPalette_Celebi",
@@ -2773,6 +3025,7 @@
   },
   "OLD_UNOWN_B": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 252,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2784,6 +3037,7 @@
   },
   "OLD_UNOWN_C": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 253,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2795,6 +3049,7 @@
   },
   "OLD_UNOWN_D": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 254,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2806,6 +3061,7 @@
   },
   "OLD_UNOWN_E": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 255,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2817,6 +3073,7 @@
   },
   "OLD_UNOWN_F": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 256,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2828,6 +3085,7 @@
   },
   "OLD_UNOWN_G": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 257,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2839,6 +3097,7 @@
   },
   "OLD_UNOWN_H": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 258,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2850,6 +3109,7 @@
   },
   "OLD_UNOWN_I": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 259,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2861,6 +3121,7 @@
   },
   "OLD_UNOWN_J": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 260,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2872,6 +3133,7 @@
   },
   "OLD_UNOWN_K": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 261,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2883,6 +3145,7 @@
   },
   "OLD_UNOWN_L": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 262,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2894,6 +3157,7 @@
   },
   "OLD_UNOWN_M": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 263,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2905,6 +3169,7 @@
   },
   "OLD_UNOWN_N": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 264,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2916,6 +3181,7 @@
   },
   "OLD_UNOWN_O": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 265,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2927,6 +3193,7 @@
   },
   "OLD_UNOWN_P": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 266,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2938,6 +3205,7 @@
   },
   "OLD_UNOWN_Q": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 267,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2949,6 +3217,7 @@
   },
   "OLD_UNOWN_R": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 268,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2960,6 +3229,7 @@
   },
   "OLD_UNOWN_S": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 269,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2971,6 +3241,7 @@
   },
   "OLD_UNOWN_T": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 270,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2982,6 +3253,7 @@
   },
   "OLD_UNOWN_U": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 271,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -2993,6 +3265,7 @@
   },
   "OLD_UNOWN_V": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 272,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -3004,6 +3277,7 @@
   },
   "OLD_UNOWN_W": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 273,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -3015,6 +3289,7 @@
   },
   "OLD_UNOWN_X": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 274,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -3026,6 +3301,7 @@
   },
   "OLD_UNOWN_Y": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 275,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -3037,6 +3313,7 @@
   },
   "OLD_UNOWN_Z": {
     "frontPics": "gMonFrontPic_DoubleQuestionMark",
+    "index": 276,
     "backPics": "gMonBackPic_DoubleQuestionMark",
     "normPalette": "gMonPalette_DoubleQuestionMark",
     "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
@@ -3048,6 +3325,7 @@
   },
   "TREECKO": {
     "frontPics": "gMonFrontPic_Treecko",
+    "index": 277,
     "backPics": "gMonBackPic_Treecko",
     "normPalette": "gMonPalette_Treecko",
     "shinyPalette": "gMonShinyPalette_Treecko",
@@ -3059,6 +3337,7 @@
   },
   "GROVYLE": {
     "frontPics": "gMonFrontPic_Grovyle",
+    "index": 278,
     "backPics": "gMonBackPic_Grovyle",
     "normPalette": "gMonPalette_Grovyle",
     "shinyPalette": "gMonShinyPalette_Grovyle",
@@ -3070,6 +3349,7 @@
   },
   "SCEPTILE": {
     "frontPics": "gMonFrontPic_Sceptile",
+    "index": 279,
     "backPics": "gMonBackPic_Sceptile",
     "normPalette": "gMonPalette_Sceptile",
     "shinyPalette": "gMonShinyPalette_Sceptile",
@@ -3081,6 +3361,7 @@
   },
   "TORCHIC": {
     "frontPics": "gMonFrontPic_Torchic",
+    "index": 280,
     "backPics": "gMonBackPic_Torchic",
     "normPalette": "gMonPalette_Torchic",
     "shinyPalette": "gMonShinyPalette_Torchic",
@@ -3092,6 +3373,7 @@
   },
   "COMBUSKEN": {
     "frontPics": "gMonFrontPic_Combusken",
+    "index": 281,
     "backPics": "gMonBackPic_Combusken",
     "normPalette": "gMonPalette_Combusken",
     "shinyPalette": "gMonShinyPalette_Combusken",
@@ -3103,6 +3385,7 @@
   },
   "BLAZIKEN": {
     "frontPics": "gMonFrontPic_Blaziken",
+    "index": 282,
     "backPics": "gMonBackPic_Blaziken",
     "normPalette": "gMonPalette_Blaziken",
     "shinyPalette": "gMonShinyPalette_Blaziken",
@@ -3114,6 +3397,7 @@
   },
   "MUDKIP": {
     "frontPics": "gMonFrontPic_Mudkip",
+    "index": 283,
     "backPics": "gMonBackPic_Mudkip",
     "normPalette": "gMonPalette_Mudkip",
     "shinyPalette": "gMonShinyPalette_Mudkip",
@@ -3125,6 +3409,7 @@
   },
   "MARSHTOMP": {
     "frontPics": "gMonFrontPic_Marshtomp",
+    "index": 284,
     "backPics": "gMonBackPic_Marshtomp",
     "normPalette": "gMonPalette_Marshtomp",
     "shinyPalette": "gMonShinyPalette_Marshtomp",
@@ -3136,6 +3421,7 @@
   },
   "SWAMPERT": {
     "frontPics": "gMonFrontPic_Swampert",
+    "index": 285,
     "backPics": "gMonBackPic_Swampert",
     "normPalette": "gMonPalette_Swampert",
     "shinyPalette": "gMonShinyPalette_Swampert",
@@ -3147,6 +3433,7 @@
   },
   "POOCHYENA": {
     "frontPics": "gMonFrontPic_Poochyena",
+    "index": 286,
     "backPics": "gMonBackPic_Poochyena",
     "normPalette": "gMonPalette_Poochyena",
     "shinyPalette": "gMonShinyPalette_Poochyena",
@@ -3158,6 +3445,7 @@
   },
   "MIGHTYENA": {
     "frontPics": "gMonFrontPic_Mightyena",
+    "index": 287,
     "backPics": "gMonBackPic_Mightyena",
     "normPalette": "gMonPalette_Mightyena",
     "shinyPalette": "gMonShinyPalette_Mightyena",
@@ -3169,6 +3457,7 @@
   },
   "ZIGZAGOON": {
     "frontPics": "gMonFrontPic_Zigzagoon",
+    "index": 288,
     "backPics": "gMonBackPic_Zigzagoon",
     "normPalette": "gMonPalette_Zigzagoon",
     "shinyPalette": "gMonShinyPalette_Zigzagoon",
@@ -3180,6 +3469,7 @@
   },
   "LINOONE": {
     "frontPics": "gMonFrontPic_Linoone",
+    "index": 289,
     "backPics": "gMonBackPic_Linoone",
     "normPalette": "gMonPalette_Linoone",
     "shinyPalette": "gMonShinyPalette_Linoone",
@@ -3191,6 +3481,7 @@
   },
   "WURMPLE": {
     "frontPics": "gMonFrontPic_Wurmple",
+    "index": 290,
     "backPics": "gMonBackPic_Wurmple",
     "normPalette": "gMonPalette_Wurmple",
     "shinyPalette": "gMonShinyPalette_Wurmple",
@@ -3202,6 +3493,7 @@
   },
   "SILCOON": {
     "frontPics": "gMonFrontPic_Silcoon",
+    "index": 291,
     "backPics": "gMonBackPic_Silcoon",
     "normPalette": "gMonPalette_Silcoon",
     "shinyPalette": "gMonShinyPalette_Silcoon",
@@ -3213,6 +3505,7 @@
   },
   "BEAUTIFLY": {
     "frontPics": "gMonFrontPic_Beautifly",
+    "index": 292,
     "backPics": "gMonBackPic_Beautifly",
     "normPalette": "gMonPalette_Beautifly",
     "shinyPalette": "gMonShinyPalette_Beautifly",
@@ -3224,6 +3517,7 @@
   },
   "CASCOON": {
     "frontPics": "gMonFrontPic_Cascoon",
+    "index": 293,
     "backPics": "gMonBackPic_Cascoon",
     "normPalette": "gMonPalette_Cascoon",
     "shinyPalette": "gMonShinyPalette_Cascoon",
@@ -3235,6 +3529,7 @@
   },
   "DUSTOX": {
     "frontPics": "gMonFrontPic_Dustox",
+    "index": 294,
     "backPics": "gMonBackPic_Dustox",
     "normPalette": "gMonPalette_Dustox",
     "shinyPalette": "gMonShinyPalette_Dustox",
@@ -3246,6 +3541,7 @@
   },
   "LOTAD": {
     "frontPics": "gMonFrontPic_Lotad",
+    "index": 295,
     "backPics": "gMonBackPic_Lotad",
     "normPalette": "gMonPalette_Lotad",
     "shinyPalette": "gMonShinyPalette_Lotad",
@@ -3257,6 +3553,7 @@
   },
   "LOMBRE": {
     "frontPics": "gMonFrontPic_Lombre",
+    "index": 296,
     "backPics": "gMonBackPic_Lombre",
     "normPalette": "gMonPalette_Lombre",
     "shinyPalette": "gMonShinyPalette_Lombre",
@@ -3268,6 +3565,7 @@
   },
   "LUDICOLO": {
     "frontPics": "gMonFrontPic_Ludicolo",
+    "index": 297,
     "backPics": "gMonBackPic_Ludicolo",
     "normPalette": "gMonPalette_Ludicolo",
     "shinyPalette": "gMonShinyPalette_Ludicolo",
@@ -3279,6 +3577,7 @@
   },
   "SEEDOT": {
     "frontPics": "gMonFrontPic_Seedot",
+    "index": 298,
     "backPics": "gMonBackPic_Seedot",
     "normPalette": "gMonPalette_Seedot",
     "shinyPalette": "gMonShinyPalette_Seedot",
@@ -3290,6 +3589,7 @@
   },
   "NUZLEAF": {
     "frontPics": "gMonFrontPic_Nuzleaf",
+    "index": 299,
     "backPics": "gMonBackPic_Nuzleaf",
     "normPalette": "gMonPalette_Nuzleaf",
     "shinyPalette": "gMonShinyPalette_Nuzleaf",
@@ -3301,6 +3601,7 @@
   },
   "SHIFTRY": {
     "frontPics": "gMonFrontPic_Shiftry",
+    "index": 300,
     "backPics": "gMonBackPic_Shiftry",
     "normPalette": "gMonPalette_Shiftry",
     "shinyPalette": "gMonShinyPalette_Shiftry",
@@ -3312,6 +3613,7 @@
   },
   "NINCADA": {
     "frontPics": "gMonFrontPic_Nincada",
+    "index": 301,
     "backPics": "gMonBackPic_Nincada",
     "normPalette": "gMonPalette_Nincada",
     "shinyPalette": "gMonShinyPalette_Nincada",
@@ -3323,6 +3625,7 @@
   },
   "NINJASK": {
     "frontPics": "gMonFrontPic_Ninjask",
+    "index": 302,
     "backPics": "gMonBackPic_Ninjask",
     "normPalette": "gMonPalette_Ninjask",
     "shinyPalette": "gMonShinyPalette_Ninjask",
@@ -3334,6 +3637,7 @@
   },
   "SHEDINJA": {
     "frontPics": "gMonFrontPic_Shedinja",
+    "index": 303,
     "backPics": "gMonBackPic_Shedinja",
     "normPalette": "gMonPalette_Shedinja",
     "shinyPalette": "gMonShinyPalette_Shedinja",
@@ -3345,6 +3649,7 @@
   },
   "TAILLOW": {
     "frontPics": "gMonFrontPic_Taillow",
+    "index": 304,
     "backPics": "gMonBackPic_Taillow",
     "normPalette": "gMonPalette_Taillow",
     "shinyPalette": "gMonShinyPalette_Taillow",
@@ -3356,6 +3661,7 @@
   },
   "SWELLOW": {
     "frontPics": "gMonFrontPic_Swellow",
+    "index": 305,
     "backPics": "gMonBackPic_Swellow",
     "normPalette": "gMonPalette_Swellow",
     "shinyPalette": "gMonShinyPalette_Swellow",
@@ -3367,6 +3673,7 @@
   },
   "SHROOMISH": {
     "frontPics": "gMonFrontPic_Shroomish",
+    "index": 306,
     "backPics": "gMonBackPic_Shroomish",
     "normPalette": "gMonPalette_Shroomish",
     "shinyPalette": "gMonShinyPalette_Shroomish",
@@ -3378,6 +3685,7 @@
   },
   "BRELOOM": {
     "frontPics": "gMonFrontPic_Breloom",
+    "index": 307,
     "backPics": "gMonBackPic_Breloom",
     "normPalette": "gMonPalette_Breloom",
     "shinyPalette": "gMonShinyPalette_Breloom",
@@ -3389,6 +3697,7 @@
   },
   "SPINDA": {
     "frontPics": "gMonFrontPic_Spinda",
+    "index": 308,
     "backPics": "gMonBackPic_Spinda",
     "normPalette": "gMonPalette_Spinda",
     "shinyPalette": "gMonShinyPalette_Spinda",
@@ -3400,6 +3709,7 @@
   },
   "WINGULL": {
     "frontPics": "gMonFrontPic_Wingull",
+    "index": 309,
     "backPics": "gMonBackPic_Wingull",
     "normPalette": "gMonPalette_Wingull",
     "shinyPalette": "gMonShinyPalette_Wingull",
@@ -3411,6 +3721,7 @@
   },
   "PELIPPER": {
     "frontPics": "gMonFrontPic_Pelipper",
+    "index": 310,
     "backPics": "gMonBackPic_Pelipper",
     "normPalette": "gMonPalette_Pelipper",
     "shinyPalette": "gMonShinyPalette_Pelipper",
@@ -3422,6 +3733,7 @@
   },
   "SURSKIT": {
     "frontPics": "gMonFrontPic_Surskit",
+    "index": 311,
     "backPics": "gMonBackPic_Surskit",
     "normPalette": "gMonPalette_Surskit",
     "shinyPalette": "gMonShinyPalette_Surskit",
@@ -3433,6 +3745,7 @@
   },
   "MASQUERAIN": {
     "frontPics": "gMonFrontPic_Masquerain",
+    "index": 312,
     "backPics": "gMonBackPic_Masquerain",
     "normPalette": "gMonPalette_Masquerain",
     "shinyPalette": "gMonShinyPalette_Masquerain",
@@ -3444,6 +3757,7 @@
   },
   "WAILMER": {
     "frontPics": "gMonFrontPic_Wailmer",
+    "index": 313,
     "backPics": "gMonBackPic_Wailmer",
     "normPalette": "gMonPalette_Wailmer",
     "shinyPalette": "gMonShinyPalette_Wailmer",
@@ -3455,6 +3769,7 @@
   },
   "WAILORD": {
     "frontPics": "gMonFrontPic_Wailord",
+    "index": 314,
     "backPics": "gMonBackPic_Wailord",
     "normPalette": "gMonPalette_Wailord",
     "shinyPalette": "gMonShinyPalette_Wailord",
@@ -3466,6 +3781,7 @@
   },
   "SKITTY": {
     "frontPics": "gMonFrontPic_Skitty",
+    "index": 315,
     "backPics": "gMonBackPic_Skitty",
     "normPalette": "gMonPalette_Skitty",
     "shinyPalette": "gMonShinyPalette_Skitty",
@@ -3477,6 +3793,7 @@
   },
   "DELCATTY": {
     "frontPics": "gMonFrontPic_Delcatty",
+    "index": 316,
     "backPics": "gMonBackPic_Delcatty",
     "normPalette": "gMonPalette_Delcatty",
     "shinyPalette": "gMonShinyPalette_Delcatty",
@@ -3488,6 +3805,7 @@
   },
   "KECLEON": {
     "frontPics": "gMonFrontPic_Kecleon",
+    "index": 317,
     "backPics": "gMonBackPic_Kecleon",
     "normPalette": "gMonPalette_Kecleon",
     "shinyPalette": "gMonShinyPalette_Kecleon",
@@ -3499,6 +3817,7 @@
   },
   "BALTOY": {
     "frontPics": "gMonFrontPic_Baltoy",
+    "index": 318,
     "backPics": "gMonBackPic_Baltoy",
     "normPalette": "gMonPalette_Baltoy",
     "shinyPalette": "gMonShinyPalette_Baltoy",
@@ -3510,6 +3829,7 @@
   },
   "CLAYDOL": {
     "frontPics": "gMonFrontPic_Claydol",
+    "index": 319,
     "backPics": "gMonBackPic_Claydol",
     "normPalette": "gMonPalette_Claydol",
     "shinyPalette": "gMonShinyPalette_Claydol",
@@ -3521,6 +3841,7 @@
   },
   "NOSEPASS": {
     "frontPics": "gMonFrontPic_Nosepass",
+    "index": 320,
     "backPics": "gMonBackPic_Nosepass",
     "normPalette": "gMonPalette_Nosepass",
     "shinyPalette": "gMonShinyPalette_Nosepass",
@@ -3532,6 +3853,7 @@
   },
   "TORKOAL": {
     "frontPics": "gMonFrontPic_Torkoal",
+    "index": 321,
     "backPics": "gMonBackPic_Torkoal",
     "normPalette": "gMonPalette_Torkoal",
     "shinyPalette": "gMonShinyPalette_Torkoal",
@@ -3543,6 +3865,7 @@
   },
   "SABLEYE": {
     "frontPics": "gMonFrontPic_Sableye",
+    "index": 322,
     "backPics": "gMonBackPic_Sableye",
     "normPalette": "gMonPalette_Sableye",
     "shinyPalette": "gMonShinyPalette_Sableye",
@@ -3554,6 +3877,7 @@
   },
   "BARBOACH": {
     "frontPics": "gMonFrontPic_Barboach",
+    "index": 323,
     "backPics": "gMonBackPic_Barboach",
     "normPalette": "gMonPalette_Barboach",
     "shinyPalette": "gMonShinyPalette_Barboach",
@@ -3565,6 +3889,7 @@
   },
   "WHISCASH": {
     "frontPics": "gMonFrontPic_Whiscash",
+    "index": 324,
     "backPics": "gMonBackPic_Whiscash",
     "normPalette": "gMonPalette_Whiscash",
     "shinyPalette": "gMonShinyPalette_Whiscash",
@@ -3576,6 +3901,7 @@
   },
   "LUVDISC": {
     "frontPics": "gMonFrontPic_Luvdisc",
+    "index": 325,
     "backPics": "gMonBackPic_Luvdisc",
     "normPalette": "gMonPalette_Luvdisc",
     "shinyPalette": "gMonShinyPalette_Luvdisc",
@@ -3587,6 +3913,7 @@
   },
   "CORPHISH": {
     "frontPics": "gMonFrontPic_Corphish",
+    "index": 326,
     "backPics": "gMonBackPic_Corphish",
     "normPalette": "gMonPalette_Corphish",
     "shinyPalette": "gMonShinyPalette_Corphish",
@@ -3598,6 +3925,7 @@
   },
   "CRAWDAUNT": {
     "frontPics": "gMonFrontPic_Crawdaunt",
+    "index": 327,
     "backPics": "gMonBackPic_Crawdaunt",
     "normPalette": "gMonPalette_Crawdaunt",
     "shinyPalette": "gMonShinyPalette_Crawdaunt",
@@ -3609,6 +3937,7 @@
   },
   "FEEBAS": {
     "frontPics": "gMonFrontPic_Feebas",
+    "index": 328,
     "backPics": "gMonBackPic_Feebas",
     "normPalette": "gMonPalette_Feebas",
     "shinyPalette": "gMonShinyPalette_Feebas",
@@ -3620,6 +3949,7 @@
   },
   "MILOTIC": {
     "frontPics": "gMonFrontPic_Milotic",
+    "index": 329,
     "backPics": "gMonBackPic_Milotic",
     "normPalette": "gMonPalette_Milotic",
     "shinyPalette": "gMonShinyPalette_Milotic",
@@ -3631,6 +3961,7 @@
   },
   "CARVANHA": {
     "frontPics": "gMonFrontPic_Carvanha",
+    "index": 330,
     "backPics": "gMonBackPic_Carvanha",
     "normPalette": "gMonPalette_Carvanha",
     "shinyPalette": "gMonShinyPalette_Carvanha",
@@ -3642,6 +3973,7 @@
   },
   "SHARPEDO": {
     "frontPics": "gMonFrontPic_Sharpedo",
+    "index": 331,
     "backPics": "gMonBackPic_Sharpedo",
     "normPalette": "gMonPalette_Sharpedo",
     "shinyPalette": "gMonShinyPalette_Sharpedo",
@@ -3653,6 +3985,7 @@
   },
   "TRAPINCH": {
     "frontPics": "gMonFrontPic_Trapinch",
+    "index": 332,
     "backPics": "gMonBackPic_Trapinch",
     "normPalette": "gMonPalette_Trapinch",
     "shinyPalette": "gMonShinyPalette_Trapinch",
@@ -3664,6 +3997,7 @@
   },
   "VIBRAVA": {
     "frontPics": "gMonFrontPic_Vibrava",
+    "index": 333,
     "backPics": "gMonBackPic_Vibrava",
     "normPalette": "gMonPalette_Vibrava",
     "shinyPalette": "gMonShinyPalette_Vibrava",
@@ -3675,6 +4009,7 @@
   },
   "FLYGON": {
     "frontPics": "gMonFrontPic_Flygon",
+    "index": 334,
     "backPics": "gMonBackPic_Flygon",
     "normPalette": "gMonPalette_Flygon",
     "shinyPalette": "gMonShinyPalette_Flygon",
@@ -3686,6 +4021,7 @@
   },
   "MAKUHITA": {
     "frontPics": "gMonFrontPic_Makuhita",
+    "index": 335,
     "backPics": "gMonBackPic_Makuhita",
     "normPalette": "gMonPalette_Makuhita",
     "shinyPalette": "gMonShinyPalette_Makuhita",
@@ -3697,6 +4033,7 @@
   },
   "HARIYAMA": {
     "frontPics": "gMonFrontPic_Hariyama",
+    "index": 336,
     "backPics": "gMonBackPic_Hariyama",
     "normPalette": "gMonPalette_Hariyama",
     "shinyPalette": "gMonShinyPalette_Hariyama",
@@ -3708,6 +4045,7 @@
   },
   "ELECTRIKE": {
     "frontPics": "gMonFrontPic_Electrike",
+    "index": 337,
     "backPics": "gMonBackPic_Electrike",
     "normPalette": "gMonPalette_Electrike",
     "shinyPalette": "gMonShinyPalette_Electrike",
@@ -3719,6 +4057,7 @@
   },
   "MANECTRIC": {
     "frontPics": "gMonFrontPic_Manectric",
+    "index": 338,
     "backPics": "gMonBackPic_Manectric",
     "normPalette": "gMonPalette_Manectric",
     "shinyPalette": "gMonShinyPalette_Manectric",
@@ -3730,6 +4069,7 @@
   },
   "NUMEL": {
     "frontPics": "gMonFrontPic_Numel",
+    "index": 339,
     "backPics": "gMonBackPic_Numel",
     "normPalette": "gMonPalette_Numel",
     "shinyPalette": "gMonShinyPalette_Numel",
@@ -3741,6 +4081,7 @@
   },
   "CAMERUPT": {
     "frontPics": "gMonFrontPic_Camerupt",
+    "index": 340,
     "backPics": "gMonBackPic_Camerupt",
     "normPalette": "gMonPalette_Camerupt",
     "shinyPalette": "gMonShinyPalette_Camerupt",
@@ -3752,6 +4093,7 @@
   },
   "SPHEAL": {
     "frontPics": "gMonFrontPic_Spheal",
+    "index": 341,
     "backPics": "gMonBackPic_Spheal",
     "normPalette": "gMonPalette_Spheal",
     "shinyPalette": "gMonShinyPalette_Spheal",
@@ -3763,6 +4105,7 @@
   },
   "SEALEO": {
     "frontPics": "gMonFrontPic_Sealeo",
+    "index": 342,
     "backPics": "gMonBackPic_Sealeo",
     "normPalette": "gMonPalette_Sealeo",
     "shinyPalette": "gMonShinyPalette_Sealeo",
@@ -3774,6 +4117,7 @@
   },
   "WALREIN": {
     "frontPics": "gMonFrontPic_Walrein",
+    "index": 343,
     "backPics": "gMonBackPic_Walrein",
     "normPalette": "gMonPalette_Walrein",
     "shinyPalette": "gMonShinyPalette_Walrein",
@@ -3785,6 +4129,7 @@
   },
   "CACNEA": {
     "frontPics": "gMonFrontPic_Cacnea",
+    "index": 344,
     "backPics": "gMonBackPic_Cacnea",
     "normPalette": "gMonPalette_Cacnea",
     "shinyPalette": "gMonShinyPalette_Cacnea",
@@ -3796,6 +4141,7 @@
   },
   "CACTURNE": {
     "frontPics": "gMonFrontPic_Cacturne",
+    "index": 345,
     "backPics": "gMonBackPic_Cacturne",
     "normPalette": "gMonPalette_Cacturne",
     "shinyPalette": "gMonShinyPalette_Cacturne",
@@ -3807,6 +4153,7 @@
   },
   "SNORUNT": {
     "frontPics": "gMonFrontPic_Snorunt",
+    "index": 346,
     "backPics": "gMonBackPic_Snorunt",
     "normPalette": "gMonPalette_Snorunt",
     "shinyPalette": "gMonShinyPalette_Snorunt",
@@ -3818,6 +4165,7 @@
   },
   "GLALIE": {
     "frontPics": "gMonFrontPic_Glalie",
+    "index": 347,
     "backPics": "gMonBackPic_Glalie",
     "normPalette": "gMonPalette_Glalie",
     "shinyPalette": "gMonShinyPalette_Glalie",
@@ -3829,6 +4177,7 @@
   },
   "LUNATONE": {
     "frontPics": "gMonFrontPic_Lunatone",
+    "index": 348,
     "backPics": "gMonBackPic_Lunatone",
     "normPalette": "gMonPalette_Lunatone",
     "shinyPalette": "gMonShinyPalette_Lunatone",
@@ -3840,6 +4189,7 @@
   },
   "SOLROCK": {
     "frontPics": "gMonFrontPic_Solrock",
+    "index": 349,
     "backPics": "gMonBackPic_Solrock",
     "normPalette": "gMonPalette_Solrock",
     "shinyPalette": "gMonShinyPalette_Solrock",
@@ -3851,6 +4201,7 @@
   },
   "AZURILL": {
     "frontPics": "gMonFrontPic_Azurill",
+    "index": 350,
     "backPics": "gMonBackPic_Azurill",
     "normPalette": "gMonPalette_Azurill",
     "shinyPalette": "gMonShinyPalette_Azurill",
@@ -3862,6 +4213,7 @@
   },
   "SPOINK": {
     "frontPics": "gMonFrontPic_Spoink",
+    "index": 351,
     "backPics": "gMonBackPic_Spoink",
     "normPalette": "gMonPalette_Spoink",
     "shinyPalette": "gMonShinyPalette_Spoink",
@@ -3873,6 +4225,7 @@
   },
   "GRUMPIG": {
     "frontPics": "gMonFrontPic_Grumpig",
+    "index": 352,
     "backPics": "gMonBackPic_Grumpig",
     "normPalette": "gMonPalette_Grumpig",
     "shinyPalette": "gMonShinyPalette_Grumpig",
@@ -3884,6 +4237,7 @@
   },
   "PLUSLE": {
     "frontPics": "gMonFrontPic_Plusle",
+    "index": 353,
     "backPics": "gMonBackPic_Plusle",
     "normPalette": "gMonPalette_Plusle",
     "shinyPalette": "gMonShinyPalette_Plusle",
@@ -3895,6 +4249,7 @@
   },
   "MINUN": {
     "frontPics": "gMonFrontPic_Minun",
+    "index": 354,
     "backPics": "gMonBackPic_Minun",
     "normPalette": "gMonPalette_Minun",
     "shinyPalette": "gMonShinyPalette_Minun",
@@ -3906,6 +4261,7 @@
   },
   "MAWILE": {
     "frontPics": "gMonFrontPic_Mawile",
+    "index": 355,
     "backPics": "gMonBackPic_Mawile",
     "normPalette": "gMonPalette_Mawile",
     "shinyPalette": "gMonShinyPalette_Mawile",
@@ -3917,6 +4273,7 @@
   },
   "MEDITITE": {
     "frontPics": "gMonFrontPic_Meditite",
+    "index": 356,
     "backPics": "gMonBackPic_Meditite",
     "normPalette": "gMonPalette_Meditite",
     "shinyPalette": "gMonShinyPalette_Meditite",
@@ -3928,6 +4285,7 @@
   },
   "MEDICHAM": {
     "frontPics": "gMonFrontPic_Medicham",
+    "index": 357,
     "backPics": "gMonBackPic_Medicham",
     "normPalette": "gMonPalette_Medicham",
     "shinyPalette": "gMonShinyPalette_Medicham",
@@ -3939,6 +4297,7 @@
   },
   "SWABLU": {
     "frontPics": "gMonFrontPic_Swablu",
+    "index": 358,
     "backPics": "gMonBackPic_Swablu",
     "normPalette": "gMonPalette_Swablu",
     "shinyPalette": "gMonShinyPalette_Swablu",
@@ -3950,6 +4309,7 @@
   },
   "ALTARIA": {
     "frontPics": "gMonFrontPic_Altaria",
+    "index": 359,
     "backPics": "gMonBackPic_Altaria",
     "normPalette": "gMonPalette_Altaria",
     "shinyPalette": "gMonShinyPalette_Altaria",
@@ -3961,6 +4321,7 @@
   },
   "WYNAUT": {
     "frontPics": "gMonFrontPic_Wynaut",
+    "index": 360,
     "backPics": "gMonBackPic_Wynaut",
     "normPalette": "gMonPalette_Wynaut",
     "shinyPalette": "gMonShinyPalette_Wynaut",
@@ -3972,6 +4333,7 @@
   },
   "DUSKULL": {
     "frontPics": "gMonFrontPic_Duskull",
+    "index": 361,
     "backPics": "gMonBackPic_Duskull",
     "normPalette": "gMonPalette_Duskull",
     "shinyPalette": "gMonShinyPalette_Duskull",
@@ -3983,6 +4345,7 @@
   },
   "DUSCLOPS": {
     "frontPics": "gMonFrontPic_Dusclops",
+    "index": 362,
     "backPics": "gMonBackPic_Dusclops",
     "normPalette": "gMonPalette_Dusclops",
     "shinyPalette": "gMonShinyPalette_Dusclops",
@@ -3994,6 +4357,7 @@
   },
   "ROSELIA": {
     "frontPics": "gMonFrontPic_Roselia",
+    "index": 363,
     "backPics": "gMonBackPic_Roselia",
     "normPalette": "gMonPalette_Roselia",
     "shinyPalette": "gMonShinyPalette_Roselia",
@@ -4005,6 +4369,7 @@
   },
   "SLAKOTH": {
     "frontPics": "gMonFrontPic_Slakoth",
+    "index": 364,
     "backPics": "gMonBackPic_Slakoth",
     "normPalette": "gMonPalette_Slakoth",
     "shinyPalette": "gMonShinyPalette_Slakoth",
@@ -4016,6 +4381,7 @@
   },
   "VIGOROTH": {
     "frontPics": "gMonFrontPic_Vigoroth",
+    "index": 365,
     "backPics": "gMonBackPic_Vigoroth",
     "normPalette": "gMonPalette_Vigoroth",
     "shinyPalette": "gMonShinyPalette_Vigoroth",
@@ -4027,6 +4393,7 @@
   },
   "SLAKING": {
     "frontPics": "gMonFrontPic_Slaking",
+    "index": 366,
     "backPics": "gMonBackPic_Slaking",
     "normPalette": "gMonPalette_Slaking",
     "shinyPalette": "gMonShinyPalette_Slaking",
@@ -4038,6 +4405,7 @@
   },
   "GULPIN": {
     "frontPics": "gMonFrontPic_Gulpin",
+    "index": 367,
     "backPics": "gMonBackPic_Gulpin",
     "normPalette": "gMonPalette_Gulpin",
     "shinyPalette": "gMonShinyPalette_Gulpin",
@@ -4049,6 +4417,7 @@
   },
   "SWALOT": {
     "frontPics": "gMonFrontPic_Swalot",
+    "index": 368,
     "backPics": "gMonBackPic_Swalot",
     "normPalette": "gMonPalette_Swalot",
     "shinyPalette": "gMonShinyPalette_Swalot",
@@ -4060,6 +4429,7 @@
   },
   "TROPIUS": {
     "frontPics": "gMonFrontPic_Tropius",
+    "index": 369,
     "backPics": "gMonBackPic_Tropius",
     "normPalette": "gMonPalette_Tropius",
     "shinyPalette": "gMonShinyPalette_Tropius",
@@ -4071,6 +4441,7 @@
   },
   "WHISMUR": {
     "frontPics": "gMonFrontPic_Whismur",
+    "index": 370,
     "backPics": "gMonBackPic_Whismur",
     "normPalette": "gMonPalette_Whismur",
     "shinyPalette": "gMonShinyPalette_Whismur",
@@ -4082,6 +4453,7 @@
   },
   "LOUDRED": {
     "frontPics": "gMonFrontPic_Loudred",
+    "index": 371,
     "backPics": "gMonBackPic_Loudred",
     "normPalette": "gMonPalette_Loudred",
     "shinyPalette": "gMonShinyPalette_Loudred",
@@ -4093,6 +4465,7 @@
   },
   "EXPLOUD": {
     "frontPics": "gMonFrontPic_Exploud",
+    "index": 372,
     "backPics": "gMonBackPic_Exploud",
     "normPalette": "gMonPalette_Exploud",
     "shinyPalette": "gMonShinyPalette_Exploud",
@@ -4104,6 +4477,7 @@
   },
   "CLAMPERL": {
     "frontPics": "gMonFrontPic_Clamperl",
+    "index": 373,
     "backPics": "gMonBackPic_Clamperl",
     "normPalette": "gMonPalette_Clamperl",
     "shinyPalette": "gMonShinyPalette_Clamperl",
@@ -4115,6 +4489,7 @@
   },
   "HUNTAIL": {
     "frontPics": "gMonFrontPic_Huntail",
+    "index": 374,
     "backPics": "gMonBackPic_Huntail",
     "normPalette": "gMonPalette_Huntail",
     "shinyPalette": "gMonShinyPalette_Huntail",
@@ -4126,6 +4501,7 @@
   },
   "GOREBYSS": {
     "frontPics": "gMonFrontPic_Gorebyss",
+    "index": 375,
     "backPics": "gMonBackPic_Gorebyss",
     "normPalette": "gMonPalette_Gorebyss",
     "shinyPalette": "gMonShinyPalette_Gorebyss",
@@ -4137,6 +4513,7 @@
   },
   "ABSOL": {
     "frontPics": "gMonFrontPic_Absol",
+    "index": 376,
     "backPics": "gMonBackPic_Absol",
     "normPalette": "gMonPalette_Absol",
     "shinyPalette": "gMonShinyPalette_Absol",
@@ -4148,6 +4525,7 @@
   },
   "SHUPPET": {
     "frontPics": "gMonFrontPic_Shuppet",
+    "index": 377,
     "backPics": "gMonBackPic_Shuppet",
     "normPalette": "gMonPalette_Shuppet",
     "shinyPalette": "gMonShinyPalette_Shuppet",
@@ -4159,6 +4537,7 @@
   },
   "BANETTE": {
     "frontPics": "gMonFrontPic_Banette",
+    "index": 378,
     "backPics": "gMonBackPic_Banette",
     "normPalette": "gMonPalette_Banette",
     "shinyPalette": "gMonShinyPalette_Banette",
@@ -4170,6 +4549,7 @@
   },
   "SEVIPER": {
     "frontPics": "gMonFrontPic_Seviper",
+    "index": 379,
     "backPics": "gMonBackPic_Seviper",
     "normPalette": "gMonPalette_Seviper",
     "shinyPalette": "gMonShinyPalette_Seviper",
@@ -4181,6 +4561,7 @@
   },
   "ZANGOOSE": {
     "frontPics": "gMonFrontPic_Zangoose",
+    "index": 380,
     "backPics": "gMonBackPic_Zangoose",
     "normPalette": "gMonPalette_Zangoose",
     "shinyPalette": "gMonShinyPalette_Zangoose",
@@ -4192,6 +4573,7 @@
   },
   "RELICANTH": {
     "frontPics": "gMonFrontPic_Relicanth",
+    "index": 381,
     "backPics": "gMonBackPic_Relicanth",
     "normPalette": "gMonPalette_Relicanth",
     "shinyPalette": "gMonShinyPalette_Relicanth",
@@ -4203,6 +4585,7 @@
   },
   "ARON": {
     "frontPics": "gMonFrontPic_Aron",
+    "index": 382,
     "backPics": "gMonBackPic_Aron",
     "normPalette": "gMonPalette_Aron",
     "shinyPalette": "gMonShinyPalette_Aron",
@@ -4214,6 +4597,7 @@
   },
   "LAIRON": {
     "frontPics": "gMonFrontPic_Lairon",
+    "index": 383,
     "backPics": "gMonBackPic_Lairon",
     "normPalette": "gMonPalette_Lairon",
     "shinyPalette": "gMonShinyPalette_Lairon",
@@ -4225,6 +4609,7 @@
   },
   "AGGRON": {
     "frontPics": "gMonFrontPic_Aggron",
+    "index": 384,
     "backPics": "gMonBackPic_Aggron",
     "normPalette": "gMonPalette_Aggron",
     "shinyPalette": "gMonShinyPalette_Aggron",
@@ -4236,6 +4621,7 @@
   },
   "CASTFORM": {
     "frontPics": "gMonFrontPic_Castform",
+    "index": 385,
     "backPics": "gMonBackPic_Castform",
     "normPalette": "gMonPalette_Castform",
     "shinyPalette": "gMonShinyPalette_Castform",
@@ -4247,6 +4633,7 @@
   },
   "VOLBEAT": {
     "frontPics": "gMonFrontPic_Volbeat",
+    "index": 386,
     "backPics": "gMonBackPic_Volbeat",
     "normPalette": "gMonPalette_Volbeat",
     "shinyPalette": "gMonShinyPalette_Volbeat",
@@ -4258,6 +4645,7 @@
   },
   "ILLUMISE": {
     "frontPics": "gMonFrontPic_Illumise",
+    "index": 387,
     "backPics": "gMonBackPic_Illumise",
     "normPalette": "gMonPalette_Illumise",
     "shinyPalette": "gMonShinyPalette_Illumise",
@@ -4269,6 +4657,7 @@
   },
   "LILEEP": {
     "frontPics": "gMonFrontPic_Lileep",
+    "index": 388,
     "backPics": "gMonBackPic_Lileep",
     "normPalette": "gMonPalette_Lileep",
     "shinyPalette": "gMonShinyPalette_Lileep",
@@ -4280,6 +4669,7 @@
   },
   "CRADILY": {
     "frontPics": "gMonFrontPic_Cradily",
+    "index": 389,
     "backPics": "gMonBackPic_Cradily",
     "normPalette": "gMonPalette_Cradily",
     "shinyPalette": "gMonShinyPalette_Cradily",
@@ -4291,6 +4681,7 @@
   },
   "ANORITH": {
     "frontPics": "gMonFrontPic_Anorith",
+    "index": 390,
     "backPics": "gMonBackPic_Anorith",
     "normPalette": "gMonPalette_Anorith",
     "shinyPalette": "gMonShinyPalette_Anorith",
@@ -4302,6 +4693,7 @@
   },
   "ARMALDO": {
     "frontPics": "gMonFrontPic_Armaldo",
+    "index": 391,
     "backPics": "gMonBackPic_Armaldo",
     "normPalette": "gMonPalette_Armaldo",
     "shinyPalette": "gMonShinyPalette_Armaldo",
@@ -4313,6 +4705,7 @@
   },
   "RALTS": {
     "frontPics": "gMonFrontPic_Ralts",
+    "index": 392,
     "backPics": "gMonBackPic_Ralts",
     "normPalette": "gMonPalette_Ralts",
     "shinyPalette": "gMonShinyPalette_Ralts",
@@ -4324,6 +4717,7 @@
   },
   "KIRLIA": {
     "frontPics": "gMonFrontPic_Kirlia",
+    "index": 393,
     "backPics": "gMonBackPic_Kirlia",
     "normPalette": "gMonPalette_Kirlia",
     "shinyPalette": "gMonShinyPalette_Kirlia",
@@ -4335,6 +4729,7 @@
   },
   "GARDEVOIR": {
     "frontPics": "gMonFrontPic_Gardevoir",
+    "index": 394,
     "backPics": "gMonBackPic_Gardevoir",
     "normPalette": "gMonPalette_Gardevoir",
     "shinyPalette": "gMonShinyPalette_Gardevoir",
@@ -4346,6 +4741,7 @@
   },
   "BAGON": {
     "frontPics": "gMonFrontPic_Bagon",
+    "index": 395,
     "backPics": "gMonBackPic_Bagon",
     "normPalette": "gMonPalette_Bagon",
     "shinyPalette": "gMonShinyPalette_Bagon",
@@ -4357,6 +4753,7 @@
   },
   "SHELGON": {
     "frontPics": "gMonFrontPic_Shelgon",
+    "index": 396,
     "backPics": "gMonBackPic_Shelgon",
     "normPalette": "gMonPalette_Shelgon",
     "shinyPalette": "gMonShinyPalette_Shelgon",
@@ -4368,6 +4765,7 @@
   },
   "SALAMENCE": {
     "frontPics": "gMonFrontPic_Salamence",
+    "index": 397,
     "backPics": "gMonBackPic_Salamence",
     "normPalette": "gMonPalette_Salamence",
     "shinyPalette": "gMonShinyPalette_Salamence",
@@ -4379,6 +4777,7 @@
   },
   "BELDUM": {
     "frontPics": "gMonFrontPic_Beldum",
+    "index": 398,
     "backPics": "gMonBackPic_Beldum",
     "normPalette": "gMonPalette_Beldum",
     "shinyPalette": "gMonShinyPalette_Beldum",
@@ -4390,6 +4789,7 @@
   },
   "METANG": {
     "frontPics": "gMonFrontPic_Metang",
+    "index": 399,
     "backPics": "gMonBackPic_Metang",
     "normPalette": "gMonPalette_Metang",
     "shinyPalette": "gMonShinyPalette_Metang",
@@ -4401,6 +4801,7 @@
   },
   "METAGROSS": {
     "frontPics": "gMonFrontPic_Metagross",
+    "index": 400,
     "backPics": "gMonBackPic_Metagross",
     "normPalette": "gMonPalette_Metagross",
     "shinyPalette": "gMonShinyPalette_Metagross",
@@ -4412,6 +4813,7 @@
   },
   "REGIROCK": {
     "frontPics": "gMonFrontPic_Regirock",
+    "index": 401,
     "backPics": "gMonBackPic_Regirock",
     "normPalette": "gMonPalette_Regirock",
     "shinyPalette": "gMonShinyPalette_Regirock",
@@ -4423,6 +4825,7 @@
   },
   "REGICE": {
     "frontPics": "gMonFrontPic_Regice",
+    "index": 402,
     "backPics": "gMonBackPic_Regice",
     "normPalette": "gMonPalette_Regice",
     "shinyPalette": "gMonShinyPalette_Regice",
@@ -4434,6 +4837,7 @@
   },
   "REGISTEEL": {
     "frontPics": "gMonFrontPic_Registeel",
+    "index": 403,
     "backPics": "gMonBackPic_Registeel",
     "normPalette": "gMonPalette_Registeel",
     "shinyPalette": "gMonShinyPalette_Registeel",
@@ -4445,6 +4849,7 @@
   },
   "KYOGRE": {
     "frontPics": "gMonFrontPic_Kyogre",
+    "index": 404,
     "backPics": "gMonBackPic_Kyogre",
     "normPalette": "gMonPalette_Kyogre",
     "shinyPalette": "gMonShinyPalette_Kyogre",
@@ -4456,6 +4861,7 @@
   },
   "GROUDON": {
     "frontPics": "gMonFrontPic_Groudon",
+    "index": 405,
     "backPics": "gMonBackPic_Groudon",
     "normPalette": "gMonPalette_Groudon",
     "shinyPalette": "gMonShinyPalette_Groudon",
@@ -4467,6 +4873,7 @@
   },
   "RAYQUAZA": {
     "frontPics": "gMonFrontPic_Rayquaza",
+    "index": 406,
     "backPics": "gMonBackPic_Rayquaza",
     "normPalette": "gMonPalette_Rayquaza",
     "shinyPalette": "gMonShinyPalette_Rayquaza",
@@ -4478,6 +4885,7 @@
   },
   "LATIAS": {
     "frontPics": "gMonFrontPic_Latias",
+    "index": 407,
     "backPics": "gMonBackPic_Latias",
     "normPalette": "gMonPalette_Latias",
     "shinyPalette": "gMonShinyPalette_Latias",
@@ -4489,6 +4897,7 @@
   },
   "LATIOS": {
     "frontPics": "gMonFrontPic_Latios",
+    "index": 408,
     "backPics": "gMonBackPic_Latios",
     "normPalette": "gMonPalette_Latios",
     "shinyPalette": "gMonShinyPalette_Latios",
@@ -4500,6 +4909,7 @@
   },
   "JIRACHI": {
     "frontPics": "gMonFrontPic_Jirachi",
+    "index": 409,
     "backPics": "gMonBackPic_Jirachi",
     "normPalette": "gMonPalette_Jirachi",
     "shinyPalette": "gMonShinyPalette_Jirachi",
@@ -4511,6 +4921,7 @@
   },
   "DEOXYS": {
     "frontPics": "gMonFrontPic_Deoxys",
+    "index": 410,
     "backPics": "gMonBackPic_Deoxys",
     "normPalette": "gMonPalette_Deoxys",
     "shinyPalette": "gMonShinyPalette_Deoxys",
@@ -4522,6 +4933,7 @@
   },
   "CHIMECHO": {
     "frontPics": "gMonFrontPic_Chimecho",
+    "index": 411,
     "backPics": "gMonBackPic_Chimecho",
     "normPalette": "gMonPalette_Chimecho",
     "shinyPalette": "gMonShinyPalette_Chimecho",
@@ -4533,6 +4945,7 @@
   },
   "EGG": {
     "frontPics": "gMonFrontPic_Egg",
+    "index": 412,
     "backPics": "gMonFrontPic_Egg",
     "normPalette": "gMonPalette_Egg",
     "shinyPalette": "gMonPalette_Egg",
@@ -4544,6 +4957,7 @@
   },
   "UNOWN_B": {
     "frontPics": "gMonFrontPic_UnownB",
+    "index": 413,
     "backPics": "gMonBackPic_UnownB",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4554,6 +4968,7 @@
   },
   "UNOWN_C": {
     "frontPics": "gMonFrontPic_UnownC",
+    "index": 414,
     "backPics": "gMonBackPic_UnownC",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4564,6 +4979,7 @@
   },
   "UNOWN_D": {
     "frontPics": "gMonFrontPic_UnownD",
+    "index": 415,
     "backPics": "gMonBackPic_UnownD",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4574,6 +4990,7 @@
   },
   "UNOWN_E": {
     "frontPics": "gMonFrontPic_UnownE",
+    "index": 416,
     "backPics": "gMonBackPic_UnownE",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4584,6 +5001,7 @@
   },
   "UNOWN_F": {
     "frontPics": "gMonFrontPic_UnownF",
+    "index": 417,
     "backPics": "gMonBackPic_UnownF",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4594,6 +5012,7 @@
   },
   "UNOWN_G": {
     "frontPics": "gMonFrontPic_UnownG",
+    "index": 418,
     "backPics": "gMonBackPic_UnownG",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4604,6 +5023,7 @@
   },
   "UNOWN_H": {
     "frontPics": "gMonFrontPic_UnownH",
+    "index": 419,
     "backPics": "gMonBackPic_UnownH",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4614,6 +5034,7 @@
   },
   "UNOWN_I": {
     "frontPics": "gMonFrontPic_UnownI",
+    "index": 420,
     "backPics": "gMonBackPic_UnownI",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4624,6 +5045,7 @@
   },
   "UNOWN_J": {
     "frontPics": "gMonFrontPic_UnownJ",
+    "index": 421,
     "backPics": "gMonBackPic_UnownJ",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4634,6 +5056,7 @@
   },
   "UNOWN_K": {
     "frontPics": "gMonFrontPic_UnownK",
+    "index": 422,
     "backPics": "gMonBackPic_UnownK",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4644,6 +5067,7 @@
   },
   "UNOWN_L": {
     "frontPics": "gMonFrontPic_UnownL",
+    "index": 423,
     "backPics": "gMonBackPic_UnownL",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4654,6 +5078,7 @@
   },
   "UNOWN_M": {
     "frontPics": "gMonFrontPic_UnownM",
+    "index": 424,
     "backPics": "gMonBackPic_UnownM",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4664,6 +5089,7 @@
   },
   "UNOWN_N": {
     "frontPics": "gMonFrontPic_UnownN",
+    "index": 425,
     "backPics": "gMonBackPic_UnownN",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4674,6 +5100,7 @@
   },
   "UNOWN_O": {
     "frontPics": "gMonFrontPic_UnownO",
+    "index": 426,
     "backPics": "gMonBackPic_UnownO",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4684,6 +5111,7 @@
   },
   "UNOWN_P": {
     "frontPics": "gMonFrontPic_UnownP",
+    "index": 427,
     "backPics": "gMonBackPic_UnownP",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4694,6 +5122,7 @@
   },
   "UNOWN_Q": {
     "frontPics": "gMonFrontPic_UnownQ",
+    "index": 428,
     "backPics": "gMonBackPic_UnownQ",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4704,6 +5133,7 @@
   },
   "UNOWN_R": {
     "frontPics": "gMonFrontPic_UnownR",
+    "index": 429,
     "backPics": "gMonBackPic_UnownR",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4714,6 +5144,7 @@
   },
   "UNOWN_S": {
     "frontPics": "gMonFrontPic_UnownS",
+    "index": 430,
     "backPics": "gMonBackPic_UnownS",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4724,6 +5155,7 @@
   },
   "UNOWN_T": {
     "frontPics": "gMonFrontPic_UnownT",
+    "index": 431,
     "backPics": "gMonBackPic_UnownT",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4734,6 +5166,7 @@
   },
   "UNOWN_U": {
     "frontPics": "gMonFrontPic_UnownU",
+    "index": 432,
     "backPics": "gMonBackPic_UnownU",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4744,6 +5177,7 @@
   },
   "UNOWN_V": {
     "frontPics": "gMonFrontPic_UnownV",
+    "index": 433,
     "backPics": "gMonBackPic_UnownV",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4754,6 +5188,7 @@
   },
   "UNOWN_W": {
     "frontPics": "gMonFrontPic_UnownW",
+    "index": 434,
     "backPics": "gMonBackPic_UnownW",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4764,6 +5199,7 @@
   },
   "UNOWN_X": {
     "frontPics": "gMonFrontPic_UnownX",
+    "index": 435,
     "backPics": "gMonBackPic_UnownX",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4774,6 +5210,7 @@
   },
   "UNOWN_Y": {
     "frontPics": "gMonFrontPic_UnownY",
+    "index": 436,
     "backPics": "gMonBackPic_UnownY",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4784,6 +5221,7 @@
   },
   "UNOWN_Z": {
     "frontPics": "gMonFrontPic_UnownZ",
+    "index": 437,
     "backPics": "gMonBackPic_UnownZ",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4794,6 +5232,7 @@
   },
   "UNOWN_EMARK": {
     "frontPics": "gMonFrontPic_UnownExclamationMark",
+    "index": 438,
     "backPics": "gMonBackPic_UnownExclamationMark",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
@@ -4804,6 +5243,7 @@
   },
   "UNOWN_QMARK": {
     "frontPics": "gMonFrontPic_UnownQuestionMark",
+    "index": 439,
     "backPics": "gMonBackPic_UnownQuestionMark",
     "normPalette": "gMonPalette_Unown",
     "shinyPalette": "gMonShinyPalette_Unown",
