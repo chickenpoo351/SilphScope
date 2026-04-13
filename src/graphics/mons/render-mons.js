@@ -7,6 +7,7 @@ import { extract } from "../extract.js";
 import { renderMonIcon } from "./render-mon-icon.js";
 import { renderMonFoot } from "./render-mon-foot.js";
 import { render4bppImage } from "../render-4bpp-image.js";
+import { resolveMonFrontSprite } from "./resolvers/mon-front-sprite-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -15,7 +16,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderMon(monName, mons, assets, rom, options = {}) {
+export async function renderMon(monName, mons, assets, reader, rom, options = {}) {
     const {
         side = "front",
         variant = "normal",
@@ -42,8 +43,13 @@ export async function renderMon(monName, mons, assets, rom, options = {}) {
         throw new Error(`Missing mon: ${monName}`);
     }
 
-    const picName = side === "back" ? mon.backPics : mon.frontPics;
-    const monPic = assets.find(a => a.name === picName);
+    let monPic;
+    if (side === "front") {
+        monPic = resolveMonFrontSprite(mon, reader); // I wonder if this will work :O
+    } else {
+        const picName = mon.backPics;
+        monPic = assets.find(a => a.name === picName);
+    }
     const palType = variant === "shiny" ? mon.shinyPalette : mon.normPalette;
     const monPal = assets.find(a => a.name === palType);
 

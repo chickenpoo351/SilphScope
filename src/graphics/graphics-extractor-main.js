@@ -7,6 +7,8 @@ import { fileURLToPath } from "url";
 import { renderMon } from "./mons/render-mons.js";
 import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
+import { RomReader } from "../rom-reader.js";
+import { getRomConfig } from "../get-rom-config.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 
@@ -35,29 +37,32 @@ export async function renderAllMons(rom, options = {}) {
 
     fs.mkdirSync(outputDir, { recursive: true });
 
+    const config = getRomConfig(rom);
+    const reader = new RomReader(rom, config);
+
     for (const monName of Object.keys(providedMons)) {
-        await renderMon(monName, providedMons, providedAssets, rom, {
+        await renderMon(monName, providedMons, providedAssets, reader, rom, {
             side: "front",
             variant: "normal",
             icon,
             footprint,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, rom, {
+        await renderMon(monName, providedMons, providedAssets, reader, rom, {
             side: "front",
             variant: "shiny",
             icon: false,
             footprint: false,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, rom, {
+        await renderMon(monName, providedMons, providedAssets, reader, rom, {
             side: "back",
             variant: "normal",
             icon: false,
             footprint: false,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, rom, {
+        await renderMon(monName, providedMons, providedAssets, reader, rom, {
             side: "back",
             variant: "shiny",
             icon: false,
