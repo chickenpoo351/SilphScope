@@ -2,8 +2,8 @@
 // Licensed under the MIT License. See LICENSE file in project root.
 
 import { PNG } from "pngjs";
-import { extract } from "./extract.js";
-import { decode1bppTile } from "./decode-1bpp.js";
+import { extract } from "../extract.js";
+import { decode1bppTile } from "../decode-1bpp.js";
 import fs from "fs";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {

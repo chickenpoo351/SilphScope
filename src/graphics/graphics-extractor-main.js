@@ -4,7 +4,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { renderMon } from "./render-mons.js";
+import { renderMon } from "./mons/render-mons.js";
 import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
 

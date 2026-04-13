@@ -3,10 +3,10 @@
 
 import { PNG } from "pngjs";
 import fs from "fs";
-import { extract } from "./extract.js";
+import { extract } from "../extract.js";
 import { renderMonIcon } from "./render-mon-icon.js";
 import { renderMonFoot } from "./render-mon-foot.js";
-import { render4bppImage } from "./render-4bpp-image.js";
+import { render4bppImage } from "../render-4bpp-image.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];

@@ -1,10 +1,10 @@
 // Copyright (c) 2026 chickenPoo
 // Licensed under the MIT License. See LICENSE file in project root.
 
-import { extract } from "./extract.js";
+import { extract } from "../extract.js";
 import { PNG } from "pngjs";
 import fs from "fs";
-import { render4bppImage } from "./render-4bpp-image.js";
+import { render4bppImage } from "../render-4bpp-image.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
