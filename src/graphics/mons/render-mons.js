@@ -34,7 +34,7 @@ export async function renderMon(monName, mons, assets, reader, rom, options = {}
         await renderMonIcon(monName, mons, reader, rom, { outputDir });
     }
     if (footprint === true) {
-        await renderMonFoot(monName, mons, assets, rom, { outputDir });
+        await renderMonFoot(monName, mons, reader, rom, { outputDir });
     }
 
     const mon = mons[monName];
