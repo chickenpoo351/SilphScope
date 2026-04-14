@@ -5,6 +5,7 @@ import { PNG } from "pngjs";
 import { extract } from "../extract.js";
 import { decode1bppTile } from "../decode-1bpp.js";
 import fs from "fs";
+import { resolveMonFootprint } from "./resolvers/mon-footprint-sprite-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -13,7 +14,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderMonFoot(monName, mons, assets, rom, options = {}) {
+export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
     const { outputDir = null } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -25,9 +26,9 @@ export async function renderMonFoot(monName, mons, assets, rom, options = {}) {
         throw new Error(`Missing mon entry for ${monName}`);
     }
 
-    if (!mon.footprintPics && monName.includes("UNOWN")) return;
+    if (monName.includes("UNOWN")) return;
 
-    const footAsset = assets.find(a => a.name === mon.footprintPics);
+    const footAsset = resolveMonFootprint(mon, reader); // possibly the easiest change ive had to do if it works first try :o
     if (!footAsset) {
         throw new Error(`Missing foot asset for ${monName}`);
     }

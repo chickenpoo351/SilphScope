@@ -10,5 +10,6 @@ export const firered = {
         monIconTable: 0x3D37A0,
         monIconPaletteIndices: 0x3D3E80,
         monIconPaletteTable: 0x3D4038,
+        monFootprintTable: 0x43FAB0,
     } // if this works out... well hehe... :D
 }
