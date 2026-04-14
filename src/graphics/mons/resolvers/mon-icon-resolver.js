@@ -3,6 +3,7 @@ export function resolveMonIcon(mon, reader) {
     const entryOffset = table + mon.index * 8;
     const ptr = reader.readPointer(entryOffset);
     return {
-        offset: ptr
+        offset: ptr,
+        size: 1024 // idk anymore :o
     };
 }
