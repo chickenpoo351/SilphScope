@@ -5,6 +5,7 @@ export function resolveMonIconPalette(mon, reader) { // I kinda think this might
     const entryOffset = paletteTable + paletteIndex * 8;
     const palettePtr = reader.readPointer(entryOffset);
     return {
+        name: `mon_${mon.name}_icon_palette`,
         offset: palettePtr,
         size: 32,
     };

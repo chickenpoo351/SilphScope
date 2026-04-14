@@ -18,7 +18,9 @@ export function extract(asset, rom) {
             console.warn(`lz77 failed for ${asset.name}... treating as raw :p`);
         }
     }
-
+    if (!asset.size) {
+        throw new Error(`Attempted to read ${asset.name} however it is missing a size attribute`);
+    }
     const slice = rom.slice(start, start + asset.size);
     return { ...asset, data: slice, compressed: false };
 }
