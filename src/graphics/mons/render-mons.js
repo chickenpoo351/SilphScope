@@ -31,9 +31,7 @@ export async function renderMon(monName, mons, assets, reader, rom, options = {}
     }
 
     if (icon === true) {
-        const comboPal = assets.find(a => a.name === "gMonIconPalettes");
-        if (!comboPal) throw new Error("Missing gMonIconPalettes asset");
-        await renderMonIcon(monName, mons, assets, comboPal, rom, { outputDir });
+        await renderMonIcon(monName, mons, reader, rom, { outputDir });
     }
     if (footprint === true) {
         await renderMonFoot(monName, mons, assets, rom, { outputDir });

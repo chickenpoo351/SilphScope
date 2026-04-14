@@ -6,6 +6,9 @@ export const firered = {
         monFrontSprites: 0x2350AC,
         monBackSprites: 0x23654C,
         monPalettes: 0x23730C,
-        monShinyPalettes: 0x2380CC
+        monShinyPalettes: 0x2380CC,
+        monIconTable: 0x3D37A0,
+        monIconPaletteIndices: 0x3D3E80,
+        monIconPaletteTable: 0x3D4038,
     } // if this works out... well hehe... :D
 }

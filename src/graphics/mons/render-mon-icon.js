@@ -5,6 +5,8 @@ import { extract } from "../extract.js";
 import { PNG } from "pngjs";
 import fs from "fs";
 import { render4bppImage } from "../render-4bpp-image.js";
+import { resolveMonIcon } from "./resolvers/mon-icon-resolver.js";
+import { resolveMonIconPalette } from "./resolvers/mon-icon-palette-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -13,7 +15,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, options = {}) {
+export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     const { outputDir = null } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -25,13 +27,12 @@ export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, op
         throw new Error(`Missing mon entry for ${monName}`);
     }
 
-    const iconAsset = assets.find(a => a.name === mon.Icon);
-    if (!iconAsset) throw new Error(`Missing icon asset for ${monName}`);
+    const iconAsset = resolveMonIcon(mon, reader);
+    const iconPalette = resolveMonIconPalette(mon, reader);
+    if (!iconAsset || !iconPalette) throw new Error(`Missing icon asset for ${monName}`);
 
     const iconData = extract(iconAsset, rom);
-    const palIndex = Number(mon.iconPalIndex);
-    const palSize = 32;
-    const rawIconPalData = extract(iconPalettes, rom);
+    const rawIconPalData = extract(iconPalette, rom);
     const width = 32;
     const height = 64;
 
@@ -40,8 +41,6 @@ export async function renderMonIcon(monName, mons, assets, iconPalettes, rom, op
         paletteData: rawIconPalData.data, 
         width, 
         height, 
-        paletteOffset: palIndex * palSize, 
-        paletteSize: palSize
     });
 
     const frameHeight = 32;
