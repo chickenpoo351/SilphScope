@@ -2,9 +2,10 @@ export function resolveMonIconPalette(mon, reader) { // I kinda think this might
     const indexTable = reader.getTable("monIconPaletteIndices");
     const paletteIndex = reader.readU8(indexTable + mon.index);
     const paletteTable = reader.getTable("monIconPaletteTable");
-    const palettePtr = reader.readPointer(paletteTable + paletteIndex * 8);
+    const entryOffset = paletteTable + paletteIndex * 8;
+    const palettePtr = reader.readPointer(entryOffset);
     return {
         offset: palettePtr,
-        size: 40,
+        size: 32,
     };
 }
