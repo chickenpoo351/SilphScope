@@ -28,7 +28,6 @@ export async function renderAllMons(rom, options = {}) {
     }
 
     const {
-        assets: providedAssets = assets,
         mons: providedMons = mons,
         outputDir = "./out",
         icon = true,
@@ -41,28 +40,28 @@ export async function renderAllMons(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     for (const monName of Object.keys(providedMons)) {
-        await renderMon(monName, providedMons, providedAssets, reader, rom, {
+        await renderMon(monName, providedMons, reader, rom, {
             side: "front",
             variant: "normal",
             icon,
             footprint,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, reader, rom, {
+        await renderMon(monName, providedMons, reader, rom, {
             side: "front",
             variant: "shiny",
             icon: false,
             footprint: false,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, reader, rom, {
+        await renderMon(monName, providedMons, reader, rom, {
             side: "back",
             variant: "normal",
             icon: false,
             footprint: false,
             outputDir,
         });
-        await renderMon(monName, providedMons, providedAssets, reader, rom, {
+        await renderMon(monName, providedMons, reader, rom, {
             side: "back",
             variant: "shiny",
             icon: false,

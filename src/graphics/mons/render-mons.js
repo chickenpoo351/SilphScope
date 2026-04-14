@@ -17,7 +17,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderMon(monName, mons, assets, reader, rom, options = {}) {
+export async function renderMon(monName, mons, reader, rom, options = {}) {
     const {
         side = "front",
         variant = "normal",
