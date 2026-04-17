@@ -26,8 +26,8 @@ export async function renderIcon(itemName, items, assets, reader, rom, options =
         throw new Error(`Missing Item: ${itemName}`);
     }
 
-    const iconPal = resolveItemIconObject(item, reader, "gfx");
-    const iconPic = resolveItemIconObject(item, reader, "pal");
+    const iconPal = resolveItemIconObject(item, reader, itemName, "pal");
+    const iconPic = resolveItemIconObject(item, reader, itemName, "gfx");
     if (!iconPal || !iconPic) {
         throw new Error(`Missing assets for: ${itemName}`);
     }

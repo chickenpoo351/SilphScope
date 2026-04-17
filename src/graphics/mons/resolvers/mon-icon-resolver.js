@@ -1,4 +1,4 @@
-export function resolveMonIcon(mon, reader) {
+export function resolveMonIcon(mon, reader, monName) {
     const table = reader.getTable("monIconTable");
     const entryOffset = table + mon.index * 4;
     const ptr = reader.readPointer(entryOffset);

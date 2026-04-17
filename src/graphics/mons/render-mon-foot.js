@@ -28,7 +28,7 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     if (monName.includes("UNOWN")) return;
 
-    const footAsset = resolveMonFootprint(mon, reader); // possibly the easiest change ive had to do if it works first try :o
+    const footAsset = resolveMonFootprint(mon, reader, monName); // possibly the easiest change ive had to do if it works first try :o
     if (!footAsset) {
         throw new Error(`Missing foot asset for ${monName}`);
     }

@@ -42,8 +42,8 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         throw new Error(`Missing mon: ${monName}`);
     }
 
-    const monPic = resolveMonSprite(mon, reader, side); // I wonder if this will work :O
-    const monPal = resolveMonPalette(mon, reader, variant);
+    const monPic = resolveMonSprite(mon, reader, monName, side); // I wonder if this will work :O
+    const monPal = resolveMonPalette(mon, reader, monName, variant);
 
     if (!monPic || !monPal) {
         throw new Error(`Missing assets for: ${monName}`);

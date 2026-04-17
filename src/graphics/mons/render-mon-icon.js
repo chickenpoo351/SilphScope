@@ -27,8 +27,8 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
         throw new Error(`Missing mon entry for ${monName}`);
     }
 
-    const iconAsset = resolveMonIcon(mon, reader);
-    const iconPalette = resolveMonIconPalette(mon, reader);
+    const iconAsset = resolveMonIcon(mon, reader, monName);
+    const iconPalette = resolveMonIconPalette(mon, reader, monName);
     if (!iconAsset || !iconPalette) throw new Error(`Missing icon asset for ${monName}`);
 
     const iconData = extract(iconAsset, rom);
