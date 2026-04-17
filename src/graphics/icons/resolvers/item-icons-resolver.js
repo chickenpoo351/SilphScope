@@ -17,7 +17,7 @@ export function resolveItemIconObject(item, reader, itemName, gfxOrPal) {
         return {
             name: `item_${itemName}_${gfxOrPal}`,
             offset: finalPtr,
-            size: 40, // this might be extremely dumb... or! It might just work... idk lol (I mean its worked so far so...)
+            size: 32, // this might be extremely dumb... or! It might just work... idk lol (I mean its worked so far so...)
         }
     }
 }
