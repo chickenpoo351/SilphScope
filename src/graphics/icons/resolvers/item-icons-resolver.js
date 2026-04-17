@@ -10,6 +10,7 @@ export function resolveItemIconObject(item, reader, itemName, gfxOrPal) {
         return {
             name: `item_${itemName}_${gfxOrPal}`,
             offset: finalPtr,
+            size: 288,
         }
     } else if (gfxOrPal === "pal") {
         finalPtr = palettePtr;
