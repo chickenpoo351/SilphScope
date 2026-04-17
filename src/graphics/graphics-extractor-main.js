@@ -85,8 +85,11 @@ export async function renderAllIcons(rom, options = {}) {
 
     fs.mkdirSync(outputDir, { recursive: true });
 
+    const config = getRomConfig(rom);
+    const reader = new RomReader(rom, config);
+
     for (const itemName of Object.keys(providedIcons)) {
-        await renderIcon(itemName, providedIcons, providedAssets, rom, { outputDir });
+        await renderIcon(itemName, providedIcons, providedAssets, reader, rom, { outputDir });
         console.log(`Done: ${itemName}`);
     }
 }

@@ -5,6 +5,7 @@ import { extract } from "../extract.js";
 import { PNG } from "pngjs";
 import fs from "fs";
 import { render4bppImage } from "../render-4bpp-image.js";
+import { resolveItemIconObject } from "./resolvers/item-icons-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -13,7 +14,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderIcon(itemName, items, assets, rom, options = {}) {
+export async function renderIcon(itemName, items, assets, reader, rom, options = {}) {
     const { outputDir = null } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -25,8 +26,8 @@ export async function renderIcon(itemName, items, assets, rom, options = {}) {
         throw new Error(`Missing Item: ${itemName}`);
     }
 
-    const iconPal = assets.find(a => a.name === item.palette);
-    const iconPic = assets.find(a => a.name === item.icon);
+    const iconPal = resolveItemIconObject(item, reader, "gfx");
+    const iconPic = resolveItemIconObject(item, reader, "pal");
     if (!iconPal || !iconPic) {
         throw new Error(`Missing assets for: ${itemName}`);
     }
