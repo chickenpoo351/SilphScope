@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 export function resolveMonIconPalette(mon, reader, monName) { // I kinda think this might be wrong... but erm who knows :o maybe I got it right first try lol
     const indexTable = reader.getTable("monIconPaletteIndices");
     const paletteIndex = reader.readU8(indexTable + mon.index);

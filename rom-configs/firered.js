@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 // I have an idea but it needs math D:
 
 export const firered = {

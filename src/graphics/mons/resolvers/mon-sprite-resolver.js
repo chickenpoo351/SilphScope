@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 // so the idea of "resolvers" is to essentially replace this line in the asset extraction:
 // const monPic = assets.find(a => a.name === picName);
 // of course though thats for the mon stuff specifically however!

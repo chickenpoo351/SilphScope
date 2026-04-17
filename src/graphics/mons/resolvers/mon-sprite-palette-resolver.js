@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 export function resolveMonPalette(mon, romReader, monName, variant) {
     const tableName = variant === "shiny"
         ? "monShinyPalettes"

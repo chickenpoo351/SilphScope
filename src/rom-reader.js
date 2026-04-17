@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 export class RomReader {
     constructor(rom, mapConfig) {
         this.rom = rom;
