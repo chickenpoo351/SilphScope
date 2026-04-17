@@ -7,6 +7,7 @@ export function resolveItemIconObject(item, reader, itemName, gfxOrPal) {
     let finalPtr;
     if (gfxOrPal === "gfx") {
         finalPtr = iconPtr;
+        console.log(`gfx ${itemName} asset offset should be 0x${finalPtr.toString(16)}`);
         return {
             name: `item_${itemName}_${gfxOrPal}`,
             offset: finalPtr,
@@ -14,6 +15,7 @@ export function resolveItemIconObject(item, reader, itemName, gfxOrPal) {
         }
     } else if (gfxOrPal === "pal") {
         finalPtr = palettePtr;
+        console.log(`pal ${itemName} asset offset should be 0x${finalPtr.toString(16)}`);
         return {
             name: `item_${itemName}_${gfxOrPal}`,
             offset: finalPtr,
