@@ -87,13 +87,12 @@ export async function renderAllTrainers(rom, options = {}) {
     } = options;
 
     fs.mkdirSync(outputDir, { recursive: true });
-    const backTrainerName = Object.keys(providedBackTrainers);
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
     for (const trainerName of Object.keys(providedTrainers)) {
-        await renderTrainer(trainerName, providedTrainers, backTrainerName, providedBackTrainers, reader, rom, {
+        await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
             trainerBackPics, 
             outputDir 
         });

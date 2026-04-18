@@ -16,7 +16,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderTrainer(trainerName, trainers, backTrainerName, backTrainers, reader, rom, options = {}) {
+export async function renderTrainer(trainerName, trainers, backTrainers, reader, rom, options = {}) {
     const {
         trainerBackPics = false,
         outputDir = null,
@@ -30,7 +30,16 @@ export async function renderTrainer(trainerName, trainers, backTrainerName, back
         throw new Error(`Missing Trainer: ${trainerName}`);
     }
     if (trainerBackPics) {
-        renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, { outputDir });
+        const backTrainerName = backTrainers[trainerName]
+            ? trainerName
+            : false;
+        if (backTrainerName) {
+            await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, { outputDir }); // that could have been bad lol I forgot to add await :p
+        }
+        else if (backTrainerName === false && trainerName === "PAINTER") {
+            await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { outputDir });
+            await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { outputDir });
+        }
     }
     const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
     const trainerPic = resolveTrainerFrontPic(trainer, reader, trainerName);
