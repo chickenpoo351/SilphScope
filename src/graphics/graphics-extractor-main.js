@@ -17,7 +17,6 @@ function loadDefaultJson(relativePath) {
     return JSON.parse(fs.readFileSync(absolutePath, "utf-8"));
 }
 
-const assets = loadDefaultJson("../graphics-maps/fr-graphic-map.json");
 const mons = loadDefaultJson("../mon-data/monData.json");
 const icons = loadDefaultJson("../item-data/itemData.json");
 const trainers = loadDefaultJson("../trainer-data/trainerData.json");
@@ -58,7 +57,6 @@ export async function renderAllIcons(rom, options = {}) {
     }
 
     const {
-        assets: providedAssets = assets,
         icons: providedIcons = icons,
         outputDir = "./out",
     } = options;
@@ -69,7 +67,7 @@ export async function renderAllIcons(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     for (const itemName of Object.keys(providedIcons)) {
-        await renderIcon(itemName, providedIcons, providedAssets, reader, rom, { outputDir });
+        await renderIcon(itemName, providedIcons, reader, rom, { outputDir });
         console.log(`Done: ${itemName}`);
     }
 }

@@ -14,7 +14,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderIcon(itemName, items, assets, reader, rom, options = {}) {
+export async function renderIcon(itemName, items, reader, rom, options = {}) {
     const { outputDir = null } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
