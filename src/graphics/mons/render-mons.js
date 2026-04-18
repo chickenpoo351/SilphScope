@@ -30,6 +30,9 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         throw new TypeError("renderMon(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    const sides = Array.isArray(side) ? side : [side];
+    const variants = Array.isArray(variant) ? variant : [variant];
+
     if (icon === true) {
         await renderMonIcon(monName, mons, reader, rom, { outputDir });
     }
@@ -42,35 +45,45 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         throw new Error(`Missing mon: ${monName}`);
     }
 
-    const monPic = resolveMonSprite(mon, reader, monName, side); // I wonder if this will work :O
-    const monPal = resolveMonPalette(mon, reader, monName, variant);
-
-    if (!monPic || !monPal) {
-        throw new Error(`Missing assets for: ${monName}`);
+    const picCache = {};
+    const palCache = {};
+    for (const side of sides) {
+        const monPic = resolveMonSprite(mon, reader, monName, side);
+        if (!monPic) throw new Error(`Missing sprite data for: ${monName} ${side}`);
+        picCache[side] = extract(monPic, rom).data;
+    }
+    for (const variant of variants) {
+        const monPal = resolveMonPalette(mon, reader, monName, variant);
+        if (!monPal) throw new Error(`Missing palette data for: ${monName} ${variant}`);
+        palCache[variant] = extract(monPal, rom).data;
     }
 
-    const monImageData = extract(monPic, rom);
-    const rawMonPalData = extract(monPal, rom);
+    const results = [];
     const width = 64;
     const height = 64;
+    for (const side of sides) {
+        for (const variant of variants) {
+            const image = render4bppImage({
+                tileData: picCache[side], 
+                paletteData: palCache[variant], 
+                width, 
+                height, 
+            });
 
-    const image = render4bppImage({
-        tileData: monImageData.data, 
-        paletteData: rawMonPalData.data, 
-        width, 
-        height, 
-    });
+            const png = new PNG({ width, height });
+            png.data = image;
+            const pngBuffer = await streamToBuffer(png.pack());
 
-    const png = new PNG({ width, height });
-    png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
+            if (outputDir) {
+                const dir = `${outputDir}/${monName}`;
+                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true }); // I suppose it is better to have this out of the loop for performance but erm I would say its fine for now :p
+                const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
+                fs.writeFileSync(fileName, pngBuffer);
+            }
 
-    if (outputDir) {
-        const dir = `${outputDir}/${monName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+            results.push(pngBuffer);
+        }
     }
 
-    return pngBuffer;
+    return results;
 }

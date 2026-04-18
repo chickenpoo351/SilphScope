@@ -40,32 +40,11 @@ export async function renderAllMons(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     for (const monName of Object.keys(providedMons)) {
-        await renderMon(monName, providedMons, reader, rom, {
-            side: "front",
-            variant: "normal",
+        await renderMon(monName, providedMons, reader, rom, { // hopefully this is faster since we are no longer calling the function 4 times lol
+            side: ["front", "back"],
+            variant: ["normal", "shiny"],
             icon,
             footprint,
-            outputDir,
-        });
-        await renderMon(monName, providedMons, reader, rom, {
-            side: "front",
-            variant: "shiny",
-            icon: false,
-            footprint: false,
-            outputDir,
-        });
-        await renderMon(monName, providedMons, reader, rom, {
-            side: "back",
-            variant: "normal",
-            icon: false,
-            footprint: false,
-            outputDir,
-        });
-        await renderMon(monName, providedMons, reader, rom, {
-            side: "back",
-            variant: "shiny",
-            icon: false,
-            footprint: false,
             outputDir,
         });
         console.log(`Done: ${monName}`);
