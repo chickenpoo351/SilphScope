@@ -21,6 +21,7 @@ const assets = loadDefaultJson("../graphics-maps/fr-graphic-map.json");
 const mons = loadDefaultJson("../mon-data/monData.json");
 const icons = loadDefaultJson("../item-data/itemData.json");
 const trainers = loadDefaultJson("../trainer-data/trainerData.json");
+const trainersBack = loadDefaultJson("../trainer-data/trainerBackData.json");
 
 export async function renderAllMons(rom, options = {}) {
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -79,16 +80,20 @@ export async function renderAllTrainers(rom, options = {}) {
     }
     
     const {
-        assets: providedAssets = assets,
         trainers: providedTrainers = trainers,
+        trainersBack: providedBackTrainers = trainersBack,
         trainerBackPics = true,
         outputDir = "./out",
     } = options;
 
     fs.mkdirSync(outputDir, { recursive: true });
+    const backTrainerName = Object.keys(providedBackTrainers);
+
+    const config = getRomConfig(rom);
+    const reader = new RomReader(rom, config);
 
     for (const trainerName of Object.keys(providedTrainers)) {
-        await renderTrainer(trainerName, providedTrainers, providedAssets, rom, {
+        await renderTrainer(trainerName, providedTrainers, backTrainerName, providedBackTrainers, reader, rom, {
             trainerBackPics, 
             outputDir 
         });

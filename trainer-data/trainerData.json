@@ -1,614 +1,742 @@
 {
   "AQUA_LEADER_ARCHIE": {
     "Pic": "gTrainerFrontPic_AquaLeaderArchie",
+    "index": 0,
     "Palette": "gTrainerPalette_AquaLeaderArchie"
   },
   "AQUA_GRUNT_M": {
     "Pic": "gTrainerFrontPic_AquaGruntM",
+    "index": 1,
     "Palette": "gTrainerPalette_AquaGruntM"
   },
   "AQUA_GRUNT_F": {
     "Pic": "gTrainerFrontPic_AquaGruntF",
+    "index": 2,
     "Palette": "gTrainerPalette_AquaGruntF"
   },
   "RS_AROMA_LADY": {
     "Pic": "gTrainerFrontPic_RSAromaLady",
+    "index": 3,
     "Palette": "gTrainerPalette_RSAromaLady"
   },
   "RS_RUIN_MANIAC": {
     "Pic": "gTrainerFrontPic_RSRuinManiac",
+    "index": 4,
     "Palette": "gTrainerPalette_RSRuinManiac"
   },
   "INTERVIEWER": {
     "Pic": "gTrainerFrontPic_Interviewer",
+    "index": 5,
     "Palette": "gTrainerPalette_Interviewer"
   },
   "RS_TUBER_F": {
     "Pic": "gTrainerFrontPic_RSTuberF",
+    "index": 6,
     "Palette": "gTrainerPalette_RSTuberF"
   },
   "RS_TUBER_M": {
     "Pic": "gTrainerFrontPic_TuberM",
+    "index": 7,
     "Palette": "gTrainerPalette_TuberM"
   },
   "RS_COOLTRAINER_M": {
     "Pic": "gTrainerFrontPic_RSCooltrainerM",
+    "index": 8,
     "Palette": "gTrainerPalette_RSCooltrainerM"
   },
   "RS_COOLTRAINER_F": {
     "Pic": "gTrainerFrontPic_RSCooltrainerF",
+    "index": 9,
     "Palette": "gTrainerPalette_RSCooltrainerF"
   },
   "HEX_MANIAC": {
     "Pic": "gTrainerFrontPic_HexManiac",
+    "index": 10,
     "Palette": "gTrainerPalette_HexManiac"
   },
   "RS_LADY": {
     "Pic": "gTrainerFrontPic_RSLady",
+    "index": 11,
     "Palette": "gTrainerPalette_RSLady"
   },
   "RS_BEAUTY": {
     "Pic": "gTrainerFrontPic_RSBeauty",
+    "index": 12,
     "Palette": "gTrainerPalette_RSBeauty"
   },
   "RICH_BOY": {
     "Pic": "gTrainerFrontPic_RichBoy",
+    "index": 13,
     "Palette": "gTrainerPalette_RichBoy"
   },
   "RS_POKEMANIAC": {
     "Pic": "gTrainerFrontPic_RSPokeManiac",
+    "index": 14,
     "Palette": "gTrainerPalette_RSPokeManiac"
   },
   "RS_SWIMMER_M": {
     "Pic": "gTrainerFrontPic_RSSwimmerM",
+    "index": 15,
     "Palette": "gTrainerPalette_RSSwimmerM"
   },
   "RS_BLACK_BELT": {
     "Pic": "gTrainerFrontPic_RSBlackBelt",
+    "index": 16,
     "Palette": "gTrainerPalette_RSBlackBelt"
   },
   "GUITARIST": {
     "Pic": "gTrainerFrontPic_Guitarist",
+    "index": 17,
     "Palette": "gTrainerPalette_Guitarist"
   },
   "KINDLER": {
     "Pic": "gTrainerFrontPic_Kindler",
+    "index": 18,
     "Palette": "gTrainerPalette_Kindler"
   },
   "RS_CAMPER": {
     "Pic": "gTrainerFrontPic_RSCamper",
+    "index": 19,
     "Palette": "gTrainerPalette_RSCamper"
   },
   "BUG_MANIAC": {
     "Pic": "gTrainerFrontPic_BugManiac",
+    "index": 20,
     "Palette": "gTrainerPalette_BugManiac"
   },
   "RS_PSYCHIC_M": {
     "Pic": "gTrainerFrontPic_RSPsychicM",
+    "index": 21,
     "Palette": "gTrainerPalette_RSPsychicM"
   },
   "RS_PSYCHIC_F": {
     "Pic": "gTrainerFrontPic_RSPsychicF",
+    "index": 22,
     "Palette": "gTrainerPalette_RSPsychicF"
   },
   "RS_GENTLEMAN": {
     "Pic": "gTrainerFrontPic_RSGentleman",
+    "index": 23,
     "Palette": "gTrainerPalette_RSGentleman"
   },
   "ELITE_FOUR_SIDNEY": {
     "Pic": "gTrainerFrontPic_EliteFourSidney",
+    "index": 24,
     "Palette": "gTrainerPalette_EliteFourSidney"
   },
   "ELITE_FOUR_PHOEBE": {
     "Pic": "gTrainerFrontPic_EliteFourPhoebe",
+    "index": 25,
     "Palette": "gTrainerPalette_EliteFourPhoebe"
   },
   "LEADER_ROXANNE": {
     "Pic": "gTrainerFrontPic_LeaderRoxanne",
+    "index": 26,
     "Palette": "gTrainerPalette_LeaderRoxanne"
   },
   "LEADER_BRAWLY": {
     "Pic": "gTrainerFrontPic_LeaderBrawly",
+    "index": 27,
     "Palette": "gTrainerPalette_LeaderBrawly"
   },
   "LEADER_TATE_AND_LIZA": {
     "Pic": "gTrainerFrontPic_LeaderTateAndLiza",
+    "index": 28,
     "Palette": "gTrainerPalette_LeaderTateAndLiza"
   },
   "SCHOOL_KID_M": {
     "Pic": "gTrainerFrontPic_SchoolKidM",
+    "index": 29,
     "Palette": "gTrainerPalette_SchoolKidM"
   },
   "SCHOOL_KID_F": {
     "Pic": "gTrainerFrontPic_SchoolKidF",
+    "index": 30,
     "Palette": "gTrainerPalette_SchoolKidF"
   },
   "SR_AND_JR": {
     "Pic": "gTrainerFrontPic_SrAndJr",
+    "index": 31,
     "Palette": "gTrainerPalette_SrAndJr"
   },
   "POKEFAN_M": {
     "Pic": "gTrainerFrontPic_PokefanM",
+    "index": 32,
     "Palette": "gTrainerPalette_PokefanM"
   },
   "POKEFAN_F": {
     "Pic": "gTrainerFrontPic_PokefanF",
+    "index": 33,
     "Palette": "gTrainerPalette_PokefanF"
   },
   "EXPERT_M": {
     "Pic": "gTrainerFrontPic_ExpertM",
+    "index": 34,
     "Palette": "gTrainerPalette_ExpertM"
   },
   "EXPERT_F": {
     "Pic": "gTrainerFrontPic_ExpertF",
+    "index": 35,
     "Palette": "gTrainerPalette_ExpertF"
   },
   "RS_YOUNGSTER": {
     "Pic": "gTrainerFrontPic_RSYoungster",
+    "index": 36,
     "Palette": "gTrainerPalette_RSYoungster"
   },
   "CHAMPION_STEVEN": {
     "Pic": "gTrainerFrontPic_ChampionSteven",
+    "index": 37,
     "Palette": "gTrainerPalette_ChampionSteven"
   },
   "RS_FISHERMAN": {
     "Pic": "gTrainerFrontPic_RSFisherman",
+    "index": 38,
     "Palette": "gTrainerPalette_RSFisherman"
   },
   "CYCLING_TRIATHLETE_M": {
     "Pic": "gTrainerFrontPic_CyclingTriathleteM",
+    "index": 39,
     "Palette": "gTrainerPalette_CyclingTriathleteM"
   },
   "CYCLING_TRIATHLETE_F": {
     "Pic": "gTrainerFrontPic_CyclingTriathleteF",
+    "index": 40,
     "Palette": "gTrainerPalette_CyclingTriathleteF"
   },
   "RUNNING_TRIATHLETE_M": {
     "Pic": "gTrainerFrontPic_RunningTriathleteM",
+    "index": 41,
     "Palette": "gTrainerPalette_RunningTriathleteM"
   },
   "RUNNING_TRIATHLETE_F": {
     "Pic": "gTrainerFrontPic_RunningTriathleteF",
+    "index": 42,
     "Palette": "gTrainerPalette_RunningTriathleteF"
   },
   "SWIMMING_TRIATHLETE_M": {
     "Pic": "gTrainerFrontPic_SwimmingTriathleteM",
+    "index": 43,
     "Palette": "gTrainerPalette_SwimmingTriathleteM"
   },
   "SWIMMING_TRIATHLETE_F": {
     "Pic": "gTrainerFrontPic_SwimmingTriathleteF",
+    "index": 44,
     "Palette": "gTrainerPalette_SwimmingTriathleteF"
   },
   "DRAGON_TAMER": {
     "Pic": "gTrainerFrontPic_DragonTamer",
+    "index": 45,
     "Palette": "gTrainerPalette_DragonTamer"
   },
   "RS_BIRD_KEEPER": {
     "Pic": "gTrainerFrontPic_RSBirdKeeper",
+    "index": 46,
     "Palette": "gTrainerPalette_RSBirdKeeper"
   },
   "NINJA_BOY": {
     "Pic": "gTrainerFrontPic_NinjaBoy",
+    "index": 47,
     "Palette": "gTrainerPalette_NinjaBoy"
   },
   "BATTLE_GIRL": {
     "Pic": "gTrainerFrontPic_BattleGirl",
+    "index": 48,
     "Palette": "gTrainerPalette_BattleGirl"
   },
   "PARASOL_LADY": {
     "Pic": "gTrainerFrontPic_ParasolLady",
+    "index": 49,
     "Palette": "gTrainerPalette_ParasolLady"
   },
   "RS_SWIMMER_F": {
     "Pic": "gTrainerFrontPic_RSSwimmerF",
+    "index": 50,
     "Palette": "gTrainerPalette_RSSwimmerF"
   },
   "RS_PICNICKER": {
     "Pic": "gTrainerFrontPic_RSPicnicker",
+    "index": 51,
     "Palette": "gTrainerPalette_RSPicnicker"
   },
   "RS_TWINS": {
     "Pic": "gTrainerFrontPic_RSTwins",
+    "index": 52,
     "Palette": "gTrainerPalette_RSTwins"
   },
   "RS_SAILOR": {
     "Pic": "gTrainerFrontPic_RSSailor",
+    "index": 53,
     "Palette": "gTrainerPalette_RSSailor"
   },
   "COLLECTOR": {
     "Pic": "gTrainerFrontPic_Collector",
+    "index": 54,
     "Palette": "gTrainerPalette_Collector"
   },
   "WALLY": {
     "Pic": "gTrainerFrontPic_Wally",
+    "index": 55,
     "Palette": "gTrainerPalette_Wally"
   },
   "RS_BRENDAN_1": {
     "Pic": "gTrainerFrontPic_RSBrendan1",
-    "Palette": "gTrainerPalette_RSBrendan1",
-    "BackPic": "gTrainerBackPic_RSBrendan",
-    "BackPal": "gTrainerPalette_RSBrendan1"
+    "index": 56,
+    "Palette": "gTrainerPalette_RSBrendan1"
   },
   "RS_MAY_1": {
     "Pic": "gTrainerFrontPic_RSMay1",
-    "Palette": "gTrainerPalette_RSMay1",
-    "BackPic": "gTrainerBackPic_RSMay",
-    "BackPal": "gTrainerPalette_RSMay1"
+    "index": 57,
+    "Palette": "gTrainerPalette_RSMay1"
   },
   "RS_POKEMON_BREEDER_M": {
     "Pic": "gTrainerFrontPic_RSPokemonBreederM",
+    "index": 58,
     "Palette": "gTrainerPalette_RSPokemonBreederM"
   },
   "RS_POKEMON_BREEDER_F": {
     "Pic": "gTrainerFrontPic_RSPokemonBreederF",
+    "index": 59,
     "Palette": "gTrainerPalette_RSPokemonBreederF"
   },
   "RS_POKEMON_RANGER_M": {
     "Pic": "gTrainerFrontPic_RSPokemonRangerM",
+    "index": 60,
     "Palette": "gTrainerPalette_RSPokemonRangerM"
   },
   "RS_POKEMON_RANGER_F": {
     "Pic": "gTrainerFrontPic_RSPokemonRangerF",
+    "index": 61,
     "Palette": "gTrainerPalette_RSPokemonRangerF"
   },
   "MAGMA_LEADER_MAXIE": {
     "Pic": "gTrainerFrontPic_MagmaLeaderMaxie",
+    "index": 62,
     "Palette": "gTrainerPalette_MagmaLeaderMaxie"
   },
   "MAGMA_GRUNT_M": {
     "Pic": "gTrainerFrontPic_MagmaGruntM",
+    "index": 63,
     "Palette": "gTrainerPalette_MagmaGruntM"
   },
   "MAGMA_GRUNT_F": {
     "Pic": "gTrainerFrontPic_MagmaGruntF",
+    "index": 64,
     "Palette": "gTrainerPalette_MagmaGruntF"
   },
   "RS_LASS": {
     "Pic": "gTrainerFrontPic_RSLass",
+    "index": 65,
     "Palette": "gTrainerPalette_RSLass"
   },
   "RS_BUG_CATCHER": {
     "Pic": "gTrainerFrontPic_RSBugCatcher",
+    "index": 66,
     "Palette": "gTrainerPalette_RSBugCatcher"
   },
   "RS_HIKER": {
     "Pic": "gTrainerFrontPic_RSHiker",
+    "index": 67,
     "Palette": "gTrainerPalette_RSHiker"
   },
   "RS_YOUNG_COUPLE": {
     "Pic": "gTrainerFrontPic_RSYoungCouple",
+    "index": 68,
     "Palette": "gTrainerPalette_RSYoungCouple"
   },
   "OLD_COUPLE": {
     "Pic": "gTrainerFrontPic_OldCouple",
+    "index": 69,
     "Palette": "gTrainerPalette_OldCouple"
   },
   "RS_SIS_AND_BRO": {
     "Pic": "gTrainerFrontPic_RSSisAndBro",
+    "index": 70,
     "Palette": "gTrainerPalette_RSSisAndBro"
   },
   "AQUA_ADMIN_M": {
     "Pic": "gTrainerFrontPic_AquaAdminM",
+    "index": 71,
     "Palette": "gTrainerPalette_AquaAdminM"
   },
   "AQUA_ADMIN_F": {
     "Pic": "gTrainerFrontPic_AquaAdminF",
+    "index": 72,
     "Palette": "gTrainerPalette_AquaAdminF"
   },
   "MAGMA_ADMIN_M": {
     "Pic": "gTrainerFrontPic_MagmaAdminM",
+    "index": 73,
     "Palette": "gTrainerPalette_MagmaAdminM"
   },
   "MAGMA_ADMIN_F": {
     "Pic": "gTrainerFrontPic_MagmaAdminF",
+    "index": 74,
     "Palette": "gTrainerPalette_MagmaAdminF"
   },
   "LEADER_WATTSON": {
     "Pic": "gTrainerFrontPic_LeaderWattson",
+    "index": 75,
     "Palette": "gTrainerPalette_LeaderWattson"
   },
   "LEADER_FLANNERY": {
     "Pic": "gTrainerFrontPic_LeaderFlannery",
+    "index": 76,
     "Palette": "gTrainerPalette_LeaderFlannery"
   },
   "LEADER_NORMAN": {
     "Pic": "gTrainerFrontPic_LeaderNorman",
+    "index": 77,
     "Palette": "gTrainerPalette_LeaderNorman"
   },
   "LEADER_WINONA": {
     "Pic": "gTrainerFrontPic_LeaderWinona",
+    "index": 78,
     "Palette": "gTrainerPalette_LeaderWinona"
   },
   "LEADER_WALLACE": {
     "Pic": "gTrainerFrontPic_LeaderWallace",
+    "index": 79,
     "Palette": "gTrainerPalette_LeaderWallace"
   },
   "ELITE_FOUR_GLACIA": {
     "Pic": "gTrainerFrontPic_EliteFourGlacia",
+    "index": 80,
     "Palette": "gTrainerPalette_EliteFourGlacia"
   },
   "ELITE_FOUR_DRAKE": {
     "Pic": "gTrainerFrontPic_EliteFourDrake",
+    "index": 81,
     "Palette": "gTrainerPalette_EliteFourDrake"
   },
   "YOUNGSTER": {
     "Pic": "gTrainerFrontPic_Youngster",
+    "index": 82,
     "Palette": "gTrainerPalette_Youngster"
   },
   "BUG_CATCHER": {
     "Pic": "gTrainerFrontPic_BugCatcher",
+    "index": 83,
     "Palette": "gTrainerPalette_BugCatcher"
   },
   "LASS": {
     "Pic": "gTrainerFrontPic_Lass",
+    "index": 84,
     "Palette": "gTrainerPalette_Lass"
   },
   "SAILOR": {
     "Pic": "gTrainerFrontPic_Sailor",
+    "index": 85,
     "Palette": "gTrainerPalette_Sailor"
   },
   "CAMPER": {
     "Pic": "gTrainerFrontPic_Camper",
+    "index": 86,
     "Palette": "gTrainerPalette_Camper"
   },
   "PICNICKER": {
     "Pic": "gTrainerFrontPic_Picnicker",
+    "index": 87,
     "Palette": "gTrainerPalette_Picnicker"
   },
   "POKEMANIAC": {
     "Pic": "gTrainerFrontPic_PokeManiac",
+    "index": 88,
     "Palette": "gTrainerPalette_PokeManiac"
   },
   "SUPER_NERD": {
     "Pic": "gTrainerFrontPic_SuperNerd",
+    "index": 89,
     "Palette": "gTrainerPalette_SuperNerd"
   },
   "HIKER": {
     "Pic": "gTrainerFrontPic_Hiker",
+    "index": 90,
     "Palette": "gTrainerPalette_Hiker"
   },
   "BIKER": {
     "Pic": "gTrainerFrontPic_Biker",
+    "index": 91,
     "Palette": "gTrainerPalette_Biker"
   },
   "BURGLAR": {
     "Pic": "gTrainerFrontPic_Burglar",
+    "index": 92,
     "Palette": "gTrainerPalette_Burglar"
   },
   "ENGINEER": {
     "Pic": "gTrainerFrontPic_Engineer",
+    "index": 93,
     "Palette": "gTrainerPalette_Engineer"
   },
   "FISHERMAN": {
     "Pic": "gTrainerFrontPic_Fisherman",
+    "index": 94,
     "Palette": "gTrainerPalette_Fisherman"
   },
   "SWIMMER_M": {
     "Pic": "gTrainerFrontPic_SwimmerM",
+    "index": 95,
     "Palette": "gTrainerPalette_SwimmerM"
   },
   "CUE_BALL": {
     "Pic": "gTrainerFrontPic_CueBall",
+    "index": 96,
     "Palette": "gTrainerPalette_CueBall"
   },
   "GAMER": {
     "Pic": "gTrainerFrontPic_Gamer",
+    "index": 97,
     "Palette": "gTrainerPalette_Gamer"
   },
   "BEAUTY": {
     "Pic": "gTrainerFrontPic_Beauty",
+    "index": 98,
     "Palette": "gTrainerPalette_Beauty"
   },
   "SWIMMER_F": {
     "Pic": "gTrainerFrontPic_SwimmerF",
+    "index": 99,
     "Palette": "gTrainerPalette_SwimmerF"
   },
   "PSYCHIC_M": {
     "Pic": "gTrainerFrontPic_PsychicM",
+    "index": 100,
     "Palette": "gTrainerPalette_PsychicM"
   },
   "ROCKER": {
     "Pic": "gTrainerFrontPic_Rocker",
+    "index": 101,
     "Palette": "gTrainerPalette_Rocker"
   },
   "JUGGLER": {
     "Pic": "gTrainerFrontPic_Juggler",
+    "index": 102,
     "Palette": "gTrainerPalette_Juggler"
   },
   "TAMER": {
     "Pic": "gTrainerFrontPic_Tamer",
+    "index": 103,
     "Palette": "gTrainerPalette_Tamer"
   },
   "BIRD_KEEPER": {
     "Pic": "gTrainerFrontPic_BirdKeeper",
+    "index": 104,
     "Palette": "gTrainerPalette_BirdKeeper"
   },
   "BLACK_BELT": {
     "Pic": "gTrainerFrontPic_BlackBelt",
+    "index": 105,
     "Palette": "gTrainerPalette_BlackBelt"
   },
   "RIVAL_EARLY": {
     "Pic": "gTrainerFrontPic_RivalEarly",
+    "index": 106,
     "Palette": "gTrainerPalette_RivalEarly"
   },
   "SCIENTIST": {
     "Pic": "gTrainerFrontPic_Scientist",
+    "index": 107,
     "Palette": "gTrainerPalette_Scientist"
   },
   "LEADER_GIOVANNI": {
     "Pic": "gTrainerFrontPic_LeaderGiovanni",
+    "index": 108,
     "Palette": "gTrainerPalette_LeaderGiovanni"
   },
   "ROCKET_GRUNT_M": {
     "Pic": "gTrainerFrontPic_RocketGruntM",
+    "index": 109,
     "Palette": "gTrainerPalette_RocketGruntM"
   },
   "COOLTRAINER_M": {
     "Pic": "gTrainerFrontPic_CooltrainerM",
+    "index": 110,
     "Palette": "gTrainerPalette_CooltrainerM"
   },
   "COOLTRAINER_F": {
     "Pic": "gTrainerFrontPic_CooltrainerF",
+    "index": 111,
     "Palette": "gTrainerPalette_CooltrainerF"
   },
   "ELITE_FOUR_LORELEI": {
     "Pic": "gTrainerFrontPic_EliteFourLorelei",
+    "index": 112,
     "Palette": "gTrainerPalette_EliteFourLorelei"
   },
   "ELITE_FOUR_BRUNO": {
     "Pic": "gTrainerFrontPic_EliteFourBruno",
+    "index": 113,
     "Palette": "gTrainerPalette_EliteFourBruno"
   },
   "ELITE_FOUR_AGATHA": {
     "Pic": "gTrainerFrontPic_EliteFourAgatha",
+    "index": 114,
     "Palette": "gTrainerPalette_EliteFourAgatha"
   },
   "ELITE_FOUR_LANCE": {
     "Pic": "gTrainerFrontPic_EliteFourLance",
+    "index": 115,
     "Palette": "gTrainerPalette_EliteFourLance"
   },
   "LEADER_BROCK": {
     "Pic": "gTrainerFrontPic_LeaderBrock",
+    "index": 116,
     "Palette": "gTrainerPalette_LeaderBrock"
   },
   "LEADER_MISTY": {
     "Pic": "gTrainerFrontPic_LeaderMisty",
+    "index": 117,
     "Palette": "gTrainerPalette_LeaderMisty"
   },
   "LEADER_LT_SURGE": {
     "Pic": "gTrainerFrontPic_LeaderLtSurge",
+    "index": 118,
     "Palette": "gTrainerPalette_LeaderLtSurge"
   },
   "LEADER_ERIKA": {
     "Pic": "gTrainerFrontPic_LeaderErika",
+    "index": 119,
     "Palette": "gTrainerPalette_LeaderErika"
   },
   "LEADER_KOGA": {
     "Pic": "gTrainerFrontPic_LeaderKoga",
+    "index": 120,
     "Palette": "gTrainerPalette_LeaderKoga"
   },
   "LEADER_BLAINE": {
     "Pic": "gTrainerFrontPic_LeaderBlaine",
+    "index": 121,
     "Palette": "gTrainerPalette_LeaderBlaine"
   },
   "LEADER_SABRINA": {
     "Pic": "gTrainerFrontPic_LeaderSabrina",
+    "index": 122,
     "Palette": "gTrainerPalette_LeaderSabrina"
   },
   "GENTLEMAN": {
     "Pic": "gTrainerFrontPic_Gentleman",
+    "index": 123,
     "Palette": "gTrainerPalette_Gentleman"
   },
   "RIVAL_LATE": {
     "Pic": "gTrainerFrontPic_RivalLate",
+    "index": 124,
     "Palette": "gTrainerPalette_RivalLate"
   },
   "CHAMPION_RIVAL": {
     "Pic": "gTrainerFrontPic_ChampionRival",
+    "index": 125,
     "Palette": "gTrainerPalette_ChampionRival"
   },
   "CHANNELER": {
     "Pic": "gTrainerFrontPic_Channeler",
+    "index": 126,
     "Palette": "gTrainerPalette_Channeler"
   },
   "TWINS": {
     "Pic": "gTrainerFrontPic_Twins",
+    "index": 127,
     "Palette": "gTrainerPalette_Twins"
   },
   "COOL_COUPLE": {
     "Pic": "gTrainerFrontPic_CoolCouple",
+    "index": 128,
     "Palette": "gTrainerPalette_CoolCouple"
   },
   "YOUNG_COUPLE": {
     "Pic": "gTrainerFrontPic_YoungCouple",
+    "index": 129,
     "Palette": "gTrainerPalette_YoungCouple"
   },
   "CRUSH_KIN": {
     "Pic": "gTrainerFrontPic_CrushKin",
+    "index": 130,
     "Palette": "gTrainerPalette_CrushKin"
   },
   "SIS_AND_BRO": {
     "Pic": "gTrainerFrontPic_SisAndBro",
+    "index": 131,
     "Palette": "gTrainerPalette_SisAndBro"
   },
   "PROFESSOR_OAK": {
     "Pic": "gTrainerFrontPic_ProfessorOak",
+    "index": 132,
     "Palette": "gTrainerPalette_ProfessorOak"
   },
   "RS_BRENDAN_2": {
     "Pic": "gTrainerFrontPic_RSBrendan2",
-    "Palette": "gTrainerPalette_RSBrendan2",
-    "BackPic": "gTrainerBackPic_RSBrendan",
-    "BackPal": "gTrainerPalette_RSBrendan2"
+    "index": 133,
+    "Palette": "gTrainerPalette_RSBrendan2"
   },
   "RS_MAY_2": {
     "Pic": "gTrainerFrontPic_RSMay2",
-    "Palette": "gTrainerPalette_RSMay2",
-    "BackPic": "gTrainerBackPic_RSMay",
-    "BackPal": "gTrainerPalette_RSMay2"
+    "index": 134,
+    "Palette": "gTrainerPalette_RSMay2"
   },
   "RED": {
     "Pic": "gTrainerFrontPic_Red",
-    "Palette": "gTrainerPalette_Red",
-    "BackPic": "gTrainerBackPic_Red",
-    "BackPal": "gTrainerPalette_RedBackPic"
+    "index": 135,
+    "Palette": "gTrainerPalette_Red"
   },
   "LEAF": {
     "Pic": "gTrainerFrontPic_Leaf",
-    "Palette": "gTrainerPalette_Leaf",
-    "BackPic": "gTrainerBackPic_Leaf",
-    "BackPal": "gTrainerPalette_LeafBackPic"
+    "index": 136,
+    "Palette": "gTrainerPalette_Leaf"
   },
   "ROCKET_GRUNT_F": {
     "Pic": "gTrainerFrontPic_RocketGruntF",
+    "index": 137,
     "Palette": "gTrainerPalette_RocketGruntF"
   },
   "PSYCHIC_F": {
     "Pic": "gTrainerFrontPic_PsychicF",
+    "index": 138,
     "Palette": "gTrainerPalette_PsychicF"
   },
   "CRUSH_GIRL": {
     "Pic": "gTrainerFrontPic_CrushGirl",
+    "index": 139,
     "Palette": "gTrainerPalette_CrushGirl"
   },
   "TUBER_F": {
     "Pic": "gTrainerFrontPic_TuberF",
+    "index": 140,
     "Palette": "gTrainerPalette_TuberF"
   },
   "POKEMON_BREEDER": {
     "Pic": "gTrainerFrontPic_PokemonBreeder",
+    "index": 141,
     "Palette": "gTrainerPalette_PokemonBreeder"
   },
   "POKEMON_RANGER_M": {
     "Pic": "gTrainerFrontPic_PokemonRangerM",
+    "index": 142,
     "Palette": "gTrainerPalette_PokemonRangerM"
   },
   "POKEMON_RANGER_F": {
     "Pic": "gTrainerFrontPic_PokemonRangerF",
+    "index": 143,
     "Palette": "gTrainerPalette_PokemonRangerF"
   },
   "AROMA_LADY": {
     "Pic": "gTrainerFrontPic_AromaLady",
+    "index": 144,
     "Palette": "gTrainerPalette_AromaLady"
   },
   "RUIN_MANIAC": {
     "Pic": "gTrainerFrontPic_RuinManiac",
+    "index": 145,
     "Palette": "gTrainerPalette_RuinManiac"
   },
   "LADY": {
     "Pic": "gTrainerFrontPic_Lady",
+    "index": 146,
     "Palette": "gTrainerPalette_Lady"
   },
   "PAINTER": {
     "Pic": "gTrainerFrontPic_Painter",
+    "index": 147,
     "Palette": "gTrainerPalette_Painter"
-  },
-  "POKEDUDE": {
-    "BackPic": "gTrainerBackPic_Pokedude",
-    "BackPal": "gTrainerPalette_PokedudeBackPic"
-  },
-  "OLDMAN": {
-    "BackPic": "gTrainerBackPic_OldMan",
-    "BackPal": "gTrainerPalette_OldManBackPic"
   }
 }

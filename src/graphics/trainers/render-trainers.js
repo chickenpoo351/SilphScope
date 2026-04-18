@@ -6,6 +6,8 @@ import { render4bppImage } from "../render-4bpp-image.js";
 import { PNG } from "pngjs";
 import fs from "fs";
 import { renderTrainerBackPic } from "./render-trainer-back-pics.js";
+import { resolveTrainerFrontPic } from "./resolvers/trainer-front-pic-resolver.js";
+import { resolveTrainerFrontPicPal } from "./resolvers/trainer-front-pic-pal-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -14,7 +16,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderTrainer(trainerName, trainers, assets, rom, options = {}) {
+export async function renderTrainer(trainerName, trainers, backTrainerName, backTrainers, reader, rom, options = {}) {
     const {
         trainerBackPics = false,
         outputDir = null,
@@ -28,13 +30,10 @@ export async function renderTrainer(trainerName, trainers, assets, rom, options 
         throw new Error(`Missing Trainer: ${trainerName}`);
     }
     if (trainerBackPics) {
-        renderTrainerBackPic(trainerName, trainers, assets, rom, { outputDir });
+        renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, { outputDir });
     }
-    if (trainerName === "OLDMAN" || trainerName === "POKEDUDE") {
-        return;
-    }
-    const trainerPal = assets.find(a => a.name === trainer.Palette);
-    const trainerPic = assets.find(a => a.name === trainer.Pic);
+    const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
+    const trainerPic = resolveTrainerFrontPic(trainer, reader, trainerName);
 
     if (!trainerPal || !trainerPic) {
         throw new Error(`Missing assets for: ${trainerName}`);

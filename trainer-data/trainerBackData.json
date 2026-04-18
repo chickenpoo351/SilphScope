@@ -1,0 +1,26 @@
+{
+    "RED": {
+        "index": 0
+    },
+    "LEAF": {
+        "index": 1
+    },
+    "RS_BRENDAN_1": {
+        "index": 2
+    },
+    "RS_BRENDAN_2": {
+        "index": 2
+    },
+    "RS_MAY_1": {
+        "index": 3
+    },
+    "RS_MAY_2": {
+        "index": 3
+    },
+    "POKEDUDE": {
+        "index": 4
+    },
+    "OLDMAN": {
+        "index": 5
+    }
+}

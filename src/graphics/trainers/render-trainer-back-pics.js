@@ -5,6 +5,8 @@ import { PNG } from "pngjs";
 import fs from "fs";
 import { extract } from "../extract.js";
 import { render4bppImage } from "../render-4bpp-image.js";
+import { resolveTrainerBackPic } from "./resolvers/trainer-back-pic-resolver.js";
+import { resolveTrainerBackPicPal } from "./resolvers/trainer-back-pic-pal-resolver.js"
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -13,7 +15,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderTrainerBackPic(trainerName, trainers, assets, rom, options = {}) {
+export async function renderTrainerBackPic(trainerName, trainers, reader, rom, options = {}) {
     const { outputDir = null } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -25,20 +27,8 @@ export async function renderTrainerBackPic(trainerName, trainers, assets, rom, o
         throw new Error(`Missing trainer entry for ${trainerName}`);
     }
 
-    if (trainerName !== "OLDMAN" &&
-        trainerName !== "POKEDUDE" &&
-        trainerName !== "RS_BRENDAN_1" &&
-        trainerName !== "RS_BRENDAN_2" &&
-        trainerName !== "RS_MAY_1" &&
-        trainerName !== "RS_MAY_2" && // I wonder if there is a more compact way to write this without using a array and `.includes` 
-        trainerName !== "RED" &&
-        trainerName !== "LEAF"
-    ) {
-        return;
-    }
-
-    const trainerBackPic = assets.find(a => a.name === trainer.BackPic);
-    const trainerBackPal = assets.find(a => a.name === trainer.BackPal);
+    const trainerBackPic = resolveTrainerBackPic(trainer, reader, trainerName);
+    const trainerBackPal = resolveTrainerBackPicPal(trainer, reader, trainerName);
     if (!trainerBackPic || !trainerBackPal) {
         throw new Error(`Missing assets for: ${trainerName}`);
     }
