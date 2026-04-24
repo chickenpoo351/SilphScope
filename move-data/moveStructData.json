@@ -1,0 +1,3172 @@
+{
+  "gMegahornHornSpriteTemplate": {
+    "name": "gMegahornHornSpriteTemplate",
+    "tileTag": "ANIM_TAG_HORN_HIT_2",
+    "paletteTag": "ANIM_TAG_HORN_HIT_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_MegahornHorn",
+    "callback": "AnimMegahornHorn"
+  },
+  "gLeechLifeNeedleSpriteTemplate": {
+    "name": "gLeechLifeNeedleSpriteTemplate",
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_LeechLifeNeedle",
+    "callback": "AnimLeechLifeNeedle"
+  },
+  "gWebThreadSpriteTemplate": {
+    "name": "gWebThreadSpriteTemplate",
+    "tileTag": "ANIM_TAG_WEB_THREAD",
+    "paletteTag": "ANIM_TAG_WEB_THREAD",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTranslateWebThread"
+  },
+  "gStringWrapSpriteTemplate": {
+    "name": "gStringWrapSpriteTemplate",
+    "tileTag": "ANIM_TAG_STRING",
+    "paletteTag": "ANIM_TAG_STRING",
+    "oam": "gOamData_AffineOff_ObjNormal_64x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimStringWrap"
+  },
+  "gSpiderWebSpriteTemplate": {
+    "name": "gSpiderWebSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPIDER_WEB",
+    "paletteTag": "ANIM_TAG_SPIDER_WEB",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_SpiderWeb",
+    "callback": "AnimSpiderWeb"
+  },
+  "gLinearStingerSpriteTemplate": {
+    "name": "gLinearStingerSpriteTemplate",
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTranslateStinger"
+  },
+  "gPinMissileSpriteTemplate": {
+    "name": "gPinMissileSpriteTemplate",
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMissileArc"
+  },
+  "gIcicleSpearSpriteTemplate": {
+    "name": "gIcicleSpearSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICICLE_SPEAR",
+    "paletteTag": "ANIM_TAG_ICICLE_SPEAR",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMissileArc"
+  },
+  "gTailGlowOrbSpriteTemplate": {
+    "name": "gTailGlowOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_TailGlowOrb",
+    "callback": "AnimTailGlowOrb"
+  },
+  "sUnusedBagStealSpriteTemplate": {
+    "name": "sUnusedBagStealSpriteTemplate",
+    "tileTag": "ANIM_TAG_TIED_BAG",
+    "paletteTag": "ANIM_TAG_TIED_BAG",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimUnusedBagSteal"
+  },
+  "gSharpTeethSpriteTemplate": {
+    "name": "gSharpTeethSpriteTemplate",
+    "tileTag": "ANIM_TAG_SHARP_TEETH",
+    "paletteTag": "ANIM_TAG_SHARP_TEETH",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gAffineAnims_Bite",
+    "callback": "AnimBite"
+  },
+  "gClampJawSpriteTemplate": {
+    "name": "gClampJawSpriteTemplate",
+    "tileTag": "ANIM_TAG_CLAMP",
+    "paletteTag": "ANIM_TAG_CLAMP",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gAffineAnims_Bite",
+    "callback": "AnimBite"
+  },
+  "gTearDropSpriteTemplate": {
+    "name": "gTearDropSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_TearDrop",
+    "callback": "AnimTearDrop"
+  },
+  "gClawSlashSpriteTemplate": {
+    "name": "gClawSlashSpriteTemplate",
+    "tileTag": "ANIM_TAG_CLAW_SLASH",
+    "paletteTag": "ANIM_TAG_CLAW_SLASH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_ClawSlash",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimClawSlash"
+  },
+  "gOutrageFlameSpriteTemplate": {
+    "name": "gOutrageFlameSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_OutrageOverheatFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimOutrageFlame"
+  },
+  "gDragonBreathFireSpriteTemplate": {
+    "name": "gDragonBreathFireSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_DragonBreathFire",
+    "images": null,
+    "affineAnims": "sAffineAnims_DragonBreathFire",
+    "callback": "AnimDragonFireToTarget"
+  },
+  "gDragonRageFirePlumeSpriteTemplate": {
+    "name": "gDragonRageFirePlumeSpriteTemplate",
+    "tileTag": "ANIM_TAG_FIRE_PLUME",
+    "paletteTag": "ANIM_TAG_FIRE_PLUME",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_DragonRageFirePlume",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDragonRageFirePlume"
+  },
+  "gDragonRageFireSpitSpriteTemplate": {
+    "name": "gDragonRageFireSpitSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_DragonRageFire",
+    "images": null,
+    "affineAnims": "sAffineAnims_DragonRageFire",
+    "callback": "AnimDragonFireToTarget"
+  },
+  "gDragonDanceOrbSpriteTemplate": {
+    "name": "gDragonDanceOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_HOLLOW_ORB",
+    "paletteTag": "ANIM_TAG_HOLLOW_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDragonDanceOrb"
+  },
+  "gOverheatFlameSpriteTemplate": {
+    "name": "gOverheatFlameSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_OutrageOverheatFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimOverheatFlame"
+  },
+  "gSleepPowderParticleSpriteTemplate": {
+    "name": "gSleepPowderParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLEEP_POWDER",
+    "paletteTag": "ANIM_TAG_SLEEP_POWDER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "anims": "sPowderParticlesAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMovePowderParticle"
+  },
+  "gStunSporeParticleSpriteTemplate": {
+    "name": "gStunSporeParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_STUN_SPORE",
+    "paletteTag": "ANIM_TAG_STUN_SPORE",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "anims": "sPowderParticlesAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMovePowderParticle"
+  },
+  "gPoisonPowderParticleSpriteTemplate": {
+    "name": "gPoisonPowderParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_POWDER",
+    "paletteTag": "ANIM_TAG_POISON_POWDER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "anims": "sPowderParticlesAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMovePowderParticle"
+  },
+  "gPowerAbsorptionOrbSpriteTemplate": {
+    "name": "gPowerAbsorptionOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "anims": "sPowerAbsorptionOrbAnimTable",
+    "images": null,
+    "affineAnims": "sPowerAbsorptionOrbAffineAnimTable",
+    "callback": "AnimPowerAbsorptionOrb"
+  },
+  "gSolarBeamBigOrbSpriteTemplate": {
+    "name": "gSolarBeamBigOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sSolarBeamBigOrbAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSolarBeamBigOrb"
+  },
+  "gSolarBeamSmallOrbSpriteTemplate": {
+    "name": "gSolarBeamSmallOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sSolarBeamSmallOrbAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSolarBeamSmallOrb"
+  },
+  "gStockpileAbsorptionOrbSpriteTemplate": {
+    "name": "gStockpileAbsorptionOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_GRAY_ORB",
+    "paletteTag": "ANIM_TAG_GRAY_ORB",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sStockpileAbsorptionOrbAffineAnimTable",
+    "callback": "AnimPowerAbsorptionOrb"
+  },
+  "gAbsorptionOrbSpriteTemplate": {
+    "name": "gAbsorptionOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "anims": "sPowerAbsorptionOrbAnimTable",
+    "images": null,
+    "affineAnims": "sAbsorptionOrbAffineAnimTable",
+    "callback": "AnimAbsorptionOrb"
+  },
+  "gHyperBeamOrbSpriteTemplate": {
+    "name": "gHyperBeamOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sSolarBeamBigOrbAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimHyperBeamOrb"
+  },
+  "gLeechSeedSpriteTemplate": {
+    "name": "gLeechSeedSpriteTemplate",
+    "tileTag": "ANIM_TAG_SEED",
+    "paletteTag": "ANIM_TAG_SEED",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sLeechSeedAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLeechSeed"
+  },
+  "gSporeParticleSpriteTemplate": {
+    "name": "gSporeParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPORE",
+    "paletteTag": "ANIM_TAG_SPORE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sSporeParticleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSporeParticle"
+  },
+  "gPetalDanceBigFlowerSpriteTemplate": {
+    "name": "gPetalDanceBigFlowerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sPetalDanceBigFlowerAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPetalDanceBigFlower"
+  },
+  "gPetalDanceSmallFlowerSpriteTemplate": {
+    "name": "gPetalDanceSmallFlowerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sPetalDanceSmallFlowerAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPetalDanceSmallFlower"
+  },
+  "gRazorLeafParticleSpriteTemplate": {
+    "name": "gRazorLeafParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sRazorLeafParticleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRazorLeafParticle"
+  },
+  "gTwisterLeafSpriteTemplate": {
+    "name": "gTwisterLeafSpriteTemplate",
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sRazorLeafParticleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMoveTwisterParticle"
+  },
+  "gRazorLeafCutterSpriteTemplate": {
+    "name": "gRazorLeafCutterSpriteTemplate",
+    "tileTag": "ANIM_TAG_RAZOR_LEAF",
+    "paletteTag": "ANIM_TAG_RAZOR_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "sRazorLeafCutterAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTranslateLinearSingleSineWave"
+  },
+  "gSwiftStarSpriteTemplate": {
+    "name": "gSwiftStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_YELLOW_STAR",
+    "paletteTag": "ANIM_TAG_YELLOW_STAR",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSwiftStarAffineAnimTable",
+    "callback": "AnimTranslateLinearSingleSineWave"
+  },
+  "gConstrictBindingSpriteTemplate": {
+    "name": "gConstrictBindingSpriteTemplate",
+    "tileTag": "ANIM_TAG_TENDRILS",
+    "paletteTag": "ANIM_TAG_TENDRILS",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x32",
+    "anims": "sAnims_ConstrictBinding",
+    "images": null,
+    "affineAnims": "sAffineAnims_ConstrictBinding",
+    "callback": "AnimConstrictBinding"
+  },
+  "gMimicOrbSpriteTemplate": {
+    "name": "gMimicOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "sPowerAbsorptionOrbAnimTable",
+    "images": null,
+    "affineAnims": "sMimicOrbAffineAnimTable",
+    "callback": "AnimMimicOrb"
+  },
+  "gIngrainRootSpriteTemplate": {
+    "name": "gIngrainRootSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROOTS",
+    "paletteTag": "ANIM_TAG_ROOTS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sIngrainRootAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimIngrainRoot"
+  },
+  "gFrenzyPlantRootSpriteTemplate": {
+    "name": "gFrenzyPlantRootSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROOTS",
+    "paletteTag": "ANIM_TAG_ROOTS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sIngrainRootAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFrenzyPlantRoot"
+  },
+  "gIngrainOrbSpriteTemplate": {
+    "name": "gIngrainOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sIngrainOrbAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimIngrainOrb"
+  },
+  "gPresentSpriteTemplate": {
+    "name": "gPresentSpriteTemplate",
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sFallingBagAnimTable",
+    "images": null,
+    "affineAnims": "sFallingBagAffineAnimTable",
+    "callback": "AnimPresent"
+  },
+  "gKnockOffItemSpriteTemplate": {
+    "name": "gKnockOffItemSpriteTemplate",
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sFallingBagAnimTable",
+    "images": null,
+    "affineAnims": "sFallingBagAffineAnimTable",
+    "callback": "AnimKnockOffItem"
+  },
+  "gPresentHealParticleSpriteTemplate": {
+    "name": "gPresentHealParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_GREEN_SPARKLE",
+    "paletteTag": "ANIM_TAG_GREEN_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sPresentHealParticleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPresentHealParticle"
+  },
+  "gItemStealSpriteTemplate": {
+    "name": "gItemStealSpriteTemplate",
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sFallingBagAnimTable",
+    "images": null,
+    "affineAnims": "sFallingBagAffineAnimTable",
+    "callback": "AnimItemSteal"
+  },
+  "gTrickBagSpriteTemplate": {
+    "name": "gTrickBagSpriteTemplate",
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sFallingBagAnimTable",
+    "images": null,
+    "affineAnims": "sTrickBagAffineAnimTable",
+    "callback": "AnimTrickBag"
+  },
+  "gLeafBladeSpriteTemplate": {
+    "name": "gLeafBladeSpriteTemplate",
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sLeafBladeAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "SpriteCallbackDummy"
+  },
+  "gAromatherapySmallFlowerSpriteTemplate": {
+    "name": "gAromatherapySmallFlowerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sPetalDanceSmallFlowerAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFlyingParticle"
+  },
+  "gAromatherapyBigFlowerSpriteTemplate": {
+    "name": "gAromatherapyBigFlowerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "sPetalDanceBigFlowerAnimTable",
+    "images": null,
+    "affineAnims": "sAromatherapyBigFlowerAffineAnimTable",
+    "callback": "AnimFlyingParticle"
+  },
+  "gSilverWindBigSparkSpriteTemplate": {
+    "name": "gSilverWindBigSparkSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSilverWindBigSparkAffineAnimTable",
+    "callback": "AnimFlyingParticle"
+  },
+  "gSilverWindMediumSparkSpriteTemplate": {
+    "name": "gSilverWindMediumSparkSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSilverWindMediumSparkAffineAnimTable",
+    "callback": "AnimFlyingParticle"
+  },
+  "gSilverWindSmallSparkSpriteTemplate": {
+    "name": "gSilverWindSmallSparkSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSilverWindSmallSparkAffineAnimTable",
+    "callback": "AnimFlyingParticle"
+  },
+  "gNeedleArmSpikeSpriteTemplate": {
+    "name": "gNeedleArmSpikeSpriteTemplate",
+    "tileTag": "ANIM_TAG_GREEN_SPIKE",
+    "paletteTag": "ANIM_TAG_GREEN_SPIKE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimNeedleArmSpike"
+  },
+  "gSlamHitSpriteTemplate": {
+    "name": "gSlamHitSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLAM_HIT",
+    "paletteTag": "ANIM_TAG_SLAM_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_Whip",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWhipHit"
+  },
+  "gVineWhipSpriteTemplate": {
+    "name": "gVineWhipSpriteTemplate",
+    "tileTag": "ANIM_TAG_WHIP_HIT",
+    "paletteTag": "ANIM_TAG_WHIP_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_Whip",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWhipHit"
+  },
+  "gCuttingSliceSpriteTemplate": {
+    "name": "gCuttingSliceSpriteTemplate",
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "sCuttingSliceAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimCuttingSlice"
+  },
+  "gAirCutterSliceSpriteTemplate": {
+    "name": "gAirCutterSliceSpriteTemplate",
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "sCuttingSliceAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimAirCutterSlice"
+  },
+  "gProtectSpriteTemplate": {
+    "name": "gProtectSpriteTemplate",
+    "tileTag": "ANIM_TAG_PROTECT",
+    "paletteTag": "ANIM_TAG_PROTECT",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimProtect"
+  },
+  "gMilkBottleSpriteTemplate": {
+    "name": "gMilkBottleSpriteTemplate",
+    "tileTag": "ANIM_TAG_MILK_BOTTLE",
+    "paletteTag": "ANIM_TAG_MILK_BOTTLE",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sMilkBottleAffineAnimTable",
+    "callback": "AnimMilkBottle"
+  },
+  "gGrantingStarsSpriteTemplate": {
+    "name": "gGrantingStarsSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_2",
+    "paletteTag": "ANIM_TAG_SPARKLE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sGrantingStarsAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGrantingStars"
+  },
+  "gSparklingStarsSpriteTemplate": {
+    "name": "gSparklingStarsSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_2",
+    "paletteTag": "ANIM_TAG_SPARKLE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sGrantingStarsAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSparklingStars"
+  },
+  "gSleepLetterZSpriteTemplate": {
+    "name": "gSleepLetterZSpriteTemplate",
+    "tileTag": "ANIM_TAG_LETTER_Z",
+    "paletteTag": "ANIM_TAG_LETTER_Z",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sSleepLetterZAnimTable",
+    "images": null,
+    "affineAnims": "sSleepLetterZAffineAnimTable",
+    "callback": "AnimSleepLetterZ"
+  },
+  "gLockOnTargetSpriteTemplate": {
+    "name": "gLockOnTargetSpriteTemplate",
+    "tileTag": "ANIM_TAG_LOCK_ON",
+    "paletteTag": "ANIM_TAG_LOCK_ON",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLockOnTarget"
+  },
+  "gLockOnMoveTargetSpriteTemplate": {
+    "name": "gLockOnMoveTargetSpriteTemplate",
+    "tileTag": "ANIM_TAG_LOCK_ON",
+    "paletteTag": "ANIM_TAG_LOCK_ON",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLockOnMoveTarget"
+  },
+  "gBowMonSpriteTemplate": {
+    "name": "gBowMonSpriteTemplate",
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBowMon"
+  },
+  "gSlashSliceSpriteTemplate": {
+    "name": "gSlashSliceSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLASH",
+    "paletteTag": "ANIM_TAG_SLASH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sSlashSliceAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSlashSlice"
+  },
+  "gFalseSwipeSliceSpriteTemplate": {
+    "name": "gFalseSwipeSliceSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLASH_2",
+    "paletteTag": "ANIM_TAG_SLASH_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sSlashSliceAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFalseSwipeSlice"
+  },
+  "gFalseSwipePositionedSliceSpriteTemplate": {
+    "name": "gFalseSwipePositionedSliceSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLASH_2",
+    "paletteTag": "ANIM_TAG_SLASH_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sSlashSliceAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFalseSwipePositionedSlice"
+  },
+  "gEndureEnergySpriteTemplate": {
+    "name": "gEndureEnergySpriteTemplate",
+    "tileTag": "ANIM_TAG_FOCUS_ENERGY",
+    "paletteTag": "ANIM_TAG_FOCUS_ENERGY",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "anims": "sEndureEnergyAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimEndureEnergy"
+  },
+  "gSharpenSphereSpriteTemplate": {
+    "name": "gSharpenSphereSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPHERE_TO_CUBE",
+    "paletteTag": "ANIM_TAG_SPHERE_TO_CUBE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sSharpenSphereAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSharpenSphere"
+  },
+  "gOctazookaBallSpriteTemplate": {
+    "name": "gOctazookaBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLACK_BALL",
+    "paletteTag": "ANIM_TAG_BLACK_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gOctazookaSmokeSpriteTemplate": {
+    "name": "gOctazookaSmokeSpriteTemplate",
+    "tileTag": "ANIM_TAG_GRAY_SMOKE",
+    "paletteTag": "ANIM_TAG_GRAY_SMOKE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sOctazookaAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gConversionSpriteTemplate": {
+    "name": "gConversionSpriteTemplate",
+    "tileTag": "ANIM_TAG_CONVERSION",
+    "paletteTag": "ANIM_TAG_CONVERSION",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x8",
+    "anims": "sConversionAnimTable",
+    "images": null,
+    "affineAnims": "sConversionAffineAnimTable",
+    "callback": "AnimConversion"
+  },
+  "gConversion2SpriteTemplate": {
+    "name": "gConversion2SpriteTemplate",
+    "tileTag": "ANIM_TAG_CONVERSION",
+    "paletteTag": "ANIM_TAG_CONVERSION",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x8",
+    "anims": "sConversion2AnimTable",
+    "images": null,
+    "affineAnims": "sConversionAffineAnimTable",
+    "callback": "AnimConversion2"
+  },
+  "gMoonSpriteTemplate": {
+    "name": "gMoonSpriteTemplate",
+    "tileTag": "ANIM_TAG_MOON",
+    "paletteTag": "ANIM_TAG_MOON",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMoon"
+  },
+  "gMoonlightSparkleSpriteTemplate": {
+    "name": "gMoonlightSparkleSpriteTemplate",
+    "tileTag": "ANIM_TAG_GREEN_SPARKLE",
+    "paletteTag": "ANIM_TAG_GREEN_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sMoonlightSparkleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMoonlightSparkle"
+  },
+  "gHealingBlueStarSpriteTemplate": {
+    "name": "gHealingBlueStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_STAR",
+    "paletteTag": "ANIM_TAG_BLUE_STAR",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sHealingBlueStarAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gHornHitSpriteTemplate": {
+    "name": "gHornHitSpriteTemplate",
+    "tileTag": "ANIM_TAG_HORN_HIT",
+    "paletteTag": "ANIM_TAG_HORN_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimHornHit"
+  },
+  "gSuperFangSpriteTemplate": {
+    "name": "gSuperFangSpriteTemplate",
+    "tileTag": "ANIM_TAG_FANG_ATTACK",
+    "paletteTag": "ANIM_TAG_FANG_ATTACK",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sSuperFangAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSuperFang"
+  },
+  "gWavyMusicNotesSpriteTemplate": {
+    "name": "gWavyMusicNotesSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "gMusicNotesAnimTable",
+    "images": null,
+    "affineAnims": "sMusicNotesAffineAnimTable",
+    "callback": "AnimWavyMusicNotes"
+  },
+  "gFastFlyingMusicNotesSpriteTemplate": {
+    "name": "gFastFlyingMusicNotesSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "gMusicNotesAnimTable",
+    "images": null,
+    "affineAnims": "sMusicNotesAffineAnimTable",
+    "callback": "AnimFlyingMusicNotes"
+  },
+  "gBellyDrumHandSpriteTemplate": {
+    "name": "gBellyDrumHandSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_HAND_OUTLINE",
+    "paletteTag": "ANIM_TAG_PURPLE_HAND_OUTLINE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBellyDrumHand"
+  },
+  "gSlowFlyingMusicNotesSpriteTemplate": {
+    "name": "gSlowFlyingMusicNotesSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "gMusicNotesAnimTable",
+    "images": null,
+    "affineAnims": "sSlowFlyinsMusicNotesAffineAnimTable",
+    "callback": "AnimSlowFlyingMusicNotes"
+  },
+  "gThoughtBubbleSpriteTemplate": {
+    "name": "gThoughtBubbleSpriteTemplate",
+    "tileTag": "ANIM_TAG_THOUGHT_BUBBLE",
+    "paletteTag": "ANIM_TAG_THOUGHT_BUBBLE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sMetronomeThroughtBubbleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimThoughtBubble"
+  },
+  "gMetronomeFingerSpriteTemplate": {
+    "name": "gMetronomeFingerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FINGER",
+    "paletteTag": "ANIM_TAG_FINGER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sMetronomeFingerAffineAnimTable",
+    "callback": "AnimMetronomeFinger"
+  },
+  "gFollowMeFingerSpriteTemplate": {
+    "name": "gFollowMeFingerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FINGER",
+    "paletteTag": "ANIM_TAG_FINGER",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sMetronomeFingerAffineAnimTable",
+    "callback": "AnimFollowMeFinger"
+  },
+  "gTauntFingerSpriteTemplate": {
+    "name": "gTauntFingerSpriteTemplate",
+    "tileTag": "ANIM_TAG_FINGER_2",
+    "paletteTag": "ANIM_TAG_FINGER_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sTauntFingerAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTauntFinger"
+  },
+  "gKinesisZapEnergySpriteTemplate": {
+    "name": "gKinesisZapEnergySpriteTemplate",
+    "tileTag": "ANIM_TAG_ALERT",
+    "paletteTag": "ANIM_TAG_ALERT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "sKinesisZapEnergyAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimKinesisZapEnergy"
+  },
+  "gSwordsDanceBladeSpriteTemplate": {
+    "name": "gSwordsDanceBladeSpriteTemplate",
+    "tileTag": "ANIM_TAG_SWORD",
+    "paletteTag": "ANIM_TAG_SWORD",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSwordsDanceBladeAffineAnimTable",
+    "callback": "AnimSwordsDanceBlade"
+  },
+  "gSonicBoomSpriteTemplate": {
+    "name": "gSonicBoomSpriteTemplate",
+    "tileTag": "ANIM_TAG_AIR_WAVE",
+    "paletteTag": "ANIM_TAG_AIR_WAVE",
+    "oam": "gOamData_AffineDouble_ObjBlend_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSonicBoomProjectile"
+  },
+  "gAirWaveProjectileSpriteTemplate": {
+    "name": "gAirWaveProjectileSpriteTemplate",
+    "tileTag": "ANIM_TAG_AIR_WAVE",
+    "paletteTag": "ANIM_TAG_AIR_WAVE",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimAirWaveProjectile"
+  },
+  "gSupersonicRingSpriteTemplate": {
+    "name": "gSupersonicRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_GOLD_RING",
+    "paletteTag": "ANIM_TAG_GOLD_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gGrowingRingAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gScreechRingSpriteTemplate": {
+    "name": "gScreechRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_RING",
+    "paletteTag": "ANIM_TAG_PURPLE_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gGrowingRingAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gMetalSoundSpriteTemplate": {
+    "name": "gMetalSoundSpriteTemplate",
+    "tileTag": "ANIM_TAG_METAL_SOUND_WAVES",
+    "paletteTag": "ANIM_TAG_METAL_SOUND_WAVES",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gGrowingRingAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gWaterPulseRingSpriteTemplate": {
+    "name": "gWaterPulseRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_RING_2",
+    "paletteTag": "ANIM_TAG_BLUE_RING_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sWaterPulseRingAffineAnimTable",
+    "callback": "AnimWaterPulseRing"
+  },
+  "gEggThrowSpriteTemplate": {
+    "name": "gEggThrowSpriteTemplate",
+    "tileTag": "ANIM_TAG_LARGE_FRESH_EGG",
+    "paletteTag": "ANIM_TAG_LARGE_FRESH_EGG",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimThrowProjectile"
+  },
+  "gCoinThrowSpriteTemplate": {
+    "name": "gCoinThrowSpriteTemplate",
+    "tileTag": "ANIM_TAG_COIN",
+    "paletteTag": "ANIM_TAG_COIN",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "sCoinAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimCoinThrow"
+  },
+  "gFallingCoinSpriteTemplate": {
+    "name": "gFallingCoinSpriteTemplate",
+    "tileTag": "ANIM_TAG_COIN",
+    "paletteTag": "ANIM_TAG_COIN",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "sCoinAnimTable",
+    "images": null,
+    "affineAnims": "sFallingCoinAffineAnimTable",
+    "callback": "AnimFallingCoin"
+  },
+  "gBulletSeedSpriteTemplate": {
+    "name": "gBulletSeedSpriteTemplate",
+    "tileTag": "ANIM_TAG_SEED",
+    "paletteTag": "ANIM_TAG_SEED",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sBulletSeedAffineAnimTable",
+    "callback": "AnimBulletSeed"
+  },
+  "gRazorWindTornadoSpriteTemplate": {
+    "name": "gRazorWindTornadoSpriteTemplate",
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sRazorWindTornadoAffineAnimTable",
+    "callback": "AnimRazorWindTornado"
+  },
+  "gViceGripSpriteTemplate": {
+    "name": "gViceGripSpriteTemplate",
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "sViceGripAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimViceGripPincer"
+  },
+  "gGuillotineSpriteTemplate": {
+    "name": "gGuillotineSpriteTemplate",
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "sGuillotineAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGuillotinePincer"
+  },
+  "gBreathPuffSpriteTemplate": {
+    "name": "gBreathPuffSpriteTemplate",
+    "tileTag": "ANIM_TAG_BREATH",
+    "paletteTag": "ANIM_TAG_BREATH",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sBreathPuffAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBreathPuff"
+  },
+  "gAngerMarkSpriteTemplate": {
+    "name": "gAngerMarkSpriteTemplate",
+    "tileTag": "ANIM_TAG_ANGER",
+    "paletteTag": "ANIM_TAG_ANGER",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAngerMarkAffineAnimTable",
+    "callback": "AnimAngerMark"
+  },
+  "gPencilSpriteTemplate": {
+    "name": "gPencilSpriteTemplate",
+    "tileTag": "ANIM_TAG_PENCIL",
+    "paletteTag": "ANIM_TAG_PENCIL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPencil"
+  },
+  "gSnoreZSpriteTemplate": {
+    "name": "gSnoreZSpriteTemplate",
+    "tileTag": "ANIM_TAG_SNORE_Z",
+    "paletteTag": "ANIM_TAG_SNORE_Z",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTravelDiagonally"
+  },
+  "gExplosionSpriteTemplate": {
+    "name": "gExplosionSpriteTemplate",
+    "tileTag": "ANIM_TAG_EXPLOSION",
+    "paletteTag": "ANIM_TAG_EXPLOSION",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sExplosionAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gSoftBoiledEggSpriteTemplate": {
+    "name": "gSoftBoiledEggSpriteTemplate",
+    "tileTag": "ANIM_TAG_BREAKING_EGG",
+    "paletteTag": "ANIM_TAG_BREAKING_EGG",
+    "oam": "gOamData_AffineDouble_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSoftBoiledEggAffineAnimTable",
+    "callback": "AnimSoftBoiledEgg"
+  },
+  "gThinRingExpandingSpriteTemplate": {
+    "name": "gThinRingExpandingSpriteTemplate",
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sThinRingExpandingAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gThinRingShrinkingSpriteTemplate": {
+    "name": "gThinRingShrinkingSpriteTemplate",
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sThinRingShrinkingAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gBlendThinRingExpandingSpriteTemplate": {
+    "name": "gBlendThinRingExpandingSpriteTemplate",
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sThinRingExpandingAffineAnimTable",
+    "callback": "AnimBlendThinRing"
+  },
+  "gHyperVoiceRingSpriteTemplate": {
+    "name": "gHyperVoiceRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sHyperVoiceRingAffineAnimTable",
+    "callback": "AnimHyperVoiceRing"
+  },
+  "gUproarRingSpriteTemplate": {
+    "name": "gUproarRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sThinRingExpandingAffineAnimTable",
+    "callback": "AnimUproarRing"
+  },
+  "gSpeedDustSpriteTemplate": {
+    "name": "gSpeedDustSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPEED_DUST",
+    "paletteTag": "ANIM_TAG_SPEED_DUST",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sSpeedDustAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpeedDust"
+  },
+  "gBellSpriteTemplate": {
+    "name": "gBellSpriteTemplate",
+    "tileTag": "ANIM_TAG_BELL",
+    "paletteTag": "ANIM_TAG_BELL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sBellAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gHealBellMusicNoteSpriteTemplate": {
+    "name": "gHealBellMusicNoteSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimHealBellMusicNote"
+  },
+  "gMagentaHeartSpriteTemplate": {
+    "name": "gMagentaHeartSpriteTemplate",
+    "tileTag": "ANIM_TAG_MAGENTA_HEART",
+    "paletteTag": "ANIM_TAG_MAGENTA_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMagentaHeart"
+  },
+  "gRedHeartProjectileSpriteTemplate": {
+    "name": "gRedHeartProjectileSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRedHeartProjectile"
+  },
+  "gRedHeartBurstSpriteTemplate": {
+    "name": "gRedHeartBurstSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimParticleBurst"
+  },
+  "gRedHeartRisingSpriteTemplate": {
+    "name": "gRedHeartRisingSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRedHeartRising"
+  },
+  "gHiddenPowerOrbSpriteTemplate": {
+    "name": "gHiddenPowerOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_ORB",
+    "paletteTag": "ANIM_TAG_RED_ORB",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sHiddenPowerOrbAffineAnimTable",
+    "callback": "AnimOrbitFast"
+  },
+  "gHiddenPowerOrbScatterSpriteTemplate": {
+    "name": "gHiddenPowerOrbScatterSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_ORB",
+    "paletteTag": "ANIM_TAG_RED_ORB",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sHiddenPowerOrbAffineAnimTable",
+    "callback": "AnimOrbitScatter"
+  },
+  "gSpitUpOrbSpriteTemplate": {
+    "name": "gSpitUpOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_ORB_2",
+    "paletteTag": "ANIM_TAG_RED_ORB_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSpitUpOrbAffineAnimTable",
+    "callback": "AnimSpitUpOrb"
+  },
+  "gEyeSparkleSpriteTemplate": {
+    "name": "gEyeSparkleSpriteTemplate",
+    "tileTag": "ANIM_TAG_EYE_SPARKLE",
+    "paletteTag": "ANIM_TAG_EYE_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sEyeSparkleAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimEyeSparkle"
+  },
+  "gAngelSpriteTemplate": {
+    "name": "gAngelSpriteTemplate",
+    "tileTag": "ANIM_TAG_ANGEL",
+    "paletteTag": "ANIM_TAG_ANGEL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAngelSpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimAngel"
+  },
+  "gPinkHeartSpriteTemplate": {
+    "name": "gPinkHeartSpriteTemplate",
+    "tileTag": "ANIM_TAG_PINK_HEART",
+    "paletteTag": "ANIM_TAG_PINK_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPinkHeart"
+  },
+  "gDevilSpriteTemplate": {
+    "name": "gDevilSpriteTemplate",
+    "tileTag": "ANIM_TAG_DEVIL",
+    "paletteTag": "ANIM_TAG_DEVIL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sDevilAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDevil"
+  },
+  "gFurySwipesSpriteTemplate": {
+    "name": "gFurySwipesSpriteTemplate",
+    "tileTag": "ANIM_TAG_SWIPE",
+    "paletteTag": "ANIM_TAG_SWIPE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FurySwipes",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFurySwipes"
+  },
+  "gMovementWavesSpriteTemplate": {
+    "name": "gMovementWavesSpriteTemplate",
+    "tileTag": "ANIM_TAG_MOVEMENT_WAVES",
+    "paletteTag": "ANIM_TAG_MOVEMENT_WAVES",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sMovementWavesAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMovementWaves"
+  },
+  "gJaggedMusicNoteSpriteTemplate": {
+    "name": "gJaggedMusicNoteSpriteTemplate",
+    "tileTag": "ANIM_TAG_JAGGED_MUSIC_NOTE",
+    "paletteTag": "ANIM_TAG_JAGGED_MUSIC_NOTE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimJaggedMusicNote"
+  },
+  "gPerishSongMusicNoteSpriteTemplate": {
+    "name": "gPerishSongMusicNoteSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gMusicNotesAnimTable",
+    "images": null,
+    "affineAnims": "sPerishSongMusicNoteAffineAnimTable",
+    "callback": "AnimPerishSongMusicNote"
+  },
+  "gPerishSongMusicNote2SpriteTemplate": {
+    "name": "gPerishSongMusicNote2SpriteTemplate",
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gMusicNotesAnimTable",
+    "images": null,
+    "affineAnims": "sPerishSongMusicNoteAffineAnimTable",
+    "callback": "AnimPerishSongMusicNote2"
+  },
+  "gGuardRingSpriteTemplate": {
+    "name": "gGuardRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_GUARD_RING",
+    "paletteTag": "ANIM_TAG_GUARD_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sGuardRingAffineAnimTable",
+    "callback": "AnimGuardRing"
+  },
+  "gScratchSpriteTemplate": {
+    "name": "gScratchSpriteTemplate",
+    "tileTag": "ANIM_TAG_SCRATCH",
+    "paletteTag": "ANIM_TAG_SCRATCH",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "sScratchAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gBlackSmokeSpriteTemplate": {
+    "name": "gBlackSmokeSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLACK_SMOKE",
+    "paletteTag": "ANIM_TAG_BLACK_SMOKE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBlackSmoke"
+  },
+  "gBlackBallSpriteTemplate": {
+    "name": "gBlackBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLACK_BALL",
+    "paletteTag": "ANIM_TAG_BLACK_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimThrowProjectile"
+  },
+  "gOpeningEyeSpriteTemplate": {
+    "name": "gOpeningEyeSpriteTemplate",
+    "tileTag": "ANIM_TAG_OPENING_EYE",
+    "paletteTag": "ANIM_TAG_OPENING_EYE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sOpeningEyeAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gWhiteHaloSpriteTemplate": {
+    "name": "gWhiteHaloSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_WHITE_HALO",
+    "paletteTag": "ANIM_TAG_ROUND_WHITE_HALO",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWhiteHalo"
+  },
+  "gTealAlertSpriteTemplate": {
+    "name": "gTealAlertSpriteTemplate",
+    "tileTag": "ANIM_TAG_TEAL_ALERT",
+    "paletteTag": "ANIM_TAG_TEAL_ALERT",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimTealAlert"
+  },
+  "gMeanLookEyeSpriteTemplate": {
+    "name": "gMeanLookEyeSpriteTemplate",
+    "tileTag": "ANIM_TAG_EYE",
+    "paletteTag": "ANIM_TAG_EYE",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sMeanLookEyeAffineAnimTable",
+    "callback": "AnimMeanLookEye"
+  },
+  "gSpikesSpriteTemplate": {
+    "name": "gSpikesSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPIKES",
+    "paletteTag": "ANIM_TAG_SPIKES",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpikes"
+  },
+  "gLeerSpriteTemplate": {
+    "name": "gLeerSpriteTemplate",
+    "tileTag": "ANIM_TAG_LEER",
+    "paletteTag": "ANIM_TAG_LEER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sLeerAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLeer"
+  },
+  "gLetterZSpriteTemplate": {
+    "name": "gLetterZSpriteTemplate",
+    "tileTag": "ANIM_TAG_LETTER_Z",
+    "paletteTag": "ANIM_TAG_LETTER_Z",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sLetterZAnimTable",
+    "images": null,
+    "affineAnims": "sLetterZAffineAnimTable",
+    "callback": "AnimLetterZ"
+  },
+  "gFangSpriteTemplate": {
+    "name": "gFangSpriteTemplate",
+    "tileTag": "ANIM_TAG_FANG_ATTACK",
+    "paletteTag": "ANIM_TAG_FANG_ATTACK",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sFangAnimTable",
+    "images": null,
+    "affineAnims": "sFangAffineAnimTable",
+    "callback": "AnimFang"
+  },
+  "gSpotlightSpriteTemplate": {
+    "name": "gSpotlightSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPOTLIGHT",
+    "paletteTag": "ANIM_TAG_SPOTLIGHT",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSpotlightAffineAnimTable",
+    "callback": "AnimSpotlight"
+  },
+  "gClappingHandSpriteTemplate": {
+    "name": "gClappingHandSpriteTemplate",
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimClappingHand"
+  },
+  "gClappingHand2SpriteTemplate": {
+    "name": "gClappingHand2SpriteTemplate",
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimClappingHand2"
+  },
+  "gRapidSpinSpriteTemplate": {
+    "name": "gRapidSpinSpriteTemplate",
+    "tileTag": "ANIM_TAG_RAPID_SPIN",
+    "paletteTag": "ANIM_TAG_RAPID_SPIN",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "sRapidSpinAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRapidSpin"
+  },
+  "gTriAttackTriangleSpriteTemplate": {
+    "name": "gTriAttackTriangleSpriteTemplate",
+    "tileTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE",
+    "paletteTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "sTriAttackTriangleAnimTable",
+    "images": null,
+    "affineAnims": "sTriAttackTriangleAffineAnimTable",
+    "callback": "AnimTriAttackTriangle"
+  },
+  "gEclipsingOrbSpriteTemplate": {
+    "name": "gEclipsingOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_ECLIPSING_ORB",
+    "paletteTag": "ANIM_TAG_ECLIPSING_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sEclipsingOrbAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gBatonPassPokeballSpriteTemplate": {
+    "name": "gBatonPassPokeballSpriteTemplate",
+    "tileTag": "ANIM_TAG_POKEBALL",
+    "paletteTag": "ANIM_TAG_POKEBALL",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBatonPassPokeball"
+  },
+  "gWishStarSpriteTemplate": {
+    "name": "gWishStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWishStar"
+  },
+  "gMiniTwinklingStarSpriteTemplate": {
+    "name": "gMiniTwinklingStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMiniTwinklingStar"
+  },
+  "gSwallowBlueOrbSpriteTemplate": {
+    "name": "gSwallowBlueOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_ORB",
+    "paletteTag": "ANIM_TAG_BLUE_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSwallowBlueOrb"
+  },
+  "gGreenStarSpriteTemplate": {
+    "name": "gGreenStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_GREEN_STAR",
+    "paletteTag": "ANIM_TAG_GREEN_STAR",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sGreenStarAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGreenStar"
+  },
+  "gWeakFrustrationAngerMarkSpriteTemplate": {
+    "name": "gWeakFrustrationAngerMarkSpriteTemplate",
+    "tileTag": "ANIM_TAG_ANGER",
+    "paletteTag": "ANIM_TAG_ANGER",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWeakFrustrationAngerMark"
+  },
+  "gSweetScentPetalSpriteTemplate": {
+    "name": "gSweetScentPetalSpriteTemplate",
+    "tileTag": "ANIM_TAG_PINK_PETAL",
+    "paletteTag": "ANIM_TAG_PINK_PETAL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sSweetScentPetalAnimCmdTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSweetScentPetal"
+  },
+  "gPainSplitProjectileSpriteTemplate": {
+    "name": "gPainSplitProjectileSpriteTemplate",
+    "tileTag": "ANIM_TAG_PAIN_SPLIT",
+    "paletteTag": "ANIM_TAG_PAIN_SPLIT",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sPainSplitAnimCmdTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimPainSplitProjectile"
+  },
+  "gFlatterConfettiSpriteTemplate": {
+    "name": "gFlatterConfettiSpriteTemplate",
+    "tileTag": "ANIM_TAG_CONFETTI",
+    "paletteTag": "ANIM_TAG_CONFETTI",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFlatterConfetti"
+  },
+  "gFlatterSpotlightSpriteTemplate": {
+    "name": "gFlatterSpotlightSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPOTLIGHT",
+    "paletteTag": "ANIM_TAG_SPOTLIGHT",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSpotlightAffineAnimTable",
+    "callback": "AnimFlatterSpotlight"
+  },
+  "gReversalOrbSpriteTemplate": {
+    "name": "gReversalOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_ORB",
+    "paletteTag": "ANIM_TAG_BLUE_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimReversalOrb"
+  },
+  "gYawnCloudSpriteTemplate": {
+    "name": "gYawnCloudSpriteTemplate",
+    "tileTag": "ANIM_TAG_PINK_CLOUD",
+    "paletteTag": "ANIM_TAG_PINK_CLOUD",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sYawnCloudAffineAnimTable",
+    "callback": "AnimYawnCloud"
+  },
+  "gSmokeBallEscapeCloudSpriteTemplate": {
+    "name": "gSmokeBallEscapeCloudSpriteTemplate",
+    "tileTag": "ANIM_TAG_PINK_CLOUD",
+    "paletteTag": "ANIM_TAG_PINK_CLOUD",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sSmokeBallEscapeCloudAffineAnimTable",
+    "callback": "AnimSmokeBallEscapeCloud"
+  },
+  "gFacadeSweatDropSpriteTemplate": {
+    "name": "gFacadeSweatDropSpriteTemplate",
+    "tileTag": "ANIM_TAG_SWEAT_DROP",
+    "paletteTag": "ANIM_TAG_SWEAT_DROP",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFacadeSweatDrop"
+  },
+  "gRoarNoiseLineSpriteTemplate": {
+    "name": "gRoarNoiseLineSpriteTemplate",
+    "tileTag": "ANIM_TAG_NOISE_LINE",
+    "paletteTag": "ANIM_TAG_NOISE_LINE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sRoarNoiseLineAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRoarNoiseLine"
+  },
+  "gGlareEyeDotSpriteTemplate": {
+    "name": "gGlareEyeDotSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_RED_EYE",
+    "paletteTag": "ANIM_TAG_SMALL_RED_EYE",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGlareEyeDot"
+  },
+  "gAssistPawprintSpriteTemplate": {
+    "name": "gAssistPawprintSpriteTemplate",
+    "tileTag": "ANIM_TAG_PAW_PRINT",
+    "paletteTag": "ANIM_TAG_PAW_PRINT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimAssistPawprint"
+  },
+  "gBarrageBallSpriteTemplate": {
+    "name": "gBarrageBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_BALL",
+    "paletteTag": "ANIM_TAG_RED_BALL",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sBarrageBallAffineAnimTable",
+    "callback": "SpriteCallbackDummy"
+  },
+  "gSmellingSaltsHandSpriteTemplate": {
+    "name": "gSmellingSaltsHandSpriteTemplate",
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSmellingSaltsHand"
+  },
+  "gSmellingSaltExclamationSpriteTemplate": {
+    "name": "gSmellingSaltExclamationSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMELLINGSALT_EFFECT",
+    "paletteTag": "ANIM_TAG_SMELLINGSALT_EFFECT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSmellingSaltExclamation"
+  },
+  "gHelpingHandClapSpriteTemplate": {
+    "name": "gHelpingHandClapSpriteTemplate",
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimHelpingHandClap"
+  },
+  "gForesightMagnifyingGlassSpriteTemplate": {
+    "name": "gForesightMagnifyingGlassSpriteTemplate",
+    "tileTag": "ANIM_TAG_MAGNIFYING_GLASS",
+    "paletteTag": "ANIM_TAG_MAGNIFYING_GLASS",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimForesightMagnifyingGlass"
+  },
+  "gMeteorMashStarSpriteTemplate": {
+    "name": "gMeteorMashStarSpriteTemplate",
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMeteorMashStar"
+  },
+  "gBlockXSpriteTemplate": {
+    "name": "gBlockXSpriteTemplate",
+    "tileTag": "ANIM_TAG_X_SIGN",
+    "paletteTag": "ANIM_TAG_X_SIGN",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBlockX"
+  },
+  "gKnockOffStrikeSpriteTemplate": {
+    "name": "gKnockOffStrikeSpriteTemplate",
+    "tileTag": "ANIM_TAG_SLAM_HIT_2",
+    "paletteTag": "ANIM_TAG_SLAM_HIT_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x64",
+    "anims": "sKnockOffStrikeAnimTable",
+    "images": null,
+    "affineAnims": "sKnockOffStrikeAffineAnimTable",
+    "callback": "AnimKnockOffStrike"
+  },
+  "gRecycleSpriteTemplate": {
+    "name": "gRecycleSpriteTemplate",
+    "tileTag": "ANIM_TAG_RECYCLE",
+    "paletteTag": "ANIM_TAG_RECYCLE",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sRecycleSpriteAffineAnimTable",
+    "callback": "AnimRecycle"
+  },
+  "gLightningSpriteTemplate": {
+    "name": "gLightningSpriteTemplate",
+    "tileTag": "ANIM_TAG_LIGHTNING",
+    "paletteTag": "ANIM_TAG_LIGHTNING",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_Lightning",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLightning"
+  },
+  "gSparkElectricitySpriteTemplate": {
+    "name": "gSparkElectricitySpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSparkElectricity"
+  },
+  "gZapCannonBallSpriteTemplate": {
+    "name": "gZapCannonBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLACK_BALL_2",
+    "paletteTag": "ANIM_TAG_BLACK_BALL_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gZapCannonSparkSpriteTemplate": {
+    "name": "gZapCannonSparkSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_FlashingSpark",
+    "callback": "AnimZapCannonSpark"
+  },
+  "gThunderboltOrbSpriteTemplate": {
+    "name": "gThunderboltOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_SHOCK_3",
+    "paletteTag": "ANIM_TAG_SHOCK_3",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_ThunderboltOrb",
+    "images": null,
+    "affineAnims": "sAffineAnims_ThunderboltOrb",
+    "callback": "AnimThunderboltOrb"
+  },
+  "gSparkElectricityFlashingSpriteTemplate": {
+    "name": "gSparkElectricityFlashingSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_FlashingSpark",
+    "callback": "AnimSparkElectricityFlashing"
+  },
+  "gElectricitySpriteTemplate": {
+    "name": "gElectricitySpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimElectricity"
+  },
+  "gThunderWaveSpriteTemplate": {
+    "name": "gThunderWaveSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARK_H",
+    "paletteTag": "ANIM_TAG_SPARK_H",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimThunderWave"
+  },
+  "gGrowingChargeOrbSpriteTemplate": {
+    "name": "gGrowingChargeOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_GrowingElectricOrb",
+    "callback": "AnimGrowingChargeOrb"
+  },
+  "gElectricPuffSpriteTemplate": {
+    "name": "gElectricPuffSpriteTemplate",
+    "tileTag": "ANIM_TAG_ELECTRICITY",
+    "paletteTag": "ANIM_TAG_ELECTRICITY",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_ElectricPuff",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimElectricPuff"
+  },
+  "gVoltTackleOrbSlideSpriteTemplate": {
+    "name": "gVoltTackleOrbSlideSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_GrowingElectricOrb",
+    "callback": "AnimVoltTackleOrbSlide"
+  },
+  "gGrowingShockWaveOrbSpriteTemplate": {
+    "name": "gGrowingShockWaveOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_GrowingElectricOrb",
+    "callback": "AnimGrowingShockWaveOrb"
+  },
+  "gKarateChopSpriteTemplate": {
+    "name": "gKarateChopSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSlideHandOrFootToTarget"
+  },
+  "gJumpKickSpriteTemplate": {
+    "name": "gJumpKickSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimJumpKick"
+  },
+  "gFistFootSpriteTemplate": {
+    "name": "gFistFootSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBasicFistOrFoot"
+  },
+  "gFistFootRandomPosSpriteTemplate": {
+    "name": "gFistFootRandomPosSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFistOrFootRandomPos"
+  },
+  "gCrossChopHandSpriteTemplate": {
+    "name": "gCrossChopHandSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet[3]",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimCrossChopHand"
+  },
+  "gSlidingKickSpriteTemplate": {
+    "name": "gSlidingKickSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet[1]",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSlidingKick"
+  },
+  "gSpinningHandOrFootSpriteTemplate": {
+    "name": "gSpinningHandOrFootSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "sAffineAnims_SpinningHandOrFoot",
+    "callback": "AnimSpinningKickOrPunch"
+  },
+  "gMegaPunchKickSpriteTemplate": {
+    "name": "gMegaPunchKickSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "sAffineAnims_MegaPunchKick",
+    "callback": "AnimSpinningKickOrPunch"
+  },
+  "gStompFootSpriteTemplate": {
+    "name": "gStompFootSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet[1]",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimStompFoot"
+  },
+  "gDizzyPunchDuckSpriteTemplate": {
+    "name": "gDizzyPunchDuckSpriteTemplate",
+    "tileTag": "ANIM_TAG_DUCK",
+    "paletteTag": "ANIM_TAG_DUCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDizzyPunchDuck"
+  },
+  "gBrickBreakWallSpriteTemplate": {
+    "name": "gBrickBreakWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBrickBreakWall"
+  },
+  "gBrickBreakWallShardSpriteTemplate": {
+    "name": "gBrickBreakWallShardSpriteTemplate",
+    "tileTag": "ANIM_TAG_TORN_METAL",
+    "paletteTag": "ANIM_TAG_TORN_METAL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBrickBreakWallShard"
+  },
+  "gSuperpowerOrbSpriteTemplate": {
+    "name": "gSuperpowerOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_SuperpowerOrb",
+    "callback": "AnimSuperpowerOrb"
+  },
+  "gSuperpowerRockSpriteTemplate": {
+    "name": "gSuperpowerRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLAT_ROCK",
+    "paletteTag": "ANIM_TAG_FLAT_ROCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSuperpowerRock"
+  },
+  "gSuperpowerFireballSpriteTemplate": {
+    "name": "gSuperpowerFireballSpriteTemplate",
+    "tileTag": "ANIM_TAG_METEOR",
+    "paletteTag": "ANIM_TAG_METEOR",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSuperpowerFireball"
+  },
+  "gArmThrustHandSpriteTemplate": {
+    "name": "gArmThrustHandSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimArmThrustHit"
+  },
+  "gRevengeSmallScratchSpriteTemplate": {
+    "name": "gRevengeSmallScratchSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_SCRATCH",
+    "paletteTag": "ANIM_TAG_PURPLE_SCRATCH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_RevengeSmallScratch",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRevengeScratch"
+  },
+  "gRevengeBigScratchSpriteTemplate": {
+    "name": "gRevengeBigScratchSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_SWIPE",
+    "paletteTag": "ANIM_TAG_PURPLE_SWIPE",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "anims": "sAnims_RevengeBigScratch",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRevengeScratch"
+  },
+  "gFocusPunchFistSpriteTemplate": {
+    "name": "gFocusPunchFistSpriteTemplate",
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_HandsAndFeet",
+    "images": null,
+    "affineAnims": "sAffineAnims_FocusPunchFist",
+    "callback": "AnimFocusPunchFist"
+  },
+  "gFireSpiralInwardSpriteTemplate": {
+    "name": "gFireSpiralInwardSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FireSpiralSpread",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFireSpiralInward"
+  },
+  "gFireSpreadSpriteTemplate": {
+    "name": "gFireSpreadSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FireSpiralSpread",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFireSpread"
+  },
+  "gLargeFlameSpriteTemplate": {
+    "name": "gLargeFlameSpriteTemplate",
+    "tileTag": "ANIM_TAG_FIRE",
+    "paletteTag": "ANIM_TAG_FIRE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_LargeFlame",
+    "images": null,
+    "affineAnims": "sAffineAnims_LargeFlame",
+    "callback": "AnimLargeFlame"
+  },
+  "gLargeFlameScatterSpriteTemplate": {
+    "name": "gLargeFlameScatterSpriteTemplate",
+    "tileTag": "ANIM_TAG_FIRE",
+    "paletteTag": "ANIM_TAG_FIRE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_LargeFlame",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLargeFlame"
+  },
+  "gFirePlumeSpriteTemplate": {
+    "name": "gFirePlumeSpriteTemplate",
+    "tileTag": "ANIM_TAG_FIRE_PLUME",
+    "paletteTag": "ANIM_TAG_FIRE_PLUME",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FirePlume",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFirePlume"
+  },
+  "gSunlightRaySpriteTemplate": {
+    "name": "gSunlightRaySpriteTemplate",
+    "tileTag": "ANIM_TAG_SUNLIGHT",
+    "paletteTag": "ANIM_TAG_SUNLIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_SunlightRay",
+    "callback": "AnimSunlight"
+  },
+  "gEmberSpriteTemplate": {
+    "name": "gEmberSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gEmberFlareSpriteTemplate": {
+    "name": "gEmberFlareSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimEmberFlare"
+  },
+  "gBurnFlameSpriteTemplate": {
+    "name": "gBurnFlameSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBurnFlame"
+  },
+  "gFireBlastRingSpriteTemplate": {
+    "name": "gFireBlastRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFireRing"
+  },
+  "gFireBlastCrossSpriteTemplate": {
+    "name": "gFireBlastCrossSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FireBlastCross",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFireCross"
+  },
+  "gFireSpiralOutwardSpriteTemplate": {
+    "name": "gFireSpiralOutwardSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFireSpiralOutward"
+  },
+  "gWeatherBallFireDownSpriteTemplate": {
+    "name": "gWeatherBallFireDownSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWeatherBallDown"
+  },
+  "gEruptionFallingRockSpriteTemplate": {
+    "name": "gEruptionFallingRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_WARM_ROCK",
+    "paletteTag": "ANIM_TAG_WARM_ROCK",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimEruptionFallingRock"
+  },
+  "gWillOWispOrbSpriteTemplate": {
+    "name": "gWillOWispOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_WISP_ORB",
+    "paletteTag": "ANIM_TAG_WISP_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sAnims_WillOWispOrb",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWillOWispOrb"
+  },
+  "gWillOWispFireSpriteTemplate": {
+    "name": "gWillOWispFireSpriteTemplate",
+    "tileTag": "ANIM_TAG_WISP_FIRE",
+    "paletteTag": "ANIM_TAG_WISP_FIRE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_WillOWispFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWillOWispFire"
+  },
+  "gEllipticalGustSpriteTemplate": {
+    "name": "gEllipticalGustSpriteTemplate",
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineOff_ObjNormal_32x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimEllipticalGust"
+  },
+  "gGustToTargetSpriteTemplate": {
+    "name": "gGustToTargetSpriteTemplate",
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_GustToTarget",
+    "callback": "AnimGustToTarget"
+  },
+  "gAirWaveCrescentSpriteTemplate": {
+    "name": "gAirWaveCrescentSpriteTemplate",
+    "tileTag": "ANIM_TAG_AIR_WAVE_2",
+    "paletteTag": "ANIM_TAG_AIR_WAVE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "sAffineAnims_AirWaveCrescent",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimAirWaveCrescent"
+  },
+  "gFlyBallUpSpriteTemplate": {
+    "name": "gFlyBallUpSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_FlyBallUp",
+    "callback": "AnimFlyBallUp"
+  },
+  "gFlyBallAttackSpriteTemplate": {
+    "name": "gFlyBallAttackSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_FlyBallAttack",
+    "callback": "AnimFlyBallAttack"
+  },
+  "gFallingFeatherSpriteTemplate": {
+    "name": "gFallingFeatherSpriteTemplate",
+    "tileTag": "ANIM_TAG_WHITE_FEATHER",
+    "paletteTag": "ANIM_TAG_WHITE_FEATHER",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_FallingFeather",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFallingFeather"
+  },
+  "gWhirlwindLineSpriteTemplate": {
+    "name": "gWhirlwindLineSpriteTemplate",
+    "tileTag": "ANIM_TAG_WHIRLWIND_LINES",
+    "paletteTag": "ANIM_TAG_WHIRLWIND_LINES",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "sAnims_WhirlwindLines",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWhirlwindLine"
+  },
+  "gBounceBallShrinkSpriteTemplate": {
+    "name": "gBounceBallShrinkSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_BounceBallShrink",
+    "callback": "AnimBounceBallShrink"
+  },
+  "gBounceBallLandSpriteTemplate": {
+    "name": "gBounceBallLandSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_BounceBallLand",
+    "callback": "AnimBounceBallLand"
+  },
+  "gDiveBallSpriteTemplate": {
+    "name": "gDiveBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_DiveBall",
+    "callback": "AnimDiveBall"
+  },
+  "gDiveWaterSplashSpriteTemplate": {
+    "name": "gDiveWaterSplashSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPLASH",
+    "paletteTag": "ANIM_TAG_SPLASH",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDiveWaterSplash"
+  },
+  "gSprayWaterDropletSpriteTemplate": {
+    "name": "gSprayWaterDropletSpriteTemplate",
+    "tileTag": "ANIM_TAG_SWEAT_BEAD",
+    "paletteTag": "ANIM_TAG_SWEAT_BEAD",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSprayWaterDroplet"
+  },
+  "gSkyAttackBirdSpriteTemplate": {
+    "name": "gSkyAttackBirdSpriteTemplate",
+    "tileTag": "ANIM_TAG_BIRD",
+    "paletteTag": "ANIM_TAG_BIRD",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSkyAttackBird"
+  },
+  "gConfuseRayBallBounceSpriteTemplate": {
+    "name": "gConfuseRayBallBounceSpriteTemplate",
+    "tileTag": "ANIM_TAG_YELLOW_BALL",
+    "paletteTag": "ANIM_TAG_YELLOW_BALL",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_ConfuseRayBallBounce",
+    "callback": "AnimConfuseRayBallBounce"
+  },
+  "gConfuseRayBallSpiralSpriteTemplate": {
+    "name": "gConfuseRayBallSpiralSpriteTemplate",
+    "tileTag": "ANIM_TAG_YELLOW_BALL",
+    "paletteTag": "ANIM_TAG_YELLOW_BALL",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimConfuseRayBallSpiral"
+  },
+  "gShadowBallSpriteTemplate": {
+    "name": "gShadowBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_SHADOW_BALL",
+    "paletteTag": "ANIM_TAG_SHADOW_BALL",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_ShadowBall",
+    "callback": "AnimShadowBall"
+  },
+  "gLickSpriteTemplate": {
+    "name": "gLickSpriteTemplate",
+    "tileTag": "ANIM_TAG_LICK",
+    "paletteTag": "ANIM_TAG_LICK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "anims": "sAnims_Lick",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimLick"
+  },
+  "gDestinyBondWhiteShadowSpriteTemplate": {
+    "name": "gDestinyBondWhiteShadowSpriteTemplate",
+    "tileTag": "ANIM_TAG_WHITE_SHADOW",
+    "paletteTag": "ANIM_TAG_WHITE_SHADOW",
+    "oam": "gOamData_AffineOff_ObjBlend_64x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDestinyBondWhiteShadow"
+  },
+  "gCurseNailSpriteTemplate": {
+    "name": "gCurseNailSpriteTemplate",
+    "tileTag": "ANIM_TAG_NAIL",
+    "paletteTag": "ANIM_TAG_NAIL",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimCurseNail"
+  },
+  "gCurseGhostSpriteTemplate": {
+    "name": "gCurseGhostSpriteTemplate",
+    "tileTag": "ANIM_TAG_GHOSTLY_SPIRIT",
+    "paletteTag": "ANIM_TAG_GHOSTLY_SPIRIT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGhostStatusSprite"
+  },
+  "gNightmareDevilSpriteTemplate": {
+    "name": "gNightmareDevilSpriteTemplate",
+    "tileTag": "ANIM_TAG_DEVIL",
+    "paletteTag": "ANIM_TAG_DEVIL",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGhostStatusSprite"
+  },
+  "gGrudgeFlameSpriteTemplate": {
+    "name": "gGrudgeFlameSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_FLAME",
+    "paletteTag": "ANIM_TAG_PURPLE_FLAME",
+    "oam": "gOamData_AffineOff_ObjBlend_16x32",
+    "anims": "sAnims_GrudgeFlame",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimGrudgeFlame"
+  },
+  "gBonemerangSpriteTemplate": {
+    "name": "gBonemerangSpriteTemplate",
+    "tileTag": "ANIM_TAG_BONE",
+    "paletteTag": "ANIM_TAG_BONE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_Bonemerang",
+    "callback": "AnimBonemerangProjectile"
+  },
+  "gSpinningBoneSpriteTemplate": {
+    "name": "gSpinningBoneSpriteTemplate",
+    "tileTag": "ANIM_TAG_BONE",
+    "paletteTag": "ANIM_TAG_BONE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_SpinningBone",
+    "callback": "AnimBoneHitProjectile"
+  },
+  "gSandAttackDirtSpriteTemplate": {
+    "name": "gSandAttackDirtSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDirtScatter"
+  },
+  "gMudSlapMudSpriteTemplate": {
+    "name": "gMudSlapMudSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sAnims_MudSlapMud",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDirtScatter"
+  },
+  "gMudsportMudSpriteTemplate": {
+    "name": "gMudsportMudSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMudSportDirt"
+  },
+  "gDirtPlumeSpriteTemplate": {
+    "name": "gDirtPlumeSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDirtPlumeParticle"
+  },
+  "gDirtMoundSpriteTemplate": {
+    "name": "gDirtMoundSpriteTemplate",
+    "tileTag": "ANIM_TAG_DIRT_MOUND",
+    "paletteTag": "ANIM_TAG_DIRT_MOUND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDigDirtMound"
+  },
+  "gIceCrystalSpiralInwardLarge": {
+    "name": "gIceCrystalSpiralInwardLarge",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x16",
+    "anims": "sAnims_IceCrystalLarge",
+    "images": null,
+    "affineAnims": "sAffineAnims_IceCrystalSpiralInwardLarge",
+    "callback": "AnimIcePunchSwirlingParticle"
+  },
+  "gIceCrystalSpiralInwardSmall": {
+    "name": "gIceCrystalSpiralInwardSmall",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjBlend_8x8",
+    "anims": "sAnims_IceCrystalSmall",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimIcePunchSwirlingParticle"
+  },
+  "gIceBeamInnerCrystalSpriteTemplate": {
+    "name": "gIceBeamInnerCrystalSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x16",
+    "anims": "sAnims_IceCrystalLarge",
+    "images": null,
+    "affineAnims": "sAffineAnims_IceBeamInnerCrystal",
+    "callback": "AnimIceBeamParticle"
+  },
+  "gIceBeamOuterCrystalSpriteTemplate": {
+    "name": "gIceBeamOuterCrystalSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjBlend_8x8",
+    "anims": "sAnims_IceCrystalSmall",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimIceBeamParticle"
+  },
+  "gIceCrystalHitLargeSpriteTemplate": {
+    "name": "gIceCrystalHitLargeSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x16",
+    "anims": "sAnims_IceCrystalLarge",
+    "images": null,
+    "affineAnims": "sAffineAnims_IceCrystalHit",
+    "callback": "AnimIceEffectParticle"
+  },
+  "gIceCrystalHitSmallSpriteTemplate": {
+    "name": "gIceCrystalHitSmallSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x8",
+    "anims": "sAnims_IceCrystalSmall",
+    "images": null,
+    "affineAnims": "sAffineAnims_IceCrystalHit",
+    "callback": "AnimIceEffectParticle"
+  },
+  "gSwirlingSnowballSpriteTemplate": {
+    "name": "gSwirlingSnowballSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sAnims_Snowball",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSwirlingSnowball"
+  },
+  "gBlizzardIceCrystalSpriteTemplate": {
+    "name": "gBlizzardIceCrystalSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sAnims_BlizzardIceCrystal",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMoveParticleBeyondTarget"
+  },
+  "gPowderSnowSnowballSpriteTemplate": {
+    "name": "gPowderSnowSnowballSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sAnims_Snowball",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimMoveParticleBeyondTarget"
+  },
+  "gIceGroundSpikeSpriteTemplate": {
+    "name": "gIceGroundSpikeSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_SPIKES",
+    "paletteTag": "ANIM_TAG_ICE_SPIKES",
+    "oam": "gOamData_AffineOff_ObjBlend_8x16",
+    "anims": "sAnims_IceGroundSpike",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWaveFromCenterOfTarget"
+  },
+  "gMistCloudSpriteTemplate": {
+    "name": "gMistCloudSpriteTemplate",
+    "tileTag": "ANIM_TAG_MIST_CLOUD",
+    "paletteTag": "ANIM_TAG_MIST_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "anims": "sAnims_Cloud",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "InitSwirlingFogAnim"
+  },
+  "gSmogCloudSpriteTemplate": {
+    "name": "gSmogCloudSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "paletteTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "anims": "sAnims_Cloud",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "InitSwirlingFogAnim"
+  },
+  "gMistBallSpriteTemplate": {
+    "name": "gMistBallSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimThrowMistBall"
+  },
+  "gPoisonGasCloudSpriteTemplate": {
+    "name": "gPoisonGasCloudSpriteTemplate",
+    "tileTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "paletteTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "anims": "sAnims_Cloud",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "InitPoisonGasCloudAnim"
+  },
+  "gWeatherBallIceDownSpriteTemplate": {
+    "name": "gWeatherBallIceDownSpriteTemplate",
+    "tileTag": "ANIM_TAG_HAIL",
+    "paletteTag": "ANIM_TAG_HAIL",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_WeatherBallIceDown",
+    "callback": "AnimWeatherBallDown"
+  },
+  "gIceBallChunkSpriteTemplate": {
+    "name": "gIceBallChunkSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CHUNK",
+    "paletteTag": "ANIM_TAG_ICE_CHUNK",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "anims": "sAnims_IceBallChunk",
+    "images": null,
+    "affineAnims": "sAffineAnims_IceBallChunk",
+    "callback": "InitIceBallAnim"
+  },
+  "gIceBallImpactShardSpriteTemplate": {
+    "name": "gIceBallImpactShardSpriteTemplate",
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "sAnims_IceCrystalSmall",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "InitIceBallParticle"
+  },
+  "gConfusionDuckSpriteTemplate": {
+    "name": "gConfusionDuckSpriteTemplate",
+    "tileTag": "ANIM_TAG_DUCK",
+    "paletteTag": "ANIM_TAG_DUCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sAnims_ConfusionDuck",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimConfusionDuck"
+  },
+  "gSimplePaletteBlendSpriteTemplate": {
+    "name": "gSimplePaletteBlendSpriteTemplate",
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSimplePaletteBlend"
+  },
+  "gComplexPaletteBlendSpriteTemplate": {
+    "name": "gComplexPaletteBlendSpriteTemplate",
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimComplexPaletteBlend"
+  },
+  "gShakeMonOrTerrainSpriteTemplate": {
+    "name": "gShakeMonOrTerrainSpriteTemplate",
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimShakeMonOrBattleTerrain"
+  },
+  "gBasicHitSplatSpriteTemplate": {
+    "name": "gBasicHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatBasic"
+  },
+  "gHandleInvertHitSplatSpriteTemplate": {
+    "name": "gHandleInvertHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatHandleInvert"
+  },
+  "gWaterHitSplatSpriteTemplate": {
+    "name": "gWaterHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_WATER_IMPACT",
+    "paletteTag": "ANIM_TAG_WATER_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatBasic"
+  },
+  "gRandomPosHitSplatSpriteTemplate": {
+    "name": "gRandomPosHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatRandom"
+  },
+  "gMonEdgeHitSplatSpriteTemplate": {
+    "name": "gMonEdgeHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatOnMonEdge"
+  },
+  "gCrossImpactSpriteTemplate": {
+    "name": "gCrossImpactSpriteTemplate",
+    "tileTag": "ANIM_TAG_CROSS_IMPACT",
+    "paletteTag": "ANIM_TAG_CROSS_IMPACT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimCrossImpact"
+  },
+  "gFlashingHitSplatSpriteTemplate": {
+    "name": "gFlashingHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimFlashingHitSplat"
+  },
+  "gPersistHitSplatSpriteTemplate": {
+    "name": "gPersistHitSplatSpriteTemplate",
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_HitSplat",
+    "callback": "AnimHitSplatPersistent"
+  },
+  "gToxicBubbleSpriteTemplate": {
+    "name": "gToxicBubbleSpriteTemplate",
+    "tileTag": "ANIM_TAG_TOXIC_BUBBLE",
+    "paletteTag": "ANIM_TAG_TOXIC_BUBBLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "anims": "sAnims_ToxicBubble",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gSludgeProjectileSpriteTemplate": {
+    "name": "gSludgeProjectileSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "sAnims_PoisonProjectile",
+    "images": null,
+    "affineAnims": "sAffineAnims_PoisonProjectile",
+    "callback": "AnimSludgeProjectile"
+  },
+  "gAcidPoisonBubbleSpriteTemplate": {
+    "name": "gAcidPoisonBubbleSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "sAnims_PoisonProjectile",
+    "images": null,
+    "affineAnims": "sAffineAnims_PoisonProjectile",
+    "callback": "AnimAcidPoisonBubble"
+  },
+  "gSludgeBombHitParticleSpriteTemplate": {
+    "name": "gSludgeBombHitParticleSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "sAnims_SludgeBombHit",
+    "images": null,
+    "affineAnims": "sAffineAnims_SludgeBombHit",
+    "callback": "AnimSludgeBombHitParticle"
+  },
+  "gAcidPoisonDropletSpriteTemplate": {
+    "name": "gAcidPoisonDropletSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "anims": "sAnims_AcidPoisonDroplet",
+    "images": null,
+    "affineAnims": "gAffineAnims_Droplet",
+    "callback": "AnimAcidPoisonDroplet"
+  },
+  "gPoisonBubbleSpriteTemplate": {
+    "name": "gPoisonBubbleSpriteTemplate",
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "anims": "sAnims_PoisonProjectile",
+    "images": null,
+    "affineAnims": "sAffineAnims_Bubble",
+    "callback": "AnimBubbleEffect"
+  },
+  "gWaterBubbleSpriteTemplate": {
+    "name": "gWaterBubbleSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "anims": "gAnims_WaterBubble",
+    "images": null,
+    "affineAnims": "sAffineAnims_Bubble",
+    "callback": "AnimBubbleEffect"
+  },
+  "gPsychUpSpiralSpriteTemplate": {
+    "name": "gPsychUpSpiralSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPIRAL",
+    "paletteTag": "ANIM_TAG_SPIRAL",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_PsychUpSpiral",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gLightScreenWallSpriteTemplate": {
+    "name": "gLightScreenWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_GREEN_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_GREEN_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDefensiveWall"
+  },
+  "gReflectWallSpriteTemplate": {
+    "name": "gReflectWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDefensiveWall"
+  },
+  "gMirrorCoatWallSpriteTemplate": {
+    "name": "gMirrorCoatWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_RED_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_RED_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDefensiveWall"
+  },
+  "gBarrierWallSpriteTemplate": {
+    "name": "gBarrierWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_GRAY_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_GRAY_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDefensiveWall"
+  },
+  "gMagicCoatWallSpriteTemplate": {
+    "name": "gMagicCoatWallSpriteTemplate",
+    "tileTag": "ANIM_TAG_ORANGE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_ORANGE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimDefensiveWall"
+  },
+  "gReflectSparkleSpriteTemplate": {
+    "name": "gReflectSparkleSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_4",
+    "paletteTag": "ANIM_TAG_SPARKLE_4",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_ReflectSparkle",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWallSparkle"
+  },
+  "gSpecialScreenSparkleSpriteTemplate": {
+    "name": "gSpecialScreenSparkleSpriteTemplate",
+    "tileTag": "ANIM_TAG_SPARKLE_3",
+    "paletteTag": "ANIM_TAG_SPARKLE_3",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "anims": "sAnims_SpecialScreenSparkle",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimWallSparkle"
+  },
+  "gGoldRingSpriteTemplate": {
+    "name": "gGoldRingSpriteTemplate",
+    "tileTag": "ANIM_TAG_GOLD_RING",
+    "paletteTag": "ANIM_TAG_GOLD_RING",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "TranslateAnimSpriteToTargetMonLocation"
+  },
+  "gBentSpoonSpriteTemplate": {
+    "name": "gBentSpoonSpriteTemplate",
+    "tileTag": "ANIM_TAG_BENT_SPOON",
+    "paletteTag": "ANIM_TAG_BENT_SPOON",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "anims": "sAnims_BentSpoon",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimBentSpoon"
+  },
+  "gQuestionMarkSpriteTemplate": {
+    "name": "gQuestionMarkSpriteTemplate",
+    "tileTag": "ANIM_TAG_AMNESIA",
+    "paletteTag": "ANIM_TAG_AMNESIA",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_QuestionMark",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimQuestionMark"
+  },
+  "gRedXSpriteTemplate": {
+    "name": "gRedXSpriteTemplate",
+    "tileTag": "ANIM_TAG_X_SIGN",
+    "paletteTag": "ANIM_TAG_X_SIGN",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRedX"
+  },
+  "gLusterPurgeCircleSpriteTemplate": {
+    "name": "gLusterPurgeCircleSpriteTemplate",
+    "tileTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gAffineAnims_LusterPurgeCircle",
+    "callback": "AnimSpriteOnMonPos"
+  },
+  "gPsychoBoostOrbSpriteTemplate": {
+    "name": "gPsychoBoostOrbSpriteTemplate",
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "sAffineAnims_PsychoBoostOrb",
+    "callback": "AnimPsychoBoost"
+  },
+  "gFallingRockSpriteTemplate": {
+    "name": "gFallingRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FlyingRock",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFallingRock"
+  },
+  "gRockFragmentSpriteTemplate": {
+    "name": "gRockFragmentSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_FlyingRock",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRockFragment"
+  },
+  "gSwirlingDirtSpriteTemplate": {
+    "name": "gSwirlingDirtSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimParticleInVortex"
+  },
+  "gWhirlpoolSpriteTemplate": {
+    "name": "gWhirlpoolSpriteTemplate",
+    "tileTag": "ANIM_TAG_WATER_ORB",
+    "paletteTag": "ANIM_TAG_WATER_ORB",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "anims": "gAnims_WaterMudOrb",
+    "images": null,
+    "affineAnims": "sAffineAnims_Whirlpool",
+    "callback": "AnimParticleInVortex"
+  },
+  "gFireSpinSpriteTemplate": {
+    "name": "gFireSpinSpriteTemplate",
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gAnims_BasicFire",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimParticleInVortex"
+  },
+  "gFlyingSandCrescentSpriteTemplate": {
+    "name": "gFlyingSandCrescentSpriteTemplate",
+    "tileTag": "ANIM_TAG_FLYING_DIRT",
+    "paletteTag": "ANIM_TAG_FLYING_DIRT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimFlyingSandCrescent"
+  },
+  "gAncientPowerRockSpriteTemplate": {
+    "name": "gAncientPowerRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRaiseSprite"
+  },
+  "gRolloutMudSpriteTemplate": {
+    "name": "gRolloutMudSpriteTemplate",
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRolloutParticle"
+  },
+  "gRolloutRockSpriteTemplate": {
+    "name": "gRolloutRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "gDummySpriteAnimTable",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRolloutParticle"
+  },
+  "gRockTombRockSpriteTemplate": {
+    "name": "gRockTombRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock",
+    "images": null,
+    "affineAnims": "gDummySpriteAffineAnimTable",
+    "callback": "AnimRockTomb"
+  },
+  "gRockBlastRockSpriteTemplate": {
+    "name": "gRockBlastRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock",
+    "images": null,
+    "affineAnims": "sAffineAnims_BasicRock",
+    "callback": "AnimRockBlastRock"
+  },
+  "gRockScatterSpriteTemplate": {
+    "name": "gRockScatterSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock",
+    "images": null,
+    "affineAnims": "sAffineAnims_BasicRock",
+    "callback": "AnimRockScatter"
+  },
+  "gTwisterRockSpriteTemplate": {
+    "name": "gTwisterRockSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock[4]",
+    "images": null,
+    "affineAnims": "sAffineAnims_BasicRock",
+    "callback": "AnimMoveTwisterParticle"
+  },
+  "gWeatherBallRockDownSpriteTemplate": {
+    "name": "gWeatherBallRockDownSpriteTemplate",
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "anims": "sAnims_BasicRock[2]",
+    "images": null,
+    "affineAnims": "sAffineAnims_BasicRock",
+    "callback": "AnimWeatherBallDown"
+  }
+}
