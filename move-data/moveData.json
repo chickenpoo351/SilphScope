@@ -1,0 +1,1158 @@
+{
+  "BONE": {
+    "index": 0,
+    "animTag": "ANIM_TAG_BONE"
+  },
+  "SPARK": {
+    "index": 1,
+    "animTag": "ANIM_TAG_SPARK"
+  },
+  "PENCIL": {
+    "index": 2,
+    "animTag": "ANIM_TAG_PENCIL"
+  },
+  "AIR_WAVE": {
+    "index": 3,
+    "animTag": "ANIM_TAG_AIR_WAVE"
+  },
+  "ORB": {
+    "index": 4,
+    "animTag": "ANIM_TAG_ORB"
+  },
+  "SWORD": {
+    "index": 5,
+    "animTag": "ANIM_TAG_SWORD"
+  },
+  "SEED": {
+    "index": 6,
+    "animTag": "ANIM_TAG_SEED"
+  },
+  "EXPLOSION_6": {
+    "index": 7,
+    "animTag": "ANIM_TAG_EXPLOSION_6"
+  },
+  "PINK_ORB": {
+    "index": 8,
+    "animTag": "ANIM_TAG_PINK_ORB"
+  },
+  "GUST": {
+    "index": 9,
+    "animTag": "ANIM_TAG_GUST"
+  },
+  "ICE_CUBE": {
+    "index": 10,
+    "animTag": "ANIM_TAG_ICE_CUBE"
+  },
+  "SPARK_2": {
+    "index": 11,
+    "animTag": "ANIM_TAG_SPARK_2"
+  },
+  "ORANGE": {
+    "index": 12,
+    "animTag": "ANIM_TAG_ORANGE"
+  },
+  "YELLOW_BALL": {
+    "index": 13,
+    "animTag": "ANIM_TAG_YELLOW_BALL"
+  },
+  "LOCK_ON": {
+    "index": 14,
+    "animTag": "ANIM_TAG_LOCK_ON"
+  },
+  "TIED_BAG": {
+    "index": 15,
+    "animTag": "ANIM_TAG_TIED_BAG"
+  },
+  "BLACK_SMOKE": {
+    "index": 16,
+    "animTag": "ANIM_TAG_BLACK_SMOKE"
+  },
+  "BLACK_BALL": {
+    "index": 17,
+    "animTag": "ANIM_TAG_BLACK_BALL"
+  },
+  "CONVERSION": {
+    "index": 18,
+    "animTag": "ANIM_TAG_CONVERSION"
+  },
+  "GLASS": {
+    "index": 19,
+    "animTag": "ANIM_TAG_GLASS"
+  },
+  "HORN_HIT": {
+    "index": 20,
+    "animTag": "ANIM_TAG_HORN_HIT"
+  },
+  "HIT": {
+    "index": 21,
+    "animTag": "ANIM_TAG_HIT"
+  },
+  "HIT_2": {
+    "index": 22,
+    "animTag": "ANIM_TAG_HIT_2"
+  },
+  "BLUE_SHARDS": {
+    "index": 23,
+    "animTag": "ANIM_TAG_BLUE_SHARDS"
+  },
+  "CLOSING_EYE": {
+    "index": 24,
+    "animTag": "ANIM_TAG_CLOSING_EYE"
+  },
+  "WAVING_HAND": {
+    "index": 25,
+    "animTag": "ANIM_TAG_WAVING_HAND"
+  },
+  "HIT_DUPLICATE": {
+    "index": 26,
+    "animTag": "ANIM_TAG_HIT_DUPLICATE"
+  },
+  "LEER": {
+    "index": 27,
+    "animTag": "ANIM_TAG_LEER"
+  },
+  "BLUE_BURST": {
+    "index": 28,
+    "animTag": "ANIM_TAG_BLUE_BURST"
+  },
+  "SMALL_EMBER": {
+    "index": 29,
+    "animTag": "ANIM_TAG_SMALL_EMBER"
+  },
+  "GRAY_SMOKE": {
+    "index": 30,
+    "animTag": "ANIM_TAG_GRAY_SMOKE"
+  },
+  "BLUE_STAR": {
+    "index": 31,
+    "animTag": "ANIM_TAG_BLUE_STAR"
+  },
+  "BUBBLE_BURST": {
+    "index": 32,
+    "animTag": "ANIM_TAG_BUBBLE_BURST"
+  },
+  "FIRE": {
+    "index": 33,
+    "animTag": "ANIM_TAG_FIRE"
+  },
+  "SPINNING_FIRE": {
+    "index": 34,
+    "animTag": "ANIM_TAG_SPINNING_FIRE"
+  },
+  "FIRE_PLUME": {
+    "index": 35,
+    "animTag": "ANIM_TAG_FIRE_PLUME"
+  },
+  "LIGHTNING_2": {
+    "index": 36,
+    "animTag": "ANIM_TAG_LIGHTNING_2"
+  },
+  "LIGHTNING": {
+    "index": 37,
+    "animTag": "ANIM_TAG_LIGHTNING"
+  },
+  "CLAW_SLASH_2": {
+    "index": 38,
+    "animTag": "ANIM_TAG_CLAW_SLASH_2"
+  },
+  "CLAW_SLASH": {
+    "index": 39,
+    "animTag": "ANIM_TAG_CLAW_SLASH"
+  },
+  "SCRATCH_3": {
+    "index": 40,
+    "animTag": "ANIM_TAG_SCRATCH_3"
+  },
+  "SCRATCH_2": {
+    "index": 41,
+    "animTag": "ANIM_TAG_SCRATCH_2"
+  },
+  "BUBBLE_BURST_2": {
+    "index": 42,
+    "animTag": "ANIM_TAG_BUBBLE_BURST_2"
+  },
+  "ICE_CHUNK": {
+    "index": 43,
+    "animTag": "ANIM_TAG_ICE_CHUNK"
+  },
+  "GLASS_2": {
+    "index": 44,
+    "animTag": "ANIM_TAG_GLASS_2"
+  },
+  "PINK_HEART_2": {
+    "index": 45,
+    "animTag": "ANIM_TAG_PINK_HEART_2"
+  },
+  "SAP_DRIP": {
+    "index": 46,
+    "animTag": "ANIM_TAG_SAP_DRIP"
+  },
+  "SAP_DRIP_2": {
+    "index": 47,
+    "animTag": "ANIM_TAG_SAP_DRIP_2"
+  },
+  "SPARKLE_1": {
+    "index": 48,
+    "animTag": "ANIM_TAG_SPARKLE_1"
+  },
+  "SPARKLE_2": {
+    "index": 49,
+    "animTag": "ANIM_TAG_SPARKLE_2"
+  },
+  "HUMANOID_FOOT": {
+    "index": 50,
+    "animTag": "ANIM_TAG_HUMANOID_FOOT"
+  },
+  "MONSTER_FOOT": {
+    "index": 51,
+    "animTag": "ANIM_TAG_MONSTER_FOOT"
+  },
+  "HUMANOID_HAND": {
+    "index": 52,
+    "animTag": "ANIM_TAG_HUMANOID_HAND"
+  },
+  "NOISE_LINE": {
+    "index": 53,
+    "animTag": "ANIM_TAG_NOISE_LINE"
+  },
+  "YELLOW_UNK": {
+    "index": 54,
+    "animTag": "ANIM_TAG_YELLOW_UNK"
+  },
+  "RED_FIST": {
+    "index": 55,
+    "animTag": "ANIM_TAG_RED_FIST"
+  },
+  "SLAM_HIT": {
+    "index": 56,
+    "animTag": "ANIM_TAG_SLAM_HIT"
+  },
+  "RING": {
+    "index": 57,
+    "animTag": "ANIM_TAG_RING"
+  },
+  "ROCKS": {
+    "index": 58,
+    "animTag": "ANIM_TAG_ROCKS"
+  },
+  "Z": {
+    "index": 59,
+    "animTag": "ANIM_TAG_Z"
+  },
+  "YELLOW_UNK_2": {
+    "index": 60,
+    "animTag": "ANIM_TAG_YELLOW_UNK_2"
+  },
+  "AIR_SLASH": {
+    "index": 61,
+    "animTag": "ANIM_TAG_AIR_SLASH"
+  },
+  "SPINNING_GREEN_ORBS": {
+    "index": 62,
+    "animTag": "ANIM_TAG_SPINNING_GREEN_ORBS"
+  },
+  "LEAF": {
+    "index": 63,
+    "animTag": "ANIM_TAG_LEAF"
+  },
+  "FINGER": {
+    "index": 64,
+    "animTag": "ANIM_TAG_FINGER"
+  },
+  "POISON_POWDER": {
+    "index": 65,
+    "animTag": "ANIM_TAG_POISON_POWDER"
+  },
+  "BROWN_TRIANGLE": {
+    "index": 66,
+    "animTag": "ANIM_TAG_BROWN_TRIANGLE"
+  },
+  "SLEEP_POWDER": {
+    "index": 67,
+    "animTag": "ANIM_TAG_SLEEP_POWDER"
+  },
+  "STUN_SPORE": {
+    "index": 68,
+    "animTag": "ANIM_TAG_STUN_SPORE"
+  },
+  "POWDER": {
+    "index": 69,
+    "animTag": "ANIM_TAG_POWDER"
+  },
+  "SPARKLE_3": {
+    "index": 70,
+    "animTag": "ANIM_TAG_SPARKLE_3"
+  },
+  "SPARKLE_4": {
+    "index": 71,
+    "animTag": "ANIM_TAG_SPARKLE_4"
+  },
+  "MUSIC_NOTES": {
+    "index": 72,
+    "animTag": "ANIM_TAG_MUSIC_NOTES"
+  },
+  "DUCK": {
+    "index": 73,
+    "animTag": "ANIM_TAG_DUCK"
+  },
+  "MUD_SAND": {
+    "index": 74,
+    "animTag": "ANIM_TAG_MUD_SAND"
+  },
+  "ALERT": {
+    "index": 75,
+    "animTag": "ANIM_TAG_ALERT"
+  },
+  "BLUE_FLAMES": {
+    "index": 76,
+    "animTag": "ANIM_TAG_BLUE_FLAMES"
+  },
+  "BLUE_FLAMES_2": {
+    "index": 77,
+    "animTag": "ANIM_TAG_BLUE_FLAMES_2"
+  },
+  "SHOCK_4": {
+    "index": 78,
+    "animTag": "ANIM_TAG_SHOCK_4"
+  },
+  "SHOCK": {
+    "index": 79,
+    "animTag": "ANIM_TAG_SHOCK"
+  },
+  "BELL_2": {
+    "index": 80,
+    "animTag": "ANIM_TAG_BELL_2"
+  },
+  "PINK_GLOVE": {
+    "index": 81,
+    "animTag": "ANIM_TAG_PINK_GLOVE"
+  },
+  "BLUE_LINES": {
+    "index": 82,
+    "animTag": "ANIM_TAG_BLUE_LINES"
+  },
+  "IMPACT_3": {
+    "index": 83,
+    "animTag": "ANIM_TAG_IMPACT_3"
+  },
+  "IMPACT_2": {
+    "index": 84,
+    "animTag": "ANIM_TAG_IMPACT_2"
+  },
+  "RETICLE": {
+    "index": 85,
+    "animTag": "ANIM_TAG_RETICLE"
+  },
+  "BREATH": {
+    "index": 86,
+    "animTag": "ANIM_TAG_BREATH"
+  },
+  "ANGER": {
+    "index": 87,
+    "animTag": "ANIM_TAG_ANGER"
+  },
+  "SNOWBALL": {
+    "index": 88,
+    "animTag": "ANIM_TAG_SNOWBALL"
+  },
+  "VINE": {
+    "index": 89,
+    "animTag": "ANIM_TAG_VINE"
+  },
+  "SWORD_2": {
+    "index": 90,
+    "animTag": "ANIM_TAG_SWORD_2"
+  },
+  "CLAPPING": {
+    "index": 91,
+    "animTag": "ANIM_TAG_CLAPPING"
+  },
+  "RED_TUBE": {
+    "index": 92,
+    "animTag": "ANIM_TAG_RED_TUBE"
+  },
+  "AMNESIA": {
+    "index": 93,
+    "animTag": "ANIM_TAG_AMNESIA"
+  },
+  "STRING_2": {
+    "index": 94,
+    "animTag": "ANIM_TAG_STRING_2"
+  },
+  "PENCIL_2": {
+    "index": 95,
+    "animTag": "ANIM_TAG_PENCIL_2"
+  },
+  "PETAL": {
+    "index": 96,
+    "animTag": "ANIM_TAG_PETAL"
+  },
+  "BENT_SPOON": {
+    "index": 97,
+    "animTag": "ANIM_TAG_BENT_SPOON"
+  },
+  "WEB": {
+    "index": 98,
+    "animTag": "ANIM_TAG_WEB"
+  },
+  "MILK_BOTTLE": {
+    "index": 99,
+    "animTag": "ANIM_TAG_MILK_BOTTLE"
+  },
+  "COIN": {
+    "index": 100,
+    "animTag": "ANIM_TAG_COIN"
+  },
+  "CRACKED_EGG": {
+    "index": 101,
+    "animTag": "ANIM_TAG_CRACKED_EGG"
+  },
+  "HATCHED_EGG": {
+    "index": 102,
+    "animTag": "ANIM_TAG_HATCHED_EGG"
+  },
+  "FRESH_EGG": {
+    "index": 103,
+    "animTag": "ANIM_TAG_FRESH_EGG"
+  },
+  "FANGS": {
+    "index": 104,
+    "animTag": "ANIM_TAG_FANGS"
+  },
+  "EXPLOSION_2": {
+    "index": 105,
+    "animTag": "ANIM_TAG_EXPLOSION_2"
+  },
+  "EXPLOSION_3": {
+    "index": 106,
+    "animTag": "ANIM_TAG_EXPLOSION_3"
+  },
+  "WATER_DROPLET": {
+    "index": 107,
+    "animTag": "ANIM_TAG_WATER_DROPLET"
+  },
+  "WATER_DROPLET_2": {
+    "index": 108,
+    "animTag": "ANIM_TAG_WATER_DROPLET_2"
+  },
+  "SEED_2": {
+    "index": 109,
+    "animTag": "ANIM_TAG_SEED_2"
+  },
+  "SPROUT": {
+    "index": 110,
+    "animTag": "ANIM_TAG_SPROUT"
+  },
+  "RED_WAND": {
+    "index": 111,
+    "animTag": "ANIM_TAG_RED_WAND"
+  },
+  "PURPLE_GREEN_UNK": {
+    "index": 112,
+    "animTag": "ANIM_TAG_PURPLE_GREEN_UNK"
+  },
+  "WATER_COLUMN": {
+    "index": 113,
+    "animTag": "ANIM_TAG_WATER_COLUMN"
+  },
+  "MUD_UNK": {
+    "index": 114,
+    "animTag": "ANIM_TAG_MUD_UNK"
+  },
+  "RAIN_DROPS": {
+    "index": 115,
+    "animTag": "ANIM_TAG_RAIN_DROPS"
+  },
+  "FURY_SWIPES": {
+    "index": 116,
+    "animTag": "ANIM_TAG_FURY_SWIPES"
+  },
+  "VINE_2": {
+    "index": 117,
+    "animTag": "ANIM_TAG_VINE_2"
+  },
+  "TEETH": {
+    "index": 118,
+    "animTag": "ANIM_TAG_TEETH"
+  },
+  "BONE_2": {
+    "index": 119,
+    "animTag": "ANIM_TAG_BONE_2"
+  },
+  "WHITE_BAG": {
+    "index": 120,
+    "animTag": "ANIM_TAG_WHITE_BAG"
+  },
+  "UNKNOWN": {
+    "index": 121,
+    "animTag": "ANIM_TAG_UNKNOWN"
+  },
+  "PURPLE_CORAL": {
+    "index": 122,
+    "animTag": "ANIM_TAG_PURPLE_CORAL"
+  },
+  "PURPLE_DROPLET": {
+    "index": 123,
+    "animTag": "ANIM_TAG_PURPLE_DROPLET"
+  },
+  "SHOCK_2": {
+    "index": 124,
+    "animTag": "ANIM_TAG_SHOCK_2"
+  },
+  "CLOSING_EYE_2": {
+    "index": 125,
+    "animTag": "ANIM_TAG_CLOSING_EYE_2"
+  },
+  "METAL_BALL": {
+    "index": 126,
+    "animTag": "ANIM_TAG_METAL_BALL"
+  },
+  "MONSTER_DOLL": {
+    "index": 127,
+    "animTag": "ANIM_TAG_MONSTER_DOLL"
+  },
+  "WHIRLWIND": {
+    "index": 128,
+    "animTag": "ANIM_TAG_WHIRLWIND"
+  },
+  "WHIRLWIND_2": {
+    "index": 129,
+    "animTag": "ANIM_TAG_WHIRLWIND_2"
+  },
+  "EXPLOSION_4": {
+    "index": 130,
+    "animTag": "ANIM_TAG_EXPLOSION_4"
+  },
+  "EXPLOSION_5": {
+    "index": 131,
+    "animTag": "ANIM_TAG_EXPLOSION_5"
+  },
+  "TONGUE": {
+    "index": 132,
+    "animTag": "ANIM_TAG_TONGUE"
+  },
+  "SMOKE": {
+    "index": 133,
+    "animTag": "ANIM_TAG_SMOKE"
+  },
+  "SMOKE_2": {
+    "index": 134,
+    "animTag": "ANIM_TAG_SMOKE_2"
+  },
+  "IMPACT": {
+    "index": 135,
+    "animTag": "ANIM_TAG_IMPACT"
+  },
+  "CIRCLE_IMPACT": {
+    "index": 136,
+    "animTag": "ANIM_TAG_CIRCLE_IMPACT"
+  },
+  "SCRATCH": {
+    "index": 137,
+    "animTag": "ANIM_TAG_SCRATCH"
+  },
+  "CUT": {
+    "index": 138,
+    "animTag": "ANIM_TAG_CUT"
+  },
+  "SHARP_TEETH": {
+    "index": 139,
+    "animTag": "ANIM_TAG_SHARP_TEETH"
+  },
+  "RAINBOW_RINGS": {
+    "index": 140,
+    "animTag": "ANIM_TAG_RAINBOW_RINGS"
+  },
+  "ICE_CRYSTALS": {
+    "index": 141,
+    "animTag": "ANIM_TAG_ICE_CRYSTALS"
+  },
+  "ICE_SPIKES": {
+    "index": 142,
+    "animTag": "ANIM_TAG_ICE_SPIKES"
+  },
+  "HANDS_AND_FEET": {
+    "index": 143,
+    "animTag": "ANIM_TAG_HANDS_AND_FEET"
+  },
+  "MIST_CLOUD": {
+    "index": 144,
+    "animTag": "ANIM_TAG_MIST_CLOUD"
+  },
+  "CLAMP": {
+    "index": 145,
+    "animTag": "ANIM_TAG_CLAMP"
+  },
+  "BUBBLE": {
+    "index": 146,
+    "animTag": "ANIM_TAG_BUBBLE"
+  },
+  "ORBS": {
+    "index": 147,
+    "animTag": "ANIM_TAG_ORBS"
+  },
+  "WATER_IMPACT": {
+    "index": 148,
+    "animTag": "ANIM_TAG_WATER_IMPACT"
+  },
+  "WATER_ORB": {
+    "index": 149,
+    "animTag": "ANIM_TAG_WATER_ORB"
+  },
+  "POISON_BUBBLE": {
+    "index": 150,
+    "animTag": "ANIM_TAG_POISON_BUBBLE"
+  },
+  "TOXIC_BUBBLE": {
+    "index": 151,
+    "animTag": "ANIM_TAG_TOXIC_BUBBLE"
+  },
+  "SPIKES": {
+    "index": 152,
+    "animTag": "ANIM_TAG_SPIKES"
+  },
+  "HORN_HIT_2": {
+    "index": 153,
+    "animTag": "ANIM_TAG_HORN_HIT_2"
+  },
+  "AIR_WAVE_2": {
+    "index": 154,
+    "animTag": "ANIM_TAG_AIR_WAVE_2"
+  },
+  "SMALL_BUBBLES": {
+    "index": 155,
+    "animTag": "ANIM_TAG_SMALL_BUBBLES"
+  },
+  "ROUND_SHADOW": {
+    "index": 156,
+    "animTag": "ANIM_TAG_ROUND_SHADOW"
+  },
+  "SUNLIGHT": {
+    "index": 157,
+    "animTag": "ANIM_TAG_SUNLIGHT"
+  },
+  "SPORE": {
+    "index": 158,
+    "animTag": "ANIM_TAG_SPORE"
+  },
+  "FLOWER": {
+    "index": 159,
+    "animTag": "ANIM_TAG_FLOWER"
+  },
+  "RAZOR_LEAF": {
+    "index": 160,
+    "animTag": "ANIM_TAG_RAZOR_LEAF"
+  },
+  "NEEDLE": {
+    "index": 161,
+    "animTag": "ANIM_TAG_NEEDLE"
+  },
+  "WHIRLWIND_LINES": {
+    "index": 162,
+    "animTag": "ANIM_TAG_WHIRLWIND_LINES"
+  },
+  "GOLD_RING": {
+    "index": 163,
+    "animTag": "ANIM_TAG_GOLD_RING"
+  },
+  "PURPLE_RING": {
+    "index": 164,
+    "animTag": "ANIM_TAG_PURPLE_RING"
+  },
+  "BLUE_RING": {
+    "index": 165,
+    "animTag": "ANIM_TAG_BLUE_RING"
+  },
+  "GREEN_LIGHT_WALL": {
+    "index": 166,
+    "animTag": "ANIM_TAG_GREEN_LIGHT_WALL"
+  },
+  "BLUE_LIGHT_WALL": {
+    "index": 167,
+    "animTag": "ANIM_TAG_BLUE_LIGHT_WALL"
+  },
+  "RED_LIGHT_WALL": {
+    "index": 168,
+    "animTag": "ANIM_TAG_RED_LIGHT_WALL"
+  },
+  "GRAY_LIGHT_WALL": {
+    "index": 169,
+    "animTag": "ANIM_TAG_GRAY_LIGHT_WALL"
+  },
+  "ORANGE_LIGHT_WALL": {
+    "index": 170,
+    "animTag": "ANIM_TAG_ORANGE_LIGHT_WALL"
+  },
+  "BLACK_BALL_2": {
+    "index": 171,
+    "animTag": "ANIM_TAG_BLACK_BALL_2"
+  },
+  "PURPLE_GAS_CLOUD": {
+    "index": 172,
+    "animTag": "ANIM_TAG_PURPLE_GAS_CLOUD"
+  },
+  "SPARK_H": {
+    "index": 173,
+    "animTag": "ANIM_TAG_SPARK_H"
+  },
+  "YELLOW_STAR": {
+    "index": 174,
+    "animTag": "ANIM_TAG_YELLOW_STAR"
+  },
+  "LARGE_FRESH_EGG": {
+    "index": 175,
+    "animTag": "ANIM_TAG_LARGE_FRESH_EGG"
+  },
+  "SHADOW_BALL": {
+    "index": 176,
+    "animTag": "ANIM_TAG_SHADOW_BALL"
+  },
+  "LICK": {
+    "index": 177,
+    "animTag": "ANIM_TAG_LICK"
+  },
+  "VOID_LINES": {
+    "index": 178,
+    "animTag": "ANIM_TAG_VOID_LINES"
+  },
+  "STRING": {
+    "index": 179,
+    "animTag": "ANIM_TAG_STRING"
+  },
+  "WEB_THREAD": {
+    "index": 180,
+    "animTag": "ANIM_TAG_WEB_THREAD"
+  },
+  "SPIDER_WEB": {
+    "index": 181,
+    "animTag": "ANIM_TAG_SPIDER_WEB"
+  },
+  "LIGHTBULB": {
+    "index": 182,
+    "animTag": "ANIM_TAG_LIGHTBULB"
+  },
+  "SLASH": {
+    "index": 183,
+    "animTag": "ANIM_TAG_SLASH"
+  },
+  "FOCUS_ENERGY": {
+    "index": 184,
+    "animTag": "ANIM_TAG_FOCUS_ENERGY"
+  },
+  "SPHERE_TO_CUBE": {
+    "index": 185,
+    "animTag": "ANIM_TAG_SPHERE_TO_CUBE"
+  },
+  "TENDRILS": {
+    "index": 186,
+    "animTag": "ANIM_TAG_TENDRILS"
+  },
+  "EYE": {
+    "index": 187,
+    "animTag": "ANIM_TAG_EYE"
+  },
+  "WHITE_SHADOW": {
+    "index": 188,
+    "animTag": "ANIM_TAG_WHITE_SHADOW"
+  },
+  "TEAL_ALERT": {
+    "index": 189,
+    "animTag": "ANIM_TAG_TEAL_ALERT"
+  },
+  "OPENING_EYE": {
+    "index": 190,
+    "animTag": "ANIM_TAG_OPENING_EYE"
+  },
+  "ROUND_WHITE_HALO": {
+    "index": 191,
+    "animTag": "ANIM_TAG_ROUND_WHITE_HALO"
+  },
+  "FANG_ATTACK": {
+    "index": 192,
+    "animTag": "ANIM_TAG_FANG_ATTACK"
+  },
+  "PURPLE_HAND_OUTLINE": {
+    "index": 193,
+    "animTag": "ANIM_TAG_PURPLE_HAND_OUTLINE"
+  },
+  "MOON": {
+    "index": 194,
+    "animTag": "ANIM_TAG_MOON"
+  },
+  "GREEN_SPARKLE": {
+    "index": 195,
+    "animTag": "ANIM_TAG_GREEN_SPARKLE"
+  },
+  "SPIRAL": {
+    "index": 196,
+    "animTag": "ANIM_TAG_SPIRAL"
+  },
+  "SNORE_Z": {
+    "index": 197,
+    "animTag": "ANIM_TAG_SNORE_Z"
+  },
+  "EXPLOSION": {
+    "index": 198,
+    "animTag": "ANIM_TAG_EXPLOSION"
+  },
+  "NAIL": {
+    "index": 199,
+    "animTag": "ANIM_TAG_NAIL"
+  },
+  "GHOSTLY_SPIRIT": {
+    "index": 200,
+    "animTag": "ANIM_TAG_GHOSTLY_SPIRIT"
+  },
+  "WARM_ROCK": {
+    "index": 201,
+    "animTag": "ANIM_TAG_WARM_ROCK"
+  },
+  "BREAKING_EGG": {
+    "index": 202,
+    "animTag": "ANIM_TAG_BREAKING_EGG"
+  },
+  "THIN_RING": {
+    "index": 203,
+    "animTag": "ANIM_TAG_THIN_RING"
+  },
+  "PUNCH_IMPACT": {
+    "index": 204,
+    "animTag": "ANIM_TAG_PUNCH_IMPACT"
+  },
+  "BELL": {
+    "index": 205,
+    "animTag": "ANIM_TAG_BELL"
+  },
+  "MUSIC_NOTES_2": {
+    "index": 206,
+    "animTag": "ANIM_TAG_MUSIC_NOTES_2"
+  },
+  "SPEED_DUST": {
+    "index": 207,
+    "animTag": "ANIM_TAG_SPEED_DUST"
+  },
+  "TORN_METAL": {
+    "index": 208,
+    "animTag": "ANIM_TAG_TORN_METAL"
+  },
+  "THOUGHT_BUBBLE": {
+    "index": 209,
+    "animTag": "ANIM_TAG_THOUGHT_BUBBLE"
+  },
+  "MAGENTA_HEART": {
+    "index": 210,
+    "animTag": "ANIM_TAG_MAGENTA_HEART"
+  },
+  "ELECTRIC_ORBS": {
+    "index": 211,
+    "animTag": "ANIM_TAG_ELECTRIC_ORBS"
+  },
+  "CIRCLE_OF_LIGHT": {
+    "index": 212,
+    "animTag": "ANIM_TAG_CIRCLE_OF_LIGHT"
+  },
+  "ELECTRICITY": {
+    "index": 213,
+    "animTag": "ANIM_TAG_ELECTRICITY"
+  },
+  "FINGER_2": {
+    "index": 214,
+    "animTag": "ANIM_TAG_FINGER_2"
+  },
+  "MOVEMENT_WAVES": {
+    "index": 215,
+    "animTag": "ANIM_TAG_MOVEMENT_WAVES"
+  },
+  "RED_HEART": {
+    "index": 216,
+    "animTag": "ANIM_TAG_RED_HEART"
+  },
+  "RED_ORB": {
+    "index": 217,
+    "animTag": "ANIM_TAG_RED_ORB"
+  },
+  "EYE_SPARKLE": {
+    "index": 218,
+    "animTag": "ANIM_TAG_EYE_SPARKLE"
+  },
+  "PINK_HEART": {
+    "index": 219,
+    "animTag": "ANIM_TAG_PINK_HEART"
+  },
+  "ANGEL": {
+    "index": 220,
+    "animTag": "ANIM_TAG_ANGEL"
+  },
+  "DEVIL": {
+    "index": 221,
+    "animTag": "ANIM_TAG_DEVIL"
+  },
+  "SWIPE": {
+    "index": 222,
+    "animTag": "ANIM_TAG_SWIPE"
+  },
+  "ROOTS": {
+    "index": 223,
+    "animTag": "ANIM_TAG_ROOTS"
+  },
+  "ITEM_BAG": {
+    "index": 224,
+    "animTag": "ANIM_TAG_ITEM_BAG"
+  },
+  "JAGGED_MUSIC_NOTE": {
+    "index": 225,
+    "animTag": "ANIM_TAG_JAGGED_MUSIC_NOTE"
+  },
+  "POKEBALL": {
+    "index": 226,
+    "animTag": "ANIM_TAG_POKEBALL"
+  },
+  "SPOTLIGHT": {
+    "index": 227,
+    "animTag": "ANIM_TAG_SPOTLIGHT"
+  },
+  "LETTER_Z": {
+    "index": 228,
+    "animTag": "ANIM_TAG_LETTER_Z"
+  },
+  "RAPID_SPIN": {
+    "index": 229,
+    "animTag": "ANIM_TAG_RAPID_SPIN"
+  },
+  "TRI_ATTACK_TRIANGLE": {
+    "index": 230,
+    "animTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE"
+  },
+  "WISP_ORB": {
+    "index": 231,
+    "animTag": "ANIM_TAG_WISP_ORB"
+  },
+  "WISP_FIRE": {
+    "index": 232,
+    "animTag": "ANIM_TAG_WISP_FIRE"
+  },
+  "GOLD_STARS": {
+    "index": 233,
+    "animTag": "ANIM_TAG_GOLD_STARS"
+  },
+  "ECLIPSING_ORB": {
+    "index": 234,
+    "animTag": "ANIM_TAG_ECLIPSING_ORB"
+  },
+  "GRAY_ORB": {
+    "index": 235,
+    "animTag": "ANIM_TAG_GRAY_ORB"
+  },
+  "BLUE_ORB": {
+    "index": 236,
+    "animTag": "ANIM_TAG_BLUE_ORB"
+  },
+  "RED_ORB_2": {
+    "index": 237,
+    "animTag": "ANIM_TAG_RED_ORB_2"
+  },
+  "PINK_PETAL": {
+    "index": 238,
+    "animTag": "ANIM_TAG_PINK_PETAL"
+  },
+  "PAIN_SPLIT": {
+    "index": 239,
+    "animTag": "ANIM_TAG_PAIN_SPLIT"
+  },
+  "CONFETTI": {
+    "index": 240,
+    "animTag": "ANIM_TAG_CONFETTI"
+  },
+  "GREEN_STAR": {
+    "index": 241,
+    "animTag": "ANIM_TAG_GREEN_STAR"
+  },
+  "PINK_CLOUD": {
+    "index": 242,
+    "animTag": "ANIM_TAG_PINK_CLOUD"
+  },
+  "SWEAT_DROP": {
+    "index": 243,
+    "animTag": "ANIM_TAG_SWEAT_DROP"
+  },
+  "GUARD_RING": {
+    "index": 244,
+    "animTag": "ANIM_TAG_GUARD_RING"
+  },
+  "PURPLE_SCRATCH": {
+    "index": 245,
+    "animTag": "ANIM_TAG_PURPLE_SCRATCH"
+  },
+  "PURPLE_SWIPE": {
+    "index": 246,
+    "animTag": "ANIM_TAG_PURPLE_SWIPE"
+  },
+  "TAG_HAND": {
+    "index": 247,
+    "animTag": "ANIM_TAG_TAG_HAND"
+  },
+  "SMALL_RED_EYE": {
+    "index": 248,
+    "animTag": "ANIM_TAG_SMALL_RED_EYE"
+  },
+  "HOLLOW_ORB": {
+    "index": 249,
+    "animTag": "ANIM_TAG_HOLLOW_ORB"
+  },
+  "X_SIGN": {
+    "index": 250,
+    "animTag": "ANIM_TAG_X_SIGN"
+  },
+  "BLUEGREEN_ORB": {
+    "index": 251,
+    "animTag": "ANIM_TAG_BLUEGREEN_ORB"
+  },
+  "PAW_PRINT": {
+    "index": 252,
+    "animTag": "ANIM_TAG_PAW_PRINT"
+  },
+  "PURPLE_FLAME": {
+    "index": 253,
+    "animTag": "ANIM_TAG_PURPLE_FLAME"
+  },
+  "RED_BALL": {
+    "index": 254,
+    "animTag": "ANIM_TAG_RED_BALL"
+  },
+  "SMELLINGSALT_EFFECT": {
+    "index": 255,
+    "animTag": "ANIM_TAG_SMELLINGSALT_EFFECT"
+  },
+  "METEOR": {
+    "index": 256,
+    "animTag": "ANIM_TAG_METEOR"
+  },
+  "FLAT_ROCK": {
+    "index": 257,
+    "animTag": "ANIM_TAG_FLAT_ROCK"
+  },
+  "MAGNIFYING_GLASS": {
+    "index": 258,
+    "animTag": "ANIM_TAG_MAGNIFYING_GLASS"
+  },
+  "BROWN_ORB": {
+    "index": 259,
+    "animTag": "ANIM_TAG_BROWN_ORB"
+  },
+  "METAL_SOUND_WAVES": {
+    "index": 260,
+    "animTag": "ANIM_TAG_METAL_SOUND_WAVES"
+  },
+  "FLYING_DIRT": {
+    "index": 261,
+    "animTag": "ANIM_TAG_FLYING_DIRT"
+  },
+  "ICICLE_SPEAR": {
+    "index": 262,
+    "animTag": "ANIM_TAG_ICICLE_SPEAR"
+  },
+  "HAIL": {
+    "index": 263,
+    "animTag": "ANIM_TAG_HAIL"
+  },
+  "GLOWY_RED_ORB": {
+    "index": 264,
+    "animTag": "ANIM_TAG_GLOWY_RED_ORB"
+  },
+  "GLOWY_GREEN_ORB": {
+    "index": 265,
+    "animTag": "ANIM_TAG_GLOWY_GREEN_ORB"
+  },
+  "GREEN_SPIKE": {
+    "index": 266,
+    "animTag": "ANIM_TAG_GREEN_SPIKE"
+  },
+  "WHITE_CIRCLE_OF_LIGHT": {
+    "index": 267,
+    "animTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT"
+  },
+  "GLOWY_BLUE_ORB": {
+    "index": 268,
+    "animTag": "ANIM_TAG_GLOWY_BLUE_ORB"
+  },
+  "SAFARI_BAIT": {
+    "index": 269,
+    "animTag": "ANIM_TAG_SAFARI_BAIT"
+  },
+  "WHITE_FEATHER": {
+    "index": 270,
+    "animTag": "ANIM_TAG_WHITE_FEATHER"
+  },
+  "SPARKLE_6": {
+    "index": 271,
+    "animTag": "ANIM_TAG_SPARKLE_6"
+  },
+  "SPLASH": {
+    "index": 272,
+    "animTag": "ANIM_TAG_SPLASH"
+  },
+  "SWEAT_BEAD": {
+    "index": 273,
+    "animTag": "ANIM_TAG_SWEAT_BEAD"
+  },
+  "GEM_1": {
+    "index": 274,
+    "animTag": "ANIM_TAG_GEM_1"
+  },
+  "GEM_2": {
+    "index": 275,
+    "animTag": "ANIM_TAG_GEM_2"
+  },
+  "GEM_3": {
+    "index": 276,
+    "animTag": "ANIM_TAG_GEM_3"
+  },
+  "SLAM_HIT_2": {
+    "index": 277,
+    "animTag": "ANIM_TAG_SLAM_HIT_2"
+  },
+  "RECYCLE": {
+    "index": 278,
+    "animTag": "ANIM_TAG_RECYCLE"
+  },
+  "RED_PARTICLES": {
+    "index": 279,
+    "animTag": "ANIM_TAG_RED_PARTICLES"
+  },
+  "PROTECT": {
+    "index": 280,
+    "animTag": "ANIM_TAG_PROTECT"
+  },
+  "DIRT_MOUND": {
+    "index": 281,
+    "animTag": "ANIM_TAG_DIRT_MOUND"
+  },
+  "SHOCK_3": {
+    "index": 282,
+    "animTag": "ANIM_TAG_SHOCK_3"
+  },
+  "WEATHER_BALL": {
+    "index": 283,
+    "animTag": "ANIM_TAG_WEATHER_BALL"
+  },
+  "BIRD": {
+    "index": 284,
+    "animTag": "ANIM_TAG_BIRD"
+  },
+  "CROSS_IMPACT": {
+    "index": 285,
+    "animTag": "ANIM_TAG_CROSS_IMPACT"
+  },
+  "SLASH_2": {
+    "index": 286,
+    "animTag": "ANIM_TAG_SLASH_2"
+  },
+  "WHIP_HIT": {
+    "index": 287,
+    "animTag": "ANIM_TAG_WHIP_HIT"
+  },
+  "BLUE_RING_2": {
+    "index": 288,
+    "animTag": "ANIM_TAG_BLUE_RING_2"
+  }
+}
