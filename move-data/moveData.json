@@ -1719,7 +1719,10 @@
   },
   "SAFARI_BAIT": {
     "index": 269,
-    "animTag": "ANIM_TAG_SAFARI_BAIT"
+    "animTag": "ANIM_TAG_SAFARI_BAIT",
+    "possibleFrameSize": "16x16",
+    "possibleFrameWidth": 16,
+    "possibleFrameHeight": 16
   },
   "WHITE_FEATHER": {
     "index": 270,
