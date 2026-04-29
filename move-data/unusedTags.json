@@ -1,0 +1,288 @@
+{
+    "ANIM_TAG_PINK_ORB": {
+        "imageSize": "8x8",
+        "imageWidth": 8,
+        "imageHeight": 8,
+        "note": "we probably won't be cutting the images to separate frames here :p"
+    },
+    "ANIM_TAG_ORANGE": {
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHeight": 16
+    },
+    "ANIM_TAG_GLASS": {
+        "imageSize": "32x56",
+        "imageWidth": 32,
+        "imageHeight": 56
+    },
+    "ANIM_TAG_BLUE_SHARDS": {
+        "imageSize": "16x112",
+        "imageWidth": 16,
+        "imageHeight": 112
+    },
+    "ANIM_TAG_CLOSING_EYE": {
+        "imageSize": "32x48",
+        "imageWidth": 32,
+        "imageHeight": 48
+    },
+    "ANIM_TAG_WAVING_HAND": {
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48
+    },
+    "ANIM_TAG_HIT_DUPLICATE": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_BLUE_BURST": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_SPINNING_FIRE": {
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128
+    },
+    "ANIM_TAG_LIGHTNING_2": {
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128
+    },
+    "ANIM_TAG_CLAW_SLASH_2": {
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128
+    },
+    "ANIM_TAG_SCRATCH_3": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_SCRATCH_2": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_BUBBLE_BURST_2": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_GLASS_2": {
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
+    },
+    "ANIM_TAG_PINK_HEART_2": {
+
+    },
+    "ANIM_TAG_SAP_DRIP": {
+
+    },
+    "ANIM_TAG_SAP_DRIP_2": {
+
+    },
+    "ANIM_TAG_HUMANOID_HAND": {
+
+    },
+    "ANIM_TAG_YELLOW_UNK": {
+
+    },
+    "ANIM_TAG_RED_FIST": {
+
+    },
+    "ANIM_TAG_RING": {
+
+    },
+    "ANIM_TAG_Z": {
+
+    },
+    "ANIM_TAG_YELLOW_UNK_2": {
+
+    },
+    "ANIM_TAG_AIR_SLASH": {
+
+    },
+    "ANIM_TAG_SPINNING_GREEN_ORBS": {
+
+    },
+    "ANIM_TAG_BROWN_TRIANGLE": {
+
+    },
+    "ANIM_TAG_POWDER": {
+
+    },
+    "ANIM_TAG_BLUE_FLAMES": {
+
+    },
+    "ANIM_TAG_BLUE_FLAMES_2": {
+
+    },
+    "ANIM_TAG_SHOCK_4": {
+
+    },
+    "ANIM_TAG_BELL_2": {
+
+    },
+    "ANIM_TAG_PINK_GLOVE": {
+
+    },
+    "ANIM_TAG_BLUE_LINES": {
+
+    },
+    "ANIM_TAG_IMPACT_3": {
+
+    },
+    "ANIM_TAG_IMPACT_2": {
+
+    },
+    "ANIM_TAG_RETICLE": {
+
+    },
+    "ANIM_TAG_SNOWBALL": {
+
+    },
+    "ANIM_TAG_VINE": {
+
+    },
+    "ANIM_TAG_SWORD_2": {
+
+    },
+    "ANIM_TAG_CLAPPING": {
+
+    },
+    "ANIM_TAG_RED_TUBE": {
+
+    },
+    "ANIM_TAG_STRING_2": {
+
+    },
+    "ANIM_TAG_PENCIL_2": {
+
+    },
+    "ANIM_TAG_PETAL": {
+
+    },
+    "ANIM_TAG_WEB": {
+
+    },
+    "ANIM_TAG_CRACKED_EGG": {
+
+    },
+    "ANIM_TAG_HATCHED_EGG": {
+
+    },
+    "ANIM_TAG_FRESH_EGG": {
+
+    },
+    "ANIM_TAG_FANGS": {
+
+    },
+    "ANIM_TAG_EXPLOSION_2": {
+
+    },
+    "ANIM_TAG_EXPLOSION_3": {
+
+    },
+    "ANIM_TAG_WATER_DROPLET": {
+
+    },
+    "ANIM_TAG_WATER_DROPLET_2": {
+
+    },
+    "ANIM_TAG_SEED_2": {
+
+    },
+    "ANIM_TAG_SPROUT": {
+
+    },
+    "ANIM_TAG_RED_WAND": {
+
+    },
+    "ANIM_TAG_PURPLE_GREEN_UNK": {
+
+    },
+    "ANIM_TAG_WATER_COLUMN": {
+
+    },
+    "ANIM_TAG_MUD_UNK": {
+
+    },
+    "ANIM_TAG_FURY_SWIPES": {
+
+    },
+    "ANIM_TAG_VINE_2": {
+
+    },
+    "ANIM_TAG_TEETH": {
+
+    },
+    "ANIM_TAG_BONE_2": {
+
+    },
+    "ANIM_TAG_WHITE_BAG": {
+
+    },
+    "ANIM_TAG_UNKNOWN": {
+
+    },
+    "ANIM_TAG_PURPLE_CORAL": {
+
+    },
+    "ANIM_TAG_PURPLE_DROPLET": {
+
+    },
+    "ANIM_TAG_SHOCK_2": {
+
+    },
+    "ANIM_TAG_CLOSING_EYE_2": {
+
+    },
+    "ANIM_TAG_METAL_BALL": {
+
+    },
+    "ANIM_TAG_MONSTER_DOLL": {
+
+    },
+    "ANIM_TAG_WHIRLWIND": {
+
+    },
+    "ANIM_TAG_WHIRLWIND_2": {
+
+    },
+    "ANIM_TAG_EXPLOSION_4": {
+
+    },
+    "ANIM_TAG_EXPLOSION_5": {
+
+    },
+    "ANIM_TAG_TONGUE": {
+
+    },
+    "ANIM_TAG_SMOKE": {
+
+    },
+    "ANIM_TAG_SMOKE_2": {
+
+    },
+    "ANIM_TAG_LIGHTBULB": {
+
+    },
+    "ANIM_TAG_PUNCH_IMPACT": {
+
+    },
+    "ANIM_TAG_GEM_1": {
+
+    },
+    "ANIM_TAG_GEM_2": {
+
+    },
+    "ANIM_TAG_GEM_3": {
+
+    },
+    "ANIM_TAG_RED_PARTICLES": {
+
+    }
+}
