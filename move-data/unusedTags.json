@@ -98,7 +98,7 @@
     "ANIM_TAG_YELLOW_UNK": {
         "imageSize": "16x16",
         "imageWidth": 16,
-        "imageHieght": 16
+        "imageHeight": 16
     },
     "ANIM_TAG_RED_FIST": {
         "imageSize": "32x32",
@@ -126,55 +126,89 @@
         "imageHeight": 48
     },
     "ANIM_TAG_SPINNING_GREEN_ORBS": {
-
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128
     },
     "ANIM_TAG_BROWN_TRIANGLE": {
-
+        "imageSize": "16x32",
+        "imageWidth": 16,
+        "imageHeight": 32
     },
     "ANIM_TAG_POWDER": {
-
+        "imageSize": "8x128",
+        "imageWidth": 8,
+        "imageHeight": 128
     },
     "ANIM_TAG_BLUE_FLAMES": {
-
+        "imageSize": "32x64",
+        "imageWidth": 32,
+        "imageHeight": 64
     },
     "ANIM_TAG_BLUE_FLAMES_2": {
-
+        "imageSize": "8x128",
+        "imageWidth": 8,
+        "imageHeight": 128
     },
     "ANIM_TAG_SHOCK_4": {
-
+        "imageSize": "16x96",
+        "imageWidth": 16,
+        "imageHeight": 96
     },
     "ANIM_TAG_BELL_2": {
-
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
     },
     "ANIM_TAG_PINK_GLOVE": {
-
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHeight": 16
     },
     "ANIM_TAG_BLUE_LINES": {
-
+        "imageSize": "8x16",
+        "imageWidth": 8,
+        "imageHeight": 16
     },
     "ANIM_TAG_IMPACT_3": {
-
+        "imageSize": "32x208",
+        "imageWidth": 32,
+        "imageHeight": 208
     },
     "ANIM_TAG_IMPACT_2": {
-
+        "imageSize": "32x192",
+        "imageWidth": 32,
+        "imageHeight": 192
     },
     "ANIM_TAG_RETICLE": {
-
+        "imageSize": "16x80",
+        "imageWidth": 16,
+        "imageHeight": 80
     },
     "ANIM_TAG_SNOWBALL": {
-
+        "imageSize": "8x48",
+        "imageWidth": 8,
+        "imageHeight": 48
     },
     "ANIM_TAG_VINE": {
-
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
     },
     "ANIM_TAG_SWORD_2": {
-
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48
     },
     "ANIM_TAG_CLAPPING": {
-
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48
     },
     "ANIM_TAG_RED_TUBE": {
-
+        "imageSize": "32x8",
+        "imageWidth": 32,
+        "imageHeight": 8
     },
     "ANIM_TAG_STRING_2": {
 
