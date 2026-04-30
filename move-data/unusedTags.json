@@ -76,34 +76,54 @@
         "imageHeight": 160
     },
     "ANIM_TAG_PINK_HEART_2": {
-
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160
     },
     "ANIM_TAG_SAP_DRIP": {
-
+        "imageSize": "32x256",
+        "imageWidth": 32,
+        "imageHeight": 256
     },
     "ANIM_TAG_SAP_DRIP_2": {
-
+        "imageSize": "32x256",
+        "imageWidth": 32,
+        "imageHeight": 256
     },
     "ANIM_TAG_HUMANOID_HAND": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32
     },
     "ANIM_TAG_YELLOW_UNK": {
-
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHieght": 16
     },
     "ANIM_TAG_RED_FIST": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32
     },
     "ANIM_TAG_RING": {
-
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48
     },
     "ANIM_TAG_Z": {
-
+        "imageSize": "16x32",
+        "imageWidth": 16,
+        "imageHeight": 32
     },
     "ANIM_TAG_YELLOW_UNK_2": {
-
+        "imageSize": "8x16",
+        "imageWidth": 8,
+        "imageHeight": 16
     },
     "ANIM_TAG_AIR_SLASH": {
-
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48
     },
     "ANIM_TAG_SPINNING_GREEN_ORBS": {
 
