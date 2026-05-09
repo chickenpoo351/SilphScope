@@ -277,62 +277,141 @@
     "ANIM_TAG_YELLOW_UNK_2": {
         "imageSize": "8x16",
         "imageWidth": 8,
-        "imageHeight": 16
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 16 }
+        ]
     },
     "ANIM_TAG_AIR_SLASH": {
         "imageSize": "16x48",
         "imageWidth": 16,
-        "imageHeight": 48
+        "imageHeight": 48,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ],
+        "note": "I think that is right..."
     },
     "ANIM_TAG_SPINNING_GREEN_ORBS": {
         "imageSize": "32x128",
         "imageWidth": 32,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_BROWN_TRIANGLE": {
         "imageSize": "16x32",
         "imageWidth": 16,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_POWDER": {
         "imageSize": "8x128",
         "imageWidth": 8,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 8,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 16 },
+            { "x": 0, "y": 16, "width": 8, "height": 16 },
+            { "x": 0, "y": 32, "width": 8, "height": 16 },
+            { "x": 0, "y": 48, "width": 8, "height": 16 },
+            { "x": 0, "y": 64, "width": 8, "height": 16 },
+            { "x": 0, "y": 80, "width": 8, "height": 16 },
+            { "x": 0, "y": 96, "width": 8, "height": 16 },
+            { "x": 0, "y": 112, "width": 8, "height": 16 }
+        ]
     },
     "ANIM_TAG_BLUE_FLAMES": {
         "imageSize": "32x64",
         "imageWidth": 32,
-        "imageHeight": 64
+        "imageHeight": 64,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 16 },
+            { "x": 0, "y": 16, "width": 32, "height": 16 },
+            { "x": 0, "y": 32, "width": 32, "height": 16 },
+            { "x": 0, "y": 48, "width": 32, "height": 16 }
+        ]
     },
     "ANIM_TAG_BLUE_FLAMES_2": {
         "imageSize": "8x128",
         "imageWidth": 8,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 32 },
+            { "x": 0, "y": 32, "width": 8, "height": 32 },
+            { "x": 0, "y": 64, "width": 8, "height": 32 },
+            { "x": 0, "y": 96, "width": 8, "height": 32 }
+        ]
     },
     "ANIM_TAG_SHOCK_4": {
         "imageSize": "16x96",
         "imageWidth": 16,
-        "imageHeight": 96
+        "imageHeight": 96,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 },
+            { "x": 0, "y": 64, "width": 16, "height": 16 },
+            { "x": 0, "y": 80, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_BELL_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_PINK_GLOVE": {
         "imageSize": "16x16",
         "imageWidth": 16,
-        "imageHeight": 16
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_BLUE_LINES": {
         "imageSize": "8x16",
         "imageWidth": 8,
-        "imageHeight": 16
+        "imageHeight": 16,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 },
+            { "x": 0, "y": 8, "width": 8, "height": 8 }
+        ]
     },
     "ANIM_TAG_IMPACT_3": {
         "imageSize": "32x208",
         "imageWidth": 32,
-        "imageHeight": 208
+        "imageHeight": 208,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 208 }
+        ],
+        "note": "this actually has 6 frames however they are unevenly spaced and I am too lazy to open aseperite right now and see the frame sizes..."
     },
     "ANIM_TAG_IMPACT_2": {
         "imageSize": "32x192",
