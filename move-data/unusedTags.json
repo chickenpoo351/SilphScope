@@ -95,77 +95,184 @@
     "ANIM_TAG_SPINNING_FIRE": {
         "imageSize": "32x128",
         "imageWidth": 32,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frame": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_LIGHTNING_2": {
         "imageSize": "32x128",
         "imageWidth": 32,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frame": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_CLAW_SLASH_2": {
         "imageSize": "32x128",
         "imageWidth": 32,
-        "imageHeight": 128
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frame": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_SCRATCH_3": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_SCRATCH_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_BUBBLE_BURST_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_GLASS_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_PINK_HEART_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_SAP_DRIP": {
         "imageSize": "32x256",
         "imageWidth": 32,
-        "imageHeight": 256
+        "imageHeight": 256,
+        "frameCount": 8,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 },
+            { "x": 0, "y": 192, "width": 32, "height": 32 },
+            { "x": 0, "y": 224, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_SAP_DRIP_2": {
         "imageSize": "32x256",
         "imageWidth": 32,
-        "imageHeight": 256
+        "imageHeight": 256,
+        "frameCount": 8,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 },
+            { "x": 0, "y": 192, "width": 32, "height": 32 },
+            { "x": 0, "y": 224, "width": 32, "height": 32 }
+        ],
+        "note": "I will have to see once this one generates if it is correct... since the pret repo doesn't indirectly tell you like the others..."
     },
     "ANIM_TAG_HUMANOID_HAND": {
         "imageSize": "32x32",
         "imageWidth": 32,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_YELLOW_UNK": {
         "imageSize": "16x16",
         "imageWidth": 16,
-        "imageHeight": 16
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_RED_FIST": {
         "imageSize": "32x32",
         "imageWidth": 32,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_RING": {
         "imageSize": "16x48",
         "imageWidth": 16,
-        "imageHeight": 48
+        "imageHeight": 48,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_Z": {
         "imageSize": "16x32",
         "imageWidth": 16,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_YELLOW_UNK_2": {
         "imageSize": "8x16",
