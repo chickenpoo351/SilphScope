@@ -416,107 +416,250 @@
     "ANIM_TAG_IMPACT_2": {
         "imageSize": "32x192",
         "imageWidth": 32,
-        "imageHeight": 192
+        "imageHeight": 192,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 160, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_RETICLE": {
         "imageSize": "16x80",
         "imageWidth": 16,
-        "imageHeight": 80
+        "imageHeight": 80,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 64, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_SNOWBALL": {
         "imageSize": "8x48",
         "imageWidth": 8,
-        "imageHeight": 48
+        "imageHeight": 48,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 },
+            { "x": 0, "y": 8, "width": 8, "height": 8 },
+            { "x": 0, "y": 16, "width": 8, "height": 8 },
+            { "x": 0, "y": 24, "width": 8, "height": 8 },
+            { "x": 0, "y": 32, "width": 8, "height": 8 },
+            { "x": 0, "y": 40, "width": 8, "height": 8 }
+        ]
     },
     "ANIM_TAG_VINE": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ],
+        "note": "so I am confused on this too... pretty sure the above is entirely wrong... but I will check when it actually renders I guess :p"
     },
     "ANIM_TAG_SWORD_2": {
         "imageSize": "16x48",
         "imageWidth": 16,
-        "imageHeight": 48
+        "imageHeight": 48,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_CLAPPING": {
         "imageSize": "16x48",
         "imageWidth": 16,
-        "imageHeight": 48
+        "imageHeight": 48,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_RED_TUBE": {
         "imageSize": "32x8",
         "imageWidth": 32,
-        "imageHeight": 8
+        "imageHeight": 8,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 8 }
+        ]
     },
     "ANIM_TAG_STRING_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 160 }
+        ],
+        "note": "once again I have to open aseprite for this one... but I am too lazy to do so right now :p"
     },
     "ANIM_TAG_PENCIL_2": {
         "imageSize": "16x42",
         "imageWidth": 16,
-        "imageHeight": 42
+        "imageHeight": 42,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_PETAL": {
         "imageSize": "16x112",
         "imageWidth": 16,
-        "imageHeight": 112
+        "imageHeight": 112,
+        "frameCount": 7,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 },
+            { "x": 0, "y": 64, "width": 16, "height": 16 },
+            { "x": 0, "y": 80, "width": 16, "height": 16 },
+            { "x": 0, "y": 96, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_WEB": {
         "imageSize": "32x32",
         "imageWidth": 32,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_CRACKED_EGG": {
         "imageSize": "32x32",
         "imageWidth": 32,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_HATCHED_EGG": {
         "imageSize": "32x32",
         "imageWidth": 32,
-        "imageHeight": 32
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_FRESH_EGG": {
         "imageSize": "16x16",
         "imageWidth": 16,
-        "imageHeight": 16
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_FANGS": {
         "imageSize": "32x64",
         "imageWidth": 32,
-        "imageHeight": 64
+        "imageHeight": 64,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 }
+        ],
+        "note": "so I believe this is actually meant to be used at the same time not exactly as frames... but having them split accomplishes the same thing :p"
     },
     "ANIM_TAG_EXPLOSION_2": {
         "imageSize": "32x192",
         "imageWidth": 32,
-        "imageHeight": 192
+        "imageHeight": 192,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_EXPLOSION_3": {
         "imageSize": "16x64",
         "imageWidth": 16,
-        "imageHeight": 64
+        "imageHeight": 64,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_WATER_DROPLET": {
         "imageSize": "32x256",
         "imageWidth": 32,
-        "imageHeight": 256
+        "imageHeight": 256,
+        "frameCount": 8,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 },
+            { "x": 0, "y": 192, "width": 32, "height": 32 },
+            { "x": 0, "y": 224, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_WATER_DROPLET_2": {
         "imageSize": "32x160",
         "imageWidth": 32,
-        "imageHeight": 160
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_SEED_2": {
         "imageSize": "8x8",
         "imageWidth": 8,
-        "imageHeight": 8
+        "imageHeight": 8,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 }
+        ]
     },
     "ANIM_TAG_SPROUT": {
         "imageSize": "32x224",
         "imageWidth": 32,
-        "imageHeight": 224
+        "imageHeight": 224,
+        "frameCount": 7,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 },
+            { "x": 0, "y": 192, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_RED_WAND": {
         
