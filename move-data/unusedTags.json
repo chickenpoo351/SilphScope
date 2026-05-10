@@ -662,90 +662,325 @@
         ]
     },
     "ANIM_TAG_RED_WAND": {
-        
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_PURPLE_GREEN_UNK": {
-
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_WATER_COLUMN": {
-
+        "imageSize": "16x128",
+        "imageWidth": 16,
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 32 },
+            { "x": 0, "y": 32, "width": 16, "height": 32 },
+            { "x": 0, "y": 64, "width": 16, "height": 32 },
+            { "x": 0, "y": 98, "width": 16, "height": 32 }
+        ]
     },
     "ANIM_TAG_MUD_UNK": {
-
+        "imageSize": "16x64",
+        "imageWidth": 16,
+        "imageHeight": 64,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_FURY_SWIPES": {
-
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_VINE_2": {
-
+        "imageSize": "32x196",
+        "imageWidth": 32,
+        "imageHeight": 196,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 },
+            { "x": 0, "y": 160, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_TEETH": {
-
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_BONE_2": {
-
+        "imageSize": "32x128",
+        "imageWidth": 32,
+        "imageHeight": 128,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_WHITE_BAG": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_UNKNOWN": {
-
+        "imageSize": "8x16",
+        "imageWidth": 8,
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 16 }
+        ],
+        "note": "I think this might actually be two frames... but the image is so weird I really have no idea :p"
     },
     "ANIM_TAG_PURPLE_CORAL": {
-
+        "imageSize": "16x48",
+        "imageWidth": 16,
+        "imageHeight": 48,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_PURPLE_DROPLET": {
-
+        "imageSize": "16x192",
+        "imageWidth": 16,
+        "imageHeight": 192,
+        "frameCount": 6,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 32 },
+            { "x": 0, "y": 32, "width": 16, "height": 32 },
+            { "x": 0, "y": 64, "width": 16, "height": 32 },
+            { "x": 0, "y": 96, "width": 16, "height": 32 },
+            { "x": 0, "y": 128, "width": 16, "height": 32 },
+            { "x": 0, "y": 160, "width": 16, "height": 32 }
+        ]
     },
     "ANIM_TAG_SHOCK_2": {
-
+        "imageSize": "32x96",
+        "imageWidth": 32,
+        "imageHeight": 96,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_CLOSING_EYE_2": {
-
+        "imageSize": "16x64",
+        "imageWidth": 16,
+        "imageHeight": 64,
+        "frameCount": 4,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_METAL_BALL": {
-
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 32 }
+        ]
     },
     "ANIM_TAG_MONSTER_DOLL": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_WHIRLWIND": {
-
+        "imageSize": "64x64",
+        "imageWidth": 64,
+        "imageHeight": 64,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 64, "height": 64 }
+        ],
+        "note": "so I don't really know if I should split this image... it is kinda weird..."
     },
     "ANIM_TAG_WHIRLWIND_2": {
-
+        "imageSize": "16x16",
+        "imageWidth": 16,
+        "imageHeight": 16,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_EXPLOSION_4": {
-
+        "imageSize": "32x160",
+        "imageWidth": 32,
+        "imageHeight": 160,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 },
+            { "x": 0, "y": 32, "width": 32, "height": 32 },
+            { "x": 0, "y": 64, "width": 32, "height": 32 },
+            { "x": 0, "y": 96, "width": 32, "height": 32 },
+            { "x": 0, "y": 128, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_EXPLOSION_5": {
-
+        "imageSize": "16x80",
+        "imageWidth": 16,
+        "imageHeight": 80,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 },
+            { "x": 0, "y": 64, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_TONGUE": {
-
+        "imageSize": "16x80",
+        "imageWidth": 16,
+        "imageHeight": 80,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 },
+            { "x": 0, "y": 48, "width": 16, "height": 16 },
+            { "x": 0, "y": 64, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_SMOKE": {
-
+        "imageSize": "16x32",
+        "imageWidth": 16,
+        "imageHeight": 32,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "note": "from what I can tell this second frame is emtpy :o"
     },
     "ANIM_TAG_SMOKE_2": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 16 },
+            { "x": 0, "y": 16, "width": 32, "height": 16 }
+        ]
     },
     "ANIM_TAG_LIGHTBULB": {
-
+        "imageSize": "16x32",
+        "imageWidth": 16,
+        "imageHeight": 32,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "ANIM_TAG_PUNCH_IMPACT": {
-
+        "imageSize": "32x32",
+        "imageWidth": 32,
+        "imageHeight": 32,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 32, "height": 32 }
+        ]
     },
     "ANIM_TAG_GEM_1": {
-
+        "imageSize": "64x64",
+        "imageWidth": 64,
+        "imageHeight": 64,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 64, "height": 64 }
+        ],
+        "note": "this is a interesting image... not sure what or how it would have been used..."
     },
     "ANIM_TAG_GEM_2": {
-
+        "imageSize": "64x64",
+        "imageWidth": 64,
+        "imageHeight": 64,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 64, "height": 64 }
+        ]
     },
     "ANIM_TAG_GEM_3": {
-
+        "imageSize": "64x64",
+        "imageWidth": 64,
+        "imageHeight": 64,
+        "frameCount": 1,
+        "frames": [
+            { "x": 0, "y": 0, "width": 64, "height": 64 }
+        ],
+        "note": "ah! I think I got it so all three of the gem images are meant to be combined into one full gem image by being overlayed ont top of each other"
     },
     "ANIM_TAG_RED_PARTICLES": {
-
+        "imageSize": "8x40",
+        "imageWidth": 8,
+        "imageHeight": 40,
+        "frameCount": 5,
+        "frames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 },
+            { "x": 0, "y": 8, "width": 8, "height": 8 },
+            { "x": 0, "y": 16, "width": 8, "height": 8 },
+            { "x": 0, "y": 24, "width": 8, "height": 8 },
+            { "x": 0, "y": 32, "width": 8, "height": 8 }
+        ],
+        "note": "Done! or well mostly done... I kinda have to go back and fix the ones I couldn't figure out... I kinda also have to add frame data to the regular moveData json..."
     }
 }
