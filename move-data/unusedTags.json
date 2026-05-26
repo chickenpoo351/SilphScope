@@ -97,7 +97,7 @@
         "imageWidth": 32,
         "imageHeight": 128,
         "frameCount": 4,
-        "frame": [
+        "frames": [
             { "x": 0, "y": 0, "width": 32, "height": 32 },
             { "x": 0, "y": 32, "width": 32, "height": 32 },
             { "x": 0, "y": 64, "width": 32, "height": 32 },
@@ -109,7 +109,7 @@
         "imageWidth": 32,
         "imageHeight": 128,
         "frameCount": 4,
-        "frame": [
+        "frames": [
             { "x": 0, "y": 0, "width": 32, "height": 32 },
             { "x": 0, "y": 32, "width": 32, "height": 32 },
             { "x": 0, "y": 64, "width": 32, "height": 32 },
@@ -121,7 +121,7 @@
         "imageWidth": 32,
         "imageHeight": 128,
         "frameCount": 4,
-        "frame": [
+        "frames": [
             { "x": 0, "y": 0, "width": 32, "height": 32 },
             { "x": 0, "y": 32, "width": 32, "height": 32 },
             { "x": 0, "y": 64, "width": 32, "height": 32 },

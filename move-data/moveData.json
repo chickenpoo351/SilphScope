@@ -4,56 +4,122 @@
     "animTag": "ANIM_TAG_BONE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ],
+    "note": "sooo... erm I guess the possible* attributes are kinda useless now... I suppose I could have just done all of this manually..."
   },
   "SPARK": {
     "index": 1,
     "animTag": "ANIM_TAG_SPARK",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x64",
+    "imageWidth": 8,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 64 }
+    ],
+    "note": "so erm if the image is split then according to the possible frame size it is in 8x8 chunks... but I am unsure on that... I will update this once I actually use the graphics in the main project like everything else :p"
   },
   "PENCIL": {
     "index": 2,
     "animTag": "ANIM_TAG_PENCIL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "AIR_WAVE": {
     "index": 3,
     "animTag": "ANIM_TAG_AIR_WAVE",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x16",
+    "imageWidth": 32,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 }
+    ]
   },
   "ORB": {
     "index": 4,
     "animTag": "ANIM_TAG_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "SWORD": {
     "index": 5,
     "animTag": "ANIM_TAG_SWORD",
     "possibleFrameSize": "32x64",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 64 }
+    ]
   },
   "SEED": {
     "index": 6,
     "animTag": "ANIM_TAG_SEED",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "EXPLOSION_6": {
     "index": 7,
     "animTag": "ANIM_TAG_EXPLOSION_6",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "PINK_ORB": {
     "index": 8,
@@ -79,21 +145,45 @@
     "animTag": "ANIM_TAG_GUST",
     "possibleFrameSize": "32x64",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 64 }
+    ]
   },
   "ICE_CUBE": {
     "index": 10,
     "animTag": "ANIM_TAG_ICE_CUBE",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "note": "so I think this image is actually 4 images slapped into one... as such to extract the image will need to be unusually large... so let me test this I guess :p of course though without image slicing for now",
+    "imageSize": "64x192",
+    "imageWidth": 64,
+    "imageHeight": 192,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 192 }
+    ]
   },
   "SPARK_2": {
     "index": 11,
     "animTag": "ANIM_TAG_SPARK_2",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "ORANGE": {
     "index": 12,
@@ -117,42 +207,88 @@
     "animTag": "ANIM_TAG_YELLOW_BALL",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "LOCK_ON": {
     "index": 14,
     "animTag": "ANIM_TAG_LOCK_ON",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x40",
+    "imageWidth": 32,
+    "imageHeight": 40,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 40 }
+    ],
+    "note": "yup so this is weird :p from what I can tell the image is actually made up of a 32x32 main area then on the bottom there are 2 I think 8x16 images? I don't know :p will fix later like everything else in this repo..."
   },
   "TIED_BAG": {
     "index": 15,
     "animTag": "ANIM_TAG_TIED_BAG",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "BLACK_SMOKE": {
     "index": 16,
     "animTag": "ANIM_TAG_BLACK_SMOKE",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x16",
+    "imageWidth": 32,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 }
+    ]
   },
   "BLACK_BALL": {
     "index": 17,
     "animTag": "ANIM_TAG_BLACK_BALL",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "CONVERSION": {
     "index": 18,
     "animTag": "ANIM_TAG_CONVERSION",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x32",
+    "imageWidth": 8,
+    "imageHeight": 32,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 }
+    ]
   },
   "GLASS": {
     "index": 19,
@@ -177,21 +313,50 @@
     "animTag": "ANIM_TAG_HORN_HIT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "HIT": {
     "index": 21,
     "animTag": "ANIM_TAG_HIT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "HIT_2": {
     "index": 22,
     "animTag": "ANIM_TAG_HIT_2",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "BLUE_SHARDS": {
     "index": 23,
@@ -350,7 +515,18 @@
     "animTag": "ANIM_TAG_LEER",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "BLUE_BURST": {
     "index": 28,
@@ -398,35 +574,97 @@
     "animTag": "ANIM_TAG_SMALL_EMBER",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "GRAY_SMOKE": {
     "index": 30,
     "animTag": "ANIM_TAG_GRAY_SMOKE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "BLUE_STAR": {
     "index": 31,
     "animTag": "ANIM_TAG_BLUE_STAR",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x224",
+    "imageWidth": 32,
+    "imageHeight": 224,
+    "frameCount": 7,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 }
+    ]
   },
   "BUBBLE_BURST": {
     "index": 32,
     "animTag": "ANIM_TAG_BUBBLE_BURST",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x112",
+    "imageWidth": 16,
+    "imageHeight": 112,
+    "frameCount": 7,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 },
+      { "x": 0, "y": 80, "width": 16, "height": 16 },
+      { "x": 0, "y": 96, "width": 16, "height": 16 }
+    ]
   },
   "FIRE": {
     "index": 33,
     "animTag": "ANIM_TAG_FIRE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 124, "width": 32, "height": 32 }
+    ]
   },
   "SPINNING_FIRE": {
     "index": 34,
@@ -435,7 +673,7 @@
     "imageWidth": 32,
     "imageHeight": 128,
     "frameCount": 4,
-    "frame": [
+    "frames": [
       {
         "x": 0,
         "y": 0,
@@ -468,7 +706,18 @@
     "animTag": "ANIM_TAG_FIRE_PLUME",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "LIGHTNING_2": {
     "index": 36,
@@ -477,7 +726,7 @@
     "imageWidth": 32,
     "imageHeight": 128,
     "frameCount": 4,
-    "frame": [
+    "frames": [
       {
         "x": 0,
         "y": 0,
@@ -510,7 +759,18 @@
     "animTag": "ANIM_TAG_LIGHTNING",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "CLAW_SLASH_2": {
     "index": 38,
@@ -519,7 +779,7 @@
     "imageWidth": 32,
     "imageHeight": 128,
     "frameCount": 4,
-    "frame": [
+    "frames": [
       {
         "x": 0,
         "y": 0,
@@ -552,7 +812,17 @@
     "animTag": "ANIM_TAG_CLAW_SLASH",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "SCRATCH_3": {
     "index": 40,
@@ -682,7 +952,18 @@
     "animTag": "ANIM_TAG_ICE_CHUNK",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "GLASS_2": {
     "index": 44,
@@ -886,29 +1167,72 @@
     "unused": true
   },
   "SPARKLE_1": {
+    "note": "ok so for whatever reason the pret repo does not list this as unused however it doesn't have a oam data struct which from my current limited understanding of the GBA rendering system within firered means it isn't called... or well explicitly called in its own tag... perhaps they allowed indirect gfx access?",
     "index": 48,
-    "animTag": "ANIM_TAG_SPARKLE_1"
+    "animTag": "ANIM_TAG_SPARKLE_1",
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 224, "width": 32, "height": 32 }
+    ]
   },
   "SPARKLE_2": {
     "index": 49,
     "animTag": "ANIM_TAG_SPARKLE_2",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 224, "width": 32, "height": 32 }
+    ]
   },
   "HUMANOID_FOOT": {
     "index": 50,
     "animTag": "ANIM_TAG_HUMANOID_FOOT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "MONSTER_FOOT": {
     "index": 51,
     "animTag": "ANIM_TAG_MONSTER_FOOT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "HUMANOID_HAND": {
     "index": 52,
@@ -932,7 +1256,17 @@
     "animTag": "ANIM_TAG_NOISE_LINE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "YELLOW_UNK": {
     "index": 54,
@@ -973,7 +1307,21 @@
     "animTag": "ANIM_TAG_SLAM_HIT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 224, "width": 32, "height": 32 }
+    ]
   },
   "RING": {
     "index": 57,
@@ -1009,7 +1357,19 @@
     "animTag": "ANIM_TAG_ROCKS",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x192",
+    "imageWidth": 32,
+    "imageHeight": 192,
+    "frameCount": 6,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 }
+    ]
   },
   "Z": {
     "index": 59,
@@ -1121,21 +1481,57 @@
     "animTag": "ANIM_TAG_LEAF",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x144",
+    "imageWidth": 16,
+    "imageHeight": 144,
+    "frameCount": 9,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 },
+      { "x": 0, "y": 80, "width": 16, "height": 16 },
+      { "x": 0, "y": 96, "width": 16, "height": 16 },
+      { "x": 0, "y": 112, "width": 16, "height": 16 },
+      { "x": 0, "y": 128, "width": 16, "height": 16 }
+    ]
   },
   "FINGER": {
     "index": 64,
     "animTag": "ANIM_TAG_FINGER",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "POISON_POWDER": {
     "index": 65,
     "animTag": "ANIM_TAG_POISON_POWDER",
     "possibleFrameSize": "8x16",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "8x128",
+    "imageWidth": 8,
+    "imageHeight": 128,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 16 },
+      { "x": 0, "y": 48, "width": 8, "height": 16 },
+      { "x": 0, "y": 64, "width": 8, "height": 16 },
+      { "x": 0, "y": 80, "width": 8, "height": 16 },
+      { "x": 0, "y": 96, "width": 8, "height": 16 },
+      { "x": 0, "y": 112, "width": 8, "height": 16 }
+    ]
   },
   "BROWN_TRIANGLE": {
     "index": 66,
@@ -1165,14 +1561,42 @@
     "animTag": "ANIM_TAG_SLEEP_POWDER",
     "possibleFrameSize": "8x16",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "8x128",
+    "imageWidth": 8,
+    "imageHeight": 128,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 16 },
+      { "x": 0, "y": 48, "width": 8, "height": 16 },
+      { "x": 0, "y": 64, "width": 8, "height": 16 },
+      { "x": 0, "y": 80, "width": 8, "height": 16 },
+      { "x": 0, "y": 96, "width": 8, "height": 16 },
+      { "x": 0, "y": 112, "width": 8, "height": 16 }
+    ]
   },
   "STUN_SPORE": {
     "index": 68,
     "animTag": "ANIM_TAG_STUN_SPORE",
     "possibleFrameSize": "8x16",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "8x128",
+    "imageWidth": 8,
+    "imageHeight": 128,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 16 },
+      { "x": 0, "y": 48, "width": 8, "height": 16 },
+      { "x": 0, "y": 64, "width": 8, "height": 16 },
+      { "x": 0, "y": 80, "width": 8, "height": 16 },
+      { "x": 0, "y": 96, "width": 8, "height": 16 },
+      { "x": 0, "y": 112, "width": 8, "height": 16 }
+    ]
   },
   "POWDER": {
     "index": 69,
@@ -1238,42 +1662,107 @@
     "animTag": "ANIM_TAG_SPARKLE_3",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ],
+    "note": "I kinda am regretting using \"width\" and \"height\" it takes too long to type... I should have just done w and h..."
   },
   "SPARKLE_4": {
     "index": 71,
     "animTag": "ANIM_TAG_SPARKLE_4",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "MUSIC_NOTES": {
     "index": 72,
     "animTag": "ANIM_TAG_MUSIC_NOTES",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x96",
+    "imageWidth": 16,
+    "imageHeight": 96,
+    "frameCount": 6,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 },
+      { "x": 0, "y": 80, "width": 16, "height": 16 }
+    ]
   },
   "DUCK": {
     "index": 73,
     "animTag": "ANIM_TAG_DUCK",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "MUD_SAND": {
     "index": 74,
     "animTag": "ANIM_TAG_MUD_SAND",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "16x24",
+    "imageWidth": 16,
+    "imageHeight": 24,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 16, "height": 16 }
+    ],
+    "note": "oh how I hate concat images... hopefully though my understaing of how they are working should result in a correct image..."
   },
   "ALERT": {
     "index": 75,
     "animTag": "ANIM_TAG_ALERT",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x112",
+    "imageWidth": 32,
+    "imageHeight": 112,
+    "frameCount": 7,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 },
+      { "x": 0, "y": 32, "width": 32, "height": 16 },
+      { "x": 0, "y": 48, "width": 32, "height": 16 },
+      { "x": 0, "y": 64, "width": 32, "height": 16 },
+      { "x": 0, "y": 80, "width": 32, "height": 16 },
+      { "x": 0, "y": 96, "width": 32, "height": 16 }
+    ]
   },
   "BLUE_FLAMES": {
     "index": 76,
@@ -1397,7 +1886,19 @@
     "animTag": "ANIM_TAG_SHOCK",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x192",
+    "imageWidth": 32,
+    "imageHeight": 192,
+    "frameCount": 6,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 }
+    ]
   },
   "BELL_2": {
     "index": 80,
@@ -1591,14 +2092,31 @@
     "animTag": "ANIM_TAG_BREATH",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "ANGER": {
     "index": 87,
     "animTag": "ANIM_TAG_ANGER",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "SNOWBALL": {
     "index": 88,
@@ -1769,7 +2287,21 @@
     "animTag": "ANIM_TAG_AMNESIA",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 124, "width": 32, "height": 32 }
+    ]
   },
   "STRING_2": {
     "index": 94,
@@ -1876,7 +2408,19 @@
     "animTag": "ANIM_TAG_BENT_SPOON",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x192",
+    "imageWidth": 16,
+    "imageHeight": 192,
+    "frameCount": 6,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 },
+      { "x": 0, "y": 128, "width": 16, "height": 32 },
+      { "x": 0, "y": 160, "width": 16, "height": 32 }
+    ]
   },
   "WEB": {
     "index": 98,
@@ -1900,14 +2444,31 @@
     "animTag": "ANIM_TAG_MILK_BOTTLE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "COIN": {
     "index": 100,
     "animTag": "ANIM_TAG_COIN",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "CRACKED_EGG": {
     "index": 101,
@@ -2369,7 +2930,20 @@
     "animTag": "ANIM_TAG_RAIN_DROPS",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x224",
+    "imageWidth": 16,
+    "imageHeight": 224,
+    "frameCount": 7,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 },
+      { "x": 0, "y": 128, "width": 16, "height": 32 },
+      { "x": 0, "y": 160, "width": 16, "height": 32 },
+      { "x": 0, "y": 192, "width": 16, "height": 32 }
+    ]
   },
   "FURY_SWIPES": {
     "index": 116,
@@ -2942,329 +3516,714 @@
     "animTag": "ANIM_TAG_IMPACT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "CIRCLE_IMPACT": {
     "index": 136,
     "animTag": "ANIM_TAG_CIRCLE_IMPACT",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "SCRATCH": {
     "index": 137,
     "animTag": "ANIM_TAG_SCRATCH",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "CUT": {
     "index": 138,
     "animTag": "ANIM_TAG_CUT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "SHARP_TEETH": {
     "index": 139,
     "animTag": "ANIM_TAG_SHARP_TEETH",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "RAINBOW_RINGS": {
     "index": 140,
     "animTag": "ANIM_TAG_RAINBOW_RINGS",
     "possibleFrameSize": "8x16",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "8x48",
+    "imageWidth": 8,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 16 }
+    ]
   },
   "ICE_CRYSTALS": {
     "index": 141,
     "animTag": "ANIM_TAG_ICE_CRYSTALS",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "16x80",
+    "imageWidth": 16,
+    "imageHeight": 80,
+    "frameCount": 6,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 8 },
+      { "x": 0, "y": 40, "width": 8, "height": 8 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 8, "height": 16 }
+    ],
+    "note": "concat images strike again! seriously though I hope this works..."
   },
   "ICE_SPIKES": {
     "index": 142,
     "animTag": "ANIM_TAG_ICE_SPIKES",
     "possibleFrameSize": "8x16",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "8x64",
+    "imageWidth": 8,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 16 },
+      { "x": 0, "y": 48, "width": 8, "height": 16 }
+    ]
   },
   "HANDS_AND_FEET": {
     "index": 143,
     "animTag": "ANIM_TAG_HANDS_AND_FEET",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "MIST_CLOUD": {
     "index": 144,
     "animTag": "ANIM_TAG_MIST_CLOUD",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 }
+    ]
   },
   "CLAMP": {
     "index": 145,
     "animTag": "ANIM_TAG_CLAMP",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "BUBBLE": {
     "index": 146,
     "animTag": "ANIM_TAG_BUBBLE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "ORBS": {
     "index": 147,
     "animTag": "ANIM_TAG_ORBS",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 9,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 8, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 8, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 8, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 },
+      { "x": 8, "y": 24, "width": 8, "height": 8 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ],
+    "note": "weird image... it's like those concat ones but this image was actually made like that... nonetheless I told you x would useful!"
   },
   "WATER_IMPACT": {
     "index": 148,
     "animTag": "ANIM_TAG_WATER_IMPACT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "WATER_ORB": {
     "index": 149,
     "animTag": "ANIM_TAG_WATER_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "POISON_BUBBLE": {
     "index": 150,
     "animTag": "ANIM_TAG_POISON_BUBBLE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "TOXIC_BUBBLE": {
     "index": 151,
     "animTag": "ANIM_TAG_TOXIC_BUBBLE",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x128",
+    "imageWidth": 16,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 }
+    ]
   },
   "SPIKES": {
     "index": 152,
     "animTag": "ANIM_TAG_SPIKES",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "HORN_HIT_2": {
     "index": 153,
     "animTag": "ANIM_TAG_HORN_HIT_2",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x16",
+    "imageWidth": 32,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 }
+    ]
   },
   "AIR_WAVE_2": {
     "index": 154,
     "animTag": "ANIM_TAG_AIR_WAVE_2",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x16",
+    "imageWidth": 32,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 }
+    ]
   },
   "SMALL_BUBBLES": {
     "index": 155,
     "animTag": "ANIM_TAG_SMALL_BUBBLES",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x40",
+    "imageWidth": 16,
+    "imageHeight": 40,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 8, "height": 8 },
+      { "x": 8, "y": 32, "width": 8, "height": 8 }
+    ],
+    "note": "another combo image D:"
   },
   "ROUND_SHADOW": {
     "index": 156,
     "animTag": "ANIM_TAG_ROUND_SHADOW",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "SUNLIGHT": {
     "index": 157,
     "animTag": "ANIM_TAG_SUNLIGHT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "SPORE": {
     "index": 158,
     "animTag": "ANIM_TAG_SPORE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 }
+    ]
   },
   "FLOWER": {
     "index": 159,
     "animTag": "ANIM_TAG_FLOWER",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x24",
+    "imageWidth": 16,
+    "imageHeight": 24,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 }
+    ],
+    "note": "concat :p"
   },
   "RAZOR_LEAF": {
     "index": 160,
     "animTag": "ANIM_TAG_RAZOR_LEAF",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x16",
+    "imageWidth": 32,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 }
+    ]
   },
   "NEEDLE": {
     "index": 161,
     "animTag": "ANIM_TAG_NEEDLE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "WHIRLWIND_LINES": {
     "index": 162,
     "animTag": "ANIM_TAG_WHIRLWIND_LINES",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x48",
+    "imageWidth": 32,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 },
+      { "x": 0, "y": 32, "width": 32, "height": 16 }
+    ]
   },
   "GOLD_RING": {
     "index": 163,
     "animTag": "ANIM_TAG_GOLD_RING",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 }
+    ]
   },
   "PURPLE_RING": {
     "index": 164,
     "animTag": "ANIM_TAG_PURPLE_RING",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 }
+    ]
   },
   "BLUE_RING": {
     "index": 165,
     "animTag": "ANIM_TAG_BLUE_RING",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 }
+    ]
   },
   "GREEN_LIGHT_WALL": {
     "index": 166,
     "animTag": "ANIM_TAG_GREEN_LIGHT_WALL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "BLUE_LIGHT_WALL": {
     "index": 167,
     "animTag": "ANIM_TAG_BLUE_LIGHT_WALL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "RED_LIGHT_WALL": {
     "index": 168,
     "animTag": "ANIM_TAG_RED_LIGHT_WALL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "GRAY_LIGHT_WALL": {
     "index": 169,
     "animTag": "ANIM_TAG_GRAY_LIGHT_WALL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "ORANGE_LIGHT_WALL": {
     "index": 170,
     "animTag": "ANIM_TAG_ORANGE_LIGHT_WALL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "BLACK_BALL_2": {
     "index": 171,
     "animTag": "ANIM_TAG_BLACK_BALL_2",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "PURPLE_GAS_CLOUD": {
     "index": 172,
     "animTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 }
+    ]
   },
   "SPARK_H": {
     "index": 173,
     "animTag": "ANIM_TAG_SPARK_H",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 }
+    ]
   },
   "YELLOW_STAR": {
     "index": 174,
     "animTag": "ANIM_TAG_YELLOW_STAR",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "LARGE_FRESH_EGG": {
     "index": 175,
     "animTag": "ANIM_TAG_LARGE_FRESH_EGG",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "SHADOW_BALL": {
     "index": 176,
     "animTag": "ANIM_TAG_SHADOW_BALL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "LICK": {
     "index": 177,
     "animTag": "ANIM_TAG_LICK",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x160",
+    "imageWidth": 16,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 },
+      { "x": 0, "y": 128, "width": 16, "height": 32 }
+    ]
   },
   "VOID_LINES": {
     "index": 178,
     "animTag": "ANIM_TAG_VOID_LINES",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "STRING": {
     "index": 179,
     "animTag": "ANIM_TAG_STRING",
     "possibleFrameSize": "64x32",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "64x32",
+    "imageWidth": 64,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 32 }
+    ]
   },
   "WEB_THREAD": {
     "index": 180,
     "animTag": "ANIM_TAG_WEB_THREAD",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "SPIDER_WEB": {
     "index": 181,
     "animTag": "ANIM_TAG_SPIDER_WEB",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "LIGHTBULB": {
     "index": 182,
@@ -3294,147 +4253,338 @@
     "animTag": "ANIM_TAG_SLASH",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "FOCUS_ENERGY": {
     "index": 184,
     "animTag": "ANIM_TAG_FOCUS_ENERGY",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x128",
+    "imageWidth": 16,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 }
+    ]
   },
   "SPHERE_TO_CUBE": {
     "index": 185,
     "animTag": "ANIM_TAG_SPHERE_TO_CUBE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ]
   },
   "TENDRILS": {
     "index": 186,
     "animTag": "ANIM_TAG_TENDRILS",
     "possibleFrameSize": "64x32",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "64x128",
+    "imageWidth": 64,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 32 },
+      { "x": 0, "y": 32, "width": 64, "height": 32 },
+      { "x": 0, "y": 64, "width": 64, "height": 32 },
+      { "x": 0, "y": 96, "width": 64, "height": 32 }
+    ]
   },
   "EYE": {
     "index": 187,
     "animTag": "ANIM_TAG_EYE",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "WHITE_SHADOW": {
     "index": 188,
     "animTag": "ANIM_TAG_WHITE_SHADOW",
     "possibleFrameSize": "64x32",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "64x32",
+    "imageWidth": 64,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 32 }
+    ]
   },
   "TEAL_ALERT": {
     "index": 189,
     "animTag": "ANIM_TAG_TEAL_ALERT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "OPENING_EYE": {
     "index": 190,
     "animTag": "ANIM_TAG_OPENING_EYE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "ROUND_WHITE_HALO": {
     "index": 191,
     "animTag": "ANIM_TAG_ROUND_WHITE_HALO",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "FANG_ATTACK": {
     "index": 192,
     "animTag": "ANIM_TAG_FANG_ATTACK",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "PURPLE_HAND_OUTLINE": {
     "index": 193,
     "animTag": "ANIM_TAG_PURPLE_HAND_OUTLINE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "MOON": {
     "index": 194,
     "animTag": "ANIM_TAG_MOON",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "GREEN_SPARKLE": {
     "index": 195,
     "animTag": "ANIM_TAG_GREEN_SPARKLE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "SPIRAL": {
     "index": 196,
     "animTag": "ANIM_TAG_SPIRAL",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "SNORE_Z": {
     "index": 197,
     "animTag": "ANIM_TAG_SNORE_Z",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "EXPLOSION": {
     "index": 198,
     "animTag": "ANIM_TAG_EXPLOSION",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "NAIL": {
     "index": 199,
     "animTag": "ANIM_TAG_NAIL",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 },
+      { "x": 0, "y": 32, "width": 32, "height": 16 },
+      { "x": 0, "y": 48, "width": 32, "height": 16 }
+    ]
   },
   "GHOSTLY_SPIRIT": {
     "index": 200,
     "animTag": "ANIM_TAG_GHOSTLY_SPIRIT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "WARM_ROCK": {
     "index": 201,
     "animTag": "ANIM_TAG_WARM_ROCK",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x168",
+    "imageWidth": 32,
+    "imageHeight": 168,
+    "frameCount": 14,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 16, "height": 8 },
+      { "x": 16, "y": 128, "width": 16, "height": 8 },
+      { "x": 0, "y": 136, "width": 16, "height": 8 },
+      { "x": 16, "y": 136, "width": 16, "height": 8 },
+      { "x": 0, "y": 144, "width": 16, "height": 8 },
+      { "x": 16, "y": 144, "width": 16, "height": 8 },
+      { "x": 0, "y": 152, "width": 16, "height": 8 },
+      { "x": 16, "y": 152, "width": 16, "height": 8 },
+      { "x": 0, "y": 160, "width": 16, "height": 8 },
+      { "x": 16, "y": 160, "width": 16, "height": 8 }
+    ],
+    "note": "another multi-image D:"
   },
   "BREAKING_EGG": {
     "index": 202,
     "animTag": "ANIM_TAG_BREAKING_EGG",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "THIN_RING": {
     "index": 203,
     "animTag": "ANIM_TAG_THIN_RING",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "PUNCH_IMPACT": {
     "index": 204,
@@ -3458,483 +4608,1070 @@
     "animTag": "ANIM_TAG_BELL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "MUSIC_NOTES_2": {
     "index": 206,
     "animTag": "ANIM_TAG_MUSIC_NOTES_2",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x256",
+    "imageWidth": 16,
+    "imageHeight": 256,
+    "frameCount": 16,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 },
+      { "x": 0, "y": 80, "width": 16, "height": 16 },
+      { "x": 0, "y": 96, "width": 16, "height": 16 },
+      { "x": 0, "y": 112, "width": 16, "height": 16 },
+      { "x": 0, "y": 128, "width": 16, "height": 16 },
+      { "x": 0, "y": 144, "width": 16, "height": 16 },
+      { "x": 0, "y": 160, "width": 16, "height": 16 },
+      { "x": 0, "y": 176, "width": 16, "height": 16 },
+      { "x": 0, "y": 192, "width": 16, "height": 16 },
+      { "x": 0, "y": 208, "width": 16, "height": 16 },
+      { "x": 0, "y": 224, "width": 16, "height": 16 },
+      { "x": 0, "y": 240, "width": 16, "height": 16 }
+    ]
   },
   "SPEED_DUST": {
     "index": 207,
     "animTag": "ANIM_TAG_SPEED_DUST",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "TORN_METAL": {
     "index": 208,
     "animTag": "ANIM_TAG_TORN_METAL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "128x32",
+    "imageWidth": 128,
+    "imageHeight": 32,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 32, "y": 0, "width": 32, "height": 32 },
+      { "x": 64, "y": 0, "width": 32, "height": 32 },
+      { "x": 96, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "THOUGHT_BUBBLE": {
     "index": 209,
     "animTag": "ANIM_TAG_THOUGHT_BUBBLE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "MAGENTA_HEART": {
     "index": 210,
     "animTag": "ANIM_TAG_MAGENTA_HEART",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "ELECTRIC_ORBS": {
     "index": 211,
     "animTag": "ANIM_TAG_ELECTRIC_ORBS",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x32",
+    "imageWidth": 8,
+    "imageHeight": 32,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 }
+    ]
   },
   "CIRCLE_OF_LIGHT": {
     "index": 212,
     "animTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "ELECTRICITY": {
     "index": 213,
     "animTag": "ANIM_TAG_ELECTRICITY",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "FINGER_2": {
     "index": 214,
     "animTag": "ANIM_TAG_FINGER_2",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "MOVEMENT_WAVES": {
     "index": 215,
     "animTag": "ANIM_TAG_MOVEMENT_WAVES",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "RED_HEART": {
     "index": 216,
     "animTag": "ANIM_TAG_RED_HEART",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "RED_ORB": {
     "index": 217,
     "animTag": "ANIM_TAG_RED_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "EYE_SPARKLE": {
     "index": 218,
     "animTag": "ANIM_TAG_EYE_SPARKLE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "PINK_HEART": {
     "index": 219,
     "animTag": "ANIM_TAG_PINK_HEART",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "ANGEL": {
     "index": 220,
     "animTag": "ANIM_TAG_ANGEL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "DEVIL": {
     "index": 221,
     "animTag": "ANIM_TAG_DEVIL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 }
+    ]
   },
   "SWIPE": {
     "index": 222,
     "animTag": "ANIM_TAG_SWIPE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x160",
+    "imageWidth": 32,
+    "imageHeight": 160,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 }
+    ],
+    "note": "from what I can tell there are only 4 actual images... so it is kinda weird there is space for a fifth empty graphic"
   },
   "ROOTS": {
     "index": 223,
     "animTag": "ANIM_TAG_ROOTS",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "ITEM_BAG": {
     "index": 224,
     "animTag": "ANIM_TAG_ITEM_BAG",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "JAGGED_MUSIC_NOTE": {
     "index": 225,
     "animTag": "ANIM_TAG_JAGGED_MUSIC_NOTE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 }
+    ]
   },
   "POKEBALL": {
     "index": 226,
     "animTag": "ANIM_TAG_POKEBALL",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "SPOTLIGHT": {
     "index": 227,
     "animTag": "ANIM_TAG_SPOTLIGHT",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "LETTER_Z": {
     "index": 228,
     "animTag": "ANIM_TAG_LETTER_Z",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "RAPID_SPIN": {
     "index": 229,
     "animTag": "ANIM_TAG_RAPID_SPIN",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x48",
+    "imageWidth": 32,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 },
+      { "x": 0, "y": 32, "width": 32, "height": 16 }
+    ]
   },
   "TRI_ATTACK_TRIANGLE": {
     "index": 230,
     "animTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "WISP_ORB": {
     "index": 231,
     "animTag": "ANIM_TAG_WISP_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x112",
+    "imageWidth": 16,
+    "imageHeight": 112,
+    "frameCount": 7,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 },
+      { "x": 0, "y": 80, "width": 16, "height": 16 },
+      { "x": 0, "y": 96, "width": 16, "height": 16 }
+    ]
   },
   "WISP_FIRE": {
     "index": 232,
     "animTag": "ANIM_TAG_WISP_FIRE",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "GOLD_STARS": {
     "index": 233,
     "animTag": "ANIM_TAG_GOLD_STARS",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x24",
+    "imageWidth": 16,
+    "imageHeight": 24,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 8, "y": 16, "width": 8, "height": 8 }
+    ]
   },
   "ECLIPSING_ORB": {
     "index": 234,
     "animTag": "ANIM_TAG_ECLIPSING_ORB",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "GRAY_ORB": {
     "index": 235,
     "animTag": "ANIM_TAG_GRAY_ORB",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x24",
+    "imageWidth": 8,
+    "imageHeight": 24,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 }
+    ]
   },
   "BLUE_ORB": {
     "index": 236,
     "animTag": "ANIM_TAG_BLUE_ORB",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x24",
+    "imageWidth": 8,
+    "imageHeight": 24,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 }
+    ]
   },
   "RED_ORB_2": {
     "index": 237,
     "animTag": "ANIM_TAG_RED_ORB_2",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x24",
+    "imageWidth": 8,
+    "imageHeight": 24,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 }
+    ]
   },
   "PINK_PETAL": {
     "index": 238,
     "animTag": "ANIM_TAG_PINK_PETAL",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x32",
+    "imageWidth": 8,
+    "imageHeight": 32,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 }
+    ]
   },
   "PAIN_SPLIT": {
     "index": 239,
     "animTag": "ANIM_TAG_PAIN_SPLIT",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x48",
+    "imageWidth": 16,
+    "imageHeight": 48,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 }
+    ]
   },
   "CONFETTI": {
     "index": 240,
     "animTag": "ANIM_TAG_CONFETTI",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x96",
+    "imageWidth": 8,
+    "imageHeight": 96,
+    "frameCount": 12,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 },
+      { "x": 0, "y": 8, "width": 8, "height": 8 },
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 },
+      { "x": 0, "y": 32, "width": 8, "height": 8 },
+      { "x": 0, "y": 40, "width": 8, "height": 8 },
+      { "x": 0, "y": 48, "width": 8, "height": 8 },
+      { "x": 0, "y": 56, "width": 8, "height": 8 },
+      { "x": 0, "y": 64, "width": 8, "height": 8 },
+      { "x": 0, "y": 72, "width": 8, "height": 8 },
+      { "x": 0, "y": 80, "width": 8, "height": 8 },
+      { "x": 0, "y": 88, "width": 8, "height": 8 }
+    ]
   },
   "GREEN_STAR": {
     "index": 241,
     "animTag": "ANIM_TAG_GREEN_STAR",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "PINK_CLOUD": {
     "index": 242,
     "animTag": "ANIM_TAG_PINK_CLOUD",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "SWEAT_DROP": {
     "index": 243,
     "animTag": "ANIM_TAG_SWEAT_DROP",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "GUARD_RING": {
     "index": 244,
     "animTag": "ANIM_TAG_GUARD_RING",
     "possibleFrameSize": "64x32",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "64x32",
+    "imageWidth": 64,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 32 }
+    ]
   },
   "PURPLE_SCRATCH": {
     "index": 245,
     "animTag": "ANIM_TAG_PURPLE_SCRATCH",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "PURPLE_SWIPE": {
     "index": 246,
     "animTag": "ANIM_TAG_PURPLE_SWIPE",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x128",
+    "imageWidth": 64,
+    "imageHeight": 128,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 },
+      { "x": 0, "y": 64, "width": 64, "height": 64 }
+    ]
   },
   "TAG_HAND": {
     "index": 247,
     "animTag": "ANIM_TAG_TAG_HAND",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 }
+    ]
   },
   "SMALL_RED_EYE": {
     "index": 248,
     "animTag": "ANIM_TAG_SMALL_RED_EYE",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "HOLLOW_ORB": {
     "index": 249,
     "animTag": "ANIM_TAG_HOLLOW_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "X_SIGN": {
     "index": 250,
     "animTag": "ANIM_TAG_X_SIGN",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "BLUEGREEN_ORB": {
     "index": 251,
     "animTag": "ANIM_TAG_BLUEGREEN_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "PAW_PRINT": {
     "index": 252,
     "animTag": "ANIM_TAG_PAW_PRINT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "PURPLE_FLAME": {
     "index": 253,
     "animTag": "ANIM_TAG_PURPLE_FLAME",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x128",
+    "imageWidth": 16,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 32 },
+      { "x": 0, "y": 64, "width": 16, "height": 32 },
+      { "x": 0, "y": 96, "width": 16, "height": 32 }
+    ]
   },
   "RED_BALL": {
     "index": 254,
     "animTag": "ANIM_TAG_RED_BALL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "SMELLINGSALT_EFFECT": {
     "index": 255,
     "animTag": "ANIM_TAG_SMELLINGSALT_EFFECT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "METEOR": {
     "index": 256,
     "animTag": "ANIM_TAG_METEOR",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "FLAT_ROCK": {
     "index": 257,
     "animTag": "ANIM_TAG_FLAT_ROCK",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x80",
+    "imageWidth": 16,
+    "imageHeight": 80,
+    "frameCount": 5,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 },
+      { "x": 0, "y": 64, "width": 16, "height": 16 }
+    ]
   },
   "MAGNIFYING_GLASS": {
     "index": 258,
     "animTag": "ANIM_TAG_MAGNIFYING_GLASS",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "BROWN_ORB": {
     "index": 259,
     "animTag": "ANIM_TAG_BROWN_ORB",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x64",
+    "imageWidth": 16,
+    "imageHeight": 64,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 16 }
+    ]
   },
   "METAL_SOUND_WAVES": {
     "index": 260,
     "animTag": "ANIM_TAG_METAL_SOUND_WAVES",
     "possibleFrameSize": "32x64",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 64 }
+    ]
   },
   "FLYING_DIRT": {
     "index": 261,
     "animTag": "ANIM_TAG_FLYING_DIRT",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 }
+    ]
   },
   "ICICLE_SPEAR": {
     "index": 262,
     "animTag": "ANIM_TAG_ICICLE_SPEAR",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "HAIL": {
     "index": 263,
     "animTag": "ANIM_TAG_HAIL",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "GLOWY_RED_ORB": {
     "index": 264,
     "animTag": "ANIM_TAG_GLOWY_RED_ORB",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "GLOWY_GREEN_ORB": {
     "index": 265,
     "animTag": "ANIM_TAG_GLOWY_GREEN_ORB",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "GREEN_SPIKE": {
     "index": 266,
     "animTag": "ANIM_TAG_GREEN_SPIKE",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 }
+    ]
   },
   "WHITE_CIRCLE_OF_LIGHT": {
     "index": 267,
     "animTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "GLOWY_BLUE_ORB": {
     "index": 268,
     "animTag": "ANIM_TAG_GLOWY_BLUE_ORB",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "SAFARI_BAIT": {
     "index": 269,
     "animTag": "ANIM_TAG_SAFARI_BAIT",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x16",
+    "imageWidth": 16,
+    "imageHeight": 16,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "WHITE_FEATHER": {
     "index": 270,
     "animTag": "ANIM_TAG_WHITE_FEATHER",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x64",
+    "imageWidth": 32,
+    "imageHeight": 64,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": "64" }
+    ]
   },
   "SPARKLE_6": {
     "index": 271,
     "animTag": "ANIM_TAG_SPARKLE_6",
     "possibleFrameSize": "16x16",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 16 },
+      { "x": 0, "y": 16, "width": 16, "height": 16 }
+    ]
   },
   "SPLASH": {
     "index": 272,
     "animTag": "ANIM_TAG_SPLASH",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "SWEAT_BEAD": {
     "index": 273,
     "animTag": "ANIM_TAG_SWEAT_BEAD",
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
-    "possibleFrameHeight": 8
+    "possibleFrameHeight": 8,
+    "imageSize": "8x8",
+    "imageWidth": 8,
+    "imageHeight": 8,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 8, "height": 8 }
+    ]
   },
   "GEM_1": {
     "index": 274,
@@ -3994,14 +5731,29 @@
     "animTag": "ANIM_TAG_SLAM_HIT_2",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x128",
+    "imageWidth": 64,
+    "imageHeight": 128,
+    "frameCount": 2,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 },
+      { "x": 0, "y": 64, "width": 64, "height": 64 }
+    ]
   },
   "RECYCLE": {
     "index": 278,
     "animTag": "ANIM_TAG_RECYCLE",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "RED_PARTICLES": {
     "index": 279,
@@ -4050,62 +5802,139 @@
     "animTag": "ANIM_TAG_PROTECT",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x" : 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "DIRT_MOUND": {
     "index": 281,
     "animTag": "ANIM_TAG_DIRT_MOUND",
     "possibleFrameSize": "32x16",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 16
+    "possibleFrameHeight": 16,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 16 },
+      { "x": 0, "y": 16, "width": 32, "height": 16 }
+    ]
   },
   "SHOCK_3": {
     "index": 282,
     "animTag": "ANIM_TAG_SHOCK_3",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x96",
+    "imageWidth": 32,
+    "imageHeight": 96,
+    "frameCount": 3,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 }
+    ]
   },
   "WEATHER_BALL": {
     "index": 283,
     "animTag": "ANIM_TAG_WEATHER_BALL",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "BIRD": {
     "index": 284,
     "animTag": "ANIM_TAG_BIRD",
     "possibleFrameSize": "64x64",
     "possibleFrameWidth": 64,
-    "possibleFrameHeight": 64
+    "possibleFrameHeight": 64,
+    "imageSize": "64x64",
+    "imageWidth": 64,
+    "imageHeight": 64,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 64, "height": 64 }
+    ]
   },
   "CROSS_IMPACT": {
     "index": 285,
     "animTag": "ANIM_TAG_CROSS_IMPACT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x32",
+    "imageWidth": 32,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 }
+    ]
   },
   "SLASH_2": {
     "index": 286,
     "animTag": "ANIM_TAG_SLASH_2",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x128",
+    "imageWidth": 32,
+    "imageHeight": 128,
+    "frameCount": 4,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 }
+    ]
   },
   "WHIP_HIT": {
     "index": 287,
     "animTag": "ANIM_TAG_WHIP_HIT",
     "possibleFrameSize": "32x32",
     "possibleFrameWidth": 32,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "32x256",
+    "imageWidth": 32,
+    "imageHeight": 256,
+    "frameCount": 8,
+    "frames": [
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 32, "height": 32 },
+      { "x": 0, "y": 64, "width": 32, "height": 32 },
+      { "x": 0, "y": 96, "width": 32, "height": 32 },
+      { "x": 0, "y": 128, "width": 32, "height": 32 },
+      { "x": 0, "y": 160, "width": 32, "height": 32 },
+      { "x": 0, "y": 192, "width": 32, "height": 32 },
+      { "x": 0, "y": 124, "width": 32, "height": 32 }
+    ]
   },
   "BLUE_RING_2": {
     "index": 288,
     "animTag": "ANIM_TAG_BLUE_RING_2",
     "possibleFrameSize": "16x32",
     "possibleFrameWidth": 16,
-    "possibleFrameHeight": 32
+    "possibleFrameHeight": 32,
+    "imageSize": "16x32",
+    "imageWidth": 16,
+    "imageHeight": 32,
+    "frameCount": 1,
+    "frames": [
+      { "x": 0, "y": 0, "width": 16, "height": 32 }
+    ],
+    "note": "holy toledo! I'm done :D you guys have no idea how long this took... all you will see is a single large commit... but trust me this was like 2 weeks of on and off work..."
   }
 }
