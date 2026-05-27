@@ -104,6 +104,7 @@ export async function renderAllMoves(rom, options = {}) {
     const {
         moves: providedMoves = moves,
         outputDir = "./out",
+        renderMasterImage = true,
     } = options;
 
     fs.mkdirSync(outputDir, { recursive: true });
@@ -112,7 +113,10 @@ export async function renderAllMoves(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     for (const moveName of Object.keys(providedMoves)) {
-        await renderMove(moveName, providedMoves, reader, rom, { outputDir });
+        await renderMove(moveName, providedMoves, reader, rom, { 
+            outputDir,
+            renderMasterImage, 
+        });
         console.log(`Done: ${moveName}`);
     }
 }
@@ -146,6 +150,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
 
     await renderAllMoves(rom, {
         outputDir: outputMoveDir,
+        renderMasterImage: true,
     })
 }
 
