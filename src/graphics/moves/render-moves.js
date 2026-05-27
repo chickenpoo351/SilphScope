@@ -17,6 +17,24 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
+const extractFrameFromImage = (imageData, fullWidth, frameData) => { // in theory should work...
+    const { x, y, width, height } = frameData;
+    const frameImage = new Uint8ClampedArray(width * height * 4);
+
+    for (let row = 0; row < height; row++) {
+        for (let col = 0; col < width; col++) {
+            const srcIndex = ((y + row) * fullWidth + (x + col)) * 4;
+            const dstIndex = (row * width + col) * 4;
+            frameImage[dstIndex] = imageData[srcIndex];
+            frameImage[dstIndex + 1] = imageData[srcIndex + 1];
+            frameImage[dstIndex + 2] = imageData[srcIndex + 2];
+            frameImage[dstIndex + 3] = imageData[srcIndex + 3];
+        }
+    }
+
+    return frameImage;
+};
+
 export async function renderMove(moveName, moves, reader, rom, options = {}) {
     const {
         outputDir = null
@@ -48,14 +66,20 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         height,
     });
 
-    const png = new PNG({ width, height });
-    png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
-
-    if (outputDir) {
+    if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
         const dir = `${outputDir}/${moveName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/move.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+
+        for (let i = 0; i < move.frames.length; i++) {
+            const frame = move.frames[i];
+            const frameImageData = extractFrameFromImage(image, width, frame);
+
+            const png = new PNG({ width: frame.width, height: frame.height });
+            png.data = frameImageData;
+            const pngBuffer = await streamToBuffer(png.pack());
+
+            const fileName = `${dir}/frame-${i}.png`;
+            fs.writeFileSync(fileName, pngBuffer);
+        }
     }
 }
