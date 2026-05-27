@@ -126,6 +126,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputMonDir = "./out/mons",
         outputIconDir = "./out/icons",
         outputTrainerDir = "./out/trainers",
+        outputMoveDir = "./out/moves"
     } = options;
 
     await renderAllMons(rom, {
@@ -142,6 +143,10 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputDir: outputTrainerDir,
         trainerBackPics: true,
     });
+
+    await renderAllMoves(rom, {
+        outputDir: outputMoveDir,
+    })
 }
 
 export function loadDefaultRom() {
