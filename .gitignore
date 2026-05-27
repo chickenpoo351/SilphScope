@@ -12,3 +12,5 @@ item_graphics/
 src/icon-data-parser.js
 trainer_graphics/
 src/trainer-data-parser.js
+move_graphics/
+src/move-data-parser.js

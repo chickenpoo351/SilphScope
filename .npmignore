@@ -7,3 +7,8 @@ pokemon_graphics
 silphscope-1.0.0.tgz
 item_graphics/
 trainer_graphics/
+move_graphics/
+src/icon-data-parser.js
+src/mon-data-parser.js
+src/trainer-data-parser.js
+src/move-data-parser.js
