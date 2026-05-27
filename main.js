@@ -5,5 +5,5 @@ import { extract } from "./src/graphics/extract.js"; // random message for a com
 
 export { renderMon, renderMonIcon, renderMonFoot, extract };
 
-import { renderAllMons, renderAllIcons, renderAllTrainers, renderAllGraphics } from "./src/graphics/graphics-extractor-main.js";
-export { renderAllMons, renderAllIcons, renderAllTrainers, renderAllGraphics };
+import { renderAllMons, renderAllIcons, renderAllTrainers, renderAllMoves, renderAllGraphics } from "./src/graphics/graphics-extractor-main.js";
+export { renderAllMons, renderAllIcons, renderAllTrainers, renderAllMoves ,renderAllGraphics };

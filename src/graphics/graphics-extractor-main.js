@@ -9,6 +9,7 @@ import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
 import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
+import { renderMove } from "./moves/render-moves.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 
@@ -21,6 +22,7 @@ const mons = loadDefaultJson("../mon-data/monData.json");
 const icons = loadDefaultJson("../item-data/itemData.json");
 const trainers = loadDefaultJson("../trainer-data/trainerData.json");
 const trainersBack = loadDefaultJson("../trainer-data/trainerBackData.json");
+const moves = loadDefaultJson("../move-data/moveData.json");
 
 export async function renderAllMons(rom, options = {}) {
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -95,6 +97,23 @@ export async function renderAllTrainers(rom, options = {}) {
             outputDir 
         });
         console.log(`Done: ${trainerName}`);
+    }
+}
+
+export async function renderAllMoves(rom, options = {}) {
+    const {
+        moves: providedMoves = moves,
+        outputDir = "./out",
+    } = options;
+
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    const config = getRomConfig(rom);
+    const reader = new RomReader(rom, config);
+
+    for (const moveName of Object.keys(providedMoves)) {
+        await renderMove(moveName, providedMoves, reader, rom, { outputDir });
+        console.log(`Done: ${moveName}`);
     }
 }
 
