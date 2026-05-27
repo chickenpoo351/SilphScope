@@ -1,7 +1,7 @@
 export function resolveMovePic(move, reader, moveName) {
     const table = reader.getTable("moveAnimPicTable");
     const entryOffset = table + move.index * 8;
-    const ptr = reader.readOffset(entryOffset);
+    const ptr = reader.readPointer(entryOffset);
     return {
         name: `move_${moveName}_pic`,
         offset: ptr

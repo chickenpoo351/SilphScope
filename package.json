@@ -18,7 +18,11 @@
     "item-data/",
     "trainer-data",
     "rom-configs/",
-    "move-data/"
+    "move-data/",
+    "!src/icon-data-parser.js",
+    "!src/mon-data-parser.js",
+    "!src/trainer-data-parser.js",
+    "!src/move-data-parser.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

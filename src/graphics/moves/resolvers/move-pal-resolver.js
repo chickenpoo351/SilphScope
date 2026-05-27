@@ -1,7 +1,7 @@
 export function resolveMovePal(move, reader, moveName) {
     const table = reader.getTable("moveAnimPaletteTable");
     const entryOffset = table + move.index * 8;
-    const ptr = reader.readOffset(entryOffset);
+    const ptr = reader.readPointer(entryOffset);
     return {
         name: `move_${moveName}_pal`,
         offset: ptr,
