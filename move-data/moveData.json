@@ -1744,9 +1744,10 @@
     "frameCount": 2,
     "frames": [
       { "x": 0, "y": 0, "width": 8, "height": 8 },
-      { "x": 0, "y": 8, "width": 16, "height": 16 }
+      { "x": 8, "y": 0, "width": 8, "height": 16 },
+      { "x": 0, "y": 8, "width": 8, "height": 16 }
     ],
-    "note": "oh how I hate concat images... hopefully though my understaing of how they are working should result in a correct image..."
+    "note": "unless the image data itself was wrong... the resulting image was kinda weird... but this should \"fix it\" granted it is still weird..."
   },
   "ALERT": {
     "index": 75,
