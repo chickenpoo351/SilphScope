@@ -25,7 +25,8 @@ await renderAllGraphics(rom, {
     outputMonDir: "./Assets/monImages", // must I explain?
     outputIconDir: "./Assets/Icons", // same thing here :p
     outputTrainerDir: "./Assets/Trainers", // ...
-    outputMoveDir: "./Assets/Moves"
+    outputMoveDir: "./Assets/Moves",
+    sortUnusedMoves: true // just sorts the unused moves into a sub-directory
 });
 ```
 
@@ -77,5 +78,6 @@ import { renderAllMoves } from "silphscope" // :O
 const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff (more stuff!)
 await renderAllMoves(rom, {
     outputDir: "./Assets/trainers", // (incredibly) more stuff
+    sortUnused: true, // sorts unused moves into a sub-directory
 })
 ```

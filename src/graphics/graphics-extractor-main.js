@@ -133,7 +133,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputIconDir = "./out/icons",
         outputTrainerDir = "./out/trainers",
         outputMoveDir = "./out/moves",
-        sortUnused = true,
+        sortUnusedMoves = true,
     } = options;
 
     await renderAllMons(rom, {
@@ -154,7 +154,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     await renderAllMoves(rom, {
         outputDir: outputMoveDir,
         renderMasterImage: true,
-        sortUnused,
+        sortUnused: sortUnusedMoves,
     })
 }
 
