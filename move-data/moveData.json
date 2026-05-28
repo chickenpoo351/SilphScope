@@ -228,9 +228,12 @@
     "imageHeight": 40,
     "frameCount": 1,
     "frames": [
-      { "x": 0, "y": 0, "width": 32, "height": 40 }
+      { "x": 0, "y": 0, "width": 32, "height": 32 },
+      { "x": 0, "y": 32, "width": 16, "height": 8 },
+      { "x": 16, "y": 32, "width": 8, "height": 8 }
     ],
-    "note": "yup so this is weird :p from what I can tell the image is actually made up of a 32x32 main area then on the bottom there are 2 I think 8x16 images? I don't know :p will fix later like everything else in this repo..."
+    "note": "yup so this is weird :p from what I can tell the image is actually made up of a 32x32 main area then on the bottom there are 2 I think 8x16 images? I don't know :p will fix later like everything else in this repo...",
+    "note2": "fixed! I think..."
   },
   "TIED_BAG": {
     "index": 15,
