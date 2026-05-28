@@ -78,6 +78,7 @@ import { renderAllMoves } from "silphscope" // :O
 const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff (more stuff!)
 await renderAllMoves(rom, {
     outputDir: "./Assets/trainers", // (incredibly) more stuff
+    renderMasterImage: true, // kinda forgot about this... basically it renders a uncut image of the move anim if you like
     sortUnused: true, // sorts unused moves into a sub-directory
 })
 ```
