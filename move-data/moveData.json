@@ -3610,19 +3610,20 @@
     "possibleFrameSize": "8x8",
     "possibleFrameWidth": 8,
     "possibleFrameHeight": 8,
-    "imageSize": "16x80",
+    "imageSize": "16x56",
     "imageWidth": 16,
-    "imageHeight": 80,
-    "frameCount": 6,
+    "imageHeight": 56,
+    "frameCount": 7,
     "frames": [
       { "x": 0, "y": 0, "width": 16, "height": 16 },
-      { "x": 0, "y": 16, "width": 8, "height": 16 },
-      { "x": 0, "y": 32, "width": 8, "height": 8 },
-      { "x": 0, "y": 40, "width": 8, "height": 8 },
-      { "x": 0, "y": 48, "width": 16, "height": 16 },
-      { "x": 0, "y": 64, "width": 8, "height": 16 }
+      { "x": 0, "y": 16, "width": 8, "height": 8 },
+      { "x": 8, "y": 16, "width": 8, "height": 8 },
+      { "x": 0, "y": 24, "width": 8, "height": 8 },
+      { "x": 8, "y": 24, "width": 8, "height": 8 },
+      { "x": 0, "y": 32, "width": 16, "height": 16 },
+      { "x": 0, "y": 48, "width": 16, "height": 8 }
     ],
-    "note": "concat images strike again! seriously though I hope this works..."
+    "note": "should be fixed... I think... if not I have to redo the math on how these strange frames are arranged..."
   },
   "ICE_SPIKES": {
     "index": 142,
