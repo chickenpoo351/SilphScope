@@ -2329,9 +2329,9 @@
   "PENCIL_2": {
     "index": 95,
     "animTag": "ANIM_TAG_PENCIL_2",
-    "imageSize": "16x42",
+    "imageSize": "16x48",
     "imageWidth": 16,
-    "imageHeight": 42,
+    "imageHeight": 48,
     "frameCount": 3,
     "frames": [
       {

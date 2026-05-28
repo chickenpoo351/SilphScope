@@ -510,9 +510,9 @@
         "note": "once again I have to open aseprite for this one... but I am too lazy to do so right now :p"
     },
     "ANIM_TAG_PENCIL_2": {
-        "imageSize": "16x42",
+        "imageSize": "16x48",
         "imageWidth": 16,
-        "imageHeight": 42,
+        "imageHeight": 48,
         "frameCount": 3,
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
