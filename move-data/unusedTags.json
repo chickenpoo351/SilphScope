@@ -568,7 +568,7 @@
         "imageHeight": 16,
         "frameCount": 1,
         "frames": [
-            { "x": 0, "y": 16, "width": 16, "height": 16 }
+            { "x": 0, "y": 0, "width": 16, "height": 16 }
         ]
     },
     "ANIM_TAG_FANGS": {
