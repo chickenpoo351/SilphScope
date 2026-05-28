@@ -161,6 +161,7 @@
     "possibleFrameWidth": 64,
     "possibleFrameHeight": 64,
     "note": "so I think this image is actually 4 images slapped into one... as such to extract the image will need to be unusually large... so let me test this I guess :p of course though without image slicing for now",
+    "note2": "erm I can't really figure this out... it appears when this image was concat(ed) it got very finely mushed together... so it is kinda hard to tell where the frames are... sure the image is separated but it doesn't line up with the pret image refrences...",
     "imageSize": "64x192",
     "imageWidth": 64,
     "imageHeight": 192,
