@@ -69,7 +69,7 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
     });
 
     if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
-        const rootDir = (move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
+        const rootDir = (sortUnused && move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
         const dir = `${rootDir}/${moveName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
         if (renderMasterImage) {
