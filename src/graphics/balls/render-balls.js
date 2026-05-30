@@ -9,7 +9,7 @@ import { resolveBallSpritePal } from "./resolvers/ball-sprite-palette-resolver.j
 import { resolveBallSpritePic } from "./resolvers/ball-sprite-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
-    const chunks = {};
+    const chunks = [];
     stream.on("data", chunk => chunks.push(chunk));
     stream.on("end", () => resolve(Buffer.concat(chunks)));
     stream.on("error", reject);
