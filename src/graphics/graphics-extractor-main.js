@@ -10,6 +10,7 @@ import { renderTrainer } from "./trainers/render-trainers.js";
 import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
 import { renderMove } from "./moves/render-moves.js";
+import { renderBall } from "./balls/render-balls.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 
@@ -23,6 +24,7 @@ const icons = loadDefaultJson("../item-data/itemData.json");
 const trainers = loadDefaultJson("../trainer-data/trainerData.json");
 const trainersBack = loadDefaultJson("../trainer-data/trainerBackData.json");
 const moves = loadDefaultJson("../move-data/moveData.json");
+const balls = loadDefaultJson("../ball-data/ballData.json");
 
 export async function renderAllMons(rom, options = {}) {
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -123,6 +125,23 @@ export async function renderAllMoves(rom, options = {}) {
     }
 }
 
+export async function renderAllBalls(rom, options= {}) {
+    const {
+        balls: providedBalls = balls,
+        outputDir = "./out",
+    } = options;
+
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    const config = getRomConfig(rom);
+    const reader = new RomReader(rom, config);
+
+    for (const ballName of Object.keys(providedBalls)) {
+        await renderBall(ballName, providedBalls, reader, rom, { outputDir });
+        console.log(`Done: ${ballName}`);
+    }
+}
+
 export async function renderAllGraphics(rom, options = {}) { // eventually I will speed this up instead of doing it sequentially :p but for now its fine I guess
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllGraphics(rom, options) requires rom Buffer/Uint8Array as first argument");
@@ -134,6 +153,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputTrainerDir = "./out/trainers",
         outputMoveDir = "./out/moves",
         sortUnusedMoves = true,
+        outputBallDir = "./out/balls",
     } = options;
 
     await renderAllMons(rom, {
@@ -155,7 +175,11 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputDir: outputMoveDir,
         renderMasterImage: true,
         sortUnused: sortUnusedMoves,
-    })
+    });
+
+    await renderAllBalls(rom, {
+        outputDir: outputBallDir,
+    });
 }
 
 export function loadDefaultRom() {
