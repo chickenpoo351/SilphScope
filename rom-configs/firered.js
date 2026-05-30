@@ -21,5 +21,9 @@ export const firered = {
         itemIconTable: 0x3D4294, // newer update: (so turns out this old value was the pointer to the table lol however this new one is the actual table... for real this time!) rest of the old message: so this was very hard to find since it isn't labeled in the .map of ROMs... luckily Ghidra and the ROM decomps exist so that helped a ton... issue is I believe this contains both the palette and gfx in each listing (should probably double check pokefirered to confirm...) so it will be interesting to extract assets I suppose...
         moveAnimPicTable: 0x3ACC08,
         moveAnimPaletteTable: 0x3AD510,
+        ballParticlePicTable: 0x40BF48,
+        ballParticlePalTable: 0x40BFA8,
+        ballAnimPicTable: 0x26056C,
+        ballAnimPalTable: 0x2605CC, // any idea what I am doing next?
     } // if this works out... well hehe... :D
 }
