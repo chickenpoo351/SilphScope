@@ -1,0 +1,38 @@
+{
+    "POKE": {
+        "index": 0
+    },
+    "GREAT": {
+        "index": 1
+    },
+    "SAFARI": {
+        "index": 2
+    },
+    "ULTRA": {
+        "index": 3
+    },
+    "MASTER": {
+        "index": 4
+    },
+    "NET": {
+        "index": 5
+    },
+    "DIVE": {
+        "index": 6
+    },
+    "NEST": {
+        "index": 7
+    },
+    "REPEAT": {
+        "index": 8
+    },
+    "TIMER": {
+        "index": 9
+    },
+    "LUXURY": {
+        "index": 10
+    },
+    "PREMIER": {
+        "index": 11
+    }
+}
