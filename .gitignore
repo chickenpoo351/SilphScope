@@ -15,3 +15,5 @@ src/trainer-data-parser.js
 move_graphics/
 src/move-data-parser.js
 src/rom-map-parser.js
+rom-maps/
+graphics-maps/

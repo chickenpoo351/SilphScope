@@ -23,7 +23,9 @@
     "!src/mon-data-parser.js",
     "!src/trainer-data-parser.js",
     "!src/move-data-parser.js",
-    "!src/rom-map-parser.js"
+    "!src/rom-map-parser.js",
+    "!rom-maps/",
+    "!graphics-maps/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
