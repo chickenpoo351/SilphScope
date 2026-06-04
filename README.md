@@ -1,5 +1,11 @@
 still a WIP however hopefully with some more work I can get this into a workable state...
 
+(Amazingly Newer!) Update:
+
+so now ball extraction works! still need to cut the images up but that should be simple
+
+(also move graphics are basically done except for ICE_CHUNK it is a weird image... and I don't know how I am going to cut it up... but everything else is working! that makes it sound like ICE_CHUNK doesn't work... which it does it just doesn't get nicely cut up)
+
 (Even Newer!) Update:
 
 moves now work... kinda... still working on getting it all the way done but it mostly works!
@@ -26,11 +32,12 @@ await renderAllGraphics(rom, {
     outputIconDir: "./Assets/Icons", // same thing here :p
     outputTrainerDir: "./Assets/Trainers", // ...
     outputMoveDir: "./Assets/Moves",
-    sortUnusedMoves: true // just sorts the unused moves into a sub-directory
+    sortUnusedMoves: true, // just sorts the unused moves into a sub-directory
+    outputBallDir: "./Assets/Balls"
 });
 ```
 
-Of course though the above is for extracting all graphics (which is kinda a lie... In reality it only extracts mon images, item icons, trainer images, and move images... but like I said this is a WIP :p so wait a bit please!).
+Of course though the above is for extracting all graphics (which is kinda a lie... In reality it only extracts mon images, item icons, trainer images, move images, and ball images... but like I said this is a WIP :p so wait a bit please!).
 
 But if you want say just the mon images or item icons refer below:
 
@@ -82,3 +89,14 @@ await renderAllMoves(rom, {
     sortUnused: true, // sorts unused moves into a sub-directory
 })
 ```
+
+ball image extraction:
+```JavaScript
+import fs from "fs";
+import { renderAllBalls } from "silphscope" // o-O
+
+const rom = fs.readFileSync("./path/to/your/rom.gba") // the file path explains :/
+await renderAllBalls(rom, {
+    outputDir: "./Assets/Balls",
+    ballParticles: true, // set to false if you don't want the ball particles :p
+})
