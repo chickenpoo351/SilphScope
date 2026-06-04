@@ -46,7 +46,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = streamToBuffer(png.pack());
+    const pngBuffer = await streamToBuffer(png.pack());
 
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
