@@ -138,7 +138,10 @@ export async function renderAllBalls(rom, options= {}) {
     const reader = new RomReader(rom, config);
 
     for (const ballName of Object.keys(providedBalls)) {
-        await renderBall(ballName, providedBalls, reader, rom, { outputDir });
+        await renderBall(ballName, providedBalls, reader, rom, { 
+            outputDir,
+            ballParticles, 
+        });
         console.log(`Done: ${ballName}`);
     }
 }
