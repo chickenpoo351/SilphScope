@@ -5,9 +5,8 @@ import fs from "fs";
 import { PNG } from "pngjs";
 import { extract } from "../extract.js";
 import { render4bppImage } from "../render-4bpp-image.js";
-import { resolveBallSpritePal } from "./resolvers/ball-sprite-palette-resolver.js";
-import { resolveBallSpritePic } from "./resolvers/ball-sprite-resolver.js";
-import { renderBallParticle } from "./render-ball-particle.js";
+import { resolveBallParticlePic } from "./resolvers/ball-particle-resolver.js";
+import { resolveBallParticlePal } from "./resolvers/ball-particle-palette-resolver.js";
 
 const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     const chunks = [];
@@ -16,36 +15,31 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 })
 
-export async function renderBall(ballName, balls, reader, rom, options = {}) {
-    const {
-        outputDir = null,
-        ballParticles = false,
-    } = options;
+export async function renderBallParticle(ballName, balls, reader, rom, options = {}) {
+    const { outputDir = null } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
-        throw new TypeError("renderBall(..., rom) requires a ROM Buffer/Uint8Array");
+        throw new TypeError("renderBallParticle(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
     const ball = balls[ballName];
     if (!ball) {
         throw new Error(`Missing Ball: ${ballName}`);
     }
-    if (ballParticles) {
-        renderBallParticle(ballName, balls, reader, rom, { outputDir });
-    }
-    const ballPal = resolveBallSpritePal(ball, reader, ballName);
-    const ballPic = resolveBallSpritePic(ball, reader, ballName);
-    if(!ballPal || !ballPic) {
+    const particlePic = resolveBallParticlePic(ball, reader, ballName);
+    const particlePal = resolveBallParticlePal(ball, reader, ballName);
+
+    if (!particlePic || !particlePal) {
         throw new Error(`Missing assets for: ${ballName}`);
     }
 
-    const ballImageData = extract(ballPic, rom);
-    const rawBallPalData = extract(ballPal, rom);
-    const width = 16;
-    const height = 48;
+    const particleImageData = extract(particlePic, rom);
+    const rawParticlePalData = extract(particlePal, rom);
+    const width = 8; // so actually the "particle image" is one image that just contains all of the particles used for the balls upon opening later on I will split the ones actually used by each ball so we aren't exporting a full redundant image :p
+    const height = 64;
 
     const image = render4bppImage({
-        tileData: ballImageData.data,
-        paletteData: rawBallPalData.data,
+        tileData: particleImageData.data,
+        paletteData: rawParticlePalData.data,
         width,
         height,
     });
@@ -57,7 +51,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/ball.png`;
+        const fileName = `${dir}/particle.png`;
         fs.writeFileSync(fileName, pngBuffer);
     }
 

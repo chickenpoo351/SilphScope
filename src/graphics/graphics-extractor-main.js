@@ -129,6 +129,7 @@ export async function renderAllBalls(rom, options= {}) {
     const {
         balls: providedBalls = balls,
         outputDir = "./out",
+        ballParticles = true,
     } = options;
 
     fs.mkdirSync(outputDir, { recursive: true });
@@ -179,6 +180,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
 
     await renderAllBalls(rom, {
         outputDir: outputBallDir,
+        ballParticles: true,
     });
 }
 

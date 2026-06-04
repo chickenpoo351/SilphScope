@@ -25,7 +25,8 @@
     "!src/move-data-parser.js",
     "!src/rom-map-parser.js",
     "!rom-maps/",
-    "!graphics-maps/"
+    "!graphics-maps/",
+    "ball-data/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
