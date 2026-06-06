@@ -31,7 +31,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "gba",
+    "gameboy-advance",
+    "pokemon",
+    "firered",
+    "pokemon-firered",
+    "leafgreen",
+    "pokemon-leafgreen",
+    "rom",
+    "asset",
+    "asset-extractor",
+    "sprite",
+    "sprite-extractor",
+    "extractor",
+    "gen3",
+    "generation-3"
+  ],
   "author": "chickenPoo",
   "license": "MIT",
   "packageManager": "pnpm@10.17.1",
