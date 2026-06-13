@@ -16,7 +16,10 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 })
 
 export async function renderBallParticle(ballName, balls, reader, rom, options = {}) {
-    const { outputDir = null } = options;
+    const { 
+        outputDir = null,
+        renderMasterBallParticleImage = false,
+    } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderBallParticle(..., rom) requires a ROM Buffer/Uint8Array");
     }
@@ -51,8 +54,20 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/particle.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        if (renderMasterBallParticleImage) {
+            fs.writeFileSync(`${dir}/master-particle.png`, pngBuffer);
+        }
+        for (let i = 0; i < ball.particleFrames.length; i++) {
+            const frame = ball.particleFrames[i];
+            const frameImageData = extractFrameFromImage(image, width, frame);
+
+            const png = new PNG({ width: frame.width, height: frame.height });
+            png.data = frameImageData;
+            const pngFrameBuffer = await streamToBuffer(png.pack());
+
+            const fileName = `${dir}/particle-${i}.png`;
+            fs.writeFileSync(fileName, pngFrameBuffer);
+        }
     }
 
     return pngBuffer;

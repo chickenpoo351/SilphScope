@@ -16,10 +16,30 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 })
 
+const extractFrameFromImage = (imageData, fullWidth, frameData) => {
+    const { x, y, width, height } = frameData;
+    const frameImage = new Uint8ClampedArray(width * height * 4);
+
+    for (let row = 0; row < height; row++) {
+        for (let col = 0; col < width; col++) {
+            const srcIndex = ((y + row) * fullWidth + (x + col)) * 4;
+            const dstIndex = (row * width + col) * 4;
+            frameImage[dstIndex] = imageData[srcIndex];
+            frameImage[dstIndex + 1] = imageData[srcIndex + 1];
+            frameImage[dstIndex + 2] = imageData[srcIndex + 2];
+            frameImage[dstIndex + 3] = imageData[srcIndex + 3];
+        }
+    }
+
+    return frameImage;
+};
+
 export async function renderBall(ballName, balls, reader, rom, options = {}) {
     const {
         outputDir = null,
         ballParticles = false,
+        renderMasterBallImage = false,
+        renderMasterBallParticleImage = false,
     } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderBall(..., rom) requires a ROM Buffer/Uint8Array");
@@ -30,11 +50,14 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
         throw new Error(`Missing Ball: ${ballName}`);
     }
     if (ballParticles) {
-        renderBallParticle(ballName, balls, reader, rom, { outputDir });
+        renderBallParticle(ballName, balls, reader, rom, {
+            outputDir,
+            renderMasterBallParticleImage, 
+        });
     }
     const ballPal = resolveBallSpritePal(ball, reader, ballName);
     const ballPic = resolveBallSpritePic(ball, reader, ballName);
-    if(!ballPal || !ballPic) {
+    if (!ballPal || !ballPic) {
         throw new Error(`Missing assets for: ${ballName}`);
     }
 
@@ -57,8 +80,20 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const fileName = `${dir}/ball.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        if (renderMasterBallImage) {
+            fs.writeFileSync(`${dir}/master-image.png`, pngBuffer)
+        }
+        for (let i = 0; i < ball.frames.length; i++) {
+            const frame = ball.frames[i];
+            const frameImageData = extractFrameFromImage(image, width, frame);
+
+            const png = new PNG({ width: frame.width, height: frame.height });
+            png.data = frameImageData;
+            const pngFrameBuffer = await streamToBuffer(png.pack());
+
+            const fileName = `${dir}/frame-${i}.png`;
+            fs.writeFileSync(fileName, pngFrameBuffer);
+        }
     }
 
     return pngBuffer;

@@ -68,6 +68,10 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         height,
     });
 
+    const png = new PNG({ width, height });
+    png.data = image;
+    const pngBuffer = await streamToBuffer(png.pack());
+
     if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
         const rootDir = (sortUnused && move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
         const dir = `${rootDir}/${moveName}`;
@@ -90,4 +94,6 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
             fs.writeFileSync(fileName, pngBuffer);
         }
     }
+
+    return pngBuffer;
 }
