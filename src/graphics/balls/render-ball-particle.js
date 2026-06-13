@@ -15,8 +15,26 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 })
 
+const extractFrameFromImage = (imageData, fullWidth, frameData) => {
+    const { x, y, width, height } = frameData;
+    const frameImage = new Uint8ClampedArray(width * height * 4);
+
+    for (let row = 0; row < height; row++) {
+        for (let col = 0; col < width; col++) {
+            const srcIndex = ((y + row) * fullWidth + (x + col)) * 4;
+            const dstIndex = (row * width + col) * 4;
+            frameImage[dstIndex] = imageData[srcIndex];
+            frameImage[dstIndex + 1] = imageData[srcIndex + 1];
+            frameImage[dstIndex + 2] = imageData[srcIndex + 2];
+            frameImage[dstIndex + 3] = imageData[srcIndex + 3];
+        }
+    }
+
+    return frameImage;
+};
+
 export async function renderBallParticle(ballName, balls, reader, rom, options = {}) {
-    const { 
+    const {
         outputDir = null,
         renderMasterBallParticleImage = false,
     } = options;
