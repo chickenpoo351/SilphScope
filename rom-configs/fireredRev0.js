@@ -26,5 +26,7 @@ export const fireredRev0 = {
         ballParticlePalTable: 0x40BFA8,
         ballAnimPicTable: 0x26056C,
         ballAnimPalTable: 0x2605CC, // any idea what I am doing next?
+        objectEventPicTable: 0x39FDB0,
+        objectEventPalTable: 0x3A5158, // so these tables... technically aren't tables (except for the palette one kinda...) they are actually pointers to objects which then contain children who actually contain another object which finally contains a pointer to the actual graphics... this will be fun... (anyway will work on this eventually...)
     } // if this works out... well hehe... :D
 }
