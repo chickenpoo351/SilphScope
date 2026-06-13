@@ -1,38 +1,102 @@
 {
     "POKE": {
-        "index": 0
+        "index": 0,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "GREAT": {
-        "index": 1
+        "index": 1,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "SAFARI": {
-        "index": 2
+        "index": 2,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "ULTRA": {
-        "index": 3
+        "index": 3,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "MASTER": {
-        "index": 4
+        "index": 4,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "NET": {
-        "index": 5
+        "index": 5,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "DIVE": {
-        "index": 6
+        "index": 6,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "NEST": {
-        "index": 7
+        "index": 7,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "REPEAT": {
-        "index": 8
+        "index": 8,
+        "frameCount": 2,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ]
     },
     "TIMER": {
-        "index": 9
+        "index": 9,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "LUXURY": {
-        "index": 10
+        "index": 10,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     },
     "PREMIER": {
-        "index": 11
+        "index": 11,
+        "frameCount": 3,
+        "frames": [
+            { "x": 0, "y": 0, "width": 16, "height": 16 },
+            { "x": 0, "y": 16, "width": 16, "height": 16 },
+            { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ]
     }
 }
