@@ -5,6 +5,12 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 3,
+        "particleFrames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 },
+            { "x": 0, "y": 8, "width": 8, "height": 8 },
+            { "x": 0, "y": 16, "width": 8, "height": 8 }
         ]
     },
     "GREAT": {
@@ -13,6 +19,11 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 2,
+        "particleFrames": [
+            { "x": 0, "y": 8, "width": 8, "height": 8 },
+            { "x": 0, "y": 16, "width": 8, "height": 8 }
         ]
     },
     "SAFARI": {
@@ -21,6 +32,11 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 2,
+        "particleFrames": [
+            { "x": 0, "y": 0, "width": 8, "height": 8 },
+            { "x": 0, "y": 8, "width": 8, "height": 8 }
         ]
     },
     "ULTRA": {
@@ -29,6 +45,10 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 56, "width": 8, "height": 8 }
         ]
     },
     "MASTER": {
@@ -37,6 +57,10 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 24, "width": 8, "height": 8 }
         ]
     },
     "NET": {
@@ -45,6 +69,10 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 32, "width": 8, "height": 8 }
         ]
     },
     "DIVE": {
@@ -54,6 +82,10 @@
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 },
             { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 32, "width": 8, "height": 8 }
         ]
     },
     "NEST": {
@@ -62,6 +94,10 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 40, "width": 8, "height": 8 }
         ]
     },
     "REPEAT": {
@@ -70,6 +106,10 @@
         "frames": [
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 56, "width": 8, "height": 8 }
         ]
     },
     "TIMER": {
@@ -79,6 +119,10 @@
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 },
             { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 1,
+        "particleFrames": [
+            { "x": 0, "y": 56, "width": 8, "height": 8 }
         ]
     },
     "LUXURY": {
@@ -88,6 +132,11 @@
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 },
             { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 2,
+        "particleFrames": [
+            { "x": 0, "y": 48, "width": 8, "height": 8 },
+            { "x": 0, "y": 56, "width": 8, "height": 8 }
         ]
     },
     "PREMIER": {
@@ -97,6 +146,11 @@
             { "x": 0, "y": 0, "width": 16, "height": 16 },
             { "x": 0, "y": 16, "width": 16, "height": 16 },
             { "x": 0, "y": 32, "width": 16, "height": 16 }
+        ],
+        "particleFrameCount": 2,
+        "particleFrames": [
+            { "x": 0, "y": 48, "width": 8, "height": 8 },
+            { "x": 0, "y": 56, "width": 8, "height": 8 }
         ]
     }
 }
