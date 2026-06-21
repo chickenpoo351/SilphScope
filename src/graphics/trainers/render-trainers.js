@@ -66,9 +66,9 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/trainer_front.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        await fs.promises.writeFile(fileName, pngBuffer);
     }
 
     return pngBuffer;

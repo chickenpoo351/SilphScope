@@ -46,7 +46,7 @@ export async function renderAllMons(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     if (concurrency > 1) {
-        await mapLimit(Object.keys(providedMons), 4, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
+        await mapLimit(Object.keys(providedMons), concurrency, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
             await renderMon(monName, providedMons, reader, rom, {
                 side: ["front", "back"],
                 variant: ["normal", "shiny"],
@@ -77,6 +77,7 @@ export async function renderAllIcons(rom, options = {}) {
 
     const {
         icons: providedIcons = icons,
+        concurrency = 4,
         outputDir = "./out",
     } = options;
 
@@ -85,9 +86,16 @@ export async function renderAllIcons(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
-    for (const itemName of Object.keys(providedIcons)) {
-        await renderIcon(itemName, providedIcons, reader, rom, { outputDir });
-        console.log(`Done: ${itemName}`);
+    if (concurrency > 1) {
+        await mapLimit(Object.keys(providedIcons), concurrency, async (itemName) => {
+            await renderIcon(itemName, providedIcons, reader, rom, { outputDir });
+            console.log(`Done: ${itemName}`);
+        });
+    } else {
+        for (const itemName of Object.keys(providedIcons)) {
+            await renderIcon(itemName, providedIcons, reader, rom, { outputDir });
+            console.log(`Done: ${itemName}`);
+        }
     }
 }
 
@@ -100,6 +108,7 @@ export async function renderAllTrainers(rom, options = {}) {
         trainers: providedTrainers = trainers,
         trainersBack: providedBackTrainers = trainersBack,
         trainerBackPics = true,
+        concurrency = 4,
         outputDir = "./out",
     } = options;
 
@@ -108,18 +117,29 @@ export async function renderAllTrainers(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
-    for (const trainerName of Object.keys(providedTrainers)) {
-        await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
-            trainerBackPics,
-            outputDir
+    if (concurrency > 1) {
+        await mapLimit(Object.keys(providedTrainers), concurrency, async (trainerName) => {
+            await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
+                trainerBackPics,
+                outputDir
+            });
         });
         console.log(`Done: ${trainerName}`);
+    } else {
+        for (const trainerName of Object.keys(providedTrainers)) {
+            await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
+                trainerBackPics,
+                outputDir
+            });
+            console.log(`Done: ${trainerName}`);
+        }
     }
 }
 
 export async function renderAllMoves(rom, options = {}) {
     const {
         moves: providedMoves = moves,
+        concurrency = 4,
         outputDir = "./out",
         renderMasterImage = true,
         sortUnused = true,
@@ -130,19 +150,31 @@ export async function renderAllMoves(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
-    for (const moveName of Object.keys(providedMoves)) {
-        await renderMove(moveName, providedMoves, reader, rom, {
-            outputDir,
-            renderMasterImage,
-            sortUnused,
+    if (concurrency > 1) {
+        await mapLimit(Object.keys(providedMoves), concurrency, async (moveName) => {
+            await renderMove(moveName, providedMoves, reader, rom, {
+                outputDir,
+                renderMasterImage,
+                sortUnused,
+            });
+            console.log(`Done: ${moveName}`);
         });
-        console.log(`Done: ${moveName}`);
+    } else {
+        for (const moveName of Object.keys(providedMoves)) {
+            await renderMove(moveName, providedMoves, reader, rom, {
+                outputDir,
+                renderMasterImage,
+                sortUnused,
+            });
+            console.log(`Done: ${moveName}`);
+        }
     }
 }
 
 export async function renderAllBalls(rom, options = {}) {
     const {
         balls: providedBalls = balls,
+        concurrency = 4,
         outputDir = "./out",
         ballParticles = true,
         renderMasterBallImage = true,
@@ -154,14 +186,26 @@ export async function renderAllBalls(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
-    for (const ballName of Object.keys(providedBalls)) {
-        await renderBall(ballName, providedBalls, reader, rom, {
-            outputDir,
-            ballParticles,
-            renderMasterBallImage,
-            renderMasterBallParticleImage,
-        });
-        console.log(`Done: ${ballName}`);
+    if (concurrency > 1) {
+        await mapLimit(Object.keys(providedBalls), concurrency, async (ballName) => {
+            await renderBall(ballName, providedBalls, reader, rom, {
+                outputDir,
+                ballParticles,
+                renderMasterBallImage,
+                renderMasterBallParticleImage,
+            });
+            console.log(`Done: ${ballName}`);
+        })
+    } else {
+        for (const ballName of Object.keys(providedBalls)) {
+            await renderBall(ballName, providedBalls, reader, rom, {
+                outputDir,
+                ballParticles,
+                renderMasterBallImage,
+                renderMasterBallParticleImage,
+            });
+            console.log(`Done: ${ballName}`);
+        }
     }
 }
 
@@ -188,21 +232,25 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     });
 
     await renderAllIcons(rom, {
+        concurrency,
         outputDir: outputIconDir,
     });
 
     await renderAllTrainers(rom, {
+        concurrency,
         outputDir: outputTrainerDir,
         trainerBackPics: true,
     });
 
     await renderAllMoves(rom, {
+        concurrency,
         outputDir: outputMoveDir,
         renderMasterImage: true,
         sortUnused: sortUnusedMoves,
     });
 
     await renderAllBalls(rom, {
+        concurrency,
         outputDir: outputBallDir,
         ballParticles: true,
         renderMasterBallImage: true,

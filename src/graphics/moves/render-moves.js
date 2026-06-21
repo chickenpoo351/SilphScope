@@ -75,12 +75,12 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
     if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
         const rootDir = (sortUnused && move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
         const dir = `${rootDir}/${moveName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        await fs.promises.mkdir(dir, { recursive: true });
         if (renderMasterImage) {
             const png = new PNG({ width, height });
             png.data = image;
             const pngBuffer = await streamToBuffer(png.pack());
-            fs.writeFileSync(`${dir}/master.png`, pngBuffer);
+            await fs.promises.writeFile(`${dir}/master.png`, pngBuffer);
         }
         for (let i = 0; i < move.frames.length; i++) {
             const frame = move.frames[i];
@@ -91,7 +91,7 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
             const pngBuffer = await streamToBuffer(png.pack());
 
             const fileName = `${dir}/frame-${i}.png`;
-            fs.writeFileSync(fileName, pngBuffer);
+            await fs.promises.writeFile(fileName, pngBuffer);
         }
     }
 

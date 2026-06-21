@@ -79,9 +79,9 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        await fs.promises.mkdir(dir, { recursive: true });
         if (renderMasterBallImage) {
-            fs.writeFileSync(`${dir}/master-image.png`, pngBuffer)
+            await fs.promises.writeFile(`${dir}/master-image.png`, pngBuffer)
         }
         for (let i = 0; i < ball.frames.length; i++) {
             const frame = ball.frames[i];
@@ -92,7 +92,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
             const pngFrameBuffer = await streamToBuffer(png.pack());
 
             const fileName = `${dir}/frame-${i}.png`;
-            fs.writeFileSync(fileName, pngFrameBuffer);
+            await fs.promises.writeFile(fileName, pngFrameBuffer);
         }
     }
 

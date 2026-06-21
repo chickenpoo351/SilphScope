@@ -75,11 +75,11 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        fs.writeFileSync(`${dir}/trainer_back_frame_1.png`, buffer1);
-        fs.writeFileSync(`${dir}/trainer_back_frame_2.png`, buffer2);
-        fs.writeFileSync(`${dir}/trainer_back_frame_3.png`, buffer3);
-        fs.writeFileSync(`${dir}/trainer_back_frame_4.png`, buffer4);
+        await fs.promises.mkdir(dir, { recursive: true });
+        await fs.promises.writeFile(`${dir}/trainer_back_frame_1.png`, buffer1);
+        await fs.promises.writeFile(`${dir}/trainer_back_frame_2.png`, buffer2);
+        await fs.promises.writeFile(`${dir}/trainer_back_frame_3.png`, buffer3);
+        await fs.promises.writeFile(`${dir}/trainer_back_frame_4.png`, buffer4);
         if (frame5) {
             const pngFrame5 = new PNG({ width, height: frameHeight });
             pngFrame5.data = frame5;

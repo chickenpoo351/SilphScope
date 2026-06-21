@@ -28,6 +28,7 @@ import { renderAllGraphics } from "silphscope"; // this is cool...
 
 const rom = fs.readFileSync("pokefirered.gba"); // replace with path to your own firered rom
 await renderAllGraphics(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputMonDir: "./Assets/monImages", // must I explain?
     outputIconDir: "./Assets/Icons", // same thing here :p
     outputTrainerDir: "./Assets/Trainers", // ...
@@ -48,6 +49,7 @@ import { renderAllMons } from "silphscope"; // never gets old :p
 
 const rom = fs.readFileSync("pokefirered.gba")// once again replace with the path to your own firered rom
 await renderAllMons(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputDir: "./Assets/monImages", // do I actually have to explain?
     icon: true, // set to false if you don't want icons I guess...
     footprint: true, // same as the above...
@@ -61,6 +63,7 @@ import { renderAllIcons } from "silphscope" // :D
 
 const rom = fs.readFileSync("pokefirered.gba")// find your own rom and so on :l
 await renderAllIcons(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputDir: "./Assets/Icons" // no comment (wait... that was a comment :p)
 });
 ```
@@ -72,6 +75,7 @@ import { renderAllTrainers } from "silphscope" // :O
 
 const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff
 await renderAllTrainers(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputDir: "./Assets/trainers", // more stuff
     trainerBackPics: true, // renders the like 8 trainer back pics
 })
@@ -84,6 +88,7 @@ import { renderAllMoves } from "silphscope" // :O
 
 const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff (more stuff!)
 await renderAllMoves(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputDir: "./Assets/trainers", // (incredibly) more stuff
     renderMasterImage: true, // kinda forgot about this... basically it renders a uncut image of the move anim if you like
     sortUnused: true, // sorts unused moves into a sub-directory
@@ -97,6 +102,9 @@ import { renderAllBalls } from "silphscope" // o-O
 
 const rom = fs.readFileSync("./path/to/your/rom.gba") // the file path explains :/
 await renderAllBalls(rom, {
+    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
     outputDir: "./Assets/Balls",
     ballParticles: true, // set to false if you don't want the ball particles :p
+    renderMasterBallImage: true, // set to false if you don't want the uncut image
+    renderMasterBallParticleImage: true, // set to false if you also don't want the uncut particle image :p
 })

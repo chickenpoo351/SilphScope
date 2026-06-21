@@ -50,9 +50,9 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
 
     if (outputDir) {
         const dir = `${outputDir}/${itemName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/icon.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        await fs.promises.writeFile(fileName, pngBuffer);
     }
 
     return pngBuffer;
