@@ -70,7 +70,7 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
+    const pngBuffer = PNG.sync.write(png);
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;

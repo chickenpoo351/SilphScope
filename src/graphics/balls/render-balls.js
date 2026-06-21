@@ -75,7 +75,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = await streamToBuffer(png.pack());
+    const pngBuffer = PNG.sync.write(png);
 
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
@@ -89,7 +89,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
             const png = new PNG({ width: frame.width, height: frame.height });
             png.data = frameImageData;
-            const pngFrameBuffer = await streamToBuffer(png.pack());
+            const pngFrameBuffer = PNG.sync.write(png);
 
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngFrameBuffer);

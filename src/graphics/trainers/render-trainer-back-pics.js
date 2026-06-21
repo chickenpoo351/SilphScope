@@ -67,10 +67,10 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
     pngFrame3.data = frame3;
     const pngFrame4 = new PNG({ width, height: frameHeight });
     pngFrame4.data = frame4;
-    const buffer1 = await streamToBuffer(pngFrame1.pack());
-    const buffer2 = await streamToBuffer(pngFrame2.pack());
-    const buffer3 = await streamToBuffer(pngFrame3.pack());
-    const buffer4 = await streamToBuffer(pngFrame4.pack());
+    const buffer1 = PNG.sync.write(pngFrame1);
+    const buffer2 = PNG.sync.write(pngFrame2);
+    const buffer3 = PNG.sync.write(pngFrame3);
+    const buffer4 = PNG.sync.write(pngFrame4);
     let buffer5
 
     if (outputDir) {
@@ -83,7 +83,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         if (frame5) {
             const pngFrame5 = new PNG({ width, height: frameHeight });
             pngFrame5.data = frame5;
-            buffer5 = await streamToBuffer(pngFrame5.pack());
+            buffer5 = PNG.sync.write(pngFrame5);
             fs.writeFileSync(`${dir}/trainer_back_frame_5.png`, buffer5);
         }
     }

@@ -58,8 +58,7 @@ export async function renderAllMons(rom, options = {}) {
         });
     } else {
         for (const monName of Object.keys(providedMons)) {
-            await renderMon(monName, providedMons, reader, rom, { // hopefully this is faster since we are no longer calling the function 4 times lol
-                side: ["front", "back"],
+            await renderMon(monName, providedMons, reader, rom, {
                 variant: ["normal", "shiny"],
                 icon,
                 footprint,

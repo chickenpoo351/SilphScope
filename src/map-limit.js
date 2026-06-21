@@ -9,7 +9,7 @@ export async function mapLimit(items, limit, mapper) { // I hope this works... i
         while (true) {
             const current = index++;
 
-            if (index >= items.length) return;
+            if (current >= items.length) return;
 
             results[current] = await mapper(items[current], current);
         }
