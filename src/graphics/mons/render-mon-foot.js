@@ -74,9 +74,9 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/footprint.png`;
-        fs.writeFileSync(fileName, pngBuffer);
+        await fs.promises.writeFile(fileName, pngBuffer);
     }
 
     return pngBuffer;

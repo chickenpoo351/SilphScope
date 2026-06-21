@@ -56,9 +56,9 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        fs.writeFileSync(`${dir}/icon_frame1.png`, buffer1);
-        fs.writeFileSync(`${dir}/icon_frame2.png`, buffer2);
+        await fs.promises.mkdir(dir, { recursive: true });
+        await fs.promises.writeFile(`${dir}/icon_frame1.png`, buffer1);
+        await fs.promises.writeFile(`${dir}/icon_frame2.png`, buffer2);
     }
 
     return {

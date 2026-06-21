@@ -61,6 +61,9 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
     const results = [];
     const width = 64;
     const height = 64;
+    if (outputDir) {
+        await fs.promises.mkdir(dir, { recursive: true }); // why was I using existsSync... eh well "fixed?" now I guess... also I moved this out of the loop as you can see so it only has to run... 440 times now... instead of 4x that number :p
+    }
     for (const side of sides) {
         for (const variant of variants) {
             const image = render4bppImage({
@@ -76,9 +79,8 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
 
             if (outputDir) {
                 const dir = `${outputDir}/${monName}`;
-                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true }); // I suppose it is better to have this out of the loop for performance but erm I would say its fine for now :p
                 const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
-                fs.writeFileSync(fileName, pngBuffer);
+                await fs.promises.writeFile(fileName, pngBuffer);
             }
 
             results.push(pngBuffer);

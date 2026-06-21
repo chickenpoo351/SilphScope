@@ -4,6 +4,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { mapLimit } from "../map-limit.js";
 import { renderMon } from "./mons/render-mons.js";
 import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
@@ -43,6 +44,16 @@ export async function renderAllMons(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
+    await mapLimit(Object.keys(providedMons), 4, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
+        await renderMon(monName, providedMons, reader, rom, {
+            variant: ["normal", "shiny"],
+            icon,
+            footprint,
+            outputDir,
+        });
+        console.log(`Done: ${monName}`);
+    });
+/* just going to leave this here for now in case I decide to make it so that you can toggle between concurrent usage and I suppose synchronous would be the correct term for this down here...
     for (const monName of Object.keys(providedMons)) {
         await renderMon(monName, providedMons, reader, rom, { // hopefully this is faster since we are no longer calling the function 4 times lol
             side: ["front", "back"],
@@ -53,6 +64,7 @@ export async function renderAllMons(rom, options = {}) {
         });
         console.log(`Done: ${monName}`);
     }
+*/
 }
 
 export async function renderAllIcons(rom, options = {}) {
