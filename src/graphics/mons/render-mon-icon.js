@@ -51,8 +51,8 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     pngFrame1.data = frame1;
     const pngFrame2 = new PNG({ width, height: frameHeight });
     pngFrame2.data = frame2;
-    const buffer1 = PNG.sync.write(pngFrame1);
-    const buffer2 = PNG.sync.write(pngFrame2);
+    const buffer1 = PNG.sync.write(pngFrame1, { filterType: 0 });
+    const buffer2 = PNG.sync.write(pngFrame2, { filterType: 0 });
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;

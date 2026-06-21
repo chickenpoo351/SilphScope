@@ -67,7 +67,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png);
+    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
 
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
@@ -81,7 +81,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
 
             const png = new PNG({ width: frame.width, height: frame.height });
             png.data = frameImageData;
-            const pngFrameBuffer = PNG.sync.write(png);
+            const pngFrameBuffer = PNG.sync.write(png, { filterType: 0 });
 
             const fileName = `${dir}/particle-${i}.png`;
             fs.writeFileSync(fileName, pngFrameBuffer);

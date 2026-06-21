@@ -62,7 +62,7 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png);
+    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
