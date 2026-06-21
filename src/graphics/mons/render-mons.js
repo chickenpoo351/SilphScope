@@ -62,6 +62,7 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
     const width = 64;
     const height = 64;
     if (outputDir) {
+        const dir = `${outputDir}/${monName}`; // why do I forget the simplest things...
         await fs.promises.mkdir(dir, { recursive: true }); // why was I using existsSync... eh well "fixed?" now I guess... also I moved this out of the loop as you can see so it only has to run... 440 times now... instead of 4x that number :p
     }
     for (const side of sides) {
