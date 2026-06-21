@@ -123,8 +123,8 @@ export async function renderAllTrainers(rom, options = {}) {
                 trainerBackPics,
                 outputDir
             });
+            console.log(`Done: ${trainerName}`);
         });
-        console.log(`Done: ${trainerName}`);
     } else {
         for (const trainerName of Object.keys(providedTrainers)) {
             await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
