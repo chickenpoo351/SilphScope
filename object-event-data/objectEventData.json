@@ -1,0 +1,475 @@
+{
+  "RedNormal": {
+    "index": 0,
+    "type": "humanNPC",
+    "imageSize": "144x32",
+    "imageWidth": 144,
+    "imageHeight": 32,
+    "frameCount": 9,
+    "frames": [
+        { "x": 0, "y": 0, "width": 16, "height": 32 },
+        { "x": 16, "y": 0, "width": 16, "height": 32 },
+        { "x": 32, "y": 0, "width": 16, "height": 32 },
+        { "x": 48, "y": 0, "width": 16, "height": 32 },
+        { "x": 64, "y": 0, "width": 16, "height": 32 },
+        { "x": 80, "y": 0, "width": 16, "height": 32 },
+        { "x": 96, "y": 0, "width": 16, "height": 32 },
+        { "x": 112, "y": 0, "width": 16, "height": 32 },
+        { "x": 128, "y": 0, "width": 16, "height": 32 }
+    ],
+    "note": "yup this again..."
+  },
+  "RedBike": {
+    "index": 1
+  },
+  "RedSurf": {
+    "index": 2
+  },
+  "RedFieldMove": {
+    "index": 3
+  },
+  "RedFish": {
+    "index": 4
+  },
+  "RedVSSeeker": {
+    "index": 5
+  },
+  "RedVSSeekerBike": {
+    "index": 6
+  },
+  "GreenNormal": {
+    "index": 7
+  },
+  "GreenBike": {
+    "index": 8
+  },
+  "GreenSurf": {
+    "index": 9
+  },
+  "GreenFieldMove": {
+    "index": 10
+  },
+  "GreenFish": {
+    "index": 11
+  },
+  "GreenVSSeeker": {
+    "index": 12
+  },
+  "GreenVSSeekerBike": {
+    "index": 13
+  },
+  "RSBrendan": {
+    "index": 14
+  },
+  "RSMay": {
+    "index": 15
+  },
+  "LittleBoy": {
+    "index": 16
+  },
+  "LittleGirl": {
+    "index": 17
+  },
+  "Youngster": {
+    "index": 18
+  },
+  "Boy": {
+    "index": 19
+  },
+  "BugCatcher": {
+    "index": 20
+  },
+  "SittingBoy": {
+    "index": 21
+  },
+  "Lass": {
+    "index": 22
+  },
+  "Woman1": {
+    "index": 23
+  },
+  "BattleGirl": {
+    "index": 24
+  },
+  "Man": {
+    "index": 25
+  },
+  "Rocker": {
+    "index": 26
+  },
+  "FatMan": {
+    "index": 27
+  },
+  "Woman2": {
+    "index": 28
+  },
+  "Beauty": {
+    "index": 29
+  },
+  "BaldingMan": {
+    "index": 30
+  },
+  "Woman3": {
+    "index": 31
+  },
+  "OldMan1": {
+    "index": 32
+  },
+  "OldMan2": {
+    "index": 33
+  },
+  "OldManLyingDown": {
+    "index": 34
+  },
+  "OldWoman": {
+    "index": 35
+  },
+  "TuberMWater": {
+    "index": 36
+  },
+  "TuberF": {
+    "index": 37
+  },
+  "TuberMLand": {
+    "index": 38
+  },
+  "Camper": {
+    "index": 39
+  },
+  "Picnicker": {
+    "index": 40
+  },
+  "CooltrainerM": {
+    "index": 41
+  },
+  "CooltrainerF": {
+    "index": 42
+  },
+  "SwimmerMWater": {
+    "index": 43
+  },
+  "SwimmerFWater": {
+    "index": 44
+  },
+  "SwimmerMLand": {
+    "index": 45
+  },
+  "SwimmerFLand": {
+    "index": 46
+  },
+  "WorkerM": {
+    "index": 47
+  },
+  "WorkerF": {
+    "index": 48
+  },
+  "RocketM": {
+    "index": 49
+  },
+  "RocketF": {
+    "index": 50
+  },
+  "GBAKid": {
+    "index": 51
+  },
+  "SuperNerd": {
+    "index": 52
+  },
+  "Biker": {
+    "index": 53
+  },
+  "Blackbelt": {
+    "index": 54
+  },
+  "Scientist": {
+    "index": 55
+  },
+  "Hiker": {
+    "index": 56
+  },
+  "Fisher": {
+    "index": 57
+  },
+  "Channeler": {
+    "index": 58
+  },
+  "Chef": {
+    "index": 59
+  },
+  "Policeman": {
+    "index": 60
+  },
+  "Gentleman": {
+    "index": 61
+  },
+  "Sailor": {
+    "index": 62
+  },
+  "Captain": {
+    "index": 63
+  },
+  "Nurse": {
+    "index": 64
+  },
+  "CableClubReceptionist": {
+    "index": 65
+  },
+  "UnionRoomReceptionist": {
+    "index": 66
+  },
+  "UnusedMaleReceptionist": {
+    "index": 67
+  },
+  "Clerk": {
+    "index": 68
+  },
+  "MGDeliveryman": {
+    "index": 69
+  },
+  "TrainerTowerDude": {
+    "index": 70
+  },
+  "ProfOak": {
+    "index": 71
+  },
+  "Blue": {
+    "index": 72
+  },
+  "Bill": {
+    "index": 73
+  },
+  "Lance": {
+    "index": 74
+  },
+  "Agatha": {
+    "index": 75
+  },
+  "Daisy": {
+    "index": 76
+  },
+  "Lorelei": {
+    "index": 77
+  },
+  "MrFuji": {
+    "index": 78
+  },
+  "Bruno": {
+    "index": 79
+  },
+  "Brock": {
+    "index": 80
+  },
+  "Misty": {
+    "index": 81
+  },
+  "LtSurge": {
+    "index": 82
+  },
+  "Erika": {
+    "index": 83
+  },
+  "Koga": {
+    "index": 84
+  },
+  "Sabrina": {
+    "index": 85
+  },
+  "Blaine": {
+    "index": 86
+  },
+  "Giovanni": {
+    "index": 87
+  },
+  "Mom": {
+    "index": 88
+  },
+  "Celio": {
+    "index": 89
+  },
+  "TeachyTVHost": {
+    "index": 90
+  },
+  "GymGuy": {
+    "index": 91
+  },
+  "ItemBall": {
+    "index": 92
+  },
+  "TownMap": {
+    "index": 93
+  },
+  "Pokedex": {
+    "index": 94
+  },
+  "CutTree": {
+    "index": 95
+  },
+  "RockSmashRock": {
+    "index": 96
+  },
+  "StrengthBoulder": {
+    "index": 97
+  },
+  "Fossil": {
+    "index": 98
+  },
+  "Ruby": {
+    "index": 99
+  },
+  "Sapphire": {
+    "index": 100
+  },
+  "OldAmber": {
+    "index": 101
+  },
+  "GymSign": {
+    "index": 102
+  },
+  "Sign": {
+    "index": 103
+  },
+  "TrainerTips": {
+    "index": 104
+  },
+  "Clipboard": {
+    "index": 105
+  },
+  "Meteorite": {
+    "index": 106
+  },
+  "LaprasDoll": {
+    "index": 107
+  },
+  "Seagallop": {
+    "index": 108
+  },
+  "Snorlax": {
+    "index": 109
+  },
+  "Spearow": {
+    "index": 110
+  },
+  "Cubone": {
+    "index": 111
+  },
+  "Poliwrath": {
+    "index": 112
+  },
+  "Clefairy": {
+    "index": 113
+  },
+  "Pidgeot": {
+    "index": 114
+  },
+  "Jigglypuff": {
+    "index": 115
+  },
+  "Pidgey": {
+    "index": 116
+  },
+  "Chansey": {
+    "index": 117
+  },
+  "Omanyte": {
+    "index": 118
+  },
+  "Kangaskhan": {
+    "index": 119
+  },
+  "Pikachu": {
+    "index": 120
+  },
+  "Psyduck": {
+    "index": 121
+  },
+  "NidoranF": {
+    "index": 122
+  },
+  "NidoranM": {
+    "index": 123
+  },
+  "Nidorino": {
+    "index": 124
+  },
+  "Meowth": {
+    "index": 125
+  },
+  "Seel": {
+    "index": 126
+  },
+  "Voltorb": {
+    "index": 127
+  },
+  "Slowpoke": {
+    "index": 128
+  },
+  "Slowbro": {
+    "index": 129
+  },
+  "Machop": {
+    "index": 130
+  },
+  "Wigglytuff": {
+    "index": 131
+  },
+  "Doduo": {
+    "index": 132
+  },
+  "Fearow": {
+    "index": 133
+  },
+  "Machoke": {
+    "index": 134
+  },
+  "Lapras": {
+    "index": 135
+  },
+  "Zapdos": {
+    "index": 136
+  },
+  "Moltres": {
+    "index": 137
+  },
+  "Articuno": {
+    "index": 138
+  },
+  "Mewtwo": {
+    "index": 139
+  },
+  "Mew": {
+    "index": 140
+  },
+  "Entei": {
+    "index": 141
+  },
+  "Suicune": {
+    "index": 142
+  },
+  "Raikou": {
+    "index": 143
+  },
+  "Lugia": {
+    "index": 144
+  },
+  "HoOh": {
+    "index": 145
+  },
+  "Celebi": {
+    "index": 146
+  },
+  "Kabuto": {
+    "index": 147
+  },
+  "DeoxysD": {
+    "index": 148
+  },
+  "DeoxysA": {
+    "index": 149
+  },
+  "DeoxysN": {
+    "index": 150
+  },
+  "SSAnne": {
+    "index": 151
+  }
+}

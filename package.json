@@ -26,7 +26,8 @@
     "!src/rom-map-parser.js",
     "!rom-maps/",
     "!graphics-maps/",
-    "ball-data/"
+    "ball-data/",
+    "!src/object-event-data-parser.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

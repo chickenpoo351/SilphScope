@@ -17,3 +17,5 @@ src/move-data-parser.js
 src/rom-map-parser.js
 rom-maps/
 graphics-maps/
+src/object-event-data-parser.js
+object_graphics/
