@@ -35,6 +35,7 @@ export async function renderAllMons(rom, options = {}) {
     const {
         mons: providedMons = mons,
         outputDir = "./out",
+        concurrency = 4,
         icon = true,
         footprint = true,
     } = options;
@@ -44,27 +45,29 @@ export async function renderAllMons(rom, options = {}) {
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
 
-    await mapLimit(Object.keys(providedMons), 4, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
-        await renderMon(monName, providedMons, reader, rom, {
-            variant: ["normal", "shiny"],
-            icon,
-            footprint,
-            outputDir,
+    if (concurrency > 1) {
+        await mapLimit(Object.keys(providedMons), 4, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
+            await renderMon(monName, providedMons, reader, rom, {
+                side: ["front", "back"],
+                variant: ["normal", "shiny"],
+                icon,
+                footprint,
+                outputDir,
+            });
+            console.log(`Done: ${monName}`);
         });
-        console.log(`Done: ${monName}`);
-    });
-/* just going to leave this here for now in case I decide to make it so that you can toggle between concurrent usage and I suppose synchronous would be the correct term for this down here...
-    for (const monName of Object.keys(providedMons)) {
-        await renderMon(monName, providedMons, reader, rom, { // hopefully this is faster since we are no longer calling the function 4 times lol
-            side: ["front", "back"],
-            variant: ["normal", "shiny"],
-            icon,
-            footprint,
-            outputDir,
-        });
-        console.log(`Done: ${monName}`);
+    } else {
+        for (const monName of Object.keys(providedMons)) {
+            await renderMon(monName, providedMons, reader, rom, { // hopefully this is faster since we are no longer calling the function 4 times lol
+                side: ["front", "back"],
+                variant: ["normal", "shiny"],
+                icon,
+                footprint,
+                outputDir,
+            });
+            console.log(`Done: ${monName}`);
+        }
     }
-*/
 }
 
 export async function renderAllIcons(rom, options = {}) {
@@ -92,7 +95,7 @@ export async function renderAllTrainers(rom, options = {}) {
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllTrainers(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
-    
+
     const {
         trainers: providedTrainers = trainers,
         trainersBack: providedBackTrainers = trainersBack,
@@ -107,8 +110,8 @@ export async function renderAllTrainers(rom, options = {}) {
 
     for (const trainerName of Object.keys(providedTrainers)) {
         await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
-            trainerBackPics, 
-            outputDir 
+            trainerBackPics,
+            outputDir
         });
         console.log(`Done: ${trainerName}`);
     }
@@ -128,7 +131,7 @@ export async function renderAllMoves(rom, options = {}) {
     const reader = new RomReader(rom, config);
 
     for (const moveName of Object.keys(providedMoves)) {
-        await renderMove(moveName, providedMoves, reader, rom, { 
+        await renderMove(moveName, providedMoves, reader, rom, {
             outputDir,
             renderMasterImage,
             sortUnused,
@@ -137,7 +140,7 @@ export async function renderAllMoves(rom, options = {}) {
     }
 }
 
-export async function renderAllBalls(rom, options= {}) {
+export async function renderAllBalls(rom, options = {}) {
     const {
         balls: providedBalls = balls,
         outputDir = "./out",
@@ -152,9 +155,9 @@ export async function renderAllBalls(rom, options= {}) {
     const reader = new RomReader(rom, config);
 
     for (const ballName of Object.keys(providedBalls)) {
-        await renderBall(ballName, providedBalls, reader, rom, { 
+        await renderBall(ballName, providedBalls, reader, rom, {
             outputDir,
-            ballParticles, 
+            ballParticles,
             renderMasterBallImage,
             renderMasterBallParticleImage,
         });
@@ -168,6 +171,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     }
 
     const {
+        concurrency = 4,
         outputMonDir = "./out/mons",
         outputIconDir = "./out/icons",
         outputTrainerDir = "./out/trainers",
@@ -177,11 +181,12 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     } = options;
 
     await renderAllMons(rom, {
+        concurrency,
         outputDir: outputMonDir,
         icon: true,
         footprint: true,
     });
-    
+
     await renderAllIcons(rom, {
         outputDir: outputIconDir,
     });
