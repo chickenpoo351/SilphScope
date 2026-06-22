@@ -16,7 +16,11 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 });
 
 export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
-    const { outputDir = null } = options;
+    const { 
+        pngFilterType = null,
+        pngCompressionLevel = null,
+        outputDir = null 
+    } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderMonIcon(..., rom) requires a ROM Buffer/Uint8Array");
@@ -51,8 +55,14 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     pngFrame1.data = frame1;
     const pngFrame2 = new PNG({ width, height: frameHeight });
     pngFrame2.data = frame2;
-    const buffer1 = PNG.sync.write(pngFrame1, { filterType: 0 });
-    const buffer2 = PNG.sync.write(pngFrame2, { filterType: 0 });
+    const buffer1 = PNG.sync.write(pngFrame1, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionLevel, 
+    });
+    const buffer2 = PNG.sync.write(pngFrame2, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionLevel, 
+    });
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;

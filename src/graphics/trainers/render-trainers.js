@@ -19,6 +19,8 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 export async function renderTrainer(trainerName, trainers, backTrainers, reader, rom, options = {}) {
     const {
         trainerBackPics = false,
+        pngFilterType = null,
+        pngCompressionLevel = null,
         outputDir = null,
     } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -34,11 +36,23 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
             ? trainerName
             : false;
         if (backTrainerName) {
-            await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, { outputDir }); // that could have been bad lol I forgot to add await :p
+            await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, {
+                pngFilterType,
+                pngCompressionLevel,
+                outputDir,
+            }); // that could have been bad lol I forgot to add await :p
         }
         else if (backTrainerName === false && trainerName === "PAINTER") {
-            await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { outputDir });
-            await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { outputDir });
+            await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { 
+                pngFilterType,
+                pngCompressionLevel,
+                outputDir,
+            });
+            await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { 
+                pngFilterType,
+                pngCompressionLevel,
+                outputDir,
+            });
         }
     }
     const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
@@ -62,7 +76,10 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+    const pngBuffer = PNG.sync.write(png, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionLevel, 
+    });
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;

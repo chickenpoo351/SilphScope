@@ -23,6 +23,8 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         variant = "normal",
         icon = false,
         footprint = false,
+        pngFilterType = null,
+        pngCompressionLevel = null,
         outputDir = null,
     } = options;
 
@@ -34,10 +36,18 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
     const variants = Array.isArray(variant) ? variant : [variant];
 
     if (icon === true) {
-        await renderMonIcon(monName, mons, reader, rom, { outputDir });
+        await renderMonIcon(monName, mons, reader, rom, { 
+            pngFilterType,
+            pngCompressionLevel,
+            outputDir,
+        });
     }
     if (footprint === true) {
-        await renderMonFoot(monName, mons, reader, rom, { outputDir });
+        await renderMonFoot(monName, mons, reader, rom, { 
+            pngFilterType,
+            pngCompressionLevel,
+            outputDir, 
+        });
     }
 
     const mon = mons[monName];
@@ -76,7 +86,10 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
 
             const png = new PNG({ width, height });
             png.data = image;
-            const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+            const pngBuffer = PNG.sync.write(png, { 
+                filterType: pngFilterType,
+                deflateLevel: pngCompressionLevel, 
+            });
 
             if (outputDir) {
                 const dir = `${outputDir}/${monName}`;

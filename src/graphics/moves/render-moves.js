@@ -37,6 +37,8 @@ const extractFrameFromImage = (imageData, fullWidth, frameData) => { // in theor
 
 export async function renderMove(moveName, moves, reader, rom, options = {}) {
     const {
+        pngFilterType = null,
+        pngCompressionLevel = null,
         outputDir = null,
         renderMasterImage = false,
         sortUnused = false,
@@ -70,7 +72,10 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+    const pngBuffer = PNG.sync.write(png, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionLevel, 
+    });
 
     if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
         const rootDir = (sortUnused && move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
@@ -79,7 +84,10 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         if (renderMasterImage) {
             const png = new PNG({ width, height });
             png.data = image;
-            const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+            const pngBuffer = PNG.sync.write(png, { 
+                filterType: pngFilterType,
+                deflateLevel: pngCompressionLevel,
+            });
             await fs.promises.writeFile(`${dir}/master.png`, pngBuffer);
         }
         for (let i = 0; i < move.frames.length; i++) {
@@ -88,7 +96,10 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
 
             const png = new PNG({ width: frame.width, height: frame.height });
             png.data = frameImageData;
-            const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+            const pngBuffer = PNG.sync.write(png, { 
+                filterType: pngFilterType,
+                deflateLevel: pngCompressionLevel, 
+            });
 
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngBuffer);

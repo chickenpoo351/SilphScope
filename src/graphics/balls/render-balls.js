@@ -36,6 +36,8 @@ const extractFrameFromImage = (imageData, fullWidth, frameData) => {
 
 export async function renderBall(ballName, balls, reader, rom, options = {}) {
     const {
+        pngFilterType = null,
+        pngCompressionLevel = null,
         outputDir = null,
         ballParticles = false,
         renderMasterBallImage = false,
@@ -51,6 +53,8 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
     }
     if (ballParticles) {
         renderBallParticle(ballName, balls, reader, rom, {
+            pngFilterType,
+            pngCompressionLevel,
             outputDir,
             renderMasterBallParticleImage, 
         });
@@ -75,7 +79,10 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+    const pngBuffer = PNG.sync.write(png, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionLevel, 
+    });
 
     if (outputDir) {
         const dir = `${outputDir}/${ballName}`;
@@ -89,7 +96,10 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
             const png = new PNG({ width: frame.width, height: frame.height });
             png.data = frameImageData;
-            const pngFrameBuffer = PNG.sync.write(png, { filterType: 0 });
+            const pngFrameBuffer = PNG.sync.write(png, { 
+                filterType: pngFilterType,
+                deflateLevel: pngCompressionLevel, 
+            });
 
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngFrameBuffer);

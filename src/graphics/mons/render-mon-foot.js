@@ -15,7 +15,11 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 });
 
 export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
-    const { outputDir = null } = options;
+    const { 
+        pngFilterType = null,
+        pngCompressionType = null,
+        outputDir = null,
+    } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderMonFoot(..., rom) requires a ROM Buffer/Uint8Array");
@@ -70,7 +74,10 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { filterType: 0 });
+    const pngBuffer = PNG.sync.write(png, { 
+        filterType: pngFilterType,
+        deflateLevel: pngCompressionType,
+    });
 
     if (outputDir) {
         const dir = `${outputDir}/${monName}`;
