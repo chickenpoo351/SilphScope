@@ -58,7 +58,7 @@ export async function renderAllMons(rom, options = {}) {
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllMons(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new TypeError(`renderAllMons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
@@ -115,7 +115,7 @@ export async function renderAllIcons(rom, options = {}) {
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllIcons(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new TypeError(`renderAllIcons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
@@ -166,7 +166,7 @@ export async function renderAllTrainers(rom, options = {}) {
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllTrainers(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new TypeError(`renderAllTrainers(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
@@ -219,7 +219,7 @@ export async function renderAllMoves(rom, options = {}) {
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllMoves(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new TypeError(`renderAllMoves(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
@@ -275,7 +275,7 @@ export async function renderAllBalls(rom, options = {}) {
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllBalls(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new TypeError(`renderAllBalls(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
@@ -334,7 +334,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     if (!Number.isInteger(concurrency) || concurrency < 1) {
         throw new TypeError(`renderAllGraphics(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
     }
-    if (isValidFilterType(pngFilterType)) {
+    if (!isValidFilterType(pngFilterType)) {
         throw new Error(`renderAllGraphics(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
     }
     if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
