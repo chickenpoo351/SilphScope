@@ -41,6 +41,7 @@ function isValidFilterType(filterTypeValue) {
 }
 
 export async function renderAllMons(rom, options = {}) {
+    const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllMons(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
@@ -51,6 +52,9 @@ export async function renderAllMons(rom, options = {}) {
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         icon = true,
         footprint = true,
     } = options;
@@ -69,34 +73,65 @@ export async function renderAllMons(rom, options = {}) {
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
 
     if (concurrency > 1) {
         await mapLimit(Object.keys(providedMons), concurrency, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
-            await renderMon(monName, providedMons, reader, rom, {
+            const renderMonData = await renderMon(monName, providedMons, reader, rom, {
                 side: ["front", "back"],
                 variant: ["normal", "shiny"],
                 icon,
                 footprint,
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
-            console.log(`Done: ${monName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${monName}`);
+            }
+            totalFileCount += renderMonData.fullFileCount;
+            if (returnFileBuffer) {
+                finalResults.push(...renderMonData.results);
+            }
         });
     } else {
         for (const monName of Object.keys(providedMons)) {
-            await renderMon(monName, providedMons, reader, rom, {
+            const renderMonData = await renderMon(monName, providedMons, reader, rom, {
                 side: ["front", "back"],
                 variant: ["normal", "shiny"],
                 icon,
                 footprint,
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
-            console.log(`Done: ${monName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${monName}`);
+            }
+            totalFileCount += renderMonData.fullFileCount;
+            if (returnFileBuffer) {
+                finalResults.push(...renderMonData.results);
+            }
         }
     }
+
+    const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+
+    if (showSummary) {
+        console.log(`
+            renderAllMons() Output Summary:
+            Rendered ${Object.keys(providedMons).length} Mons amounting to:
+            ${totalFileCount} Files written
+            Done in ${elapsed}s with SilphScope`);
+    }
+
+    return {
+        totalFileCount,
+        ...(returnFileBuffer && { finalResults }),
+    };
 }
 
 export async function renderAllIcons(rom, options = {}) {
@@ -109,6 +144,7 @@ export async function renderAllIcons(rom, options = {}) {
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
         outputDir = "./out",
     } = options;
 
@@ -134,7 +170,9 @@ export async function renderAllIcons(rom, options = {}) {
                 pngCompressionLevel,
                 outputDir,
             });
-            console.log(`Done: ${itemName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${itemName}`);
+            }
         });
     } else {
         for (const itemName of Object.keys(providedIcons)) {
@@ -143,7 +181,9 @@ export async function renderAllIcons(rom, options = {}) {
                 pngCompressionLevel,
                 outputDir,
             });
-            console.log(`Done: ${itemName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${itemName}`);
+            }
         }
     }
 }
@@ -160,6 +200,7 @@ export async function renderAllTrainers(rom, options = {}) {
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
         outputDir = "./out",
     } = options;
 
@@ -186,7 +227,9 @@ export async function renderAllTrainers(rom, options = {}) {
                 pngCompressionLevel,
                 outputDir
             });
-            console.log(`Done: ${trainerName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${trainerName}`);
+            }
         });
     } else {
         for (const trainerName of Object.keys(providedTrainers)) {
@@ -196,7 +239,9 @@ export async function renderAllTrainers(rom, options = {}) {
                 pngCompressionLevel,
                 outputDir
             });
-            console.log(`Done: ${trainerName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${trainerName}`);
+            }
         }
     }
 }
@@ -211,6 +256,7 @@ export async function renderAllMoves(rom, options = {}) {
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
         outputDir = "./out",
         renderMasterImage = true,
         sortUnused = true,
@@ -240,7 +286,9 @@ export async function renderAllMoves(rom, options = {}) {
                 renderMasterImage,
                 sortUnused,
             });
-            console.log(`Done: ${moveName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${moveName}`);
+            }
         });
     } else {
         for (const moveName of Object.keys(providedMoves)) {
@@ -251,7 +299,9 @@ export async function renderAllMoves(rom, options = {}) {
                 renderMasterImage,
                 sortUnused,
             });
-            console.log(`Done: ${moveName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${moveName}`);
+            }
         }
     }
 }
@@ -266,6 +316,7 @@ export async function renderAllBalls(rom, options = {}) {
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
         outputDir = "./out",
         ballParticles = true,
         renderMasterBallImage = true,
@@ -297,7 +348,9 @@ export async function renderAllBalls(rom, options = {}) {
                 renderMasterBallImage,
                 renderMasterBallParticleImage,
             });
-            console.log(`Done: ${ballName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${ballName}`);
+            }
         })
     } else {
         for (const ballName of Object.keys(providedBalls)) {
@@ -309,7 +362,9 @@ export async function renderAllBalls(rom, options = {}) {
                 renderMasterBallImage,
                 renderMasterBallParticleImage,
             });
-            console.log(`Done: ${ballName}`);
+            if (verboseLogs) {
+                console.log(`Done: ${ballName}`);
+            }
         }
     }
 }
@@ -323,6 +378,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency = 4,
         pngFilterType = 0,
         pngCompressionLevel = 4,
+        verboseLogs = true,
         outputMonDir = "./out/mons",
         outputIconDir = "./out/icons",
         outputTrainerDir = "./out/trainers",
@@ -345,6 +401,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency,
         pngFilterType,
         pngCompressionLevel,
+        verboseLogs,
         outputDir: outputMonDir,
         icon: true,
         footprint: true,
@@ -354,6 +411,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency,
         pngFilterType,
         pngCompressionLevel,
+        verboseLogs,
         outputDir: outputIconDir,
     });
 
@@ -361,6 +419,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency,
         pngFilterType,
         pngCompressionLevel,
+        verboseLogs,
         outputDir: outputTrainerDir,
         trainerBackPics: true,
     });
@@ -369,6 +428,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency,
         pngFilterType,
         pngCompressionLevel,
+        verboseLogs,
         outputDir: outputMoveDir,
         renderMasterImage: true,
         sortUnused: sortUnusedMoves,
@@ -378,6 +438,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         concurrency,
         pngFilterType,
         pngCompressionLevel,
+        verboseLogs,
         outputDir: outputBallDir,
         ballParticles: true,
         renderMasterBallImage: true,

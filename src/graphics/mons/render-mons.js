@@ -25,6 +25,7 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         footprint = false,
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null,
     } = options;
 
@@ -32,22 +33,35 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         throw new TypeError("renderMon(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fullFileCount = 0;
     const sides = Array.isArray(side) ? side : [side];
     const variants = Array.isArray(variant) ? variant : [variant];
+    const results = returnFileBuffer? [] : null;
 
     if (icon === true) {
-        await renderMonIcon(monName, mons, reader, rom, { 
+        const monIconData = await renderMonIcon(monName, mons, reader, rom, {
             pngFilterType,
             pngCompressionLevel,
+            returnFileBuffer,
             outputDir,
         });
+        fullFileCount += monIconData.fileCount;
+        if (returnFileBuffer) {
+            results.push(monIconData.frame1);
+            results.push(monIconData.frame2);
+        }
     }
     if (footprint === true) {
-        await renderMonFoot(monName, mons, reader, rom, { 
+        const monFootData = await renderMonFoot(monName, mons, reader, rom, {
             pngFilterType,
             pngCompressionLevel,
-            outputDir, 
+            returnFileBuffer,
+            outputDir,
         });
+        fullFileCount += monFootData.fileCount;
+        if (returnFileBuffer) {
+            results.push(monFootData.pngBuffer);
+        }
     }
 
     const mon = mons[monName];
@@ -68,7 +82,6 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         palCache[variant] = extract(monPal, rom).data;
     }
 
-    const results = [];
     const width = 64;
     const height = 64;
     if (outputDir) {
@@ -78,17 +91,17 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
     for (const side of sides) {
         for (const variant of variants) {
             const image = render4bppImage({
-                tileData: picCache[side], 
-                paletteData: palCache[variant], 
-                width, 
-                height, 
+                tileData: picCache[side],
+                paletteData: palCache[variant],
+                width,
+                height,
             });
 
             const png = new PNG({ width, height });
             png.data = image;
-            const pngBuffer = PNG.sync.write(png, { 
+            const pngBuffer = PNG.sync.write(png, {
                 filterType: pngFilterType,
-                deflateLevel: pngCompressionLevel, 
+                deflateLevel: pngCompressionLevel,
             });
 
             if (outputDir) {
@@ -97,9 +110,15 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
                 await fs.promises.writeFile(fileName, pngBuffer);
             }
 
-            results.push(pngBuffer);
+            if (returnFileBuffer) {
+                results.push(pngBuffer);
+            }
+            fullFileCount += 1;
         }
     }
 
-    return results;
+    return { 
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
+    }
 }

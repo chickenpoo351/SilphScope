@@ -16,16 +16,18 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 });
 
 export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
-    const { 
+    const {
         pngFilterType = null,
         pngCompressionLevel = null,
-        outputDir = null 
+        returnFileBuffer = false,
+        outputDir = null
     } = options;
 
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderMonIcon(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fileCount = 0;
     const mon = mons[monName];
     if (!mon) {
         throw new Error(`Missing mon entry for ${monName}`);
@@ -41,10 +43,10 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     const height = 64;
 
     const image = render4bppImage({
-        tileData: iconData.data, 
-        paletteData: rawIconPalData.data, 
-        width, 
-        height, 
+        tileData: iconData.data,
+        paletteData: rawIconPalData.data,
+        width,
+        height,
     });
 
     const frameHeight = 32;
@@ -55,13 +57,13 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     pngFrame1.data = frame1;
     const pngFrame2 = new PNG({ width, height: frameHeight });
     pngFrame2.data = frame2;
-    const buffer1 = PNG.sync.write(pngFrame1, { 
+    const buffer1 = PNG.sync.write(pngFrame1, {
         filterType: pngFilterType,
-        deflateLevel: pngCompressionLevel, 
+        deflateLevel: pngCompressionLevel,
     });
-    const buffer2 = PNG.sync.write(pngFrame2, { 
+    const buffer2 = PNG.sync.write(pngFrame2, {
         filterType: pngFilterType,
-        deflateLevel: pngCompressionLevel, 
+        deflateLevel: pngCompressionLevel,
     });
 
     if (outputDir) {
@@ -69,10 +71,12 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
         await fs.promises.mkdir(dir, { recursive: true });
         await fs.promises.writeFile(`${dir}/icon_frame1.png`, buffer1);
         await fs.promises.writeFile(`${dir}/icon_frame2.png`, buffer2);
+        fileCount += 2;
     }
 
     return {
-        frame1: buffer1,
-        frame2: buffer2,
+        ...(returnFileBuffer && { frame1: buffer1 }),
+        ...(returnFileBuffer && { frame2: buffer2 }),
+        fileCount,
     };
 }
