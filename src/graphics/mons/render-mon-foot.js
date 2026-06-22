@@ -17,7 +17,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
     const { 
         pngFilterType = null,
-        pngCompressionType = null,
+        pngCompressionLevel = null,
         returnFileBuffer,
         outputDir = null,
     } = options;
@@ -32,7 +32,11 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
         throw new Error(`Missing mon entry for ${monName}`);
     }
 
-    if (monName.includes("UNOWN")) return;
+    if (monName.includes("UNOWN")) {
+        return {
+            fileCount: 0,
+        }
+    }
 
     const footAsset = resolveMonFootprint(mon, reader, monName); // possibly the easiest change ive had to do if it works first try :o
     if (!footAsset) {
@@ -78,7 +82,7 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
     png.data = image;
     const pngBuffer = PNG.sync.write(png, { 
         filterType: pngFilterType,
-        deflateLevel: pngCompressionType,
+        deflateLevel: pngCompressionLevel,
     });
 
     if (outputDir) {
