@@ -3,6 +3,7 @@
   "version": "1.4.15",
   "description": "A firered/leafgreen ROM asset extractor for use in web applications",
   "main": "main.js",
+  "types": "silphscope.d.ts",
   "exports": {
     ".": "./main.js"
   },
