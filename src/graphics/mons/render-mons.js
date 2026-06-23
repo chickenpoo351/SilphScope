@@ -108,12 +108,12 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
                 const dir = `${outputDir}/${monName}`;
                 const fileName = `${dir}/${side}${variant === "shiny" ? "_shiny" : ""}.png`;
                 await fs.promises.writeFile(fileName, pngBuffer);
+                fullFileCount += 1;
             }
 
             if (returnFileBuffer) {
                 results.push(pngBuffer);
             }
-            fullFileCount += 1;
         }
     }
 
