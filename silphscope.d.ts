@@ -11,12 +11,12 @@ export interface RenderAllMonsOptions {
     /**
      * Directory to write extracted assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out"
      */
-    outputDir?: string;
+    outputDir?: string | null;
     
     /**
      * Number of concurrent render operations.
@@ -155,12 +155,12 @@ export interface RenderAllIconsOptions {
     /**
      * Directory to write extracted assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out"
      */
-    outputDir?: string;
+    outputDir?: string | null;
 
     /**
      * Number of concurrent render operations.
@@ -277,12 +277,12 @@ export interface RenderAllTrainersOptions {
     /**
      * Directory to write extracted assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out"
      */
-    outputDir?: string;
+    outputDir?: string | null;
 
     /**
      * Number of concurrent render operations.
@@ -406,12 +406,12 @@ export interface RenderAllMovesOptions {
     /**
      * Directory to write extracted assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out"
      */
-    outputDir?: string;
+    outputDir?: string | null;
 
     /**
      * Number of concurrent render operations.
@@ -505,12 +505,12 @@ export interface RenderAllMovesOptions {
     renderMasterImage?: boolean;
 
     /**
-     * Sorts all unused moves into a sub directory.
+   (set to `null`)   * Sorts all unused moves into a sub directory.
      * 
      * Example:
      * 
      * If your outputDir was 
-     * 
+    | null  * 
      * `out/Moves`
      * 
      * Then this would store the unused moves in
@@ -554,12 +554,12 @@ export interface RenderAllBallsOptions {
     /**
      * Directory to write extracted assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out"
      */
-    outputDir?: string;
+    outputDir?: string | null;
 
     /**
      * Number of concurrent render operations.
@@ -784,42 +784,42 @@ export interface RenderAllGraphicsOptions {
     /**
      * Directory to write extracted mon assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out/mons"
      */
-    outputMonDir?: string;
+    outputMonDir?: string | null;
 
     /**
      * Directory to write extracted icon assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out/icons"
      */
-    outputIconDir?: string;
+    outputIconDir?: string | null;
 
     /**
      * Directory to write extracted trainer assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out/trainers"
      */
-    outputTrainerDir?: string;
+    outputTrainerDir?: string | null;
 
     /**
      * Directory to write extracted move assets to.
      *
-     * If omitted and `returnFileBuffer` is enabled, files can be
+     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
      * consumed directly from memory without being written to disk.
      *
      * @default "./out/moves"
      */
-    outputMoveDir?: string;
+    outputMoveDir?: string | null;
 
     /**
      * Sorts all unused moves into a sub directory.
