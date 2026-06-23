@@ -69,7 +69,9 @@ export async function renderAllMons(rom, options = {}) {
         throw new TypeError(`renderAllMons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
     }
 
-    fs.mkdirSync(outputDir, { recursive: true });
+    if (outputDir) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
@@ -161,7 +163,9 @@ export async function renderAllIcons(rom, options = {}) {
         throw new TypeError(`renderAllIcons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
     }
 
-    fs.mkdirSync(outputDir, { recursive: true });
+    if (outputDir) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
@@ -247,7 +251,9 @@ export async function renderAllTrainers(rom, options = {}) {
         throw new TypeError(`renderAllTrainers(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
     }
 
-    fs.mkdirSync(outputDir, { recursive: true });
+    if (outputDir) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
@@ -335,7 +341,9 @@ export async function renderAllMoves(rom, options = {}) {
         throw new TypeError(`renderAllMoves(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
     }
 
-    fs.mkdirSync(outputDir, { recursive: true });
+    if (outputDir) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
@@ -426,7 +434,9 @@ export async function renderAllBalls(rom, options = {}) {
         throw new TypeError(`renderAllBalls(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
     }
 
-    fs.mkdirSync(outputDir, { recursive: true });
+    if (outputDir) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
