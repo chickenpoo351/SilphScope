@@ -37,6 +37,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
     const {
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null,
         renderMasterBallParticleImage = false,
     } = options;
@@ -44,6 +45,8 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
         throw new TypeError("renderBallParticle(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const ball = balls[ballName];
     if (!ball) {
         throw new Error(`Missing Ball: ${ballName}`);
@@ -79,6 +82,10 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
         if (renderMasterBallParticleImage) {
             fs.writeFileSync(`${dir}/master-particle.png`, pngBuffer);
+            fileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngBuffer);
+            }
         }
         for (let i = 0; i < ball.particleFrames.length; i++) {
             const frame = ball.particleFrames[i];
@@ -93,8 +100,15 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
 
             const fileName = `${dir}/particle-${i}.png`;
             fs.writeFileSync(fileName, pngFrameBuffer);
+            fileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngFrameBuffer);
+            }
         }
     }
 
-    return pngBuffer;
+    return {
+        ...(returnFileBuffer && { results }),
+        fileCount,
+    };
 }

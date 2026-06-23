@@ -38,6 +38,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
     const {
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null,
         ballParticles = false,
         renderMasterBallImage = false,
@@ -47,17 +48,24 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
         throw new TypeError("renderBall(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fullFileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const ball = balls[ballName];
     if (!ball) {
         throw new Error(`Missing Ball: ${ballName}`);
     }
     if (ballParticles) {
-        renderBallParticle(ballName, balls, reader, rom, {
+        const renderBallParticleData = await renderBallParticle(ballName, balls, reader, rom, {
             pngFilterType,
             pngCompressionLevel,
+            returnFileBuffer,
             outputDir,
             renderMasterBallParticleImage, 
         });
+        fullFileCount += renderBallParticleData.fileCount;
+        if (returnFileBuffer) {
+            results.push(...renderBallParticleData.results);
+        }
     }
     const ballPal = resolveBallSpritePal(ball, reader, ballName);
     const ballPic = resolveBallSpritePic(ball, reader, ballName);
@@ -89,6 +97,10 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
         await fs.promises.mkdir(dir, { recursive: true });
         if (renderMasterBallImage) {
             await fs.promises.writeFile(`${dir}/master-image.png`, pngBuffer)
+            fullFileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngBuffer);
+            }
         }
         for (let i = 0; i < ball.frames.length; i++) {
             const frame = ball.frames[i];
@@ -103,8 +115,15 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
 
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngFrameBuffer);
+            fullFileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngFrameBuffer);
+            }
         }
     }
 
-    return pngBuffer;
+    return {
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
+    };
 }

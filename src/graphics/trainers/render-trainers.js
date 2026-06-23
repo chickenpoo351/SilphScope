@@ -21,12 +21,15 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
         trainerBackPics = false,
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null,
     } = options;
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderTrainer(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fullFileCount = 0;
+    let results = returnFileBuffer? [] : null;
     const trainer = trainers[trainerName];
     if (!trainer) {
         throw new Error(`Missing Trainer: ${trainerName}`);
@@ -36,23 +39,50 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
             ? trainerName
             : false;
         if (backTrainerName) {
-            await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, {
+            const trainerBackPicData = await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
-            }); // that could have been bad lol I forgot to add await :p
+            });
+            fullFileCount += trainerBackPicData.fileCount;
+            if (returnFileBuffer) {
+                results.push(trainerBackPicData.frame1);
+                results.push(trainerBackPicData.frame2);
+                results.push(trainerBackPicData.frame3);
+                results.push(trainerBackPicData.frame4);
+                if (trainerBackPicData?.frame5) {
+                    results.push(trainerBackPicData.frame5);
+                }
+            }
         }
         else if (backTrainerName === false && trainerName === "PAINTER") {
-            await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { 
+            const trainerBackPicData = await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { 
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
-            await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { 
+            fullFileCount += trainerBackPicData.fileCount;
+            if (returnFileBuffer) {
+                results.push(trainerBackPicData.frame1);
+                results.push(trainerBackPicData.frame2);
+                results.push(trainerBackPicData.frame3);
+                results.push(trainerBackPicData.frame4);
+            }
+            const trainerBackPicData2 = await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { 
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
+            fullFileCount += trainerBackPicData2.fileCount;
+            if (returnFileBuffer) {
+                results.push(trainerBackPicData.frame1);
+                results.push(trainerBackPicData.frame2);
+                results.push(trainerBackPicData.frame3);
+                results.push(trainerBackPicData.frame4);
+            }
         }
     }
     const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
@@ -81,12 +111,20 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
         deflateLevel: pngCompressionLevel, 
     });
 
+    if (returnFileBuffer) {
+        results.push(pngBuffer);
+    }
+
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
         await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/trainer_front.png`;
         await fs.promises.writeFile(fileName, pngBuffer);
+        fullFileCount += 1;
     }
 
-    return pngBuffer;
+    return {
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
+    };
 }

@@ -39,6 +39,7 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
     const {
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null,
         renderMasterImage = false,
         sortUnused = false,
@@ -47,6 +48,8 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         throw new TypeError("renderMove(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fullFileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const move = moves[moveName];
     if (!move) {
         throw new Error(`Missing move: ${moveName}`)
@@ -89,6 +92,10 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
                 deflateLevel: pngCompressionLevel,
             });
             await fs.promises.writeFile(`${dir}/master.png`, pngBuffer);
+            fullFileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngBuffer);
+            }
         }
         for (let i = 0; i < move.frames.length; i++) {
             const frame = move.frames[i];
@@ -103,8 +110,15 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
 
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngBuffer);
+            fullFileCount += 1;
+            if (returnFileBuffer) {
+                results.push(pngBuffer);
+            }
         }
     }
 
-    return pngBuffer;
+    return {
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
+    };
 }

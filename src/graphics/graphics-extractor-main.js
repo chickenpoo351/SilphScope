@@ -92,7 +92,7 @@ export async function renderAllMons(rom, options = {}) {
                 console.log(`Done: ${monName}`);
             }
             totalFileCount += renderMonData.fullFileCount;
-            if (returnFileBuffer) {
+            if (returnFileBuffer && renderMonData?.results) {
                 finalResults.push(...renderMonData.results);
             }
         });
@@ -122,10 +122,10 @@ export async function renderAllMons(rom, options = {}) {
 
     if (showSummary) {
         console.log(`
-            renderAllMons() Output Summary:
-            Rendered ${Object.keys(providedMons).length} Mons amounting to:
-            ${totalFileCount} Files written
-            Done in ${elapsed}s with SilphScope`);
+renderAllMons() Output Summary:
+Rendered ${Object.keys(providedMons).length} Mons amounting to:
+${totalFileCount} Files written
+Done in ${elapsed}s with SilphScope`);
     }
 
     return {
@@ -135,6 +135,7 @@ export async function renderAllMons(rom, options = {}) {
 }
 
 export async function renderAllIcons(rom, options = {}) {
+    const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllIcons(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
@@ -145,6 +146,8 @@ export async function renderAllIcons(rom, options = {}) {
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         outputDir = "./out",
     } = options;
 
@@ -162,33 +165,61 @@ export async function renderAllIcons(rom, options = {}) {
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
 
     if (concurrency > 1) {
         await mapLimit(Object.keys(providedIcons), concurrency, async (itemName) => {
-            await renderIcon(itemName, providedIcons, reader, rom, { 
+            const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, { 
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
             if (verboseLogs) {
                 console.log(`Done: ${itemName}`);
+            }
+            totalFileCount += renderIconData.fullFileCount;
+            if (returnFileBuffer && renderIconData?.pngBuffer) {
+                finalResults.push(renderIconData.pngBuffer);
             }
         });
     } else {
         for (const itemName of Object.keys(providedIcons)) {
-            await renderIcon(itemName, providedIcons, reader, rom, { 
+            const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, { 
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
             });
             if (verboseLogs) {
                 console.log(`Done: ${itemName}`);
             }
+            totalFileCount += renderIconData.fullFileCount;
+            if (returnFileBuffer && renderIconData?.pngBuffer) {
+                finalResults.push(renderIconData.pngBuffer);
+            }
         }
     }
+
+    const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+
+    if (showSummary) {
+        console.log(`
+renderAllIcons() Output Summary:
+Rendered ${Object.keys(providedIcons).length} Icons amounting to:
+${totalFileCount} Files written
+Done in ${elapsed}s with SilphScope`);
+    }
+
+    return {
+        totalFileCount,
+        ...(returnFileBuffer && { finalResults }),
+    };
 }
 
 export async function renderAllTrainers(rom, options = {}) {
+    const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllTrainers(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
@@ -201,6 +232,8 @@ export async function renderAllTrainers(rom, options = {}) {
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         outputDir = "./out",
     } = options;
 
@@ -218,35 +251,63 @@ export async function renderAllTrainers(rom, options = {}) {
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
 
     if (concurrency > 1) {
         await mapLimit(Object.keys(providedTrainers), concurrency, async (trainerName) => {
-            await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
+            const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
                 trainerBackPics,
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir
             });
             if (verboseLogs) {
                 console.log(`Done: ${trainerName}`);
+            }
+            totalFileCount += renderTrainerData.fullFileCount;
+            if (returnFileBuffer && renderTrainerData?.results) {
+                finalResults.push(...renderTrainerData.results);
             }
         });
     } else {
         for (const trainerName of Object.keys(providedTrainers)) {
-            await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
+            const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
                 trainerBackPics,
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir
             });
             if (verboseLogs) {
                 console.log(`Done: ${trainerName}`);
             }
+            totalFileCount += renderTrainerData.fullFileCount;
+            if (returnFileBuffer && renderTrainerData?.results) {
+                finalResults.push(...renderTrainerData.results);
+            }
         }
     }
+
+    const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+
+    if (showSummary) {
+        console.log(`
+renderAllTrainers() Output Summary:
+Rendered ${Object.keys(providedTrainers).length} Trainers amounting to:
+${totalFileCount} Files written
+Done in ${elapsed}s with SilphScope`);
+    }
+
+    return {
+        ...(returnFileBuffer && { finalResults }),
+        totalFileCount,
+    };
 }
 
 export async function renderAllMoves(rom, options = {}) {
+    const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllMoves(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
@@ -257,6 +318,8 @@ export async function renderAllMoves(rom, options = {}) {
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         outputDir = "./out",
         renderMasterImage = true,
         sortUnused = true,
@@ -276,25 +339,33 @@ export async function renderAllMoves(rom, options = {}) {
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
 
     if (concurrency > 1) {
         await mapLimit(Object.keys(providedMoves), concurrency, async (moveName) => {
-            await renderMove(moveName, providedMoves, reader, rom, {
+            const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
                 renderMasterImage,
                 sortUnused,
             });
             if (verboseLogs) {
                 console.log(`Done: ${moveName}`);
+            }
+            totalFileCount += renderMoveData.fullFileCount;
+            if (returnFileBuffer && renderMoveData?.results) {
+                finalResults.push(...renderMoveData.results);
             }
         });
     } else {
         for (const moveName of Object.keys(providedMoves)) {
-            await renderMove(moveName, providedMoves, reader, rom, {
+            const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
                 renderMasterImage,
                 sortUnused,
@@ -302,11 +373,31 @@ export async function renderAllMoves(rom, options = {}) {
             if (verboseLogs) {
                 console.log(`Done: ${moveName}`);
             }
+            totalFileCount += renderMoveData.fullFileCount;
+            if (returnFileBuffer && renderMoveData?.results) {
+                finalResults.push(...renderMoveData.results);
+            }
         }
+    }
+
+    const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+
+    if (showSummary) {
+        console.log(`
+renderAllMoves() Output Summary:
+Rendered ${Object.keys(providedMoves).length} Moves amounting to:
+${totalFileCount} Files written
+Done in ${elapsed}s with SilphScope`);
+    }
+
+    return {
+        ...(returnFileBuffer && { finalResults }),
+        totalFileCount,
     }
 }
 
 export async function renderAllBalls(rom, options = {}) {
+    const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
         throw new TypeError("renderAllBalls(rom, options) requires rom Buffer/Uint8Array as first argument");
     }
@@ -317,6 +408,8 @@ export async function renderAllBalls(rom, options = {}) {
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         outputDir = "./out",
         ballParticles = true,
         renderMasterBallImage = true,
@@ -337,12 +430,15 @@ export async function renderAllBalls(rom, options = {}) {
 
     const config = getRomConfig(rom);
     const reader = new RomReader(rom, config);
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
 
     if (concurrency > 1) {
         await mapLimit(Object.keys(providedBalls), concurrency, async (ballName) => {
-            await renderBall(ballName, providedBalls, reader, rom, {
+            const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
                 ballParticles,
                 renderMasterBallImage,
@@ -350,13 +446,18 @@ export async function renderAllBalls(rom, options = {}) {
             });
             if (verboseLogs) {
                 console.log(`Done: ${ballName}`);
+            }
+            totalFileCount += renderBallData.fullFileCount;
+            if (returnFileBuffer) {
+                finalResults.push(...renderBallData.results);
             }
         })
     } else {
         for (const ballName of Object.keys(providedBalls)) {
-            await renderBall(ballName, providedBalls, reader, rom, {
+            const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
+                returnFileBuffer,
                 outputDir,
                 ballParticles,
                 renderMasterBallImage,
@@ -365,8 +466,27 @@ export async function renderAllBalls(rom, options = {}) {
             if (verboseLogs) {
                 console.log(`Done: ${ballName}`);
             }
+            totalFileCount += renderBallData.fullFileCount;
+            if (returnFileBuffer) {
+                finalResults.push(...renderBallData.results);
+            }
         }
     }
+
+    const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+
+    if (showSummary) {
+        console.log(`
+renderAllBalls() Output Summary:
+Rendered ${Object.keys(providedBalls).length} Balls amounting to:
+${totalFileCount} Files written
+Done in ${elapsed}s with SilphScope`);
+    }
+
+    return {
+        ...(returnFileBuffer && { finalResults }),
+        totalFileCount,
+    };
 }
 
 export async function renderAllGraphics(rom, options = {}) { // eventually I will speed this up instead of doing it sequentially :p but for now its fine I guess
@@ -379,6 +499,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
+        showSummary = true,
+        returnFileBuffer = false,
         outputMonDir = "./out/mons",
         outputIconDir = "./out/icons",
         outputTrainerDir = "./out/trainers",
@@ -402,6 +524,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
+        showSummary,
+        returnFileBuffer,
         outputDir: outputMonDir,
         icon: true,
         footprint: true,
@@ -412,6 +536,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
+        showSummary,
+        returnFileBuffer,
         outputDir: outputIconDir,
     });
 
@@ -420,6 +546,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
+        showSummary,
+        returnFileBuffer,
         outputDir: outputTrainerDir,
         trainerBackPics: true,
     });
@@ -429,6 +557,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
+        showSummary,
+        returnFileBuffer,
         outputDir: outputMoveDir,
         renderMasterImage: true,
         sortUnused: sortUnusedMoves,
@@ -439,6 +569,8 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
+        showSummary,
+        returnFileBuffer,
         outputDir: outputBallDir,
         ballParticles: true,
         renderMasterBallImage: true,

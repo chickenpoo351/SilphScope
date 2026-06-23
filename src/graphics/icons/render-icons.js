@@ -18,6 +18,7 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
     const {
         pngFilterType = null,
         pngCompressionType = null, 
+        returnFileBuffer = false,
         outputDir = null 
     } = options;
 
@@ -25,6 +26,7 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
         throw new TypeError("renderIcon(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fullFileCount = 0;
     const item = items[itemName];
     if (!item) {
         throw new Error(`Missing Item: ${itemName}`);
@@ -60,7 +62,11 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
         await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/icon.png`;
         await fs.promises.writeFile(fileName, pngBuffer);
+        fullFileCount += 1;
     }
 
-    return pngBuffer;
+    return {
+        ...(returnFileBuffer && { pngBuffer }),
+        fullFileCount,
+    };
 }

@@ -19,6 +19,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
     const { 
         pngFilterType = null,
         pngCompressionLevel = null,
+        returnFileBuffer = false,
         outputDir = null 
     } = options;
 
@@ -26,6 +27,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         throw new TypeError("renderTrainerBackPic(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
+    let fileCount = 0;
     const trainer = trainers[trainerName];
     if (!trainer) {
         throw new Error(`Missing trainer entry for ${trainerName}`);
@@ -87,7 +89,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         filterType: pngFilterType,
         deflateLevel: pngCompressionLevel,
     });
-    let buffer5
+    let buffer5 = null;
 
     if (outputDir) {
         const dir = `${outputDir}/${trainerName}`;
@@ -96,6 +98,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         await fs.promises.writeFile(`${dir}/trainer_back_frame_2.png`, buffer2);
         await fs.promises.writeFile(`${dir}/trainer_back_frame_3.png`, buffer3);
         await fs.promises.writeFile(`${dir}/trainer_back_frame_4.png`, buffer4);
+        fileCount += 4;
         if (frame5) {
             const pngFrame5 = new PNG({ width, height: frameHeight });
             pngFrame5.data = frame5;
@@ -104,14 +107,16 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
                 deflateLevel: pngCompressionLevel,
             });
             fs.writeFileSync(`${dir}/trainer_back_frame_5.png`, buffer5);
+            fileCount += 1;
         }
     }
 
     return {
-        frame1: buffer1,
-        frame2: buffer2,
-        frame3: buffer3,
-        frame4: buffer4,
-        frame5: buffer5,
+        ...(returnFileBuffer && { frame1: buffer1 }),
+        ...(returnFileBuffer && { frame2: buffer2 }),
+        ...(returnFileBuffer && { frame3: buffer3 }),
+        ...(returnFileBuffer && { frame4: buffer4 }),
+        ...(returnFileBuffer && { frame5: buffer5 }),
+        fileCount,
     };
 }
