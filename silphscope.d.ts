@@ -1,3 +1,12 @@
+export interface RenderedAsset<Meta>  {
+    name: string;
+    category: string;
+    asset: string;
+    path: string;
+    buffer: Buffer;
+    meta: Meta;
+}
+
 export type RomData = Uint8Array | Buffer;
 
 export type PngFilterType =
@@ -120,12 +129,39 @@ export interface RenderAllMonsOptions extends RenderAllGenericOptions {
     footprint?: boolean;
 }
 
+export interface MonSpriteMeta {
+    side: "front" | "back";
+    variant: "normal" | "shiny";
+}
+
+export interface MonIconMeta {
+    frame: 1 | 2;
+}
+
+export interface MonFootprintMeta {
+
+}
+
+export type RenderAllMonsBufferResult =
+    | (RenderedAsset<MonSpriteMeta> & {
+        category: "mon";
+        asset: "sprite";
+    })
+    | (RenderedAsset<MonIconMeta> & {
+        category: "mon";
+        asset: "icon";
+    })
+    | (RenderedAsset<MonFootprintMeta> & {
+        category: "mon";
+        asset: "footprint";
+    });
+
 export interface RenderResult {
     totalFileCount: number;
 }
 
-export interface RenderResultWithBuffers extends RenderResult {
-    finalResults: Buffer[];
+export interface RenderResultWithBuffers<T> extends RenderResult {
+    finalResults: T[];
 }
 
 /**
@@ -141,7 +177,7 @@ export function renderAllMons(
     options?: RenderAllMonsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllMonsBufferResult>>;
 
 /**
  * Extracts and renders all mon graphics from a Firered/Leafgreen ROM.
@@ -160,6 +196,16 @@ export interface RenderAllIconsOptions extends RenderAllGenericOptions {
     // welp thats funny I guess this one has no unique options...
 }
 
+export interface IconSpriteMeta {
+
+}
+
+export type RenderAllIconsBufferResult = 
+    | (RenderedAsset<IconSpriteMeta> & {
+        category: "icon";
+        asset: "sprite";
+    });
+
 /**
  * Extracts and renders all icon graphics from a Firered/Leafgreen ROM.
  * 
@@ -173,7 +219,7 @@ export function renderAllIcons(
     options?: RenderAllIconsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllIconsBufferResult>>;
 
 /**
  * Extracts and renders all icon graphics from a Firered/Leafgreen ROM.
@@ -197,6 +243,24 @@ export interface RenderAllTrainersOptions extends RenderAllGenericOptions {
     trainerBackPics?: boolean;
 }
 
+export interface TrainerFrameMeta {
+
+}
+
+export interface TrainerSpriteMeta {
+    side: "front" | "back";
+}
+
+export type RenderAllTrainersBufferResult =
+    | (RenderedAsset<TrainerFrameMeta> & {
+        category: "trainer";
+        asset: "frame";
+    })
+    | (RenderedAsset<TrainerSpriteMeta> & {
+        category: "trainer";
+        asset: "sprite";
+    });
+
 /**
  * Extracts and renders all trainer graphics from a Firered/Leafgreen ROM.
  * 
@@ -210,7 +274,7 @@ export function renderAllTrainers(
     options?: RenderAllTrainersOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllTrainersBufferResult>>;
 
 /**
  * Extracts and renders all trainer graphics from a Firered/Leafgreen ROM.
@@ -253,6 +317,24 @@ export interface RenderAllMovesOptions extends RenderAllGenericOptions {
     sortUnused?: boolean;
 }
 
+export interface MoveSpriteMeta {
+
+}
+
+export interface MoveFrameMeta {
+
+}
+
+export type RenderAllMovesBufferResult =
+    | (RenderedAsset<MoveSpriteMeta> & {
+        category: "move";
+        asset: "sprite";
+    })
+    | (RenderedAsset<MoveFrameMeta> & {
+        category: "move";
+        asset: "frame";
+    });
+
 /**
  * Extracts, renders, and cuts all move graphics from a Firered/Leafgreen ROM.
  * 
@@ -266,7 +348,7 @@ export function renderAllMoves(
     options?: RenderAllMovesOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllMovesBufferResult>>;
 
 /**
  * Extracts, renders, and cuts all move graphics from a Firered/Leafgreen ROM.
@@ -308,6 +390,24 @@ export interface RenderAllBallsOptions extends RenderAllGenericOptions {
     renderMasterBallParticleImage?: boolean;
 }
 
+export interface BallSpriteMeta {
+    particleOrBall: "particle" | "ball";
+}
+
+export interface BallFrameMeta {
+    particleOrBall: "particle" | "ball";
+}
+
+export type RenderAllBallsBufferResult =
+    | (RenderedAsset<BallSpriteMeta> & {
+        category: "ball";
+        asset: "sprite";
+    })
+    | (RenderedAsset<BallFrameMeta> & {
+        category: "ball";
+        asset: "frame";
+    });
+
 /**
  * Extracts, renders, and cuts all ball graphics from a Firered/Leafgreen ROM.
  * 
@@ -321,7 +421,7 @@ export function renderAllBalls(
     options?: RenderAllBallsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllBallsBufferResult>>;
 
 /**
  * Extracts renders, and cuts all ball graphics from a Firered/Leafgreen ROM.
@@ -405,6 +505,13 @@ export interface RenderAllGraphicsOptions extends Omit<RenderAllGenericOptions, 
     outputBallDir?: string;
 }
 
+export type RenderAllGraphicsBufferResult =
+    | RenderAllMovesBufferResult
+    | RenderAllIconsBufferResult
+    | RenderAllTrainersBufferResult
+    | RenderAllMovesBufferResult
+    | RenderAllBallsBufferResult;
+
 /**
  * Extracts and renders all graphics from a Firered/Leafgreen ROM.
  * 
@@ -418,7 +525,7 @@ export function renderAllGraphics(
     options?: RenderAllGraphicsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers>;
+): Promise<RenderResultWithBuffers<RenderAllGraphicsBufferResult>>;
 
 /**
  * Extracts and renders all graphics from a Firered/Leafgreen ROM.

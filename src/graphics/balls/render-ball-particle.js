@@ -46,7 +46,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
     }
 
     let fileCount = 0;
-    const results = returnFileBuffer? [] : null;
+    const results = returnFileBuffer ? [] : null;
     const ball = balls[ballName];
     if (!ball) {
         throw new Error(`Missing Ball: ${ballName}`);
@@ -72,38 +72,60 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { 
+    const pngBuffer = PNG.sync.write(png, {
         filterType: pngFilterType,
-        deflateLevel: pngCompressionLevel, 
+        deflateLevel: pngCompressionLevel,
     });
 
+    const dir = `${outputDir}/${ballName}`;
     if (outputDir) {
-        const dir = `${outputDir}/${ballName}`;
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        if (renderMasterBallParticleImage) {
-            fs.writeFileSync(`${dir}/master-particle.png`, pngBuffer);
+        await fs.promises.mkdir(dir, { recursive: true });
+    }
+    if (renderMasterBallParticleImage) {
+        if (outputDir) {
+            await fs.promises.writeFile(`${dir}/master-particle.png`, pngBuffer);
             fileCount += 1;
-            if (returnFileBuffer) {
-                results.push(pngBuffer);
-            }
         }
-        for (let i = 0; i < ball.particleFrames.length; i++) {
-            const frame = ball.particleFrames[i];
-            const frameImageData = extractFrameFromImage(image, width, frame);
-
-            const png = new PNG({ width: frame.width, height: frame.height });
-            png.data = frameImageData;
-            const pngFrameBuffer = PNG.sync.write(png, { 
-                filterType: pngFilterType,
-                deflateLevel: pngCompressionLevel,
+        if (returnFileBuffer) {
+            results.push({
+                name: `${ballName}-particle-full-sprite`,
+                category: "ball",
+                asset: "sprite",
+                path: `out/balls/${ballName}/master-particle`,
+                buffer: pngBuffer,
+                meta: {
+                    particleOrBall: "particle",
+                },
             });
+        }
+    }
+    for (let i = 0; i < ball.particleFrames.length; i++) {
+        const frame = ball.particleFrames[i];
+        const frameImageData = extractFrameFromImage(image, width, frame);
 
+        const png = new PNG({ width: frame.width, height: frame.height });
+        png.data = frameImageData;
+        const pngFrameBuffer = PNG.sync.write(png, {
+            filterType: pngFilterType,
+            deflateLevel: pngCompressionLevel,
+        });
+
+        if (outputDir) {
             const fileName = `${dir}/particle-${i}.png`;
             fs.writeFileSync(fileName, pngFrameBuffer);
             fileCount += 1;
-            if (returnFileBuffer) {
-                results.push(pngFrameBuffer);
-            }
+        }
+        if (returnFileBuffer) {
+            results.push({
+                name: `${ballName}-particle-frame${i}`,
+                category: "ball",
+                asset: "frame",
+                path: `out/balls/${ballName}/particle-${i}`,
+                buffer: pngFrameBuffer,
+                meta: {
+                    particleOrBall: "particle",
+                },
+            });
         }
     }
 

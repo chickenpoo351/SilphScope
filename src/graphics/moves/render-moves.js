@@ -49,7 +49,7 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
     }
 
     let fullFileCount = 0;
-    const results = returnFileBuffer? [] : null;
+    const results = returnFileBuffer ? [] : null;
     const move = moves[moveName];
     if (!move) {
         throw new Error(`Missing move: ${moveName}`)
@@ -75,47 +75,62 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
 
     const png = new PNG({ width, height });
     png.data = image;
-    const pngBuffer = PNG.sync.write(png, { 
+    const pngBuffer = PNG.sync.write(png, {
         filterType: pngFilterType,
-        deflateLevel: pngCompressionLevel, 
+        deflateLevel: pngCompressionLevel,
     });
 
-    if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
-        const rootDir = (sortUnused && move?.unused === true)? `${outputDir}/unused` : `${outputDir}`
-        const dir = `${rootDir}/${moveName}`;
-        await fs.promises.mkdir(dir, { recursive: true });
-        if (renderMasterImage) {
-            const png = new PNG({ width, height });
-            png.data = image;
-            const pngBuffer = PNG.sync.write(png, { 
-                filterType: pngFilterType,
-                deflateLevel: pngCompressionLevel,
-            });
+    const rootDir = (sortUnused && move?.unused === true) ? `${outputDir}/unused` : `${outputDir}` // yes this could become null if outputDir is null (who would have thought :p) but since nothing uses this unless outputDir is true then it isn't really an issue... although it is a bit messy...
+    const dir = `${rootDir}/${moveName}`;
+
+    if (renderMasterImage) {
+        if (outputDir) {
             await fs.promises.writeFile(`${dir}/master.png`, pngBuffer);
             fullFileCount += 1;
-            if (returnFileBuffer) {
-                results.push(pngBuffer);
-            }
         }
-        for (let i = 0; i < move.frames.length; i++) {
-            const frame = move.frames[i];
-            const frameImageData = extractFrameFromImage(image, width, frame);
-
-            const png = new PNG({ width: frame.width, height: frame.height });
-            png.data = frameImageData;
-            const pngBuffer = PNG.sync.write(png, { 
-                filterType: pngFilterType,
-                deflateLevel: pngCompressionLevel, 
+        if (returnFileBuffer) {
+            results.push({
+                name: `${moveName}-full-sprite`,
+                category: "move",
+                asset: "sprite",
+                path: `out/moves/${(sortUnused && move?.unused) === true? `unused/${moveName}` : `${moveName}`}/master`,
+                buffer: pngBuffer,
+                meta: { },
             });
+        }
+    }
 
+    if (outputDir) { // I will update this later but in theory it should also work... eventually though it will need a split inside to handle full image generation :p
+        await fs.promises.mkdir(dir, { recursive: true });
+    }
+    for (let i = 0; i < move.frames.length; i++) {
+        const frame = move.frames[i];
+        const frameImageData = extractFrameFromImage(image, width, frame);
+
+        const png = new PNG({ width: frame.width, height: frame.height });
+        png.data = frameImageData;
+        const pngBuffer = PNG.sync.write(png, {
+            filterType: pngFilterType,
+            deflateLevel: pngCompressionLevel,
+        });
+
+        if (outputDir) {
             const fileName = `${dir}/frame-${i}.png`;
             await fs.promises.writeFile(fileName, pngBuffer);
             fullFileCount += 1;
-            if (returnFileBuffer) {
-                results.push(pngBuffer);
-            }
+        }
+        if (returnFileBuffer) {
+            results.push({
+                name: `${moveName}-frame${i}`,
+                category: "move",
+                asset: "frame",
+                path: `out/moves/${(sortUnused && move?.unused) === true ? `unused/${moveName}` : `${moveName}`}/frame-${i}`,
+                buffer: pngBuffer,
+                meta: { },
+            });
         }
     }
+
 
     return {
         ...(returnFileBuffer && { results }),

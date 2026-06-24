@@ -47,8 +47,26 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         });
         fullFileCount += monIconData.fileCount;
         if (returnFileBuffer) {
-            results.push(monIconData.frame1);
-            results.push(monIconData.frame2);
+            results.push({
+                name: `${monName}-icon-frame1`,
+                category: "mon",
+                asset: "icon",
+                path: `out/mons/${monName}/icon_frame1`,
+                buffer: monIconData.frame1,
+                meta: {
+                    frame: 1,
+                }
+            });
+            results.push({
+                name: `${monName}-icon-frame2`,
+                category: "mon",
+                asset: "icon",
+                path: `out/mons/${monName}/icon_frame2`,
+                buffer: monIconData.frame2,
+                meta: {
+                    frame: 2,
+                },
+            });
         }
     }
     if (footprint === true) {
@@ -60,7 +78,14 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
         });
         fullFileCount += monFootData.fileCount;
         if (returnFileBuffer) {
-            results.push(monFootData.pngBuffer);
+            results.push({
+                name: `${monName}-footprint`,
+                category: "mon",
+                asset: "footprint",
+                path: `out/mons/${monName}/footprint`,
+                buffer: monFootData.pngBuffer,
+                meta: { },
+            });
         }
     }
 
@@ -112,7 +137,17 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
             }
 
             if (returnFileBuffer) {
-                results.push(pngBuffer);
+                results.push({
+                    name: `${monName}-${variant === "shiny"? "shiny" : "normal"}-${side}-sprite`,
+                    category: "mon",
+                    asset: "sprite",
+                    path: `out/mons/${monName}/${side}_${variant === "shiny"? "shiny" : "normal"}`,
+                    buffer: pngBuffer,
+                    meta: {
+                        side: side,
+                        variant: variant,
+                    },
+                });
             }
         }
     }
