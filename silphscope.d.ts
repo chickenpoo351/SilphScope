@@ -1,13 +1,16 @@
-type PngFilterType = 
+export type RomData = Uint8Array | Buffer;
+
+export type PngFilterType =
     | -1
     | 0
     | 1
     | 2
     | 3
     | 4
-    | Array<0 | 1 | 2 | 3 | 4>
+    | Array<0 | 1 | 2 | 3 | 4>;
 
-export interface RenderAllMonsOptions {
+
+export interface RenderAllGenericOptions {
     /**
      * Directory to write extracted assets to.
      *
@@ -17,7 +20,7 @@ export interface RenderAllMonsOptions {
      * @default "./out"
      */
     outputDir?: string | null;
-    
+
     /**
      * Number of concurrent render operations.
      *
@@ -98,8 +101,10 @@ export interface RenderAllMonsOptions {
      *
      * @default false
      */
-    returnFileBuffer?: boolean; // this stuff is annoying to write lol
+    returnFileBuffer?: boolean;
+}
 
+export interface RenderAllMonsOptions extends RenderAllGenericOptions {
     /**
      * Render mon icon graphics.
      *
@@ -132,7 +137,7 @@ export interface RenderResultWithBuffers extends RenderResult {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllMons(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllMonsOptions & {
         returnFileBuffer: true;
     }
@@ -147,102 +152,12 @@ export function renderAllMons(
  * @param options Optional configuration for rendering behaviour and other options.
  */ // I have no idea if I have to write this twice... nonetheless here it is I suppose :p
 export function renderAllMons(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllMonsOptions
 ): Promise<RenderResult>;
 
-export interface RenderAllIconsOptions {
-    /**
-     * Directory to write extracted assets to.
-     *
-     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
-     * consumed directly from memory without being written to disk.
-     *
-     * @default "./out"
-     */
-    outputDir?: string | null;
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
-
-    /**
-     * PNG filter mode used during encoding.
-     *
-     * Accepts a value between `-1` and `4`:
-     *
-     * - `-1` = Automatically determine the best filter
-     * - `0` = None
-     * - `1` = Sub
-     * - `2` = Up
-     * - `3` = Average
-     * - `4` = Paeth
-     *
-     * Arrays may also be supplied. When an array is provided,
-     * SilphScope tests only the specified filters and selects
-     * the smallest resulting PNG.
-     *
-     * Examples:
-     *
-     * ```js
-     * pngFilterType: 0
-     * pngFilterType: -1
-     * pngFilterType: [1, 3, 4]
-     * ```
-     *
-     * @default 0
-     */
-    pngFilterType?: PngFilterType;
-
-    /**
-     * PNG compression level.
-     *
-     * Accepts a value between `0` and `9`.
-     *
-     * Higher values generally produce smaller files at the cost
-     * of additional processing time.
-     *
-     * - `0` = No compression
-     * - `9` = Maximum compression
-     *
-     * @default 4
-     */
-    pngCompressionLevel?: number;
-
-    /**
-     * Print progress information as assets are rendered.
-     *
-     * @default true
-     */
-    verboseLogs?: boolean;
-
-    /**
-     * Print a summary after rendering completes.
-     *
-     * Includes render count, file count, and elapsed time.
-     *
-     * @default true
-     */
-    showSummary?: boolean;
-
-    /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
-     *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
-     *
-     * @default false
-     */
-    returnFileBuffer?: boolean;
+export interface RenderAllIconsOptions extends RenderAllGenericOptions {
+    // welp thats funny I guess this one has no unique options...
 }
 
 /**
@@ -254,7 +169,7 @@ export interface RenderAllIconsOptions {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllIcons(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllIconsOptions & {
         returnFileBuffer: true;
     }
@@ -269,103 +184,11 @@ export function renderAllIcons(
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllIcons(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllIconsOptions
 ): Promise<RenderResult>;
 
-export interface RenderAllTrainersOptions {
-    /**
-     * Directory to write extracted assets to.
-     *
-     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
-     * consumed directly from memory without being written to disk.
-     *
-     * @default "./out"
-     */
-    outputDir?: string | null;
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
-
-    /**
-     * PNG filter mode used during encoding.
-     *
-     * Accepts a value between `-1` and `4`:
-     *
-     * - `-1` = Automatically determine the best filter
-     * - `0` = None
-     * - `1` = Sub
-     * - `2` = Up
-     * - `3` = Average
-     * - `4` = Paeth
-     *
-     * Arrays may also be supplied. When an array is provided,
-     * SilphScope tests only the specified filters and selects
-     * the smallest resulting PNG.
-     *
-     * Examples:
-     *
-     * ```js
-     * pngFilterType: 0
-     * pngFilterType: -1
-     * pngFilterType: [1, 3, 4]
-     * ```
-     *
-     * @default 0
-     */
-    pngFilterType?: PngFilterType;
-
-    /**
-     * PNG compression level.
-     *
-     * Accepts a value between `0` and `9`.
-     *
-     * Higher values generally produce smaller files at the cost
-     * of additional processing time.
-     *
-     * - `0` = No compression
-     * - `9` = Maximum compression
-     *
-     * @default 4
-     */
-    pngCompressionLevel?: number;
-
-    /**
-     * Print progress information as assets are rendered.
-     *
-     * @default true
-     */
-    verboseLogs?: boolean;
-
-    /**
-     * Print a summary after rendering completes.
-     *
-     * Includes render count, file count, and elapsed time.
-     *
-     * @default true
-     */
-    showSummary?: boolean;
-
-    /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
-     *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
-     *
-     * @default false
-     */
-    returnFileBuffer?: boolean;
-
+export interface RenderAllTrainersOptions extends RenderAllGenericOptions {
     /**
      * Render trainer back graphics.
      * 
@@ -383,7 +206,7 @@ export interface RenderAllTrainersOptions {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllTrainers(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllTrainersOptions & {
         returnFileBuffer: true;
     }
@@ -398,103 +221,11 @@ export function renderAllTrainers(
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllTrainers(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllTrainersOptions
 ): Promise<RenderResult>;
 
-export interface RenderAllMovesOptions {
-    /**
-     * Directory to write extracted assets to.
-     *
-     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
-     * consumed directly from memory without being written to disk.
-     *
-     * @default "./out"
-     */
-    outputDir?: string | null;
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
-
-    /**
-     * PNG filter mode used during encoding.
-     *
-     * Accepts a value between `-1` and `4`:
-     *
-     * - `-1` = Automatically determine the best filter
-     * - `0` = None
-     * - `1` = Sub
-     * - `2` = Up
-     * - `3` = Average
-     * - `4` = Paeth
-     *
-     * Arrays may also be supplied. When an array is provided,
-     * SilphScope tests only the specified filters and selects
-     * the smallest resulting PNG.
-     *
-     * Examples:
-     *
-     * ```js
-     * pngFilterType: 0
-     * pngFilterType: -1
-     * pngFilterType: [1, 3, 4]
-     * ```
-     *
-     * @default 0
-     */
-    pngFilterType?: PngFilterType;
-
-    /**
-     * PNG compression level.
-     *
-     * Accepts a value between `0` and `9`.
-     *
-     * Higher values generally produce smaller files at the cost
-     * of additional processing time.
-     *
-     * - `0` = No compression
-     * - `9` = Maximum compression
-     *
-     * @default 4
-     */
-    pngCompressionLevel?: number;
-
-    /**
-     * Print progress information as assets are rendered.
-     *
-     * @default true
-     */
-    verboseLogs?: boolean;
-
-    /**
-     * Print a summary after rendering completes.
-     *
-     * Includes render count, file count, and elapsed time.
-     *
-     * @default true
-     */
-    showSummary?: boolean;
-
-    /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
-     *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
-     *
-     * @default false
-     */
-    returnFileBuffer?: boolean;
-
+export interface RenderAllMovesOptions extends RenderAllGenericOptions {
     /**
      * Creates the original sprite sheet version of the move graphic.
      * 
@@ -505,12 +236,12 @@ export interface RenderAllMovesOptions {
     renderMasterImage?: boolean;
 
     /**
-   (set to `null`)   * Sorts all unused moves into a sub directory.
+     * Sorts all unused moves into a sub directory.
      * 
      * Example:
      * 
      * If your outputDir was 
-    | null  * 
+     * 
      * `out/Moves`
      * 
      * Then this would store the unused moves in
@@ -531,7 +262,7 @@ export interface RenderAllMovesOptions {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllMoves(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllMovesOptions & {
         returnFileBuffer: true;
     }
@@ -546,103 +277,11 @@ export function renderAllMoves(
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllMoves(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllMovesOptions
 ): Promise<RenderResult>;
 
-export interface RenderAllBallsOptions {
-    /**
-     * Directory to write extracted assets to.
-     *
-     * If omitted (set to `null`) and `returnFileBuffer` is enabled, files can be
-     * consumed directly from memory without being written to disk.
-     *
-     * @default "./out"
-     */
-    outputDir?: string | null;
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
-
-    /**
-     * PNG filter mode used during encoding.
-     *
-     * Accepts a value between `-1` and `4`:
-     *
-     * - `-1` = Automatically determine the best filter
-     * - `0` = None
-     * - `1` = Sub
-     * - `2` = Up
-     * - `3` = Average
-     * - `4` = Paeth
-     *
-     * Arrays may also be supplied. When an array is provided,
-     * SilphScope tests only the specified filters and selects
-     * the smallest resulting PNG.
-     *
-     * Examples:
-     *
-     * ```js
-     * pngFilterType: 0
-     * pngFilterType: -1
-     * pngFilterType: [1, 3, 4]
-     * ```
-     *
-     * @default 0
-     */
-    pngFilterType?: PngFilterType;
-
-    /**
-     * PNG compression level.
-     *
-     * Accepts a value between `0` and `9`.
-     *
-     * Higher values generally produce smaller files at the cost
-     * of additional processing time.
-     *
-     * - `0` = No compression
-     * - `9` = Maximum compression
-     *
-     * @default 4
-     */
-    pngCompressionLevel?: number;
-
-    /**
-     * Print progress information as assets are rendered.
-     *
-     * @default true
-     */
-    verboseLogs?: boolean;
-
-    /**
-     * Print a summary after rendering completes.
-     *
-     * Includes render count, file count, and elapsed time.
-     *
-     * @default true
-     */
-    showSummary?: boolean;
-
-    /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
-     *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
-     *
-     * @default false
-     */
-    returnFileBuffer?: boolean;
-
+export interface RenderAllBallsOptions extends RenderAllGenericOptions {
     /**
      * Render ball particle graphics.
      * 
@@ -678,7 +317,7 @@ export interface RenderAllBallsOptions {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllBalls(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllBallsOptions & {
         returnFileBuffer: true;
     }
@@ -693,94 +332,11 @@ export function renderAllBalls(
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllBalls(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllBallsOptions
 ): Promise<RenderResult>;
 
-export interface RenderAllGraphicsOptions {
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
-
-    /**
-     * PNG filter mode used during encoding.
-     *
-     * Accepts a value between `-1` and `4`:
-     *
-     * - `-1` = Automatically determine the best filter
-     * - `0` = None
-     * - `1` = Sub
-     * - `2` = Up
-     * - `3` = Average
-     * - `4` = Paeth
-     *
-     * Arrays may also be supplied. When an array is provided,
-     * SilphScope tests only the specified filters and selects
-     * the smallest resulting PNG.
-     *
-     * Examples:
-     *
-     * ```js
-     * pngFilterType: 0
-     * pngFilterType: -1
-     * pngFilterType: [1, 3, 4]
-     * ```
-     *
-     * @default 0
-     */
-    pngFilterType?: PngFilterType;
-
-    /**
-     * PNG compression level.
-     *
-     * Accepts a value between `0` and `9`.
-     *
-     * Higher values generally produce smaller files at the cost
-     * of additional processing time.
-     *
-     * - `0` = No compression
-     * - `9` = Maximum compression
-     *
-     * @default 4
-     */
-    pngCompressionLevel?: number;
-
-    /**
-     * Print progress information as assets are rendered.
-     *
-     * @default true
-     */
-    verboseLogs?: boolean;
-
-    /**
-     * Print a summary after rendering completes.
-     *
-     * Includes render count, file count, and elapsed time.
-     *
-     * @default true
-     */
-    showSummary?: boolean;
-
-    /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
-     *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
-     *
-     * @default false
-     */
-    returnFileBuffer?: boolean;
-
+export interface RenderAllGraphicsOptions extends Omit<RenderAllGenericOptions, "outputDir"> {
     /**
      * Directory to write extracted mon assets to.
      *
@@ -836,7 +392,7 @@ export interface RenderAllGraphicsOptions {
      * 
      * @default true
      */
-    sortUnusedMoves: boolean;
+    sortUnusedMoves?: boolean;
 
     /**
      * Directory to write extracted balls assets to.
@@ -858,7 +414,7 @@ export interface RenderAllGraphicsOptions {
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllGraphics(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllGraphicsOptions & {
         returnFileBuffer: true;
     }
@@ -873,6 +429,6 @@ export function renderAllGraphics(
  * @param options Optional configuration for rendering behaviour and other options.
  */
 export function renderAllGraphics(
-    rom: Uint8Array | Buffer,
+    rom: RomData,
     options?: RenderAllGraphicsOptions
 ): Promise<RenderResult>;

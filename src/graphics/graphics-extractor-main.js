@@ -4,7 +4,8 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { mapLimit } from "../map-limit.js";
+import { runWithConcurrency } from "../run-with-concurrency.js";
+import { validateRenderOptions } from "../validate-render-options.js";
 import { renderMon } from "./mons/render-mons.js";
 import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
@@ -27,19 +28,6 @@ const trainersBack = loadDefaultJson("../trainer-data/trainerBackData.json");
 const moves = loadDefaultJson("../move-data/moveData.json");
 const balls = loadDefaultJson("../ball-data/ballData.json");
 
-function isValidFilterType(filterTypeValue) {
-    if (Number.isInteger(filterTypeValue)) {
-        return filterTypeValue >= -1 && filterTypeValue <= 4;
-    }
-    if (Array.isArray(filterTypeValue)) {
-        return filterTypeValue.length > 0 && filterTypeValue.every(entry => 
-            Number.isInteger(entry) && entry >= 0 && entry <= 4
-        );
-    }
-
-    return false;
-}
-
 export async function renderAllMons(rom, options = {}) {
     const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -59,15 +47,11 @@ export async function renderAllMons(rom, options = {}) {
         footprint = true,
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllMons(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new TypeError(`renderAllMons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new TypeError(`renderAllMons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
+    validateRenderOptions("renderAllMons", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
 
     if (outputDir) {
         fs.mkdirSync(outputDir, { recursive: true });
@@ -78,47 +62,25 @@ export async function renderAllMons(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    if (concurrency > 1) {
-        await mapLimit(Object.keys(providedMons), concurrency, async (monName) => { // so in theory we should be running the function 4 times concurrently now...
-            const renderMonData = await renderMon(monName, providedMons, reader, rom, {
-                side: ["front", "back"],
-                variant: ["normal", "shiny"],
-                icon,
-                footprint,
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${monName}`);
-            }
-            totalFileCount += renderMonData.fullFileCount;
-            if (returnFileBuffer && renderMonData?.results) {
-                finalResults.push(...renderMonData.results);
-            }
+    await runWithConcurrency(Object.keys(providedMons), concurrency, async (monName) => {
+        const renderMonData = await renderMon(monName, providedMons, reader, rom, {
+            side: ["front", "back"],
+            variant: ["normal", "shiny"],
+            icon,
+            footprint,
+            pngFilterType,
+            pngCompressionLevel,
+            returnFileBuffer,
+            outputDir,
         });
-    } else {
-        for (const monName of Object.keys(providedMons)) {
-            const renderMonData = await renderMon(monName, providedMons, reader, rom, {
-                side: ["front", "back"],
-                variant: ["normal", "shiny"],
-                icon,
-                footprint,
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${monName}`);
-            }
-            totalFileCount += renderMonData.fullFileCount;
-            if (returnFileBuffer) {
-                finalResults.push(...renderMonData.results);
-            }
+        if (verboseLogs) {
+            console.log(`Done: ${monName}`);
         }
-    }
+        totalFileCount += renderMonData.fullFileCount;
+        if (returnFileBuffer && renderMonData?.results) {
+            finalResults.push(...renderMonData.results);
+        }
+    });
 
     const elapsed = ((performance.now() - start) / 1000).toFixed(2);
 
@@ -153,15 +115,12 @@ export async function renderAllIcons(rom, options = {}) {
         outputDir = "./out",
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllIcons(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new TypeError(`renderAllIcons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new TypeError(`renderAllIcons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
+    validateRenderOptions("renderAllIcons", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
+
 
     if (outputDir) {
         fs.mkdirSync(outputDir, { recursive: true });
@@ -172,39 +131,21 @@ export async function renderAllIcons(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    if (concurrency > 1) {
-        await mapLimit(Object.keys(providedIcons), concurrency, async (itemName) => {
-            const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, { 
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${itemName}`);
-            }
-            totalFileCount += renderIconData.fullFileCount;
-            if (returnFileBuffer && renderIconData?.pngBuffer) {
-                finalResults.push(renderIconData.pngBuffer);
-            }
+    await runWithConcurrency(Object.keys(providedIcons), concurrency, async (itemName) => {
+        const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, {
+            pngFilterType,
+            pngCompressionLevel,
+            returnFileBuffer,
+            outputDir,
         });
-    } else {
-        for (const itemName of Object.keys(providedIcons)) {
-            const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, { 
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${itemName}`);
-            }
-            totalFileCount += renderIconData.fullFileCount;
-            if (returnFileBuffer && renderIconData?.pngBuffer) {
-                finalResults.push(renderIconData.pngBuffer);
-            }
+        if (verboseLogs) {
+            console.log(`Done: ${itemName}`);
         }
-    }
+        totalFileCount += renderIconData.fullFileCount;
+        if (returnFileBuffer && renderIconData?.pngBuffer) {
+            finalResults.push(renderIconData.pngBuffer);
+        }
+    });
 
     const elapsed = ((performance.now() - start) / 1000).toFixed(2);
 
@@ -241,15 +182,12 @@ export async function renderAllTrainers(rom, options = {}) {
         outputDir = "./out",
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllTrainers(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new TypeError(`renderAllTrainers(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new TypeError(`renderAllTrainers(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
+    validateRenderOptions("renderAllTrainers", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
+
 
     if (outputDir) {
         fs.mkdirSync(outputDir, { recursive: true });
@@ -260,41 +198,22 @@ export async function renderAllTrainers(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    if (concurrency > 1) {
-        await mapLimit(Object.keys(providedTrainers), concurrency, async (trainerName) => {
-            const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
-                trainerBackPics,
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${trainerName}`);
-            }
-            totalFileCount += renderTrainerData.fullFileCount;
-            if (returnFileBuffer && renderTrainerData?.results) {
-                finalResults.push(...renderTrainerData.results);
-            }
+    await runWithConcurrency(Object.keys(providedTrainers), concurrency, async (trainerName) => {
+        const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
+            trainerBackPics,
+            pngFilterType,
+            pngCompressionLevel,
+            returnFileBuffer,
+            outputDir
         });
-    } else {
-        for (const trainerName of Object.keys(providedTrainers)) {
-            const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
-                trainerBackPics,
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${trainerName}`);
-            }
-            totalFileCount += renderTrainerData.fullFileCount;
-            if (returnFileBuffer && renderTrainerData?.results) {
-                finalResults.push(...renderTrainerData.results);
-            }
+        if (verboseLogs) {
+            console.log(`Done: ${trainerName}`);
         }
-    }
+        totalFileCount += renderTrainerData.fullFileCount;
+        if (returnFileBuffer && renderTrainerData?.results) {
+            finalResults.push(...renderTrainerData.results);
+        }
+    });
 
     const elapsed = ((performance.now() - start) / 1000).toFixed(2);
 
@@ -331,15 +250,12 @@ export async function renderAllMoves(rom, options = {}) {
         sortUnused = true,
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllMoves(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new TypeError(`renderAllMoves(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new TypeError(`renderAllMoves(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
+    validateRenderOptions("renderAllMoves", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
+
 
     if (outputDir) {
         fs.mkdirSync(outputDir, { recursive: true });
@@ -350,43 +266,23 @@ export async function renderAllMoves(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    if (concurrency > 1) {
-        await mapLimit(Object.keys(providedMoves), concurrency, async (moveName) => {
-            const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-                renderMasterImage,
-                sortUnused,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${moveName}`);
-            }
-            totalFileCount += renderMoveData.fullFileCount;
-            if (returnFileBuffer && renderMoveData?.results) {
-                finalResults.push(...renderMoveData.results);
-            }
+    await runWithConcurrency(Object.keys(providedMoves), concurrency, async (moveName) => {
+        const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
+            pngFilterType,
+            pngCompressionLevel,
+            returnFileBuffer,
+            outputDir,
+            renderMasterImage,
+            sortUnused,
         });
-    } else {
-        for (const moveName of Object.keys(providedMoves)) {
-            const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-                renderMasterImage,
-                sortUnused,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${moveName}`);
-            }
-            totalFileCount += renderMoveData.fullFileCount;
-            if (returnFileBuffer && renderMoveData?.results) {
-                finalResults.push(...renderMoveData.results);
-            }
+        if (verboseLogs) {
+            console.log(`Done: ${moveName}`);
         }
-    }
+        totalFileCount += renderMoveData.fullFileCount;
+        if (returnFileBuffer && renderMoveData?.results) {
+            finalResults.push(...renderMoveData.results);
+        }
+    });
 
     const elapsed = ((performance.now() - start) / 1000).toFixed(2);
 
@@ -424,15 +320,12 @@ export async function renderAllBalls(rom, options = {}) {
         renderMasterBallParticleImage = true,
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllBalls(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new TypeError(`renderAllBalls(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new TypeError(`renderAllBalls(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
+    validateRenderOptions("renderAllBalls", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
+
 
     if (outputDir) {
         fs.mkdirSync(outputDir, { recursive: true });
@@ -443,45 +336,24 @@ export async function renderAllBalls(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    if (concurrency > 1) {
-        await mapLimit(Object.keys(providedBalls), concurrency, async (ballName) => {
-            const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-                ballParticles,
-                renderMasterBallImage,
-                renderMasterBallParticleImage,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${ballName}`);
-            }
-            totalFileCount += renderBallData.fullFileCount;
-            if (returnFileBuffer) {
-                finalResults.push(...renderBallData.results);
-            }
-        })
-    } else {
-        for (const ballName of Object.keys(providedBalls)) {
-            const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-                ballParticles,
-                renderMasterBallImage,
-                renderMasterBallParticleImage,
-            });
-            if (verboseLogs) {
-                console.log(`Done: ${ballName}`);
-            }
-            totalFileCount += renderBallData.fullFileCount;
-            if (returnFileBuffer) {
-                finalResults.push(...renderBallData.results);
-            }
+    await runWithConcurrency(Object.keys(providedBalls), concurrency, async (ballName) => {
+        const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
+            pngFilterType,
+            pngCompressionLevel,
+            returnFileBuffer,
+            outputDir,
+            ballParticles,
+            renderMasterBallImage,
+            renderMasterBallParticleImage,
+        });
+        if (verboseLogs) {
+            console.log(`Done: ${ballName}`);
         }
-    }
+        totalFileCount += renderBallData.fullFileCount;
+        if (returnFileBuffer) {
+            finalResults.push(...renderBallData.results);
+        }
+    });
 
     const elapsed = ((performance.now() - start) / 1000).toFixed(2);
 
@@ -519,73 +391,77 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         outputBallDir = "./out/balls",
     } = options;
 
-    if (!Number.isInteger(concurrency) || concurrency < 1) {
-        throw new TypeError(`renderAllGraphics(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
-    }
-    if (!isValidFilterType(pngFilterType)) {
-        throw new Error(`renderAllGraphics(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
-    }
-    if (!Number.isInteger(pngCompressionLevel) || pngCompressionLevel < 0 || pngCompressionLevel > 9) {
-        throw new Error(`renderAllGraphics(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
-    }
-
-    await renderAllMons(rom, {
+    const sharedOptions = {
         concurrency,
         pngFilterType,
         pngCompressionLevel,
         verboseLogs,
         showSummary,
         returnFileBuffer,
+    }
+    let totalFileCount = 0;
+    const finalResults = returnFileBuffer? [] : null;
+
+    validateRenderOptions("renderAllGraphics", {
+        concurrency,
+        filterType: pngFilterType,
+        compressionLevel: pngCompressionLevel,
+    });
+
+
+    const renderAllMonsData = await renderAllMons(rom, {
+        ...sharedOptions,
         outputDir: outputMonDir,
         icon: true,
         footprint: true,
     });
 
-    await renderAllIcons(rom, {
-        concurrency,
-        pngFilterType,
-        pngCompressionLevel,
-        verboseLogs,
-        showSummary,
-        returnFileBuffer,
+    const renderAllIconsData = await renderAllIcons(rom, {
+        ...sharedOptions,
         outputDir: outputIconDir,
     });
 
-    await renderAllTrainers(rom, {
-        concurrency,
-        pngFilterType,
-        pngCompressionLevel,
-        verboseLogs,
-        showSummary,
-        returnFileBuffer,
+    const renderAllTrainersData = await renderAllTrainers(rom, {
+        ...sharedOptions,
         outputDir: outputTrainerDir,
         trainerBackPics: true,
     });
 
-    await renderAllMoves(rom, {
-        concurrency,
-        pngFilterType,
-        pngCompressionLevel,
-        verboseLogs,
-        showSummary,
-        returnFileBuffer,
+    const renderAllMovesData = await renderAllMoves(rom, {
+        ...sharedOptions,
         outputDir: outputMoveDir,
         renderMasterImage: true,
         sortUnused: sortUnusedMoves,
     });
 
-    await renderAllBalls(rom, {
-        concurrency,
-        pngFilterType,
-        pngCompressionLevel,
-        verboseLogs,
-        showSummary,
-        returnFileBuffer,
+    const renderAllBallsData = await renderAllBalls(rom, {
+        ...sharedOptions,
         outputDir: outputBallDir,
         ballParticles: true,
         renderMasterBallImage: true,
         renderMasterBallParticleImage: true,
     });
+
+    const results = [
+        renderAllMonsData,
+        renderAllIconsData,
+        renderAllTrainersData,
+        renderAllMovesData,
+        renderAllBallsData,
+    ];
+
+    if (returnFileBuffer) {
+        finalResults.push(...results.flatMap(result => result.finalResults));
+    }
+    totalFileCount += results.reduce(
+        (sum, result) => sum + result.totalFileCount,
+        0
+    );
+
+    return {
+        ...(returnFileBuffer && { finalResults }),
+        totalFileCount,
+    }
 }
 
 export function loadDefaultRom() {
