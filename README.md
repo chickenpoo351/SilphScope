@@ -1,147 +1,249 @@
-still a WIP however hopefully with some more work I can get this into a workable state...
+<h1 align="center">SilphScope</h1>
+<p align="center">
+    <sub><s>Yup I finally got around to updating this "horrible" README :p</s></sub>
+</p>
 
-(Small But New Update!) Update:
+Hello! I have no idea how you found this repo but welcome! (did I already scare you off? :[)
 
-so you can now set stuff such as the pngFilterType and pngCompressionLevel allow me to explain how they work:
+>It is probably important to mention this but the project is still quite heavily in its WIP phase... so maybe wait a few more months or something before you rely on the project fully... or just keep your working version of the project and don't update it unless you know for sure the new version is working lol
 
-pngFilterType:
+Anyway this project is quite cool (says the guy who made it...) essentially what we (me...) are doing here is trying to take a GBA Firered/Leafgreen rev0/rev1 US release ROM and be able to extract things such as graphics and eventually sounds and songs into something more usable like a PNG or WAV respectively. While being far more portable and non-dev friendly than the C/C++ tools from the caveman ages (actually though I must say this tool owes a lot to those projects... otherwise things would have taken far longer... not to say all the answers were just hidden in them but they helped in a bunch of ways!)
 
-This takes a integer between -1 and 4 with each integer corresponding like so:
+Why would you want this? Well you really don't :p unless of course you happen to need these graphics in which case this will be the next best invention save for orange juice!
 
--1: auto
-0: none
-1: sub
-2: up
-3: average
-4: paeth
+Welp enough chitchat let's get into how you actually use this tool (or wait... would it be a library? eh doesn't matter :p) below is a (super cool) Table of Contents you can use to jump through this long-ish README if you are only interested in specific parts
 
-now as to what each of these mean... I don't know exactly lol (I'm not some png genius D:) but from what I understand none of these actually change the look of the image instead they are basically compression some will work better with different images depending on content... that said though it is still somewhat important to point out that paeth is the most computationally expensive but usually results in a smaller file size (most of the time... for an example one image might get marginal file size decreases with a paeth filter meanwhile it would get a larger decrease using average or something) if you do not want to deal with trying to figure out which filter is best it is recommended to set the value to 0 as that will apply no filter onto the image or if you wish for the best filter for each image type to be applied use -1 as this will make it so that each image is tested for which filter is best for it and which is best is applied be aware though this is pretty expensive resource wise (can add on to like 2 seconds to the renderAllGraphics() function... so not crazy but if you need upmost speed perhaps that is an issue for you :p) you can also however pass an array like so:
+## Table of Contents
+- [Features](#features)
+  - [Planned Features](#planned-features)
+- [Quick Start](#quick-start)
+- [API](#api)
+  - [renderAllX() Functions](#renderallx-functions)
+    - [Return value](#return-value)
+    - [renderAllGraphics()](#renderallgraphics)
+    - [renderAllMons()](#renderallmons)
+    - [renderAllIcons()](#renderallicons)
+    - [renderAllTrainers()](#renderalltrainers)
+    - [renderAllMoves()](#renderallmoves)
+    - [renderAllBalls()](#renderallballs)
 
-[1, 3, 4]
+## Features
 
-this will make it so that the only png filters allowed to be used are 1, 3, and 4 (sub, average, and paeth) so each image will be tested for each of these filters and the best is chosen out of however many filters you put in the array (not sure why you would want to do this but it's there I guess...)
+Here is the current list of extracted graphics the project supports (more on the way!... eventually :p)
 
-pngCompressionLevel:
+#### Mon
+- Front sprites
+- Back sprites
+- Shiny palette sprite variants
+- Icons
+- Footprints
 
-This one is much simpler it essentially takes a integer between 0-9 with 0 being no compression added at all and 9 being the maximum compression added of course though this also uses more resources so it could cause the render time to be slower (like by 1-2 seconds... once again not crazy but sometimes you need speed I guess... wait I should mention that is measured via the renderAllGraphics() function not 1-2 seconds per asset lol) but it will result in a smaller file meanwhile 0 will be the fastest you can do (since you aren't computing anything...) but it will result in a much larger file
+#### Items
+- Item icons
 
-(Amazingly Newer!) Update:
+#### Trainers
+- Trainer sprites
+- Trainer back sprites
 
-so now ball extraction works! still need to cut the images up but that should be simple
+#### Battle Assets
+(well technically the trainers should be here... but don't worry about that!)
+- Move animation graphics
+- Ball sprites
+- Ball particles
 
-(also move graphics are basically done except for ICE_CHUNK it is a weird image... and I don't know how I am going to cut it up... but everything else is working! that makes it sound like ICE_CHUNK doesn't work... which it does it just doesn't get nicely cut up)
+#### Output
+- PNG file export
+- In memory file buffer array
 
-(Even Newer!) Update:
+#### Supported ROMs
+- Firered (USA) Rev0
 
-moves now work... kinda... still working on getting it all the way done but it mostly works!
+### Planned Features
+- More graphical extraction
+- Expose some more low level functions
+- Make
+- ~~(finish my other project... that just so happens to be reliant on this project...)~~
+- Support the following ROMs:
+  - Firered (USA) rev1
+  - Leafgreen (USA) rev0
+  - Leafgreen (USA) rev1
 
-(Newer!) Update:
+## Quick Start
 
-still a WIP :p but erm you can extract more graphics!
+So in general you can currently do everything the package currently offers through just one function! (Do keep in mind though this function will keep growing as the project isn't done yet...) But first we kinda have to get the package installed first... so run this to go ahead and download it!
 
-Update:
+```
+npm install silphscope
+```
 
-so the project is semi-usable now you can download it as a npm package via:
+(or if you're like me use `pnpm install silphscope` ;)) 
 
-    npm install silphscope
-(or `pnpm install silphscope` if you like pnpm like me ;] )
-
-general use is something like this:
 ```JavaScript
+import { renderAllGraphics } from "silphscope"; // still cool!
 import fs from "fs";
-import { renderAllGraphics } from "silphscope"; // this is cool...
 
-const rom = fs.readFileSync("pokefirered.gba"); // replace with path to your own firered rom
+const rom = fs.readFileSync("pokefirered.gba"); // remember get your own ROM!
 await renderAllGraphics(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // view the explanation for this above
-    pngCompressionLevel: 4, // same thing :p explanation above
     outputMonDir: "./Assets/monImages", // must I explain?
     outputIconDir: "./Assets/Icons", // same thing here :p
     outputTrainerDir: "./Assets/Trainers", // ...
     outputMoveDir: "./Assets/Moves",
-    sortUnusedMoves: true, // just sorts the unused moves into a sub-directory
     outputBallDir: "./Assets/Balls"
 });
 ```
 
-Of course though the above is for extracting all graphics (which is kinda a lie... In reality it only extracts mon images, item icons, trainer images, move images, and ball images... but like I said this is a WIP :p so wait a bit please!).
+And with that simply run the file and next thing you know you have around 6k images extracted from your very own local ROM! if you would like to see more in depth explanations of the function options or what more the package is capable of keep reading below or jump back to the table of contents and skip around (you aren't too far from it yet!)
 
-But if you want say just the mon images or item icons refer below:
+## API
 
-mon images extraction:
+To start off this will simply be going over the possible Node.js based functions and a general sense of what they do. If you want a more in depth explanation of things (such as what each option does, a more in depth explanation of the function, etc...) you will probably want to view the documentation folder.
+
+For reference perhaps you need to know all the options of renderAllGraphics and what exactly they do you would go view these documentation files for those answers:
+
+Node based renderAllGraphics() in depth explanation: docs/node/renderAllGraphics.md or click [here](./docs/node/renderAllGraphics.md)
+
+Node based renderAll function options: docs/node/renderAllX-options.md or click [here](./docs/node/renderAllX-options.md)
+
+### renderAllX() Functions
+
+So all Node based `renderAllX()` functions have a bit of similarites you can find them listed below:
+
+#### Input
+
+Every node based `renderAllX()` function:
+
+- Accepts a valid and supported ROM as either a `Buffer` or `Uint8Array`
+- Accepts an optional options object
+
+#### Return value
+
+All Node based `renderAllX()` functions return an object with two values like this:
+
 ```JavaScript
-import fs from "fs";
-import { renderAllMons } from "silphscope"; // never gets old :p
+{
+  totalFileCount: number,
+  finalResults?: [],
+}
+```
 
-const rom = fs.readFileSync("pokefirered.gba")// once again replace with the path to your own firered rom
+Of course though it is very important to specify that `finalResults` is not always there it only appears if the `returnFileBuffer` option is set to `true` upon running any renderAll function otherwise your return value will only contain `totalFileCount`
+
+speaking of which `totalFileCount` is a simple variable that returns only however many files were written during a run if you have your `outputDir` variable(s) set to `null` and only generate the file buffer via `returnFileBuffer` being set to `true` this count will not go up
+
+#### Shared options
+
+Each node based `renderAllX()` function has a few shared options contained within their optional options object. Below are said options and their default values:
+
+```JavaScript
+{
+  concurrency: 4,
+  pngFilterType: 0,
+  pngCompressionLevel: 4,
+  verboseLogs: true,
+  showSummary: true,
+  returnFileBuffer: false,
+}
+```
+
+If you would like to know more about these function options please view this file:
+
+[renderAllX-options.md](./docs/node/renderAllX-options.md)
+
+#### renderAllGraphics()
+
+This is currently the "general use" function of the project it is capable of extracting every currently supported graphic from a valid ROM. Below is the simplest example of renderAllGraphics().
+
+```JavaScript
+import { renderAllGraphics } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+await renderAllGraphics(rom, {
+  returnFileBuffer: false,
+  outputMonDir: "./out/mons",
+  outputIconDir: "./out/icons",
+  outputTrainerDir: "./out/trainers",
+  outputMoveDir: "./out/moves",
+  outputBallDir: "./out/balls",
+});
+```
+
+#### renderAllMons()
+
+This function is specifically responsible for rendering all of the mon graphics so the front/back shiny/normal, mon icons, and footprints are all handled here. Below is the example code for `renderAllMons()`
+
+```JavaScript
+import { renderAllMons } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
 await renderAllMons(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // explanation above
-    pngCompressionLevel: 4, // explanation above
-    outputDir: "./Assets/monImages", // do I actually have to explain?
-    icon: true, // set to false if you don't want icons I guess...
-    footprint: true, // same as the above...
+  outputDir: "./out",
+  icon: true,
+  footprint: true,
 });
 ```
 
-item icon extraction:
-```JavaScript
-import fs from "fs";
-import { renderAllIcons } from "silphscope" // :D
+#### renderAllIcons()
 
-const rom = fs.readFileSync("pokefirered.gba")// find your own rom and so on :l
+`renderAllIcons()` is specifically meant for item icons contained within the ROM. so for the graphics that appear when looking inside your bag at items in game. Below is the function example code
+
+```JavaScript
+import { renderAllIcons } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
 await renderAllIcons(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // explanation above
-    pngCompressionLevel: 4, // explanation above
-    outputDir: "./Assets/Icons" // no comment (wait... that was a comment :p)
+  outputDir: "./out",
 });
 ```
 
-trainer image extraction:
-```JavaScript
-import fs from "fs";
-import { renderAllTrainers } from "silphscope" // :O
+#### renderAllTrainers()
 
-const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff
+This function handles both front and back graphics for trainers contained within the ROM. Here is the example code
+
+```JavaScript
+import { renderAllTrainers } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
 await renderAllTrainers(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // explanation above
-    pngCompressionLevel: 4, // explanation above
-    outputDir: "./Assets/trainers", // more stuff
-    trainerBackPics: true, // renders the like 8 trainer back pics
-})
+  outputDir: "./out",
+  trainerBackPics: true,
+});
 ```
 
-move image extraction:
-```JavaScript
-import fs from "fs";
-import { renderAllMoves } from "silphscope" // :O
+#### renderAllMoves()
 
-const rom = fs.readFileSync("pokefirered.gba") // stuff stuff stuff (more stuff!)
+(this function was a lot of work... specifically the image splitting... but you don't have to worry about that dear user as I have already suffered through completing all of that "logic") This function is for all battle move graphics contained within the game it is responsible for extracting said graphics as well as cutting them from their spritesheets into individual images. Below is the code example
+
+```JavaScript
+import { renderAllMoves } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
 await renderAllMoves(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // explanation above
-    pngCompressionLevel: 4, // explanation above
-    outputDir: "./Assets/trainers", // (incredibly) more stuff
-    renderMasterImage: true, // kinda forgot about this... basically it renders a uncut image of the move anim if you like
-    sortUnused: true, // sorts unused moves into a sub-directory
-})
+  outputDir: "./out",
+  renderMasterImage: true,
+  sortUnused: true,
+});
 ```
 
-ball image extraction:
-```JavaScript
-import fs from "fs";
-import { renderAllBalls } from "silphscope" // o-O
+#### renderAllBalls()
 
-const rom = fs.readFileSync("./path/to/your/rom.gba") // the file path explains :/
+`renderAllBalls()` is responsible for rendering both ball graphics and ball particle graphics. Below is the example code:
+
+```JavaScript
+import { renderAllBalls } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
 await renderAllBalls(rom, {
-    concurrency: 4, // handles how many concurrent promises are run. Set to 1 to run sequentially and conversly increase to run more promises at once (don't set too high though if your CPU / I/O can't handle it then it might actually be slower...)
-    pngFilterType: 0, // explanation above
-    pngCompressionLevel: 4, // explanation above
-    outputDir: "./Assets/Balls",
-    ballParticles: true, // set to false if you don't want the ball particles :p
-    renderMasterBallImage: true, // set to false if you don't want the uncut image
-    renderMasterBallParticleImage: true, // set to false if you also don't want the uncut particle image :p
-})
+  outputDir: "./out",
+  ballParticles: true,
+  renderMasterBallImage: true,
+  renderMasterBallParticleImage: true,
+});
+```
+
+~~(you actually read all of this? well anyway the readme isn't done yet... so this is weird... want a virtual cookie?)~~

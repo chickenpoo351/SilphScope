@@ -32,7 +32,8 @@
     "!graphics-maps/",
     "ball-data/",
     "!src/object-event-data-parser.js",
-    "silphscope.d.ts"
+    "silphscope.d.ts",
+    "docs/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
