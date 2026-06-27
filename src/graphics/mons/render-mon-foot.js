@@ -18,7 +18,7 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
     const { 
         pngFilterType = null,
         pngCompressionLevel = null,
-        returnFileBuffer,
+        returnFileBuffer = false,
         outputDir = null,
     } = options;
 

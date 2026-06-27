@@ -17,7 +17,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
 export async function renderIcon(itemName, items, reader, rom, options = {}) {
     const {
         pngFilterType = null,
-        pngCompressionType = null, 
+        pngCompressionLevel = null, 
         returnFileBuffer = false,
         outputDir = null 
     } = options;
@@ -54,7 +54,7 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
     png.data = image;
     const pngBuffer = PNG.sync.write(png, { 
         filterType: pngFilterType,
-        deflateLevel: pngCompressionType, 
+        deflateLevel: pngCompressionLevel, 
     });
 
     if (outputDir) {

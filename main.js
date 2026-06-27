@@ -13,31 +13,132 @@ import { decodePalette } from "./src/graphics/decode-palette.js";
 export { extract, lz77Decompress, RomReader, getRomConfig, render4bppImage, decode4bppTile, decode1bppTile, decodePalette };
 
 // mon related (mid-level? is that even a term?) stuff:
-import { renderMon } from "./src/graphics/mons/render-mons.js";
-import { renderMonIcon } from "./src/graphics/mons/render-mon-icon.js";
-import { renderMonFoot } from "./src/graphics/mons/render-mon-foot.js";
+import { renderMon as garbagePublicOptionsRenderMon } from "./src/graphics/mons/render-mons.js";
+import { renderMonIcon as garbagePublicOptionsRenderMonIcon } from "./src/graphics/mons/render-mon-icon.js";
+import { renderMonFoot as garbagePublicOptionsRenderMonFoot } from "./src/graphics/mons/render-mon-foot.js";
+
+async function renderMon(monName, mons, reader, rom, options = {}) { // so yes I could have set renderMon to just have these default options... but I kinda like it when the renderX functions default to nothing :p (let me enjoy my slightly useless code)
+    return garbagePublicOptionsRenderMon(monName, mons, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        side: ["front", "back"],
+        variant: ["normal", "shiny"],
+        icon: true,
+        footprint: true,
+        ...options,
+    });
+}
+
+async function renderMonIcon(monName, mons, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderMonIcon(monName, mons, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        ...options,
+    });
+}
+
+async function renderMonFoot(monName, mons, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderMonFoot(monName, mons, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        ...options,
+    });
+}
 
 export { renderMon, renderMonIcon, renderMonFoot };
 
 // icon related (I feel like mid level is a term but it isn't exactly mid level...) stuff:
-import { renderIcon } from "./src/graphics/icons/render-icons.js";
+import { renderIcon as garbagePublicOptionsRenderIcon } from "./src/graphics/icons/render-icons.js";
+
+async function renderIcon(itemName, items, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderIcon(itemName, items, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionType: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        ...options, 
+    });
+}
 
 export { renderIcon };
 
 // trainer related (maybe I should search the term...) stuff:
-import { renderTrainer } from "./src/graphics/trainers/render-trainers.js";
-import { renderTrainerBackPic } from "./src/graphics/trainers/render-trainer-back-pics.js";
+import { renderTrainer as garbagePublicOptionsRenderTrainer } from "./src/graphics/trainers/render-trainers.js";
+import { renderTrainerBackPic as garbagePublicOptionsRenderTrainerBackPic } from "./src/graphics/trainers/render-trainer-back-pics.js";
+
+async function renderTrainer(trainerName, trainers, backTrainers, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderTrainer(trainerName, trainers, backTrainers, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        trainerBackPics: true,
+        ...options,
+    });
+}
+
+async function renderTrainerBackPic(trainerName, trainers, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderTrainerBackPic(trainerName, trainers, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        ...options,
+    });
+}
 
 export { renderTrainer, renderTrainerBackPic };
 
 // move related mid level (turns out it is a term :o) stuff:
-import { renderMove } from "./src/graphics/moves/render-moves.js";
+import { renderMove as garbagePublicOptionsRenderMove } from "./src/graphics/moves/render-moves.js";
+
+async function renderMove(moveName, moves, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderMove(moveName, moves, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        renderMasterImage: true,
+        sortUnused: true,
+        ...options,
+    });
+}
 
 export { renderMove };
 
 // ball related mid level stuff:
-import { renderBall } from "./src/graphics/balls/render-balls.js";
-import { renderBallParticle } from "./src/graphics/balls/render-ball-particle.js";
+import { renderBall as garbagePublicOptionsRenderBall } from "./src/graphics/balls/render-balls.js";
+import { renderBallParticle as garbagePublicOptionsRenderBallParticle } from "./src/graphics/balls/render-ball-particle.js";
+
+async function renderBall(ballName, balls, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderBall(ballName, balls, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        ballParticles: true,
+        renderMasterBallImage: true,
+        renderMasterBallParticleImage: true,
+        ...options,
+    });
+}
+
+async function renderBallParticle(ballName, balls, reader, rom, options = {}) {
+    return garbagePublicOptionsRenderBallParticle(ballName, balls, reader, rom, {
+        pngFilterType: 0,
+        pngCompressionLevel: 4,
+        returnFileBuffer: false,
+        outputDir: "./out",
+        renderMasterBallParticleImage: true,
+        ...options,
+    });
+}
 
 export { renderBall, renderBallParticle }; // wait a second... oh well I have to redo this now... because these functions are highly unopinionated so if you don't change literally every option the defaults will just make the function do well nothing :p 
 
