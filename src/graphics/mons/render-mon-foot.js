@@ -26,7 +26,8 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
         throw new TypeError("renderMonFoot(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
-    let fileCount = 0;
+    let fullFileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const mon = mons[monName];
     if (!mon) {
         throw new Error(`Missing mon entry for ${monName}`);
@@ -90,11 +91,22 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
         await fs.promises.mkdir(dir, { recursive: true });
         const fileName = `${dir}/footprint.png`;
         await fs.promises.writeFile(fileName, pngBuffer);
-        fileCount += 1;
+        fullFileCount += 1;
+    }
+
+    if (returnFileBuffer) {
+        results.push({
+            name: `${monName}-footprint`,
+            category: "mon",
+            asset: "footprint",
+            path: `out/mons/${monName}/footprint`,
+            buffer: pngBuffer,
+            meta: {},
+        });
     }
 
     return {
-        ...(returnFileBuffer && { pngBuffer }),
-        fileCount,
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
     };
 }

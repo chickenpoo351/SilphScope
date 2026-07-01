@@ -62,7 +62,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
             outputDir,
             renderMasterBallParticleImage,
         });
-        fullFileCount += renderBallParticleData.fileCount;
+        fullFileCount += renderBallParticleData.fullFileCount;
         if (returnFileBuffer) {
             results.push(...renderBallParticleData.results);
         }

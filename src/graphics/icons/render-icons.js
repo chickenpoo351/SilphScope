@@ -27,6 +27,7 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
     }
 
     let fullFileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const item = items[itemName];
     if (!item) {
         throw new Error(`Missing Item: ${itemName}`);
@@ -64,9 +65,18 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
         await fs.promises.writeFile(fileName, pngBuffer);
         fullFileCount += 1;
     }
-
+    if (returnFileBuffer) {
+        finalResults.push({
+            name: `${itemName}-sprite`,
+            category: "icon",
+            asset: "sprite",
+            path: `out/icons/${itemName}/icon`,
+            buffer: pngBuffer,
+            meta: {},
+        });
+    }
     return {
-        ...(returnFileBuffer && { pngBuffer }),
+        ...(returnFileBuffer && { results }),
         fullFileCount,
     };
 }

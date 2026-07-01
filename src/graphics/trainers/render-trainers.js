@@ -45,50 +45,9 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
                 returnFileBuffer,
                 outputDir,
             });
-            fullFileCount += trainerBackPicData.fileCount;
+            fullFileCount += trainerBackPicData.fullFileCount;
             if (returnFileBuffer) {
-                results.push({
-                    name: `${trainerName}-back-frame1`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/${trainerName}/back_frame_1`,
-                    buffer: trainerBackPicData.frame1,
-                    meta: { },
-                });
-                results.push({
-                    name: `${trainerName}-back-frame2`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/${trainerName}/back_frame_2`,
-                    buffer: trainerBackPicData.frame2,
-                    meta: { },
-                });
-                results.push({
-                    name: `${trainerName}-back-frame3`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/${trainerName}/back_frame_3`,
-                    buffer: trainerBackPicData.frame3,
-                    meta: { },
-                });
-                results.push({
-                    name: `${trainerName}-back-frame4`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/${trainerName}/back_frame_4`,
-                    buffer: trainerBackPicData.frame4,
-                    meta: { },
-                });
-                if (trainerBackPicData?.frame5) {
-                    results.push({
-                        name: `${trainerName}-back-frame5`,
-                        category: "trainer",
-                        asset: "frame",
-                        path: `out/trainers/${trainerName}/back_frame_5`,
-                        buffer: trainerBackPicData.frame5,
-                        meta: { },
-                    });
-                }
+                results.push(...trainerBackPicData.results);
             }
         }
         else if (backTrainerName === false && trainerName === "PAINTER") {
@@ -98,40 +57,9 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
                 returnFileBuffer,
                 outputDir,
             });
-            fullFileCount += trainerBackPicData.fileCount;
+            fullFileCount += trainerBackPicData.fullFileCount;
             if (returnFileBuffer) {
-                results.push({
-                    name: `OLDMAN-back-frame1`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/OLDMAN/back_frame_1`,
-                    buffer: trainerBackPicData.frame1,
-                    meta: { },
-                });
-                results.push({
-                    name: `OLDMAN-back-frame2`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/OLDMAN/back_frame_2`,
-                    buffer: trainerBackPicData.frame2,
-                    meta: { },
-                });
-                results.push({
-                    name: `OLDMAN-back-frame3`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/OLDMAN/back_frame_3`,
-                    buffer: trainerBackPicData.frame3,
-                    meta: { },
-                });
-                results.push({
-                    name: `OLDMAN-back-frame4`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/OLDMAN/back_frame_4`,
-                    buffer: trainerBackPicData.frame4,
-                    meta: { },
-                });
+                results.push(...trainerBackPicData.results);
             }
             const trainerBackPicData2 = await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { 
                 pngFilterType,
@@ -139,40 +67,9 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
                 returnFileBuffer,
                 outputDir,
             });
-            fullFileCount += trainerBackPicData2.fileCount;
+            fullFileCount += trainerBackPicData2.fullFileCount;
             if (returnFileBuffer) {
-                results.push({
-                    name: `POKEDUDE-back-frame1`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/POKEDUDE/back_frame_1`,
-                    buffer: trainerBackPicData.frame1,
-                    meta: { },
-                });
-                results.push({
-                    name: `POKEDUDE-back-frame2`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/POKEDUDE/back_frame_2`,
-                    buffer: trainerBackPicData.frame2,
-                    meta: { },
-                });
-                results.push({
-                    name: `POKEDUDE-back-frame3`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/POKEDUDE/back_frame_3`,
-                    buffer: trainerBackPicData.frame3,
-                    meta: { },
-                });
-                results.push({
-                    name: `POKEDUDE-back-frame4`,
-                    category: "trainer",
-                    asset: "frame",
-                    path: `out/trainers/POKEDUDE/back_frame_4`,
-                    buffer: trainerBackPicData.frame4,
-                    meta: { },
-                }); // I have to think of a way to make this shorter... but thats for later I guess :p
+                results.push(...trainerBackPicData2.results);
             }
         }
     }

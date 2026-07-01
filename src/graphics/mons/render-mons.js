@@ -45,28 +45,9 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
             returnFileBuffer,
             outputDir,
         });
-        fullFileCount += monIconData.fileCount;
+        fullFileCount += monIconData.fullFileCount;
         if (returnFileBuffer) {
-            results.push({
-                name: `${monName}-icon-frame1`,
-                category: "mon",
-                asset: "icon",
-                path: `out/mons/${monName}/icon_frame1`,
-                buffer: monIconData.frame1,
-                meta: {
-                    frame: 1,
-                }
-            });
-            results.push({
-                name: `${monName}-icon-frame2`,
-                category: "mon",
-                asset: "icon",
-                path: `out/mons/${monName}/icon_frame2`,
-                buffer: monIconData.frame2,
-                meta: {
-                    frame: 2,
-                },
-            });
+            results.push(...monIconData.results);
         }
     }
     if (footprint === true) {
@@ -76,16 +57,9 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
             returnFileBuffer,
             outputDir,
         });
-        fullFileCount += monFootData.fileCount;
+        fullFileCount += monFootData.fullFileCount;
         if (returnFileBuffer) {
-            results.push({
-                name: `${monName}-footprint`,
-                category: "mon",
-                asset: "footprint",
-                path: `out/mons/${monName}/footprint`,
-                buffer: monFootData.pngBuffer,
-                meta: { },
-            });
+            results.push(...monFootData.results);
         }
     }
 

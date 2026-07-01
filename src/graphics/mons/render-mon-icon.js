@@ -27,7 +27,8 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
         throw new TypeError("renderMonIcon(..., rom) requires a ROM Buffer/Uint8Array");
     }
 
-    let fileCount = 0;
+    let fullFileCount = 0;
+    const results = returnFileBuffer? [] : null;
     const mon = mons[monName];
     if (!mon) {
         throw new Error(`Missing mon entry for ${monName}`);
@@ -71,12 +72,32 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
         await fs.promises.mkdir(dir, { recursive: true });
         await fs.promises.writeFile(`${dir}/icon_frame1.png`, buffer1);
         await fs.promises.writeFile(`${dir}/icon_frame2.png`, buffer2);
-        fileCount += 2;
+        fullFileCount += 2;
     }
-
+    if (returnFileBuffer) {
+        results.push({
+            name: `${monName}-icon-frame1`,
+            category: "mon",
+            asset: "icon",
+            path: `out/mons/${monName}/icon_frame1`,
+            buffer: buffer1,
+            meta: {
+                frame: 1,
+            }
+        });
+        results.push({
+            name: `${monName}-icon-frame2`,
+            category: "mon",
+            asset: "icon",
+            path: `out/mons/${monName}/icon_frame2`,
+            buffer: buffer2,
+            meta: {
+                frame: 2,
+            },
+        });
+    }
     return {
-        ...(returnFileBuffer && { frame1: buffer1 }),
-        ...(returnFileBuffer && { frame2: buffer2 }),
-        fileCount,
+        ...(returnFileBuffer && { results }),
+        fullFileCount,
     };
 }

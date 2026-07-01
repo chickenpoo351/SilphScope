@@ -143,14 +143,7 @@ export async function renderAllIcons(rom, options = {}) {
         }
         totalFileCount += renderIconData.fullFileCount;
         if (returnFileBuffer && renderIconData?.pngBuffer) {
-            finalResults.push({
-                name: `${itemName}-sprite`,
-                category: "icon",
-                asset: "sprite",
-                path: `out/icons/${itemName}/icon`,
-                buffer: renderIconData.pngBuffer,
-                meta: { },
-            });
+            finalResults.push(...renderIconData.results);
         }
     });
 
