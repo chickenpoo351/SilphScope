@@ -1,1882 +1,1130 @@
 {
   "NONE": {
-    "index": 0,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 0
   },
   "MASTER_BALL": {
-    "index": 1,
-    "icon": "gItemIcon_MasterBall",
-    "palette": "gItemIconPalette_MasterBall"
+    "index": 1
   },
   "ULTRA_BALL": {
-    "index": 2,
-    "icon": "gItemIcon_UltraBall",
-    "palette": "gItemIconPalette_UltraBall"
+    "index": 2
   },
   "GREAT_BALL": {
-    "index": 3,
-    "icon": "gItemIcon_GreatBall",
-    "palette": "gItemIconPalette_GreatBall"
+    "index": 3
   },
   "POKE_BALL": {
-    "index": 4,
-    "icon": "gItemIcon_PokeBall",
-    "palette": "gItemIconPalette_PokeBall"
+    "index": 4
   },
   "SAFARI_BALL": {
-    "index": 5,
-    "icon": "gItemIcon_SafariBall",
-    "palette": "gItemIconPalette_SafariBall"
+    "index": 5
   },
   "NET_BALL": {
-    "index": 6,
-    "icon": "gItemIcon_NetBall",
-    "palette": "gItemIconPalette_NetBall"
+    "index": 6
   },
   "DIVE_BALL": {
-    "index": 7,
-    "icon": "gItemIcon_DiveBall",
-    "palette": "gItemIconPalette_DiveBall"
+    "index": 7
   },
   "NEST_BALL": {
-    "index": 8,
-    "icon": "gItemIcon_NestBall",
-    "palette": "gItemIconPalette_NestBall"
+    "index": 8
   },
   "REPEAT_BALL": {
-    "index": 9,
-    "icon": "gItemIcon_RepeatBall",
-    "palette": "gItemIconPalette_RepeatBall"
+    "index": 9
   },
   "TIMER_BALL": {
-    "index": 10,
-    "icon": "gItemIcon_TimerBall",
-    "palette": "gItemIconPalette_RepeatBall"
+    "index": 10
   },
   "LUXURY_BALL": {
-    "index": 11,
-    "icon": "gItemIcon_LuxuryBall",
-    "palette": "gItemIconPalette_LuxuryBall"
+    "index": 11
   },
   "PREMIER_BALL": {
-    "index": 12,
-    "icon": "gItemIcon_PremierBall",
-    "palette": "gItemIconPalette_LuxuryBall"
+    "index": 12
   },
   "POTION": {
-    "index": 13,
-    "icon": "gItemIcon_Potion",
-    "palette": "gItemIconPalette_Potion"
+    "index": 13
   },
   "ANTIDOTE": {
-    "index": 14,
-    "icon": "gItemIcon_Antidote",
-    "palette": "gItemIconPalette_Antidote"
+    "index": 14
   },
   "BURN_HEAL": {
-    "index": 15,
-    "icon": "gItemIcon_StatusHeal",
-    "palette": "gItemIconPalette_BurnHeal"
+    "index": 15
   },
   "ICE_HEAL": {
-    "index": 16,
-    "icon": "gItemIcon_StatusHeal",
-    "palette": "gItemIconPalette_IceHeal"
+    "index": 16
   },
   "AWAKENING": {
-    "index": 17,
-    "icon": "gItemIcon_StatusHeal",
-    "palette": "gItemIconPalette_Awakening"
+    "index": 17
   },
   "PARALYZE_HEAL": {
-    "index": 18,
-    "icon": "gItemIcon_StatusHeal",
-    "palette": "gItemIconPalette_ParalyzeHeal"
+    "index": 18
   },
   "FULL_RESTORE": {
-    "index": 19,
-    "icon": "gItemIcon_LargePotion",
-    "palette": "gItemIconPalette_FullRestore"
+    "index": 19
   },
   "MAX_POTION": {
-    "index": 20,
-    "icon": "gItemIcon_LargePotion",
-    "palette": "gItemIconPalette_MaxPotion"
+    "index": 20
   },
   "HYPER_POTION": {
-    "index": 21,
-    "icon": "gItemIcon_Potion",
-    "palette": "gItemIconPalette_HyperPotion"
+    "index": 21
   },
   "SUPER_POTION": {
-    "index": 22,
-    "icon": "gItemIcon_Potion",
-    "palette": "gItemIconPalette_SuperPotion"
+    "index": 22
   },
   "FULL_HEAL": {
-    "index": 23,
-    "icon": "gItemIcon_FullHeal",
-    "palette": "gItemIconPalette_FullHeal"
+    "index": 23
   },
   "REVIVE": {
-    "index": 24,
-    "icon": "gItemIcon_Revive",
-    "palette": "gItemIconPalette_Revive"
+    "index": 24
   },
   "MAX_REVIVE": {
-    "index": 25,
-    "icon": "gItemIcon_MaxRevive",
-    "palette": "gItemIconPalette_Revive"
+    "index": 25
   },
   "FRESH_WATER": {
-    "index": 26,
-    "icon": "gItemIcon_FreshWater",
-    "palette": "gItemIconPalette_FreshWater"
+    "index": 26
   },
   "SODA_POP": {
-    "index": 27,
-    "icon": "gItemIcon_SodaPop",
-    "palette": "gItemIconPalette_SodaPop"
+    "index": 27
   },
   "LEMONADE": {
-    "index": 28,
-    "icon": "gItemIcon_Lemonade",
-    "palette": "gItemIconPalette_Lemonade"
+    "index": 28
   },
   "MOOMOO_MILK": {
-    "index": 29,
-    "icon": "gItemIcon_MoomooMilk",
-    "palette": "gItemIconPalette_MoomooMilk"
+    "index": 29
   },
   "ENERGY_POWDER": {
-    "index": 30,
-    "icon": "gItemIcon_Powder",
-    "palette": "gItemIconPalette_EnergyPowder"
+    "index": 30
   },
   "ENERGY_ROOT": {
-    "index": 31,
-    "icon": "gItemIcon_EnergyRoot",
-    "palette": "gItemIconPalette_EnergyRoot"
+    "index": 31
   },
   "HEAL_POWDER": {
-    "index": 32,
-    "icon": "gItemIcon_Powder",
-    "palette": "gItemIconPalette_HealPowder"
+    "index": 32
   },
   "REVIVAL_HERB": {
-    "index": 33,
-    "icon": "gItemIcon_RevivalHerb",
-    "palette": "gItemIconPalette_RevivalHerb"
+    "index": 33
   },
   "ETHER": {
-    "index": 34,
-    "icon": "gItemIcon_Ether",
-    "palette": "gItemIconPalette_Ether"
+    "index": 34
   },
   "MAX_ETHER": {
-    "index": 35,
-    "icon": "gItemIcon_Ether",
-    "palette": "gItemIconPalette_MaxEther"
+    "index": 35
   },
   "ELIXIR": {
-    "index": 36,
-    "icon": "gItemIcon_Ether",
-    "palette": "gItemIconPalette_Elixir"
+    "index": 36
   },
   "MAX_ELIXIR": {
-    "index": 37,
-    "icon": "gItemIcon_Ether",
-    "palette": "gItemIconPalette_MaxElixir"
+    "index": 37
   },
   "LAVA_COOKIE": {
-    "index": 38,
-    "icon": "gItemIcon_LavaCookie",
-    "palette": "gItemIconPalette_LavaCookieAndLetter"
+    "index": 38
   },
   "BLUE_FLUTE": {
-    "index": 39,
-    "icon": "gItemIcon_Flute",
-    "palette": "gItemIconPalette_BlueFlute"
+    "index": 39
   },
   "YELLOW_FLUTE": {
-    "index": 40,
-    "icon": "gItemIcon_Flute",
-    "palette": "gItemIconPalette_YellowFlute"
+    "index": 40
   },
   "RED_FLUTE": {
-    "index": 41,
-    "icon": "gItemIcon_Flute",
-    "palette": "gItemIconPalette_RedFlute"
+    "index": 41
   },
   "BLACK_FLUTE": {
-    "index": 42,
-    "icon": "gItemIcon_Flute",
-    "palette": "gItemIconPalette_BlackFlute"
+    "index": 42
   },
   "WHITE_FLUTE": {
-    "index": 43,
-    "icon": "gItemIcon_Flute",
-    "palette": "gItemIconPalette_WhiteFlute"
+    "index": 43
   },
   "BERRY_JUICE": {
-    "index": 44,
-    "icon": "gItemIcon_BerryJuice",
-    "palette": "gItemIconPalette_BerryJuice"
+    "index": 44
   },
   "SACRED_ASH": {
-    "index": 45,
-    "icon": "gItemIcon_SacredAsh",
-    "palette": "gItemIconPalette_SacredAsh"
+    "index": 45
   },
   "SHOAL_SALT": {
-    "index": 46,
-    "icon": "gItemIcon_Powder",
-    "palette": "gItemIconPalette_ShoalSalt"
+    "index": 46
   },
   "SHOAL_SHELL": {
-    "index": 47,
-    "icon": "gItemIcon_ShoalShell",
-    "palette": "gItemIconPalette_Shell"
+    "index": 47
   },
   "RED_SHARD": {
-    "index": 48,
-    "icon": "gItemIcon_Shard",
-    "palette": "gItemIconPalette_RedShard"
+    "index": 48
   },
   "BLUE_SHARD": {
-    "index": 49,
-    "icon": "gItemIcon_Shard",
-    "palette": "gItemIconPalette_BlueShard"
+    "index": 49
   },
   "YELLOW_SHARD": {
-    "index": 50,
-    "icon": "gItemIcon_Shard",
-    "palette": "gItemIconPalette_YellowShard"
+    "index": 50
   },
   "GREEN_SHARD": {
-    "index": 51,
-    "icon": "gItemIcon_Shard",
-    "palette": "gItemIconPalette_GreenShard"
+    "index": 51
   },
   "034": {
-    "index": 52,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 52
   },
   "035": {
-    "index": 53,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 53
   },
   "036": {
-    "index": 54,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 54
   },
   "037": {
-    "index": 55,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 55
   },
   "038": {
-    "index": 56,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 56
   },
   "039": {
-    "index": 57,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 57
   },
   "03A": {
-    "index": 58,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 58
   },
   "03B": {
-    "index": 59,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 59
   },
   "03C": {
-    "index": 60,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 60
   },
   "03D": {
-    "index": 61,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 61
   },
   "03E": {
-    "index": 62,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 62
   },
   "HP_UP": {
-    "index": 63,
-    "icon": "gItemIcon_HPUp",
-    "palette": "gItemIconPalette_HPUp"
+    "index": 63
   },
   "PROTEIN": {
-    "index": 64,
-    "icon": "gItemIcon_Vitamin",
-    "palette": "gItemIconPalette_Protein"
+    "index": 64
   },
   "IRON": {
-    "index": 65,
-    "icon": "gItemIcon_Vitamin",
-    "palette": "gItemIconPalette_Iron"
+    "index": 65
   },
   "CARBOS": {
-    "index": 66,
-    "icon": "gItemIcon_Vitamin",
-    "palette": "gItemIconPalette_Carbos"
+    "index": 66
   },
   "CALCIUM": {
-    "index": 67,
-    "icon": "gItemIcon_Vitamin",
-    "palette": "gItemIconPalette_Calcium"
+    "index": 67
   },
   "RARE_CANDY": {
-    "index": 68,
-    "icon": "gItemIcon_RareCandy",
-    "palette": "gItemIconPalette_RareCandy"
+    "index": 68
   },
   "PP_UP": {
-    "index": 69,
-    "icon": "gItemIcon_PPUp",
-    "palette": "gItemIconPalette_PPUp"
+    "index": 69
   },
   "ZINC": {
-    "index": 70,
-    "icon": "gItemIcon_Vitamin",
-    "palette": "gItemIconPalette_Zinc"
+    "index": 70
   },
   "PP_MAX": {
-    "index": 71,
-    "icon": "gItemIcon_PPMax",
-    "palette": "gItemIconPalette_PPMax"
+    "index": 71
   },
   "048": {
-    "index": 72,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 72
   },
   "GUARD_SPEC": {
-    "index": 73,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_GuardSpec"
+    "index": 73
   },
   "DIRE_HIT": {
-    "index": 74,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_DireHit"
+    "index": 74
   },
   "X_ATTACK": {
-    "index": 75,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_XAttack"
+    "index": 75
   },
   "X_DEFEND": {
-    "index": 76,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_XDefend"
+    "index": 76
   },
   "X_SPEED": {
-    "index": 77,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_XSpeed"
+    "index": 77
   },
   "X_ACCURACY": {
-    "index": 78,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_XAccuracy"
+    "index": 78
   },
   "X_SPECIAL": {
-    "index": 79,
-    "icon": "gItemIcon_BattleStatItem",
-    "palette": "gItemIconPalette_XSpecial"
+    "index": 79
   },
   "POKE_DOLL": {
-    "index": 80,
-    "icon": "gItemIcon_PokeDoll",
-    "palette": "gItemIconPalette_PokeDoll"
+    "index": 80
   },
   "FLUFFY_TAIL": {
-    "index": 81,
-    "icon": "gItemIcon_FluffyTail",
-    "palette": "gItemIconPalette_FluffyTail"
+    "index": 81
   },
   "052": {
-    "index": 82,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 82
   },
   "SUPER_REPEL": {
-    "index": 83,
-    "icon": "gItemIcon_Repel",
-    "palette": "gItemIconPalette_SuperRepel"
+    "index": 83
   },
   "MAX_REPEL": {
-    "index": 84,
-    "icon": "gItemIcon_Repel",
-    "palette": "gItemIconPalette_MaxRepel"
+    "index": 84
   },
   "ESCAPE_ROPE": {
-    "index": 85,
-    "icon": "gItemIcon_EscapeRope",
-    "palette": "gItemIconPalette_EscapeRope"
+    "index": 85
   },
   "REPEL": {
-    "index": 86,
-    "icon": "gItemIcon_Repel",
-    "palette": "gItemIconPalette_Repel"
+    "index": 86
   },
   "057": {
-    "index": 87,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 87
   },
   "058": {
-    "index": 88,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 88
   },
   "059": {
-    "index": 89,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 89
   },
   "05A": {
-    "index": 90,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 90
   },
   "05B": {
-    "index": 91,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 91
   },
   "05C": {
-    "index": 92,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 92
   },
   "SUN_STONE": {
-    "index": 93,
-    "icon": "gItemIcon_SunStone",
-    "palette": "gItemIconPalette_SunStone"
+    "index": 93
   },
   "MOON_STONE": {
-    "index": 94,
-    "icon": "gItemIcon_MoonStone",
-    "palette": "gItemIconPalette_MoonStone"
+    "index": 94
   },
   "FIRE_STONE": {
-    "index": 95,
-    "icon": "gItemIcon_FireStone",
-    "palette": "gItemIconPalette_FireStone"
+    "index": 95
   },
   "THUNDER_STONE": {
-    "index": 96,
-    "icon": "gItemIcon_ThunderStone",
-    "palette": "gItemIconPalette_ThunderStone"
+    "index": 96
   },
   "WATER_STONE": {
-    "index": 97,
-    "icon": "gItemIcon_WaterStone",
-    "palette": "gItemIconPalette_WaterStone"
+    "index": 97
   },
   "LEAF_STONE": {
-    "index": 98,
-    "icon": "gItemIcon_LeafStone",
-    "palette": "gItemIconPalette_LeafStone"
+    "index": 98
   },
   "063": {
-    "index": 99,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 99
   },
   "064": {
-    "index": 100,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 100
   },
   "065": {
-    "index": 101,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 101
   },
   "066": {
-    "index": 102,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 102
   },
   "TINY_MUSHROOM": {
-    "index": 103,
-    "icon": "gItemIcon_TinyMushroom",
-    "palette": "gItemIconPalette_Mushroom"
+    "index": 103
   },
   "BIG_MUSHROOM": {
-    "index": 104,
-    "icon": "gItemIcon_BigMushroom",
-    "palette": "gItemIconPalette_Mushroom"
+    "index": 104
   },
   "069": {
-    "index": 105,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 105
   },
   "PEARL": {
-    "index": 106,
-    "icon": "gItemIcon_Pearl",
-    "palette": "gItemIconPalette_Pearl"
+    "index": 106
   },
   "BIG_PEARL": {
-    "index": 107,
-    "icon": "gItemIcon_BigPearl",
-    "palette": "gItemIconPalette_Pearl"
+    "index": 107
   },
   "STARDUST": {
-    "index": 108,
-    "icon": "gItemIcon_Stardust",
-    "palette": "gItemIconPalette_Star"
+    "index": 108
   },
   "STAR_PIECE": {
-    "index": 109,
-    "icon": "gItemIcon_StarPiece",
-    "palette": "gItemIconPalette_Star"
+    "index": 109
   },
   "NUGGET": {
-    "index": 110,
-    "icon": "gItemIcon_Nugget",
-    "palette": "gItemIconPalette_Nugget"
+    "index": 110
   },
   "HEART_SCALE": {
-    "index": 111,
-    "icon": "gItemIcon_HeartScale",
-    "palette": "gItemIconPalette_HeartScale"
+    "index": 111
   },
   "070": {
-    "index": 112,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 112
   },
   "071": {
-    "index": 113,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 113
   },
   "072": {
-    "index": 114,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 114
   },
   "073": {
-    "index": 115,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 115
   },
   "074": {
-    "index": 116,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 116
   },
   "075": {
-    "index": 117,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 117
   },
   "076": {
-    "index": 118,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 118
   },
   "077": {
-    "index": 119,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 119
   },
   "078": {
-    "index": 120,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 120
   },
   "ORANGE_MAIL": {
-    "index": 121,
-    "icon": "gItemIcon_OrangeMail",
-    "palette": "gItemIconPalette_OrangeMail"
+    "index": 121
   },
   "HARBOR_MAIL": {
-    "index": 122,
-    "icon": "gItemIcon_HarborMail",
-    "palette": "gItemIconPalette_HarborMail"
+    "index": 122
   },
   "GLITTER_MAIL": {
-    "index": 123,
-    "icon": "gItemIcon_GlitterMail",
-    "palette": "gItemIconPalette_GlitterMail"
+    "index": 123
   },
   "MECH_MAIL": {
-    "index": 124,
-    "icon": "gItemIcon_MechMail",
-    "palette": "gItemIconPalette_MechMail"
+    "index": 124
   },
   "WOOD_MAIL": {
-    "index": 125,
-    "icon": "gItemIcon_WoodMail",
-    "palette": "gItemIconPalette_WoodMail"
+    "index": 125
   },
   "WAVE_MAIL": {
-    "index": 126,
-    "icon": "gItemIcon_WaveMail",
-    "palette": "gItemIconPalette_WaveMail"
+    "index": 126
   },
   "BEAD_MAIL": {
-    "index": 127,
-    "icon": "gItemIcon_BeadMail",
-    "palette": "gItemIconPalette_BeadMail"
+    "index": 127
   },
   "SHADOW_MAIL": {
-    "index": 128,
-    "icon": "gItemIcon_ShadowMail",
-    "palette": "gItemIconPalette_ShadowMail"
+    "index": 128
   },
   "TROPIC_MAIL": {
-    "index": 129,
-    "icon": "gItemIcon_TropicMail",
-    "palette": "gItemIconPalette_TropicMail"
+    "index": 129
   },
   "DREAM_MAIL": {
-    "index": 130,
-    "icon": "gItemIcon_DreamMail",
-    "palette": "gItemIconPalette_DreamMail"
+    "index": 130
   },
   "FAB_MAIL": {
-    "index": 131,
-    "icon": "gItemIcon_FabMail",
-    "palette": "gItemIconPalette_FabMail"
+    "index": 131
   },
   "RETRO_MAIL": {
-    "index": 132,
-    "icon": "gItemIcon_RetroMail",
-    "palette": "gItemIconPalette_RetroMail"
+    "index": 132
   },
   "CHERI_BERRY": {
-    "index": 133,
-    "icon": "gItemIcon_CheriBerry",
-    "palette": "gItemIconPalette_CheriBerry"
+    "index": 133
   },
   "CHESTO_BERRY": {
-    "index": 134,
-    "icon": "gItemIcon_ChestoBerry",
-    "palette": "gItemIconPalette_ChestoBerry"
+    "index": 134
   },
   "PECHA_BERRY": {
-    "index": 135,
-    "icon": "gItemIcon_PechaBerry",
-    "palette": "gItemIconPalette_PechaBerry"
+    "index": 135
   },
   "RAWST_BERRY": {
-    "index": 136,
-    "icon": "gItemIcon_RawstBerry",
-    "palette": "gItemIconPalette_RawstBerry"
+    "index": 136
   },
   "ASPEAR_BERRY": {
-    "index": 137,
-    "icon": "gItemIcon_AspearBerry",
-    "palette": "gItemIconPalette_AspearBerry"
+    "index": 137
   },
   "LEPPA_BERRY": {
-    "index": 138,
-    "icon": "gItemIcon_LeppaBerry",
-    "palette": "gItemIconPalette_LeppaBerry"
+    "index": 138
   },
   "ORAN_BERRY": {
-    "index": 139,
-    "icon": "gItemIcon_OranBerry",
-    "palette": "gItemIconPalette_OranBerry"
+    "index": 139
   },
   "PERSIM_BERRY": {
-    "index": 140,
-    "icon": "gItemIcon_PersimBerry",
-    "palette": "gItemIconPalette_PersimBerry"
+    "index": 140
   },
   "LUM_BERRY": {
-    "index": 141,
-    "icon": "gItemIcon_LumBerry",
-    "palette": "gItemIconPalette_LumBerry"
+    "index": 141
   },
   "SITRUS_BERRY": {
-    "index": 142,
-    "icon": "gItemIcon_SitrusBerry",
-    "palette": "gItemIconPalette_SitrusBerry"
+    "index": 142
   },
   "FIGY_BERRY": {
-    "index": 143,
-    "icon": "gItemIcon_FigyBerry",
-    "palette": "gItemIconPalette_FigyBerry"
+    "index": 143
   },
   "WIKI_BERRY": {
-    "index": 144,
-    "icon": "gItemIcon_WikiBerry",
-    "palette": "gItemIconPalette_WikiBerry"
+    "index": 144
   },
   "MAGO_BERRY": {
-    "index": 145,
-    "icon": "gItemIcon_MagoBerry",
-    "palette": "gItemIconPalette_MagoBerry"
+    "index": 145
   },
   "AGUAV_BERRY": {
-    "index": 146,
-    "icon": "gItemIcon_AguavBerry",
-    "palette": "gItemIconPalette_AguavBerry"
+    "index": 146
   },
   "IAPAPA_BERRY": {
-    "index": 147,
-    "icon": "gItemIcon_IapapaBerry",
-    "palette": "gItemIconPalette_IapapaBerry"
+    "index": 147
   },
   "RAZZ_BERRY": {
-    "index": 148,
-    "icon": "gItemIcon_RazzBerry",
-    "palette": "gItemIconPalette_RazzBerry"
+    "index": 148
   },
   "BLUK_BERRY": {
-    "index": 149,
-    "icon": "gItemIcon_BlukBerry",
-    "palette": "gItemIconPalette_BlukBerry"
+    "index": 149
   },
   "NANAB_BERRY": {
-    "index": 150,
-    "icon": "gItemIcon_NanabBerry",
-    "palette": "gItemIconPalette_NanabBerry"
+    "index": 150
   },
   "WEPEAR_BERRY": {
-    "index": 151,
-    "icon": "gItemIcon_WepearBerry",
-    "palette": "gItemIconPalette_WepearBerry"
+    "index": 151
   },
   "PINAP_BERRY": {
-    "index": 152,
-    "icon": "gItemIcon_PinapBerry",
-    "palette": "gItemIconPalette_PinapBerry"
+    "index": 152
   },
   "POMEG_BERRY": {
-    "index": 153,
-    "icon": "gItemIcon_PomegBerry",
-    "palette": "gItemIconPalette_PomegBerry"
+    "index": 153
   },
   "KELPSY_BERRY": {
-    "index": 154,
-    "icon": "gItemIcon_KelpsyBerry",
-    "palette": "gItemIconPalette_KelpsyBerry"
+    "index": 154
   },
   "QUALOT_BERRY": {
-    "index": 155,
-    "icon": "gItemIcon_QualotBerry",
-    "palette": "gItemIconPalette_QualotBerry"
+    "index": 155
   },
   "HONDEW_BERRY": {
-    "index": 156,
-    "icon": "gItemIcon_HondewBerry",
-    "palette": "gItemIconPalette_HondewBerry"
+    "index": 156
   },
   "GREPA_BERRY": {
-    "index": 157,
-    "icon": "gItemIcon_GrepaBerry",
-    "palette": "gItemIconPalette_GrepaBerry"
+    "index": 157
   },
   "TAMATO_BERRY": {
-    "index": 158,
-    "icon": "gItemIcon_TamatoBerry",
-    "palette": "gItemIconPalette_TamatoBerry"
+    "index": 158
   },
   "CORNN_BERRY": {
-    "index": 159,
-    "icon": "gItemIcon_CornnBerry",
-    "palette": "gItemIconPalette_CornnBerry"
+    "index": 159
   },
   "MAGOST_BERRY": {
-    "index": 160,
-    "icon": "gItemIcon_MagostBerry",
-    "palette": "gItemIconPalette_MagostBerry"
+    "index": 160
   },
   "RABUTA_BERRY": {
-    "index": 161,
-    "icon": "gItemIcon_RabutaBerry",
-    "palette": "gItemIconPalette_RabutaBerry"
+    "index": 161
   },
   "NOMEL_BERRY": {
-    "index": 162,
-    "icon": "gItemIcon_NomelBerry",
-    "palette": "gItemIconPalette_NomelBerry"
+    "index": 162
   },
   "SPELON_BERRY": {
-    "index": 163,
-    "icon": "gItemIcon_SpelonBerry",
-    "palette": "gItemIconPalette_SpelonBerry"
+    "index": 163
   },
   "PAMTRE_BERRY": {
-    "index": 164,
-    "icon": "gItemIcon_PamtreBerry",
-    "palette": "gItemIconPalette_PamtreBerry"
+    "index": 164
   },
   "WATMEL_BERRY": {
-    "index": 165,
-    "icon": "gItemIcon_WatmelBerry",
-    "palette": "gItemIconPalette_WatmelBerry"
+    "index": 165
   },
   "DURIN_BERRY": {
-    "index": 166,
-    "icon": "gItemIcon_DurinBerry",
-    "palette": "gItemIconPalette_DurinBerry"
+    "index": 166
   },
   "BELUE_BERRY": {
-    "index": 167,
-    "icon": "gItemIcon_BelueBerry",
-    "palette": "gItemIconPalette_BelueBerry"
+    "index": 167
   },
   "LIECHI_BERRY": {
-    "index": 168,
-    "icon": "gItemIcon_LiechiBerry",
-    "palette": "gItemIconPalette_LiechiBerry"
+    "index": 168
   },
   "GANLON_BERRY": {
-    "index": 169,
-    "icon": "gItemIcon_GanlonBerry",
-    "palette": "gItemIconPalette_GanlonBerry"
+    "index": 169
   },
   "SALAC_BERRY": {
-    "index": 170,
-    "icon": "gItemIcon_SalacBerry",
-    "palette": "gItemIconPalette_SalacBerry"
+    "index": 170
   },
   "PETAYA_BERRY": {
-    "index": 171,
-    "icon": "gItemIcon_PetayaBerry",
-    "palette": "gItemIconPalette_PetayaBerry"
+    "index": 171
   },
   "APICOT_BERRY": {
-    "index": 172,
-    "icon": "gItemIcon_ApicotBerry",
-    "palette": "gItemIconPalette_ApicotBerry"
+    "index": 172
   },
   "LANSAT_BERRY": {
-    "index": 173,
-    "icon": "gItemIcon_LansatBerry",
-    "palette": "gItemIconPalette_LansatBerry"
+    "index": 173
   },
   "STARF_BERRY": {
-    "index": 174,
-    "icon": "gItemIcon_StarfBerry",
-    "palette": "gItemIconPalette_StarfBerry"
+    "index": 174
   },
   "ENIGMA_BERRY": {
-    "index": 175,
-    "icon": "gItemIcon_EnigmaBerry",
-    "palette": "gItemIconPalette_EnigmaBerry"
+    "index": 175
   },
   "UNUSED_BERRY_1": {
-    "index": 176,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 176
   },
   "UNUSED_BERRY_2": {
-    "index": 177,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 177
   },
   "UNUSED_BERRY_3": {
-    "index": 178,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 178
   },
   "BRIGHT_POWDER": {
-    "index": 179,
-    "icon": "gItemIcon_BrightPowder",
-    "palette": "gItemIconPalette_BrightPowder"
+    "index": 179
   },
   "WHITE_HERB": {
-    "index": 180,
-    "icon": "gItemIcon_InBattleHerb",
-    "palette": "gItemIconPalette_WhiteHerb"
+    "index": 180
   },
   "MACHO_BRACE": {
-    "index": 181,
-    "icon": "gItemIcon_MachoBrace",
-    "palette": "gItemIconPalette_MachoBrace"
+    "index": 181
   },
   "EXP_SHARE": {
-    "index": 182,
-    "icon": "gItemIcon_ExpShare",
-    "palette": "gItemIconPalette_ExpShare"
+    "index": 182
   },
   "QUICK_CLAW": {
-    "index": 183,
-    "icon": "gItemIcon_QuickClaw",
-    "palette": "gItemIconPalette_QuickClaw"
+    "index": 183
   },
   "SOOTHE_BELL": {
-    "index": 184,
-    "icon": "gItemIcon_SootheBell",
-    "palette": "gItemIconPalette_SootheBell"
+    "index": 184
   },
   "MENTAL_HERB": {
-    "index": 185,
-    "icon": "gItemIcon_InBattleHerb",
-    "palette": "gItemIconPalette_MentalHerb"
+    "index": 185
   },
   "CHOICE_BAND": {
-    "index": 186,
-    "icon": "gItemIcon_ChoiceBand",
-    "palette": "gItemIconPalette_ChoiceBand"
+    "index": 186
   },
   "KINGS_ROCK": {
-    "index": 187,
-    "icon": "gItemIcon_KingsRock",
-    "palette": "gItemIconPalette_KingsRock"
+    "index": 187
   },
   "SILVER_POWDER": {
-    "index": 188,
-    "icon": "gItemIcon_SilverPowder",
-    "palette": "gItemIconPalette_SilverPowder"
+    "index": 188
   },
   "AMULET_COIN": {
-    "index": 189,
-    "icon": "gItemIcon_AmuletCoin",
-    "palette": "gItemIconPalette_AmuletCoin"
+    "index": 189
   },
   "CLEANSE_TAG": {
-    "index": 190,
-    "icon": "gItemIcon_CleanseTag",
-    "palette": "gItemIconPalette_CleanseTag"
+    "index": 190
   },
   "SOUL_DEW": {
-    "index": 191,
-    "icon": "gItemIcon_SoulDew",
-    "palette": "gItemIconPalette_SoulDew"
+    "index": 191
   },
   "DEEP_SEA_TOOTH": {
-    "index": 192,
-    "icon": "gItemIcon_DeepSeaTooth",
-    "palette": "gItemIconPalette_DeepSeaTooth"
+    "index": 192
   },
   "DEEP_SEA_SCALE": {
-    "index": 193,
-    "icon": "gItemIcon_DeepSeaScale",
-    "palette": "gItemIconPalette_DeepSeaScale"
+    "index": 193
   },
   "SMOKE_BALL": {
-    "index": 194,
-    "icon": "gItemIcon_SmokeBall",
-    "palette": "gItemIconPalette_SmokeBall"
+    "index": 194
   },
   "EVERSTONE": {
-    "index": 195,
-    "icon": "gItemIcon_Everstone",
-    "palette": "gItemIconPalette_Everstone"
+    "index": 195
   },
   "FOCUS_BAND": {
-    "index": 196,
-    "icon": "gItemIcon_FocusBand",
-    "palette": "gItemIconPalette_FocusBand"
+    "index": 196
   },
   "LUCKY_EGG": {
-    "index": 197,
-    "icon": "gItemIcon_LuckyEgg",
-    "palette": "gItemIconPalette_LuckyEgg"
+    "index": 197
   },
   "SCOPE_LENS": {
-    "index": 198,
-    "icon": "gItemIcon_ScopeLens",
-    "palette": "gItemIconPalette_ScopeLens"
+    "index": 198
   },
   "METAL_COAT": {
-    "index": 199,
-    "icon": "gItemIcon_MetalCoat",
-    "palette": "gItemIconPalette_MetalCoat"
+    "index": 199
   },
   "LEFTOVERS": {
-    "index": 200,
-    "icon": "gItemIcon_Leftovers",
-    "palette": "gItemIconPalette_Leftovers"
+    "index": 200
   },
   "DRAGON_SCALE": {
-    "index": 201,
-    "icon": "gItemIcon_DragonScale",
-    "palette": "gItemIconPalette_DragonScale"
+    "index": 201
   },
   "LIGHT_BALL": {
-    "index": 202,
-    "icon": "gItemIcon_LightBall",
-    "palette": "gItemIconPalette_LightBall"
+    "index": 202
   },
   "SOFT_SAND": {
-    "index": 203,
-    "icon": "gItemIcon_SoftSand",
-    "palette": "gItemIconPalette_SoftSand"
+    "index": 203
   },
   "HARD_STONE": {
-    "index": 204,
-    "icon": "gItemIcon_HardStone",
-    "palette": "gItemIconPalette_HardStone"
+    "index": 204
   },
   "MIRACLE_SEED": {
-    "index": 205,
-    "icon": "gItemIcon_MiracleSeed",
-    "palette": "gItemIconPalette_MiracleSeed"
+    "index": 205
   },
   "BLACK_GLASSES": {
-    "index": 206,
-    "icon": "gItemIcon_BlackGlasses",
-    "palette": "gItemIconPalette_BlackTypeEnhancingItem"
+    "index": 206
   },
   "BLACK_BELT": {
-    "index": 207,
-    "icon": "gItemIcon_BlackBelt",
-    "palette": "gItemIconPalette_BlackTypeEnhancingItem"
+    "index": 207
   },
   "MAGNET": {
-    "index": 208,
-    "icon": "gItemIcon_Magnet",
-    "palette": "gItemIconPalette_Magnet"
+    "index": 208
   },
   "MYSTIC_WATER": {
-    "index": 209,
-    "icon": "gItemIcon_MysticWater",
-    "palette": "gItemIconPalette_MysticWater"
+    "index": 209
   },
   "SHARP_BEAK": {
-    "index": 210,
-    "icon": "gItemIcon_SharpBeak",
-    "palette": "gItemIconPalette_SharpBeak"
+    "index": 210
   },
   "POISON_BARB": {
-    "index": 211,
-    "icon": "gItemIcon_PoisonBarb",
-    "palette": "gItemIconPalette_PoisonBarb"
+    "index": 211
   },
   "NEVER_MELT_ICE": {
-    "index": 212,
-    "icon": "gItemIcon_NeverMeltIce",
-    "palette": "gItemIconPalette_NeverMeltIce"
+    "index": 212
   },
   "SPELL_TAG": {
-    "index": 213,
-    "icon": "gItemIcon_SpellTag",
-    "palette": "gItemIconPalette_SpellTag"
+    "index": 213
   },
   "TWISTED_SPOON": {
-    "index": 214,
-    "icon": "gItemIcon_TwistedSpoon",
-    "palette": "gItemIconPalette_TwistedSpoon"
+    "index": 214
   },
   "CHARCOAL": {
-    "index": 215,
-    "icon": "gItemIcon_Charcoal",
-    "palette": "gItemIconPalette_Charcoal"
+    "index": 215
   },
   "DRAGON_FANG": {
-    "index": 216,
-    "icon": "gItemIcon_DragonFang",
-    "palette": "gItemIconPalette_DragonFang"
+    "index": 216
   },
   "SILK_SCARF": {
-    "index": 217,
-    "icon": "gItemIcon_SilkScarf",
-    "palette": "gItemIconPalette_SilkScarf"
+    "index": 217
   },
   "UP_GRADE": {
-    "index": 218,
-    "icon": "gItemIcon_UpGrade",
-    "palette": "gItemIconPalette_UpGrade"
+    "index": 218
   },
   "SHELL_BELL": {
-    "index": 219,
-    "icon": "gItemIcon_ShellBell",
-    "palette": "gItemIconPalette_Shell"
+    "index": 219
   },
   "SEA_INCENSE": {
-    "index": 220,
-    "icon": "gItemIcon_SeaIncense",
-    "palette": "gItemIconPalette_SeaIncense"
+    "index": 220
   },
   "LAX_INCENSE": {
-    "index": 221,
-    "icon": "gItemIcon_LaxIncense",
-    "palette": "gItemIconPalette_LaxIncense"
+    "index": 221
   },
   "LUCKY_PUNCH": {
-    "index": 222,
-    "icon": "gItemIcon_LuckyPunch",
-    "palette": "gItemIconPalette_LuckyPunch"
+    "index": 222
   },
   "METAL_POWDER": {
-    "index": 223,
-    "icon": "gItemIcon_MetalPowder",
-    "palette": "gItemIconPalette_MetalPowder"
+    "index": 223
   },
   "THICK_CLUB": {
-    "index": 224,
-    "icon": "gItemIcon_ThickClub",
-    "palette": "gItemIconPalette_ThickClub"
+    "index": 224
   },
   "STICK": {
-    "index": 225,
-    "icon": "gItemIcon_Stick",
-    "palette": "gItemIconPalette_Stick"
+    "index": 225
   },
   "0E2": {
-    "index": 226,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 226
   },
   "0E3": {
-    "index": 227,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 227
   },
   "0E4": {
-    "index": 228,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 228
   },
   "0E5": {
-    "index": 229,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 229
   },
   "0E6": {
-    "index": 230,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 230
   },
   "0E7": {
-    "index": 231,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 231
   },
   "0E8": {
-    "index": 232,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 232
   },
   "0E9": {
-    "index": 233,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 233
   },
   "0EA": {
-    "index": 234,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 234
   },
   "0EB": {
-    "index": 235,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 235
   },
   "0EC": {
-    "index": 236,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 236
   },
   "0ED": {
-    "index": 237,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 237
   },
   "0EE": {
-    "index": 238,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 238
   },
   "0EF": {
-    "index": 239,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 239
   },
   "0F0": {
-    "index": 240,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 240
   },
   "0F1": {
-    "index": 241,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 241
   },
   "0F2": {
-    "index": 242,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 242
   },
   "0F3": {
-    "index": 243,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 243
   },
   "0F4": {
-    "index": 244,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 244
   },
   "0F5": {
-    "index": 245,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 245
   },
   "0F6": {
-    "index": 246,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 246
   },
   "0F7": {
-    "index": 247,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 247
   },
   "0F8": {
-    "index": 248,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 248
   },
   "0F9": {
-    "index": 249,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 249
   },
   "0FA": {
-    "index": 250,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 250
   },
   "0FB": {
-    "index": 251,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 251
   },
   "0FC": {
-    "index": 252,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 252
   },
   "0FD": {
-    "index": 253,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 253
   },
   "RED_SCARF": {
-    "index": 254,
-    "icon": "gItemIcon_Scarf",
-    "palette": "gItemIconPalette_RedScarf"
+    "index": 254
   },
   "BLUE_SCARF": {
-    "index": 255,
-    "icon": "gItemIcon_Scarf",
-    "palette": "gItemIconPalette_BlueScarf"
+    "index": 255
   },
   "PINK_SCARF": {
-    "index": 256,
-    "icon": "gItemIcon_Scarf",
-    "palette": "gItemIconPalette_PinkScarf"
+    "index": 256
   },
   "GREEN_SCARF": {
-    "index": 257,
-    "icon": "gItemIcon_Scarf",
-    "palette": "gItemIconPalette_GreenScarf"
+    "index": 257
   },
   "YELLOW_SCARF": {
-    "index": 258,
-    "icon": "gItemIcon_Scarf",
-    "palette": "gItemIconPalette_YellowScarf"
+    "index": 258
   },
   "MACH_BIKE": {
-    "index": 259,
-    "icon": "gItemIcon_MachBike",
-    "palette": "gItemIconPalette_MachBike"
+    "index": 259
   },
   "COIN_CASE": {
-    "index": 260,
-    "icon": "gItemIcon_CoinCase",
-    "palette": "gItemIconPalette_CoinCase"
+    "index": 260
   },
   "ITEMFINDER": {
-    "index": 261,
-    "icon": "gItemIcon_Itemfinder",
-    "palette": "gItemIconPalette_Itemfinder"
+    "index": 261
   },
   "OLD_ROD": {
-    "index": 262,
-    "icon": "gItemIcon_OldRod",
-    "palette": "gItemIconPalette_OldRod"
+    "index": 262
   },
   "GOOD_ROD": {
-    "index": 263,
-    "icon": "gItemIcon_GoodRod",
-    "palette": "gItemIconPalette_GoodRod"
+    "index": 263
   },
   "SUPER_ROD": {
-    "index": 264,
-    "icon": "gItemIcon_SuperRod",
-    "palette": "gItemIconPalette_SuperRod"
+    "index": 264
   },
   "SS_TICKET": {
-    "index": 265,
-    "icon": "gItemIcon_SSTicket",
-    "palette": "gItemIconPalette_SSTicket"
+    "index": 265
   },
   "CONTEST_PASS": {
-    "index": 266,
-    "icon": "gItemIcon_ContestPass",
-    "palette": "gItemIconPalette_ContestPass"
+    "index": 266
   },
   "10B": {
-    "index": 267,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 267
   },
   "WAILMER_PAIL": {
-    "index": 268,
-    "icon": "gItemIcon_WailmerPail",
-    "palette": "gItemIconPalette_WailmerPail"
+    "index": 268
   },
   "DEVON_GOODS": {
-    "index": 269,
-    "icon": "gItemIcon_DevonGoods",
-    "palette": "gItemIconPalette_DevonGoods"
+    "index": 269
   },
   "SOOT_SACK": {
-    "index": 270,
-    "icon": "gItemIcon_SootSack",
-    "palette": "gItemIconPalette_SootSack"
+    "index": 270
   },
   "BASEMENT_KEY": {
-    "index": 271,
-    "icon": "gItemIcon_BasementKey",
-    "palette": "gItemIconPalette_OldKey"
+    "index": 271
   },
   "ACRO_BIKE": {
-    "index": 272,
-    "icon": "gItemIcon_AcroBike",
-    "palette": "gItemIconPalette_AcroBike"
+    "index": 272
   },
   "POKEBLOCK_CASE": {
-    "index": 273,
-    "icon": "gItemIcon_PokeblockCase",
-    "palette": "gItemIconPalette_PokeblockCase"
+    "index": 273
   },
   "LETTER": {
-    "index": 274,
-    "icon": "gItemIcon_Letter",
-    "palette": "gItemIconPalette_LavaCookieAndLetter"
+    "index": 274
   },
   "EON_TICKET": {
-    "index": 275,
-    "icon": "gItemIcon_EonTicket",
-    "palette": "gItemIconPalette_EonTicket"
+    "index": 275
   },
   "RED_ORB": {
-    "index": 276,
-    "icon": "gItemIcon_Orb",
-    "palette": "gItemIconPalette_RedOrb"
+    "index": 276
   },
   "BLUE_ORB": {
-    "index": 277,
-    "icon": "gItemIcon_Orb",
-    "palette": "gItemIconPalette_BlueOrb"
+    "index": 277
   },
   "SCANNER": {
-    "index": 278,
-    "icon": "gItemIcon_Scanner",
-    "palette": "gItemIconPalette_Scanner"
+    "index": 278
   },
   "GO_GOGGLES": {
-    "index": 279,
-    "icon": "gItemIcon_GoGoggles",
-    "palette": "gItemIconPalette_GoGoggles"
+    "index": 279
   },
   "METEORITE": {
-    "index": 280,
-    "icon": "gItemIcon_Meteorite",
-    "palette": "gItemIconPalette_Meteorite"
+    "index": 280
   },
   "ROOM_1_KEY": {
-    "index": 281,
-    "icon": "gItemIcon_Room1Key",
-    "palette": "gItemIconPalette_Key"
+    "index": 281
   },
   "ROOM_2_KEY": {
-    "index": 282,
-    "icon": "gItemIcon_Room2Key",
-    "palette": "gItemIconPalette_Key"
+    "index": 282
   },
   "ROOM_4_KEY": {
-    "index": 283,
-    "icon": "gItemIcon_Room4Key",
-    "palette": "gItemIconPalette_Key"
+    "index": 283
   },
   "ROOM_6_KEY": {
-    "index": 284,
-    "icon": "gItemIcon_Room6Key",
-    "palette": "gItemIconPalette_Key"
+    "index": 284
   },
   "STORAGE_KEY": {
-    "index": 285,
-    "icon": "gItemIcon_StorageKey",
-    "palette": "gItemIconPalette_OldKey"
+    "index": 285
   },
   "ROOT_FOSSIL": {
-    "index": 286,
-    "icon": "gItemIcon_RootFossil",
-    "palette": "gItemIconPalette_HoennFossil"
+    "index": 286
   },
   "CLAW_FOSSIL": {
-    "index": 287,
-    "icon": "gItemIcon_ClawFossil",
-    "palette": "gItemIconPalette_HoennFossil"
+    "index": 287
   },
   "DEVON_SCOPE": {
-    "index": 288,
-    "icon": "gItemIcon_DevonScope",
-    "palette": "gItemIconPalette_DevonScope"
+    "index": 288
   },
   "TM01": {
-    "index": 289,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FightingTMHM"
+    "index": 289
   },
   "TM02": {
-    "index": 290,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_DragonTMHM"
+    "index": 290
   },
   "TM03": {
-    "index": 291,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_WaterTMHM"
+    "index": 291
   },
   "TM04": {
-    "index": 292,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 292
   },
   "TM05": {
-    "index": 293,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 293
   },
   "TM06": {
-    "index": 294,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PoisonTMHM"
+    "index": 294
   },
   "TM07": {
-    "index": 295,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_IceTMHM"
+    "index": 295
   },
   "TM08": {
-    "index": 296,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FightingTMHM"
+    "index": 296
   },
   "TM09": {
-    "index": 297,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GrassTMHM"
+    "index": 297
   },
   "TM10": {
-    "index": 298,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 298
   },
   "TM11": {
-    "index": 299,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FireTMHM"
+    "index": 299
   },
   "TM12": {
-    "index": 300,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_DarkTMHM"
+    "index": 300
   },
   "TM13": {
-    "index": 301,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_IceTMHM"
+    "index": 301
   },
   "TM14": {
-    "index": 302,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_IceTMHM"
+    "index": 302
   },
   "TM15": {
-    "index": 303,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 303
   },
   "TM16": {
-    "index": 304,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 304
   },
   "TM17": {
-    "index": 305,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 305
   },
   "TM18": {
-    "index": 306,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_WaterTMHM"
+    "index": 306
   },
   "TM19": {
-    "index": 307,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GrassTMHM"
+    "index": 307
   },
   "TM20": {
-    "index": 308,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 308
   },
   "TM21": {
-    "index": 309,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 309
   },
   "TM22": {
-    "index": 310,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GrassTMHM"
+    "index": 310
   },
   "TM23": {
-    "index": 311,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_SteelTMHM"
+    "index": 311
   },
   "TM24": {
-    "index": 312,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_ElectricTMHM"
+    "index": 312
   },
   "TM25": {
-    "index": 313,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_ElectricTMHM"
+    "index": 313
   },
   "TM26": {
-    "index": 314,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GroundTMHM"
+    "index": 314
   },
   "TM27": {
-    "index": 315,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 315
   },
   "TM28": {
-    "index": 316,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GroundTMHM"
+    "index": 316
   },
   "TM29": {
-    "index": 317,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 317
   },
   "TM30": {
-    "index": 318,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_GhostTMHM"
+    "index": 318
   },
   "TM31": {
-    "index": 319,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FightingTMHM"
+    "index": 319
   },
   "TM32": {
-    "index": 320,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 320
   },
   "TM33": {
-    "index": 321,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 321
   },
   "TM34": {
-    "index": 322,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_ElectricTMHM"
+    "index": 322
   },
   "TM35": {
-    "index": 323,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FireTMHM"
+    "index": 323
   },
   "TM36": {
-    "index": 324,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PoisonTMHM"
+    "index": 324
   },
   "TM37": {
-    "index": 325,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_RockTMHM"
+    "index": 325
   },
   "TM38": {
-    "index": 326,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FireTMHM"
+    "index": 326
   },
   "TM39": {
-    "index": 327,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_RockTMHM"
+    "index": 327
   },
   "TM40": {
-    "index": 328,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FlyingTMHM"
+    "index": 328
   },
   "TM41": {
-    "index": 329,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_DarkTMHM"
+    "index": 329
   },
   "TM42": {
-    "index": 330,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 330
   },
   "TM43": {
-    "index": 331,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 331
   },
   "TM44": {
-    "index": 332,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 332
   },
   "TM45": {
-    "index": 333,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 333
   },
   "TM46": {
-    "index": 334,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_DarkTMHM"
+    "index": 334
   },
   "TM47": {
-    "index": 335,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_SteelTMHM"
+    "index": 335
   },
   "TM48": {
-    "index": 336,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_PsychicTMHM"
+    "index": 336
   },
   "TM49": {
-    "index": 337,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_DarkTMHM"
+    "index": 337
   },
   "TM50": {
-    "index": 338,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FireTMHM"
+    "index": 338
   },
   "HM01": {
-    "index": 339,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 339
   },
   "HM02": {
-    "index": 340,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FlyingTMHM"
+    "index": 340
   },
   "HM03": {
-    "index": 341,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_WaterTMHM"
+    "index": 341
   },
   "HM04": {
-    "index": 342,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 342
   },
   "HM05": {
-    "index": 343,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_NormalTMHM"
+    "index": 343
   },
   "HM06": {
-    "index": 344,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_FightingTMHM"
+    "index": 344
   },
   "HM07": {
-    "index": 345,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_WaterTMHM"
+    "index": 345
   },
   "HM08": {
-    "index": 346,
-    "icon": "gItemIcon_TMHM",
-    "palette": "gItemIconPalette_WaterTMHM"
+    "index": 346
   },
   "15B": {
-    "index": 347,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 347
   },
   "15C": {
-    "index": 348,
-    "icon": "gItemIcon_QuestionMark",
-    "palette": "gItemIconPalette_QuestionMark"
+    "index": 348
   },
   "OAKS_PARCEL": {
-    "index": 349,
-    "icon": "gItemIcon_OaksParcel",
-    "palette": "gItemIconPalette_OaksParcel"
+    "index": 349
   },
   "POKE_FLUTE": {
-    "index": 350,
-    "icon": "gItemIcon_PokeFlute",
-    "palette": "gItemIconPalette_PokeFlute"
+    "index": 350
   },
   "SECRET_KEY": {
-    "index": 351,
-    "icon": "gItemIcon_SecretKey",
-    "palette": "gItemIconPalette_SecretKey"
+    "index": 351
   },
   "BIKE_VOUCHER": {
-    "index": 352,
-    "icon": "gItemIcon_BikeVoucher",
-    "palette": "gItemIconPalette_BikeVoucher"
+    "index": 352
   },
   "GOLD_TEETH": {
-    "index": 353,
-    "icon": "gItemIcon_GoldTeeth",
-    "palette": "gItemIconPalette_GoldTeeth"
+    "index": 353
   },
   "OLD_AMBER": {
-    "index": 354,
-    "icon": "gItemIcon_OldAmber",
-    "palette": "gItemIconPalette_OldAmber"
+    "index": 354
   },
   "CARD_KEY": {
-    "index": 355,
-    "icon": "gItemIcon_CardKey",
-    "palette": "gItemIconPalette_CardKey"
+    "index": 355
   },
   "LIFT_KEY": {
-    "index": 356,
-    "icon": "gItemIcon_LiftKey",
-    "palette": "gItemIconPalette_Key"
+    "index": 356
   },
   "HELIX_FOSSIL": {
-    "index": 357,
-    "icon": "gItemIcon_HelixFossil",
-    "palette": "gItemIconPalette_KantoFossil"
+    "index": 357
   },
   "DOME_FOSSIL": {
-    "index": 358,
-    "icon": "gItemIcon_DomeFossil",
-    "palette": "gItemIconPalette_KantoFossil"
+    "index": 358
   },
   "SILPH_SCOPE": {
-    "index": 359,
-    "icon": "gItemIcon_SilphScope",
-    "palette": "gItemIconPalette_SilphScope"
+    "index": 359
   },
   "BICYCLE": {
-    "index": 360,
-    "icon": "gItemIcon_Bicycle",
-    "palette": "gItemIconPalette_Bicycle"
+    "index": 360
   },
   "TOWN_MAP": {
-    "index": 361,
-    "icon": "gItemIcon_TownMap",
-    "palette": "gItemIconPalette_TownMap"
+    "index": 361
   },
   "VS_SEEKER": {
-    "index": 362,
-    "icon": "gItemIcon_VSSeeker",
-    "palette": "gItemIconPalette_VSSeeker"
+    "index": 362
   },
   "FAME_CHECKER": {
-    "index": 363,
-    "icon": "gItemIcon_FameChecker",
-    "palette": "gItemIconPalette_FameChecker"
+    "index": 363
   },
   "TM_CASE": {
-    "index": 364,
-    "icon": "gItemIcon_TMCase",
-    "palette": "gItemIconPalette_TMCase"
+    "index": 364
   },
   "BERRY_POUCH": {
-    "index": 365,
-    "icon": "gItemIcon_BerryPouch",
-    "palette": "gItemIconPalette_BerryPouch"
+    "index": 365
   },
   "TEACHY_TV": {
-    "index": 366,
-    "icon": "gItemIcon_TeachyTV",
-    "palette": "gItemIconPalette_TeachyTV"
+    "index": 366
   },
   "TRI_PASS": {
-    "index": 367,
-    "icon": "gItemIcon_TriPass",
-    "palette": "gItemIconPalette_TriPass"
+    "index": 367
   },
   "RAINBOW_PASS": {
-    "index": 368,
-    "icon": "gItemIcon_RainbowPass",
-    "palette": "gItemIconPalette_RainbowPass"
+    "index": 368
   },
   "TEA": {
-    "index": 369,
-    "icon": "gItemIcon_Tea",
-    "palette": "gItemIconPalette_Tea"
+    "index": 369
   },
   "MYSTIC_TICKET": {
-    "index": 370,
-    "icon": "gItemIcon_MysticTicket",
-    "palette": "gItemIconPalette_MysticTicket"
+    "index": 370
   },
   "AURORA_TICKET": {
-    "index": 371,
-    "icon": "gItemIcon_AuroraTicket",
-    "palette": "gItemIconPalette_AuroraTicket"
+    "index": 371
   },
   "POWDER_JAR": {
-    "index": 372,
-    "icon": "gItemIcon_PowderJar",
-    "palette": "gItemIconPalette_PowderJar"
+    "index": 372
   },
   "RUBY": {
-    "index": 373,
-    "icon": "gItemIcon_Gem",
-    "palette": "gItemIconPalette_Ruby"
+    "index": 373
   },
   "SAPPHIRE": {
-    "index": 374,
-    "icon": "gItemIcon_Gem",
-    "palette": "gItemIconPalette_Sapphire"
+    "index": 374
   },
   "COUNT": {
-    "index": 375,
-    "icon": "gItemIcon_ReturnToFieldArrow",
-    "palette": "gItemIconPalette_ReturnToFieldArrow"
+    "index": 375
   }
 }

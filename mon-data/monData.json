@@ -1,5255 +1,1322 @@
 {
   "NONE": {
-    "frontPics": "gMonFrontPic_CircledQuestionMark",
-    "index": 0,
-    "backPics": "gMonBackPic_CircledQuestionMark",
-    "normPalette": "gMonPalette_CircledQuestionMark",
-    "shinyPalette": "gMonShinyPalette_CircledQuestionMark",
-    "footprintPics": "gMonFootprint_Bulbasaur",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 0
   },
   "BULBASAUR": {
-    "frontPics": "gMonFrontPic_Bulbasaur",
-    "index": 1,
-    "backPics": "gMonBackPic_Bulbasaur",
-    "normPalette": "gMonPalette_Bulbasaur",
-    "shinyPalette": "gMonShinyPalette_Bulbasaur",
-    "footprintPics": "gMonFootprint_Bulbasaur",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Bulbasaur"
+    "index": 1
   },
   "IVYSAUR": {
-    "frontPics": "gMonFrontPic_Ivysaur",
-    "index": 2,
-    "backPics": "gMonBackPic_Ivysaur",
-    "normPalette": "gMonPalette_Ivysaur",
-    "shinyPalette": "gMonShinyPalette_Ivysaur",
-    "footprintPics": "gMonFootprint_Ivysaur",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Ivysaur"
+    "index": 2
   },
   "VENUSAUR": {
-    "frontPics": "gMonFrontPic_Venusaur",
-    "index": 3,
-    "backPics": "gMonBackPic_Venusaur",
-    "normPalette": "gMonPalette_Venusaur",
-    "shinyPalette": "gMonShinyPalette_Venusaur",
-    "footprintPics": "gMonFootprint_Venusaur",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Venusaur"
+    "index": 3
   },
   "CHARMANDER": {
-    "frontPics": "gMonFrontPic_Charmander",
-    "index": 4,
-    "backPics": "gMonBackPic_Charmander",
-    "normPalette": "gMonPalette_Charmander",
-    "shinyPalette": "gMonShinyPalette_Charmander",
-    "footprintPics": "gMonFootprint_Charmander",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Charmander"
+    "index": 4
   },
   "CHARMELEON": {
-    "frontPics": "gMonFrontPic_Charmeleon",
-    "index": 5,
-    "backPics": "gMonBackPic_Charmeleon",
-    "normPalette": "gMonPalette_Charmeleon",
-    "shinyPalette": "gMonShinyPalette_Charmeleon",
-    "footprintPics": "gMonFootprint_Charmeleon",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Charmeleon"
+    "index": 5
   },
   "CHARIZARD": {
-    "frontPics": "gMonFrontPic_Charizard",
-    "index": 6,
-    "backPics": "gMonBackPic_Charizard",
-    "normPalette": "gMonPalette_Charizard",
-    "shinyPalette": "gMonShinyPalette_Charizard",
-    "footprintPics": "gMonFootprint_Charizard",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Charizard"
+    "index": 6
   },
   "SQUIRTLE": {
-    "frontPics": "gMonFrontPic_Squirtle",
-    "index": 7,
-    "backPics": "gMonBackPic_Squirtle",
-    "normPalette": "gMonPalette_Squirtle",
-    "shinyPalette": "gMonShinyPalette_Squirtle",
-    "footprintPics": "gMonFootprint_Squirtle",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Squirtle"
+    "index": 7
   },
   "WARTORTLE": {
-    "frontPics": "gMonFrontPic_Wartortle",
-    "index": 8,
-    "backPics": "gMonBackPic_Wartortle",
-    "normPalette": "gMonPalette_Wartortle",
-    "shinyPalette": "gMonShinyPalette_Wartortle",
-    "footprintPics": "gMonFootprint_Wartortle",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Wartortle"
+    "index": 8
   },
   "BLASTOISE": {
-    "frontPics": "gMonFrontPic_Blastoise",
-    "index": 9,
-    "backPics": "gMonBackPic_Blastoise",
-    "normPalette": "gMonPalette_Blastoise",
-    "shinyPalette": "gMonShinyPalette_Blastoise",
-    "footprintPics": "gMonFootprint_Blastoise",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Blastoise"
+    "index": 9
   },
   "CATERPIE": {
-    "frontPics": "gMonFrontPic_Caterpie",
-    "index": 10,
-    "backPics": "gMonBackPic_Caterpie",
-    "normPalette": "gMonPalette_Caterpie",
-    "shinyPalette": "gMonShinyPalette_Caterpie",
-    "footprintPics": "gMonFootprint_Caterpie",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Caterpie"
+    "index": 10
   },
   "METAPOD": {
-    "frontPics": "gMonFrontPic_Metapod",
-    "index": 11,
-    "backPics": "gMonBackPic_Metapod",
-    "normPalette": "gMonPalette_Metapod",
-    "shinyPalette": "gMonShinyPalette_Metapod",
-    "footprintPics": "gMonFootprint_Metapod",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Metapod"
+    "index": 11
   },
   "BUTTERFREE": {
-    "frontPics": "gMonFrontPic_Butterfree",
-    "index": 12,
-    "backPics": "gMonBackPic_Butterfree",
-    "normPalette": "gMonPalette_Butterfree",
-    "shinyPalette": "gMonShinyPalette_Butterfree",
-    "footprintPics": "gMonFootprint_Butterfree",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Butterfree"
+    "index": 12
   },
   "WEEDLE": {
-    "frontPics": "gMonFrontPic_Weedle",
-    "index": 13,
-    "backPics": "gMonBackPic_Weedle",
-    "normPalette": "gMonPalette_Weedle",
-    "shinyPalette": "gMonShinyPalette_Weedle",
-    "footprintPics": "gMonFootprint_Weedle",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Weedle"
+    "index": 13
   },
   "KAKUNA": {
-    "frontPics": "gMonFrontPic_Kakuna",
-    "index": 14,
-    "backPics": "gMonBackPic_Kakuna",
-    "normPalette": "gMonPalette_Kakuna",
-    "shinyPalette": "gMonShinyPalette_Kakuna",
-    "footprintPics": "gMonFootprint_Kakuna",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kakuna"
+    "index": 14
   },
   "BEEDRILL": {
-    "frontPics": "gMonFrontPic_Beedrill",
-    "index": 15,
-    "backPics": "gMonBackPic_Beedrill",
-    "normPalette": "gMonPalette_Beedrill",
-    "shinyPalette": "gMonShinyPalette_Beedrill",
-    "footprintPics": "gMonFootprint_Beedrill",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Beedrill"
+    "index": 15
   },
   "PIDGEY": {
-    "frontPics": "gMonFrontPic_Pidgey",
-    "index": 16,
-    "backPics": "gMonBackPic_Pidgey",
-    "normPalette": "gMonPalette_Pidgey",
-    "shinyPalette": "gMonShinyPalette_Pidgey",
-    "footprintPics": "gMonFootprint_Pidgey",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pidgey"
+    "index": 16
   },
   "PIDGEOTTO": {
-    "frontPics": "gMonFrontPic_Pidgeotto",
-    "index": 17,
-    "backPics": "gMonBackPic_Pidgeotto",
-    "normPalette": "gMonPalette_Pidgeotto",
-    "shinyPalette": "gMonShinyPalette_Pidgeotto",
-    "footprintPics": "gMonFootprint_Pidgeotto",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pidgeotto"
+    "index": 17
   },
   "PIDGEOT": {
-    "frontPics": "gMonFrontPic_Pidgeot",
-    "index": 18,
-    "backPics": "gMonBackPic_Pidgeot",
-    "normPalette": "gMonPalette_Pidgeot",
-    "shinyPalette": "gMonShinyPalette_Pidgeot",
-    "footprintPics": "gMonFootprint_Pidgeot",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pidgeot"
+    "index": 18
   },
   "RATTATA": {
-    "frontPics": "gMonFrontPic_Rattata",
-    "index": 19,
-    "backPics": "gMonBackPic_Rattata",
-    "normPalette": "gMonPalette_Rattata",
-    "shinyPalette": "gMonShinyPalette_Rattata",
-    "footprintPics": "gMonFootprint_Rattata",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Rattata"
+    "index": 19
   },
   "RATICATE": {
-    "frontPics": "gMonFrontPic_Raticate",
-    "index": 20,
-    "backPics": "gMonBackPic_Raticate",
-    "normPalette": "gMonPalette_Raticate",
-    "shinyPalette": "gMonShinyPalette_Raticate",
-    "footprintPics": "gMonFootprint_Raticate",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Raticate"
+    "index": 20
   },
   "SPEAROW": {
-    "frontPics": "gMonFrontPic_Spearow",
-    "index": 21,
-    "backPics": "gMonBackPic_Spearow",
-    "normPalette": "gMonPalette_Spearow",
-    "shinyPalette": "gMonShinyPalette_Spearow",
-    "footprintPics": "gMonFootprint_Spearow",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Spearow"
+    "index": 21
   },
   "FEAROW": {
-    "frontPics": "gMonFrontPic_Fearow",
-    "index": 22,
-    "backPics": "gMonBackPic_Fearow",
-    "normPalette": "gMonPalette_Fearow",
-    "shinyPalette": "gMonShinyPalette_Fearow",
-    "footprintPics": "gMonFootprint_Fearow",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Fearow"
+    "index": 22
   },
   "EKANS": {
-    "frontPics": "gMonFrontPic_Ekans",
-    "index": 23,
-    "backPics": "gMonBackPic_Ekans",
-    "normPalette": "gMonPalette_Ekans",
-    "shinyPalette": "gMonShinyPalette_Ekans",
-    "footprintPics": "gMonFootprint_Ekans",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Ekans"
+    "index": 23
   },
   "ARBOK": {
-    "frontPics": "gMonFrontPic_Arbok",
-    "index": 24,
-    "backPics": "gMonBackPic_Arbok",
-    "normPalette": "gMonPalette_Arbok",
-    "shinyPalette": "gMonShinyPalette_Arbok",
-    "footprintPics": "gMonFootprint_Arbok",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Arbok"
+    "index": 24
   },
   "PIKACHU": {
-    "frontPics": "gMonFrontPic_Pikachu",
-    "index": 25,
-    "backPics": "gMonBackPic_Pikachu",
-    "normPalette": "gMonPalette_Pikachu",
-    "shinyPalette": "gMonShinyPalette_Pikachu",
-    "footprintPics": "gMonFootprint_Pikachu",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Pikachu"
+    "index": 25
   },
   "RAICHU": {
-    "frontPics": "gMonFrontPic_Raichu",
-    "index": 26,
-    "backPics": "gMonBackPic_Raichu",
-    "normPalette": "gMonPalette_Raichu",
-    "shinyPalette": "gMonShinyPalette_Raichu",
-    "footprintPics": "gMonFootprint_Raichu",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Raichu"
+    "index": 26
   },
   "SANDSHREW": {
-    "frontPics": "gMonFrontPic_Sandshrew",
-    "index": 27,
-    "backPics": "gMonBackPic_Sandshrew",
-    "normPalette": "gMonPalette_Sandshrew",
-    "shinyPalette": "gMonShinyPalette_Sandshrew",
-    "footprintPics": "gMonFootprint_Sandshrew",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Sandshrew"
+    "index": 27
   },
   "SANDSLASH": {
-    "frontPics": "gMonFrontPic_Sandslash",
-    "index": 28,
-    "backPics": "gMonBackPic_Sandslash",
-    "normPalette": "gMonPalette_Sandslash",
-    "shinyPalette": "gMonShinyPalette_Sandslash",
-    "footprintPics": "gMonFootprint_Sandslash",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Sandslash"
+    "index": 28
   },
   "NIDORAN_F": {
-    "frontPics": "gMonFrontPic_NidoranF",
-    "index": 29,
-    "backPics": "gMonBackPic_NidoranF",
-    "normPalette": "gMonPalette_NidoranF",
-    "shinyPalette": "gMonShinyPalette_NidoranF",
-    "footprintPics": "gMonFootprint_NidoranF",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_NidoranF"
+    "index": 29
   },
   "NIDORINA": {
-    "frontPics": "gMonFrontPic_Nidorina",
-    "index": 30,
-    "backPics": "gMonBackPic_Nidorina",
-    "normPalette": "gMonPalette_Nidorina",
-    "shinyPalette": "gMonShinyPalette_Nidorina",
-    "footprintPics": "gMonFootprint_Nidorina",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Nidorina"
+    "index": 30
   },
   "NIDOQUEEN": {
-    "frontPics": "gMonFrontPic_Nidoqueen",
-    "index": 31,
-    "backPics": "gMonBackPic_Nidoqueen",
-    "normPalette": "gMonPalette_Nidoqueen",
-    "shinyPalette": "gMonShinyPalette_Nidoqueen",
-    "footprintPics": "gMonFootprint_Nidoqueen",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Nidoqueen"
+    "index": 31
   },
   "NIDORAN_M": {
-    "frontPics": "gMonFrontPic_NidoranM",
-    "index": 32,
-    "backPics": "gMonBackPic_NidoranM",
-    "normPalette": "gMonPalette_NidoranM",
-    "shinyPalette": "gMonShinyPalette_NidoranM",
-    "footprintPics": "gMonFootprint_NidoranM",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_NidoranM"
+    "index": 32
   },
   "NIDORINO": {
-    "frontPics": "gMonFrontPic_Nidorino",
-    "index": 33,
-    "backPics": "gMonBackPic_Nidorino",
-    "normPalette": "gMonPalette_Nidorino",
-    "shinyPalette": "gMonShinyPalette_Nidorino",
-    "footprintPics": "gMonFootprint_Nidorino",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Nidorino"
+    "index": 33
   },
   "NIDOKING": {
-    "frontPics": "gMonFrontPic_Nidoking",
-    "index": 34,
-    "backPics": "gMonBackPic_Nidoking",
-    "normPalette": "gMonPalette_Nidoking",
-    "shinyPalette": "gMonShinyPalette_Nidoking",
-    "footprintPics": "gMonFootprint_Nidoking",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Nidoking"
+    "index": 34
   },
   "CLEFAIRY": {
-    "frontPics": "gMonFrontPic_Clefairy",
-    "index": 35,
-    "backPics": "gMonBackPic_Clefairy",
-    "normPalette": "gMonPalette_Clefairy",
-    "shinyPalette": "gMonShinyPalette_Clefairy",
-    "footprintPics": "gMonFootprint_Clefairy",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Clefairy"
+    "index": 35
   },
   "CLEFABLE": {
-    "frontPics": "gMonFrontPic_Clefable",
-    "index": 36,
-    "backPics": "gMonBackPic_Clefable",
-    "normPalette": "gMonPalette_Clefable",
-    "shinyPalette": "gMonShinyPalette_Clefable",
-    "footprintPics": "gMonFootprint_Clefable",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Clefable"
+    "index": 36
   },
   "VULPIX": {
-    "frontPics": "gMonFrontPic_Vulpix",
-    "index": 37,
-    "backPics": "gMonBackPic_Vulpix",
-    "normPalette": "gMonPalette_Vulpix",
-    "shinyPalette": "gMonShinyPalette_Vulpix",
-    "footprintPics": "gMonFootprint_Vulpix",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Vulpix"
+    "index": 37
   },
   "NINETALES": {
-    "frontPics": "gMonFrontPic_Ninetales",
-    "index": 38,
-    "backPics": "gMonBackPic_Ninetales",
-    "normPalette": "gMonPalette_Ninetales",
-    "shinyPalette": "gMonShinyPalette_Ninetales",
-    "footprintPics": "gMonFootprint_Ninetales",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Ninetales"
+    "index": 38
   },
   "JIGGLYPUFF": {
-    "frontPics": "gMonFrontPic_Jigglypuff",
-    "index": 39,
-    "backPics": "gMonBackPic_Jigglypuff",
-    "normPalette": "gMonPalette_Jigglypuff",
-    "shinyPalette": "gMonShinyPalette_Jigglypuff",
-    "footprintPics": "gMonFootprint_Jigglypuff",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Jigglypuff"
+    "index": 39
   },
   "WIGGLYTUFF": {
-    "frontPics": "gMonFrontPic_Wigglytuff",
-    "index": 40,
-    "backPics": "gMonBackPic_Wigglytuff",
-    "normPalette": "gMonPalette_Wigglytuff",
-    "shinyPalette": "gMonShinyPalette_Wigglytuff",
-    "footprintPics": "gMonFootprint_Wigglytuff",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wigglytuff"
+    "index": 40
   },
   "ZUBAT": {
-    "frontPics": "gMonFrontPic_Zubat",
-    "index": 41,
-    "backPics": "gMonBackPic_Zubat",
-    "normPalette": "gMonPalette_Zubat",
-    "shinyPalette": "gMonShinyPalette_Zubat",
-    "footprintPics": "gMonFootprint_Zubat",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Zubat"
+    "index": 41
   },
   "GOLBAT": {
-    "frontPics": "gMonFrontPic_Golbat",
-    "index": 42,
-    "backPics": "gMonBackPic_Golbat",
-    "normPalette": "gMonPalette_Golbat",
-    "shinyPalette": "gMonShinyPalette_Golbat",
-    "footprintPics": "gMonFootprint_Golbat",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Golbat"
+    "index": 42
   },
   "ODDISH": {
-    "frontPics": "gMonFrontPic_Oddish",
-    "index": 43,
-    "backPics": "gMonBackPic_Oddish",
-    "normPalette": "gMonPalette_Oddish",
-    "shinyPalette": "gMonShinyPalette_Oddish",
-    "footprintPics": "gMonFootprint_Oddish",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Oddish"
+    "index": 43
   },
   "GLOOM": {
-    "frontPics": "gMonFrontPic_Gloom",
-    "index": 44,
-    "backPics": "gMonBackPic_Gloom",
-    "normPalette": "gMonPalette_Gloom",
-    "shinyPalette": "gMonShinyPalette_Gloom",
-    "footprintPics": "gMonFootprint_Gloom",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Gloom"
+    "index": 44
   },
   "VILEPLUME": {
-    "frontPics": "gMonFrontPic_Vileplume",
-    "index": 45,
-    "backPics": "gMonBackPic_Vileplume",
-    "normPalette": "gMonPalette_Vileplume",
-    "shinyPalette": "gMonShinyPalette_Vileplume",
-    "footprintPics": "gMonFootprint_Vileplume",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Vileplume"
+    "index": 45
   },
   "PARAS": {
-    "frontPics": "gMonFrontPic_Paras",
-    "index": 46,
-    "backPics": "gMonBackPic_Paras",
-    "normPalette": "gMonPalette_Paras",
-    "shinyPalette": "gMonShinyPalette_Paras",
-    "footprintPics": "gMonFootprint_Paras",
-    "width": "48",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Paras"
+    "index": 46
   },
   "PARASECT": {
-    "frontPics": "gMonFrontPic_Parasect",
-    "index": 47,
-    "backPics": "gMonBackPic_Parasect",
-    "normPalette": "gMonPalette_Parasect",
-    "shinyPalette": "gMonShinyPalette_Parasect",
-    "footprintPics": "gMonFootprint_Parasect",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Parasect"
+    "index": 47
   },
   "VENONAT": {
-    "frontPics": "gMonFrontPic_Venonat",
-    "index": 48,
-    "backPics": "gMonBackPic_Venonat",
-    "normPalette": "gMonPalette_Venonat",
-    "shinyPalette": "gMonShinyPalette_Venonat",
-    "footprintPics": "gMonFootprint_Venonat",
-    "width": "40",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Venonat"
+    "index": 48
   },
   "VENOMOTH": {
-    "frontPics": "gMonFrontPic_Venomoth",
-    "index": 49,
-    "backPics": "gMonBackPic_Venomoth",
-    "normPalette": "gMonPalette_Venomoth",
-    "shinyPalette": "gMonShinyPalette_Venomoth",
-    "footprintPics": "gMonFootprint_Venomoth",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Venomoth"
+    "index": 49
   },
   "DIGLETT": {
-    "frontPics": "gMonFrontPic_Diglett",
-    "index": 50,
-    "backPics": "gMonBackPic_Diglett",
-    "normPalette": "gMonPalette_Diglett",
-    "shinyPalette": "gMonShinyPalette_Diglett",
-    "footprintPics": "gMonFootprint_Diglett",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Diglett"
+    "index": 50
   },
   "DUGTRIO": {
-    "frontPics": "gMonFrontPic_Dugtrio",
-    "index": 51,
-    "backPics": "gMonBackPic_Dugtrio",
-    "normPalette": "gMonPalette_Dugtrio",
-    "shinyPalette": "gMonShinyPalette_Dugtrio",
-    "footprintPics": "gMonFootprint_Dugtrio",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Dugtrio"
+    "index": 51
   },
   "MEOWTH": {
-    "frontPics": "gMonFrontPic_Meowth",
-    "index": 52,
-    "backPics": "gMonBackPic_Meowth",
-    "normPalette": "gMonPalette_Meowth",
-    "shinyPalette": "gMonShinyPalette_Meowth",
-    "footprintPics": "gMonFootprint_Meowth",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Meowth"
+    "index": 52
   },
   "PERSIAN": {
-    "frontPics": "gMonFrontPic_Persian",
-    "index": 53,
-    "backPics": "gMonBackPic_Persian",
-    "normPalette": "gMonPalette_Persian",
-    "shinyPalette": "gMonShinyPalette_Persian",
-    "footprintPics": "gMonFootprint_Persian",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Persian"
+    "index": 53
   },
   "PSYDUCK": {
-    "frontPics": "gMonFrontPic_Psyduck",
-    "index": 54,
-    "backPics": "gMonBackPic_Psyduck",
-    "normPalette": "gMonPalette_Psyduck",
-    "shinyPalette": "gMonShinyPalette_Psyduck",
-    "footprintPics": "gMonFootprint_Psyduck",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Psyduck"
+    "index": 54
   },
   "GOLDUCK": {
-    "frontPics": "gMonFrontPic_Golduck",
-    "index": 55,
-    "backPics": "gMonBackPic_Golduck",
-    "normPalette": "gMonPalette_Golduck",
-    "shinyPalette": "gMonShinyPalette_Golduck",
-    "footprintPics": "gMonFootprint_Golduck",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Golduck"
+    "index": 55
   },
   "MANKEY": {
-    "frontPics": "gMonFrontPic_Mankey",
-    "index": 56,
-    "backPics": "gMonBackPic_Mankey",
-    "normPalette": "gMonPalette_Mankey",
-    "shinyPalette": "gMonShinyPalette_Mankey",
-    "footprintPics": "gMonFootprint_Mankey",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Mankey"
+    "index": 56
   },
   "PRIMEAPE": {
-    "frontPics": "gMonFrontPic_Primeape",
-    "index": 57,
-    "backPics": "gMonBackPic_Primeape",
-    "normPalette": "gMonPalette_Primeape",
-    "shinyPalette": "gMonShinyPalette_Primeape",
-    "footprintPics": "gMonFootprint_Primeape",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Primeape"
+    "index": 57
   },
   "GROWLITHE": {
-    "frontPics": "gMonFrontPic_Growlithe",
-    "index": 58,
-    "backPics": "gMonBackPic_Growlithe",
-    "normPalette": "gMonPalette_Growlithe",
-    "shinyPalette": "gMonShinyPalette_Growlithe",
-    "footprintPics": "gMonFootprint_Growlithe",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Growlithe"
+    "index": 58
   },
   "ARCANINE": {
-    "frontPics": "gMonFrontPic_Arcanine",
-    "index": 59,
-    "backPics": "gMonBackPic_Arcanine",
-    "normPalette": "gMonPalette_Arcanine",
-    "shinyPalette": "gMonShinyPalette_Arcanine",
-    "footprintPics": "gMonFootprint_Arcanine",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Arcanine"
+    "index": 59
   },
   "POLIWAG": {
-    "frontPics": "gMonFrontPic_Poliwag",
-    "index": 60,
-    "backPics": "gMonBackPic_Poliwag",
-    "normPalette": "gMonPalette_Poliwag",
-    "shinyPalette": "gMonShinyPalette_Poliwag",
-    "footprintPics": "gMonFootprint_Poliwag",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Poliwag"
+    "index": 60
   },
   "POLIWHIRL": {
-    "frontPics": "gMonFrontPic_Poliwhirl",
-    "index": 61,
-    "backPics": "gMonBackPic_Poliwhirl",
-    "normPalette": "gMonPalette_Poliwhirl",
-    "shinyPalette": "gMonShinyPalette_Poliwhirl",
-    "footprintPics": "gMonFootprint_Poliwhirl",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Poliwhirl"
+    "index": 61
   },
   "POLIWRATH": {
-    "frontPics": "gMonFrontPic_Poliwrath",
-    "index": 62,
-    "backPics": "gMonBackPic_Poliwrath",
-    "normPalette": "gMonPalette_Poliwrath",
-    "shinyPalette": "gMonShinyPalette_Poliwrath",
-    "footprintPics": "gMonFootprint_Poliwrath",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Poliwrath"
+    "index": 62
   },
   "ABRA": {
-    "frontPics": "gMonFrontPic_Abra",
-    "index": 63,
-    "backPics": "gMonBackPic_Abra",
-    "normPalette": "gMonPalette_Abra",
-    "shinyPalette": "gMonShinyPalette_Abra",
-    "footprintPics": "gMonFootprint_Abra",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Abra"
+    "index": 63
   },
   "KADABRA": {
-    "frontPics": "gMonFrontPic_Kadabra",
-    "index": 64,
-    "backPics": "gMonBackPic_Kadabra",
-    "normPalette": "gMonPalette_Kadabra",
-    "shinyPalette": "gMonShinyPalette_Kadabra",
-    "footprintPics": "gMonFootprint_Kadabra",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kadabra"
+    "index": 64
   },
   "ALAKAZAM": {
-    "frontPics": "gMonFrontPic_Alakazam",
-    "index": 65,
-    "backPics": "gMonBackPic_Alakazam",
-    "normPalette": "gMonPalette_Alakazam",
-    "shinyPalette": "gMonShinyPalette_Alakazam",
-    "footprintPics": "gMonFootprint_Alakazam",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Alakazam"
+    "index": 65
   },
   "MACHOP": {
-    "frontPics": "gMonFrontPic_Machop",
-    "index": 66,
-    "backPics": "gMonBackPic_Machop",
-    "normPalette": "gMonPalette_Machop",
-    "shinyPalette": "gMonShinyPalette_Machop",
-    "footprintPics": "gMonFootprint_Machop",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Machop"
+    "index": 66
   },
   "MACHOKE": {
-    "frontPics": "gMonFrontPic_Machoke",
-    "index": 67,
-    "backPics": "gMonBackPic_Machoke",
-    "normPalette": "gMonPalette_Machoke",
-    "shinyPalette": "gMonShinyPalette_Machoke",
-    "footprintPics": "gMonFootprint_Machoke",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Machoke"
+    "index": 67
   },
   "MACHAMP": {
-    "frontPics": "gMonFrontPic_Machamp",
-    "index": 68,
-    "backPics": "gMonBackPic_Machamp",
-    "normPalette": "gMonPalette_Machamp",
-    "shinyPalette": "gMonShinyPalette_Machamp",
-    "footprintPics": "gMonFootprint_Machamp",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Machamp"
+    "index": 68
   },
   "BELLSPROUT": {
-    "frontPics": "gMonFrontPic_Bellsprout",
-    "index": 69,
-    "backPics": "gMonBackPic_Bellsprout",
-    "normPalette": "gMonPalette_Bellsprout",
-    "shinyPalette": "gMonShinyPalette_Bellsprout",
-    "footprintPics": "gMonFootprint_Bellsprout",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Bellsprout"
+    "index": 69
   },
   "WEEPINBELL": {
-    "frontPics": "gMonFrontPic_Weepinbell",
-    "index": 70,
-    "backPics": "gMonBackPic_Weepinbell",
-    "normPalette": "gMonPalette_Weepinbell",
-    "shinyPalette": "gMonShinyPalette_Weepinbell",
-    "footprintPics": "gMonFootprint_Weepinbell",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Weepinbell"
+    "index": 70
   },
   "VICTREEBEL": {
-    "frontPics": "gMonFrontPic_Victreebel",
-    "index": 71,
-    "backPics": "gMonBackPic_Victreebel",
-    "normPalette": "gMonPalette_Victreebel",
-    "shinyPalette": "gMonShinyPalette_Victreebel",
-    "footprintPics": "gMonFootprint_Victreebel",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Victreebel"
+    "index": 71
   },
   "TENTACOOL": {
-    "frontPics": "gMonFrontPic_Tentacool",
-    "index": 72,
-    "backPics": "gMonBackPic_Tentacool",
-    "normPalette": "gMonPalette_Tentacool",
-    "shinyPalette": "gMonShinyPalette_Tentacool",
-    "footprintPics": "gMonFootprint_Tentacool",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Tentacool"
+    "index": 72
   },
   "TENTACRUEL": {
-    "frontPics": "gMonFrontPic_Tentacruel",
-    "index": 73,
-    "backPics": "gMonBackPic_Tentacruel",
-    "normPalette": "gMonPalette_Tentacruel",
-    "shinyPalette": "gMonShinyPalette_Tentacruel",
-    "footprintPics": "gMonFootprint_Tentacruel",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Tentacruel"
+    "index": 73
   },
   "GEODUDE": {
-    "frontPics": "gMonFrontPic_Geodude",
-    "index": 74,
-    "backPics": "gMonBackPic_Geodude",
-    "normPalette": "gMonPalette_Geodude",
-    "shinyPalette": "gMonShinyPalette_Geodude",
-    "footprintPics": "gMonFootprint_Geodude",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Geodude"
+    "index": 74
   },
   "GRAVELER": {
-    "frontPics": "gMonFrontPic_Graveler",
-    "index": 75,
-    "backPics": "gMonBackPic_Graveler",
-    "normPalette": "gMonPalette_Graveler",
-    "shinyPalette": "gMonShinyPalette_Graveler",
-    "footprintPics": "gMonFootprint_Graveler",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Graveler"
+    "index": 75
   },
   "GOLEM": {
-    "frontPics": "gMonFrontPic_Golem",
-    "index": 76,
-    "backPics": "gMonBackPic_Golem",
-    "normPalette": "gMonPalette_Golem",
-    "shinyPalette": "gMonShinyPalette_Golem",
-    "footprintPics": "gMonFootprint_Golem",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Golem"
+    "index": 76
   },
   "PONYTA": {
-    "frontPics": "gMonFrontPic_Ponyta",
-    "index": 77,
-    "backPics": "gMonBackPic_Ponyta",
-    "normPalette": "gMonPalette_Ponyta",
-    "shinyPalette": "gMonShinyPalette_Ponyta",
-    "footprintPics": "gMonFootprint_Ponyta",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Ponyta"
+    "index": 77
   },
   "RAPIDASH": {
-    "frontPics": "gMonFrontPic_Rapidash",
-    "index": 78,
-    "backPics": "gMonBackPic_Rapidash",
-    "normPalette": "gMonPalette_Rapidash",
-    "shinyPalette": "gMonShinyPalette_Rapidash",
-    "footprintPics": "gMonFootprint_Rapidash",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Rapidash"
+    "index": 78
   },
   "SLOWPOKE": {
-    "frontPics": "gMonFrontPic_Slowpoke",
-    "index": 79,
-    "backPics": "gMonBackPic_Slowpoke",
-    "normPalette": "gMonPalette_Slowpoke",
-    "shinyPalette": "gMonShinyPalette_Slowpoke",
-    "footprintPics": "gMonFootprint_Slowpoke",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Slowpoke"
+    "index": 79
   },
   "SLOWBRO": {
-    "frontPics": "gMonFrontPic_Slowbro",
-    "index": 80,
-    "backPics": "gMonBackPic_Slowbro",
-    "normPalette": "gMonPalette_Slowbro",
-    "shinyPalette": "gMonShinyPalette_Slowbro",
-    "footprintPics": "gMonFootprint_Slowbro",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Slowbro"
+    "index": 80
   },
   "MAGNEMITE": {
-    "frontPics": "gMonFrontPic_Magnemite",
-    "index": 81,
-    "backPics": "gMonBackPic_Magnemite",
-    "normPalette": "gMonPalette_Magnemite",
-    "shinyPalette": "gMonShinyPalette_Magnemite",
-    "footprintPics": "gMonFootprint_Magnemite",
-    "width": "40",
-    "height": "24",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Magnemite"
+    "index": 81
   },
   "MAGNETON": {
-    "frontPics": "gMonFrontPic_Magneton",
-    "index": 82,
-    "backPics": "gMonBackPic_Magneton",
-    "normPalette": "gMonPalette_Magneton",
-    "shinyPalette": "gMonShinyPalette_Magneton",
-    "footprintPics": "gMonFootprint_Magneton",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Magneton"
+    "index": 82
   },
   "FARFETCHD": {
-    "frontPics": "gMonFrontPic_Farfetchd",
-    "index": 83,
-    "backPics": "gMonBackPic_Farfetchd",
-    "normPalette": "gMonPalette_Farfetchd",
-    "shinyPalette": "gMonShinyPalette_Farfetchd",
-    "footprintPics": "gMonFootprint_Farfetchd",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Farfetchd"
+    "index": 83
   },
   "DODUO": {
-    "frontPics": "gMonFrontPic_Doduo",
-    "index": 84,
-    "backPics": "gMonBackPic_Doduo",
-    "normPalette": "gMonPalette_Doduo",
-    "shinyPalette": "gMonShinyPalette_Doduo",
-    "footprintPics": "gMonFootprint_Doduo",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Doduo"
+    "index": 84
   },
   "DODRIO": {
-    "frontPics": "gMonFrontPic_Dodrio",
-    "index": 85,
-    "backPics": "gMonBackPic_Dodrio",
-    "normPalette": "gMonPalette_Dodrio",
-    "shinyPalette": "gMonShinyPalette_Dodrio",
-    "footprintPics": "gMonFootprint_Dodrio",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Dodrio"
+    "index": 85
   },
   "SEEL": {
-    "frontPics": "gMonFrontPic_Seel",
-    "index": 86,
-    "backPics": "gMonBackPic_Seel",
-    "normPalette": "gMonPalette_Seel",
-    "shinyPalette": "gMonShinyPalette_Seel",
-    "footprintPics": "gMonFootprint_Seel",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Seel"
+    "index": 86
   },
   "DEWGONG": {
-    "frontPics": "gMonFrontPic_Dewgong",
-    "index": 87,
-    "backPics": "gMonBackPic_Dewgong",
-    "normPalette": "gMonPalette_Dewgong",
-    "shinyPalette": "gMonShinyPalette_Dewgong",
-    "footprintPics": "gMonFootprint_Dewgong",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Dewgong"
+    "index": 87
   },
   "GRIMER": {
-    "frontPics": "gMonFrontPic_Grimer",
-    "index": 88,
-    "backPics": "gMonBackPic_Grimer",
-    "normPalette": "gMonPalette_Grimer",
-    "shinyPalette": "gMonShinyPalette_Grimer",
-    "footprintPics": "gMonFootprint_Grimer",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Grimer"
+    "index": 88
   },
   "MUK": {
-    "frontPics": "gMonFrontPic_Muk",
-    "index": 89,
-    "backPics": "gMonBackPic_Muk",
-    "normPalette": "gMonPalette_Muk",
-    "shinyPalette": "gMonShinyPalette_Muk",
-    "footprintPics": "gMonFootprint_Muk",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Muk"
+    "index": 89
   },
   "SHELLDER": {
-    "frontPics": "gMonFrontPic_Shellder",
-    "index": 90,
-    "backPics": "gMonBackPic_Shellder",
-    "normPalette": "gMonPalette_Shellder",
-    "shinyPalette": "gMonShinyPalette_Shellder",
-    "footprintPics": "gMonFootprint_Shellder",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Shellder"
+    "index": 90
   },
   "CLOYSTER": {
-    "frontPics": "gMonFrontPic_Cloyster",
-    "index": 91,
-    "backPics": "gMonBackPic_Cloyster",
-    "normPalette": "gMonPalette_Cloyster",
-    "shinyPalette": "gMonShinyPalette_Cloyster",
-    "footprintPics": "gMonFootprint_Cloyster",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Cloyster"
+    "index": 91
   },
   "GASTLY": {
-    "frontPics": "gMonFrontPic_Gastly",
-    "index": 92,
-    "backPics": "gMonBackPic_Gastly",
-    "normPalette": "gMonPalette_Gastly",
-    "shinyPalette": "gMonShinyPalette_Gastly",
-    "footprintPics": "gMonFootprint_Gastly",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Gastly"
+    "index": 92
   },
   "HAUNTER": {
-    "frontPics": "gMonFrontPic_Haunter",
-    "index": 93,
-    "backPics": "gMonBackPic_Haunter",
-    "normPalette": "gMonPalette_Haunter",
-    "shinyPalette": "gMonShinyPalette_Haunter",
-    "footprintPics": "gMonFootprint_Haunter",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Haunter"
+    "index": 93
   },
   "GENGAR": {
-    "frontPics": "gMonFrontPic_Gengar",
-    "index": 94,
-    "backPics": "gMonBackPic_Gengar",
-    "normPalette": "gMonPalette_Gengar",
-    "shinyPalette": "gMonShinyPalette_Gengar",
-    "footprintPics": "gMonFootprint_Gengar",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Gengar"
+    "index": 94
   },
   "ONIX": {
-    "frontPics": "gMonFrontPic_Onix",
-    "index": 95,
-    "backPics": "gMonBackPic_Onix",
-    "normPalette": "gMonPalette_Onix",
-    "shinyPalette": "gMonShinyPalette_Onix",
-    "footprintPics": "gMonFootprint_Onix",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Onix"
+    "index": 95
   },
   "DROWZEE": {
-    "frontPics": "gMonFrontPic_Drowzee",
-    "index": 96,
-    "backPics": "gMonBackPic_Drowzee",
-    "normPalette": "gMonPalette_Drowzee",
-    "shinyPalette": "gMonShinyPalette_Drowzee",
-    "footprintPics": "gMonFootprint_Drowzee",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Drowzee"
+    "index": 96
   },
   "HYPNO": {
-    "frontPics": "gMonFrontPic_Hypno",
-    "index": 97,
-    "backPics": "gMonBackPic_Hypno",
-    "normPalette": "gMonPalette_Hypno",
-    "shinyPalette": "gMonShinyPalette_Hypno",
-    "footprintPics": "gMonFootprint_Hypno",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Hypno"
+    "index": 97
   },
   "KRABBY": {
-    "frontPics": "gMonFrontPic_Krabby",
-    "index": 98,
-    "backPics": "gMonBackPic_Krabby",
-    "normPalette": "gMonPalette_Krabby",
-    "shinyPalette": "gMonShinyPalette_Krabby",
-    "footprintPics": "gMonFootprint_Krabby",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Krabby"
+    "index": 98
   },
   "KINGLER": {
-    "frontPics": "gMonFrontPic_Kingler",
-    "index": 99,
-    "backPics": "gMonBackPic_Kingler",
-    "normPalette": "gMonPalette_Kingler",
-    "shinyPalette": "gMonShinyPalette_Kingler",
-    "footprintPics": "gMonFootprint_Kingler",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kingler"
+    "index": 99
   },
   "VOLTORB": {
-    "frontPics": "gMonFrontPic_Voltorb",
-    "index": 100,
-    "backPics": "gMonBackPic_Voltorb",
-    "normPalette": "gMonPalette_Voltorb",
-    "shinyPalette": "gMonShinyPalette_Voltorb",
-    "footprintPics": "gMonFootprint_Voltorb",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Voltorb"
+    "index": 100
   },
   "ELECTRODE": {
-    "frontPics": "gMonFrontPic_Electrode",
-    "index": 101,
-    "backPics": "gMonBackPic_Electrode",
-    "normPalette": "gMonPalette_Electrode",
-    "shinyPalette": "gMonShinyPalette_Electrode",
-    "footprintPics": "gMonFootprint_Electrode",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Electrode"
+    "index": 101
   },
   "EXEGGCUTE": {
-    "frontPics": "gMonFrontPic_Exeggcute",
-    "index": 102,
-    "backPics": "gMonBackPic_Exeggcute",
-    "normPalette": "gMonPalette_Exeggcute",
-    "shinyPalette": "gMonShinyPalette_Exeggcute",
-    "footprintPics": "gMonFootprint_Exeggcute",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Exeggcute"
+    "index": 102
   },
   "EXEGGUTOR": {
-    "frontPics": "gMonFrontPic_Exeggutor",
-    "index": 103,
-    "backPics": "gMonBackPic_Exeggutor",
-    "normPalette": "gMonPalette_Exeggutor",
-    "shinyPalette": "gMonShinyPalette_Exeggutor",
-    "footprintPics": "gMonFootprint_Exeggutor",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Exeggutor"
+    "index": 103
   },
   "CUBONE": {
-    "frontPics": "gMonFrontPic_Cubone",
-    "index": 104,
-    "backPics": "gMonBackPic_Cubone",
-    "normPalette": "gMonPalette_Cubone",
-    "shinyPalette": "gMonShinyPalette_Cubone",
-    "footprintPics": "gMonFootprint_Cubone",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Cubone"
+    "index": 104
   },
   "MAROWAK": {
-    "frontPics": "gMonFrontPic_Marowak",
-    "index": 105,
-    "backPics": "gMonBackPic_Marowak",
-    "normPalette": "gMonPalette_Marowak",
-    "shinyPalette": "gMonShinyPalette_Marowak",
-    "footprintPics": "gMonFootprint_Marowak",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Marowak"
+    "index": 105
   },
   "HITMONLEE": {
-    "frontPics": "gMonFrontPic_Hitmonlee",
-    "index": 106,
-    "backPics": "gMonBackPic_Hitmonlee",
-    "normPalette": "gMonPalette_Hitmonlee",
-    "shinyPalette": "gMonShinyPalette_Hitmonlee",
-    "footprintPics": "gMonFootprint_Hitmonlee",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Hitmonlee"
+    "index": 106
   },
   "HITMONCHAN": {
-    "frontPics": "gMonFrontPic_Hitmonchan",
-    "index": 107,
-    "backPics": "gMonBackPic_Hitmonchan",
-    "normPalette": "gMonPalette_Hitmonchan",
-    "shinyPalette": "gMonShinyPalette_Hitmonchan",
-    "footprintPics": "gMonFootprint_Hitmonchan",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Hitmonchan"
+    "index": 107
   },
   "LICKITUNG": {
-    "frontPics": "gMonFrontPic_Lickitung",
-    "index": 108,
-    "backPics": "gMonBackPic_Lickitung",
-    "normPalette": "gMonPalette_Lickitung",
-    "shinyPalette": "gMonShinyPalette_Lickitung",
-    "footprintPics": "gMonFootprint_Lickitung",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Lickitung"
+    "index": 108
   },
   "KOFFING": {
-    "frontPics": "gMonFrontPic_Koffing",
-    "index": 109,
-    "backPics": "gMonBackPic_Koffing",
-    "normPalette": "gMonPalette_Koffing",
-    "shinyPalette": "gMonShinyPalette_Koffing",
-    "footprintPics": "gMonFootprint_Koffing",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Koffing"
+    "index": 109
   },
   "WEEZING": {
-    "frontPics": "gMonFrontPic_Weezing",
-    "index": 110,
-    "backPics": "gMonBackPic_Weezing",
-    "normPalette": "gMonPalette_Weezing",
-    "shinyPalette": "gMonShinyPalette_Weezing",
-    "footprintPics": "gMonFootprint_Weezing",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Weezing"
+    "index": 110
   },
   "RHYHORN": {
-    "frontPics": "gMonFrontPic_Rhyhorn",
-    "index": 111,
-    "backPics": "gMonBackPic_Rhyhorn",
-    "normPalette": "gMonPalette_Rhyhorn",
-    "shinyPalette": "gMonShinyPalette_Rhyhorn",
-    "footprintPics": "gMonFootprint_Rhyhorn",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Rhyhorn"
+    "index": 111
   },
   "RHYDON": {
-    "frontPics": "gMonFrontPic_Rhydon",
-    "index": 112,
-    "backPics": "gMonBackPic_Rhydon",
-    "normPalette": "gMonPalette_Rhydon",
-    "shinyPalette": "gMonShinyPalette_Rhydon",
-    "footprintPics": "gMonFootprint_Rhydon",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Rhydon"
+    "index": 112
   },
   "CHANSEY": {
-    "frontPics": "gMonFrontPic_Chansey",
-    "index": 113,
-    "backPics": "gMonBackPic_Chansey",
-    "normPalette": "gMonPalette_Chansey",
-    "shinyPalette": "gMonShinyPalette_Chansey",
-    "footprintPics": "gMonFootprint_Chansey",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Chansey"
+    "index": 113
   },
   "TANGELA": {
-    "frontPics": "gMonFrontPic_Tangela",
-    "index": 114,
-    "backPics": "gMonBackPic_Tangela",
-    "normPalette": "gMonPalette_Tangela",
-    "shinyPalette": "gMonShinyPalette_Tangela",
-    "footprintPics": "gMonFootprint_Tangela",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Tangela"
+    "index": 114
   },
   "KANGASKHAN": {
-    "frontPics": "gMonFrontPic_Kangaskhan",
-    "index": 115,
-    "backPics": "gMonBackPic_Kangaskhan",
-    "normPalette": "gMonPalette_Kangaskhan",
-    "shinyPalette": "gMonShinyPalette_Kangaskhan",
-    "footprintPics": "gMonFootprint_Kangaskhan",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Kangaskhan"
+    "index": 115
   },
   "HORSEA": {
-    "frontPics": "gMonFrontPic_Horsea",
-    "index": 116,
-    "backPics": "gMonBackPic_Horsea",
-    "normPalette": "gMonPalette_Horsea",
-    "shinyPalette": "gMonShinyPalette_Horsea",
-    "footprintPics": "gMonFootprint_Horsea",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Horsea"
+    "index": 116
   },
   "SEADRA": {
-    "frontPics": "gMonFrontPic_Seadra",
-    "index": 117,
-    "backPics": "gMonBackPic_Seadra",
-    "normPalette": "gMonPalette_Seadra",
-    "shinyPalette": "gMonShinyPalette_Seadra",
-    "footprintPics": "gMonFootprint_Seadra",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Seadra"
+    "index": 117
   },
   "GOLDEEN": {
-    "frontPics": "gMonFrontPic_Goldeen",
-    "index": 118,
-    "backPics": "gMonBackPic_Goldeen",
-    "normPalette": "gMonPalette_Goldeen",
-    "shinyPalette": "gMonShinyPalette_Goldeen",
-    "footprintPics": "gMonFootprint_Goldeen",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Goldeen"
+    "index": 118
   },
   "SEAKING": {
-    "frontPics": "gMonFrontPic_Seaking",
-    "index": 119,
-    "backPics": "gMonBackPic_Seaking",
-    "normPalette": "gMonPalette_Seaking",
-    "shinyPalette": "gMonShinyPalette_Seaking",
-    "footprintPics": "gMonFootprint_Seaking",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Seaking"
+    "index": 119
   },
   "STARYU": {
-    "frontPics": "gMonFrontPic_Staryu",
-    "index": 120,
-    "backPics": "gMonBackPic_Staryu",
-    "normPalette": "gMonPalette_Staryu",
-    "shinyPalette": "gMonShinyPalette_Staryu",
-    "footprintPics": "gMonFootprint_Staryu",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Staryu"
+    "index": 120
   },
   "STARMIE": {
-    "frontPics": "gMonFrontPic_Starmie",
-    "index": 121,
-    "backPics": "gMonBackPic_Starmie",
-    "normPalette": "gMonPalette_Starmie",
-    "shinyPalette": "gMonShinyPalette_Starmie",
-    "footprintPics": "gMonFootprint_Starmie",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Starmie"
+    "index": 121
   },
   "MR_MIME": {
-    "frontPics": "gMonFrontPic_Mrmime",
-    "index": 122,
-    "backPics": "gMonBackPic_Mrmime",
-    "normPalette": "gMonPalette_Mrmime",
-    "shinyPalette": "gMonShinyPalette_Mrmime",
-    "footprintPics": "gMonFootprint_Mrmime",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Mrmime"
+    "index": 122
   },
   "SCYTHER": {
-    "frontPics": "gMonFrontPic_Scyther",
-    "index": 123,
-    "backPics": "gMonBackPic_Scyther",
-    "normPalette": "gMonPalette_Scyther",
-    "shinyPalette": "gMonShinyPalette_Scyther",
-    "footprintPics": "gMonFootprint_Scyther",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Scyther"
+    "index": 123
   },
   "JYNX": {
-    "frontPics": "gMonFrontPic_Jynx",
-    "index": 124,
-    "backPics": "gMonBackPic_Jynx",
-    "normPalette": "gMonPalette_Jynx",
-    "shinyPalette": "gMonShinyPalette_Jynx",
-    "footprintPics": "gMonFootprint_Jynx",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Jynx"
+    "index": 124
   },
   "ELECTABUZZ": {
-    "frontPics": "gMonFrontPic_Electabuzz",
-    "index": 125,
-    "backPics": "gMonBackPic_Electabuzz",
-    "normPalette": "gMonPalette_Electabuzz",
-    "shinyPalette": "gMonShinyPalette_Electabuzz",
-    "footprintPics": "gMonFootprint_Electabuzz",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Electabuzz"
+    "index": 125
   },
   "MAGMAR": {
-    "frontPics": "gMonFrontPic_Magmar",
-    "index": 126,
-    "backPics": "gMonBackPic_Magmar",
-    "normPalette": "gMonPalette_Magmar",
-    "shinyPalette": "gMonShinyPalette_Magmar",
-    "footprintPics": "gMonFootprint_Magmar",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Magmar"
+    "index": 126
   },
   "PINSIR": {
-    "frontPics": "gMonFrontPic_Pinsir",
-    "index": 127,
-    "backPics": "gMonBackPic_Pinsir",
-    "normPalette": "gMonPalette_Pinsir",
-    "shinyPalette": "gMonShinyPalette_Pinsir",
-    "footprintPics": "gMonFootprint_Pinsir",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Pinsir"
+    "index": 127
   },
   "TAUROS": {
-    "frontPics": "gMonFrontPic_Tauros",
-    "index": 128,
-    "backPics": "gMonBackPic_Tauros",
-    "normPalette": "gMonPalette_Tauros",
-    "shinyPalette": "gMonShinyPalette_Tauros",
-    "footprintPics": "gMonFootprint_Tauros",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Tauros"
+    "index": 128
   },
   "MAGIKARP": {
-    "frontPics": "gMonFrontPic_Magikarp",
-    "index": 129,
-    "backPics": "gMonBackPic_Magikarp",
-    "normPalette": "gMonPalette_Magikarp",
-    "shinyPalette": "gMonShinyPalette_Magikarp",
-    "footprintPics": "gMonFootprint_Magikarp",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Magikarp"
+    "index": 129
   },
   "GYARADOS": {
-    "frontPics": "gMonFrontPic_Gyarados",
-    "index": 130,
-    "backPics": "gMonBackPic_Gyarados",
-    "normPalette": "gMonPalette_Gyarados",
-    "shinyPalette": "gMonShinyPalette_Gyarados",
-    "footprintPics": "gMonFootprint_Gyarados",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Gyarados"
+    "index": 130
   },
   "LAPRAS": {
-    "frontPics": "gMonFrontPic_Lapras",
-    "index": 131,
-    "backPics": "gMonBackPic_Lapras",
-    "normPalette": "gMonPalette_Lapras",
-    "shinyPalette": "gMonShinyPalette_Lapras",
-    "footprintPics": "gMonFootprint_Lapras",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Lapras"
+    "index": 131
   },
   "DITTO": {
-    "frontPics": "gMonFrontPic_Ditto",
-    "index": 132,
-    "backPics": "gMonBackPic_Ditto",
-    "normPalette": "gMonPalette_Ditto",
-    "shinyPalette": "gMonShinyPalette_Ditto",
-    "footprintPics": "gMonFootprint_Ditto",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Ditto"
+    "index": 132
   },
   "EEVEE": {
-    "frontPics": "gMonFrontPic_Eevee",
-    "index": 133,
-    "backPics": "gMonBackPic_Eevee",
-    "normPalette": "gMonPalette_Eevee",
-    "shinyPalette": "gMonShinyPalette_Eevee",
-    "footprintPics": "gMonFootprint_Eevee",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Eevee"
+    "index": 133
   },
   "VAPOREON": {
-    "frontPics": "gMonFrontPic_Vaporeon",
-    "index": 134,
-    "backPics": "gMonBackPic_Vaporeon",
-    "normPalette": "gMonPalette_Vaporeon",
-    "shinyPalette": "gMonShinyPalette_Vaporeon",
-    "footprintPics": "gMonFootprint_Vaporeon",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Vaporeon"
+    "index": 134
   },
   "JOLTEON": {
-    "frontPics": "gMonFrontPic_Jolteon",
-    "index": 135,
-    "backPics": "gMonBackPic_Jolteon",
-    "normPalette": "gMonPalette_Jolteon",
-    "shinyPalette": "gMonShinyPalette_Jolteon",
-    "footprintPics": "gMonFootprint_Jolteon",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Jolteon"
+    "index": 135
   },
   "FLAREON": {
-    "frontPics": "gMonFrontPic_Flareon",
-    "index": 136,
-    "backPics": "gMonBackPic_Flareon",
-    "normPalette": "gMonPalette_Flareon",
-    "shinyPalette": "gMonShinyPalette_Flareon",
-    "footprintPics": "gMonFootprint_Flareon",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Flareon"
+    "index": 136
   },
   "PORYGON": {
-    "frontPics": "gMonFrontPic_Porygon",
-    "index": 137,
-    "backPics": "gMonBackPic_Porygon",
-    "normPalette": "gMonPalette_Porygon",
-    "shinyPalette": "gMonShinyPalette_Porygon",
-    "footprintPics": "gMonFootprint_Porygon",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Porygon"
+    "index": 137
   },
   "OMANYTE": {
-    "frontPics": "gMonFrontPic_Omanyte",
-    "index": 138,
-    "backPics": "gMonBackPic_Omanyte",
-    "normPalette": "gMonPalette_Omanyte",
-    "shinyPalette": "gMonShinyPalette_Omanyte",
-    "footprintPics": "gMonFootprint_Omanyte",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Omanyte"
+    "index": 138
   },
   "OMASTAR": {
-    "frontPics": "gMonFrontPic_Omastar",
-    "index": 139,
-    "backPics": "gMonBackPic_Omastar",
-    "normPalette": "gMonPalette_Omastar",
-    "shinyPalette": "gMonShinyPalette_Omastar",
-    "footprintPics": "gMonFootprint_Omastar",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Omastar"
+    "index": 139
   },
   "KABUTO": {
-    "frontPics": "gMonFrontPic_Kabuto",
-    "index": 140,
-    "backPics": "gMonBackPic_Kabuto",
-    "normPalette": "gMonPalette_Kabuto",
-    "shinyPalette": "gMonShinyPalette_Kabuto",
-    "footprintPics": "gMonFootprint_Kabuto",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kabuto"
+    "index": 140
   },
   "KABUTOPS": {
-    "frontPics": "gMonFrontPic_Kabutops",
-    "index": 141,
-    "backPics": "gMonBackPic_Kabutops",
-    "normPalette": "gMonPalette_Kabutops",
-    "shinyPalette": "gMonShinyPalette_Kabutops",
-    "footprintPics": "gMonFootprint_Kabutops",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kabutops"
+    "index": 141
   },
   "AERODACTYL": {
-    "frontPics": "gMonFrontPic_Aerodactyl",
-    "index": 142,
-    "backPics": "gMonBackPic_Aerodactyl",
-    "normPalette": "gMonPalette_Aerodactyl",
-    "shinyPalette": "gMonShinyPalette_Aerodactyl",
-    "footprintPics": "gMonFootprint_Aerodactyl",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Aerodactyl"
+    "index": 142
   },
   "SNORLAX": {
-    "frontPics": "gMonFrontPic_Snorlax",
-    "index": 143,
-    "backPics": "gMonBackPic_Snorlax",
-    "normPalette": "gMonPalette_Snorlax",
-    "shinyPalette": "gMonShinyPalette_Snorlax",
-    "footprintPics": "gMonFootprint_Snorlax",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Snorlax"
+    "index": 143
   },
   "ARTICUNO": {
-    "frontPics": "gMonFrontPic_Articuno",
-    "index": 144,
-    "backPics": "gMonBackPic_Articuno",
-    "normPalette": "gMonPalette_Articuno",
-    "shinyPalette": "gMonShinyPalette_Articuno",
-    "footprintPics": "gMonFootprint_Articuno",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Articuno"
+    "index": 144
   },
   "ZAPDOS": {
-    "frontPics": "gMonFrontPic_Zapdos",
-    "index": 145,
-    "backPics": "gMonBackPic_Zapdos",
-    "normPalette": "gMonPalette_Zapdos",
-    "shinyPalette": "gMonShinyPalette_Zapdos",
-    "footprintPics": "gMonFootprint_Zapdos",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Zapdos"
+    "index": 145
   },
   "MOLTRES": {
-    "frontPics": "gMonFrontPic_Moltres",
-    "index": 146,
-    "backPics": "gMonBackPic_Moltres",
-    "normPalette": "gMonPalette_Moltres",
-    "shinyPalette": "gMonShinyPalette_Moltres",
-    "footprintPics": "gMonFootprint_Moltres",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Moltres"
+    "index": 146
   },
   "DRATINI": {
-    "frontPics": "gMonFrontPic_Dratini",
-    "index": 147,
-    "backPics": "gMonBackPic_Dratini",
-    "normPalette": "gMonPalette_Dratini",
-    "shinyPalette": "gMonShinyPalette_Dratini",
-    "footprintPics": "gMonFootprint_Dratini",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Dratini"
+    "index": 147
   },
   "DRAGONAIR": {
-    "frontPics": "gMonFrontPic_Dragonair",
-    "index": 148,
-    "backPics": "gMonBackPic_Dragonair",
-    "normPalette": "gMonPalette_Dragonair",
-    "shinyPalette": "gMonShinyPalette_Dragonair",
-    "footprintPics": "gMonFootprint_Dragonair",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Dragonair"
+    "index": 148
   },
   "DRAGONITE": {
-    "frontPics": "gMonFrontPic_Dragonite",
-    "index": 149,
-    "backPics": "gMonBackPic_Dragonite",
-    "normPalette": "gMonPalette_Dragonite",
-    "shinyPalette": "gMonShinyPalette_Dragonite",
-    "footprintPics": "gMonFootprint_Dragonite",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Dragonite"
+    "index": 149
   },
   "MEWTWO": {
-    "frontPics": "gMonFrontPic_Mewtwo",
-    "index": 150,
-    "backPics": "gMonBackPic_Mewtwo",
-    "normPalette": "gMonPalette_Mewtwo",
-    "shinyPalette": "gMonShinyPalette_Mewtwo",
-    "footprintPics": "gMonFootprint_Mewtwo",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Mewtwo"
+    "index": 150
   },
   "MEW": {
-    "frontPics": "gMonFrontPic_Mew",
-    "index": 151,
-    "backPics": "gMonBackPic_Mew",
-    "normPalette": "gMonPalette_Mew",
-    "shinyPalette": "gMonShinyPalette_Mew",
-    "footprintPics": "gMonFootprint_Mew",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Mew"
+    "index": 151
   },
   "CHIKORITA": {
-    "frontPics": "gMonFrontPic_Chikorita",
-    "index": 152,
-    "backPics": "gMonBackPic_Chikorita",
-    "normPalette": "gMonPalette_Chikorita",
-    "shinyPalette": "gMonShinyPalette_Chikorita",
-    "footprintPics": "gMonFootprint_Chikorita",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Chikorita"
+    "index": 152
   },
   "BAYLEEF": {
-    "frontPics": "gMonFrontPic_Bayleef",
-    "index": 153,
-    "backPics": "gMonBackPic_Bayleef",
-    "normPalette": "gMonPalette_Bayleef",
-    "shinyPalette": "gMonShinyPalette_Bayleef",
-    "footprintPics": "gMonFootprint_Bayleef",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Bayleef"
+    "index": 153
   },
   "MEGANIUM": {
-    "frontPics": "gMonFrontPic_Meganium",
-    "index": 154,
-    "backPics": "gMonBackPic_Meganium",
-    "normPalette": "gMonPalette_Meganium",
-    "shinyPalette": "gMonShinyPalette_Meganium",
-    "footprintPics": "gMonFootprint_Meganium",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Meganium"
+    "index": 154
   },
   "CYNDAQUIL": {
-    "frontPics": "gMonFrontPic_Cyndaquil",
-    "index": 155,
-    "backPics": "gMonBackPic_Cyndaquil",
-    "normPalette": "gMonPalette_Cyndaquil",
-    "shinyPalette": "gMonShinyPalette_Cyndaquil",
-    "footprintPics": "gMonFootprint_Cyndaquil",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Cyndaquil"
+    "index": 155
   },
   "QUILAVA": {
-    "frontPics": "gMonFrontPic_Quilava",
-    "index": 156,
-    "backPics": "gMonBackPic_Quilava",
-    "normPalette": "gMonPalette_Quilava",
-    "shinyPalette": "gMonShinyPalette_Quilava",
-    "footprintPics": "gMonFootprint_Quilava",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Quilava"
+    "index": 156
   },
   "TYPHLOSION": {
-    "frontPics": "gMonFrontPic_Typhlosion",
-    "index": 157,
-    "backPics": "gMonBackPic_Typhlosion",
-    "normPalette": "gMonPalette_Typhlosion",
-    "shinyPalette": "gMonShinyPalette_Typhlosion",
-    "footprintPics": "gMonFootprint_Typhlosion",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Typhlosion"
+    "index": 157
   },
   "TOTODILE": {
-    "frontPics": "gMonFrontPic_Totodile",
-    "index": 158,
-    "backPics": "gMonBackPic_Totodile",
-    "normPalette": "gMonPalette_Totodile",
-    "shinyPalette": "gMonShinyPalette_Totodile",
-    "footprintPics": "gMonFootprint_Totodile",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Totodile"
+    "index": 158
   },
   "CROCONAW": {
-    "frontPics": "gMonFrontPic_Croconaw",
-    "index": 159,
-    "backPics": "gMonBackPic_Croconaw",
-    "normPalette": "gMonPalette_Croconaw",
-    "shinyPalette": "gMonShinyPalette_Croconaw",
-    "footprintPics": "gMonFootprint_Croconaw",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Croconaw"
+    "index": 159
   },
   "FERALIGATR": {
-    "frontPics": "gMonFrontPic_Feraligatr",
-    "index": 160,
-    "backPics": "gMonBackPic_Feraligatr",
-    "normPalette": "gMonPalette_Feraligatr",
-    "shinyPalette": "gMonShinyPalette_Feraligatr",
-    "footprintPics": "gMonFootprint_Feraligatr",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Feraligatr"
+    "index": 160
   },
   "SENTRET": {
-    "frontPics": "gMonFrontPic_Sentret",
-    "index": 161,
-    "backPics": "gMonBackPic_Sentret",
-    "normPalette": "gMonPalette_Sentret",
-    "shinyPalette": "gMonShinyPalette_Sentret",
-    "footprintPics": "gMonFootprint_Sentret",
-    "width": "32",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Sentret"
+    "index": 161
   },
   "FURRET": {
-    "frontPics": "gMonFrontPic_Furret",
-    "index": 162,
-    "backPics": "gMonBackPic_Furret",
-    "normPalette": "gMonPalette_Furret",
-    "shinyPalette": "gMonShinyPalette_Furret",
-    "footprintPics": "gMonFootprint_Furret",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Furret"
+    "index": 162
   },
   "HOOTHOOT": {
-    "frontPics": "gMonFrontPic_Hoothoot",
-    "index": 163,
-    "backPics": "gMonBackPic_Hoothoot",
-    "normPalette": "gMonPalette_Hoothoot",
-    "shinyPalette": "gMonShinyPalette_Hoothoot",
-    "footprintPics": "gMonFootprint_Hoothoot",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Hoothoot"
+    "index": 163
   },
   "NOCTOWL": {
-    "frontPics": "gMonFrontPic_Noctowl",
-    "index": 164,
-    "backPics": "gMonBackPic_Noctowl",
-    "normPalette": "gMonPalette_Noctowl",
-    "shinyPalette": "gMonShinyPalette_Noctowl",
-    "footprintPics": "gMonFootprint_Noctowl",
-    "width": "40",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Noctowl"
+    "index": 164
   },
   "LEDYBA": {
-    "frontPics": "gMonFrontPic_Ledyba",
-    "index": 165,
-    "backPics": "gMonBackPic_Ledyba",
-    "normPalette": "gMonPalette_Ledyba",
-    "shinyPalette": "gMonShinyPalette_Ledyba",
-    "footprintPics": "gMonFootprint_Ledyba",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Ledyba"
+    "index": 165
   },
   "LEDIAN": {
-    "frontPics": "gMonFrontPic_Ledian",
-    "index": 166,
-    "backPics": "gMonBackPic_Ledian",
-    "normPalette": "gMonPalette_Ledian",
-    "shinyPalette": "gMonShinyPalette_Ledian",
-    "footprintPics": "gMonFootprint_Ledian",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Ledian"
+    "index": 166
   },
   "SPINARAK": {
-    "frontPics": "gMonFrontPic_Spinarak",
-    "index": 167,
-    "backPics": "gMonBackPic_Spinarak",
-    "normPalette": "gMonPalette_Spinarak",
-    "shinyPalette": "gMonShinyPalette_Spinarak",
-    "footprintPics": "gMonFootprint_Spinarak",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Spinarak"
+    "index": 167
   },
   "ARIADOS": {
-    "frontPics": "gMonFrontPic_Ariados",
-    "index": 168,
-    "backPics": "gMonBackPic_Ariados",
-    "normPalette": "gMonPalette_Ariados",
-    "shinyPalette": "gMonShinyPalette_Ariados",
-    "footprintPics": "gMonFootprint_Ariados",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Ariados"
+    "index": 168
   },
   "CROBAT": {
-    "frontPics": "gMonFrontPic_Crobat",
-    "index": 169,
-    "backPics": "gMonBackPic_Crobat",
-    "normPalette": "gMonPalette_Crobat",
-    "shinyPalette": "gMonShinyPalette_Crobat",
-    "footprintPics": "gMonFootprint_Crobat",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Crobat"
+    "index": 169
   },
   "CHINCHOU": {
-    "frontPics": "gMonFrontPic_Chinchou",
-    "index": 170,
-    "backPics": "gMonBackPic_Chinchou",
-    "normPalette": "gMonPalette_Chinchou",
-    "shinyPalette": "gMonShinyPalette_Chinchou",
-    "footprintPics": "gMonFootprint_Chinchou",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Chinchou"
+    "index": 170
   },
   "LANTURN": {
-    "frontPics": "gMonFrontPic_Lanturn",
-    "index": 171,
-    "backPics": "gMonBackPic_Lanturn",
-    "normPalette": "gMonPalette_Lanturn",
-    "shinyPalette": "gMonShinyPalette_Lanturn",
-    "footprintPics": "gMonFootprint_Lanturn",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Lanturn"
+    "index": 171
   },
   "PICHU": {
-    "frontPics": "gMonFrontPic_Pichu",
-    "index": 172,
-    "backPics": "gMonBackPic_Pichu",
-    "normPalette": "gMonPalette_Pichu",
-    "shinyPalette": "gMonShinyPalette_Pichu",
-    "footprintPics": "gMonFootprint_Pichu",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pichu"
+    "index": 172
   },
   "CLEFFA": {
-    "frontPics": "gMonFrontPic_Cleffa",
-    "index": 173,
-    "backPics": "gMonBackPic_Cleffa",
-    "normPalette": "gMonPalette_Cleffa",
-    "shinyPalette": "gMonShinyPalette_Cleffa",
-    "footprintPics": "gMonFootprint_Cleffa",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Cleffa"
+    "index": 173
   },
   "IGGLYBUFF": {
-    "frontPics": "gMonFrontPic_Igglybuff",
-    "index": 174,
-    "backPics": "gMonBackPic_Igglybuff",
-    "normPalette": "gMonPalette_Igglybuff",
-    "shinyPalette": "gMonShinyPalette_Igglybuff",
-    "footprintPics": "gMonFootprint_Igglybuff",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Igglybuff"
+    "index": 174
   },
   "TOGEPI": {
-    "frontPics": "gMonFrontPic_Togepi",
-    "index": 175,
-    "backPics": "gMonBackPic_Togepi",
-    "normPalette": "gMonPalette_Togepi",
-    "shinyPalette": "gMonShinyPalette_Togepi",
-    "footprintPics": "gMonFootprint_Togepi",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Togepi"
+    "index": 175
   },
   "TOGETIC": {
-    "frontPics": "gMonFrontPic_Togetic",
-    "index": 176,
-    "backPics": "gMonBackPic_Togetic",
-    "normPalette": "gMonPalette_Togetic",
-    "shinyPalette": "gMonShinyPalette_Togetic",
-    "footprintPics": "gMonFootprint_Togetic",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Togetic"
+    "index": 176
   },
   "NATU": {
-    "frontPics": "gMonFrontPic_Natu",
-    "index": 177,
-    "backPics": "gMonBackPic_Natu",
-    "normPalette": "gMonPalette_Natu",
-    "shinyPalette": "gMonShinyPalette_Natu",
-    "footprintPics": "gMonFootprint_Natu",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Natu"
+    "index": 177
   },
   "XATU": {
-    "frontPics": "gMonFrontPic_Xatu",
-    "index": 178,
-    "backPics": "gMonBackPic_Xatu",
-    "normPalette": "gMonPalette_Xatu",
-    "shinyPalette": "gMonShinyPalette_Xatu",
-    "footprintPics": "gMonFootprint_Xatu",
-    "width": "32",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Xatu"
+    "index": 178
   },
   "MAREEP": {
-    "frontPics": "gMonFrontPic_Mareep",
-    "index": 179,
-    "backPics": "gMonBackPic_Mareep",
-    "normPalette": "gMonPalette_Mareep",
-    "shinyPalette": "gMonShinyPalette_Mareep",
-    "footprintPics": "gMonFootprint_Mareep",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Mareep"
+    "index": 179
   },
   "FLAAFFY": {
-    "frontPics": "gMonFrontPic_Flaaffy",
-    "index": 180,
-    "backPics": "gMonBackPic_Flaaffy",
-    "normPalette": "gMonPalette_Flaaffy",
-    "shinyPalette": "gMonShinyPalette_Flaaffy",
-    "footprintPics": "gMonFootprint_Flaaffy",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Flaaffy"
+    "index": 180
   },
   "AMPHAROS": {
-    "frontPics": "gMonFrontPic_Ampharos",
-    "index": 181,
-    "backPics": "gMonBackPic_Ampharos",
-    "normPalette": "gMonPalette_Ampharos",
-    "shinyPalette": "gMonShinyPalette_Ampharos",
-    "footprintPics": "gMonFootprint_Ampharos",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Ampharos"
+    "index": 181
   },
   "BELLOSSOM": {
-    "frontPics": "gMonFrontPic_Bellossom",
-    "index": 182,
-    "backPics": "gMonBackPic_Bellossom",
-    "normPalette": "gMonPalette_Bellossom",
-    "shinyPalette": "gMonShinyPalette_Bellossom",
-    "footprintPics": "gMonFootprint_Bellossom",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Bellossom"
+    "index": 182
   },
   "MARILL": {
-    "frontPics": "gMonFrontPic_Marill",
-    "index": 183,
-    "backPics": "gMonBackPic_Marill",
-    "normPalette": "gMonPalette_Marill",
-    "shinyPalette": "gMonShinyPalette_Marill",
-    "footprintPics": "gMonFootprint_Marill",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Marill"
+    "index": 183
   },
   "AZUMARILL": {
-    "frontPics": "gMonFrontPic_Azumarill",
-    "index": 184,
-    "backPics": "gMonBackPic_Azumarill",
-    "normPalette": "gMonPalette_Azumarill",
-    "shinyPalette": "gMonShinyPalette_Azumarill",
-    "footprintPics": "gMonFootprint_Azumarill",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Azumarill"
+    "index": 184
   },
   "SUDOWOODO": {
-    "frontPics": "gMonFrontPic_Sudowoodo",
-    "index": 185,
-    "backPics": "gMonBackPic_Sudowoodo",
-    "normPalette": "gMonPalette_Sudowoodo",
-    "shinyPalette": "gMonShinyPalette_Sudowoodo",
-    "footprintPics": "gMonFootprint_Sudowoodo",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Sudowoodo"
+    "index": 185
   },
   "POLITOED": {
-    "frontPics": "gMonFrontPic_Politoed",
-    "index": 186,
-    "backPics": "gMonBackPic_Politoed",
-    "normPalette": "gMonPalette_Politoed",
-    "shinyPalette": "gMonShinyPalette_Politoed",
-    "footprintPics": "gMonFootprint_Politoed",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Politoed"
+    "index": 186
   },
   "HOPPIP": {
-    "frontPics": "gMonFrontPic_Hoppip",
-    "index": 187,
-    "backPics": "gMonBackPic_Hoppip",
-    "normPalette": "gMonPalette_Hoppip",
-    "shinyPalette": "gMonShinyPalette_Hoppip",
-    "footprintPics": "gMonFootprint_Hoppip",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Hoppip"
+    "index": 187
   },
   "SKIPLOOM": {
-    "frontPics": "gMonFrontPic_Skiploom",
-    "index": 188,
-    "backPics": "gMonBackPic_Skiploom",
-    "normPalette": "gMonPalette_Skiploom",
-    "shinyPalette": "gMonShinyPalette_Skiploom",
-    "footprintPics": "gMonFootprint_Skiploom",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Skiploom"
+    "index": 188
   },
   "JUMPLUFF": {
-    "frontPics": "gMonFrontPic_Jumpluff",
-    "index": 189,
-    "backPics": "gMonBackPic_Jumpluff",
-    "normPalette": "gMonPalette_Jumpluff",
-    "shinyPalette": "gMonShinyPalette_Jumpluff",
-    "footprintPics": "gMonFootprint_Jumpluff",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Jumpluff"
+    "index": 189
   },
   "AIPOM": {
-    "frontPics": "gMonFrontPic_Aipom",
-    "index": 190,
-    "backPics": "gMonBackPic_Aipom",
-    "normPalette": "gMonPalette_Aipom",
-    "shinyPalette": "gMonShinyPalette_Aipom",
-    "footprintPics": "gMonFootprint_Aipom",
-    "width": "40",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Aipom"
+    "index": 190
   },
   "SUNKERN": {
-    "frontPics": "gMonFrontPic_Sunkern",
-    "index": 191,
-    "backPics": "gMonBackPic_Sunkern",
-    "normPalette": "gMonPalette_Sunkern",
-    "shinyPalette": "gMonShinyPalette_Sunkern",
-    "footprintPics": "gMonFootprint_Sunkern",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Sunkern"
+    "index": 191
   },
   "SUNFLORA": {
-    "frontPics": "gMonFrontPic_Sunflora",
-    "index": 192,
-    "backPics": "gMonBackPic_Sunflora",
-    "normPalette": "gMonPalette_Sunflora",
-    "shinyPalette": "gMonShinyPalette_Sunflora",
-    "footprintPics": "gMonFootprint_Sunflora",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Sunflora"
+    "index": 192
   },
   "YANMA": {
-    "frontPics": "gMonFrontPic_Yanma",
-    "index": 193,
-    "backPics": "gMonBackPic_Yanma",
-    "normPalette": "gMonPalette_Yanma",
-    "shinyPalette": "gMonShinyPalette_Yanma",
-    "footprintPics": "gMonFootprint_Yanma",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Yanma"
+    "index": 193
   },
   "WOOPER": {
-    "frontPics": "gMonFrontPic_Wooper",
-    "index": 194,
-    "backPics": "gMonBackPic_Wooper",
-    "normPalette": "gMonPalette_Wooper",
-    "shinyPalette": "gMonShinyPalette_Wooper",
-    "footprintPics": "gMonFootprint_Wooper",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wooper"
+    "index": 194
   },
   "QUAGSIRE": {
-    "frontPics": "gMonFrontPic_Quagsire",
-    "index": 195,
-    "backPics": "gMonBackPic_Quagsire",
-    "normPalette": "gMonPalette_Quagsire",
-    "shinyPalette": "gMonShinyPalette_Quagsire",
-    "footprintPics": "gMonFootprint_Quagsire",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Quagsire"
+    "index": 195
   },
   "ESPEON": {
-    "frontPics": "gMonFrontPic_Espeon",
-    "index": 196,
-    "backPics": "gMonBackPic_Espeon",
-    "normPalette": "gMonPalette_Espeon",
-    "shinyPalette": "gMonShinyPalette_Espeon",
-    "footprintPics": "gMonFootprint_Espeon",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Espeon"
+    "index": 196
   },
   "UMBREON": {
-    "frontPics": "gMonFrontPic_Umbreon",
-    "index": 197,
-    "backPics": "gMonBackPic_Umbreon",
-    "normPalette": "gMonPalette_Umbreon",
-    "shinyPalette": "gMonShinyPalette_Umbreon",
-    "footprintPics": "gMonFootprint_Umbreon",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Umbreon"
+    "index": 197
   },
   "MURKROW": {
-    "frontPics": "gMonFrontPic_Murkrow",
-    "index": 198,
-    "backPics": "gMonBackPic_Murkrow",
-    "normPalette": "gMonPalette_Murkrow",
-    "shinyPalette": "gMonShinyPalette_Murkrow",
-    "footprintPics": "gMonFootprint_Murkrow",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Murkrow"
+    "index": 198
   },
   "SLOWKING": {
-    "frontPics": "gMonFrontPic_Slowking",
-    "index": 199,
-    "backPics": "gMonBackPic_Slowking",
-    "normPalette": "gMonPalette_Slowking",
-    "shinyPalette": "gMonShinyPalette_Slowking",
-    "footprintPics": "gMonFootprint_Slowking",
-    "width": "40",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Slowking"
+    "index": 199
   },
   "MISDREAVUS": {
-    "frontPics": "gMonFrontPic_Misdreavus",
-    "index": 200,
-    "backPics": "gMonBackPic_Misdreavus",
-    "normPalette": "gMonPalette_Misdreavus",
-    "shinyPalette": "gMonShinyPalette_Misdreavus",
-    "footprintPics": "gMonFootprint_Misdreavus",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Misdreavus"
+    "index": 200
   },
   "UNOWN": {
-    "frontPics": "gMonFrontPic_UnownA",
-    "index": 201,
-    "backPics": "gMonBackPic_UnownA",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "footprintPics": "gMonFootprint_Unown",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownA"
+    "index": 201
   },
   "WOBBUFFET": {
-    "frontPics": "gMonFrontPic_Wobbuffet",
-    "index": 202,
-    "backPics": "gMonBackPic_Wobbuffet",
-    "normPalette": "gMonPalette_Wobbuffet",
-    "shinyPalette": "gMonShinyPalette_Wobbuffet",
-    "footprintPics": "gMonFootprint_Wobbuffet",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wobbuffet"
+    "index": 202
   },
   "GIRAFARIG": {
-    "frontPics": "gMonFrontPic_Girafarig",
-    "index": 203,
-    "backPics": "gMonBackPic_Girafarig",
-    "normPalette": "gMonPalette_Girafarig",
-    "shinyPalette": "gMonShinyPalette_Girafarig",
-    "footprintPics": "gMonFootprint_Girafarig",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Girafarig"
+    "index": 203
   },
   "PINECO": {
-    "frontPics": "gMonFrontPic_Pineco",
-    "index": 204,
-    "backPics": "gMonBackPic_Pineco",
-    "normPalette": "gMonPalette_Pineco",
-    "shinyPalette": "gMonShinyPalette_Pineco",
-    "footprintPics": "gMonFootprint_Pineco",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pineco"
+    "index": 204
   },
   "FORRETRESS": {
-    "frontPics": "gMonFrontPic_Forretress",
-    "index": 205,
-    "backPics": "gMonBackPic_Forretress",
-    "normPalette": "gMonPalette_Forretress",
-    "shinyPalette": "gMonShinyPalette_Forretress",
-    "footprintPics": "gMonFootprint_Forretress",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Forretress"
+    "index": 205
   },
   "DUNSPARCE": {
-    "frontPics": "gMonFrontPic_Dunsparce",
-    "index": 206,
-    "backPics": "gMonBackPic_Dunsparce",
-    "normPalette": "gMonPalette_Dunsparce",
-    "shinyPalette": "gMonShinyPalette_Dunsparce",
-    "footprintPics": "gMonFootprint_Dunsparce",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Dunsparce"
+    "index": 206
   },
   "GLIGAR": {
-    "frontPics": "gMonFrontPic_Gligar",
-    "index": 207,
-    "backPics": "gMonBackPic_Gligar",
-    "normPalette": "gMonPalette_Gligar",
-    "shinyPalette": "gMonShinyPalette_Gligar",
-    "footprintPics": "gMonFootprint_Gligar",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Gligar"
+    "index": 207
   },
   "STEELIX": {
-    "frontPics": "gMonFrontPic_Steelix",
-    "index": 208,
-    "backPics": "gMonBackPic_Steelix",
-    "normPalette": "gMonPalette_Steelix",
-    "shinyPalette": "gMonShinyPalette_Steelix",
-    "footprintPics": "gMonFootprint_Steelix",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Steelix"
+    "index": 208
   },
   "SNUBBULL": {
-    "frontPics": "gMonFrontPic_Snubbull",
-    "index": 209,
-    "backPics": "gMonBackPic_Snubbull",
-    "normPalette": "gMonPalette_Snubbull",
-    "shinyPalette": "gMonShinyPalette_Snubbull",
-    "footprintPics": "gMonFootprint_Snubbull",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Snubbull"
+    "index": 209
   },
   "GRANBULL": {
-    "frontPics": "gMonFrontPic_Granbull",
-    "index": 210,
-    "backPics": "gMonBackPic_Granbull",
-    "normPalette": "gMonPalette_Granbull",
-    "shinyPalette": "gMonShinyPalette_Granbull",
-    "footprintPics": "gMonFootprint_Granbull",
-    "width": "40",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Granbull"
+    "index": 210
   },
   "QWILFISH": {
-    "frontPics": "gMonFrontPic_Qwilfish",
-    "index": 211,
-    "backPics": "gMonBackPic_Qwilfish",
-    "normPalette": "gMonPalette_Qwilfish",
-    "shinyPalette": "gMonShinyPalette_Qwilfish",
-    "footprintPics": "gMonFootprint_Qwilfish",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Qwilfish"
+    "index": 211
   },
   "SCIZOR": {
-    "frontPics": "gMonFrontPic_Scizor",
-    "index": 212,
-    "backPics": "gMonBackPic_Scizor",
-    "normPalette": "gMonPalette_Scizor",
-    "shinyPalette": "gMonShinyPalette_Scizor",
-    "footprintPics": "gMonFootprint_Scizor",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Scizor"
+    "index": 212
   },
   "SHUCKLE": {
-    "frontPics": "gMonFrontPic_Shuckle",
-    "index": 213,
-    "backPics": "gMonBackPic_Shuckle",
-    "normPalette": "gMonPalette_Shuckle",
-    "shinyPalette": "gMonShinyPalette_Shuckle",
-    "footprintPics": "gMonFootprint_Shuckle",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Shuckle"
+    "index": 213
   },
   "HERACROSS": {
-    "frontPics": "gMonFrontPic_Heracross",
-    "index": 214,
-    "backPics": "gMonBackPic_Heracross",
-    "normPalette": "gMonPalette_Heracross",
-    "shinyPalette": "gMonShinyPalette_Heracross",
-    "footprintPics": "gMonFootprint_Heracross",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Heracross"
+    "index": 214
   },
   "SNEASEL": {
-    "frontPics": "gMonFrontPic_Sneasel",
-    "index": 215,
-    "backPics": "gMonBackPic_Sneasel",
-    "normPalette": "gMonPalette_Sneasel",
-    "shinyPalette": "gMonShinyPalette_Sneasel",
-    "footprintPics": "gMonFootprint_Sneasel",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Sneasel"
+    "index": 215
   },
   "TEDDIURSA": {
-    "frontPics": "gMonFrontPic_Teddiursa",
-    "index": 216,
-    "backPics": "gMonBackPic_Teddiursa",
-    "normPalette": "gMonPalette_Teddiursa",
-    "shinyPalette": "gMonShinyPalette_Teddiursa",
-    "footprintPics": "gMonFootprint_Teddiursa",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Teddiursa"
+    "index": 216
   },
   "URSARING": {
-    "frontPics": "gMonFrontPic_Ursaring",
-    "index": 217,
-    "backPics": "gMonBackPic_Ursaring",
-    "normPalette": "gMonPalette_Ursaring",
-    "shinyPalette": "gMonShinyPalette_Ursaring",
-    "footprintPics": "gMonFootprint_Ursaring",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Ursaring"
+    "index": 217
   },
   "SLUGMA": {
-    "frontPics": "gMonFrontPic_Slugma",
-    "index": 218,
-    "backPics": "gMonBackPic_Slugma",
-    "normPalette": "gMonPalette_Slugma",
-    "shinyPalette": "gMonShinyPalette_Slugma",
-    "footprintPics": "gMonFootprint_Slugma",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Slugma"
+    "index": 218
   },
   "MAGCARGO": {
-    "frontPics": "gMonFrontPic_Magcargo",
-    "index": 219,
-    "backPics": "gMonBackPic_Magcargo",
-    "normPalette": "gMonPalette_Magcargo",
-    "shinyPalette": "gMonShinyPalette_Magcargo",
-    "footprintPics": "gMonFootprint_Magcargo",
-    "width": "40",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Magcargo"
+    "index": 219
   },
   "SWINUB": {
-    "frontPics": "gMonFrontPic_Swinub",
-    "index": 220,
-    "backPics": "gMonBackPic_Swinub",
-    "normPalette": "gMonPalette_Swinub",
-    "shinyPalette": "gMonShinyPalette_Swinub",
-    "footprintPics": "gMonFootprint_Swinub",
-    "width": "32",
-    "height": "24",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Swinub"
+    "index": 220
   },
   "PILOSWINE": {
-    "frontPics": "gMonFrontPic_Piloswine",
-    "index": 221,
-    "backPics": "gMonBackPic_Piloswine",
-    "normPalette": "gMonPalette_Piloswine",
-    "shinyPalette": "gMonShinyPalette_Piloswine",
-    "footprintPics": "gMonFootprint_Piloswine",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Piloswine"
+    "index": 221
   },
   "CORSOLA": {
-    "frontPics": "gMonFrontPic_Corsola",
-    "index": 222,
-    "backPics": "gMonBackPic_Corsola",
-    "normPalette": "gMonPalette_Corsola",
-    "shinyPalette": "gMonShinyPalette_Corsola",
-    "footprintPics": "gMonFootprint_Corsola",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Corsola"
+    "index": 222
   },
   "REMORAID": {
-    "frontPics": "gMonFrontPic_Remoraid",
-    "index": 223,
-    "backPics": "gMonBackPic_Remoraid",
-    "normPalette": "gMonPalette_Remoraid",
-    "shinyPalette": "gMonShinyPalette_Remoraid",
-    "footprintPics": "gMonFootprint_Remoraid",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Remoraid"
+    "index": 223
   },
   "OCTILLERY": {
-    "frontPics": "gMonFrontPic_Octillery",
-    "index": 224,
-    "backPics": "gMonBackPic_Octillery",
-    "normPalette": "gMonPalette_Octillery",
-    "shinyPalette": "gMonShinyPalette_Octillery",
-    "footprintPics": "gMonFootprint_Octillery",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Octillery"
+    "index": 224
   },
   "DELIBIRD": {
-    "frontPics": "gMonFrontPic_Delibird",
-    "index": 225,
-    "backPics": "gMonBackPic_Delibird",
-    "normPalette": "gMonPalette_Delibird",
-    "shinyPalette": "gMonShinyPalette_Delibird",
-    "footprintPics": "gMonFootprint_Delibird",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Delibird"
+    "index": 225
   },
   "MANTINE": {
-    "frontPics": "gMonFrontPic_Mantine",
-    "index": 226,
-    "backPics": "gMonBackPic_Mantine",
-    "normPalette": "gMonPalette_Mantine",
-    "shinyPalette": "gMonShinyPalette_Mantine",
-    "footprintPics": "gMonFootprint_Mantine",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Mantine"
+    "index": 226
   },
   "SKARMORY": {
-    "frontPics": "gMonFrontPic_Skarmory",
-    "index": 227,
-    "backPics": "gMonBackPic_Skarmory",
-    "normPalette": "gMonPalette_Skarmory",
-    "shinyPalette": "gMonShinyPalette_Skarmory",
-    "footprintPics": "gMonFootprint_Skarmory",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Skarmory"
+    "index": 227
   },
   "HOUNDOUR": {
-    "frontPics": "gMonFrontPic_Houndour",
-    "index": 228,
-    "backPics": "gMonBackPic_Houndour",
-    "normPalette": "gMonPalette_Houndour",
-    "shinyPalette": "gMonShinyPalette_Houndour",
-    "footprintPics": "gMonFootprint_Houndour",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Houndour"
+    "index": 228
   },
   "HOUNDOOM": {
-    "frontPics": "gMonFrontPic_Houndoom",
-    "index": 229,
-    "backPics": "gMonBackPic_Houndoom",
-    "normPalette": "gMonPalette_Houndoom",
-    "shinyPalette": "gMonShinyPalette_Houndoom",
-    "footprintPics": "gMonFootprint_Houndoom",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Houndoom"
+    "index": 229
   },
   "KINGDRA": {
-    "frontPics": "gMonFrontPic_Kingdra",
-    "index": 230,
-    "backPics": "gMonBackPic_Kingdra",
-    "normPalette": "gMonPalette_Kingdra",
-    "shinyPalette": "gMonShinyPalette_Kingdra",
-    "footprintPics": "gMonFootprint_Kingdra",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Kingdra"
+    "index": 230
   },
   "PHANPY": {
-    "frontPics": "gMonFrontPic_Phanpy",
-    "index": 231,
-    "backPics": "gMonBackPic_Phanpy",
-    "normPalette": "gMonPalette_Phanpy",
-    "shinyPalette": "gMonShinyPalette_Phanpy",
-    "footprintPics": "gMonFootprint_Phanpy",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Phanpy"
+    "index": 231
   },
   "DONPHAN": {
-    "frontPics": "gMonFrontPic_Donphan",
-    "index": 232,
-    "backPics": "gMonBackPic_Donphan",
-    "normPalette": "gMonPalette_Donphan",
-    "shinyPalette": "gMonShinyPalette_Donphan",
-    "footprintPics": "gMonFootprint_Donphan",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Donphan"
+    "index": 232
   },
   "PORYGON2": {
-    "frontPics": "gMonFrontPic_Porygon2",
-    "index": 233,
-    "backPics": "gMonBackPic_Porygon2",
-    "normPalette": "gMonPalette_Porygon2",
-    "shinyPalette": "gMonShinyPalette_Porygon2",
-    "footprintPics": "gMonFootprint_Porygon2",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Porygon2"
+    "index": 233
   },
   "STANTLER": {
-    "frontPics": "gMonFrontPic_Stantler",
-    "index": 234,
-    "backPics": "gMonBackPic_Stantler",
-    "normPalette": "gMonPalette_Stantler",
-    "shinyPalette": "gMonShinyPalette_Stantler",
-    "footprintPics": "gMonFootprint_Stantler",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Stantler"
+    "index": 234
   },
   "SMEARGLE": {
-    "frontPics": "gMonFrontPic_Smeargle",
-    "index": 235,
-    "backPics": "gMonBackPic_Smeargle",
-    "normPalette": "gMonPalette_Smeargle",
-    "shinyPalette": "gMonShinyPalette_Smeargle",
-    "footprintPics": "gMonFootprint_Smeargle",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Smeargle"
+    "index": 235
   },
   "TYROGUE": {
-    "frontPics": "gMonFrontPic_Tyrogue",
-    "index": 236,
-    "backPics": "gMonBackPic_Tyrogue",
-    "normPalette": "gMonPalette_Tyrogue",
-    "shinyPalette": "gMonShinyPalette_Tyrogue",
-    "footprintPics": "gMonFootprint_Tyrogue",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Tyrogue"
+    "index": 236
   },
   "HITMONTOP": {
-    "frontPics": "gMonFrontPic_Hitmontop",
-    "index": 237,
-    "backPics": "gMonBackPic_Hitmontop",
-    "normPalette": "gMonPalette_Hitmontop",
-    "shinyPalette": "gMonShinyPalette_Hitmontop",
-    "footprintPics": "gMonFootprint_Hitmontop",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Hitmontop"
+    "index": 237
   },
   "SMOOCHUM": {
-    "frontPics": "gMonFrontPic_Smoochum",
-    "index": 238,
-    "backPics": "gMonBackPic_Smoochum",
-    "normPalette": "gMonPalette_Smoochum",
-    "shinyPalette": "gMonShinyPalette_Smoochum",
-    "footprintPics": "gMonFootprint_Smoochum",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Smoochum"
+    "index": 238
   },
   "ELEKID": {
-    "frontPics": "gMonFrontPic_Elekid",
-    "index": 239,
-    "backPics": "gMonBackPic_Elekid",
-    "normPalette": "gMonPalette_Elekid",
-    "shinyPalette": "gMonShinyPalette_Elekid",
-    "footprintPics": "gMonFootprint_Elekid",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Elekid"
+    "index": 239
   },
   "MAGBY": {
-    "frontPics": "gMonFrontPic_Magby",
-    "index": 240,
-    "backPics": "gMonBackPic_Magby",
-    "normPalette": "gMonPalette_Magby",
-    "shinyPalette": "gMonShinyPalette_Magby",
-    "footprintPics": "gMonFootprint_Magby",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Magby"
+    "index": 240
   },
   "MILTANK": {
-    "frontPics": "gMonFrontPic_Miltank",
-    "index": 241,
-    "backPics": "gMonBackPic_Miltank",
-    "normPalette": "gMonPalette_Miltank",
-    "shinyPalette": "gMonShinyPalette_Miltank",
-    "footprintPics": "gMonFootprint_Miltank",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Miltank"
+    "index": 241
   },
   "BLISSEY": {
-    "frontPics": "gMonFrontPic_Blissey",
-    "index": 242,
-    "backPics": "gMonBackPic_Blissey",
-    "normPalette": "gMonPalette_Blissey",
-    "shinyPalette": "gMonShinyPalette_Blissey",
-    "footprintPics": "gMonFootprint_Blissey",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Blissey"
+    "index": 242
   },
   "RAIKOU": {
-    "frontPics": "gMonFrontPic_Raikou",
-    "index": 243,
-    "backPics": "gMonBackPic_Raikou",
-    "normPalette": "gMonPalette_Raikou",
-    "shinyPalette": "gMonShinyPalette_Raikou",
-    "footprintPics": "gMonFootprint_Raikou",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Raikou"
+    "index": 243
   },
   "ENTEI": {
-    "frontPics": "gMonFrontPic_Entei",
-    "index": 244,
-    "backPics": "gMonBackPic_Entei",
-    "normPalette": "gMonPalette_Entei",
-    "shinyPalette": "gMonShinyPalette_Entei",
-    "footprintPics": "gMonFootprint_Entei",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Entei"
+    "index": 244
   },
   "SUICUNE": {
-    "frontPics": "gMonFrontPic_Suicune",
-    "index": 245,
-    "backPics": "gMonBackPic_Suicune",
-    "normPalette": "gMonPalette_Suicune",
-    "shinyPalette": "gMonShinyPalette_Suicune",
-    "footprintPics": "gMonFootprint_Suicune",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Suicune"
+    "index": 245
   },
   "LARVITAR": {
-    "frontPics": "gMonFrontPic_Larvitar",
-    "index": 246,
-    "backPics": "gMonBackPic_Larvitar",
-    "normPalette": "gMonPalette_Larvitar",
-    "shinyPalette": "gMonShinyPalette_Larvitar",
-    "footprintPics": "gMonFootprint_Larvitar",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Larvitar"
+    "index": 246
   },
   "PUPITAR": {
-    "frontPics": "gMonFrontPic_Pupitar",
-    "index": 247,
-    "backPics": "gMonBackPic_Pupitar",
-    "normPalette": "gMonPalette_Pupitar",
-    "shinyPalette": "gMonShinyPalette_Pupitar",
-    "footprintPics": "gMonFootprint_Pupitar",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pupitar"
+    "index": 247
   },
   "TYRANITAR": {
-    "frontPics": "gMonFrontPic_Tyranitar",
-    "index": 248,
-    "backPics": "gMonBackPic_Tyranitar",
-    "normPalette": "gMonPalette_Tyranitar",
-    "shinyPalette": "gMonShinyPalette_Tyranitar",
-    "footprintPics": "gMonFootprint_Tyranitar",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Tyranitar"
+    "index": 248
   },
   "LUGIA": {
-    "frontPics": "gMonFrontPic_Lugia",
-    "index": 249,
-    "backPics": "gMonBackPic_Lugia",
-    "normPalette": "gMonPalette_Lugia",
-    "shinyPalette": "gMonShinyPalette_Lugia",
-    "footprintPics": "gMonFootprint_Lugia",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Lugia"
+    "index": 249
   },
   "HO_OH": {
-    "frontPics": "gMonFrontPic_HoOh",
-    "index": 250,
-    "backPics": "gMonBackPic_HoOh",
-    "normPalette": "gMonPalette_HoOh",
-    "shinyPalette": "gMonShinyPalette_HoOh",
-    "footprintPics": "gMonFootprint_HoOh",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_HoOh"
+    "index": 250
   },
   "CELEBI": {
-    "frontPics": "gMonFrontPic_Celebi",
-    "index": 251,
-    "backPics": "gMonBackPic_Celebi",
-    "normPalette": "gMonPalette_Celebi",
-    "shinyPalette": "gMonShinyPalette_Celebi",
-    "footprintPics": "gMonFootprint_Celebi",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Celebi"
+    "index": 251
   },
   "OLD_UNOWN_B": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 252,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 252
   },
   "OLD_UNOWN_C": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 253,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 253
   },
   "OLD_UNOWN_D": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 254,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 254
   },
   "OLD_UNOWN_E": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 255,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 255
   },
   "OLD_UNOWN_F": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 256,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 256
   },
   "OLD_UNOWN_G": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 257,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 257
   },
   "OLD_UNOWN_H": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 258,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 258
   },
   "OLD_UNOWN_I": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 259,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 259
   },
   "OLD_UNOWN_J": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 260,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 260
   },
   "OLD_UNOWN_K": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 261,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 261
   },
   "OLD_UNOWN_L": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 262,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 262
   },
   "OLD_UNOWN_M": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 263,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 263
   },
   "OLD_UNOWN_N": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 264,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 264
   },
   "OLD_UNOWN_O": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 265,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 265
   },
   "OLD_UNOWN_P": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 266,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 266
   },
   "OLD_UNOWN_Q": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 267,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 267
   },
   "OLD_UNOWN_R": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 268,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 268
   },
   "OLD_UNOWN_S": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 269,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 269
   },
   "OLD_UNOWN_T": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 270,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 270
   },
   "OLD_UNOWN_U": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 271,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 271
   },
   "OLD_UNOWN_V": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 272,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 272
   },
   "OLD_UNOWN_W": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 273,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 273
   },
   "OLD_UNOWN_X": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 274,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 274
   },
   "OLD_UNOWN_Y": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 275,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 275
   },
   "OLD_UNOWN_Z": {
-    "frontPics": "gMonFrontPic_DoubleQuestionMark",
-    "index": 276,
-    "backPics": "gMonBackPic_DoubleQuestionMark",
-    "normPalette": "gMonPalette_DoubleQuestionMark",
-    "shinyPalette": "gMonShinyPalette_DoubleQuestionMark",
-    "footprintPics": "gMonFootprint_QuestionMark",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_QuestionMark"
+    "index": 276
   },
   "TREECKO": {
-    "frontPics": "gMonFrontPic_Treecko",
-    "index": 277,
-    "backPics": "gMonBackPic_Treecko",
-    "normPalette": "gMonPalette_Treecko",
-    "shinyPalette": "gMonShinyPalette_Treecko",
-    "footprintPics": "gMonFootprint_Treecko",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Treecko"
+    "index": 277
   },
   "GROVYLE": {
-    "frontPics": "gMonFrontPic_Grovyle",
-    "index": 278,
-    "backPics": "gMonBackPic_Grovyle",
-    "normPalette": "gMonPalette_Grovyle",
-    "shinyPalette": "gMonShinyPalette_Grovyle",
-    "footprintPics": "gMonFootprint_Grovyle",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Grovyle"
+    "index": 278
   },
   "SCEPTILE": {
-    "frontPics": "gMonFrontPic_Sceptile",
-    "index": 279,
-    "backPics": "gMonBackPic_Sceptile",
-    "normPalette": "gMonPalette_Sceptile",
-    "shinyPalette": "gMonShinyPalette_Sceptile",
-    "footprintPics": "gMonFootprint_Sceptile",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Sceptile"
+    "index": 279
   },
   "TORCHIC": {
-    "frontPics": "gMonFrontPic_Torchic",
-    "index": 280,
-    "backPics": "gMonBackPic_Torchic",
-    "normPalette": "gMonPalette_Torchic",
-    "shinyPalette": "gMonShinyPalette_Torchic",
-    "footprintPics": "gMonFootprint_Torchic",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Torchic"
+    "index": 280
   },
   "COMBUSKEN": {
-    "frontPics": "gMonFrontPic_Combusken",
-    "index": 281,
-    "backPics": "gMonBackPic_Combusken",
-    "normPalette": "gMonPalette_Combusken",
-    "shinyPalette": "gMonShinyPalette_Combusken",
-    "footprintPics": "gMonFootprint_Combusken",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Combusken"
+    "index": 281
   },
   "BLAZIKEN": {
-    "frontPics": "gMonFrontPic_Blaziken",
-    "index": 282,
-    "backPics": "gMonBackPic_Blaziken",
-    "normPalette": "gMonPalette_Blaziken",
-    "shinyPalette": "gMonShinyPalette_Blaziken",
-    "footprintPics": "gMonFootprint_Blaziken",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Blaziken"
+    "index": 282
   },
   "MUDKIP": {
-    "frontPics": "gMonFrontPic_Mudkip",
-    "index": 283,
-    "backPics": "gMonBackPic_Mudkip",
-    "normPalette": "gMonPalette_Mudkip",
-    "shinyPalette": "gMonShinyPalette_Mudkip",
-    "footprintPics": "gMonFootprint_Mudkip",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Mudkip"
+    "index": 283
   },
   "MARSHTOMP": {
-    "frontPics": "gMonFrontPic_Marshtomp",
-    "index": 284,
-    "backPics": "gMonBackPic_Marshtomp",
-    "normPalette": "gMonPalette_Marshtomp",
-    "shinyPalette": "gMonShinyPalette_Marshtomp",
-    "footprintPics": "gMonFootprint_Marshtomp",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Marshtomp"
+    "index": 284
   },
   "SWAMPERT": {
-    "frontPics": "gMonFrontPic_Swampert",
-    "index": 285,
-    "backPics": "gMonBackPic_Swampert",
-    "normPalette": "gMonPalette_Swampert",
-    "shinyPalette": "gMonShinyPalette_Swampert",
-    "footprintPics": "gMonFootprint_Swampert",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Swampert"
+    "index": 285
   },
   "POOCHYENA": {
-    "frontPics": "gMonFrontPic_Poochyena",
-    "index": 286,
-    "backPics": "gMonBackPic_Poochyena",
-    "normPalette": "gMonPalette_Poochyena",
-    "shinyPalette": "gMonShinyPalette_Poochyena",
-    "footprintPics": "gMonFootprint_Poochyena",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Poochyena"
+    "index": 286
   },
   "MIGHTYENA": {
-    "frontPics": "gMonFrontPic_Mightyena",
-    "index": 287,
-    "backPics": "gMonBackPic_Mightyena",
-    "normPalette": "gMonPalette_Mightyena",
-    "shinyPalette": "gMonShinyPalette_Mightyena",
-    "footprintPics": "gMonFootprint_Mightyena",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Mightyena"
+    "index": 287
   },
   "ZIGZAGOON": {
-    "frontPics": "gMonFrontPic_Zigzagoon",
-    "index": 288,
-    "backPics": "gMonBackPic_Zigzagoon",
-    "normPalette": "gMonPalette_Zigzagoon",
-    "shinyPalette": "gMonShinyPalette_Zigzagoon",
-    "footprintPics": "gMonFootprint_Zigzagoon",
-    "width": "64",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Zigzagoon"
+    "index": 288
   },
   "LINOONE": {
-    "frontPics": "gMonFrontPic_Linoone",
-    "index": 289,
-    "backPics": "gMonBackPic_Linoone",
-    "normPalette": "gMonPalette_Linoone",
-    "shinyPalette": "gMonShinyPalette_Linoone",
-    "footprintPics": "gMonFootprint_Linoone",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Linoone"
+    "index": 289
   },
   "WURMPLE": {
-    "frontPics": "gMonFrontPic_Wurmple",
-    "index": 290,
-    "backPics": "gMonBackPic_Wurmple",
-    "normPalette": "gMonPalette_Wurmple",
-    "shinyPalette": "gMonShinyPalette_Wurmple",
-    "footprintPics": "gMonFootprint_Wurmple",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wurmple"
+    "index": 290
   },
   "SILCOON": {
-    "frontPics": "gMonFrontPic_Silcoon",
-    "index": 291,
-    "backPics": "gMonBackPic_Silcoon",
-    "normPalette": "gMonPalette_Silcoon",
-    "shinyPalette": "gMonShinyPalette_Silcoon",
-    "footprintPics": "gMonFootprint_Silcoon",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Silcoon"
+    "index": 291
   },
   "BEAUTIFLY": {
-    "frontPics": "gMonFrontPic_Beautifly",
-    "index": 292,
-    "backPics": "gMonBackPic_Beautifly",
-    "normPalette": "gMonPalette_Beautifly",
-    "shinyPalette": "gMonShinyPalette_Beautifly",
-    "footprintPics": "gMonFootprint_Beautifly",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Beautifly"
+    "index": 292
   },
   "CASCOON": {
-    "frontPics": "gMonFrontPic_Cascoon",
-    "index": 293,
-    "backPics": "gMonBackPic_Cascoon",
-    "normPalette": "gMonPalette_Cascoon",
-    "shinyPalette": "gMonShinyPalette_Cascoon",
-    "footprintPics": "gMonFootprint_Cascoon",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Cascoon"
+    "index": 293
   },
   "DUSTOX": {
-    "frontPics": "gMonFrontPic_Dustox",
-    "index": 294,
-    "backPics": "gMonBackPic_Dustox",
-    "normPalette": "gMonPalette_Dustox",
-    "shinyPalette": "gMonShinyPalette_Dustox",
-    "footprintPics": "gMonFootprint_Dustox",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Dustox"
+    "index": 294
   },
   "LOTAD": {
-    "frontPics": "gMonFrontPic_Lotad",
-    "index": 295,
-    "backPics": "gMonBackPic_Lotad",
-    "normPalette": "gMonPalette_Lotad",
-    "shinyPalette": "gMonShinyPalette_Lotad",
-    "footprintPics": "gMonFootprint_Lotad",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Lotad"
+    "index": 295
   },
   "LOMBRE": {
-    "frontPics": "gMonFrontPic_Lombre",
-    "index": 296,
-    "backPics": "gMonBackPic_Lombre",
-    "normPalette": "gMonPalette_Lombre",
-    "shinyPalette": "gMonShinyPalette_Lombre",
-    "footprintPics": "gMonFootprint_Lombre",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Lombre"
+    "index": 296
   },
   "LUDICOLO": {
-    "frontPics": "gMonFrontPic_Ludicolo",
-    "index": 297,
-    "backPics": "gMonBackPic_Ludicolo",
-    "normPalette": "gMonPalette_Ludicolo",
-    "shinyPalette": "gMonShinyPalette_Ludicolo",
-    "footprintPics": "gMonFootprint_Ludicolo",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Ludicolo"
+    "index": 297
   },
   "SEEDOT": {
-    "frontPics": "gMonFrontPic_Seedot",
-    "index": 298,
-    "backPics": "gMonBackPic_Seedot",
-    "normPalette": "gMonPalette_Seedot",
-    "shinyPalette": "gMonShinyPalette_Seedot",
-    "footprintPics": "gMonFootprint_Seedot",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Seedot"
+    "index": 298
   },
   "NUZLEAF": {
-    "frontPics": "gMonFrontPic_Nuzleaf",
-    "index": 299,
-    "backPics": "gMonBackPic_Nuzleaf",
-    "normPalette": "gMonPalette_Nuzleaf",
-    "shinyPalette": "gMonShinyPalette_Nuzleaf",
-    "footprintPics": "gMonFootprint_Nuzleaf",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Nuzleaf"
+    "index": 299
   },
   "SHIFTRY": {
-    "frontPics": "gMonFrontPic_Shiftry",
-    "index": 300,
-    "backPics": "gMonBackPic_Shiftry",
-    "normPalette": "gMonPalette_Shiftry",
-    "shinyPalette": "gMonShinyPalette_Shiftry",
-    "footprintPics": "gMonFootprint_Shiftry",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Shiftry"
+    "index": 300
   },
   "NINCADA": {
-    "frontPics": "gMonFrontPic_Nincada",
-    "index": 301,
-    "backPics": "gMonBackPic_Nincada",
-    "normPalette": "gMonPalette_Nincada",
-    "shinyPalette": "gMonShinyPalette_Nincada",
-    "footprintPics": "gMonFootprint_Nincada",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Nincada"
+    "index": 301
   },
   "NINJASK": {
-    "frontPics": "gMonFrontPic_Ninjask",
-    "index": 302,
-    "backPics": "gMonBackPic_Ninjask",
-    "normPalette": "gMonPalette_Ninjask",
-    "shinyPalette": "gMonShinyPalette_Ninjask",
-    "footprintPics": "gMonFootprint_Ninjask",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Ninjask"
+    "index": 302
   },
   "SHEDINJA": {
-    "frontPics": "gMonFrontPic_Shedinja",
-    "index": 303,
-    "backPics": "gMonBackPic_Shedinja",
-    "normPalette": "gMonPalette_Shedinja",
-    "shinyPalette": "gMonShinyPalette_Shedinja",
-    "footprintPics": "gMonFootprint_Shedinja",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Shedinja"
+    "index": 303
   },
   "TAILLOW": {
-    "frontPics": "gMonFrontPic_Taillow",
-    "index": 304,
-    "backPics": "gMonBackPic_Taillow",
-    "normPalette": "gMonPalette_Taillow",
-    "shinyPalette": "gMonShinyPalette_Taillow",
-    "footprintPics": "gMonFootprint_Taillow",
-    "width": "48",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Taillow"
+    "index": 304
   },
   "SWELLOW": {
-    "frontPics": "gMonFrontPic_Swellow",
-    "index": 305,
-    "backPics": "gMonBackPic_Swellow",
-    "normPalette": "gMonPalette_Swellow",
-    "shinyPalette": "gMonShinyPalette_Swellow",
-    "footprintPics": "gMonFootprint_Swellow",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Swellow"
+    "index": 305
   },
   "SHROOMISH": {
-    "frontPics": "gMonFrontPic_Shroomish",
-    "index": 306,
-    "backPics": "gMonBackPic_Shroomish",
-    "normPalette": "gMonPalette_Shroomish",
-    "shinyPalette": "gMonShinyPalette_Shroomish",
-    "footprintPics": "gMonFootprint_Shroomish",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Shroomish"
+    "index": 306
   },
   "BRELOOM": {
-    "frontPics": "gMonFrontPic_Breloom",
-    "index": 307,
-    "backPics": "gMonBackPic_Breloom",
-    "normPalette": "gMonPalette_Breloom",
-    "shinyPalette": "gMonShinyPalette_Breloom",
-    "footprintPics": "gMonFootprint_Breloom",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Breloom"
+    "index": 307
   },
   "SPINDA": {
-    "frontPics": "gMonFrontPic_Spinda",
-    "index": 308,
-    "backPics": "gMonBackPic_Spinda",
-    "normPalette": "gMonPalette_Spinda",
-    "shinyPalette": "gMonShinyPalette_Spinda",
-    "footprintPics": "gMonFootprint_Spinda",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Spinda"
+    "index": 308
   },
   "WINGULL": {
-    "frontPics": "gMonFrontPic_Wingull",
-    "index": 309,
-    "backPics": "gMonBackPic_Wingull",
-    "normPalette": "gMonPalette_Wingull",
-    "shinyPalette": "gMonShinyPalette_Wingull",
-    "footprintPics": "gMonFootprint_Wingull",
-    "width": "64",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wingull"
+    "index": 309
   },
   "PELIPPER": {
-    "frontPics": "gMonFrontPic_Pelipper",
-    "index": 310,
-    "backPics": "gMonBackPic_Pelipper",
-    "normPalette": "gMonPalette_Pelipper",
-    "shinyPalette": "gMonShinyPalette_Pelipper",
-    "footprintPics": "gMonFootprint_Pelipper",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Pelipper"
+    "index": 310
   },
   "SURSKIT": {
-    "frontPics": "gMonFrontPic_Surskit",
-    "index": 311,
-    "backPics": "gMonBackPic_Surskit",
-    "normPalette": "gMonPalette_Surskit",
-    "shinyPalette": "gMonShinyPalette_Surskit",
-    "footprintPics": "gMonFootprint_Surskit",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Surskit"
+    "index": 311
   },
   "MASQUERAIN": {
-    "frontPics": "gMonFrontPic_Masquerain",
-    "index": 312,
-    "backPics": "gMonBackPic_Masquerain",
-    "normPalette": "gMonPalette_Masquerain",
-    "shinyPalette": "gMonShinyPalette_Masquerain",
-    "footprintPics": "gMonFootprint_Masquerain",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Masquerain"
+    "index": 312
   },
   "WAILMER": {
-    "frontPics": "gMonFrontPic_Wailmer",
-    "index": 313,
-    "backPics": "gMonBackPic_Wailmer",
-    "normPalette": "gMonPalette_Wailmer",
-    "shinyPalette": "gMonShinyPalette_Wailmer",
-    "footprintPics": "gMonFootprint_Wailmer",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Wailmer"
+    "index": 313
   },
   "WAILORD": {
-    "frontPics": "gMonFrontPic_Wailord",
-    "index": 314,
-    "backPics": "gMonBackPic_Wailord",
-    "normPalette": "gMonPalette_Wailord",
-    "shinyPalette": "gMonShinyPalette_Wailord",
-    "footprintPics": "gMonFootprint_Wailord",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wailord"
+    "index": 314
   },
   "SKITTY": {
-    "frontPics": "gMonFrontPic_Skitty",
-    "index": 315,
-    "backPics": "gMonBackPic_Skitty",
-    "normPalette": "gMonPalette_Skitty",
-    "shinyPalette": "gMonShinyPalette_Skitty",
-    "footprintPics": "gMonFootprint_Skitty",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Skitty"
+    "index": 315
   },
   "DELCATTY": {
-    "frontPics": "gMonFrontPic_Delcatty",
-    "index": 316,
-    "backPics": "gMonBackPic_Delcatty",
-    "normPalette": "gMonPalette_Delcatty",
-    "shinyPalette": "gMonShinyPalette_Delcatty",
-    "footprintPics": "gMonFootprint_Delcatty",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Delcatty"
+    "index": 316
   },
   "KECLEON": {
-    "frontPics": "gMonFrontPic_Kecleon",
-    "index": 317,
-    "backPics": "gMonBackPic_Kecleon",
-    "normPalette": "gMonPalette_Kecleon",
-    "shinyPalette": "gMonShinyPalette_Kecleon",
-    "footprintPics": "gMonFootprint_Kecleon",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Kecleon"
+    "index": 317
   },
   "BALTOY": {
-    "frontPics": "gMonFrontPic_Baltoy",
-    "index": 318,
-    "backPics": "gMonBackPic_Baltoy",
-    "normPalette": "gMonPalette_Baltoy",
-    "shinyPalette": "gMonShinyPalette_Baltoy",
-    "footprintPics": "gMonFootprint_Baltoy",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Baltoy"
+    "index": 318
   },
   "CLAYDOL": {
-    "frontPics": "gMonFrontPic_Claydol",
-    "index": 319,
-    "backPics": "gMonBackPic_Claydol",
-    "normPalette": "gMonPalette_Claydol",
-    "shinyPalette": "gMonShinyPalette_Claydol",
-    "footprintPics": "gMonFootprint_Claydol",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Claydol"
+    "index": 319
   },
   "NOSEPASS": {
-    "frontPics": "gMonFrontPic_Nosepass",
-    "index": 320,
-    "backPics": "gMonBackPic_Nosepass",
-    "normPalette": "gMonPalette_Nosepass",
-    "shinyPalette": "gMonShinyPalette_Nosepass",
-    "footprintPics": "gMonFootprint_Nosepass",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Nosepass"
+    "index": 320
   },
   "TORKOAL": {
-    "frontPics": "gMonFrontPic_Torkoal",
-    "index": 321,
-    "backPics": "gMonBackPic_Torkoal",
-    "normPalette": "gMonPalette_Torkoal",
-    "shinyPalette": "gMonShinyPalette_Torkoal",
-    "footprintPics": "gMonFootprint_Torkoal",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Torkoal"
+    "index": 321
   },
   "SABLEYE": {
-    "frontPics": "gMonFrontPic_Sableye",
-    "index": 322,
-    "backPics": "gMonBackPic_Sableye",
-    "normPalette": "gMonPalette_Sableye",
-    "shinyPalette": "gMonShinyPalette_Sableye",
-    "footprintPics": "gMonFootprint_Sableye",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Sableye"
+    "index": 322
   },
   "BARBOACH": {
-    "frontPics": "gMonFrontPic_Barboach",
-    "index": 323,
-    "backPics": "gMonBackPic_Barboach",
-    "normPalette": "gMonPalette_Barboach",
-    "shinyPalette": "gMonShinyPalette_Barboach",
-    "footprintPics": "gMonFootprint_Barboach",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Barboach"
+    "index": 323
   },
   "WHISCASH": {
-    "frontPics": "gMonFrontPic_Whiscash",
-    "index": 324,
-    "backPics": "gMonBackPic_Whiscash",
-    "normPalette": "gMonPalette_Whiscash",
-    "shinyPalette": "gMonShinyPalette_Whiscash",
-    "footprintPics": "gMonFootprint_Whiscash",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Whiscash"
+    "index": 324
   },
   "LUVDISC": {
-    "frontPics": "gMonFrontPic_Luvdisc",
-    "index": 325,
-    "backPics": "gMonBackPic_Luvdisc",
-    "normPalette": "gMonPalette_Luvdisc",
-    "shinyPalette": "gMonShinyPalette_Luvdisc",
-    "footprintPics": "gMonFootprint_Luvdisc",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Luvdisc"
+    "index": 325
   },
   "CORPHISH": {
-    "frontPics": "gMonFrontPic_Corphish",
-    "index": 326,
-    "backPics": "gMonBackPic_Corphish",
-    "normPalette": "gMonPalette_Corphish",
-    "shinyPalette": "gMonShinyPalette_Corphish",
-    "footprintPics": "gMonFootprint_Corphish",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Corphish"
+    "index": 326
   },
   "CRAWDAUNT": {
-    "frontPics": "gMonFrontPic_Crawdaunt",
-    "index": 327,
-    "backPics": "gMonBackPic_Crawdaunt",
-    "normPalette": "gMonPalette_Crawdaunt",
-    "shinyPalette": "gMonShinyPalette_Crawdaunt",
-    "footprintPics": "gMonFootprint_Crawdaunt",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Crawdaunt"
+    "index": 327
   },
   "FEEBAS": {
-    "frontPics": "gMonFrontPic_Feebas",
-    "index": 328,
-    "backPics": "gMonBackPic_Feebas",
-    "normPalette": "gMonPalette_Feebas",
-    "shinyPalette": "gMonShinyPalette_Feebas",
-    "footprintPics": "gMonFootprint_Feebas",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Feebas"
+    "index": 328
   },
   "MILOTIC": {
-    "frontPics": "gMonFrontPic_Milotic",
-    "index": 329,
-    "backPics": "gMonBackPic_Milotic",
-    "normPalette": "gMonPalette_Milotic",
-    "shinyPalette": "gMonShinyPalette_Milotic",
-    "footprintPics": "gMonFootprint_Milotic",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Milotic"
+    "index": 329
   },
   "CARVANHA": {
-    "frontPics": "gMonFrontPic_Carvanha",
-    "index": 330,
-    "backPics": "gMonBackPic_Carvanha",
-    "normPalette": "gMonPalette_Carvanha",
-    "shinyPalette": "gMonShinyPalette_Carvanha",
-    "footprintPics": "gMonFootprint_Carvanha",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Carvanha"
+    "index": 330
   },
   "SHARPEDO": {
-    "frontPics": "gMonFrontPic_Sharpedo",
-    "index": 331,
-    "backPics": "gMonBackPic_Sharpedo",
-    "normPalette": "gMonPalette_Sharpedo",
-    "shinyPalette": "gMonShinyPalette_Sharpedo",
-    "footprintPics": "gMonFootprint_Sharpedo",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Sharpedo"
+    "index": 331
   },
   "TRAPINCH": {
-    "frontPics": "gMonFrontPic_Trapinch",
-    "index": 332,
-    "backPics": "gMonBackPic_Trapinch",
-    "normPalette": "gMonPalette_Trapinch",
-    "shinyPalette": "gMonShinyPalette_Trapinch",
-    "footprintPics": "gMonFootprint_Trapinch",
-    "width": "40",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Trapinch"
+    "index": 332
   },
   "VIBRAVA": {
-    "frontPics": "gMonFrontPic_Vibrava",
-    "index": 333,
-    "backPics": "gMonBackPic_Vibrava",
-    "normPalette": "gMonPalette_Vibrava",
-    "shinyPalette": "gMonShinyPalette_Vibrava",
-    "footprintPics": "gMonFootprint_Vibrava",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Vibrava"
+    "index": 333
   },
   "FLYGON": {
-    "frontPics": "gMonFrontPic_Flygon",
-    "index": 334,
-    "backPics": "gMonBackPic_Flygon",
-    "normPalette": "gMonPalette_Flygon",
-    "shinyPalette": "gMonShinyPalette_Flygon",
-    "footprintPics": "gMonFootprint_Flygon",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Flygon"
+    "index": 334
   },
   "MAKUHITA": {
-    "frontPics": "gMonFrontPic_Makuhita",
-    "index": 335,
-    "backPics": "gMonBackPic_Makuhita",
-    "normPalette": "gMonPalette_Makuhita",
-    "shinyPalette": "gMonShinyPalette_Makuhita",
-    "footprintPics": "gMonFootprint_Makuhita",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Makuhita"
+    "index": 335
   },
   "HARIYAMA": {
-    "frontPics": "gMonFrontPic_Hariyama",
-    "index": 336,
-    "backPics": "gMonBackPic_Hariyama",
-    "normPalette": "gMonPalette_Hariyama",
-    "shinyPalette": "gMonShinyPalette_Hariyama",
-    "footprintPics": "gMonFootprint_Hariyama",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Hariyama"
+    "index": 336
   },
   "ELECTRIKE": {
-    "frontPics": "gMonFrontPic_Electrike",
-    "index": 337,
-    "backPics": "gMonBackPic_Electrike",
-    "normPalette": "gMonPalette_Electrike",
-    "shinyPalette": "gMonShinyPalette_Electrike",
-    "footprintPics": "gMonFootprint_Electrike",
-    "width": "48",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Electrike"
+    "index": 337
   },
   "MANECTRIC": {
-    "frontPics": "gMonFrontPic_Manectric",
-    "index": 338,
-    "backPics": "gMonBackPic_Manectric",
-    "normPalette": "gMonPalette_Manectric",
-    "shinyPalette": "gMonShinyPalette_Manectric",
-    "footprintPics": "gMonFootprint_Manectric",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Manectric"
+    "index": 338
   },
   "NUMEL": {
-    "frontPics": "gMonFrontPic_Numel",
-    "index": 339,
-    "backPics": "gMonBackPic_Numel",
-    "normPalette": "gMonPalette_Numel",
-    "shinyPalette": "gMonShinyPalette_Numel",
-    "footprintPics": "gMonFootprint_Numel",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Numel"
+    "index": 339
   },
   "CAMERUPT": {
-    "frontPics": "gMonFrontPic_Camerupt",
-    "index": 340,
-    "backPics": "gMonBackPic_Camerupt",
-    "normPalette": "gMonPalette_Camerupt",
-    "shinyPalette": "gMonShinyPalette_Camerupt",
-    "footprintPics": "gMonFootprint_Camerupt",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Camerupt"
+    "index": 340
   },
   "SPHEAL": {
-    "frontPics": "gMonFrontPic_Spheal",
-    "index": 341,
-    "backPics": "gMonBackPic_Spheal",
-    "normPalette": "gMonPalette_Spheal",
-    "shinyPalette": "gMonShinyPalette_Spheal",
-    "footprintPics": "gMonFootprint_Spheal",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Spheal"
+    "index": 341
   },
   "SEALEO": {
-    "frontPics": "gMonFrontPic_Sealeo",
-    "index": 342,
-    "backPics": "gMonBackPic_Sealeo",
-    "normPalette": "gMonPalette_Sealeo",
-    "shinyPalette": "gMonShinyPalette_Sealeo",
-    "footprintPics": "gMonFootprint_Sealeo",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Sealeo"
+    "index": 342
   },
   "WALREIN": {
-    "frontPics": "gMonFrontPic_Walrein",
-    "index": 343,
-    "backPics": "gMonBackPic_Walrein",
-    "normPalette": "gMonPalette_Walrein",
-    "shinyPalette": "gMonShinyPalette_Walrein",
-    "footprintPics": "gMonFootprint_Walrein",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Walrein"
+    "index": 343
   },
   "CACNEA": {
-    "frontPics": "gMonFrontPic_Cacnea",
-    "index": 344,
-    "backPics": "gMonBackPic_Cacnea",
-    "normPalette": "gMonPalette_Cacnea",
-    "shinyPalette": "gMonShinyPalette_Cacnea",
-    "footprintPics": "gMonFootprint_Cacnea",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Cacnea"
+    "index": 344
   },
   "CACTURNE": {
-    "frontPics": "gMonFrontPic_Cacturne",
-    "index": 345,
-    "backPics": "gMonBackPic_Cacturne",
-    "normPalette": "gMonPalette_Cacturne",
-    "shinyPalette": "gMonShinyPalette_Cacturne",
-    "footprintPics": "gMonFootprint_Cacturne",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Cacturne"
+    "index": 345
   },
   "SNORUNT": {
-    "frontPics": "gMonFrontPic_Snorunt",
-    "index": 346,
-    "backPics": "gMonBackPic_Snorunt",
-    "normPalette": "gMonPalette_Snorunt",
-    "shinyPalette": "gMonShinyPalette_Snorunt",
-    "footprintPics": "gMonFootprint_Snorunt",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Snorunt"
+    "index": 346
   },
   "GLALIE": {
-    "frontPics": "gMonFrontPic_Glalie",
-    "index": 347,
-    "backPics": "gMonBackPic_Glalie",
-    "normPalette": "gMonPalette_Glalie",
-    "shinyPalette": "gMonShinyPalette_Glalie",
-    "footprintPics": "gMonFootprint_Glalie",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Glalie"
+    "index": 347
   },
   "LUNATONE": {
-    "frontPics": "gMonFrontPic_Lunatone",
-    "index": 348,
-    "backPics": "gMonBackPic_Lunatone",
-    "normPalette": "gMonPalette_Lunatone",
-    "shinyPalette": "gMonShinyPalette_Lunatone",
-    "footprintPics": "gMonFootprint_Lunatone",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Lunatone"
+    "index": 348
   },
   "SOLROCK": {
-    "frontPics": "gMonFrontPic_Solrock",
-    "index": 349,
-    "backPics": "gMonBackPic_Solrock",
-    "normPalette": "gMonPalette_Solrock",
-    "shinyPalette": "gMonShinyPalette_Solrock",
-    "footprintPics": "gMonFootprint_Solrock",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Solrock"
+    "index": 349
   },
   "AZURILL": {
-    "frontPics": "gMonFrontPic_Azurill",
-    "index": 350,
-    "backPics": "gMonBackPic_Azurill",
-    "normPalette": "gMonPalette_Azurill",
-    "shinyPalette": "gMonShinyPalette_Azurill",
-    "footprintPics": "gMonFootprint_Azurill",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Azurill"
+    "index": 350
   },
   "SPOINK": {
-    "frontPics": "gMonFrontPic_Spoink",
-    "index": 351,
-    "backPics": "gMonBackPic_Spoink",
-    "normPalette": "gMonPalette_Spoink",
-    "shinyPalette": "gMonShinyPalette_Spoink",
-    "footprintPics": "gMonFootprint_Spoink",
-    "width": "32",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Spoink"
+    "index": 351
   },
   "GRUMPIG": {
-    "frontPics": "gMonFrontPic_Grumpig",
-    "index": 352,
-    "backPics": "gMonBackPic_Grumpig",
-    "normPalette": "gMonPalette_Grumpig",
-    "shinyPalette": "gMonShinyPalette_Grumpig",
-    "footprintPics": "gMonFootprint_Grumpig",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Grumpig"
+    "index": 352
   },
   "PLUSLE": {
-    "frontPics": "gMonFrontPic_Plusle",
-    "index": 353,
-    "backPics": "gMonBackPic_Plusle",
-    "normPalette": "gMonPalette_Plusle",
-    "shinyPalette": "gMonShinyPalette_Plusle",
-    "footprintPics": "gMonFootprint_Plusle",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Plusle"
+    "index": 353
   },
   "MINUN": {
-    "frontPics": "gMonFrontPic_Minun",
-    "index": 354,
-    "backPics": "gMonBackPic_Minun",
-    "normPalette": "gMonPalette_Minun",
-    "shinyPalette": "gMonShinyPalette_Minun",
-    "footprintPics": "gMonFootprint_Minun",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Minun"
+    "index": 354
   },
   "MAWILE": {
-    "frontPics": "gMonFrontPic_Mawile",
-    "index": 355,
-    "backPics": "gMonBackPic_Mawile",
-    "normPalette": "gMonPalette_Mawile",
-    "shinyPalette": "gMonShinyPalette_Mawile",
-    "footprintPics": "gMonFootprint_Mawile",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Mawile"
+    "index": 355
   },
   "MEDITITE": {
-    "frontPics": "gMonFrontPic_Meditite",
-    "index": 356,
-    "backPics": "gMonBackPic_Meditite",
-    "normPalette": "gMonPalette_Meditite",
-    "shinyPalette": "gMonShinyPalette_Meditite",
-    "footprintPics": "gMonFootprint_Meditite",
-    "width": "48",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Meditite"
+    "index": 356
   },
   "MEDICHAM": {
-    "frontPics": "gMonFrontPic_Medicham",
-    "index": 357,
-    "backPics": "gMonBackPic_Medicham",
-    "normPalette": "gMonPalette_Medicham",
-    "shinyPalette": "gMonShinyPalette_Medicham",
-    "footprintPics": "gMonFootprint_Medicham",
-    "width": "48",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Medicham"
+    "index": 357
   },
   "SWABLU": {
-    "frontPics": "gMonFrontPic_Swablu",
-    "index": 358,
-    "backPics": "gMonBackPic_Swablu",
-    "normPalette": "gMonPalette_Swablu",
-    "shinyPalette": "gMonShinyPalette_Swablu",
-    "footprintPics": "gMonFootprint_Swablu",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Swablu"
+    "index": 358
   },
   "ALTARIA": {
-    "frontPics": "gMonFrontPic_Altaria",
-    "index": 359,
-    "backPics": "gMonBackPic_Altaria",
-    "normPalette": "gMonPalette_Altaria",
-    "shinyPalette": "gMonShinyPalette_Altaria",
-    "footprintPics": "gMonFootprint_Altaria",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Altaria"
+    "index": 359
   },
   "WYNAUT": {
-    "frontPics": "gMonFrontPic_Wynaut",
-    "index": 360,
-    "backPics": "gMonBackPic_Wynaut",
-    "normPalette": "gMonPalette_Wynaut",
-    "shinyPalette": "gMonShinyPalette_Wynaut",
-    "footprintPics": "gMonFootprint_Wynaut",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Wynaut"
+    "index": 360
   },
   "DUSKULL": {
-    "frontPics": "gMonFrontPic_Duskull",
-    "index": 361,
-    "backPics": "gMonBackPic_Duskull",
-    "normPalette": "gMonPalette_Duskull",
-    "shinyPalette": "gMonShinyPalette_Duskull",
-    "footprintPics": "gMonFootprint_Duskull",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Duskull"
+    "index": 361
   },
   "DUSCLOPS": {
-    "frontPics": "gMonFrontPic_Dusclops",
-    "index": 362,
-    "backPics": "gMonBackPic_Dusclops",
-    "normPalette": "gMonPalette_Dusclops",
-    "shinyPalette": "gMonShinyPalette_Dusclops",
-    "footprintPics": "gMonFootprint_Dusclops",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Dusclops"
+    "index": 362
   },
   "ROSELIA": {
-    "frontPics": "gMonFrontPic_Roselia",
-    "index": 363,
-    "backPics": "gMonBackPic_Roselia",
-    "normPalette": "gMonPalette_Roselia",
-    "shinyPalette": "gMonShinyPalette_Roselia",
-    "footprintPics": "gMonFootprint_Roselia",
-    "width": "56",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Roselia"
+    "index": 363
   },
   "SLAKOTH": {
-    "frontPics": "gMonFrontPic_Slakoth",
-    "index": 364,
-    "backPics": "gMonBackPic_Slakoth",
-    "normPalette": "gMonPalette_Slakoth",
-    "shinyPalette": "gMonShinyPalette_Slakoth",
-    "footprintPics": "gMonFootprint_Slakoth",
-    "width": "56",
-    "height": "32",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Slakoth"
+    "index": 364
   },
   "VIGOROTH": {
-    "frontPics": "gMonFrontPic_Vigoroth",
-    "index": 365,
-    "backPics": "gMonBackPic_Vigoroth",
-    "normPalette": "gMonPalette_Vigoroth",
-    "shinyPalette": "gMonShinyPalette_Vigoroth",
-    "footprintPics": "gMonFootprint_Vigoroth",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Vigoroth"
+    "index": 365
   },
   "SLAKING": {
-    "frontPics": "gMonFrontPic_Slaking",
-    "index": 366,
-    "backPics": "gMonBackPic_Slaking",
-    "normPalette": "gMonPalette_Slaking",
-    "shinyPalette": "gMonShinyPalette_Slaking",
-    "footprintPics": "gMonFootprint_Slaking",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Slaking"
+    "index": 366
   },
   "GULPIN": {
-    "frontPics": "gMonFrontPic_Gulpin",
-    "index": 367,
-    "backPics": "gMonBackPic_Gulpin",
-    "normPalette": "gMonPalette_Gulpin",
-    "shinyPalette": "gMonShinyPalette_Gulpin",
-    "footprintPics": "gMonFootprint_Gulpin",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Gulpin"
+    "index": 367
   },
   "SWALOT": {
-    "frontPics": "gMonFrontPic_Swalot",
-    "index": 368,
-    "backPics": "gMonBackPic_Swalot",
-    "normPalette": "gMonPalette_Swalot",
-    "shinyPalette": "gMonShinyPalette_Swalot",
-    "footprintPics": "gMonFootprint_Swalot",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Swalot"
+    "index": 368
   },
   "TROPIUS": {
-    "frontPics": "gMonFrontPic_Tropius",
-    "index": 369,
-    "backPics": "gMonBackPic_Tropius",
-    "normPalette": "gMonPalette_Tropius",
-    "shinyPalette": "gMonShinyPalette_Tropius",
-    "footprintPics": "gMonFootprint_Tropius",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Tropius"
+    "index": 369
   },
   "WHISMUR": {
-    "frontPics": "gMonFrontPic_Whismur",
-    "index": 370,
-    "backPics": "gMonBackPic_Whismur",
-    "normPalette": "gMonPalette_Whismur",
-    "shinyPalette": "gMonShinyPalette_Whismur",
-    "footprintPics": "gMonFootprint_Whismur",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Whismur"
+    "index": 370
   },
   "LOUDRED": {
-    "frontPics": "gMonFrontPic_Loudred",
-    "index": 371,
-    "backPics": "gMonBackPic_Loudred",
-    "normPalette": "gMonPalette_Loudred",
-    "shinyPalette": "gMonShinyPalette_Loudred",
-    "footprintPics": "gMonFootprint_Loudred",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Loudred"
+    "index": 371
   },
   "EXPLOUD": {
-    "frontPics": "gMonFrontPic_Exploud",
-    "index": 372,
-    "backPics": "gMonBackPic_Exploud",
-    "normPalette": "gMonPalette_Exploud",
-    "shinyPalette": "gMonShinyPalette_Exploud",
-    "footprintPics": "gMonFootprint_Exploud",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Exploud"
+    "index": 372
   },
   "CLAMPERL": {
-    "frontPics": "gMonFrontPic_Clamperl",
-    "index": 373,
-    "backPics": "gMonBackPic_Clamperl",
-    "normPalette": "gMonPalette_Clamperl",
-    "shinyPalette": "gMonShinyPalette_Clamperl",
-    "footprintPics": "gMonFootprint_Clamperl",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Clamperl"
+    "index": 373
   },
   "HUNTAIL": {
-    "frontPics": "gMonFrontPic_Huntail",
-    "index": 374,
-    "backPics": "gMonBackPic_Huntail",
-    "normPalette": "gMonPalette_Huntail",
-    "shinyPalette": "gMonShinyPalette_Huntail",
-    "footprintPics": "gMonFootprint_Huntail",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Huntail"
+    "index": 374
   },
   "GOREBYSS": {
-    "frontPics": "gMonFrontPic_Gorebyss",
-    "index": 375,
-    "backPics": "gMonBackPic_Gorebyss",
-    "normPalette": "gMonPalette_Gorebyss",
-    "shinyPalette": "gMonShinyPalette_Gorebyss",
-    "footprintPics": "gMonFootprint_Gorebyss",
-    "width": "64",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Gorebyss"
+    "index": 375
   },
   "ABSOL": {
-    "frontPics": "gMonFrontPic_Absol",
-    "index": 376,
-    "backPics": "gMonBackPic_Absol",
-    "normPalette": "gMonPalette_Absol",
-    "shinyPalette": "gMonShinyPalette_Absol",
-    "footprintPics": "gMonFootprint_Absol",
-    "width": "48",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Absol"
+    "index": 376
   },
   "SHUPPET": {
-    "frontPics": "gMonFrontPic_Shuppet",
-    "index": 377,
-    "backPics": "gMonBackPic_Shuppet",
-    "normPalette": "gMonPalette_Shuppet",
-    "shinyPalette": "gMonShinyPalette_Shuppet",
-    "footprintPics": "gMonFootprint_Shuppet",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Shuppet"
+    "index": 377
   },
   "BANETTE": {
-    "frontPics": "gMonFrontPic_Banette",
-    "index": 378,
-    "backPics": "gMonBackPic_Banette",
-    "normPalette": "gMonPalette_Banette",
-    "shinyPalette": "gMonShinyPalette_Banette",
-    "footprintPics": "gMonFootprint_Banette",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Banette"
+    "index": 378
   },
   "SEVIPER": {
-    "frontPics": "gMonFrontPic_Seviper",
-    "index": 379,
-    "backPics": "gMonBackPic_Seviper",
-    "normPalette": "gMonPalette_Seviper",
-    "shinyPalette": "gMonShinyPalette_Seviper",
-    "footprintPics": "gMonFootprint_Seviper",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Seviper"
+    "index": 379
   },
   "ZANGOOSE": {
-    "frontPics": "gMonFrontPic_Zangoose",
-    "index": 380,
-    "backPics": "gMonBackPic_Zangoose",
-    "normPalette": "gMonPalette_Zangoose",
-    "shinyPalette": "gMonShinyPalette_Zangoose",
-    "footprintPics": "gMonFootprint_Zangoose",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Zangoose"
+    "index": 380
   },
   "RELICANTH": {
-    "frontPics": "gMonFrontPic_Relicanth",
-    "index": 381,
-    "backPics": "gMonBackPic_Relicanth",
-    "normPalette": "gMonPalette_Relicanth",
-    "shinyPalette": "gMonShinyPalette_Relicanth",
-    "footprintPics": "gMonFootprint_Relicanth",
-    "width": "56",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Relicanth"
+    "index": 381
   },
   "ARON": {
-    "frontPics": "gMonFrontPic_Aron",
-    "index": 382,
-    "backPics": "gMonBackPic_Aron",
-    "normPalette": "gMonPalette_Aron",
-    "shinyPalette": "gMonShinyPalette_Aron",
-    "footprintPics": "gMonFootprint_Aron",
-    "width": "32",
-    "height": "24",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Aron"
+    "index": 382
   },
   "LAIRON": {
-    "frontPics": "gMonFrontPic_Lairon",
-    "index": 383,
-    "backPics": "gMonBackPic_Lairon",
-    "normPalette": "gMonPalette_Lairon",
-    "shinyPalette": "gMonShinyPalette_Lairon",
-    "footprintPics": "gMonFootprint_Lairon",
-    "width": "56",
-    "height": "40",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Lairon"
+    "index": 383
   },
   "AGGRON": {
-    "frontPics": "gMonFrontPic_Aggron",
-    "index": 384,
-    "backPics": "gMonBackPic_Aggron",
-    "normPalette": "gMonPalette_Aggron",
-    "shinyPalette": "gMonShinyPalette_Aggron",
-    "footprintPics": "gMonFootprint_Aggron",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Aggron"
+    "index": 384
   },
   "CASTFORM": {
-    "frontPics": "gMonFrontPic_Castform",
-    "index": 385,
-    "backPics": "gMonBackPic_Castform",
-    "normPalette": "gMonPalette_Castform",
-    "shinyPalette": "gMonShinyPalette_Castform",
-    "footprintPics": "gMonFootprint_Castform",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Castform"
+    "index": 385
   },
   "VOLBEAT": {
-    "frontPics": "gMonFrontPic_Volbeat",
-    "index": 386,
-    "backPics": "gMonBackPic_Volbeat",
-    "normPalette": "gMonPalette_Volbeat",
-    "shinyPalette": "gMonShinyPalette_Volbeat",
-    "footprintPics": "gMonFootprint_Volbeat",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Volbeat"
+    "index": 386
   },
   "ILLUMISE": {
-    "frontPics": "gMonFrontPic_Illumise",
-    "index": 387,
-    "backPics": "gMonBackPic_Illumise",
-    "normPalette": "gMonPalette_Illumise",
-    "shinyPalette": "gMonShinyPalette_Illumise",
-    "footprintPics": "gMonFootprint_Illumise",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Illumise"
+    "index": 387
   },
   "LILEEP": {
-    "frontPics": "gMonFrontPic_Lileep",
-    "index": 388,
-    "backPics": "gMonBackPic_Lileep",
-    "normPalette": "gMonPalette_Lileep",
-    "shinyPalette": "gMonShinyPalette_Lileep",
-    "footprintPics": "gMonFootprint_Lileep",
-    "width": "48",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Lileep"
+    "index": 388
   },
   "CRADILY": {
-    "frontPics": "gMonFrontPic_Cradily",
-    "index": 389,
-    "backPics": "gMonBackPic_Cradily",
-    "normPalette": "gMonPalette_Cradily",
-    "shinyPalette": "gMonShinyPalette_Cradily",
-    "footprintPics": "gMonFootprint_Cradily",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Cradily"
+    "index": 389
   },
   "ANORITH": {
-    "frontPics": "gMonFrontPic_Anorith",
-    "index": 390,
-    "backPics": "gMonBackPic_Anorith",
-    "normPalette": "gMonPalette_Anorith",
-    "shinyPalette": "gMonShinyPalette_Anorith",
-    "footprintPics": "gMonFootprint_Anorith",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Anorith"
+    "index": 390
   },
   "ARMALDO": {
-    "frontPics": "gMonFrontPic_Armaldo",
-    "index": 391,
-    "backPics": "gMonBackPic_Armaldo",
-    "normPalette": "gMonPalette_Armaldo",
-    "shinyPalette": "gMonShinyPalette_Armaldo",
-    "footprintPics": "gMonFootprint_Armaldo",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Armaldo"
+    "index": 391
   },
   "RALTS": {
-    "frontPics": "gMonFrontPic_Ralts",
-    "index": 392,
-    "backPics": "gMonBackPic_Ralts",
-    "normPalette": "gMonPalette_Ralts",
-    "shinyPalette": "gMonShinyPalette_Ralts",
-    "footprintPics": "gMonFootprint_Ralts",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Ralts"
+    "index": 392
   },
   "KIRLIA": {
-    "frontPics": "gMonFrontPic_Kirlia",
-    "index": 393,
-    "backPics": "gMonBackPic_Kirlia",
-    "normPalette": "gMonPalette_Kirlia",
-    "shinyPalette": "gMonShinyPalette_Kirlia",
-    "footprintPics": "gMonFootprint_Kirlia",
-    "width": "32",
-    "height": "56",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Kirlia"
+    "index": 393
   },
   "GARDEVOIR": {
-    "frontPics": "gMonFrontPic_Gardevoir",
-    "index": 394,
-    "backPics": "gMonBackPic_Gardevoir",
-    "normPalette": "gMonPalette_Gardevoir",
-    "shinyPalette": "gMonShinyPalette_Gardevoir",
-    "footprintPics": "gMonFootprint_Gardevoir",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Gardevoir"
+    "index": 394
   },
   "BAGON": {
-    "frontPics": "gMonFrontPic_Bagon",
-    "index": 395,
-    "backPics": "gMonBackPic_Bagon",
-    "normPalette": "gMonPalette_Bagon",
-    "shinyPalette": "gMonShinyPalette_Bagon",
-    "footprintPics": "gMonFootprint_Bagon",
-    "width": "40",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Bagon"
+    "index": 395
   },
   "SHELGON": {
-    "frontPics": "gMonFrontPic_Shelgon",
-    "index": 396,
-    "backPics": "gMonBackPic_Shelgon",
-    "normPalette": "gMonPalette_Shelgon",
-    "shinyPalette": "gMonShinyPalette_Shelgon",
-    "footprintPics": "gMonFootprint_Shelgon",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Shelgon"
+    "index": 396
   },
   "SALAMENCE": {
-    "frontPics": "gMonFrontPic_Salamence",
-    "index": 397,
-    "backPics": "gMonBackPic_Salamence",
-    "normPalette": "gMonPalette_Salamence",
-    "shinyPalette": "gMonShinyPalette_Salamence",
-    "footprintPics": "gMonFootprint_Salamence",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Salamence"
+    "index": 397
   },
   "BELDUM": {
-    "frontPics": "gMonFrontPic_Beldum",
-    "index": 398,
-    "backPics": "gMonBackPic_Beldum",
-    "normPalette": "gMonPalette_Beldum",
-    "shinyPalette": "gMonShinyPalette_Beldum",
-    "footprintPics": "gMonFootprint_Beldum",
-    "width": "40",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Beldum"
+    "index": 398
   },
   "METANG": {
-    "frontPics": "gMonFrontPic_Metang",
-    "index": 399,
-    "backPics": "gMonBackPic_Metang",
-    "normPalette": "gMonPalette_Metang",
-    "shinyPalette": "gMonShinyPalette_Metang",
-    "footprintPics": "gMonFootprint_Metang",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Metang"
+    "index": 399
   },
   "METAGROSS": {
-    "frontPics": "gMonFrontPic_Metagross",
-    "index": 400,
-    "backPics": "gMonBackPic_Metagross",
-    "normPalette": "gMonPalette_Metagross",
-    "shinyPalette": "gMonShinyPalette_Metagross",
-    "footprintPics": "gMonFootprint_Metagross",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Metagross"
+    "index": 400
   },
   "REGIROCK": {
-    "frontPics": "gMonFrontPic_Regirock",
-    "index": 401,
-    "backPics": "gMonBackPic_Regirock",
-    "normPalette": "gMonPalette_Regirock",
-    "shinyPalette": "gMonShinyPalette_Regirock",
-    "footprintPics": "gMonFootprint_Regirock",
-    "width": "56",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Regirock"
+    "index": 401
   },
   "REGICE": {
-    "frontPics": "gMonFrontPic_Regice",
-    "index": 402,
-    "backPics": "gMonBackPic_Regice",
-    "normPalette": "gMonPalette_Regice",
-    "shinyPalette": "gMonShinyPalette_Regice",
-    "footprintPics": "gMonFootprint_Regice",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Regice"
+    "index": 402
   },
   "REGISTEEL": {
-    "frontPics": "gMonFrontPic_Registeel",
-    "index": 403,
-    "backPics": "gMonBackPic_Registeel",
-    "normPalette": "gMonPalette_Registeel",
-    "shinyPalette": "gMonShinyPalette_Registeel",
-    "footprintPics": "gMonFootprint_Registeel",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Registeel"
+    "index": 403
   },
   "KYOGRE": {
-    "frontPics": "gMonFrontPic_Kyogre",
-    "index": 404,
-    "backPics": "gMonBackPic_Kyogre",
-    "normPalette": "gMonPalette_Kyogre",
-    "shinyPalette": "gMonShinyPalette_Kyogre",
-    "footprintPics": "gMonFootprint_Kyogre",
-    "width": "64",
-    "height": "56",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Kyogre"
+    "index": 404
   },
   "GROUDON": {
-    "frontPics": "gMonFrontPic_Groudon",
-    "index": 405,
-    "backPics": "gMonBackPic_Groudon",
-    "normPalette": "gMonPalette_Groudon",
-    "shinyPalette": "gMonShinyPalette_Groudon",
-    "footprintPics": "gMonFootprint_Groudon",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Groudon"
+    "index": 405
   },
   "RAYQUAZA": {
-    "frontPics": "gMonFrontPic_Rayquaza",
-    "index": 406,
-    "backPics": "gMonBackPic_Rayquaza",
-    "normPalette": "gMonPalette_Rayquaza",
-    "shinyPalette": "gMonShinyPalette_Rayquaza",
-    "footprintPics": "gMonFootprint_Rayquaza",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Rayquaza"
+    "index": 406
   },
   "LATIAS": {
-    "frontPics": "gMonFrontPic_Latias",
-    "index": 407,
-    "backPics": "gMonBackPic_Latias",
-    "normPalette": "gMonPalette_Latias",
-    "shinyPalette": "gMonShinyPalette_Latias",
-    "footprintPics": "gMonFootprint_Latias",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Latias"
+    "index": 407
   },
   "LATIOS": {
-    "frontPics": "gMonFrontPic_Latios",
-    "index": 408,
-    "backPics": "gMonBackPic_Latios",
-    "normPalette": "gMonPalette_Latios",
-    "shinyPalette": "gMonShinyPalette_Latios",
-    "footprintPics": "gMonFootprint_Latios",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "2",
-    "Icon": "gMonIcon_Latios"
+    "index": 408
   },
   "JIRACHI": {
-    "frontPics": "gMonFrontPic_Jirachi",
-    "index": 409,
-    "backPics": "gMonBackPic_Jirachi",
-    "normPalette": "gMonPalette_Jirachi",
-    "shinyPalette": "gMonShinyPalette_Jirachi",
-    "footprintPics": "gMonFootprint_Jirachi",
-    "width": "48",
-    "height": "48",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Jirachi"
+    "index": 409
   },
   "DEOXYS": {
-    "frontPics": "gMonFrontPic_Deoxys",
-    "index": 410,
-    "backPics": "gMonBackPic_Deoxys",
-    "normPalette": "gMonPalette_Deoxys",
-    "shinyPalette": "gMonShinyPalette_Deoxys",
-    "footprintPics": "gMonFootprint_Deoxys",
-    "width": "64",
-    "height": "64",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Deoxys"
+    "index": 410
   },
   "CHIMECHO": {
-    "frontPics": "gMonFrontPic_Chimecho",
-    "index": 411,
-    "backPics": "gMonBackPic_Chimecho",
-    "normPalette": "gMonPalette_Chimecho",
-    "shinyPalette": "gMonShinyPalette_Chimecho",
-    "footprintPics": "gMonFootprint_Chimecho",
-    "width": "24",
-    "height": "56",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_Chimecho"
+    "index": 411
   },
   "EGG": {
-    "frontPics": "gMonFrontPic_Egg",
-    "index": 412,
-    "backPics": "gMonFrontPic_Egg",
-    "normPalette": "gMonPalette_Egg",
-    "shinyPalette": "gMonPalette_Egg",
-    "footprintPics": "gMonFootprint_Bulbasaur",
-    "width": "24",
-    "height": "24",
-    "iconPalIndex": "1",
-    "Icon": "gMonIcon_Egg"
+    "index": 412
   },
   "UNOWN_B": {
-    "frontPics": "gMonFrontPic_UnownB",
-    "index": 413,
-    "backPics": "gMonBackPic_UnownB",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownB"
+    "index": 413
   },
   "UNOWN_C": {
-    "frontPics": "gMonFrontPic_UnownC",
-    "index": 414,
-    "backPics": "gMonBackPic_UnownC",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownC"
+    "index": 414
   },
   "UNOWN_D": {
-    "frontPics": "gMonFrontPic_UnownD",
-    "index": 415,
-    "backPics": "gMonBackPic_UnownD",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownD"
+    "index": 415
   },
   "UNOWN_E": {
-    "frontPics": "gMonFrontPic_UnownE",
-    "index": 416,
-    "backPics": "gMonBackPic_UnownE",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownE"
+    "index": 416
   },
   "UNOWN_F": {
-    "frontPics": "gMonFrontPic_UnownF",
-    "index": 417,
-    "backPics": "gMonBackPic_UnownF",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownF"
+    "index": 417
   },
   "UNOWN_G": {
-    "frontPics": "gMonFrontPic_UnownG",
-    "index": 418,
-    "backPics": "gMonBackPic_UnownG",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownG"
+    "index": 418
   },
   "UNOWN_H": {
-    "frontPics": "gMonFrontPic_UnownH",
-    "index": 419,
-    "backPics": "gMonBackPic_UnownH",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownH"
+    "index": 419
   },
   "UNOWN_I": {
-    "frontPics": "gMonFrontPic_UnownI",
-    "index": 420,
-    "backPics": "gMonBackPic_UnownI",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownI"
+    "index": 420
   },
   "UNOWN_J": {
-    "frontPics": "gMonFrontPic_UnownJ",
-    "index": 421,
-    "backPics": "gMonBackPic_UnownJ",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownJ"
+    "index": 421
   },
   "UNOWN_K": {
-    "frontPics": "gMonFrontPic_UnownK",
-    "index": 422,
-    "backPics": "gMonBackPic_UnownK",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownK"
+    "index": 422
   },
   "UNOWN_L": {
-    "frontPics": "gMonFrontPic_UnownL",
-    "index": 423,
-    "backPics": "gMonBackPic_UnownL",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownL"
+    "index": 423
   },
   "UNOWN_M": {
-    "frontPics": "gMonFrontPic_UnownM",
-    "index": 424,
-    "backPics": "gMonBackPic_UnownM",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownM"
+    "index": 424
   },
   "UNOWN_N": {
-    "frontPics": "gMonFrontPic_UnownN",
-    "index": 425,
-    "backPics": "gMonBackPic_UnownN",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "24",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownN"
+    "index": 425
   },
   "UNOWN_O": {
-    "frontPics": "gMonFrontPic_UnownO",
-    "index": 426,
-    "backPics": "gMonBackPic_UnownO",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownO"
+    "index": 426
   },
   "UNOWN_P": {
-    "frontPics": "gMonFrontPic_UnownP",
-    "index": 427,
-    "backPics": "gMonBackPic_UnownP",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownP"
+    "index": 427
   },
   "UNOWN_Q": {
-    "frontPics": "gMonFrontPic_UnownQ",
-    "index": 428,
-    "backPics": "gMonBackPic_UnownQ",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "24",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownQ"
+    "index": 428
   },
   "UNOWN_R": {
-    "frontPics": "gMonFrontPic_UnownR",
-    "index": 429,
-    "backPics": "gMonBackPic_UnownR",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownR"
+    "index": 429
   },
   "UNOWN_S": {
-    "frontPics": "gMonFrontPic_UnownS",
-    "index": 430,
-    "backPics": "gMonBackPic_UnownS",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownS"
+    "index": 430
   },
   "UNOWN_T": {
-    "frontPics": "gMonFrontPic_UnownT",
-    "index": 431,
-    "backPics": "gMonBackPic_UnownT",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownT"
+    "index": 431
   },
   "UNOWN_U": {
-    "frontPics": "gMonFrontPic_UnownU",
-    "index": 432,
-    "backPics": "gMonBackPic_UnownU",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownU"
+    "index": 432
   },
   "UNOWN_V": {
-    "frontPics": "gMonFrontPic_UnownV",
-    "index": 433,
-    "backPics": "gMonBackPic_UnownV",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownV"
+    "index": 433
   },
   "UNOWN_W": {
-    "frontPics": "gMonFrontPic_UnownW",
-    "index": 434,
-    "backPics": "gMonBackPic_UnownW",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "32",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownW"
+    "index": 434
   },
   "UNOWN_X": {
-    "frontPics": "gMonFrontPic_UnownX",
-    "index": 435,
-    "backPics": "gMonBackPic_UnownX",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "24",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownX"
+    "index": 435
   },
   "UNOWN_Y": {
-    "frontPics": "gMonFrontPic_UnownY",
-    "index": 436,
-    "backPics": "gMonBackPic_UnownY",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownY"
+    "index": 436
   },
   "UNOWN_Z": {
-    "frontPics": "gMonFrontPic_UnownZ",
-    "index": 437,
-    "backPics": "gMonBackPic_UnownZ",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "32",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownZ"
+    "index": 437
   },
   "UNOWN_EMARK": {
-    "frontPics": "gMonFrontPic_UnownExclamationMark",
-    "index": 438,
-    "backPics": "gMonBackPic_UnownExclamationMark",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownExclamationMark"
+    "index": 438
   },
   "UNOWN_QMARK": {
-    "frontPics": "gMonFrontPic_UnownQuestionMark",
-    "index": 439,
-    "backPics": "gMonBackPic_UnownQuestionMark",
-    "normPalette": "gMonPalette_Unown",
-    "shinyPalette": "gMonShinyPalette_Unown",
-    "width": "24",
-    "height": "40",
-    "iconPalIndex": "0",
-    "Icon": "gMonIcon_UnownQuestionMark"
+    "index": 439
   }
 }
