@@ -1,6 +1,6 @@
 {
   "name": "silphscope",
-  "version": "1.4.22",
+  "version": "1.4.23",
   "description": "A firered/leafgreen ROM asset extractor for use in web applications",
   "main": "main.js",
   "types": "silphscope.d.ts",
