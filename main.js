@@ -16,6 +16,7 @@ export { extract, lz77Decompress, RomReader, getRomConfig, render4bppImage, deco
 import { renderMon as garbagePublicOptionsRenderMon } from "./src/graphics/mons/render-mons.js";
 import { renderMonIcon as garbagePublicOptionsRenderMonIcon } from "./src/graphics/mons/render-mon-icon.js";
 import { renderMonFoot as garbagePublicOptionsRenderMonFoot } from "./src/graphics/mons/render-mon-foot.js";
+import monData from "./mon-data/monData.json" with { type: "json" };
 
 async function renderMon(monName, mons, reader, rom, options = {}) { // so yes I could have set renderMon to just have these default options... but I kinda like it when the renderX functions default to nothing :p (let me enjoy my slightly useless code)
     return garbagePublicOptionsRenderMon(monName, mons, reader, rom, {
@@ -51,10 +52,11 @@ async function renderMonFoot(monName, mons, reader, rom, options = {}) {
     });
 }
 
-export { renderMon, renderMonIcon, renderMonFoot };
+export { renderMon, renderMonIcon, renderMonFoot, monData };
 
 // icon related (I feel like mid level is a term but it isn't exactly mid level...) stuff:
 import { renderIcon as garbagePublicOptionsRenderIcon } from "./src/graphics/icons/render-icons.js";
+import itemData from "./item-data/itemData.json" with { type: "json" };
 
 async function renderIcon(itemName, items, reader, rom, options = {}) {
     return garbagePublicOptionsRenderIcon(itemName, items, reader, rom, {
@@ -66,11 +68,13 @@ async function renderIcon(itemName, items, reader, rom, options = {}) {
     });
 }
 
-export { renderIcon };
+export { renderIcon, itemData };
 
 // trainer related (maybe I should search the term...) stuff:
 import { renderTrainer as garbagePublicOptionsRenderTrainer } from "./src/graphics/trainers/render-trainers.js";
 import { renderTrainerBackPic as garbagePublicOptionsRenderTrainerBackPic } from "./src/graphics/trainers/render-trainer-back-pics.js";
+import trainerData from "./trainer-data/trainerData.json" with { type: "json" };
+import trainerBackData from "./trainer-data/trainerBackData.json" with { type: "json" };
 
 async function renderTrainer(trainerName, trainers, backTrainers, reader, rom, options = {}) {
     return garbagePublicOptionsRenderTrainer(trainerName, trainers, backTrainers, reader, rom, {
@@ -93,10 +97,11 @@ async function renderTrainerBackPic(trainerName, trainers, reader, rom, options 
     });
 }
 
-export { renderTrainer, renderTrainerBackPic };
+export { renderTrainer, renderTrainerBackPic, trainerData, trainerBackData };
 
 // move related mid level (turns out it is a term :o) stuff:
 import { renderMove as garbagePublicOptionsRenderMove } from "./src/graphics/moves/render-moves.js";
+import moveData from "./move-data/moveData.json" with { type: "json" };
 
 async function renderMove(moveName, moves, reader, rom, options = {}) {
     return garbagePublicOptionsRenderMove(moveName, moves, reader, rom, {
@@ -110,11 +115,12 @@ async function renderMove(moveName, moves, reader, rom, options = {}) {
     });
 }
 
-export { renderMove };
+export { renderMove, moveData };
 
 // ball related mid level stuff:
 import { renderBall as garbagePublicOptionsRenderBall } from "./src/graphics/balls/render-balls.js";
 import { renderBallParticle as garbagePublicOptionsRenderBallParticle } from "./src/graphics/balls/render-ball-particle.js";
+import ballData from "./ball-data/ballData.json" with { type: "json" };
 
 async function renderBall(ballName, balls, reader, rom, options = {}) {
     return garbagePublicOptionsRenderBall(ballName, balls, reader, rom, {
@@ -140,7 +146,7 @@ async function renderBallParticle(ballName, balls, reader, rom, options = {}) {
     });
 }
 
-export { renderBall, renderBallParticle }; // wait a second... oh well I have to redo this now... because these functions are highly unopinionated so if you don't change literally every option the defaults will just make the function do well nothing :p 
+export { renderBall, renderBallParticle, ballData }; // wait a second... oh well I have to redo this now... because these functions are highly unopinionated so if you don't change literally every option the defaults will just make the function do well nothing :p 
 
 // high level batch rendering thingies that is enough for most people :p
 import { renderAllMons, renderAllIcons, renderAllTrainers, renderAllMoves, renderAllBalls, renderAllGraphics } from "./src/graphics/graphics-extractor-main.js";

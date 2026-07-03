@@ -1,3 +1,11 @@
+import { RomReader } from "./src/rom-reader.js";
+
+// this file is getting messy... or well at least to me :p
+// I wonder if it is possible to make multiple .d.ts files and import them into a main one...
+// I mean apparently .js file imports work so I don't see why that wouldn't...
+// but oh well I already have this going may as well stick with it until I get tired of it
+// and refactor :o
+
 export interface RenderedAsset<Meta>  {
     name: string;
     category: string;
@@ -18,8 +26,7 @@ export type PngFilterType =
     | 4
     | Array<0 | 1 | 2 | 3 | 4>;
 
-
-export interface RenderAllGenericOptions {
+export interface RenderGenericOptions {
     /**
      * Directory to write extracted assets to.
      *
@@ -29,18 +36,6 @@ export interface RenderAllGenericOptions {
      * @default "./out"
      */
     outputDir?: string | null;
-
-    /**
-     * Number of concurrent render operations.
-     *
-     * Increase with caution. Values that are too high may reduce
-     * performance depending on available CPU and disk resources.
-     *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
-     */
-    concurrency?: number;
 
     /**
      * PNG filter mode used during encoding.
@@ -86,6 +81,19 @@ export interface RenderAllGenericOptions {
     pngCompressionLevel?: number;
 
     /**
+     * Return generated image buffers instead of only writing
+     * files to disk.
+     *
+     * Useful for web servers, editors, bots, and other tools
+     * that need direct access to rendered assets.
+     *
+     * @default false
+     */
+    returnFileBuffer?: boolean;
+    }
+
+export interface RenderAllGenericOptions extends RenderGenericOptions {
+    /**
      * Print progress information as assets are rendered.
      *
      * @default true
@@ -102,15 +110,16 @@ export interface RenderAllGenericOptions {
     showSummary?: boolean;
 
     /**
-     * Return generated image buffers instead of only writing
-     * files to disk.
+     * Number of concurrent render operations.
      *
-     * Useful for web servers, editors, bots, and other tools
-     * that need direct access to rendered assets.
+     * Increase with caution. Values that are too high may reduce
+     * performance depending on available CPU and disk resources.
      *
-     * @default false
+     * Set to `1` to render sequentially.
+     *
+     * @default 4
      */
-    returnFileBuffer?: boolean;
+    concurrency?: number;
 }
 
 export interface RenderAllMonsOptions extends RenderAllGenericOptions {
@@ -127,6 +136,51 @@ export interface RenderAllMonsOptions extends RenderAllGenericOptions {
      * @default true
      */
     footprint?: boolean;
+}
+
+export type MonSide = "front" | "back";
+export type MonVariant = "normal" | "shiny";
+
+export interface RenderMonOptions extends RenderGenericOptions {
+    /**
+     * Render mon icon graphics.
+     *
+     * @default true
+     */
+    icon?: boolean;
+
+    /**
+     * Render mon footprint graphics.
+     * 
+     * @default true
+     */
+    footprint?: boolean;
+
+    /**
+     * Render mon side specific graphics.
+     * 
+     * Takes either a single string or an array with two strings.
+     * 
+     * @default ["front","back"]
+     */
+    side?: MonSide | MonSide[];
+
+    /**
+     * Render mon variant specific graphics.
+     * 
+     * Takes either a single string or an array with two strings.
+     * 
+     * @default ["normal","shiny"]
+     */
+    variant?: MonVariant | MonVariant[];
+}
+
+export interface RenderMonIconOptions extends RenderGenericOptions {
+
+}
+
+export interface RenderMonFootOptions extends RenderGenericOptions {
+
 }
 
 export interface MonSpriteMeta {
@@ -156,13 +210,36 @@ export type RenderAllMonsBufferResult =
         asset: "footprint";
     });
 
-export interface RenderResult {
+export interface RenderAllResult {
     totalFileCount: number;
 }
 
-export interface RenderResultWithBuffers<T> extends RenderResult {
+export interface RenderAllResultWithBuffers<T> extends RenderAllResult {
     finalResults: T[];
 }
+
+export type RenderMonBufferResult = RenderAllMonsBufferResult;
+
+export type RenderMonIconBufferResult =
+    (RenderedAsset<MonIconMeta>);
+
+export type RenderMonFootBufferResult =
+    (RenderedAsset<MonFootprintMeta>);
+
+export interface RenderResult {
+    fullFileCount: number;
+}
+
+export interface RenderResultWithBuffers<T> extends RenderResult {
+    results: T[];
+}
+
+export interface ObjectDataEntry {
+    index: number;
+}
+
+export type MonData =
+    Record<string, ObjectDataEntry>;
 
 /**
  * Extracts and renders all mon graphics from a Firered/Leafgreen ROM.
@@ -177,23 +254,102 @@ export function renderAllMons(
     options?: RenderAllMonsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllMonsBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllMonsBufferResult>>;
 
-/**
- * Extracts and renders all mon graphics from a Firered/Leafgreen ROM.
- * 
- * Handles front/back, normal/shiny, footprint, and icon graphics.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */ // I have no idea if I have to write this twice... nonetheless here it is I suppose :p
 export function renderAllMons(
     rom: RomData,
     options?: RenderAllMonsOptions
+): Promise<RenderAllResult>;
+
+/**
+ * Extracts and renders the graphics for a single mon from a Firered/Leafgreen ROM.
+ * 
+ * Capable of handling the front/back normal/shiny body sprites, footprint, and icon graphics of any single mon.
+ * 
+ * @param monName Name of the mon to render.
+ * @param mons Mapping of mons to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderMon(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderMonBufferResult>>;
+
+export function renderMon(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonOptions,
+): Promise<RenderResult>;
+
+/**
+ * Extracts and renders the icon graphic of a mon from a Firered/Leafgreen ROM.
+ * 
+ * @param monName Name of the mon to render.
+ * @param mons Mapping of mons to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderMonIcon(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonIconOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderMonIconBufferResult>>;
+
+export function renderMonIcon(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonIconOptions,
+): Promise<RenderResult>;
+
+/**
+ * Extracts and renders the footprint graphic of a mon from a Firered/Leafgreen ROM.
+ * 
+ * @param monName Name of the mon footprint to render.
+ * @param mons Mapping of mons to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderMonFoot(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonFootOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderMonFootBufferResult>>;
+
+export function renderMonFoot(
+    monName: string,
+    mons: MonData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMonFootOptions
 ): Promise<RenderResult>;
 
 export interface RenderAllIconsOptions extends RenderAllGenericOptions {
     // welp thats funny I guess this one has no unique options...
+}
+
+export interface RenderIconOptions extends RenderGenericOptions {
+
 }
 
 export interface IconSpriteMeta {
@@ -205,6 +361,10 @@ export type RenderAllIconsBufferResult =
         category: "icon";
         asset: "sprite";
     });
+
+export type RenderIconBufferResult = RenderAllIconsBufferResult;
+
+export type IconData = Record<string, ObjectDataEntry>;
 
 /**
  * Extracts and renders all icon graphics from a Firered/Leafgreen ROM.
@@ -219,19 +379,38 @@ export function renderAllIcons(
     options?: RenderAllIconsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllIconsBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllIconsBufferResult>>;
 
-/**
- * Extracts and renders all icon graphics from a Firered/Leafgreen ROM.
- * 
- * Handles only icon graphics.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */
 export function renderAllIcons(
     rom: RomData,
     options?: RenderAllIconsOptions
+): Promise<RenderAllResult>;
+
+/**
+ * Extracts and renders a item icon graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param itemName Name of the item icon to render.
+ * @param items Mapping of item icons to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderIcon(
+    itemName: string,
+    items: IconData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderIconOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderIconBufferResult>>;
+
+export function renderIcon(
+    itemName: string,
+    items: IconData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderIconOptions
 ): Promise<RenderResult>;
 
 export interface RenderAllTrainersOptions extends RenderAllGenericOptions {
@@ -242,6 +421,25 @@ export interface RenderAllTrainersOptions extends RenderAllGenericOptions {
      */
     trainerBackPics?: boolean;
 }
+
+export interface RenderTrainerOptions extends RenderGenericOptions {
+    /**
+     * Render trainer back graphics.
+     * 
+     * @default true
+     */
+    trainerBackPics?: boolean;
+}
+
+export interface RenderTrainerBackPicOptions extends RenderGenericOptions {
+
+}
+
+export type TrainerData =
+    Record<string, ObjectDataEntry>;
+
+export type TrainerBackData = 
+    Record<string, ObjectDataEntry>;
 
 export interface TrainerFrameMeta {
 
@@ -261,6 +459,11 @@ export type RenderAllTrainersBufferResult =
         asset: "sprite";
     });
 
+export type RenderTrainerBufferResult = RenderAllTrainersBufferResult;
+
+export type RenderTrainerBackPicBufferResult =
+    (RenderedAsset<TrainerFrameMeta>);
+
 /**
  * Extracts and renders all trainer graphics from a Firered/Leafgreen ROM.
  * 
@@ -274,22 +477,99 @@ export function renderAllTrainers(
     options?: RenderAllTrainersOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllTrainersBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllTrainersBufferResult>>;
 
-/**
- * Extracts and renders all trainer graphics from a Firered/Leafgreen ROM.
- * 
- * Handles trainer front and back graphics.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */
 export function renderAllTrainers(
     rom: RomData,
     options?: RenderAllTrainersOptions
+): Promise<RenderAllResult>;
+
+/**
+ * Extracts and renders a single trainer's graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param trainerName Name of the trainer to render.
+ * @param trainers Mapping of trainers to their index values.
+ * @param backtrainers Mapping of trainers back graphics to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderTrainer(
+    trainerName: string,
+    trainers: TrainerData,
+    backTrainers: TrainerBackData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderTrainerOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderTrainerBufferResult>>;
+
+export function renderTrainer(
+    trainerName: string,
+    trainers: TrainerData,
+    backTrainers: TrainerBackData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderTrainerOptions
+): Promise<RenderResult>;
+
+/**
+ * Extracts and renders a trainer's back graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param trainerName Name of the trainer to render.
+ * @param trainers Mapping of trainers to their index values.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderTrainerBackPic(
+    trainerName: string,
+    trainers: TrainerBackData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderTrainerBackPicOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderTrainerBackPicBufferResult>>;
+
+export function renderTrainerBackPic(
+    trainerName: string,
+    trainers: TrainerBackData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderTrainerBackPicOptions
 ): Promise<RenderResult>;
 
 export interface RenderAllMovesOptions extends RenderAllGenericOptions {
+    /**
+     * Creates the original sprite sheet version of the move graphic.
+     * 
+     * Useful if you wish to display or archive the original graphic.
+     * 
+     * @default true
+     */
+    renderMasterImage?: boolean;
+
+    /**
+     * Sorts all unused moves into a sub directory.
+     * 
+     * Example:
+     * 
+     * If your outputDir was 
+     * 
+     * `out/Moves`
+     * 
+     * Then this would store the unused moves in
+     * 
+     * `out/Moves/unused`
+     * 
+     * @default true
+     */
+    sortUnused?: boolean;
+}
+
+export interface RenderMoveOptions extends RenderGenericOptions {
     /**
      * Creates the original sprite sheet version of the move graphic.
      * 
@@ -335,6 +615,30 @@ export type RenderAllMovesBufferResult =
         asset: "frame";
     });
 
+export type RenderMoveBufferResult = RenderAllMovesBufferResult;
+
+export interface Frame {
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+}
+
+export interface MoveDataEntry {
+    index: number;
+    animTag: string;
+    imageSize: string;
+    imageWidth: number;
+    imageHeight: number;
+    frameCount: number;
+    frames: Frame[];
+    note?: string;
+    unused?: boolean;
+}
+
+export type MoveData =
+    Record<string, MoveDataEntry>;
+
 /**
  * Extracts, renders, and cuts all move graphics from a Firered/Leafgreen ROM.
  * 
@@ -348,19 +652,38 @@ export function renderAllMoves(
     options?: RenderAllMovesOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllMovesBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllMovesBufferResult>>;
 
-/**
- * Extracts, renders, and cuts all move graphics from a Firered/Leafgreen ROM.
- * 
- * Handles both used and unused move graphics.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */
 export function renderAllMoves(
     rom: RomData,
     options?: RenderAllMovesOptions
+): Promise<RenderAllResult>;
+
+/**
+ * Extracts and renders a move graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param moveName Name of the move to render.
+ * @param moves Mapping of moves to their index values, frames, and dimensions.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderMove(
+    moveName: string,
+    moves: MoveData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMoveOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderMoveBufferResult>>;
+
+export function renderMove(
+    moveName: string,
+    moves: MoveData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderMoveOptions
 ): Promise<RenderResult>;
 
 export interface RenderAllBallsOptions extends RenderAllGenericOptions {
@@ -390,6 +713,44 @@ export interface RenderAllBallsOptions extends RenderAllGenericOptions {
     renderMasterBallParticleImage?: boolean;
 }
 
+export interface RenderBallOptions extends RenderGenericOptions {
+    /**
+     * Render ball particle graphics.
+     * 
+     * @default true
+     */
+    ballParticles?: boolean;
+
+    /**
+     * Creates the original sprite sheet version of the ball graphic.
+     * 
+     * Useful if you wish to display or archive the original graphic.
+     * 
+     * @default true
+     */
+    renderMasterBallImage?: boolean;
+
+    /**
+     * Creates the original sprite sheet version of the ball particle graphic.
+     * 
+     * Useful if you wish to display or archive the original graphic.
+     * 
+     * @default true
+     */
+    renderMasterBallParticleImage?: boolean;
+}
+
+export interface RenderBallParticleOptions extends RenderGenericOptions {
+    /**
+     * Creates the original sprite sheet version of the ball particle graphic.
+     * 
+     * Useful if you wish to display or archive the original graphic.
+     * 
+     * @default true
+     */
+    renderMasterBallParticleImage?: boolean;
+}
+
 export interface BallSpriteMeta {
     particleOrBall: "particle" | "ball";
 }
@@ -408,6 +769,21 @@ export type RenderAllBallsBufferResult =
         asset: "frame";
     });
 
+export type RenderBallBufferResult = RenderAllBallsBufferResult;
+
+export type RenderBallParticleBufferResult = RenderAllBallsBufferResult;
+
+export interface BallDataEntry {
+    index: number;
+    frameCount: number;
+    frames: Frame[];
+    particleFrameCount: number;
+    particleFrames: Frame[];
+}
+
+export type BallData =
+    Record<string, BallDataEntry>;
+
 /**
  * Extracts, renders, and cuts all ball graphics from a Firered/Leafgreen ROM.
  * 
@@ -421,19 +797,65 @@ export function renderAllBalls(
     options?: RenderAllBallsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllBallsBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllBallsBufferResult>>;
 
-/**
- * Extracts renders, and cuts all ball graphics from a Firered/Leafgreen ROM.
- * 
- * Handles both ball and ball particle graphics.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */
 export function renderAllBalls(
     rom: RomData,
     options?: RenderAllBallsOptions
+): Promise<RenderAllResult>;
+
+/**
+ * Extracts and renders a ball graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param ballName Name of the ball to render.
+ * @param balls Mapping of balls to their index values and frames.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderBall(
+    ballName: string,
+    balls: BallData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderBallOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderBallBufferResult>>;
+
+export function renderBall(
+    ballName: string,
+    balls: BallData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderBallOptions
+): Promise<RenderResult>;
+
+/**
+ * Extracts and renders a ball particle graphic from a Firered/Leafgreen ROM.
+ * 
+ * @param ballName Name of the ball to render.
+ * @param balls Mapping of balls to their index values and frames.
+ * @param reader RomReader used for pointer resolution.
+ * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
+ * @param options Optional configuration for rendering behaviour and other options.
+ */
+export function renderBallParticle(
+    ballName: string,
+    balls: BallData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderBallParticleOptions & {
+        returnFileBuffer: true,
+    }
+): Promise<RenderResultWithBuffers<RenderBallParticleBufferResult>>;
+
+export function renderBallParticle(
+    ballName: string,
+    balls: BallData,
+    reader: RomReader,
+    rom: RomData,
+    options?: RenderBallParticleOptions
 ): Promise<RenderResult>;
 
 export interface RenderAllGraphicsOptions extends Omit<RenderAllGenericOptions, "outputDir"> {
@@ -506,7 +928,7 @@ export interface RenderAllGraphicsOptions extends Omit<RenderAllGenericOptions, 
 }
 
 export type RenderAllGraphicsBufferResult =
-    | RenderAllMovesBufferResult
+    | RenderAllMonsBufferResult
     | RenderAllIconsBufferResult
     | RenderAllTrainersBufferResult
     | RenderAllMovesBufferResult
@@ -525,17 +947,9 @@ export function renderAllGraphics(
     options?: RenderAllGraphicsOptions & {
         returnFileBuffer: true;
     }
-): Promise<RenderResultWithBuffers<RenderAllGraphicsBufferResult>>;
+): Promise<RenderAllResultWithBuffers<RenderAllGraphicsBufferResult>>;
 
-/**
- * Extracts and renders all graphics from a Firered/Leafgreen ROM.
- * 
- * Handles everything currently handled by all other separate render functions.
- * 
- * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
- * @param options Optional configuration for rendering behaviour and other options.
- */
 export function renderAllGraphics(
     rom: RomData,
     options?: RenderAllGraphicsOptions
-): Promise<RenderResult>;
+): Promise<RenderAllResult>;

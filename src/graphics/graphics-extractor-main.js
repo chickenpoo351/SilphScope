@@ -2,8 +2,6 @@
 // Licensed under the MIT License. See LICENSE file in project root.
 
 import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
 import { runWithConcurrency } from "../run-with-concurrency.js";
 import { validateRenderOptions } from "../validate-render-options.js";
 import { renderMon } from "./mons/render-mons.js";
@@ -13,20 +11,12 @@ import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
 import { renderMove } from "./moves/render-moves.js";
 import { renderBall } from "./balls/render-balls.js";
-
-const currentDir = path.dirname(fileURLToPath(import.meta.url));
-
-function loadDefaultJson(relativePath) {
-    const absolutePath = path.join(currentDir, "..", relativePath);
-    return JSON.parse(fs.readFileSync(absolutePath, "utf-8"));
-}
-
-const mons = loadDefaultJson("../mon-data/monData.json");
-const icons = loadDefaultJson("../item-data/itemData.json");
-const trainers = loadDefaultJson("../trainer-data/trainerData.json");
-const trainersBack = loadDefaultJson("../trainer-data/trainerBackData.json");
-const moves = loadDefaultJson("../move-data/moveData.json");
-const balls = loadDefaultJson("../ball-data/ballData.json");
+import mons from "../../mon-data/monData.json" with { type: "json" };
+import icons from "../../item-data/itemData.json" with { type: "json" };
+import trainers from "../../trainer-data/trainerData.json" with { type: "json" };
+import trainersBack from "../../trainer-data/trainerBackData.json" with { type: "json" };
+import moves from "../../move-data/moveData.json" with { type: "json" };
+import balls from "../../ball-data/ballData.json" with { type: "json" };
 
 export async function renderAllMons(rom, options = {}) {
     const start = performance.now();
@@ -462,9 +452,4 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
         ...(returnFileBuffer && { finalResults }),
         totalFileCount,
     }
-}
-
-export function loadDefaultRom() {
-    const romPath = path.resolve(process.cwd(), "../../pokefirered.gba");
-    return fs.readFileSync(romPath);
 }
