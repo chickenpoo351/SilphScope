@@ -9,6 +9,7 @@ import { renderIcon } from "./icons/render-icons.js";
 import { renderTrainer } from "./trainers/render-trainers.js";
 import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
+import { runWithWorker } from "../run-with-worker.js";
 import { renderMove } from "./moves/render-moves.js";
 import { renderBall } from "./balls/render-balls.js";
 import mons from "../../mon-data/monData.json" with { type: "json" };
@@ -51,7 +52,7 @@ export async function renderAllMons(rom, options = {}) {
     const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
-
+/**
     await runWithConcurrency(Object.keys(providedMons), concurrency, async (monName) => {
         const renderMonData = await renderMon(monName, providedMons, reader, rom, {
             side: ["front", "back"],
@@ -63,6 +64,25 @@ export async function renderAllMons(rom, options = {}) {
             returnFileBuffer,
             outputDir,
         });
+        if (verboseLogs) {
+            console.log(`Done: ${monName}`);
+        }
+        totalFileCount += renderMonData.fullFileCount;
+        if (returnFileBuffer && renderMonData?.results) {
+            finalResults.push(...renderMonData.results);
+        }
+    });
+*/
+    await runWithWorker(Object.keys(providedMons), concurrency, "renderMon", rom, config, { // so erm hopefully this works?
+        side: ["front", "back"],
+        variant: ["normal", "shiny"],
+        icon,
+        footprint,
+        pngFilterType,
+        pngCompressionLevel,
+        returnFileBuffer,
+        outputDir,
+    }, async (renderMonData, monName) => {
         if (verboseLogs) {
             console.log(`Done: ${monName}`);
         }

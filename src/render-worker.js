@@ -48,6 +48,9 @@ parentPort.on("message", async (task) => { // I don't really know what I am doin
     if (task.type === "init") {
         rom = new Uint8Array(task.rom) // so usually this wouldn't work... but I think if I am reading the docs for SharedArrayBuffer correctly... then if I correctly initialize the rom into the shared array this should work... if not then erm we might have to make a few hacks for this to work :p
         reader = new RomReader(rom, task.config);
+        parentPort.postMessage({
+            type: "ready"
+        });
         return;
     }
     // so now after the init this should work I think? hopefully? like I said I don't know what I am doing lmao
@@ -55,6 +58,8 @@ parentPort.on("message", async (task) => { // I don't really know what I am doin
     const functionJSONData = functionData[task.taskName]
     if (!functionType) {
         return parentPort.postMessage({
+            type: "error",
+            id: task.id,
             error: `Unknown function: ${task.taskName}`
         });
     }
@@ -64,10 +69,17 @@ parentPort.on("message", async (task) => { // I don't really know what I am doin
             ...task.options,
         }); // ok so that should handle the functions... if only we could pass cb's through workers but oh well :p
         parentPort.postMessage({
+            type: "result",
+            id: task.id,
+            objectName: task.objectName,
             result
         })
         return;
-    } catch {
-        // don't forget! add a error here later or bad stuff will happen when... er well bad stuff happens lol
+    } catch (err) {
+        parentPort.postMessage({
+            type: "error",
+            id: task.id,
+            error: err.stack ?? err.message,
+        });
     }
 })
