@@ -66,7 +66,7 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
         fullFileCount += 1;
     }
     if (returnFileBuffer) {
-        finalResults.push({
+        results.push({
             name: `${itemName}-sprite`,
             category: "icon",
             asset: "sprite",
