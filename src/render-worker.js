@@ -68,6 +68,7 @@ parentPort.on("message", async (task) => { // I don't really know what I am doin
         const result = await functionType(task.objectName, ...functionJSONData, reader, rom, {
             ...task.options,
         }); // ok so that should handle the functions... if only we could pass cb's through workers but oh well :p
+        console.log(task.objectName, result);
         parentPort.postMessage({
             type: "result",
             id: task.id,
