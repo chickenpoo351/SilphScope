@@ -2,6 +2,7 @@
 // Licensed under the MIT License. See LICENSE file in project root.
 
 import fs from "fs";
+import os from "os";
 import { runWithConcurrency } from "../run-with-concurrency.js";
 import { validateRenderOptions } from "../validate-render-options.js";
 import { renderMon } from "./mons/render-mons.js";
@@ -19,6 +20,10 @@ import trainersBack from "../../trainer-data/trainerBackData.json" with { type: 
 import moves from "../../move-data/moveData.json" with { type: "json" };
 import balls from "../../ball-data/ballData.json" with { type: "json" };
 
+function getDefaultConcurrency() {
+    return Math.max(1, os.availableParallelism() - 1);
+}
+
 export async function renderAllMons(rom, options = {}) {
     const start = performance.now();
     if (!rom || !(rom instanceof Uint8Array || Buffer.isBuffer(rom))) {
@@ -28,7 +33,7 @@ export async function renderAllMons(rom, options = {}) {
     const {
         mons: providedMons = mons,
         outputDir = "./out",
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
@@ -49,30 +54,8 @@ export async function renderAllMons(rom, options = {}) {
     }
 
     const config = getRomConfig(rom);
-    const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
-/**
-    await runWithConcurrency(Object.keys(providedMons), concurrency, async (monName) => {
-        const renderMonData = await renderMon(monName, providedMons, reader, rom, {
-            side: ["front", "back"],
-            variant: ["normal", "shiny"],
-            icon,
-            footprint,
-            pngFilterType,
-            pngCompressionLevel,
-            returnFileBuffer,
-            outputDir,
-        });
-        if (verboseLogs) {
-            console.log(`Done: ${monName}`);
-        }
-        totalFileCount += renderMonData.fullFileCount;
-        if (returnFileBuffer && renderMonData?.results) {
-            finalResults.push(...renderMonData.results);
-        }
-    });
-*/
     await runWithWorker(Object.keys(providedMons), concurrency, "renderMon", rom, config, { // so erm hopefully this works?
         side: ["front", "back"],
         variant: ["normal", "shiny"],
@@ -116,7 +99,7 @@ export async function renderAllIcons(rom, options = {}) {
 
     const {
         icons: providedIcons = icons,
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
@@ -137,17 +120,15 @@ export async function renderAllIcons(rom, options = {}) {
     }
 
     const config = getRomConfig(rom);
-    const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithConcurrency(Object.keys(providedIcons), concurrency, async (itemName) => {
-        const renderIconData = await renderIcon(itemName, providedIcons, reader, rom, {
-            pngFilterType,
-            pngCompressionLevel,
-            returnFileBuffer,
-            outputDir,
-        });
+    await runWithWorker(Object.keys(providedIcons), concurrency, "renderIcon", rom, config, {
+        pngFilterType,
+        pngCompressionLevel,
+        returnFileBuffer,
+        outputDir,
+    }, async (renderIconData, itemName) => {
         if (verboseLogs) {
             console.log(`Done: ${itemName}`);
         }
@@ -183,7 +164,7 @@ export async function renderAllTrainers(rom, options = {}) {
         trainers: providedTrainers = trainers,
         trainersBack: providedBackTrainers = trainersBack,
         trainerBackPics = true,
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
@@ -204,18 +185,16 @@ export async function renderAllTrainers(rom, options = {}) {
     }
 
     const config = getRomConfig(rom);
-    const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithConcurrency(Object.keys(providedTrainers), concurrency, async (trainerName) => {
-        const renderTrainerData = await renderTrainer(trainerName, providedTrainers, providedBackTrainers, reader, rom, {
-            trainerBackPics,
-            pngFilterType,
-            pngCompressionLevel,
-            returnFileBuffer,
-            outputDir
-        });
+    await runWithWorker(Object.keys(providedTrainers), concurrency, "renderTrainer", rom, config, {
+        trainerBackPics,
+        pngFilterType,
+        pngCompressionLevel,
+        returnFileBuffer,
+        outputDir,
+    }, async (renderTrainerData, trainerName) => {
         if (verboseLogs) {
             console.log(`Done: ${trainerName}`);
         }
@@ -249,7 +228,7 @@ export async function renderAllMoves(rom, options = {}) {
 
     const {
         moves: providedMoves = moves,
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
@@ -276,15 +255,14 @@ export async function renderAllMoves(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithConcurrency(Object.keys(providedMoves), concurrency, async (moveName) => {
-        const renderMoveData = await renderMove(moveName, providedMoves, reader, rom, {
-            pngFilterType,
-            pngCompressionLevel,
-            returnFileBuffer,
-            outputDir,
-            renderMasterImage,
-            sortUnused,
-        });
+    await runWithWorker(Object.keys(providedMoves), concurrency, "renderMove", rom, config, {
+        pngFilterType,
+        pngCompressionLevel,
+        returnFileBuffer,
+        outputDir,
+        renderMasterImage,
+        sortUnused,
+    }, async (renderMoveData, moveName) => {
         if (verboseLogs) {
             console.log(`Done: ${moveName}`);
         }
@@ -318,7 +296,7 @@ export async function renderAllBalls(rom, options = {}) {
 
     const {
         balls: providedBalls = balls,
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
@@ -346,16 +324,15 @@ export async function renderAllBalls(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithConcurrency(Object.keys(providedBalls), concurrency, async (ballName) => {
-        const renderBallData = await renderBall(ballName, providedBalls, reader, rom, {
-            pngFilterType,
-            pngCompressionLevel,
-            returnFileBuffer,
-            outputDir,
-            ballParticles,
-            renderMasterBallImage,
-            renderMasterBallParticleImage,
-        });
+    await runWithWorker(Object.keys(providedBalls), concurrency, "renderBall", rom, config, {
+        pngFilterType,
+        pngCompressionLevel,
+        returnFileBuffer,
+        outputDir,
+        ballParticles,
+        renderMasterBallImage,
+        renderMasterBallParticleImage,
+    }, async (renderBallData, ballName) => {
         if (verboseLogs) {
             console.log(`Done: ${ballName}`);
         }
