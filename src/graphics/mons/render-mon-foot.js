@@ -35,7 +35,7 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     if (monName.includes("UNOWN")) {
         return {
-            fileCount: 0,
+            fullFileCount: 0,
         }
     }
 
