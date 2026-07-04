@@ -86,6 +86,12 @@ export async function renderAllMons(rom, options = {}) {
         if (verboseLogs) {
             console.log(`Done: ${monName}`);
         }
+        if (!renderMonData) {
+            console.log("No renderMonData!", monName);
+        }
+        if (typeof renderMonData?.fullFileCount !== "number") {
+            console.log("Bad fullFileCount", monName, renderMonData);
+        }
         totalFileCount += renderMonData.fullFileCount;
         if (returnFileBuffer && renderMonData?.results) {
             finalResults.push(...renderMonData.results);
