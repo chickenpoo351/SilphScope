@@ -58,7 +58,7 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
             outputDir,
         });
         fullFileCount += monFootData.fullFileCount;
-        if (returnFileBuffer) {
+        if (returnFileBuffer && monFootData.results) {
             results.push(...monFootData.results);
         }
     }
