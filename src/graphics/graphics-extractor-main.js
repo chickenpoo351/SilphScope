@@ -133,7 +133,7 @@ export async function renderAllIcons(rom, options = {}) {
             console.log(`Done: ${itemName}`);
         }
         totalFileCount += renderIconData.fullFileCount;
-        if (returnFileBuffer && renderIconData?.pngBuffer) {
+        if (returnFileBuffer && renderIconData?.results) {
             finalResults.push(...renderIconData.results);
         }
     });
