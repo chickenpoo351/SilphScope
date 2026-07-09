@@ -20,6 +20,15 @@ import trainersBack from "../../trainer-data/trainerBackData.json" with { type: 
 import moves from "../../move-data/moveData.json" with { type: "json" };
 import balls from "../../ball-data/ballData.json" with { type: "json" };
 
+// important note for later:
+// so eventually make sure to remember that we have to once again change the concurrency variable
+// (yup again...) essentially it would be something like this:
+// concurrency would only be allowed to take whole integers if they are positive it will render
+// via worker threads (in parallel) where each positive integer equals one spawned worker thread
+// then if you set it to a negative value it would render well concurrently on a single thread
+// where each negative integer allows one more concurrent render function to run
+// then finally if you set concurrency to 0 it will just render sequentially
+
 function getDefaultConcurrency() {
     return Math.max(1, os.availableParallelism() - 1);
 }

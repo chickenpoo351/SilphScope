@@ -99,4 +99,120 @@ Creates a small summary message once a function completes detailing stuff such a
 
 Default is set to true
 
-~~(I will work more on this later :p)~~
+### returnFileBuffer
+
+Boolean toggle which controls whether or not the function returns a in memory object array.
+
+below is the example of what one of the returned objects look like within the array:
+
+```TypeScript
+[
+    {
+        name: string,
+        category: string,
+        asset: string,
+        path: string,
+        buffer: Buffer,
+        meta: {
+
+        }
+    },
+    // continue...
+]
+```
+
+now obviously here in this example `meta` is empty but many of the returned objects do have actual values in their meta objects (usually only strings).
+
+They help with classifying the exact type of graphic this buffer is (as sometimes `category` and `asset` aren't enough to discern it and in most scenarios unless you want to do string operations on `name` or `path` you won't really know exactly what the buffer is...)
+
+Anyway this is really only useful if you want to use your own PNG encoder instead of the one inside of this package (or want to do some file buffer manipulation magic or something...)... eh someone will find a use for this... maybe :p
+
+defaults to false
+
+### outputDir (and its weird cousins...)
+
+Accepts either a string or `null` if set to `null` then no file operations will be done but the images will still be extracted and encoded into a buffer (whether they are returned or not is dictated via the `returnFileBuffer` option above)
+
+this is also true for the following options contained within `renderAllGraphics`:
+
+`outputMonDir`
+`outputIconDir`
+`outputTrainerDir`
+`outputMoveDir`
+`outputBallDir`
+
+they are the same thing as regular `outputDir` contained within other `renderAllX` functions simply they dictate the individual output directory of each function
+
+defaults to "./out" (with the others defaulting to `./out/${object}` with object being the type of thing you are rendering so the mons version would be "./out/mons")
+
+## renderAllMons
+
+### icon
+
+Boolean which dictates whether or not mon icons are rendered
+
+defaults to true
+
+### footprint
+
+Boolean which dictates whether or not mon foorptints are rendered
+
+deafaults to true
+
+## renderAllIcons
+
+~~nothing to see here peeps :o~~
+
+## renderAllTrainers
+
+### trainerBackPics
+
+(Another) Boolean which dictates whether or not the back images of trainers are rendered
+
+defaults to true
+
+## renderAllMoves
+
+### renderMasterImage
+
+Boolean that renders the uncut image of the extracted move
+
+defaults to true
+
+### sortUnused
+
+Boolean that sorts the rendered moves into a sub directory whether or not they are unused by the original game
+
+for instance if your outputDir was set to "./MyCoolMoveAssets" and this options is set to true then instead of putting said move in a path like this `./MyCoolMoveAssets/${moveName}` it would instead put it here `./MyCoolMoveAssets/unused/${moveName}`
+
+defaults to true
+
+## renderAllBalls
+
+### ballParticles
+
+Boolean which dictates whether or not the accompanying ball particles of each rendered ball
+
+defaults to true
+
+### renderMasterBallImage
+
+Boolean that renders the uncut ball image
+
+defaults to true
+
+### renderMasterBallParticleImage
+
+Boolean that renders the uncut ball particle image
+
+defaults to true
+
+## renderAllGraphics
+
+### sortUnused
+
+simple pass through for the `renderAllMoves` option
+
+### other stuff!
+
+yea this function doesn't have anything else... except for the outputDir stuff mentioned above!
