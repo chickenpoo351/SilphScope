@@ -33,7 +33,8 @@
     "ball-data/",
     "!src/object-event-data-parser.js",
     "silphscope.d.ts",
-    "docs/"
+    "docs/",
+    "!README-old.md"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
