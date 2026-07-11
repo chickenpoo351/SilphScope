@@ -125,7 +125,7 @@ now obviously here in this example `meta` is empty but many of the returned obje
 
 They help with classifying the exact type of graphic this buffer is (as sometimes `category` and `asset` aren't enough to discern it and in most scenarios unless you want to do string operations on `name` or `path` you won't really know exactly what the buffer is...)
 
-Anyway this is really only useful if you want to use your own PNG encoder instead of the one inside of this package (or want to do some file buffer manipulation magic or something...)... eh someone will find a use for this... maybe :p
+Anyway this is really only useful if you want to do something other than directly the files to disk (or want to do some file buffer manipulation magic or something...)... eh someone will find a use for this... maybe :p
 
 defaults to false
 

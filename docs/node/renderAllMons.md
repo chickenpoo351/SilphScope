@@ -75,3 +75,67 @@ Promise<{
     totalFileCount: number;
 }>;
 ```
+
+If you wish to see the defaults and descriptions for the function options view [renderAllX-options.md](./renderAllX-options.md)
+
+## Examples
+
+The simplest way to use the function is:
+
+```JavaScript
+import { renderAllMons } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+await renderAllMons(rom);
+```
+
+This writes all files to a new `./out` directory relative to where you ran the above script
+
+---
+
+If you instead wish to return a buffer of each graphic instead of having them written to disk you would write this:
+
+```JavaScript
+import { renderAllMons } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const renderMonData = await renderAllMons(rom, {
+    outputDir: null,
+    returnFileBuffer: true,
+});
+```
+
+In which with that new variable you have created you can do stuff like this:
+
+```JavaScript
+const shinyMonBackSprites = renderMonData.finalResults.filter(
+    (mon) =>
+        mon.asset === "sprite" &&
+        mon.meta.side === "back" &&
+        mon.meta.variant === "shiny"
+);
+
+for (const shinyMon of shinyMonBackSprites) {
+    fs.writeFileSync(`${shinyMon.name}.png`, shinyMon.buffer);
+}
+```
+
+Or if you prefer to use the built in path value which defaults to a path like so:
+
+```
+./out/${monName}/${fileName}
+```
+
+you would simply do this:
+
+```JavaScript
+for (const shinyMon of shinyMonBackSprites) {
+    fs.writeFileSync(`${shinyMon.path}.png`, shinyMon.buffer);
+}
+```
+
+And as such you would now have written only the shiny variants of the mon's back sprites to disk
+
+you could of course not write to disk at all and instead do something completely different. That however is up to your use case
