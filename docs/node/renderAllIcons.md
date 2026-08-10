@@ -80,8 +80,8 @@ For example:
 
 ```JavaScript
 const itemIconSprites = renderIconData.finalResults.filter(
-    (particle) =>
-            particle.asset = "sprite"
+    (icon) =>
+            icon.asset = "sprite"
 );
 
 for (const itemIcon of itemIconSprites) {
