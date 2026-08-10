@@ -32,7 +32,7 @@ async function renderAllBalls(rom: Buffer | Uint8Array, options?: {
     returnFileBuffer?: boolean;
 }): Promise<{
     totalFileCount: number,
-    finalResults: Array< // only present if returnFileBuffer is true.
+    finalResults?: Array< // only present if returnFileBuffer is true.
         | {
             name: string;
             category: "ball";
