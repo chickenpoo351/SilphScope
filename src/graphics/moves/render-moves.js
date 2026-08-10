@@ -126,7 +126,9 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
                 asset: "frame",
                 path: `out/moves/${(sortUnused && move?.unused) === true ? `unused/${moveName}` : `${moveName}`}/frame-${i}`,
                 buffer: pngBuffer,
-                meta: { },
+                meta: {
+                    frame: i,
+                },
             });
         }
     }

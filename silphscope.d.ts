@@ -602,7 +602,7 @@ export interface MoveSpriteMeta {
 }
 
 export interface MoveFrameMeta {
-
+    frame: number;
 }
 
 export type RenderAllMovesBufferResult =
