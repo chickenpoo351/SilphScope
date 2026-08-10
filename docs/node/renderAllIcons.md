@@ -94,7 +94,7 @@ Now the above example is a bit redundant because there isn't much filtering you 
 You can also use the built in `path` value which defaults to:
 
 ```
-./out/${iconName}/${fileName}
+./out/icons/${iconName}/${fileName}
 ```
 
 Which would look like so:

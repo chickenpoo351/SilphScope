@@ -125,7 +125,7 @@ for (const shinyMon of shinyMonBackSprites) {
 Or if you prefer to use the built in path value which defaults to a path like so:
 
 ```
-./out/${monName}/${fileName}
+./out/mons/${monName}/${fileName}
 ```
 
 you would simply do this:

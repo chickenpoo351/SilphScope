@@ -108,7 +108,7 @@ for (const ballParticle of ballParticleFrames) {
 You can also use the built in `path` value which defaults to:
 
 ```
-./out/${ballName}/${fileName}
+./out/balls/${ballName}/${fileName}
 ```
 
 Which would look like so:
