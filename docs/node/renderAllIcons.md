@@ -31,6 +31,7 @@ async function renderAllIcons(rom: Buffer | Uint8Array, options?: {
     finalResults?: Array< // only present if returnFileBuffer is true.
         {
             name: string;
+            id: string;
             category: "icon";
             asset: "sprite";
             path: string;
@@ -81,11 +82,11 @@ For example:
 ```JavaScript
 const itemIconSprites = renderIconData.finalResults.filter(
     (icon) =>
-            icon.asset = "sprite"
+            icon.asset === "sprite"
 );
 
 for (const itemIcon of itemIconSprites) {
-    fs.writeFileSync(`${itemIcon.name}.png`, itemIcon.buffer);
+    fs.writeFileSync(`${itemIcon.id}.png`, itemIcon.buffer);
 }
 ```
 
@@ -103,6 +104,12 @@ Which would look like so:
 for (const itemIcon of itemIconSprites) {
     fs.writeFileSync(`${itemIcon.path}.png`, itemIcon.buffer);
 }
+```
+
+You can also just reconstruct the path string yourself with the provided data like so:
+
+```JavaScript
+fs.writeFileSync(`./out/icons/${itemIcon.name}/icon.png`, itemIcon.buffer);
 ```
 
 This allows you to select and handle the generated assets however you want without `renderAllIcons` writing them all to disk.

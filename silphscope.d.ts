@@ -8,6 +8,7 @@ import { RomReader } from "./src/rom-reader.js";
 
 export interface RenderedAsset<Meta>  {
     name: string;
+    id: string;
     category: string;
     asset: string;
     path: string;
@@ -756,6 +757,7 @@ export interface BallSpriteMeta {
 }
 
 export interface BallFrameMeta {
+    frame: number;
     particleOrBall: "particle" | "ball";
 }
 

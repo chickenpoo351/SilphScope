@@ -112,7 +112,8 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
 
             if (returnFileBuffer) {
                 results.push({
-                    name: `${monName}-${variant === "shiny"? "shiny" : "normal"}-${side}-sprite`,
+                    name: `${monName}`,
+                    id: `${monName}-${variant === "shiny"? "shiny" : "normal"}-${side}-sprite`,
                     category: "mon",
                     asset: "sprite",
                     path: `out/mons/${monName}/${side}_${variant === "shiny"? "shiny" : "normal"}`,

@@ -88,7 +88,8 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
         }
         if (returnFileBuffer) {
             results.push({
-                name: `${ballName}-particle-full-sprite`,
+                name: `${ballName}`,
+                id: `${ballName}-particle-full-sprite`,
                 category: "ball",
                 asset: "sprite",
                 path: `out/balls/${ballName}/master-particle`,
@@ -117,12 +118,14 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
         }
         if (returnFileBuffer) {
             results.push({
-                name: `${ballName}-particle-frame${i}`,
+                name: `${ballName}`,
+                id: `${ballName}-particle-frame${i}`,
                 category: "ball",
                 asset: "frame",
                 path: `out/balls/${ballName}/particle-${i}`,
                 buffer: pngFrameBuffer,
                 meta: {
+                    frame: i,
                     particleOrBall: "particle",
                 },
             });

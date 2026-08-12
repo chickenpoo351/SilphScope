@@ -96,7 +96,8 @@ export async function renderMonFoot(monName, mons, reader, rom, options = {}) {
 
     if (returnFileBuffer) {
         results.push({
-            name: `${monName}-footprint`,
+            name: `${monName}`,
+            id: `${monName}-footprint`,
             category: "mon",
             asset: "footprint",
             path: `out/mons/${monName}/footprint`,

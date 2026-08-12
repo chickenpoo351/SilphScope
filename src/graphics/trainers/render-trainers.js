@@ -101,7 +101,8 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
 
     if (returnFileBuffer) {
         results.push({
-            name: `${trainerName}-front-sprite`,
+            name: `${trainerName}`,
+            id: `${trainerName}-front-sprite`,
             category: "trainer",
             asset: "sprite",
             path: `out/trainers/${trainerName}/front`,

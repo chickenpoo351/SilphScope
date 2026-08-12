@@ -76,7 +76,8 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
     }
     if (returnFileBuffer) {
         results.push({
-            name: `${monName}-icon-frame1`,
+            name: `${monName}`,
+            id: `${monName}-icon-frame1`,
             category: "mon",
             asset: "icon",
             path: `out/mons/${monName}/icon_frame1`,
@@ -86,7 +87,8 @@ export async function renderMonIcon(monName, mons, reader, rom, options = {}) {
             }
         });
         results.push({
-            name: `${monName}-icon-frame2`,
+            name: `${monName}`,
+            id: `${monName}-icon-frame2`,
             category: "mon",
             asset: "icon",
             path: `out/mons/${monName}/icon_frame2`,

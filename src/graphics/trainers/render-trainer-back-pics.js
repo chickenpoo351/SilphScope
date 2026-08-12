@@ -114,7 +114,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
 
     if (returnFileBuffer) {
         results.push({
-            name: `${trainerName}-back-frame1`,
+            name: `${trainerName}`,
+            id: `${trainerName}-back-frame1`,
             category: "trainer",
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_1`,
@@ -122,7 +123,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             meta: {},
         });
         results.push({
-            name: `${trainerName}-back-frame2`,
+            name: `${trainerName}`,
+            id: `${trainerName}-back-frame2`,
             category: "trainer",
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_2`,
@@ -130,7 +132,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             meta: {},
         });
         results.push({
-            name: `${trainerName}-back-frame3`,
+            name: `${trainerName}`,
+            id: `${trainerName}-back-frame3`,
             category: "trainer",
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_3`,
@@ -138,7 +141,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             meta: {},
         });
         results.push({
-            name: `${trainerName}-back-frame4`,
+            name: `${trainerName}`,
+            id: `${trainerName}-back-frame4`,
             category: "trainer",
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_4`,
@@ -147,7 +151,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         });
         if (frame5) {
             results.push({
-                name: `${trainerName}-back-frame5`,
+                name: `${trainerName}`,
+                id: `${trainerName}-back-frame5`,
                 category: "trainer",
                 asset: "frame",
                 path: `out/trainers/${trainerName}/back_frame_5`,

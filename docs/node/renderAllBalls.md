@@ -35,6 +35,7 @@ async function renderAllBalls(rom: Buffer | Uint8Array, options?: {
     finalResults?: Array< // only present if returnFileBuffer is true.
         | {
             name: string;
+            id: string;
             category: "ball";
             asset: "sprite";
             path: string;
@@ -44,11 +45,13 @@ async function renderAllBalls(rom: Buffer | Uint8Array, options?: {
             };
         } | {
             name: string;
+            id: string;
             category: "ball";
             asset: "frame";
             path: string;
             buffer: Buffer;
             meta: {
+                frame: number;
                 particleOrBall: "particle" : "ball";
             };
         }
@@ -96,12 +99,12 @@ For example:
 ```JavaScript
 const ballParticleFrames = renderBallData.finalResults.filter(
     (particle) =>
-            particle.asset = "frame" &&
-            particle.meta.particleOrBall = "particle"
+            particle.asset === "frame" &&
+            particle.meta.particleOrBall === "particle"
 );
 
 for (const ballParticle of ballParticleFrames) {
-    fs.writeFileSync(`${ballParticle.name}.png`, ballParticle.buffer);
+    fs.writeFileSync(`${ballParticle.id}.png`, ballParticle.buffer);
 }
 ```
 
@@ -117,6 +120,12 @@ Which would look like so:
 for (const ballParticle of ballParticleFrames) {
     fs.writeFileSync(`${ballParticle.path}.png`, ballParticle.buffer);
 }
+```
+
+You can also just reconstruct the path string yourself with the provided data like so:
+
+```JavaScript
+fs.writeFileSync(`./out/balls/${ballParticle.name}/particle-frame${ballParticle.meta.frame}.png`, ballParticle.buffer);
 ```
 
 This allows you to select and handle the generated assets however you want without `renderAllBalls` writing them all to disk.

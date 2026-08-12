@@ -67,7 +67,8 @@ export async function renderIcon(itemName, items, reader, rom, options = {}) {
     }
     if (returnFileBuffer) {
         results.push({
-            name: `${itemName}-sprite`,
+            name: `${itemName}`,
+            id: `${itemName}-sprite`,
             category: "icon",
             asset: "sprite",
             path: `out/icons/${itemName}/icon`,

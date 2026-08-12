@@ -33,6 +33,7 @@ async function renderAllMoves(rom: Buffer | Uint8Array, options?: {
     finalResults: Array< // only present if returnFileBuffer is true.
         | {
             name: string;
+            id: string;
             category: "move";
             asset: "sprite";
             path: string;
@@ -40,6 +41,7 @@ async function renderAllMoves(rom: Buffer | Uint8Array, options?: {
             meta: {};
         } | {
             name: string;
+            id: string;
             category: "move";
             asset: "frame";
             path: string;
@@ -92,12 +94,12 @@ For example:
 ```JavaScript
 const firstMoveFrames = renderMoveData.finalResults.filter(
     (move) =>
-            move.asset = "frame" &&
-            move.meta.frame = 0
+            move.asset === "frame" &&
+            move.meta.frame === 0
 );
 
 for (const moveFrame of firstMoveFrames) {
-    fs.writeFileSync(`${moveFrame.name}.png`, moveFrame.buffer);
+    fs.writeFileSync(`${moveFrame.id}.png`, moveFrame.buffer);
 }
 ```
 
@@ -133,6 +135,12 @@ Using `path` would look like so:
 for (const moveFrame of firstMoveFrame) {
     fs.writeFileSync(`${moveFrame.path}.png`, moveFrame.buffer);
 }
+```
+
+You can also just reconstruct the path string yourself with the provided data like so:
+
+```JavaScript
+fs.writeFileSync(`./out/moves/${firstMoveFrame.meta.unused === true ? `unused/${firstMoveFrame.name}` : `${firstMoveFrame}/frame-${firstMoveFrame.meta.frame}`}.png`, ballParticle.buffer);
 ```
 
 This allows you to select and handle the generated assets however you want without `renderAllMoves` writing them all to disk.

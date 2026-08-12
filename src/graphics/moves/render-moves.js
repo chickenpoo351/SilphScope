@@ -90,12 +90,15 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         }
         if (returnFileBuffer) {
             results.push({
-                name: `${moveName}-full-sprite`,
+                name: `${moveName}`,
+                id: `${moveName}-full-sprite`,
                 category: "move",
                 asset: "sprite",
                 path: `out/moves/${(sortUnused && move?.unused) === true? `unused/${moveName}` : `${moveName}`}/master`,
                 buffer: pngBuffer,
-                meta: { },
+                meta: {
+                    unused: move?.unused === true,
+                },
             });
         }
     }
@@ -121,12 +124,14 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
         }
         if (returnFileBuffer) {
             results.push({
-                name: `${moveName}-frame${i}`,
+                name: `${moveName}`,
+                id: `${moveName}-frame${i}`,
                 category: "move",
                 asset: "frame",
                 path: `out/moves/${(sortUnused && move?.unused) === true ? `unused/${moveName}` : `${moveName}`}/frame-${i}`,
                 buffer: pngBuffer,
                 meta: {
+                    unused: move?.unused === true,
                     frame: i,
                 },
             });

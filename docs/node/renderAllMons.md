@@ -37,6 +37,7 @@ async function renderAllMons(rom: Buffer | Uint8Array, options?: {
     finalResults?: Array< // only present if returnFileBuffer is true.
         | {
             name: string;
+            id: string;
             category: "mon";
             asset: "sprite";
             path: string;
@@ -48,6 +49,7 @@ async function renderAllMons(rom: Buffer | Uint8Array, options?: {
         }
         | {
             name: string;
+            id: string;
             category: "mon";
             asset: "icon";
             path: string;
@@ -58,6 +60,7 @@ async function renderAllMons(rom: Buffer | Uint8Array, options?: {
         }
         | {
             name: string;
+            id: string;
             category: "mon";
             asset: "footprint";
             path: string;
@@ -118,7 +121,7 @@ const shinyMonBackSprites = renderMonData.finalResults.filter(
 );
 
 for (const shinyMon of shinyMonBackSprites) {
-    fs.writeFileSync(`${shinyMon.name}.png`, shinyMon.buffer);
+    fs.writeFileSync(`${shinyMon.id}.png`, shinyMon.buffer);
 }
 ```
 
@@ -134,6 +137,12 @@ you would simply do this:
 for (const shinyMon of shinyMonBackSprites) {
     fs.writeFileSync(`${shinyMon.path}.png`, shinyMon.buffer);
 }
+```
+
+You can also just reconstruct the path string yourself with the provided data like so:
+
+```JavaScript
+fs.writeFileSync(`./out/mons/${shinyMonBackSprites.name}/${shinyMonBackSprites.meta.side}_${shinyMonBackSprites.meta.variant}.png`, ballParticle.buffer);
 ```
 
 And as such you would now have written only the shiny variants of the mon's back sprites to disk
