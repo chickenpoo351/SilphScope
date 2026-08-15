@@ -140,7 +140,7 @@ for (const moveFrame of firstMoveFrame) {
 You can also just reconstruct the path string yourself with the provided data like so:
 
 ```JavaScript
-fs.writeFileSync(`./out/moves/${firstMoveFrame.meta.unused === true ? `unused/${firstMoveFrame.name}` : `${firstMoveFrame}/frame-${firstMoveFrame.meta.frame}`}.png`, ballParticle.buffer);
+fs.writeFileSync(`./out/moves/${moveFrame.meta.unused === true ? `unused/${moveFrame.name}` : `${moveFrame}/frame-${moveFrame.meta.frame}`}.png`, moveFrame.buffer);
 ```
 
 This allows you to select and handle the generated assets however you want without `renderAllMoves` writing them all to disk.
