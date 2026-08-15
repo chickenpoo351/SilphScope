@@ -109,6 +109,7 @@ below is the example of what one of the returned objects look like within the ar
 [
     {
         name: string,
+        id: string,
         category: string,
         asset: string,
         path: string,
@@ -121,9 +122,91 @@ below is the example of what one of the returned objects look like within the ar
 ]
 ```
 
-now obviously here in this example `meta` is empty but many of the returned objects do have actual values in their meta objects (usually only strings).
+quick explanations:
+
+#### Name
+
+This contains the `name` of the rendered asset it should be stated though that there can be collisions between `name` values for reference these assets:
+
+- mon normal front sprite
+- mon shiny back sprite
+- mon footprint
+- mon icon
+
+can all share the same name if they are from the same mon so if these were all from rhydon the `name` value between all of these would be `"RHYDON"`
+
+if you need a unique identifier specifically stating what the asset is use the `id` value
+
+#### Id
+
+This contains a asset unique string defining what type of asset is inside of this object they look something roughly like this:
+
+```
+`${name}-${descriptors}`
+```
+
+with `descriptors` being obviously descriptive words relevant to the type of asset rendered
+
+
+#### Category
+
+This contains the category of asset you are rendering currently all possible categories are:
+
+- "mon"
+- "icon"
+- "trainer"
+- "move"
+- "ball"
+
+#### Asset
+
+This contains the asset type of the returned object here are the possible ones under each category:
+
+- mon
+    - "sprite"
+    - "icon"
+    - "footprint"
+- icon
+    - "sprite"
+- trainer
+    - "sprite"
+    - "frame"
+- move
+    - "sprite"
+    - "frame"
+- ball
+    - "sprite"
+    - "frame"
+
+#### Path
+
+This is essentially an example path you can write the rendered sprite to (or use as another id I guess...) they are roughly setup like this:
+
+```
+`out/${category}/${name}/<some descriptive stuff of the asset here>`
+```
+
+it should be noted the `path` value excludes a .png extension for the path so if you do plan to write the file with this path you must append a .png extension so do something like this:
+
+```JavaScript
+fs.writeFileSync(`${randomMon.path}.png`, randomMon.buffer);
+```
+
+#### Buffer
+
+self explanitory it contains the png encoded file buffer of the rendered asset so like your actual image :p
+
+#### Meta
+
+this one is kinda weird... to keep things short the example above is sufficent for now I guess... eh well I guess I should explain a bit...
+
+in the above example `meta` is empty but many of the returned objects do have actual values in their meta objects (usually only strings).
 
 They help with classifying the exact type of graphic this buffer is (as sometimes `category` and `asset` aren't enough to discern it and in most scenarios unless you want to do string operations on `name` or `path` you won't really know exactly what the buffer is...)
+
+If you need to know what meta value a function returns please view its in depth documentation and take a look at its function signature
+
+---
 
 Anyway this is really only useful if you want to do something other than directly the files to disk (or want to do some file buffer manipulation magic or something...)... eh someone will find a use for this... maybe :p
 

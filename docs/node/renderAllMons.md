@@ -142,7 +142,7 @@ for (const shinyMon of shinyMonBackSprites) {
 You can also just reconstruct the path string yourself with the provided data like so:
 
 ```JavaScript
-fs.writeFileSync(`./out/mons/${shinyMonBackSprites.name}/${shinyMonBackSprites.meta.side}_${shinyMonBackSprites.meta.variant}.png`, ballParticle.buffer);
+fs.writeFileSync(`./out/mons/${shinyMon.name}/${shinyMon.meta.side}_${shinyMon.meta.variant}.png`, shinyMon.buffer);
 ```
 
 And as such you would now have written only the shiny variants of the mon's back sprites to disk
