@@ -120,7 +120,9 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_1`,
             buffer: buffer1,
-            meta: {},
+            meta: {
+                frame: 1
+            },
         });
         results.push({
             name: `${trainerName}`,
@@ -129,7 +131,9 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_2`,
             buffer: buffer2,
-            meta: {},
+            meta: {
+                frame: 2
+            },
         });
         results.push({
             name: `${trainerName}`,
@@ -138,7 +142,9 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_3`,
             buffer: buffer3,
-            meta: {},
+            meta: {
+                frame: 3
+            },
         });
         results.push({
             name: `${trainerName}`,
@@ -147,7 +153,9 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
             asset: "frame",
             path: `out/trainers/${trainerName}/back_frame_4`,
             buffer: buffer4,
-            meta: {},
+            meta: {
+                frame: 4
+            },
         });
         if (frame5) {
             results.push({
@@ -157,7 +165,9 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
                 asset: "frame",
                 path: `out/trainers/${trainerName}/back_frame_5`,
                 buffer: buffer5,
-                meta: {},
+                meta: {
+                    frame: 5
+                },
             });
         }
     }

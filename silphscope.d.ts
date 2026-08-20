@@ -443,7 +443,12 @@ export type TrainerBackData =
     Record<string, ObjectDataEntry>;
 
 export interface TrainerFrameMeta {
-
+    frame:
+    | 1
+    | 2
+    | 3
+    | 4
+    | 5;
 }
 
 export interface TrainerSpriteMeta {
