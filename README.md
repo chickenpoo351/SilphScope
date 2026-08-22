@@ -63,7 +63,6 @@ Here is the current list of extracted graphics the project supports (more on the
 ### Planned Features
 - More graphical extraction
 - Expose some more low level functions
-- Make
 - ~~(finish my other project... that just so happens to be reliant on this project...)~~
 - Support the following ROMs:
   - Firered (USA) rev1
