@@ -62,7 +62,7 @@ export async function renderAllMons(rom, options = {}) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const config = getRomConfig(rom);
+    const config = await getRomConfig(rom);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
     await runWithWorker(Object.keys(providedMons), concurrency, "renderMon", rom, config, { // so erm hopefully this works?
@@ -128,7 +128,7 @@ export async function renderAllIcons(rom, options = {}) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const config = getRomConfig(rom);
+    const config = await getRomConfig(rom);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
@@ -193,7 +193,7 @@ export async function renderAllTrainers(rom, options = {}) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const config = getRomConfig(rom);
+    const config = await getRomConfig(rom);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
@@ -259,7 +259,7 @@ export async function renderAllMoves(rom, options = {}) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const config = getRomConfig(rom);
+    const config = await getRomConfig(rom);
     const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
@@ -328,7 +328,7 @@ export async function renderAllBalls(rom, options = {}) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const config = getRomConfig(rom);
+    const config = await getRomConfig(rom);
     const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;

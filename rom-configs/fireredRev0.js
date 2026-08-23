@@ -6,6 +6,7 @@
 export const fireredRev0 = {
     code: "BPRE", // I find this weird... like what does BP stand for? is it: "Battle Pokemon"? no idea :o
     rev: 0, // I probably should have mentioned I have been making this tool with a rev0 ROM... but oh well it isn't like people are actually using this tool at least right now so no one has probably run into the "why isn't m firered ROM working!" issue :p
+    sha1: "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc", // so yes I decided to bite the bullet and well nw we are going to verify the sha1... of course though now the top two things are kinda redundant but I'm going to keep them I guess :p
     tables: { // so the idea is essentially instead of a big JSON like we have now we instead just view the table graphics and build from that... it in theory could be slower because more lookups instead of direct references but it should be more maintainable...
         monFrontSprites: 0x2350AC,
         monBackSprites: 0x23654C,
