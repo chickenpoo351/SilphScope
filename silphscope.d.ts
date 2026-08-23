@@ -604,10 +604,11 @@ export interface RenderMoveOptions extends RenderGenericOptions {
 }
 
 export interface MoveSpriteMeta {
-
+    unused: boolean;
 }
 
 export interface MoveFrameMeta {
+    unused: boolean;
     frame: number;
 }
 

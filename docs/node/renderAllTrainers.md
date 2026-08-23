@@ -46,7 +46,8 @@ async function renderAllTrainers(rom: Buffer | Uint8Array, options?: {
                 | 4
                 | 5;
             };
-        } | {
+        } 
+        | {
             name: string;
             id: string;
             category: "trainer";
@@ -55,7 +56,7 @@ async function renderAllTrainers(rom: Buffer | Uint8Array, options?: {
             buffer: Buffer;
             meta: {
                 side: "front" | "back";
-            }
+            };
         }
     >;
 }>

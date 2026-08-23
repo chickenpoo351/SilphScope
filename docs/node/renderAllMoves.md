@@ -38,7 +38,9 @@ async function renderAllMoves(rom: Buffer | Uint8Array, options?: {
             asset: "sprite";
             path: string;
             buffer: Buffer;
-            meta: {};
+            meta: {
+                unused: boolean;
+            };
         } | {
             name: string;
             id: string;
@@ -47,6 +49,7 @@ async function renderAllMoves(rom: Buffer | Uint8Array, options?: {
             path: string;
             buffer: Buffer;
             meta: {
+                unused: boolean;
                 frame: number;
             };
         }

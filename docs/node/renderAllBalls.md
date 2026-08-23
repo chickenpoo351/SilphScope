@@ -52,7 +52,7 @@ async function renderAllBalls(rom: Buffer | Uint8Array, options?: {
             buffer: Buffer;
             meta: {
                 frame: number;
-                particleOrBall: "particle" : "ball";
+                particleOrBall: "particle" | "ball";
             };
         }
     >;
