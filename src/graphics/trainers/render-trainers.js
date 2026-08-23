@@ -85,12 +85,7 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
     const width = 64;
     const height = 64;
 
-    const image = render4bppImage({
-        tileData: trainerImageData.data,
-        paletteData: rawTrainerPalData.data,
-        width,
-        height
-    });
+    const image = render4bppImage(trainerImageData.data, rawTrainerPalData.data, width, height);
 
     const png = new PNG({ width, height });
     png.data = image;

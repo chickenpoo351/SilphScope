@@ -66,12 +66,7 @@ export async function renderMove(moveName, moves, reader, rom, options = {}) {
     const width = move.imageWidth;
     const height = move.imageHeight;
 
-    const image = render4bppImage({
-        tileData: moveImageData.data,
-        paletteData: rawMovePalData.data,
-        width,
-        height,
-    });
+    const image = render4bppImage(moveImageData.data, rawMovePalData.data, width, height );
 
     const png = new PNG({ width, height });
     png.data = image;

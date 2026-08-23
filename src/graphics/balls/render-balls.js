@@ -78,12 +78,7 @@ export async function renderBall(ballName, balls, reader, rom, options = {}) {
     const width = 16;
     const height = 48;
 
-    const image = render4bppImage({
-        tileData: ballImageData.data,
-        paletteData: rawBallPalData.data,
-        width,
-        height,
-    });
+    const image = render4bppImage(ballImageData.data, rawBallPalData.data, width, height);
 
     const png = new PNG({ width, height });
     png.data = image;

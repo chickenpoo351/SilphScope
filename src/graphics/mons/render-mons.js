@@ -89,12 +89,7 @@ export async function renderMon(monName, mons, reader, rom, options = {}) {
     }
     for (const side of sides) {
         for (const variant of variants) {
-            const image = render4bppImage({
-                tileData: picCache[side],
-                paletteData: palCache[variant],
-                width,
-                height,
-            });
+            const image = render4bppImage(picCache[side], palCache[variant], width, height);
 
             const png = new PNG({ width, height });
             png.data = image;

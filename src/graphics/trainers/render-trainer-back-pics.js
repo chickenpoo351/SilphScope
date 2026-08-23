@@ -50,12 +50,7 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
         height = 256;
     }
 
-    const image = render4bppImage({
-        tileData: trainerBackImageData.data,
-        paletteData: rawTrainerBackPalData.data,
-        width,
-        height,
-    });
+    const image = render4bppImage(trainerBackImageData.data, rawTrainerBackPalData.data, width, height);
 
     const frameHeight = 64;
     const frameSize = width * frameHeight * 4;

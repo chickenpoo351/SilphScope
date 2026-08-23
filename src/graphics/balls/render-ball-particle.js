@@ -63,12 +63,7 @@ export async function renderBallParticle(ballName, balls, reader, rom, options =
     const width = 8; // so actually the "particle image" is one image that just contains all of the particles used for the balls upon opening later on I will split the ones actually used by each ball so we aren't exporting a full redundant image :p
     const height = 64;
 
-    const image = render4bppImage({
-        tileData: particleImageData.data,
-        paletteData: rawParticlePalData.data,
-        width,
-        height,
-    });
+    const image = render4bppImage(particleImageData.data, rawParticlePalData.data, width, height);
 
     const png = new PNG({ width, height });
     png.data = image;

@@ -4,18 +4,11 @@
 import { decode4bppTile } from "./decode-4bpp.js";
 import { decodePalette } from "./decode-palette.js";
 
-export function render4bppImage({ tileData, paletteData, width, height, paletteOffset = 0, paletteSize = null }) {
+export function render4bppImage(tileData, paletteData, width, height) {
     const tileSize = 32;
     const numTiles = tileData.length / tileSize;
     const tilesPerRow = width / 8;
-    let finalPaletteData = paletteData;
-    if (paletteSize !== null) {
-        finalPaletteData = paletteData.slice(
-            paletteOffset,
-            paletteOffset + paletteSize
-        );
-    }
-    const palette = decodePalette(finalPaletteData);
+    const palette = decodePalette(paletteData);
     const tiles = [];
     for (let i = 0; i < numTiles; i++) {
         const start = i * tileSize;
