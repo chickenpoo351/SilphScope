@@ -1,3 +1,6 @@
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
+
 // like electron IPC but worse... kinda :o
 
 import { parentPort } from "worker_threads";

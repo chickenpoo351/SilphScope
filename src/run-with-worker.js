@@ -1,5 +1,7 @@
-import { PoolWorker } from "./pool-worker.js";
+// Copyright (c) 2026 chickenPoo
+// Licensed under the MIT License. See LICENSE file in project root.
 
+import { PoolWorker } from "./pool-worker.js";
 
 export async function runWithWorker(items, concurrency, taskName, rom, config, options, onResult) {
     const sharedRom = new SharedArrayBuffer(rom.byteLength); // actually wasn't too hard :p of course though thats only if I did this right lol
