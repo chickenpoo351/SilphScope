@@ -1,10 +1,156 @@
-import { RomReader } from "./src/rom-reader.js";
-
 // this file is getting messy... or well at least to me :p
 // I wonder if it is possible to make multiple .d.ts files and import them into a main one...
 // I mean apparently .js file imports work so I don't see why that wouldn't...
 // but oh well I already have this going may as well stick with it until I get tired of it
 // and refactor :o
+
+// time to start on low level stuff...
+
+export interface ExtractAsset {
+    offset: number;
+    name: string;
+    size?: number;
+}
+
+/**
+ * Low level function for extracting assets from a ROM with automatic lz77 decompression if needed.
+ * 
+ * @param asset The asset you wish to extract containing the start `offset`, `name`, and optionally the `size` if the asset is not lz77 compressed.
+ * @param rom The ROM you wish to extract from.
+ */
+export function extract(
+    asset: ExtractAsset, 
+    rom: Buffer | Uint8Array
+): ExtractAsset & { 
+    data: Buffer | Uint8Array, 
+    compressed: boolean
+};
+
+/**
+ * Low level function that automatically decompresses lz77 assets
+ * 
+ * @param src the sliced section of the ROM starting at your specified offset.
+ */
+export function lz77Decompress(
+    src: Buffer | Uint8Array
+): Uint8Array
+
+export interface RomMapConfig {
+    tables: Record<string, number>;
+}
+
+/**
+ * Low level utility class for reading data and pointers from a ROM.
+ */
+export class RomReader { // this seems weird and I am unsure if I did this right but eh its probably fine :p
+    /**
+     * Creates a RomReader.
+     * 
+     * @param rom The ROM to read from.
+     * @param mapConfig The ROM config containing a tables object containing the offset of tables.
+     */
+    constructor(
+        rom: Buffer | Uint8Array,
+        mapConfig: RomMapConfig,
+    );
+
+    /**
+     * Reads an unsigned 32-bit little-endian integer from a ROM.
+     * 
+     * @param offset ROM offset to read from.
+     */
+    readU32(offset: number): number;
+
+    /**
+     * Reads a single byte from a ROM.
+     * 
+     * @param offset ROM offset to read from.
+     */
+    readU8(offset: number): number;
+
+    /**
+     * reads a GBA pointer and converts it to a ROM offset.
+     * 
+     * @param offset ROM offset to read from.
+     */
+    readPointer(offset: number): number;
+
+    /**
+     * Gets a table offset from a ROM config.
+     * 
+     * @param name Name of the table to recieve
+     */
+    getTable(name: string): number;
+}
+
+export interface RomConfig extends RomMapConfig {
+    code: string;
+    rev: number;
+    sha1: string;
+}
+
+/**
+ * Low level function that identifies a supported ROM and returns its configuration.
+ * 
+ * Only works on ROMs supported by SilphScope.
+ * 
+ * @param rom The supported ROM you are trying to get a config of.
+ */
+export async function getRomConfig(
+    rom: Buffer | Uint8Array
+): Promise<RomConfig>;
+
+/**
+ * Low level function assembles 4bpp tile and palette data into a RGBA image.
+ * 
+ * @param tileData Buffer or Uint8Array of the extracted tile data from the ROM.
+ * @param paletteData Buffer or Uint8Array of the extracted palette data from the ROM.
+ * @param width The image's width in pixels.
+ * @param height The image's height in pixels.
+ * @returns A Uint8ClampedArray containing the image's RGBA pixel data.
+ */
+export function render4bppImage(
+    tileData: Buffer | Uint8Array, 
+    paletteData: Buffer | Uint8Array, 
+    width: number, 
+    height: number,
+): Uint8ClampedArray;
+
+/**
+ * Decodes a single 4bpp tile into its individual pixel color indices.
+ * 
+ * Each byte of the tile contains two 4-bit pixel values, which are expanded into separate bytes in the returned array.
+ * 
+ * @param tileBytes Buffer or Uint8Array containing the 32 bytes of a single 4bpp tile.
+ * @returns A Uint8Array containing 64 pixel color indices.
+ */
+export function decode4bppTile(
+    tileBytes: Buffer | Uint8Array,
+): Uint8Array;
+
+/**
+ * Decodes a single 1bpp tile into its individual pixel color indices.
+ * 
+ * Each byte of the tile contains eight 1-bit pixel values, which are expanded into separate bytes in the returned array.
+ * 
+ * @param tileBytes Buffer or Uint8Array containing the 8 bytes of a single 1bpp tile.
+ * @returns A Uint8Array containing 64 pixel color indices.
+ */
+export function decode1bppTile(
+    tileBytes: Buffer | Uint8Array,
+): Uint8Array;
+
+/**
+ * Decodes BGR555 palette data into RGBA color values.
+ * 
+ * Each color is stored as a 16-bit value containing 5-bit red, green, and blue channels. The channels are expanded from 5-bit values to 8-bit values in the returned RGBA colors.
+ * 
+ * @param data Buffer or Uint8Array containing the extracted palette data of an asset from the ROM.
+ * @returns An array of RGB colors represented as `[r, g, b]` tuples.
+ */
+export function decodePalette(
+    data: Buffer | Uint8Array
+): [number, number, number][];
 
 export interface RenderedAsset<Meta>  {
     name: string;
