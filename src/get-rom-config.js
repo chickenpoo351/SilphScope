@@ -7,7 +7,7 @@ import { leafgreenRev0 } from "../rom-configs/leafgreenRev0.js";
 import { leafgreenRev1 } from "../rom-configs/leafgreenRev1.js";
 
 async function detectRomInfo(rom) {
-    const hash = crypto.subtle.digest("SHA-1", rom);
+    const hash = await crypto.subtle.digest("SHA-1", rom);
     
     return {
         code: new TextDecoder().decode(rom.slice(0xAC, 0xB0)),
