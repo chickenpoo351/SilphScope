@@ -28,6 +28,15 @@ Welp enough chitchat let's get into how you actually use this tool (or wait... w
     - [renderAllTrainers()](#renderalltrainers)
     - [renderAllMoves()](#renderallmoves)
     - [renderAllBalls()](#renderallballs)
+  - [Low Level Functions](#low-level-functions)
+    - [getRomConfig()](#getromconfig)
+    - [RomReader](#romreader)
+    - [extract()](#extract)
+    - [lz77Decompress()](#lz77decompress)
+    - [decode1bppTile()](#decode1bpptile)
+    - [decode4bppTile()](#decode4bpptile)
+    - [decodePalette()](#decodepalette)
+    - [render4bppTile()](#render4bppimage)
 
 ## Features
 
@@ -245,6 +254,146 @@ await renderAllBalls(rom, {
   renderMasterBallImage: true,
   renderMasterBallParticleImage: true,
 });
+```
+
+### Low Level Functions
+
+Perhaps you don't want any of the high level `renderAllX()` or mid level `renderX()` (which don't exist in documentation as of writing this...) functions or just want to make your own `render()` function. That's exactly what this section is for! Below you can find all current low level functions and a simple explanation as to how to use them for detailed information on these functions view [low-level-api.md](./docs/node/low-level-api.md).
+
+#### getRomConfig()
+
+More than likely you won't have a need for this as this function returns rom configs SilphScope has. If you are however working with the same ROMs and want all table offsets SilphScope understands this could be useful to you.
+
+Example:
+
+```JavaScript
+import { getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+```
+
+You should however probably build your own version of this if you need this functionality
+
+#### RomReader
+
+`RomReader` is a utility class used to help normalize offsets and read sections of a ROM. Currently `RomReader` requires a config that in the case of SilphScope comes from `getRomConfig` however the required config shape can be as simple as:
+
+```JavaScript
+{
+  tables: {
+    myTable: 0x123456;
+  }
+}
+```
+
+Eventually though I plan to export a version of `RomReader` that does not require any config.
+
+`RomReader` also requires a `Buffer` or `Uint8Array` in its constructor.
+
+An example of using `RomReader` can be seen here:
+
+```JavaScript
+import { RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = getRomConfig(rom);
+
+const reader = new RomReader(rom, config);
+const value = reader.readU32(0x123456);
+const pointer = reader.readPointer(0x123456);
+const table = reader.getTable("myTable");
+```
+
+#### extract()
+
+`extract()` is a utility function capable of pulling a section of data out of a ROM. it also handles lz77 compressed assets automatically (with a fallback to extracting any assets that fail being uncompressed as a regular non-lz77 asset).
+
+Example:
+
+```JavaScript
+import { extract } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+
+const asset = {
+  offset: 0x123456,
+  name: "myAsset",
+  size: 32 // technically optional if the asset is lz77 compressed otherwise needed to know where to stop extracting data
+};
+
+const extractedAsset = extract(asset, rom);
+```
+
+#### lz77Decompress()
+
+`lz77Decompress()` is useful if you have a section of your ROM data you know is lz77 compressed as it is capable of decompressing these assets.
+
+Example:
+
+```JavaScript
+import { lz77Decompress } from "silphscope";
+
+const myUncompressedData = lz77Decompress(compressedData) // either Uint8Array or Buffer starting where your compressed data is
+```
+
+#### decode1bppTile()
+
+Useful utility that takes a 1bpp tile and turns that data into its palette indices (which in reality can only be black or transparent...).
+
+Example:
+
+```JavaScript
+import { decode1bppTile } from "silphscope";
+
+const tilePixels = decode1bppTile(tileBytes);
+```
+
+#### decode4bppTile()
+
+essentially the same as `decode1bppTile()` but instead for 4bpp tiles
+
+example:
+
+```JavaScript
+import { decode4bppTile } from "silphscope";
+
+const tilePixels = decode4bppTile(tileBytes);
+```
+
+#### decodePalette()
+
+`decodePalette()` decodes palette data from the GBA's BGR555 color format into regular RGB colors.
+
+Example:
+
+```JavaScript
+import { decodePalette } from "silphscope";
+
+const palette = decodePalette(encodedPalette);
+```
+
+#### render4bppImage()
+
+`render4bppImage()` is a very useful function capable of taking the tile data, palette data, width, and height of an image which then returns raw RGBA pixel data you can put into any image proccessing tool you wish.
+
+Example:
+
+```JavaScript
+import { render4bppImage, extract } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+
+const rawGraphicsData = extract(my4bppData, rom);
+const rawPaletteData = extract(myPalette, rom);
+const width = 32;
+const height = 32;
+
+const image = render4bppImage(rawGraphicsData.data, rawPaletteData.data, width, height);
 ```
 
 ~~(you actually read all of this? well anyway the readme isn't done yet... so this is weird... want a virtual cookie?)~~
