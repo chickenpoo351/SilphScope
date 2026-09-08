@@ -36,7 +36,7 @@ Welp enough chitchat let's get into how you actually use this tool (or wait... w
     - [decode1bppTile()](#decode1bpptile)
     - [decode4bppTile()](#decode4bpptile)
     - [decodePalette()](#decodepalette)
-    - [render4bppTile()](#render4bppimage)
+    - [render4bppImage()](#render4bppimage)
 
 ## Features
 
