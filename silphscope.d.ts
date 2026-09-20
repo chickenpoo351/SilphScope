@@ -96,7 +96,7 @@ export interface RomConfig extends RomMapConfig {
  * 
  * @param rom The supported ROM you are trying to get a config of.
  */
-export async function getRomConfig(
+export function getRomConfig(
     rom: Buffer | Uint8Array
 ): Promise<RomConfig>;
 
