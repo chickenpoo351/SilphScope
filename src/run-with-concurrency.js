@@ -1,15 +1,37 @@
 // Copyright (c) 2026 chickenPoo
 // Licensed under the MIT License. See LICENSE file in project root.
 
-import { mapLimit } from "./map-limit.js";
+import { RomReader } from "./rom-reader";
+import { functions } from "./run-task";
 
-export async function runWithConcurrency(items, concurrency, callback) { // this seems simple... but I have no idea if this will do what I am thinking it will do... (don't be a dum dum like me who decided to code kids!)
-    if (concurrency <= 1) {
-        for (const item of items) {
-            await callback(item);
-        }
-
-        return;
+export async function runWithConcurrency(items, concurrency, taskName, rom, config, options, onResult) { // I hope this works... in theory it should and it seems quite simple... it's just that I am garbage at async thingies...
+    if (!functions[task.taskName] ||
+        !functions[task.taskName].func ||
+        !functions[task.taskName].data
+    ) {
+        throw new Error(`Unknown function: ${taskName}`);
     }
-    await mapLimit(items, concurrency, callback);
+
+    const func = functions[taskName].func;
+    const jsonData = functions[taskName].data;
+    const reader = new RomReader(rom, config);
+    let index = 0;
+
+    async function worker() {
+        while (true) {
+            const current = index++;
+            if (current >= items.length) return;
+            const objectName = items[current];
+            const result = await func(objectName, ...jsonData, reader, rom, {
+                ...options
+            });
+            await onResult(result, objectName);
+        }
+    }
+    await Promise.all(
+        Array.from(
+            { length: Math.min(concurrency, items.length) },
+            worker
+        )
+    );
 }

@@ -3,16 +3,10 @@
 
 import fs from "fs";
 import os from "os";
-import { runWithConcurrency } from "../run-with-concurrency.js";
+import { runTask } from "../run-task.js";
 import { validateRenderOptions } from "../validate-render-options.js";
-import { renderMon } from "./mons/render-mons.js";
-import { renderIcon } from "./icons/render-icons.js";
-import { renderTrainer } from "./trainers/render-trainers.js";
 import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
-import { runWithWorker } from "../run-with-worker.js";
-import { renderMove } from "./moves/render-moves.js";
-import { renderBall } from "./balls/render-balls.js";
 import mons from "../../mon-data/monData.json" with { type: "json" };
 import icons from "../../item-data/itemData.json" with { type: "json" };
 import trainers from "../../trainer-data/trainerData.json" with { type: "json" };
@@ -28,6 +22,9 @@ import balls from "../../ball-data/ballData.json" with { type: "json" };
 // then if you set it to a negative value it would render well concurrently on a single thread
 // where each negative integer allows one more concurrent render function to run
 // then finally if you set concurrency to 0 it will just render sequentially
+
+// update!:
+// working on it! just have to implement synchronous execution I think... thats if my stuff works...
 
 function getDefaultConcurrency() {
     return Math.max(1, os.availableParallelism() - 1);
@@ -65,7 +62,7 @@ export async function renderAllMons(rom, options = {}) {
     const config = await getRomConfig(rom);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
-    await runWithWorker(Object.keys(providedMons), concurrency, "renderMon", rom, config, { // so erm hopefully this works?
+    await runTask(Object.keys(providedMons), concurrency, "renderMon", rom, config, {
         side: ["front", "back"],
         variant: ["normal", "shiny"],
         icon,
@@ -132,7 +129,7 @@ export async function renderAllIcons(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithWorker(Object.keys(providedIcons), concurrency, "renderIcon", rom, config, {
+    await runTask(Object.keys(providedIcons), concurrency, "renderIcon", rom, config, {
         pngFilterType,
         pngCompressionLevel,
         returnFileBuffer,
@@ -197,7 +194,7 @@ export async function renderAllTrainers(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithWorker(Object.keys(providedTrainers), concurrency, "renderTrainer", rom, config, {
+    await runTask(Object.keys(providedTrainers), concurrency, "renderTrainer", rom, config, {
         trainerBackPics,
         pngFilterType,
         pngCompressionLevel,
@@ -264,7 +261,7 @@ export async function renderAllMoves(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithWorker(Object.keys(providedMoves), concurrency, "renderMove", rom, config, {
+    await runTask(Object.keys(providedMoves), concurrency, "renderMove", rom, config, {
         pngFilterType,
         pngCompressionLevel,
         returnFileBuffer,
@@ -333,7 +330,7 @@ export async function renderAllBalls(rom, options = {}) {
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
-    await runWithWorker(Object.keys(providedBalls), concurrency, "renderBall", rom, config, {
+    await runTask(Object.keys(providedBalls), concurrency, "renderBall", rom, config, {
         pngFilterType,
         pngCompressionLevel,
         returnFileBuffer,
@@ -373,7 +370,7 @@ export async function renderAllGraphics(rom, options = {}) { // eventually I wil
     }
 
     const {
-        concurrency = 4,
+        concurrency = getDefaultConcurrency(),
         pngFilterType = 0,
         pngCompressionLevel = 4,
         verboseLogs = true,
