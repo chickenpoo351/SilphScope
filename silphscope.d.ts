@@ -261,10 +261,18 @@ export interface RenderAllGenericOptions extends RenderGenericOptions {
      *
      * Increase with caution. Values that are too high may reduce
      * performance depending on available CPU and disk resources.
+     * 
+     * Accepts any integer (negative and positive).
+     * 
+     * Where positive numbers relate to concurrent parallelism via workers so setting `concurrency` 
+     * to `5` would result in using `5` workers and rendering on multiple threads.
+     * 
+     * Meanwhile negative values allow you to render concurrently on a single thread thus meaning
+     * setting `concurrency` to `-4` would result in `4` concurrent tasks running on the main thread at once.
+     * 
+     * Setting to `0` allows you to render fully sequentially without any concurrency
      *
-     * Set to `1` to render sequentially.
-     *
-     * @default 4
+     * @default Math.max(1, os.availableParallelism() -1)
      */
     concurrency?: number;
 }

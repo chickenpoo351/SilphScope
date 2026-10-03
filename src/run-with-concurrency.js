@@ -5,9 +5,9 @@ import { RomReader } from "./rom-reader";
 import { functions } from "./run-task";
 
 export async function runWithConcurrency(items, concurrency, taskName, rom, config, options, onResult) { // I hope this works... in theory it should and it seems quite simple... it's just that I am garbage at async thingies...
-    if (!functions[task.taskName] ||
-        !functions[task.taskName].func ||
-        !functions[task.taskName].data
+    if (!functions[taskName] ||
+        !functions[taskName].func ||
+        !functions[taskName].data
     ) {
         throw new Error(`Unknown function: ${taskName}`);
     }

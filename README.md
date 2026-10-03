@@ -146,7 +146,7 @@ Each node based `renderAllX()` function has a few shared options contained withi
 
 ```JavaScript
 {
-  concurrency: 4,
+  concurrency: Math.max(1, os.availableParallelism() - 1),
   pngFilterType: 0,
   pngCompressionLevel: 4,
   verboseLogs: true,
@@ -299,7 +299,7 @@ import { RomReader, getRomConfig } from "silphscope";
 import fs from "fs";
 
 const rom = fs.readFileSync("pokefirered.gba");
-const config = getRomConfig(rom);
+const config = await getRomConfig(rom);
 
 const reader = new RomReader(rom, config);
 const value = reader.readU32(0x123456);
