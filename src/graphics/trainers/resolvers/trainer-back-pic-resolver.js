@@ -1,6 +1,6 @@
 export function resolveTrainerBackPic(trainer, reader, trainerName) {
     const table = reader.getTable("trainerBackPicTable");
-    const entryOffset = table + trainer.index * 8;
+    const entryOffset = table + trainer.back.index * 8;
     const ptr = reader.readPointer(entryOffset);
     let size;
     if (trainerName === "RED" || trainerName === "LEAF") {
