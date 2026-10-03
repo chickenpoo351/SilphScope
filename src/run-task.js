@@ -14,6 +14,7 @@ import trainers from "../trainer-data/trainerData.json" with { type: "json" };
 import trainersBack from "../trainer-data/trainerBackData.json" with { type: "json" };
 import moves from "../move-data/moveData.json" with { type: "json" };
 import balls from "../ball-data/ballData.json" with { type: "json" };
+import { RomReader } from "./rom-reader.js";
 
 export const functions = {
     renderMon: {
@@ -40,12 +41,23 @@ export const functions = {
 
 export async function runTask(items, concurrency, taskName, rom, config, options, onResult) {
     if (concurrency < 0) {
-        await runWithConcurrency(items, concurrency, taskName, rom, config, options, onResult);
+        await runWithConcurrency(items, Math.abs(concurrency), taskName, rom, config, options, onResult);
         return;
     }
     if (concurrency > 0) {
         await runWithWorker(items, concurrency, taskName, rom, config, options, onResult);
         return;
     }
-    // later you know synchronous execution logic here :p
+    if (concurrency === 0) { // sure we could get rid of this if statement and let it be a fall through but I like it this way
+        const func = functions[taskName].func;
+        const jsonData = functions[taskName].data;
+        const reader = new RomReader(rom, config);
+        for (const item of items) {
+            const result = await func(item, ...jsonData, reader, rom, {
+                ...options
+            });
+            await onResult(result, item);
+        }
+        return;
+    }
 }

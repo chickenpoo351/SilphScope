@@ -10,19 +10,19 @@ export function validateRenderOptions(functionName, options = {}) {
         compressionLevel = null,
     } = options;
 
-    if (concurrency) {
-        if (!Number.isInteger(concurrency) || concurrency < 1) {
-            throw new TypeError(`${functionName}(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (recieved ${concurrency})`);
+    if (concurrency !== null && concurrency !== undefined) {
+        if (!Number.isInteger(concurrency)) {
+            throw new TypeError(`${functionName}(rom, options = { concurrency, ... }) requires concurrency to be a integer greater than 0 (received ${concurrency})`);
         }
     }
-    if (filterType) {
+    if (filterType !== null && filterType !== undefined) {
         if (!isValidFilterType(filterType)) {
-            throw new TypeError(`${functionName}renderAllMons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${pngFilterType})`)
+            throw new TypeError(`${functionName}renderAllMons(rom, options = { pngFilterType, ... }) requires pngFilterType to be a integer between -1 and 4 (received ${filterType})`)
         }
     }
-    if (compressionLevel) {
+    if (compressionLevel !== null && compressionLevel !== undefined) {
         if (!Number.isInteger(compressionLevel) || compressionLevel < 0 || compressionLevel > 9) {
-            throw new TypeError(`${functionName}renderAllMons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${pngCompressionLevel})`)
+            throw new TypeError(`${functionName}renderAllMons(rom, options = { pngCompressionLevel, ... }) requires pngCompressionLevel to be a integer between 0 and 9 (received ${compressionLevel})`)
         }
     }
 }
