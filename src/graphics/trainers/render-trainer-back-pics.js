@@ -30,8 +30,8 @@ export async function renderTrainerBackPic(trainerName, trainers, reader, rom, o
     let fullFileCount = 0;
     const results = returnFileBuffer? [] : null;
     const trainer = trainers[trainerName];
-    if (!trainer) {
-        throw new Error(`Missing trainer entry for ${trainerName}`);
+    if (!trainer || !trainer.back) {
+        throw new Error(`Missing back trainer entry for ${trainerName}`);
     }
 
     const trainerBackPic = resolveTrainerBackPic(trainer, reader, trainerName);

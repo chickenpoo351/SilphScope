@@ -16,7 +16,7 @@ const streamToBuffer = (stream) => new Promise((resolve, reject) => {
     stream.on("error", reject);
 });
 
-export async function renderTrainer(trainerName, trainers, backTrainers, reader, rom, options = {}) {
+export async function renderTrainer(trainerName, trainers, reader, rom, options = {}) {
     const {
         trainerBackPics = false,
         pngFilterType = null,
@@ -29,17 +29,14 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
     }
 
     let fullFileCount = 0;
-    let results = returnFileBuffer? [] : null;
+    let results = returnFileBuffer ? [] : null;
     const trainer = trainers[trainerName];
     if (!trainer) {
         throw new Error(`Missing Trainer: ${trainerName}`);
     }
     if (trainerBackPics) {
-        const backTrainerName = backTrainers[trainerName]
-            ? trainerName
-            : false;
-        if (backTrainerName) {
-            const trainerBackPicData = await renderTrainerBackPic(backTrainerName, backTrainers, reader, rom, {
+        if (trainer.back) {
+            const trainerBackPicData = await renderTrainerBackPic(trainerName, trainers, reader, rom, {
                 pngFilterType,
                 pngCompressionLevel,
                 returnFileBuffer,
@@ -50,70 +47,51 @@ export async function renderTrainer(trainerName, trainers, backTrainers, reader,
                 results.push(...trainerBackPicData.results);
             }
         }
-        else if (backTrainerName === false && trainerName === "PAINTER") {
-            const trainerBackPicData = await renderTrainerBackPic("OLDMAN", backTrainers, reader, rom, { 
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            fullFileCount += trainerBackPicData.fullFileCount;
-            if (returnFileBuffer) {
-                results.push(...trainerBackPicData.results);
-            }
-            const trainerBackPicData2 = await renderTrainerBackPic("POKEDUDE", backTrainers, reader, rom, { 
-                pngFilterType,
-                pngCompressionLevel,
-                returnFileBuffer,
-                outputDir,
-            });
-            fullFileCount += trainerBackPicData2.fullFileCount;
-            if (returnFileBuffer) {
-                results.push(...trainerBackPicData2.results);
-            }
+    }
+
+    if (trainer.index !== undefined) {
+        const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
+        const trainerPic = resolveTrainerFrontPic(trainer, reader, trainerName);
+
+        if (!trainerPal || !trainerPic) {
+            throw new Error(`Missing assets for: ${trainerName}`);
         }
-    }
-    const trainerPal = resolveTrainerFrontPicPal(trainer, reader, trainerName);
-    const trainerPic = resolveTrainerFrontPic(trainer, reader, trainerName);
 
-    if (!trainerPal || !trainerPic) {
-        throw new Error(`Missing assets for: ${trainerName}`);
-    }
+        const trainerImageData = extract(trainerPic, rom);
+        const rawTrainerPalData = extract(trainerPal, rom);
+        const width = 64;
+        const height = 64;
 
-    const trainerImageData = extract(trainerPic, rom);
-    const rawTrainerPalData = extract(trainerPal, rom);
-    const width = 64;
-    const height = 64;
+        const image = render4bppImage(trainerImageData.data, rawTrainerPalData.data, width, height);
 
-    const image = render4bppImage(trainerImageData.data, rawTrainerPalData.data, width, height);
-
-    const png = new PNG({ width, height });
-    png.data = image;
-    const pngBuffer = PNG.sync.write(png, { 
-        filterType: pngFilterType,
-        deflateLevel: pngCompressionLevel, 
-    });
-
-    if (returnFileBuffer) {
-        results.push({
-            name: `${trainerName}`,
-            id: `${trainerName}-front-sprite`,
-            category: "trainer",
-            asset: "sprite",
-            path: `out/trainers/${trainerName}/front`,
-            buffer: pngBuffer,
-            meta: {
-                side: "front" // now some of you may be wondering why I added this... well it's because eventually I want you to be able to make a master image of the back sprites so we need to be able to differentiate the buffers here... anyway that was a long explanation :p
-            },
+        const png = new PNG({ width, height });
+        png.data = image;
+        const pngBuffer = PNG.sync.write(png, {
+            filterType: pngFilterType,
+            deflateLevel: pngCompressionLevel,
         });
-    }
 
-    if (outputDir) {
-        const dir = `${outputDir}/${trainerName}`;
-        await fs.promises.mkdir(dir, { recursive: true });
-        const fileName = `${dir}/trainer_front.png`;
-        await fs.promises.writeFile(fileName, pngBuffer);
-        fullFileCount += 1;
+        if (returnFileBuffer) {
+            results.push({
+                name: `${trainerName}`,
+                id: `${trainerName}-front-sprite`,
+                category: "trainer",
+                asset: "sprite",
+                path: `out/trainers/${trainerName}/front`,
+                buffer: pngBuffer,
+                meta: {
+                    side: "front" // now some of you may be wondering why I added this... well it's because eventually I want you to be able to make a master image of the back sprites so we need to be able to differentiate the buffers here... anyway that was a long explanation :p
+                },
+            });
+        }
+
+        if (outputDir) {
+            const dir = `${outputDir}/${trainerName}`;
+            await fs.promises.mkdir(dir, { recursive: true });
+            const fileName = `${dir}/trainer_front.png`;
+            await fs.promises.writeFile(fileName, pngBuffer);
+            fullFileCount += 1;
+        }
     }
 
     return {

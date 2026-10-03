@@ -11,7 +11,6 @@ import { renderBall } from "./graphics/balls/render-balls.js";
 import mons from "../mon-data/monData.json" with { type: "json" };
 import icons from "../item-data/itemData.json" with { type: "json" };
 import trainers from "../trainer-data/trainerData.json" with { type: "json" };
-import trainersBack from "../trainer-data/trainerBackData.json" with { type: "json" };
 import moves from "../move-data/moveData.json" with { type: "json" };
 import balls from "../ball-data/ballData.json" with { type: "json" };
 import { RomReader } from "./rom-reader.js";
@@ -27,7 +26,7 @@ export const functions = {
     },
     renderTrainer: {
         func: renderTrainer,
-        data: [ trainers, trainersBack ],
+        data: [ trainers ],
     },
     renderMove: {
         func: renderMove,
