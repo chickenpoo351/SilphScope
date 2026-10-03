@@ -5,7 +5,6 @@ import fs from "fs";
 import os from "os";
 import { runTask } from "../run-task.js";
 import { validateRenderOptions } from "../validate-render-options.js";
-import { RomReader } from "../rom-reader.js";
 import { getRomConfig } from "../get-rom-config.js";
 import mons from "../../mon-data/monData.json" with { type: "json" };
 import icons from "../../item-data/itemData.json" with { type: "json" };
@@ -245,7 +244,6 @@ export async function renderAllMoves(rom, options = {}) {
     }
 
     const config = await getRomConfig(rom);
-    const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
@@ -314,7 +312,6 @@ export async function renderAllBalls(rom, options = {}) {
     }
 
     const config = await getRomConfig(rom);
-    const reader = new RomReader(rom, config);
     let totalFileCount = 0;
     const finalResults = returnFileBuffer? [] : null;
 
