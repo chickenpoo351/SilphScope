@@ -1086,7 +1086,7 @@ export interface RenderAllGraphicsOptions extends Omit<RenderAllGenericOptions, 
      *
      * @default "./out/balls"
      */
-    outputBallDir?: string;
+    outputBallDir?: string | null;
 }
 
 export type RenderAllGraphicsBufferResult =
