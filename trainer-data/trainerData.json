@@ -168,10 +168,16 @@
     "index": 55
   },
   "RS_BRENDAN_1": {
-    "index": 56
+    "index": 56,
+    "back": {
+      "index": 2
+    }
   },
   "RS_MAY_1": {
-    "index": 57
+    "index": 57,
+    "back": {
+      "index": 3
+    }
   },
   "RS_POKEMON_BREEDER_M": {
     "index": 58
@@ -399,16 +405,28 @@
     "index": 132
   },
   "RS_BRENDAN_2": {
-    "index": 133
+    "index": 133,
+    "back": {
+      "index": 2
+    }
   },
   "RS_MAY_2": {
-    "index": 134
+    "index": 134,
+    "back": {
+      "index": 3
+    }
   },
   "RED": {
-    "index": 135
+    "index": 135,
+    "back": {
+      "index": 0
+    }
   },
   "LEAF": {
-    "index": 136
+    "index": 136,
+    "back": {
+      "index": 1
+    }
   },
   "ROCKET_GRUNT_F": {
     "index": 137
@@ -442,5 +460,15 @@
   },
   "PAINTER": {
     "index": 147
+  },
+  "POKEDUDE": {
+    "back": {
+      "index": 4
+    }
+  },
+  "OLDMAN": {
+    "back": {
+      "index": 5
+    }
   }
 }
