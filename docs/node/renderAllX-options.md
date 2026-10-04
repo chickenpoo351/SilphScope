@@ -14,7 +14,13 @@ Its default value is set to the amount of cores your CPU has minus one with a mi
 
 (so if you are on a single core CPU you will default to spawning one worker core but if you are on a eight core cpu you will default to spawning seven)
 
-The option takes any positive number
+The option takes any integer
+
+setting it to any integer higher than or equal to 1 will make the function execute in concurrent parallelism
+
+Meanwhile setting it to any value lower than 0 (so negative integers) will make the function execute in single threaded concurrency where each negative integer will allow one more concurrent task to be in flight (as in setting this to -12 will allow 12 concurrent tasks to execute)
+
+setting to 0 will make the function execute synchronously
 
 ### pngFilterType
 
