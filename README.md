@@ -28,6 +28,17 @@ Welp enough chitchat let's get into how you actually use this tool (or wait... w
     - [renderAllTrainers()](#renderalltrainers)
     - [renderAllMoves()](#renderallmoves)
     - [renderAllBalls()](#renderallballs)
+  - [renderX() Functions](#renderx-functions)
+    - [Function Signature](#function-signature)
+    - [renderMon()](#rendermon)
+    - [renderMonIcon()](#rendermonicon)
+    - [renderMonFoot()](#rendermonfoot)
+    - [renderIcon()](#rendericon)
+    - [renderTrainer()](#rendertrainer)
+    - [renderTrainerBackPic()](#rendertrainerbackpic)
+    - [renderMove()](#rendermove)
+    - [renderBall()](#renderball)
+    - [renderBallParticle()](#renderballparticle)
   - [Low Level Functions](#low-level-functions)
     - [getRomConfig()](#getromconfig)
     - [RomReader](#romreader)
@@ -256,9 +267,201 @@ await renderAllBalls(rom, {
 });
 ```
 
+### renderX() Functions
+
+This section contains the Node based mid level section of the API and allows you to essentially render a single graphic from any category (and subcategory if applicable) or just create your own `renderAllX()` function by wrapping any `renderX()` functions you need
+
+To find the more in depth documentation please view the docs/node/ folder contained within the repo for reference perhaps you wish to view more information on the `renderMon()` function you would go to:
+
+`docs/node/renderMon.md` or click [here](./docs/node/renderMon.md).
+
+#### Function Signature
+
+All `renderX()` functions have roughly the same signature that being:
+
+```JavaScript
+renderX(objectName, jsonData, reader, rom, options = {});
+```
+
+Where `objectName` is the key of an item contained within the `jsonData` argument so for say the `monData` JSON if you wanted to render squirtle its key in the JSON would be `"SQUIRTLE"` it is recommended to view the JSON beforehand to become familiar with what assets are available and their keys
+
+Speaking of which `jsonData` is simply a JSON file containing the key of what you are rendering and at the very least its index within the pointer table (there are exceptions to this but they are not needed to be known if you only want to render things)
+
+`reader` is simply the `RomReader` utility class needed to resolve the pointers of what you are rendering if you are unsure how to create one view the [RomReader Section](#romreader) or the [low-level-api.md](./docs/node/low-level-api.md) file and the relevant `RomReader` section
+
+`rom` is quite simply a `Buffer` or `Uint8Array` of your ROM which is used to extract the graphics in the first place :p
+
+`options` is a optional object that can take function specific options however though there are options each function will always have those are:
+
+```JavaScript
+{
+  pngFilterType = 0,
+  pngCompressionLevel = 4,
+  returnFileBuffer = false,
+  outputDir = "./out",
+}
+```
+
+The listed values are also the defaults if you leave the options untouched any other function specific functions will be shown in the function example
+
+#### renderMon()
+
+This function allows you to render a single mon and all of its related battle graphics here is the function example:
+
+```JavaScript
+import { renderMon, monData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderMon("DONPHAN", monData, reader, rom, {
+  side: [ "front", "back" ],
+  variant: [ "shiny", "normal" ],
+  icon: true,
+  footprint: true,
+});
+```
+
+Note: `side` and `variant` are special in that they can accept an array as their value however that array can only contain the strings `"front" / "back"` and `"shiny" / "normal"` respectively you can also however not use an array and just pass the string itself so if you wish to only render the front shiny image `side` would have `"front"` as its value and `variant` would have `"shiny"` as its value
+
+#### renderMonIcon()
+
+Helper function to `renderMon()` specifically responsible for rendering the mon icons that appear in your party here is the example use:
+
+```JavaScript
+import { renderMonIcon, monData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderMonIcon("SPOINK", monData, reader, rom);
+```
+
+#### renderMonFoot()
+
+Secondary helper function for `renderMon()` used simply to render a mon's footprint which is used in its dex entry here is an example:
+
+```JavaScript
+import { renderMonFoot, monData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderMonFoot("DIGLETT", monData, reader, rom);
+```
+
+#### renderIcon()
+
+Simple function used to render a item icon.
+
+Example:
+
+```JavaScript
+import { renderIcon, itemData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderIcon("COIN_CASE", itemData, reader, rom);
+```
+
+#### renderTrainer()
+
+`renderTrainer()` is a function used to render a trainer's battle graphics which include their front graphics and if applicable their back graphics (or in some cases only their back graphics...) here is an example:
+
+```JavaScript
+import { renderTrainer, trainerData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderTrainer("RUNNING_TRIATHLETE_F", trainerData, reader, rom, {
+  trainerBackPics: true, // note: in this example this does nothing as this trainer does not have a back pic
+});
+```
+
+#### renderTrainerBackPic()
+
+Helper function for `renderTrainer()` to render the few trainers that have a back pic graphic example code:
+
+```JavaScript
+import { renderTrainerBackPic, trainerData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderTrainerBackPic("RS_BRENDAN_1", trainerData, reader, rom);
+```
+
+#### renderMove()
+
+Function that renders a battle anim graphic and automatically cuts it into individual frames usage example:
+
+```JavaScript
+import { renderMove, moveData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderMove("WARM_ROCK", moveData, reader, rom, {
+  renderMasterImage: true,
+  sortUnused: true,
+});
+```
+
+#### renderBall()
+
+`renderBall()` is responsible for rendering the battle graphics of balls in game as well as their particles here is an example:
+
+```JavaScript
+import { renderBall, ballData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderBall("LUXURY", ballData, reader, rom, {
+  ballParticles: true,
+  renderMasterBallImage: true,
+  renderMasterBallParticleImage: true,
+});
+```
+
+#### renderBallParticle()
+
+This function is a helper function for `renderBall()` used to render ball particles here is an example:
+
+```JavaScript
+import { renderBallParticle, ballData, RomReader, getRomConfig } from "silphscope";
+import fs from "fs";
+
+const rom = fs.readFileSync("pokefirered.gba");
+const config = await getRomConfig(rom);
+const reader = new RomReader(rom, config);
+
+await renderBallParticle("TIMER", ballData, reader, rom, {
+  renderMasterBallParticleImage: true,
+});
+```
+
 ### Low Level Functions
 
-Perhaps you don't want any of the high level `renderAllX()` or mid level `renderX()` (which don't exist in documentation as of writing this...) functions or just want to make your own `render()` function. That's exactly what this section is for! Below you can find all current low level functions and a simple explanation as to how to use them for detailed information on these functions view [low-level-api.md](./docs/node/low-level-api.md).
+Perhaps you don't want any of the high level `renderAllX()` or mid level `renderX()` functions or just want to make your own `render()` function. That's exactly what this section is for! Below you can find all current low level functions and a simple explanation as to how to use them for detailed information on these functions view [low-level-api.md](./docs/node/low-level-api.md).
 
 #### getRomConfig()
 
