@@ -590,11 +590,15 @@ export interface RenderTrainerBackPicOptions extends RenderGenericOptions {
 
 }
 
-export type TrainerData =
-    Record<string, ObjectDataEntry>;
+export interface TrainerDataEntry {
+    index?: number;
+    back?: {
+        index: number;
+    }
+}
 
-export type TrainerBackData = 
-    Record<string, ObjectDataEntry>;
+export type TrainerData =
+    Record<string, TrainerDataEntry>;
 
 export interface TrainerFrameMeta {
     frame:
@@ -649,7 +653,6 @@ export function renderAllTrainers(
  * 
  * @param trainerName Name of the trainer to render.
  * @param trainers Mapping of trainers to their index values.
- * @param backtrainers Mapping of trainers back graphics to their index values.
  * @param reader RomReader used for pointer resolution.
  * @param rom The Firered/Leafgreen ROM file as a Buffer or Uint8Array.
  * @param options Optional configuration for rendering behaviour and other options.
@@ -657,7 +660,6 @@ export function renderAllTrainers(
 export function renderTrainer(
     trainerName: string,
     trainers: TrainerData,
-    backTrainers: TrainerBackData,
     reader: RomReader,
     rom: RomData,
     options?: RenderTrainerOptions & {
@@ -668,7 +670,6 @@ export function renderTrainer(
 export function renderTrainer(
     trainerName: string,
     trainers: TrainerData,
-    backTrainers: TrainerBackData,
     reader: RomReader,
     rom: RomData,
     options?: RenderTrainerOptions
@@ -685,7 +686,7 @@ export function renderTrainer(
  */
 export function renderTrainerBackPic(
     trainerName: string,
-    trainers: TrainerBackData,
+    trainers: TrainerData,
     reader: RomReader,
     rom: RomData,
     options?: RenderTrainerBackPicOptions & {
@@ -695,7 +696,7 @@ export function renderTrainerBackPic(
 
 export function renderTrainerBackPic(
     trainerName: string,
-    trainers: TrainerBackData,
+    trainers: TrainerData,
     reader: RomReader,
     rom: RomData,
     options?: RenderTrainerBackPicOptions
